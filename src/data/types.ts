@@ -12,6 +12,7 @@ export type Entry = {
   masculine?: string;
   neuter?: string;
   reading?: string;
+  sentenceReading?: string;
   note?: string;
 };
 

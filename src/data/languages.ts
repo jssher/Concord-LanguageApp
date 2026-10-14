@@ -45,6 +45,8 @@ export const LANGUAGES: LangMeta[] = [
   { id: "sq", name: "Albanian", native: "Shqip", dir: "ltr", speech: "sq-AL", family: "Albanian", script: "Latin", tip: "The article is a suffix on the noun." },
   { id: "eu", name: "Basque", native: "Euskara", dir: "ltr", speech: "eu-ES", family: "Basque", script: "Latin", tip: "Standard Basque. The article is a suffix, -a." },
   { id: "el", name: "Greek", native: "Ελληνικά", dir: "ltr", speech: "el-GR", family: "Hellenic", script: "Greek", tip: "The article changes with gender, number, and case. Stress is written." },
+  { id: "grc", name: "Ancient Greek", native: "Ἀρχαία Ἑλληνική", dir: "ltr", speech: "el-GR", voiceApprox: true, family: "Hellenic", script: "Greek", font: `"Noto Sans Greek", ${SANS}`, tip: "Attic, the old school form, with the old accent marks. The card shows the nominative or the present infinitive. Speech uses a modern Greek voice." },
+  { id: "egy", name: "Egyptian", native: "r n Kmt", dir: "ltr", speech: "en-US", voiceApprox: true, family: "Egyptian", script: "Hieroglyphs", font: `"Noto Sans Egyptian Hieroglyphs", ${SANS}`, tip: "Middle Egyptian, the classical stage. The signs are the word. The line under them is how Egyptologists transliterate it. Egyptian Arabic stays on the Arabic card." },
   { id: "tr", name: "Turkish", native: "Türkçe", dir: "ltr", speech: "tr-TR", family: "Turkic", script: "Latin", tip: "No gender. Endings stack on a stem that stays recognizable." },
 
   { id: "zh", name: "Chinese", native: "中文", dir: "ltr", speech: "zh-CN", family: "Sinitic", script: "Han", font: `"Noto Sans SC", ${SANS}`, tip: "Mandarin, simplified characters. The reading shows the tones." },
@@ -91,6 +93,7 @@ export const LANGUAGES: LangMeta[] = [
   { id: "isv", name: "Interslavic", native: "Medžuslovjansky", dir: "ltr", speech: "hr-HR", voiceApprox: true, family: "Constructed", script: "Latin", font: `"Noto Sans Glagolitic", ${SANS}`, tip: "One card shows the same sentence in Latin, Cyrillic, and Glagolitic." },
   { id: "tok", name: "Toki Pona", native: "toki pona", dir: "ltr", speech: "es-ES", voiceApprox: true, family: "Constructed", script: "Latin", tip: "About 120 words, and compounds do the rest. moku is both eat and drink." },
   { id: "aur", name: "Aurali", native: "Aurali", dir: "ltr", speech: "es-ES", voiceApprox: true, family: "Constructed", script: "Latin", tip: "An original language for this course. The article is na. sa means “is”. Adjectives follow the noun, and the plural is -n." },
+  { id: "sig", name: "Signal", native: "8192", dir: "ltr", speech: "en-US", voiceApprox: true, family: "Machine", script: "Signal", font: `"Signal 8192", ${SANS}`, tip: "An original 8,192-sign script. The Accelerando font is not licensed to ship, so these shapes are new. Each sign holds 13 bits. The speaker plays a soft figure a machine can turn back into the text." },
 ];
 
 export const LANG_BY_ID = new Map(LANGUAGES.map((l) => [l.id, l]));

@@ -1,0 +1,24 @@
+Stroke outlines in this folder are from Make Me a Hanzi
+(https://github.com/skishore/makemeahanzi), traced from the Arphic
+PL KaitiM GB and AR PL UKai fonts.
+
+Copyright (C) 1999 Arphic Technology Co., Ltd.
+Copyright (C) 2016 Shaunak Kishore
+
+You can redistribute and use these outlines, including in a commercial
+product, under the Arphic Public License. Keep this notice with the data.
+A copy of the license follows the text published by Arphic Technology:
+
+  Copyright (C) 1999 Arphic Technology Co., Ltd.
+  11Fl. No.168, Yung Chi Rd., Taipei, 110 Taiwan
+  All rights reserved except as specified below.
+
+  Everyone is permitted to copy and distribute verbatim copies of this
+  license document, but changing it is not allowed.
+
+The license grants the right to use, copy, modify, and distribute the
+font data, including for sale, provided this notice stays with the data
+and modified outlines remain under the same license.
+
+The stroke animation in Concord is separate and original. It is not
+part of the Arphic data and does not add a credit requirement of its own.

@@ -7,12 +7,13 @@ import { usePack } from "@/data/packs";
 import { FAMILIES, LANG_BY_ID, LANGUAGES } from "@/data/languages";
 import { BATCHES } from "@/data/syllabus";
 import { Plate } from "@/components/concord/plate";
-import { StrokeOrder, mandarinChar } from "@/components/concord/strokes";
+import { StrokeOrder, hanChars } from "@/components/concord/strokes";
 import { Flag } from "@/components/concord/flag";
 import { Shell } from "@/components/concord/shell";
 import { batchLabel, cardKey, genderLabel, useConcord, type Fix } from "@/lib/concord-store";
 import { mergeEntry } from "@/lib/entry";
-import { speak, stopSpeech, warmVoices } from "@/lib/speech";
+import { speak, stopSpeech } from "@/lib/speech";
+import { askCard, type CardCheck } from "@/lib/ask-card";
 import { noteReview } from "@/lib/league/client";
 import type { Entry } from "@/data/types";
 
@@ -27,7 +28,7 @@ const LEVEL_CHIPS: { id: CourseLevel; label: string }[] = [
 ];
 
 function hasLine(item: CourseItem, lang: string, fixes: Record<string, Fix>): boolean {
-  const entry = mergeEntry(getBaseEntry(lang, item.id, item.en), fixes[cardKey(lang, item.id)]);
+  const entry = mergeEntry(getBaseEntry(lang, item.id, item.en, item.sentence), fixes[cardKey(lang, item.id)]);
   return Boolean(entry?.word && entry.sentence);
 }
 
@@ -53,7 +54,6 @@ function StudyPage() {
   const outline = useOutline();
   const [parallelOnly, setParallelOnly] = useState(true);
   const [later, setLater] = useState<string[]>([]);
-  const [editing, setEditing] = useState(false);
   const [status, setStatus] = useState("");
   const [query, setQuery] = useState("");
   const [picking, setPicking] = useState(false);
@@ -61,7 +61,6 @@ function StudyPage() {
 
   useEffect(() => {
     normalize();
-    warmVoices();
     return () => stopSpeech();
   }, [normalize]);
 
@@ -109,7 +108,6 @@ function StudyPage() {
     const i = Math.max(0, deck.findIndex((item) => item.id === (concept?.id ?? conceptId)));
     const next = deck[(i + step + deck.length) % deck.length];
     setConceptId(next.id);
-    setEditing(false);
     setStatus("");
   }
 
@@ -118,7 +116,6 @@ function StudyPage() {
     const i = readyTargets.indexOf(activeFocus);
     const next = readyTargets[(i + step + readyTargets.length) % readyTargets.length];
     setFocus(next);
-    setEditing(false);
     setStatus("");
   }
 
@@ -188,7 +185,7 @@ function StudyPage() {
   }, []);
 
   const focusLang = LANG_BY_ID.get(activeFocus);
-  const entry = concept && activeFocus ? mergeEntry(getBaseEntry(activeFocus, concept.id, concept.en), fixes[cardKey(activeFocus, concept.id)]) : undefined;
+  const entry = concept && activeFocus ? mergeEntry(getBaseEntry(activeFocus, concept.id, concept.en, concept.sentence), fixes[cardKey(activeFocus, concept.id)]) : undefined;
   const english = concept ? mergeEntry(getBaseEntry("en", concept.id, concept.en), fixes[cardKey("en", concept.id)]) : undefined;
   const enWord = english?.word || concept?.en || "";
   const enSentence = english?.sentence || concept?.sentence || "";
@@ -210,7 +207,6 @@ function StudyPage() {
                 onClick={() => {
                   setLevel(chip.id);
                   setQuery("");
-                  setEditing(false);
                 }}
                 className={`min-h-11 shrink-0 rounded-full px-3 ${level === chip.id ? "bg-ink text-paper" : "bg-chip"}`}
               >
@@ -245,7 +241,16 @@ function StudyPage() {
         </div>
 
         <div className="shrink-0 border-b border-line">
-          <div className="mx-auto flex max-w-6xl items-center gap-2 overflow-x-auto px-4 py-2 md:px-6">
+          <div className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-2 md:px-6">
+            <button
+              type="button"
+              onClick={() => setPicking((value) => !value)}
+              className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full border border-ink bg-card px-3"
+            >
+              <Plus className="h-4 w-4" />
+              {picking ? "Close" : `Languages ${chosen}/12`}
+            </button>
+            <div className="flex min-w-0 flex-1 items-center gap-2 overflow-x-auto">
             {readyTargets.map((id) => {
               const lang = LANG_BY_ID.get(id);
               if (!lang) return null;
@@ -262,14 +267,7 @@ function StudyPage() {
                 </button>
               );
             })}
-            <button
-              type="button"
-              onClick={() => setPicking((value) => !value)}
-              className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full border border-line bg-card px-3"
-            >
-              <Plus className="h-4 w-4" />
-              {picking ? "Close" : `Languages ${chosen}/12`}
-            </button>
+            </div>
           </div>
           {picking && (
             <div className="max-h-[38dvh] overflow-y-auto border-t border-line px-4 py-3 md:px-6">
@@ -333,7 +331,6 @@ function StudyPage() {
                         type="button"
                         onClick={() => {
                           setConceptId(item.id);
-                          setEditing(false);
                         }}
                         className={`flex min-h-11 w-full items-baseline justify-between gap-2 rounded-xl px-3 text-left ${on ? "bg-ink text-paper" : "hover:bg-chip"}`}
                       >
@@ -365,7 +362,6 @@ function StudyPage() {
                   index={index}
                   total={deck.length}
                   stage={batchLabel(markState?.stage)}
-                  revealed={revealed}
                 />
                 <div className="flex min-h-0 flex-col overflow-y-auto overscroll-contain p-3 md:p-5" dir={focusLang?.dir} lang={focusLang?.speech}>
                   {revealed ? (
@@ -377,7 +373,7 @@ function StudyPage() {
                       <Translation entry={entry} speech={focusLang?.speech ?? "en-US"} font={focusLang?.font} />
                     ) : (
                       <p className="text-base text-muted md:text-lg">
-                        {focusLang?.name} does not have this word yet. The picture and the English sentence are the meaning. Fix stores a correction on this device.
+                        {focusLang?.name} does not have this word yet. The picture and the English sentence are the meaning. Ask Grok whether a line should be added.
                       </p>
                     )
                   ) : (
@@ -390,20 +386,19 @@ function StudyPage() {
                     </div>
                   )}
                   {revealed && focusLang?.voiceApprox && activeFocus !== "isv" && <p className="mt-2 text-sm text-muted">Speech uses the closest voice on this device.</p>}
+                  {status && <p className="mt-2 text-sm text-moss">{status}</p>}
                   {revealed && (
-                    <div className="mt-auto flex flex-wrap gap-2 pt-3">
-                      <button type="button" className="min-h-11 rounded-full px-4 text-muted" onClick={() => setEditing((value) => !value)}>
-                        {editing ? "Close fix" : "Fix this card"}
-                      </button>
-                    </div>
-                  )}
-                  {status && <p className="text-sm text-moss">{status}</p>}
-                  {revealed && editing && (
-                    <FixForm
+                    <AskGrok
+                      key={`${activeFocus}:${concept.id}`}
                       lang={activeFocus}
+                      languageName={focusLang?.name ?? activeFocus}
+                      tip={focusLang?.tip ?? ""}
                       conceptId={concept.id}
-                      entry={entry ?? { word: "", sentence: "" }}
-                      onSave={saveFix}
+                      english={enWord}
+                      englishSentence={enSentence}
+                      entry={entry}
+                      saved={Boolean(fixes[cardKey(activeFocus, concept.id)])}
+                      onApply={saveFix}
                       onClear={clearFix}
                     />
                   )}
@@ -462,7 +457,6 @@ function EnglishSide({
   index,
   total,
   stage,
-  revealed,
 }: {
   item: CourseItem;
   word: string;
@@ -471,58 +465,74 @@ function EnglishSide({
   index: number;
   total: number;
   stage: string;
-  revealed: boolean;
 }) {
   return (
-    <div className="flex min-h-0 flex-col gap-2 border-r border-line p-3 md:gap-3 md:p-5">
-      <div className="flex items-center gap-2 text-xs tracking-widest text-muted uppercase">
+    <div className="flex min-h-0 flex-col gap-2 overflow-hidden border-r border-line p-3 md:p-4">
+      <div className="flex shrink-0 items-center gap-2 text-xs tracking-widest text-muted uppercase">
         <Flag id="en" />
         <span>English</span>
         <span className="ml-auto font-sans tracking-normal normal-case tabular-nums">
           {index + 1}/{total}
         </span>
       </div>
-      {revealed ? (
-        <div className="min-w-0">
-            <div className="flex flex-wrap items-center gap-2">
-              <h1 className="text-3xl leading-none md:text-5xl">{word}</h1>
-              <Speak text={word} lang="en-US" label="Hear the English word" />
-            </div>
-            <p className="mt-1 truncate text-sm text-muted">
-              {posLabel(item.pos)}
-              {plural ? ` · ${plural}` : ""} · {stage}
-            </p>
-          </div>
-      ) : (
-        <div>
-          <h1 className="text-3xl leading-none text-muted md:text-5xl">····</h1>
-          <p className="mt-1 text-sm text-muted">Space reveals the word</p>
+      <div className="min-w-0 shrink-0">
+        <div className="flex flex-wrap items-center gap-2">
+          <h1 className="text-3xl leading-none md:text-4xl">{word}</h1>
+          <Speak text={word} lang="en-US" label="Hear the English word" />
         </div>
-      )}
-      <div className="min-h-0 flex-1 overflow-hidden rounded-2xl bg-chip">
-        <Plate src={item.image} alt={revealed ? word : "Picture"} />
-      </div>
-      {revealed && (
-        <div className="flex items-start gap-2">
-          <p className="line-clamp-3 text-sm leading-snug md:text-base">{sentence}</p>
+        <p className="mt-1 truncate text-sm text-muted">
+          {posLabel(item.pos)}
+          {plural ? ` · ${plural}` : ""} · {stage}
+        </p>
+        <div className="mt-2 flex items-start gap-2">
+          <p className="line-clamp-2 text-sm leading-snug md:text-base">{sentence}</p>
           <Speak text={sentence} lang="en-US" label="Hear the English sentence" />
         </div>
-      )}
+      </div>
+      <div className="min-h-0 flex-1 overflow-hidden rounded-2xl bg-chip">
+        <Plate src={item.image} alt={word} />
+      </div>
     </div>
   );
 }
 
+function voiceLine(text: string, reading?: string) {
+  if (reading && /[\u{13000}-\u{1342F}]/u.test(text)) return reading;
+  return text;
+}
+
 function Translation({ entry, speech, font }: { entry: Entry; speech: string; font?: string }) {
   const script = font ? { fontFamily: font } : undefined;
-  const character = mandarinChar(entry.word, speech);
+  const chars = hanChars(entry.word, speech);
+  const chinese = speech.toLowerCase().startsWith("zh") || speech.toLowerCase().startsWith("yue");
   return (
     <div>
       <div className="flex flex-wrap items-center gap-2">
         <h2 className="text-3xl leading-none md:text-5xl" style={script}>{entry.word}</h2>
-        <Speak text={entry.word} lang={speech} label="Hear the word" />
+        <Speak text={voiceLine(entry.word, entry.reading)} lang={speech} label="Hear the word" />
       </div>
       {entry.reading && <p className="mt-1 text-base text-muted italic">{entry.reading}</p>}
-      {character && <StrokeOrder char={character} font={font} />}
+      {chars.length > 0 && (
+        <div className="mt-2">
+          <div className="flex flex-wrap items-end gap-2">
+            {chars.map((ch, index) => (
+              <div key={`${ch}-${index}`} className="flex flex-col items-center gap-1">
+                <StrokeOrder char={ch} font={font} compact={chars.length > 1} bare={chars.length > 1} />
+                {chinese && (
+                  <button
+                    type="button"
+                    aria-label={`Hear ${ch}`}
+                    onClick={() => speak(ch, speech)}
+                    className="grid h-8 w-8 place-items-center rounded-full border border-line bg-card"
+                  >
+                    <Volume2 className="h-4 w-4" />
+                  </button>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
       <div className="mt-2 flex flex-wrap gap-2 text-sm">
         {entry.article && <Chip>{entry.article}</Chip>}
         {genderLabel(entry.gender) && <Chip>{genderLabel(entry.gender)}</Chip>}
@@ -535,6 +545,7 @@ function Translation({ entry, speech, font }: { entry: Entry; speech: string; fo
         <p className="text-base leading-snug md:text-lg" style={script}>{entry.sentence}</p>
         <Speak text={entry.sentence} lang={speech} label="Hear the sentence" />
       </div>
+      {entry.sentenceReading && <p className="mt-1 text-sm text-muted italic">{entry.sentenceReading}</p>}
       {entry.note && <p className="mt-2 text-sm text-muted">{entry.note}</p>}
     </div>
   );
@@ -545,12 +556,12 @@ function InterslavicPanels({ conceptId, en, fixes }: { conceptId: string; en: st
   const cyr = getBaseEntry("isv-Cyrl", conceptId, en);
   const glag = getBaseEntry("isv-Glag", conceptId, en);
   const blocks = [
-    { title: "Latin", word: latin?.word, sentence: latin?.sentence, speech: "hr-HR" },
-    { title: "Cyrillic", word: cyr?.word, sentence: cyr?.sentence, speech: "sr-RS" },
-    { title: "Glagolitic", word: glag?.word, sentence: glag?.sentence, speech: "hr-HR", font: LANGUAGES.find((lang) => lang.id === "isv")?.font },
+    { title: "Latin", word: latin?.word, sentence: latin?.sentence, speak: true },
+    { title: "Cyrillic", word: cyr?.word, sentence: cyr?.sentence, speak: false },
+    { title: "Glagolitic", word: glag?.word, sentence: glag?.sentence, speak: false, font: LANGUAGES.find((lang) => lang.id === "isv")?.font },
   ];
   if (!latin?.word) {
-    return <p className="text-base text-muted">Interslavic does not have this word yet. Fix stores a Latin line on this device.</p>;
+    return <p className="text-base text-muted">Interslavic does not have this word yet. Ask Grok whether a line should be added.</p>;
   }
   return (
     <div className="space-y-2">
@@ -559,11 +570,11 @@ function InterslavicPanels({ conceptId, en, fixes }: { conceptId: string; en: st
           <p className="text-xs tracking-widest text-muted uppercase">{block.title}</p>
           <div className="mt-1 flex flex-wrap items-center gap-2">
             <h2 className="text-2xl leading-none">{block.word}</h2>
-            {block.word && <Speak text={block.word} lang={block.speech} label={`Hear the ${block.title} word`} />}
+            {block.speak && block.word && <Speak text={block.word} lang="hr-HR" label="Hear the Latin word" />}
           </div>
           <div className="mt-1 flex items-start gap-2">
             <p className="text-sm leading-snug">{block.sentence}</p>
-            {block.sentence && <Speak text={block.sentence} lang={block.speech} label={`Hear the ${block.title} sentence`} />}
+            {block.speak && block.sentence && <Speak text={block.sentence} lang="hr-HR" label="Hear the Latin sentence" />}
           </div>
         </div>
       ))}
@@ -578,7 +589,7 @@ function ArabicPanels({ conceptId, en, fixes }: { conceptId: string; en: string;
     { title: "Saudi", entry: getBaseEntry("ar-sa", conceptId, en), speech: "ar-SA" },
   ];
   if (!blocks.some((block) => block.entry?.word)) {
-    return <p className="text-base text-muted">Arabic does not have this word yet. Fix stores a Standard line on this device.</p>;
+    return <p className="text-base text-muted">Arabic does not have this word yet. Ask Grok whether a line should be added.</p>;
   }
   return (
     <div className="space-y-2">
@@ -613,6 +624,112 @@ function ArabicPanels({ conceptId, en, fixes }: { conceptId: string; en: string;
   );
 }
 
+function AskGrok({
+  lang,
+  languageName,
+  tip,
+  conceptId,
+  english,
+  englishSentence,
+  entry,
+  saved,
+  onApply,
+  onClear,
+}: {
+  lang: string;
+  languageName: string;
+  tip: string;
+  conceptId: string;
+  english: string;
+  englishSentence: string;
+  entry?: Entry;
+  saved: boolean;
+  onApply: (lang: string, concept: string, fix: Fix) => void;
+  onClear: (lang: string, concept: string) => void;
+}) {
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
+  const [check, setCheck] = useState<CardCheck | null>(null);
+  const [applied, setApplied] = useState(false);
+  return (
+    <div className="mt-auto border-t border-line pt-3">
+      <div className="flex flex-wrap items-center gap-2">
+        <button
+          type="button"
+          disabled={busy}
+          className="min-h-11 rounded-full bg-ink px-4 text-paper disabled:opacity-60"
+          onClick={() => {
+            setBusy(true);
+            setError("");
+            setApplied(false);
+            void askCard({
+              data: {
+                language: lang,
+                languageName,
+                tip,
+                english,
+                englishSentence,
+                word: entry?.word ?? "",
+                sentence: entry?.sentence ?? "",
+                reading: entry?.reading ?? "",
+                sentenceReading: entry?.sentenceReading ?? "",
+                plural: entry?.plural ?? "",
+                article: entry?.article ?? "",
+                note: entry?.note ?? "",
+              },
+            })
+              .then((result) => {
+                if (!result.ok) {
+                  setCheck(null);
+                  setError(result.error);
+                  return;
+                }
+                setCheck(result.check);
+              })
+              .catch(() => {
+                setCheck(null);
+                setError("Grok could not check this card.");
+              })
+              .finally(() => setBusy(false));
+          }}
+        >
+          {busy ? "Checking…" : "Ask Grok"}
+        </button>
+        {saved && (
+          <button type="button" className="min-h-11 px-3 text-muted" onClick={() => { onClear(lang, conceptId); setApplied(false); setCheck(null); }}>
+            Undo correction
+          </button>
+        )}
+      </div>
+      {error && <p className="mt-2 text-sm text-muted">{error}</p>}
+      {check && (
+        <div className="mt-2 text-sm">
+          <p>{check.reason}</p>
+          {check.verdict === "correct" && check.fix && !applied && (
+            <div className="mt-2 rounded-2xl border border-line bg-paper p-3">
+              {check.fix.word && <p className="text-lg">{check.fix.word}</p>}
+              {check.fix.reading && <p className="text-muted italic">{check.fix.reading}</p>}
+              {check.fix.sentence && <p className="mt-1">{check.fix.sentence}</p>}
+              {check.fix.sentenceReading && <p className="text-muted italic">{check.fix.sentenceReading}</p>}
+              <button
+                type="button"
+                className="mt-2 min-h-11 rounded-full bg-moss px-4 text-moss-ink"
+                onClick={() => {
+                  onApply(lang, conceptId, check.fix!);
+                  setApplied(true);
+                }}
+              >
+                Use this correction
+              </button>
+            </div>
+          )}
+          {applied && <p className="mt-2 text-moss">Saved on this device.</p>}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function Speak({ text, lang, label }: { text: string; lang: string; label: string }) {
   return (
     <button
@@ -630,59 +747,3 @@ function Chip({ children }: { children: ReactNode }) {
   return <span className="rounded-full bg-chip px-3 py-1">{children}</span>;
 }
 
-function FixForm({
-  lang,
-  conceptId,
-  entry,
-  onSave,
-  onClear,
-}: {
-  lang: string;
-  conceptId: string;
-  entry: { word: string; sentence: string; article?: string; plural?: string; reading?: string };
-  onSave: (lang: string, concept: string, fix: Fix) => void;
-  onClear: (lang: string, concept: string) => void;
-}) {
-  const [word, setWord] = useState(entry.word);
-  const [sentence, setSentence] = useState(entry.sentence);
-  const [article, setArticle] = useState(entry.article ?? "");
-  const [plural, setPlural] = useState(entry.plural ?? "");
-  const [reading, setReading] = useState(entry.reading ?? "");
-  return (
-    <form
-      className="grid gap-2 border-t border-line pt-3"
-      onSubmit={(event) => {
-        event.preventDefault();
-        onSave(lang, conceptId, {
-          word,
-          sentence,
-          article: article || undefined,
-          plural: plural || undefined,
-          reading: reading || undefined,
-        });
-      }}
-    >
-      <label className="text-sm">
-        Word
-        <input value={word} onChange={(event) => setWord(event.target.value)} className="mt-1 min-h-11 w-full rounded-xl border border-line bg-paper px-3" />
-      </label>
-      <label className="text-sm">
-        Sentence
-        <input value={sentence} onChange={(event) => setSentence(event.target.value)} className="mt-1 min-h-11 w-full rounded-xl border border-line bg-paper px-3" />
-      </label>
-      <div className="grid grid-cols-3 gap-2">
-        <input value={article} onChange={(event) => setArticle(event.target.value)} placeholder="Article" className="min-h-11 rounded-xl border border-line bg-paper px-3" />
-        <input value={plural} onChange={(event) => setPlural(event.target.value)} placeholder="Plural" className="min-h-11 rounded-xl border border-line bg-paper px-3" />
-        <input value={reading} onChange={(event) => setReading(event.target.value)} placeholder="Transliteration" className="min-h-11 rounded-xl border border-line bg-paper px-3" />
-      </div>
-      <div className="flex gap-2">
-        <button type="submit" className="min-h-11 rounded-full bg-ink px-4 text-paper">
-          Save on this device
-        </button>
-        <button type="button" className="min-h-11 px-3 text-muted" onClick={() => onClear(lang, conceptId)}>
-          Reset
-        </button>
-      </div>
-    </form>
-  );
-}

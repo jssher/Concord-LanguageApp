@@ -3,6 +3,7 @@
 
 Re-run after the Chinese or Japanese course text changes:
   python3 scripts/make-letters.py
+  python3 scripts/build-literacy.py
 """
 
 from __future__ import annotations

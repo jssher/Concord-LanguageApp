@@ -12,7 +12,7 @@ export type CardMark = {
 };
 
 export type Fix = Partial<
-  Pick<Entry, "word" | "sentence" | "article" | "plural" | "reading" | "feminine" | "masculine" | "neuter" | "note">
+  Pick<Entry, "word" | "sentence" | "article" | "plural" | "reading" | "sentenceReading" | "feminine" | "masculine" | "neuter" | "note">
 >;
 
 type State = {

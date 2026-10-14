@@ -65,14 +65,28 @@ export function Flag({ id, className = "" }: { id: string; className?: string })
   if (id === "isv") return <Interslavic className={className} />;
   if (id === "arc") return <Aramaic className={className} />;
   if (id === "la") return <Latin className={className} />;
+  if (id === "grc") return <AncientGreek className={className} />;
+  if (id === "egy") return <Egyptian className={className} />;
   if (id === "haw") return <Hawaiian className={className} />;
   if (id === "eu") return <Basque className={className} />;
   if (id === "tok") return <TokiPona className={className} />;
   if (id === "aur") return <Aurali className={className} />;
+  if (id === "sig") return <Signal className={className} />;
   return (
     <span className={`inline-block text-[1.05rem] leading-none ${className}`} aria-hidden>
       {FLAGS[id] ?? "🏳️"}
     </span>
+  );
+}
+
+function Signal({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 20 14" className={`inline-block h-3.5 w-5 rounded-[2px] ${className}`} aria-hidden>
+      <rect width="20" height="14" fill="var(--color-ink)" />
+      <path d="M2 10.5c1.4-3 2.6-3 4 0s2.6 3 4 0 2.6-3 4 0 2.4 3 4 0" fill="none" stroke="var(--color-moss)" strokeWidth="1.2" />
+      <circle cx="6" cy="4.2" r="1" fill="var(--color-paper)" />
+      <circle cx="14" cy="4.2" r="1" fill="var(--color-accent)" />
+    </svg>
   );
 }
 
@@ -89,9 +103,10 @@ function Esperanto({ className }: { className?: string }) {
 function Interslavic({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 20 14" className={`inline-block h-3.5 w-5 rounded-[2px] ${className}`} aria-hidden>
-      <rect width="20" height="14" fill="#1d4e89" />
-      <rect y="4.67" width="20" height="4.66" fill="#fff" />
-      <rect y="9.33" width="20" height="4.67" fill="#c0392b" />
+      <path d="M0 0L10 7 20 0" fill="#002288" />
+      <path d="M0 14L10 7 20 14" fill="#dd2233" />
+      <path d="M0 0V14L10 7" fill="#ffdd00" />
+      <path d="M20 14L10 7 20 0" fill="#fff" />
     </svg>
   );
 }
@@ -102,6 +117,26 @@ function Aramaic({ className }: { className?: string }) {
       <rect width="20" height="14" fill="#1e3a5f" />
       <rect x="3" y="2" width="14" height="10" rx="1" fill="#f4e2b8" />
       <path d="M6 5.2h8M6 7h6.5M6 8.8h7" stroke="#1e3a5f" strokeWidth="1" />
+    </svg>
+  );
+}
+
+function AncientGreek({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 20 14" className={`inline-block h-3.5 w-5 rounded-[2px] ${className}`} aria-hidden>
+      <rect width="20" height="14" fill="#c45c26" />
+      <path d="M4 11V3h5.2c1.7 0 2.7.9 2.7 2.2 0 1-.6 1.7-1.5 2 .9.2 1.6 1.1 1.6 2.2 0 1.5-1.2 2.4-3 2.4H4z" fill="#1c1915" />
+      <path d="M6.2 4.5h2.6c.7 0 1.1.3 1.1.9s-.4.9-1.1.9H6.2V4.5zm0 3h3c.8 0 1.2.4 1.2 1s-.5 1-1.3 1H6.2v-2z" fill="#c45c26" />
+    </svg>
+  );
+}
+
+function Egyptian({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 20 14" className={`inline-block h-3.5 w-5 rounded-[2px] ${className}`} aria-hidden>
+      <rect width="20" height="14" fill="#1e3a5f" />
+      <circle cx="10" cy="7" r="2.3" fill="#e4c36a" />
+      <path d="M10 2.2v1.3M10 10.5v1.3M4.6 7H3.3M16.7 7H15.4M5.6 4.2l.9.9M13.5 8.9l.9.9M14.4 4.2l-.9.9M6.5 8.9l-.9.9" stroke="#e4c36a" strokeWidth="0.7" />
     </svg>
   );
 }

@@ -2,8 +2,7 @@ import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import { LANG_BY_ID } from "@/data/languages";
 import { useConcord } from "@/lib/concord-store";
-import { useStanding } from "@/lib/league/client";
-import { leagueFor } from "@/lib/league/score";
+import { ScriptFonts } from "@/components/concord/fonts";
 
 const LINKS = [
   { to: "/study", label: "Study" },
@@ -12,23 +11,19 @@ const LINKS = [
   { to: "/grammar", label: "Grammar" },
   { to: "/talk", label: "Talk" },
   { to: "/league", label: "League" },
+  { to: "/credits", label: "Credits" },
 ] as const;
 
 export function Shell({ children, scroll = true }: { children: ReactNode; scroll?: boolean }) {
   const focus = useConcord((s) => s.focus);
   const source = useConcord((s) => s.source);
-  const standing = useStanding();
+  const targets = useConcord((s) => s.targets);
   const focusName = LANG_BY_ID.get(focus)?.name ?? "Choose";
   const sourceName = LANG_BY_ID.get(source)?.name ?? "";
-  const mine = standing.mine;
-  const chip = mine
-    ? `${leagueFor(mine.score).name} · ${mine.score.toLocaleString()}`
-    : standing.status === "ready"
-      ? "Add your name"
-      : "League";
 
   return (
     <div className="flex h-dvh flex-col overflow-hidden bg-paper text-ink">
+      <ScriptFonts ids={[focus, ...targets]} />
       <header className="shrink-0 border-b border-line">
         <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3 md:px-6">
           <Link to="/" className="font-display text-2xl tracking-tight">
@@ -48,11 +43,6 @@ export function Shell({ children, scroll = true }: { children: ReactNode; scroll
           <p className="hidden shrink-0 text-sm text-muted lg:block">
             {sourceName} → {focusName}
           </p>
-          {chip !== "League" && (
-            <Link to="/league" className="inline-flex min-h-10 shrink-0 items-center rounded-full bg-moss px-3 text-sm text-moss-ink">
-              {chip}
-            </Link>
-          )}
         </div>
       </header>
       <div className={scroll ? "min-h-0 flex-1 overflow-y-auto overscroll-contain" : "flex min-h-0 flex-1 flex-col overflow-hidden"}>

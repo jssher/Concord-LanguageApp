@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Signal 8192";
+  src: url("/fonts/signal-8192.ttf") format("truetype");
+  font-display: swap;
+  unicode-range: U+F0000-F1FFF;
+}
+
 @theme {
   --font-sans: "Source Sans 3", "Noto Sans", "Segoe UI", sans-serif;
-  --font-display: "Fraunces", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --font-display: "Source Serif 4", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
   --color-paper: #f3ecdf;
   --color-ink: #1c1915;
   --color-muted: #6b6258;

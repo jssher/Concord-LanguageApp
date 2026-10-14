@@ -5,9 +5,9 @@ import { Flag } from "@/components/concord/flag";
 import { Shell } from "@/components/concord/shell";
 import { StrokeOrder } from "@/components/concord/strokes";
 import { LANGUAGES, LANG_BY_ID } from "@/data/languages";
-import { loadAlphabets, type LetterChart, type LetterGroup, type LetterItem } from "@/data/letters";
+import { loadAlphabet, type LetterChart, type LetterItem } from "@/data/letters";
 import { useConcord } from "@/lib/concord-store";
-import { speak, stopSpeech, warmVoices } from "@/lib/speech";
+import { speak, stopSpeech } from "@/lib/speech";
 
 export const Route = createFileRoute("/letters")({ component: LettersPage });
 
@@ -18,10 +18,6 @@ type Row = {
   groupName: string;
   key: string;
 };
-
-function isScriptList(id: string) {
-  return id === "zh" || id === "yue" || id === "ja";
-}
 
 function isHanGlyph(glyph: string) {
   const chars = [...glyph];
@@ -38,9 +34,10 @@ function matches(item: LetterItem, needle: string) {
 function LettersPage() {
   const focus = useConcord((s) => s.focus);
   const targets = useConcord((s) => s.targets);
-  const [charts, setCharts] = useState<Record<string, LetterChart> | null>(null);
+  const [chart, setChart] = useState<LetterChart | null>(null);
+  const [chartLang, setChartLang] = useState("");
   const [failed, setFailed] = useState(false);
-  const [lang, setLang] = useState(focus && focus !== "en" ? focus : targets.find((id) => id !== "en") || "en");
+  const [lang, setLang] = useState(focus && focus !== "en" ? focus : targets.find((id) => id !== "en") || "de");
   const [groupId, setGroupId] = useState("");
   const [view, setView] = useState<"chart" | "words">("chart");
   const [covered, setCovered] = useState(false);
@@ -48,55 +45,62 @@ function LettersPage() {
   const [query, setQuery] = useState("");
   const [activeKey, setActiveKey] = useState("");
 
+  useEffect(() => stopSpeech, []);
+
+  const ids = useMemo(() => {
+    const all = LANGUAGES.map((item) => item.id).filter((id) => id !== "en");
+    const chosen = targets.filter((id) => id !== "en" && all.includes(id));
+    const rest = all.filter((id) => !chosen.includes(id));
+    return [...chosen, ...rest];
+  }, [targets]);
+
+  const current = ids.includes(lang) ? lang : (ids[0] ?? "");
+  const ready = chart !== null && chartLang === current;
+
   useEffect(() => {
-    warmVoices();
+    if (!current) return;
     let live = true;
-    loadAlphabets()
+    setFailed(false);
+    loadAlphabet(current)
       .then((data) => {
-        if (live) setCharts(data);
+        if (live) {
+          setChart(data);
+          setChartLang(current);
+        }
       })
       .catch(() => {
         if (live) setFailed(true);
       });
     return () => {
       live = false;
-      stopSpeech();
     };
-  }, []);
+  }, [current]);
 
-  const ids = useMemo(() => {
-    if (!charts) return [];
-    const known = new Set(Object.keys(charts));
-    const chosen = targets.filter((id) => known.has(id) && id !== "en");
-    const rest = LANGUAGES.map((item) => item.id).filter((id) => known.has(id) && !chosen.includes(id));
-    return [...chosen, ...rest];
-  }, [charts, targets]);
-
-  const current = ids.includes(lang) ? lang : (ids[0] ?? "");
   const meta = LANG_BY_ID.get(current);
-  const chart = current && charts ? charts[current] : undefined;
+  const shown = ready ? chart : undefined;
+  const big = (shown?.groups.reduce((sum, group) => sum + group.items.length, 0) ?? 0) > 400;
   const activeGroupId =
-    groupId === "all" && view === "words"
+    !big && groupId === "all" && view === "words"
       ? "all"
-      : chart?.groups.some((item) => item.id === groupId)
+      : shown?.groups.some((item) => item.id === groupId)
         ? groupId
-        : (chart?.groups[0]?.id ?? "");
-  const groups: LetterGroup[] = !chart
-    ? []
-    : activeGroupId === "all"
-      ? chart.groups
-      : chart.groups.filter((item) => item.id === activeGroupId);
+        : (shown?.groups[0]?.id ?? "");
   const needle = query.trim().toLowerCase();
   const rows = useMemo(() => {
+    if (!shown) return [];
+    const source =
+      needle || activeGroupId === "all" ? shown.groups : shown.groups.filter((item) => item.id === activeGroupId);
     const out: Row[] = [];
-    for (const group of groups) {
-      group.items.forEach((item, index) => {
-        if (!matches(item, needle)) return;
+    for (const group of source) {
+      for (let index = 0; index < group.items.length; index += 1) {
+        const item = group.items[index];
+        if (!matches(item, needle)) continue;
         out.push({ item, index, groupId: group.id, groupName: group.name, key: `${group.id}-${index}` });
-      });
+        if (needle && out.length >= 80) return out;
+      }
     }
     return out;
-  }, [groups, needle]);
+  }, [shown, needle, activeGroupId]);
   const selected = rows.find((row) => row.key === activeKey) ?? rows[0];
   const han = Boolean(selected && isHanGlyph(selected.item.glyph));
   const revealed = !covered || view !== "words" || open;
@@ -161,7 +165,7 @@ function LettersPage() {
 
   function chooseLang(id: string) {
     setLang(id);
-    setGroupId(view === "words" && isScriptList(id) ? "all" : "");
+    setGroupId("");
   }
 
   function showChart() {
@@ -170,7 +174,6 @@ function LettersPage() {
   }
 
   function showWords() {
-    if (view !== "words" && isScriptList(current)) setGroupId("all");
     setView("words");
   }
 
@@ -207,7 +210,7 @@ function LettersPage() {
             aria-label={view === "words" ? "Find a word" : "Find a letter or word"}
             className="min-h-11 min-w-0 flex-1 rounded-full border border-line bg-card px-3 text-sm sm:max-w-56"
           />
-          {chart && (
+          {shown && (
             <p className="text-sm text-muted">
               {wordCount.toLocaleString()} {view === "words" ? (wordCount === 1 ? "word" : "words") : wordCount === 1 ? "letter" : "letters"}
             </p>
@@ -246,40 +249,59 @@ function LettersPage() {
             </button>
           )}
         </div>
-        {chart && chart.groups.length > 1 && (
-          <div className="flex shrink-0 gap-1 overflow-x-auto">
-            {view === "words" && (
-              <button
-                type="button"
-                aria-pressed={activeGroupId === "all"}
-                onClick={() => setGroupId("all")}
-                className={`shrink-0 rounded-full px-3 py-2 text-sm ${activeGroupId === "all" ? "bg-ink text-paper" : "border border-line bg-card text-muted"}`}
-              >
-                All
-              </button>
-            )}
-            {chart.groups.map((item) => {
-              const on = item.id === activeGroupId;
-              return (
+        {shown && shown.groups.length > 6 ? (
+          <label className="flex min-w-0 flex-1 items-center gap-2">
+            <span className="sr-only">Group</span>
+            <select
+              value={activeGroupId}
+              onChange={(event) => setGroupId(event.target.value)}
+              aria-label="Alphabet group"
+              className="min-h-11 min-w-0 flex-1 rounded-full border border-line bg-card px-3 text-sm"
+            >
+              {shown.groups.map((item) => (
+                <option key={item.id} value={item.id}>
+                  {item.name} · {item.items.length}
+                </option>
+              ))}
+            </select>
+          </label>
+        ) : (
+          shown &&
+          shown.groups.length > 1 && (
+            <div className="flex shrink-0 gap-1 overflow-x-auto">
+              {!big && view === "words" && (
                 <button
-                  key={item.id}
                   type="button"
-                  aria-pressed={on}
-                  onClick={() => setGroupId(item.id)}
-                  className={`shrink-0 rounded-full px-3 py-2 text-sm ${on ? "bg-ink text-paper" : "border border-line bg-card text-muted"}`}
+                  aria-pressed={activeGroupId === "all"}
+                  onClick={() => setGroupId("all")}
+                  className={`shrink-0 rounded-full px-3 py-2 text-sm ${activeGroupId === "all" ? "bg-ink text-paper" : "border border-line bg-card text-muted"}`}
                 >
-                  {item.name}
+                  All
                 </button>
-              );
-            })}
-          </div>
+              )}
+              {shown.groups.map((item) => {
+                const on = item.id === activeGroupId;
+                return (
+                  <button
+                    key={item.id}
+                    type="button"
+                    aria-pressed={on}
+                    onClick={() => setGroupId(item.id)}
+                    className={`shrink-0 rounded-full px-3 py-2 text-sm ${on ? "bg-ink text-paper" : "border border-line bg-card text-muted"}`}
+                  >
+                    {item.name}
+                  </button>
+                );
+              })}
+            </div>
+          )
         )}
-        {!charts && !failed && <p className="text-sm text-muted">Opening the alphabets…</p>}
-        {failed && <p className="text-sm text-muted">The alphabet list did not open. Try the page again.</p>}
-        {chart && groups.length > 0 && (
+        {!ready && !failed && <p className="text-sm text-muted">Opening this alphabet…</p>}
+        {failed && <p className="text-sm text-muted">This alphabet did not open. Try it again.</p>}
+        {shown && rows.length > 0 && (
           <div className="grid min-h-0 flex-1 gap-3 lg:grid-cols-5">
             <div className="order-2 min-h-0 overflow-y-auto overscroll-contain lg:order-1 lg:col-span-3">
-              {chart.note && !needle && <p className="mb-3 text-sm text-muted">{chart.note}</p>}
+              {shown.note && !needle && <p className="mb-3 text-sm text-muted">{shown.note}</p>}
               {view === "chart" ? (
                 blocks.map((section) => (
                   <section key={section.key} className="mb-4">
@@ -373,6 +395,7 @@ function LettersPage() {
                 ))
               )}
               {rows.length === 0 && <p className="text-sm text-muted">Nothing matches that.</p>}
+              {needle && rows.length >= 80 && <p className="text-sm text-muted">Showing the first 80 matches.</p>}
               <p className="pb-2 text-xs text-muted">
                 {view === "words" && covered
                   ? "Space shows the word, then the next letter. Arrows move without revealing."

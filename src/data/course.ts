@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { CONCEPTS } from "./concepts";
 import { COURSE_REV, openCourseDb } from "./course-db";
 import { getBaseEntry } from "./lexicon";
+import { useOutline as useOutlineFromFile } from "./outline";
 
 export type CourseLevel = "A1" | "A2" | "B1" | "B2" | "P";
 export type CourseKind = "word" | "phrase" | "dialogue";
@@ -161,9 +162,9 @@ const COURSE_FILES: Record<CourseLevel, string[]> = {
   P: ["ready/p.json"],
 };
 
-export type OutlineGroup = { name: string; count: number; sample: string };
-export type OutlineLevel = { id: string; count: number; groups: OutlineGroup[] };
-export type Outline = { words: number; phrases: number; levels: OutlineLevel[] };
+export type { Outline, OutlineGroup, OutlineLevel } from "./outline";
+export const useOutline = useOutlineFromFile;
+export { loadOutline } from "./outline";
 
 function idbReq<T>(req: IDBRequest<T>): Promise<T> {
   return new Promise((resolve, reject) => {
@@ -270,31 +271,6 @@ export function useLevel(level: CourseLevel): { items: CourseItem[]; ready: bool
     };
   }, [level]);
   return { items, ready };
-}
-
-let outlineTask: Promise<Outline> | null = null;
-
-export function loadOutline(): Promise<Outline> {
-  if (!outlineTask) {
-    outlineTask = fetch("/course/stats.json")
-      .then((response) => (response.ok ? response.json() : { words: CORE.length, phrases: 0, levels: [] }))
-      .catch(() => ({ words: CORE.length, phrases: 0, levels: [] }));
-  }
-  return outlineTask;
-}
-
-export function useOutline(): Outline | null {
-  const [outline, setOutline] = useState<Outline | null>(null);
-  useEffect(() => {
-    let live = true;
-    loadOutline().then((next) => {
-      if (live) setOutline(next);
-    });
-    return () => {
-      live = false;
-    };
-  }, []);
-  return outline;
 }
 
 export function groupsFor(items: CourseItem[], level: string): string[] {

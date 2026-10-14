@@ -1,69 +1,390 @@
 {
   "entries": {
-    "i": { "word": "我", "reading": "wǒ", "sentence": "我在这里。" },
-    "you": { "word": "你", "reading": "nǐ", "sentence": "你是我的朋友。" },
-    "woman": { "word": "女人", "reading": "nǚrén", "sentence": "女人在这里。" },
-    "man": { "word": "男人", "reading": "nánrén", "sentence": "男人在走路。" },
-    "child": { "word": "孩子", "reading": "háizi", "sentence": "孩子在睡觉。" },
-    "name": { "word": "名字", "reading": "míngzi", "sentence": "我的名字是 Anna。" },
-    "friend": { "word": "朋友", "reading": "péngyou", "sentence": "这是我的朋友。" },
-    "family": { "word": "家人", "reading": "jiārén", "sentence": "我的家人在家。" },
-    "house": { "word": "房子", "reading": "fángzi", "sentence": "房子很小。" },
-    "door": { "word": "门", "reading": "mén", "sentence": "门开着。" },
-    "key": { "word": "钥匙", "reading": "yàoshi", "sentence": "钥匙在桌子上。" },
-    "table": { "word": "桌子", "reading": "zhuōzi", "sentence": "书在桌子上。" },
-    "bed": { "word": "床", "reading": "chuáng", "sentence": "孩子在床上。" },
-    "book": { "word": "书", "reading": "shū", "sentence": "书是新的。" },
-    "water": { "word": "水", "reading": "shuǐ", "sentence": "水很冷。" },
-    "fire": { "word": "火", "reading": "huǒ", "sentence": "火很热。" },
-    "bread": { "word": "面包", "reading": "miànbāo", "sentence": "面包很好。" },
-    "apple": { "word": "苹果", "reading": "píngguǒ", "sentence": "苹果是红的。" },
-    "egg": { "word": "鸡蛋", "reading": "jīdàn", "sentence": "鸡蛋在桌子上。" },
-    "milk": { "word": "牛奶", "reading": "niúnǎi", "sentence": "孩子喝牛奶。" },
-    "fish": { "word": "鱼", "reading": "yú", "sentence": "鱼在水里。" },
-    "rice": { "word": "米饭", "reading": "mǐfàn", "sentence": "我们吃米饭。" },
-    "coffee": { "word": "咖啡", "reading": "kāfēi", "sentence": "咖啡很热。" },
-    "eat": { "word": "吃", "reading": "chī", "sentence": "我们吃面包。" },
-    "drink": { "word": "喝", "reading": "hē", "sentence": "我喝水。" },
-    "see": { "word": "看见", "reading": "kànjiàn", "sentence": "我看见太阳。" },
-    "hear": { "word": "听见", "reading": "tīngjiàn", "sentence": "我听见雨声。" },
-    "sleep": { "word": "睡觉", "reading": "shuìjiào", "sentence": "孩子睡觉。" },
-    "walk": { "word": "走", "reading": "zǒu", "sentence": "男人走路。" },
-    "come": { "word": "来", "reading": "lái", "sentence": "你来到这栋房子。" },
-    "sit": { "word": "坐", "reading": "zuò", "sentence": "我们坐在桌边。" },
-    "give": { "word": "给", "reading": "gěi", "sentence": "我把钥匙给你。" },
-    "sun": { "word": "太阳", "reading": "tàiyáng", "sentence": "太阳很热。" },
-    "moon": { "word": "月亮", "reading": "yuèliang", "sentence": "我看见月亮。" },
-    "tree": { "word": "树", "reading": "shù", "sentence": "树很大。" },
-    "flower": { "word": "花", "reading": "huā", "sentence": "花是红的。" },
-    "rain": { "word": "雨", "reading": "yǔ", "sentence": "雨很冷。" },
-    "mountain": { "word": "山", "reading": "shān", "sentence": "山很大。" },
-    "river": { "word": "河", "reading": "hé", "sentence": "河很长。" },
-    "stone": { "word": "石头", "reading": "shítou", "sentence": "石头很小。" },
-    "dog": { "word": "狗", "reading": "gǒu", "sentence": "狗很小。" },
-    "cat": { "word": "猫", "reading": "māo", "sentence": "猫在睡觉。" },
-    "bird": { "word": "鸟", "reading": "niǎo", "sentence": "我看见两只鸟。" },
-    "hand": { "word": "手", "reading": "shǒu", "sentence": "这是我的手。" },
-    "eye": { "word": "眼睛", "reading": "yǎnjing", "sentence": "这是我的眼睛。" },
-    "ear": { "word": "耳朵", "reading": "ěrduo", "sentence": "这是我的耳朵。" },
-    "head": { "word": "头", "reading": "tóu", "sentence": "这是我的头。" },
-    "mouth": { "word": "嘴", "reading": "zuǐ", "sentence": "这是我的嘴。" },
-    "foot": { "word": "脚", "reading": "jiǎo", "sentence": "我的脚很冷。" },
-    "road": { "word": "路", "reading": "lù", "sentence": "路很长。" },
-    "city": { "word": "城市", "reading": "chéngshì", "sentence": "城市很大。" },
-    "school": { "word": "学校", "reading": "xuéxiào", "sentence": "孩子去学校。" },
-    "sea": { "word": "海", "reading": "hǎi", "sentence": "我看见海。" },
-    "night": { "word": "夜晚", "reading": "yèwǎn", "sentence": "夜晚很冷。" },
-    "one": { "word": "一", "reading": "yī", "sentence": "我有一个苹果。" },
-    "two": { "word": "二", "reading": "èr", "sentence": "我看见两只鸟。", "note": "两 before classifiers" },
-    "big": { "word": "大", "reading": "dà", "sentence": "房子很大。" },
-    "small": { "word": "小", "reading": "xiǎo", "sentence": "孩子很小。" },
-    "good": { "word": "好", "reading": "hǎo", "sentence": "面包很好。" },
-    "hot": { "word": "热", "reading": "rè", "sentence": "火很热。" },
-    "cold": { "word": "冷", "reading": "lěng", "sentence": "水很冷。" },
-    "red": { "word": "红", "reading": "hóng", "sentence": "苹果是红的。" },
-    "new": { "word": "新", "reading": "xīn", "sentence": "书是新的。" },
-    "this": { "word": "这", "reading": "zhè", "sentence": "这是我的房子。" }
+    "i": {
+      "word": "我",
+      "reading": "wǒ",
+      "sentence": "我在这里。",
+      "sentenceReading": "Wǒ zài zhèlǐ."
+    },
+    "you": {
+      "word": "你",
+      "reading": "nǐ",
+      "sentence": "你是我的朋友。",
+      "sentenceReading": "Nǐ shì wǒ de péngyou."
+    },
+    "woman": {
+      "word": "女人",
+      "reading": "nǚrén",
+      "sentence": "女人在这里。",
+      "sentenceReading": "Nǚrén zài zhèlǐ."
+    },
+    "man": {
+      "word": "男人",
+      "reading": "nánrén",
+      "sentence": "男人在走路。",
+      "sentenceReading": "Nánrén zài zǒulù."
+    },
+    "child": {
+      "word": "孩子",
+      "reading": "háizi",
+      "sentence": "孩子在睡觉。",
+      "sentenceReading": "Háizi zài shuìjiào."
+    },
+    "name": {
+      "word": "名字",
+      "reading": "míngzi",
+      "sentence": "我的名字是 Anna。",
+      "sentenceReading": "Wǒ de míngzi shì Anna."
+    },
+    "friend": {
+      "word": "朋友",
+      "reading": "péngyou",
+      "sentence": "这是我的朋友。",
+      "sentenceReading": "Zhè shì wǒ de péngyou."
+    },
+    "family": {
+      "word": "家人",
+      "reading": "jiārén",
+      "sentence": "我的家人在家。",
+      "sentenceReading": "Wǒ de jiārén zài jiā."
+    },
+    "house": {
+      "word": "房子",
+      "reading": "fángzi",
+      "sentence": "房子很小。",
+      "sentenceReading": "Fángzi hěn xiǎo."
+    },
+    "door": {
+      "word": "门",
+      "reading": "mén",
+      "sentence": "门开着。",
+      "sentenceReading": "Mén kāizhe."
+    },
+    "key": {
+      "word": "钥匙",
+      "reading": "yàoshi",
+      "sentence": "钥匙在桌子上。",
+      "sentenceReading": "Yàoshi zài zhuōzi shàng."
+    },
+    "table": {
+      "word": "桌子",
+      "reading": "zhuōzi",
+      "sentence": "书在桌子上。",
+      "sentenceReading": "Shū zài zhuōzi shàng."
+    },
+    "bed": {
+      "word": "床",
+      "reading": "chuáng",
+      "sentence": "孩子在床上。",
+      "sentenceReading": "Háizi zài chuáng shàng."
+    },
+    "book": {
+      "word": "书",
+      "reading": "shū",
+      "sentence": "书是新的。",
+      "sentenceReading": "Shū shì xīn de."
+    },
+    "water": {
+      "word": "水",
+      "reading": "shuǐ",
+      "sentence": "水很冷。",
+      "sentenceReading": "Shuǐ hěn lěng."
+    },
+    "fire": {
+      "word": "火",
+      "reading": "huǒ",
+      "sentence": "火很热。",
+      "sentenceReading": "Huǒ hěn rè."
+    },
+    "bread": {
+      "word": "面包",
+      "reading": "miànbāo",
+      "sentence": "面包很好。",
+      "sentenceReading": "Miànbāo hěn hǎo."
+    },
+    "apple": {
+      "word": "苹果",
+      "reading": "píngguǒ",
+      "sentence": "苹果是红的。",
+      "sentenceReading": "Píngguǒ shì hóng de."
+    },
+    "egg": {
+      "word": "鸡蛋",
+      "reading": "jīdàn",
+      "sentence": "鸡蛋在桌子上。",
+      "sentenceReading": "Jīdàn zài zhuōzi shàng."
+    },
+    "milk": {
+      "word": "牛奶",
+      "reading": "niúnǎi",
+      "sentence": "孩子喝牛奶。",
+      "sentenceReading": "Háizi hē niúnǎi."
+    },
+    "fish": {
+      "word": "鱼",
+      "reading": "yú",
+      "sentence": "鱼在水里。",
+      "sentenceReading": "Yú zài shuǐ lǐ."
+    },
+    "rice": {
+      "word": "米饭",
+      "reading": "mǐfàn",
+      "sentence": "我们吃米饭。",
+      "sentenceReading": "Wǒmen chī mǐfàn."
+    },
+    "coffee": {
+      "word": "咖啡",
+      "reading": "kāfēi",
+      "sentence": "咖啡很热。",
+      "sentenceReading": "Kāfēi hěn rè."
+    },
+    "eat": {
+      "word": "吃",
+      "reading": "chī",
+      "sentence": "我们吃面包。",
+      "sentenceReading": "Wǒmen chī miànbāo."
+    },
+    "drink": {
+      "word": "喝",
+      "reading": "hē",
+      "sentence": "我喝水。",
+      "sentenceReading": "Wǒ hē shuǐ."
+    },
+    "see": {
+      "word": "看见",
+      "reading": "kànjiàn",
+      "sentence": "我看见太阳。",
+      "sentenceReading": "Wǒ kànjiàn tàiyáng."
+    },
+    "hear": {
+      "word": "听见",
+      "reading": "tīngjiàn",
+      "sentence": "我听见雨声。",
+      "sentenceReading": "Wǒ tīngjiàn yǔshēng."
+    },
+    "sleep": {
+      "word": "睡觉",
+      "reading": "shuìjiào",
+      "sentence": "孩子睡觉。",
+      "sentenceReading": "Háizi shuìjiào."
+    },
+    "walk": {
+      "word": "走",
+      "reading": "zǒu",
+      "sentence": "男人走路。",
+      "sentenceReading": "Nánrén zǒulù."
+    },
+    "come": {
+      "word": "来",
+      "reading": "lái",
+      "sentence": "你来到这栋房子。",
+      "sentenceReading": "Nǐ lái dào zhè dòng fángzi."
+    },
+    "sit": {
+      "word": "坐",
+      "reading": "zuò",
+      "sentence": "我们坐在桌边。",
+      "sentenceReading": "Wǒmen zuò zài zhuō biān."
+    },
+    "give": {
+      "word": "给",
+      "reading": "gěi",
+      "sentence": "我把钥匙给你。",
+      "sentenceReading": "Wǒ bǎ yàoshi gěi nǐ."
+    },
+    "sun": {
+      "word": "太阳",
+      "reading": "tàiyáng",
+      "sentence": "太阳很热。",
+      "sentenceReading": "Tàiyáng hěn rè."
+    },
+    "moon": {
+      "word": "月亮",
+      "reading": "yuèliang",
+      "sentence": "我看见月亮。",
+      "sentenceReading": "Wǒ kànjiàn yuèliang."
+    },
+    "tree": {
+      "word": "树",
+      "reading": "shù",
+      "sentence": "树很大。",
+      "sentenceReading": "Shù hěn dà."
+    },
+    "flower": {
+      "word": "花",
+      "reading": "huā",
+      "sentence": "花是红的。",
+      "sentenceReading": "Huā shì hóng de."
+    },
+    "rain": {
+      "word": "雨",
+      "reading": "yǔ",
+      "sentence": "雨很冷。",
+      "sentenceReading": "Yǔ hěn lěng."
+    },
+    "mountain": {
+      "word": "山",
+      "reading": "shān",
+      "sentence": "山很大。",
+      "sentenceReading": "Shān hěn dà."
+    },
+    "river": {
+      "word": "河",
+      "reading": "hé",
+      "sentence": "河很长。",
+      "sentenceReading": "Hé hěn cháng."
+    },
+    "stone": {
+      "word": "石头",
+      "reading": "shítou",
+      "sentence": "石头很小。",
+      "sentenceReading": "Shítou hěn xiǎo."
+    },
+    "dog": {
+      "word": "狗",
+      "reading": "gǒu",
+      "sentence": "狗很小。",
+      "sentenceReading": "Gǒu hěn xiǎo."
+    },
+    "cat": {
+      "word": "猫",
+      "reading": "māo",
+      "sentence": "猫在睡觉。",
+      "sentenceReading": "Māo zài shuìjiào."
+    },
+    "bird": {
+      "word": "鸟",
+      "reading": "niǎo",
+      "sentence": "我看见两只鸟。",
+      "sentenceReading": "Wǒ kànjiàn liǎng zhī niǎo."
+    },
+    "hand": {
+      "word": "手",
+      "reading": "shǒu",
+      "sentence": "这是我的手。",
+      "sentenceReading": "Zhè shì wǒ de shǒu."
+    },
+    "eye": {
+      "word": "眼睛",
+      "reading": "yǎnjing",
+      "sentence": "这是我的眼睛。",
+      "sentenceReading": "Zhè shì wǒ de yǎnjing."
+    },
+    "ear": {
+      "word": "耳朵",
+      "reading": "ěrduo",
+      "sentence": "这是我的耳朵。",
+      "sentenceReading": "Zhè shì wǒ de ěrduo."
+    },
+    "head": {
+      "word": "头",
+      "reading": "tóu",
+      "sentence": "这是我的头。",
+      "sentenceReading": "Zhè shì wǒ de tóu."
+    },
+    "mouth": {
+      "word": "嘴",
+      "reading": "zuǐ",
+      "sentence": "这是我的嘴。",
+      "sentenceReading": "Zhè shì wǒ de zuǐ."
+    },
+    "foot": {
+      "word": "脚",
+      "reading": "jiǎo",
+      "sentence": "我的脚很冷。",
+      "sentenceReading": "Wǒ de jiǎo hěn lěng."
+    },
+    "road": {
+      "word": "路",
+      "reading": "lù",
+      "sentence": "路很长。",
+      "sentenceReading": "Lù hěn cháng."
+    },
+    "city": {
+      "word": "城市",
+      "reading": "chéngshì",
+      "sentence": "城市很大。",
+      "sentenceReading": "Chéngshì hěn dà."
+    },
+    "school": {
+      "word": "学校",
+      "reading": "xuéxiào",
+      "sentence": "孩子去学校。",
+      "sentenceReading": "Háizi qù xuéxiào."
+    },
+    "sea": {
+      "word": "海",
+      "reading": "hǎi",
+      "sentence": "我看见海。",
+      "sentenceReading": "Wǒ kànjiàn hǎi."
+    },
+    "night": {
+      "word": "夜晚",
+      "reading": "yèwǎn",
+      "sentence": "夜晚很冷。",
+      "sentenceReading": "Yèwǎn hěn lěng."
+    },
+    "one": {
+      "word": "一",
+      "reading": "yī",
+      "sentence": "我有一个苹果。",
+      "sentenceReading": "Wǒ yǒu yí gè píngguǒ."
+    },
+    "two": {
+      "word": "二",
+      "reading": "èr",
+      "sentence": "我看见两只鸟。",
+      "note": "两 before classifiers",
+      "sentenceReading": "Wǒ kànjiàn liǎng zhī niǎo."
+    },
+    "big": {
+      "word": "大",
+      "reading": "dà",
+      "sentence": "房子很大。",
+      "sentenceReading": "Fángzi hěn dà."
+    },
+    "small": {
+      "word": "小",
+      "reading": "xiǎo",
+      "sentence": "孩子很小。",
+      "sentenceReading": "Háizi hěn xiǎo."
+    },
+    "good": {
+      "word": "好",
+      "reading": "hǎo",
+      "sentence": "面包很好。",
+      "sentenceReading": "Miànbāo hěn hǎo."
+    },
+    "hot": {
+      "word": "热",
+      "reading": "rè",
+      "sentence": "火很热。",
+      "sentenceReading": "Huǒ hěn rè."
+    },
+    "cold": {
+      "word": "冷",
+      "reading": "lěng",
+      "sentence": "水很冷。",
+      "sentenceReading": "Shuǐ hěn lěng."
+    },
+    "red": {
+      "word": "红",
+      "reading": "hóng",
+      "sentence": "苹果是红的。",
+      "sentenceReading": "Píngguǒ shì hóng de."
+    },
+    "new": {
+      "word": "新",
+      "reading": "xīn",
+      "sentence": "书是新的。",
+      "sentenceReading": "Shū shì xīn de."
+    },
+    "this": {
+      "word": "这",
+      "reading": "zhè",
+      "sentence": "这是我的房子。",
+      "sentenceReading": "Zhè shì wǒ de fángzi."
+    }
   },
   "lines": {
     "d1a": "你好。我在这里。",

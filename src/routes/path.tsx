@@ -113,7 +113,7 @@ function PathPage() {
 
         {lang && (
           <p className="flex items-center gap-2 text-sm text-muted">
-            <Flag id={lang.id} /> Focused language: {lang.name}. Fixes you type on a card stay on this device.
+            <Flag id={lang.id} /> Focused language: {lang.name}. A correction Grok applies on a card stays on this device.
           </p>
         )}
       </div>

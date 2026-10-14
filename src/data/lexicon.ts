@@ -1,6 +1,7 @@
 import type { Entry, LangPack } from "./types";
 import { scriptPack, toCyrillic, toGlagolitic } from "./interslavic";
 import { packEntry } from "./packs";
+import { encodeSignal, toSignalEntry } from "@/lib/signal";
 
 const modules = import.meta.glob("./lexicon/*.json", { eager: true });
 
@@ -23,6 +24,13 @@ if (loaded.isv) {
   loaded["isv-Latn"] = loaded.isv;
   loaded["isv-Cyrl"] = scriptPack(loaded.isv, toCyrillic);
   loaded["isv-Glag"] = scriptPack(loaded.isv, toGlagolitic);
+}
+
+if (loaded.en) {
+  loaded.sig = {
+    entries: Object.fromEntries(Object.entries(loaded.en.entries).map(([id, entry]) => [id, toSignalEntry(entry)])),
+    lines: Object.fromEntries(Object.entries(loaded.en.lines).map(([id, line]) => [id, encodeSignal(line)])),
+  };
 }
 
 export const LEXICON: Record<string, LangPack> = loaded;
@@ -67,7 +75,14 @@ function lookup(langId: string, conceptId: string, en: string): Entry | undefine
   return packEntry(langId, conceptId, en) ?? (id === conceptId ? undefined : packEntry(langId, id, en)) ?? (reviewed?.word ? reviewed : undefined);
 }
 
-export function getBaseEntry(langId: string, conceptId: string, en = ""): Entry | undefined {
+export function getBaseEntry(langId: string, conceptId: string, en = "", sentence = ""): Entry | undefined {
+  if (langId === "sig") {
+    const enEntry = lookup("en", conceptId, en);
+    const word = enEntry?.word || en.trim();
+    const line = enEntry?.sentence || sentence.trim();
+    if (!word || !line) return undefined;
+    return toSignalEntry({ ...(enEntry ?? { word, sentence: line }), word, sentence: line });
+  }
   if (langId === "isv-Cyrl" || langId === "isv-Glag") {
     const direct = lookup(langId, conceptId, en);
     if (direct?.word && direct.sentence) return direct;

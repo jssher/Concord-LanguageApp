@@ -23,7 +23,7 @@ export const Route = createRootRoute({
       { rel: "stylesheet", href: appCss },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=Noto+Sans:wght@400;600&family=Noto+Sans+JP:wght@500&family=Noto+Sans+KR:wght@500&family=Noto+Sans+SC:wght@500&family=Noto+Sans+HK:wght@500&family=Noto+Sans+Arabic:wght@500&family=Noto+Nastaliq+Urdu:wght@400&family=Noto+Sans+Hebrew:wght@500&family=Noto+Sans+Ethiopic:wght@500&family=Noto+Sans+Devanagari:wght@500&family=Noto+Sans+Bengali:wght@500&family=Noto+Sans+Gujarati:wght@500&family=Noto+Sans+Telugu:wght@500&family=Noto+Sans+Tamil:wght@500&family=Noto+Sans+Malayalam:wght@500&family=Noto+Sans+Thai:wght@500&family=Noto+Sans+Armenian:wght@500&family=Noto+Sans+Georgian:wght@500&family=Noto+Sans+Syriac:wght@400&family=Noto+Sans+Glagolitic:wght@400&family=Noto+Sans+Tifinagh:wght@400&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,560;8..60,650&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=Noto+Sans:wght@400;600&display=swap",
       },
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
       { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },

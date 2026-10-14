@@ -73,12 +73,29 @@ function medianPath(points: number[][]): string {
   return path;
 }
 
-export function mandarinChar(word: string, speech: string): string | null {
+export function hanChars(text: string, speech: string): string[] {
   const lang = speech.toLowerCase();
-  if (!lang.startsWith("zh") && !lang.startsWith("yue")) return null;
-  const text = [...word.trim()];
-  if (text.length !== 1) return null;
-  return /\p{Script=Han}/u.test(text[0]) ? text[0] : null;
+  if (!lang.startsWith("zh") && !lang.startsWith("yue") && !lang.startsWith("ja")) return [];
+  return [...text].filter((ch) => /\p{Script=Han}/u.test(ch));
+}
+
+const glyphCache = new Map<string, Promise<Glyph | null>>();
+
+function loadGlyph(char: string): Promise<Glyph | null> {
+  const cached = glyphCache.get(char);
+  if (cached) return cached;
+  const code = (char.codePointAt(0) ?? 0).toString(16);
+  const job = fetch(`/hanzi/c/${code}.json`)
+    .then((response) => (response.ok ? response.json() : null))
+    .then((row) => (row?.strokes?.length ? (row as Glyph) : null))
+    .catch(() => null)
+    .then(async (row) => {
+      if (row) return row;
+      const all = await loadGlyphs();
+      return all[char] ?? null;
+    });
+  glyphCache.set(char, job);
+  return job;
 }
 
 export function StrokeOrder({
@@ -87,12 +104,14 @@ export function StrokeOrder({
   radical,
   traditional,
   bare = false,
+  compact = false,
 }: {
   char: string;
   font?: string;
   radical?: string;
   traditional?: string;
   bare?: boolean;
+  compact?: boolean;
 }) {
   const [glyph, setGlyph] = useState<Glyph | null | undefined>(undefined);
   const [meta, setMeta] = useState<HanMeta>(HANZI[char] ?? {});
@@ -102,9 +121,9 @@ export function StrokeOrder({
     let live = true;
     setGlyph(undefined);
     setMeta({ ...HANZI[char], ...(radical || traditional ? { radical, traditional } : {}) });
-    Promise.all([loadGlyphs(), loadMeta()]).then(([all, extra]) => {
+    Promise.all([loadGlyph(char), loadMeta()]).then(([row, extra]) => {
       if (!live) return;
-      setGlyph(all[char] ?? null);
+      setGlyph(row);
       setMeta({
         ...HANZI[char],
         ...extra[char],
@@ -125,8 +144,8 @@ export function StrokeOrder({
   const script = font ? { fontFamily: font } : undefined;
   const form = meta.traditional && meta.traditional !== char ? meta.traditional : "";
   return (
-    <div className={bare ? "flex" : "mt-3 flex items-end gap-3"}>
-      <div className={`relative shrink-0 overflow-hidden rounded-2xl border border-line bg-paper text-ink ${bare ? "h-36 w-36" : "h-28 w-28 md:h-32 md:w-32"}`}>
+    <div className={bare || compact ? "flex items-end gap-2" : "mt-3 flex items-end gap-3"}>
+      <div className={`relative shrink-0 overflow-hidden rounded-2xl border border-line bg-paper text-ink ${compact ? "h-20 w-20" : bare ? "h-36 w-36" : "h-28 w-28 md:h-32 md:w-32"}`}>
         <svg viewBox="0 0 100 100" className="absolute inset-0 h-full w-full text-line" aria-hidden="true">
           <path d="M50 10 V90 M10 50 H90 M16 16 L84 84 M84 16 L16 84" fill="none" stroke="currentColor" strokeWidth="0.6" />
         </svg>
