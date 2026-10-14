@@ -1,0 +1,277 @@
+{
+  "entries": {
+    "i": {
+      "word": "an",
+      "sentence": "An sa asi."
+    },
+    "you": {
+      "word": "te",
+      "sentence": "Te sa mi karu.",
+      "note": "singular"
+    },
+    "woman": {
+      "word": "sela",
+      "sentence": "Na sela sa asi."
+    },
+    "man": {
+      "word": "selo",
+      "sentence": "Na selo tera."
+    },
+    "child": {
+      "word": "miri",
+      "sentence": "Na miri duma."
+    },
+    "name": {
+      "word": "eno",
+      "sentence": "Mi eno sa Anna."
+    },
+    "friend": {
+      "word": "karu",
+      "sentence": "Eta sa mi karu."
+    },
+    "family": {
+      "word": "hesta",
+      "sentence": "Mi hesta sa en na hara."
+    },
+    "house": {
+      "word": "hara",
+      "sentence": "Na hara sa lini."
+    },
+    "door": {
+      "word": "pela",
+      "sentence": "Na pela sa opa."
+    },
+    "key": {
+      "word": "sivu",
+      "sentence": "Na sivu sa po na tora."
+    },
+    "table": {
+      "word": "tora",
+      "sentence": "Na leba sa po na tora."
+    },
+    "bed": {
+      "word": "nola",
+      "sentence": "Na miri sa en na nola."
+    },
+    "book": {
+      "word": "leba",
+      "sentence": "Na leba sa fira."
+    },
+    "water": {
+      "word": "nai",
+      "sentence": "Na nai sa nesi."
+    },
+    "fire": {
+      "word": "vora",
+      "sentence": "Na vora sa kala."
+    },
+    "bread": {
+      "word": "tasi",
+      "sentence": "Na tasi sa savi."
+    },
+    "apple": {
+      "word": "rusi",
+      "sentence": "Na rusi sa rua."
+    },
+    "egg": {
+      "word": "kela",
+      "sentence": "Na kela sa po na tora."
+    },
+    "milk": {
+      "word": "sula",
+      "sentence": "Na miri nava sula."
+    },
+    "fish": {
+      "word": "nira",
+      "sentence": "Na nira sa en na nai."
+    },
+    "rice": {
+      "word": "sora",
+      "sentence": "Ane mesa sora."
+    },
+    "coffee": {
+      "word": "kofi",
+      "sentence": "Na kofi sa kala.",
+      "note": "a borrowed word"
+    },
+    "eat": {
+      "word": "mesa",
+      "sentence": "Ane mesa tasi."
+    },
+    "drink": {
+      "word": "nava",
+      "sentence": "An nava nai."
+    },
+    "see": {
+      "word": "ora",
+      "sentence": "An ora na hari."
+    },
+    "hear": {
+      "word": "lena",
+      "sentence": "An lena na rima."
+    },
+    "sleep": {
+      "word": "duma",
+      "sentence": "Na miri duma."
+    },
+    "walk": {
+      "word": "tera",
+      "sentence": "Na selo tera."
+    },
+    "come": {
+      "word": "vena",
+      "sentence": "Te vena ve na hara."
+    },
+    "sit": {
+      "word": "sota",
+      "sentence": "Ane sota a na tora."
+    },
+    "give": {
+      "word": "dara",
+      "sentence": "An dara te na sivu."
+    },
+    "sun": {
+      "word": "hari",
+      "sentence": "Na hari sa kala."
+    },
+    "moon": {
+      "word": "luma",
+      "sentence": "An ora na luma."
+    },
+    "tree": {
+      "word": "arba",
+      "sentence": "Na arba sa bora."
+    },
+    "flower": {
+      "word": "fela",
+      "sentence": "Na fela sa rua."
+    },
+    "rain": {
+      "word": "rima",
+      "sentence": "Na rima sa nesi."
+    },
+    "mountain": {
+      "word": "kora",
+      "sentence": "Na kora sa bora."
+    },
+    "river": {
+      "word": "sena",
+      "sentence": "Na sena sa lora."
+    },
+    "stone": {
+      "word": "dora",
+      "sentence": "Na dora sa lini."
+    },
+    "dog": {
+      "word": "kavo",
+      "sentence": "Na kavo sa lini."
+    },
+    "cat": {
+      "word": "misi",
+      "sentence": "Na misi duma."
+    },
+    "bird": {
+      "word": "piri",
+      "sentence": "An ora tea pirin.",
+      "plural": "pirin"
+    },
+    "hand": {
+      "word": "mana",
+      "sentence": "Eta sa mi mana."
+    },
+    "eye": {
+      "word": "oka",
+      "sentence": "Eta sa mi oka."
+    },
+    "ear": {
+      "word": "elu",
+      "sentence": "Eta sa mi elu."
+    },
+    "head": {
+      "word": "kapa",
+      "sentence": "Eta sa mi kapa."
+    },
+    "mouth": {
+      "word": "mura",
+      "sentence": "Eta sa mi mura."
+    },
+    "foot": {
+      "word": "tala",
+      "sentence": "Mi tala sa nesi."
+    },
+    "road": {
+      "word": "rena",
+      "sentence": "Na rena sa lora."
+    },
+    "city": {
+      "word": "seta",
+      "sentence": "Na seta sa bora."
+    },
+    "school": {
+      "word": "lemo",
+      "sentence": "Na miri vao ve lemo."
+    },
+    "sea": {
+      "word": "osai",
+      "sentence": "An ora na osai."
+    },
+    "night": {
+      "word": "noka",
+      "sentence": "Na noka sa nesi."
+    },
+    "one": {
+      "word": "ano",
+      "sentence": "An tena ano rusi."
+    },
+    "two": {
+      "word": "tea",
+      "sentence": "An ora tea pirin."
+    },
+    "big": {
+      "word": "bora",
+      "sentence": "Na hara sa bora."
+    },
+    "small": {
+      "word": "lini",
+      "sentence": "Na miri sa lini."
+    },
+    "good": {
+      "word": "savi",
+      "sentence": "Na tasi sa savi."
+    },
+    "hot": {
+      "word": "kala",
+      "sentence": "Na vora sa kala."
+    },
+    "cold": {
+      "word": "nesi",
+      "sentence": "Na nai sa nesi."
+    },
+    "red": {
+      "word": "rua",
+      "sentence": "Na rusi sa rua."
+    },
+    "new": {
+      "word": "fira",
+      "sentence": "Na leba sa fira."
+    },
+    "this": {
+      "word": "eta",
+      "sentence": "Eta sa mi hara."
+    }
+  },
+  "lines": {
+    "d1a": "Ayo. An sa asi.",
+    "d1b": "Ke sa tu eno?",
+    "d1c": "Mi eno sa Anna. Eta sa mi karu.",
+    "d1d": "Vena en. Na tasi sa savi.",
+    "d2a": "An ora na kora.",
+    "d2b": "Na rena sa lora.",
+    "d2c": "Na hari sa kala.",
+    "d2d": "Ane sota, e an nava nai.",
+    "d3a": "Na miri duma.",
+    "d3b": "An ora na luma.",
+    "d3c": "An lena na rima.",
+    "d3d": "Na hara sa lini e savi."
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "entries": {
+    "i": {
+      "word": "mimi",
+      "sentence": "Mimi niko hapa."
+    },
+    "you": {
+      "word": "wewe",
+      "sentence": "Wewe ni rafiki yangu."
+    },
+    "woman": {
+      "word": "mwanamke",
+      "sentence": "Mwanamke yuko hapa.",
+      "note": "class m-wa"
+    },
+    "man": {
+      "word": "mwanamume",
+      "sentence": "Mwanamume anatembea."
+    },
+    "child": {
+      "word": "mtoto",
+      "sentence": "Mtoto analala.",
+      "plural": "watoto"
+    },
+    "name": {
+      "word": "jina",
+      "sentence": "Jina langu ni Anna."
+    },
+    "friend": {
+      "word": "rafiki",
+      "sentence": "Huyu ni rafiki yangu.",
+      "note": "class n"
+    },
+    "family": {
+      "word": "familia",
+      "sentence": "Familia yangu iko nyumbani."
+    },
+    "house": {
+      "word": "nyumba",
+      "sentence": "Nyumba ni ndogo.",
+      "note": "class n"
+    },
+    "door": {
+      "word": "mlango",
+      "sentence": "Mlango uko wazi."
+    },
+    "key": {
+      "word": "ufunguo",
+      "sentence": "Ufunguo uko mezani."
+    },
+    "table": {
+      "word": "meza",
+      "sentence": "Kitabu kiko mezani."
+    },
+    "bed": {
+      "word": "kitanda",
+      "sentence": "Mtoto yuko kitandani."
+    },
+    "book": {
+      "word": "kitabu",
+      "sentence": "Kitabu ni kipya."
+    },
+    "water": {
+      "word": "maji",
+      "sentence": "Maji ni baridi.",
+      "note": "class ma"
+    },
+    "fire": {
+      "word": "moto",
+      "sentence": "Moto ni mkali."
+    },
+    "bread": {
+      "word": "mkate",
+      "sentence": "Mkate ni mzuri."
+    },
+    "apple": {
+      "word": "tofaa",
+      "sentence": "Tofaa ni jekundu."
+    },
+    "egg": {
+      "word": "yai",
+      "sentence": "Yai liko mezani."
+    },
+    "milk": {
+      "word": "maziwa",
+      "sentence": "Mtoto anakunywa maziwa."
+    },
+    "fish": {
+      "word": "samaki",
+      "sentence": "Samaki yuko majini."
+    },
+    "rice": {
+      "word": "wali",
+      "sentence": "Tunakula wali."
+    },
+    "coffee": {
+      "word": "kahawa",
+      "sentence": "Kahawa ni moto."
+    },
+    "eat": {
+      "word": "kula",
+      "sentence": "Tunakula mkate."
+    },
+    "drink": {
+      "word": "kunywa",
+      "sentence": "Ninakunywa maji."
+    },
+    "see": {
+      "word": "ona",
+      "sentence": "Ninaona jua."
+    },
+    "hear": {
+      "word": "sikia",
+      "sentence": "Ninasikia mvua."
+    },
+    "sleep": {
+      "word": "lala",
+      "sentence": "Mtoto analala."
+    },
+    "walk": {
+      "word": "tembea",
+      "sentence": "Mwanamume anatembea."
+    },
+    "come": {
+      "word": "kuja",
+      "sentence": "Unakuja nyumbani."
+    },
+    "sit": {
+      "word": "kaa",
+      "sentence": "Tunakaa mezani."
+    },
+    "give": {
+      "word": "pa",
+      "sentence": "Ninakupa ufunguo."
+    },
+    "sun": {
+      "word": "jua",
+      "sentence": "Jua ni kali."
+    },
+    "moon": {
+      "word": "mwezi",
+      "sentence": "Ninaona mwezi."
+    },
+    "tree": {
+      "word": "mti",
+      "sentence": "Mti ni mkubwa."
+    },
+    "flower": {
+      "word": "ua",
+      "sentence": "Ua ni jekundu."
+    },
+    "rain": {
+      "word": "mvua",
+      "sentence": "Mvua ni baridi."
+    },
+    "mountain": {
+      "word": "mlima",
+      "sentence": "Mlima ni mkubwa."
+    },
+    "river": {
+      "word": "mto",
+      "sentence": "Mto ni mrefu."
+    },
+    "stone": {
+      "word": "jiwe",
+      "sentence": "Jiwe ni dogo."
+    },
+    "dog": {
+      "word": "mbwa",
+      "sentence": "Mbwa ni mdogo."
+    },
+    "cat": {
+      "word": "paka",
+      "sentence": "Paka analala."
+    },
+    "bird": {
+      "word": "ndege",
+      "sentence": "Ninaona ndege wawili."
+    },
+    "hand": {
+      "word": "mkono",
+      "sentence": "Huu ni mkono wangu."
+    },
+    "eye": {
+      "word": "jicho",
+      "sentence": "Hili ni jicho langu.",
+      "plural": "macho"
+    },
+    "ear": {
+      "word": "sikio",
+      "sentence": "Hili ni sikio langu.",
+      "plural": "masikio"
+    },
+    "head": {
+      "word": "kichwa",
+      "sentence": "Hiki ni kichwa changu."
+    },
+    "mouth": {
+      "word": "kinywa",
+      "sentence": "Hiki ni kinywa changu."
+    },
+    "foot": {
+      "word": "mguu",
+      "sentence": "Mguu wangu ni baridi."
+    },
+    "road": {
+      "word": "njia",
+      "sentence": "Njia ni ndefu."
+    },
+    "city": {
+      "word": "mji",
+      "sentence": "Mji ni mkubwa."
+    },
+    "school": {
+      "word": "shule",
+      "sentence": "Mtoto anaenda shuleni."
+    },
+    "sea": {
+      "word": "bahari",
+      "sentence": "Ninaona bahari."
+    },
+    "night": {
+      "word": "usiku",
+      "sentence": "Usiku ni baridi."
+    },
+    "one": {
+      "word": "moja",
+      "sentence": "Nina tofaa moja."
+    },
+    "two": {
+      "word": "mbili",
+      "sentence": "Ninaona ndege wawili."
+    },
+    "big": {
+      "word": "kubwa",
+      "sentence": "Nyumba ni kubwa."
+    },
+    "small": {
+      "word": "ndogo",
+      "sentence": "Mtoto ni mdogo."
+    },
+    "good": {
+      "word": "zuri",
+      "sentence": "Mkate ni mzuri."
+    },
+    "hot": {
+      "word": "moto",
+      "sentence": "Moto ni mkali."
+    },
+    "cold": {
+      "word": "baridi",
+      "sentence": "Maji ni baridi."
+    },
+    "red": {
+      "word": "jekundu",
+      "sentence": "Tofaa ni jekundu."
+    },
+    "new": {
+      "word": "pya",
+      "sentence": "Kitabu ni kipya."
+    },
+    "this": {
+      "word": "hii",
+      "sentence": "Hii ni nyumba yangu.",
+      "feminine": "huyu",
+      "note": "hii n · huyu m-wa · hiki ki"
+    }
+  },
+  "lines": {
+    "d1a": "Habari. Mimi niko hapa.",
+    "d1b": "Jina lako ni nani?",
+    "d1c": "Jina langu ni Anna. Huyu ni rafiki yangu.",
+    "d1d": "Karibu. Mkate ni mzuri.",
+    "d2a": "Ninaona mlima.",
+    "d2b": "Njia ni ndefu.",
+    "d2c": "Jua ni kali.",
+    "d2d": "Tunakaa, na ninakunywa maji.",
+    "d3a": "Mtoto analala.",
+    "d3b": "Ninaona mwezi.",
+    "d3c": "Ninasikia mvua.",
+    "d3d": "Nyumba ni ndogo na nzuri."
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "entries": {
+    "i": {
+      "word": "ni",
+      "sentence": "Ina nan."
+    },
+    "you": {
+      "word": "kai",
+      "sentence": "Kai abokina ne.",
+      "feminine": "ke",
+      "note": "ke is feminine"
+    },
+    "woman": {
+      "word": "mace",
+      "sentence": "Mace tana nan."
+    },
+    "man": {
+      "word": "namiji",
+      "sentence": "Namiji yana tafiya."
+    },
+    "child": {
+      "word": "yaro",
+      "sentence": "Yaro yana barci.",
+      "feminine": "yarinya"
+    },
+    "name": {
+      "word": "suna",
+      "sentence": "Sunana Anna."
+    },
+    "friend": {
+      "word": "aboki",
+      "sentence": "Wannan abokina ne.",
+      "feminine": "abokiya"
+    },
+    "family": {
+      "word": "iyali",
+      "sentence": "Iyalina suna gida."
+    },
+    "house": {
+      "word": "gida",
+      "sentence": "Gida yana da ƙanƙanta."
+    },
+    "door": {
+      "word": "kofa",
+      "sentence": "Kofa tana buɗe."
+    },
+    "key": {
+      "word": "mabuɗi",
+      "sentence": "Mabuɗi yana kan tebur."
+    },
+    "table": {
+      "word": "tebur",
+      "sentence": "Littafi yana kan tebur."
+    },
+    "bed": {
+      "word": "gado",
+      "sentence": "Yaro yana cikin gado."
+    },
+    "book": {
+      "word": "littafi",
+      "sentence": "Littafi sabo ne."
+    },
+    "water": {
+      "word": "ruwa",
+      "sentence": "Ruwa yana da sanyi."
+    },
+    "fire": {
+      "word": "wuta",
+      "sentence": "Wuta tana da zafi."
+    },
+    "bread": {
+      "word": "burodi",
+      "sentence": "Burodi yana da kyau."
+    },
+    "apple": {
+      "word": "tuffa",
+      "sentence": "Tuffa ja ce."
+    },
+    "egg": {
+      "word": "ƙwai",
+      "sentence": "Ƙwai yana kan tebur."
+    },
+    "milk": {
+      "word": "madara",
+      "sentence": "Yaro yana shan madara."
+    },
+    "fish": {
+      "word": "kifi",
+      "sentence": "Kifi yana cikin ruwa."
+    },
+    "rice": {
+      "word": "shinkafa",
+      "sentence": "Muna cin shinkafa."
+    },
+    "coffee": {
+      "word": "kofi",
+      "sentence": "Kofi tana da zafi."
+    },
+    "eat": {
+      "word": "ci",
+      "sentence": "Muna cin burodi."
+    },
+    "drink": {
+      "word": "sha",
+      "sentence": "Ina shan ruwa."
+    },
+    "see": {
+      "word": "gani",
+      "sentence": "Ina ganin rana."
+    },
+    "hear": {
+      "word": "ji",
+      "sentence": "Ina jin ruwan sama."
+    },
+    "sleep": {
+      "word": "barci",
+      "sentence": "Yaro yana barci."
+    },
+    "walk": {
+      "word": "tafiya",
+      "sentence": "Namiji yana tafiya."
+    },
+    "come": {
+      "word": "zo",
+      "sentence": "Kana zuwa gida."
+    },
+    "sit": {
+      "word": "zauna",
+      "sentence": "Muna zaune a tebur."
+    },
+    "give": {
+      "word": "ba",
+      "sentence": "Ina ba ka mabuɗi."
+    },
+    "sun": {
+      "word": "rana",
+      "sentence": "Rana tana da zafi."
+    },
+    "moon": {
+      "word": "wata",
+      "sentence": "Ina ganin wata."
+    },
+    "tree": {
+      "word": "bita",
+      "sentence": "Bita babba ne."
+    },
+    "flower": {
+      "word": "fure",
+      "sentence": "Fure ja ne."
+    },
+    "rain": {
+      "word": "ruwan sama",
+      "sentence": "Ruwan sama yana da sanyi."
+    },
+    "mountain": {
+      "word": "tudu",
+      "sentence": "Tudu babba ne."
+    },
+    "river": {
+      "word": "kogi",
+      "sentence": "Kogi dogo ne."
+    },
+    "stone": {
+      "word": "dutse",
+      "sentence": "Dutse ƙarami ne.",
+      "note": "same word as mountain in this deck: dutse"
+    },
+    "dog": {
+      "word": "kare",
+      "sentence": "Kare ƙarami ne."
+    },
+    "cat": {
+      "word": "kyanwa",
+      "sentence": "Kyanwa tana barci."
+    },
+    "bird": {
+      "word": "tsuntsu",
+      "sentence": "Ina ganin tsuntsu biyu."
+    },
+    "hand": {
+      "word": "hannu",
+      "sentence": "Wannan hannuna ne."
+    },
+    "eye": {
+      "word": "ido",
+      "sentence": "Wannan idona ne."
+    },
+    "ear": {
+      "word": "kunne",
+      "sentence": "Wannan kunne na ne."
+    },
+    "head": {
+      "word": "kai",
+      "sentence": "Wannan kaina ne.",
+      "note": "kai also means you"
+    },
+    "mouth": {
+      "word": "baki",
+      "sentence": "Wannan bakina ne."
+    },
+    "foot": {
+      "word": "ƙafa",
+      "sentence": "Ƙafata tana da sanyi."
+    },
+    "road": {
+      "word": "hanya",
+      "sentence": "Hanya doguwa ce."
+    },
+    "city": {
+      "word": "birni",
+      "sentence": "Birni babba ne."
+    },
+    "school": {
+      "word": "makaranta",
+      "sentence": "Yaro yana zuwa makaranta."
+    },
+    "sea": {
+      "word": "teku",
+      "sentence": "Ina ganin teku."
+    },
+    "night": {
+      "word": "dare",
+      "sentence": "Dare yana da sanyi."
+    },
+    "one": {
+      "word": "ɗaya",
+      "sentence": "Ina da tuffa ɗaya."
+    },
+    "two": {
+      "word": "biyu",
+      "sentence": "Ina ganin tsuntsu biyu."
+    },
+    "big": {
+      "word": "babba",
+      "sentence": "Gida babba ne."
+    },
+    "small": {
+      "word": "ƙarami",
+      "sentence": "Yaro ƙarami ne."
+    },
+    "good": {
+      "word": "mai kyau",
+      "sentence": "Burodi yana da kyau."
+    },
+    "hot": {
+      "word": "zafi",
+      "sentence": "Wuta tana da zafi."
+    },
+    "cold": {
+      "word": "sanyi",
+      "sentence": "Ruwa yana da sanyi."
+    },
+    "red": {
+      "word": "ja",
+      "sentence": "Tuffa ja ce."
+    },
+    "new": {
+      "word": "sabo",
+      "sentence": "Littafi sabo ne."
+    },
+    "this": {
+      "word": "wannan",
+      "sentence": "Wannan gidana ne."
+    }
+  },
+  "lines": {
+    "d1a": "Sannu. Ina nan.",
+    "d1b": "Mene ne sunanka?",
+    "d1c": "Sunana Anna. Wannan abokina ne.",
+    "d1d": "Shigo. Burodi yana da kyau.",
+    "d2a": "Ina ganin tudu.",
+    "d2b": "Hanya doguwa ce.",
+    "d2c": "Rana tana da zafi.",
+    "d2d": "Muna zaune, kuma ina shan ruwa.",
+    "d3a": "Yaro yana barci.",
+    "d3b": "Ina ganin wata.",
+    "d3c": "Ina jin ruwan sama.",
+    "d3d": "Gida ƙarami ne kuma yana da kyau."
+  }
+}

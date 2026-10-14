@@ -1,0 +1,274 @@
+{
+  "entries": {
+    "i": {
+      "word": "ñuqa",
+      "sentence": "Ñuqa kaypi kani."
+    },
+    "you": {
+      "word": "qam",
+      "sentence": "Qam masiy kanki."
+    },
+    "woman": {
+      "word": "warmi",
+      "sentence": "Warmi kaypi kachkan."
+    },
+    "man": {
+      "word": "qhari",
+      "sentence": "Qhari purichkan."
+    },
+    "child": {
+      "word": "wawa",
+      "sentence": "Wawa puñuchkan."
+    },
+    "name": {
+      "word": "suti",
+      "sentence": "Sutiy Anna."
+    },
+    "friend": {
+      "word": "masi",
+      "sentence": "Kay masiy."
+    },
+    "family": {
+      "word": "ayllu",
+      "sentence": "Aylluy wasipi kachkan."
+    },
+    "house": {
+      "word": "wasi",
+      "sentence": "Wasi huch'uy."
+    },
+    "door": {
+      "word": "punku",
+      "sentence": "Punku kichasqa."
+    },
+    "key": {
+      "word": "llawi",
+      "sentence": "Llawi mesapi kachkan."
+    },
+    "table": {
+      "word": "mesa",
+      "sentence": "Liwrú mesapi kachkan."
+    },
+    "bed": {
+      "word": "puñuna",
+      "sentence": "Wawa puñunapi kachkan."
+    },
+    "book": {
+      "word": "liwrú",
+      "sentence": "Liwrú musuq."
+    },
+    "water": {
+      "word": "yaku",
+      "sentence": "Yaku chiri."
+    },
+    "fire": {
+      "word": "nina",
+      "sentence": "Nina q'uñi."
+    },
+    "bread": {
+      "word": "t'anta",
+      "sentence": "T'anta allin."
+    },
+    "apple": {
+      "word": "mansana",
+      "sentence": "Mansana puka."
+    },
+    "egg": {
+      "word": "runtu",
+      "sentence": "Runtu mesapi kachkan."
+    },
+    "milk": {
+      "word": "lichi",
+      "sentence": "Wawa lichita uqyachkan."
+    },
+    "fish": {
+      "word": "challwa",
+      "sentence": "Challwa yakupi kachkan."
+    },
+    "rice": {
+      "word": "arroz",
+      "sentence": "Ñuqayku arrozta mikhuyku."
+    },
+    "coffee": {
+      "word": "kaphiy",
+      "sentence": "Kaphiy q'uñi."
+    },
+    "eat": {
+      "word": "mikhuy",
+      "sentence": "Ñuqayku t'antata mikhuyku."
+    },
+    "drink": {
+      "word": "uqyay",
+      "sentence": "Ñuqa yakuta uqyani."
+    },
+    "see": {
+      "word": "rikuy",
+      "sentence": "Ñuqa intita rikuni."
+    },
+    "hear": {
+      "word": "uyariy",
+      "sentence": "Ñuqa parata uyariyni."
+    },
+    "sleep": {
+      "word": "puñuy",
+      "sentence": "Wawa puñun."
+    },
+    "walk": {
+      "word": "puriy",
+      "sentence": "Qhari purin."
+    },
+    "come": {
+      "word": "hamuy",
+      "sentence": "Qam wasiman hamunki."
+    },
+    "sit": {
+      "word": "tiyay",
+      "sentence": "Ñuqayku mesapi tiyayku."
+    },
+    "give": {
+      "word": "quy",
+      "sentence": "Ñuqa qamman llawita quni."
+    },
+    "sun": {
+      "word": "inti",
+      "sentence": "Inti q'uñi."
+    },
+    "moon": {
+      "word": "killa",
+      "sentence": "Ñuqa killata rikuni."
+    },
+    "tree": {
+      "word": "sach'a",
+      "sentence": "Sach'a hatun."
+    },
+    "flower": {
+      "word": "t'ika",
+      "sentence": "T'ika puka."
+    },
+    "rain": {
+      "word": "para",
+      "sentence": "Para chiri."
+    },
+    "mountain": {
+      "word": "urqu",
+      "sentence": "Urqu hatun."
+    },
+    "river": {
+      "word": "mayu",
+      "sentence": "Mayu suni."
+    },
+    "stone": {
+      "word": "rumi",
+      "sentence": "Rumi huch'uy."
+    },
+    "dog": {
+      "word": "allqu",
+      "sentence": "Allqu huch'uy."
+    },
+    "cat": {
+      "word": "misi",
+      "sentence": "Misi puñuchkan."
+    },
+    "bird": {
+      "word": "pisqu",
+      "sentence": "Ñuqa iskay pisquta rikuni."
+    },
+    "hand": {
+      "word": "maki",
+      "sentence": "Kay makiy."
+    },
+    "eye": {
+      "word": "ñawi",
+      "sentence": "Kay ñawiy."
+    },
+    "ear": {
+      "word": "ninri",
+      "sentence": "Kay ninriy."
+    },
+    "head": {
+      "word": "uma",
+      "sentence": "Kay umay."
+    },
+    "mouth": {
+      "word": "simi",
+      "sentence": "Kay simiy."
+    },
+    "foot": {
+      "word": "chaki",
+      "sentence": "Chakiy chiri."
+    },
+    "road": {
+      "word": "ñan",
+      "sentence": "Ñan suni."
+    },
+    "city": {
+      "word": "llaqta",
+      "sentence": "Llaqta hatun."
+    },
+    "school": {
+      "word": "yachaywasi",
+      "sentence": "Wawa yachaywasiman rin."
+    },
+    "sea": {
+      "word": "mama qucha",
+      "sentence": "Ñuqa mama quchata rikuni."
+    },
+    "night": {
+      "word": "tuta",
+      "sentence": "Tuta chiri."
+    },
+    "one": {
+      "word": "huk",
+      "sentence": "Ñuqapa huk mansanay kachkan."
+    },
+    "two": {
+      "word": "iskay",
+      "sentence": "Ñuqa iskay pisquta rikuni."
+    },
+    "big": {
+      "word": "hatun",
+      "sentence": "Wasi hatun."
+    },
+    "small": {
+      "word": "huch'uy",
+      "sentence": "Wawa huch'uy."
+    },
+    "good": {
+      "word": "allin",
+      "sentence": "T'anta allin."
+    },
+    "hot": {
+      "word": "q'uñi",
+      "sentence": "Nina q'uñi."
+    },
+    "cold": {
+      "word": "chiri",
+      "sentence": "Yaku chiri."
+    },
+    "red": {
+      "word": "puka",
+      "sentence": "Mansana puka."
+    },
+    "new": {
+      "word": "musuq",
+      "sentence": "Liwrú musuq."
+    },
+    "this": {
+      "word": "kay",
+      "sentence": "Kay wasiy."
+    }
+  },
+  "lines": {
+    "d1a": "Rimaykullayki. Ñuqa kaypi kani.",
+    "d1b": "Ima sutiyki?",
+    "d1c": "Sutiy Anna. Kay masiy.",
+    "d1d": "Haykuy. T'anta allin.",
+    "d2a": "Ñuqa urquta rikuni.",
+    "d2b": "Ñan suni.",
+    "d2c": "Inti q'uñi.",
+    "d2d": "Ñuqayku tiyayku, ñuqataq yakuta uqyani.",
+    "d3a": "Wawa puñun.",
+    "d3b": "Ñuqa killata rikuni.",
+    "d3c": "Ñuqa parata uyariyni.",
+    "d3d": "Wasi huch'uy hinallataq allin."
+  }
+}

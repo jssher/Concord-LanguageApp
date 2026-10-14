@@ -1,0 +1,339 @@
+{
+  "entries": {
+    "i": {
+      "word": "მე",
+      "sentence": "მე აქ ვარ.",
+      "reading": "me"
+    },
+    "you": {
+      "word": "შენ",
+      "sentence": "შენ ჩემი მეგობარი ხარ.",
+      "reading": "shen",
+      "note": "singular"
+    },
+    "woman": {
+      "word": "ქალი",
+      "sentence": "ქალი აქ არის.",
+      "reading": "kali"
+    },
+    "man": {
+      "word": "კაცი",
+      "sentence": "კაცი დადის.",
+      "reading": "k'atsi"
+    },
+    "child": {
+      "word": "ბავშვი",
+      "sentence": "ბავშვს სძინავს.",
+      "reading": "bavshvi"
+    },
+    "name": {
+      "word": "სახელი",
+      "sentence": "ჩემი სახელია ანა.",
+      "reading": "sakheli"
+    },
+    "friend": {
+      "word": "მეგობარი",
+      "sentence": "ეს ჩემი მეგობარია.",
+      "reading": "megobari"
+    },
+    "family": {
+      "word": "ოჯახი",
+      "sentence": "ჩემი ოჯახი სახლშია.",
+      "reading": "ojakhi"
+    },
+    "house": {
+      "word": "სახლი",
+      "sentence": "სახლი პატარაა.",
+      "reading": "sakhli"
+    },
+    "door": {
+      "word": "კარი",
+      "sentence": "კარი ღიაა.",
+      "reading": "k'ari"
+    },
+    "key": {
+      "word": "გასაღები",
+      "sentence": "გასაღები მაგიდაზეა.",
+      "reading": "gasaghebi"
+    },
+    "table": {
+      "word": "მაგიდა",
+      "sentence": "წიგნი მაგიდაზეა.",
+      "reading": "magida"
+    },
+    "bed": {
+      "word": "საწოლი",
+      "sentence": "ბავშვი საწოლშია.",
+      "reading": "sats'oli"
+    },
+    "book": {
+      "word": "წიგნი",
+      "sentence": "წიგნი ახალია.",
+      "reading": "ts'igni"
+    },
+    "water": {
+      "word": "წყალი",
+      "sentence": "წყალი ცივია.",
+      "reading": "ts'q'ali"
+    },
+    "fire": {
+      "word": "ცეცხლი",
+      "sentence": "ცეცხლი ცხელია.",
+      "reading": "tsetskhli"
+    },
+    "bread": {
+      "word": "პური",
+      "sentence": "პური კარგია.",
+      "reading": "p'uri"
+    },
+    "apple": {
+      "word": "ვაშლი",
+      "sentence": "ვაშლი წითელია.",
+      "reading": "vashli"
+    },
+    "egg": {
+      "word": "კვერცხი",
+      "sentence": "კვერცხი მაგიდაზეა.",
+      "reading": "k'vertskhi"
+    },
+    "milk": {
+      "word": "რძე",
+      "sentence": "ბავშვი რძეს სვამს.",
+      "reading": "rdze"
+    },
+    "fish": {
+      "word": "თევზი",
+      "sentence": "თევზი წყალშია.",
+      "reading": "tevzi"
+    },
+    "rice": {
+      "word": "ბრინჯი",
+      "sentence": "ჩვენ ბრინჯს ვჭამთ.",
+      "reading": "brinji"
+    },
+    "coffee": {
+      "word": "ყავა",
+      "sentence": "ყავა ცხელია.",
+      "reading": "q'ava"
+    },
+    "eat": {
+      "word": "ჭამა",
+      "sentence": "ჩვენ პურს ვჭამთ.",
+      "reading": "ch'ama"
+    },
+    "drink": {
+      "word": "სმა",
+      "sentence": "მე წყალს ვსვამ.",
+      "reading": "sma"
+    },
+    "see": {
+      "word": "ხედვა",
+      "sentence": "მე მზეს ვხედავ.",
+      "reading": "khedva"
+    },
+    "hear": {
+      "word": "მოსმენა",
+      "sentence": "მე წვიმას ვისმენ.",
+      "reading": "mosmena"
+    },
+    "sleep": {
+      "word": "ძილი",
+      "sentence": "ბავშვს სძინავს.",
+      "reading": "dzili"
+    },
+    "walk": {
+      "word": "სიარული",
+      "sentence": "კაცი დადის.",
+      "reading": "siaruli"
+    },
+    "come": {
+      "word": "მოსვლა",
+      "sentence": "შენ სახლში მოდიხარ.",
+      "reading": "mosvla"
+    },
+    "sit": {
+      "word": "ჯდომა",
+      "sentence": "ჩვენ მაგიდასთან ვსხედვართ.",
+      "reading": "jdoma"
+    },
+    "give": {
+      "word": "მიცემა",
+      "sentence": "მე გასაღებს გაძლევ.",
+      "reading": "mitsema"
+    },
+    "sun": {
+      "word": "მზე",
+      "sentence": "მზე ცხელია.",
+      "reading": "mze"
+    },
+    "moon": {
+      "word": "მთვარე",
+      "sentence": "მე მთვარეს ვხედავ.",
+      "reading": "mtvare"
+    },
+    "tree": {
+      "word": "ხე",
+      "sentence": "ხე დიდია.",
+      "reading": "khe"
+    },
+    "flower": {
+      "word": "ყვავილი",
+      "sentence": "ყვავილი წითელია.",
+      "reading": "q'vavili"
+    },
+    "rain": {
+      "word": "წვიმა",
+      "sentence": "წვიმა ცივია.",
+      "reading": "tsvima"
+    },
+    "mountain": {
+      "word": "მთა",
+      "sentence": "მთა დიდია.",
+      "reading": "mta"
+    },
+    "river": {
+      "word": "მდინარე",
+      "sentence": "მდინარე გრძელია.",
+      "reading": "mdinare"
+    },
+    "stone": {
+      "word": "ქვა",
+      "sentence": "ქვა პატარაა.",
+      "reading": "kva"
+    },
+    "dog": {
+      "word": "ძაღლი",
+      "sentence": "ძაღლი პატარაა.",
+      "reading": "dzaghli"
+    },
+    "cat": {
+      "word": "კატა",
+      "sentence": "კატას სძინავს.",
+      "reading": "k'ata"
+    },
+    "bird": {
+      "word": "ფრინველი",
+      "sentence": "მე ორ ფრინველს ვხედავ.",
+      "reading": "prinveli"
+    },
+    "hand": {
+      "word": "ხელი",
+      "sentence": "ეს ჩემი ხელია.",
+      "reading": "kheli"
+    },
+    "eye": {
+      "word": "თვალი",
+      "sentence": "ეს ჩემი თვალია.",
+      "reading": "tvali"
+    },
+    "ear": {
+      "word": "ყური",
+      "sentence": "ეს ჩემი ყურია.",
+      "reading": "q'uri"
+    },
+    "head": {
+      "word": "თავი",
+      "sentence": "ეს ჩემი თავია.",
+      "reading": "tavi"
+    },
+    "mouth": {
+      "word": "პირი",
+      "sentence": "ეს ჩემი პირია.",
+      "reading": "piri"
+    },
+    "foot": {
+      "word": "ფეხი",
+      "sentence": "ჩემი ფეხი ცივია.",
+      "reading": "pekhi"
+    },
+    "road": {
+      "word": "გზა",
+      "sentence": "გზა გრძელია.",
+      "reading": "gza"
+    },
+    "city": {
+      "word": "ქალაქი",
+      "sentence": "ქალაქი დიდია.",
+      "reading": "kalaki"
+    },
+    "school": {
+      "word": "სკოლა",
+      "sentence": "ბავშვი სკოლაში მიდის.",
+      "reading": "skola"
+    },
+    "sea": {
+      "word": "ზღვა",
+      "sentence": "მე ზღვას ვხედავ.",
+      "reading": "zghva"
+    },
+    "night": {
+      "word": "ღამე",
+      "sentence": "ღამე ცივია.",
+      "reading": "ghame"
+    },
+    "one": {
+      "word": "ერთი",
+      "sentence": "მე ერთი ვაშლი მაქვს.",
+      "reading": "erti"
+    },
+    "two": {
+      "word": "ორი",
+      "sentence": "მე ორ ფრინველს ვხედავ.",
+      "reading": "ori"
+    },
+    "big": {
+      "word": "დიდი",
+      "sentence": "სახლი დიდია.",
+      "reading": "didi"
+    },
+    "small": {
+      "word": "პატარა",
+      "sentence": "ბავშვი პატარაა.",
+      "reading": "p'at'ara"
+    },
+    "good": {
+      "word": "კარგი",
+      "sentence": "პური კარგია.",
+      "reading": "k'argi"
+    },
+    "hot": {
+      "word": "ცხელი",
+      "sentence": "ცეცხლი ცხელია.",
+      "reading": "tskheli"
+    },
+    "cold": {
+      "word": "ცივი",
+      "sentence": "წყალი ცივია.",
+      "reading": "tsivi"
+    },
+    "red": {
+      "word": "წითელი",
+      "sentence": "ვაშლი წითელია.",
+      "reading": "ts'iteli"
+    },
+    "new": {
+      "word": "ახალი",
+      "sentence": "წიგნი ახალია.",
+      "reading": "akhali"
+    },
+    "this": {
+      "word": "ეს",
+      "sentence": "ეს ჩემი სახლია.",
+      "reading": "es"
+    }
+  },
+  "lines": {
+    "d1a": "გამარჯობა. მე აქ ვარ.",
+    "d1b": "რა გქვია?",
+    "d1c": "ჩემი სახელია ანა. ეს ჩემი მეგობარია.",
+    "d1d": "შემოდი. პური კარგია.",
+    "d2a": "მე მთას ვხედავ.",
+    "d2b": "გზა გრძელია.",
+    "d2c": "მზე ცხელია.",
+    "d2d": "ჩვენ ვსხედვართ, და მე წყალს ვსვამ.",
+    "d3a": "ბავშვს სძინავს.",
+    "d3b": "მე მთვარეს ვხედავ.",
+    "d3c": "მე წვიმას ვისმენ.",
+    "d3d": "სახლი პატარა და კარგია."
+  }
+}

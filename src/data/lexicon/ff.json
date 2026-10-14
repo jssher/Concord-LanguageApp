@@ -1,0 +1,274 @@
+{
+  "entries": {
+    "i": {
+      "word": "min",
+      "sentence": "Miɗo ɗoo."
+    },
+    "you": {
+      "word": "aan",
+      "sentence": "Aan ko gido am."
+    },
+    "woman": {
+      "word": "debbo",
+      "sentence": "Debbo ɗoo."
+    },
+    "man": {
+      "word": "gorko",
+      "sentence": "Gorko ena yaha."
+    },
+    "child": {
+      "word": "cukalel",
+      "sentence": "Cukalel ena ɗaana."
+    },
+    "name": {
+      "word": "innde",
+      "sentence": "Innde am ko Anna."
+    },
+    "friend": {
+      "word": "gido",
+      "sentence": "Ooɗo ko gido am."
+    },
+    "family": {
+      "word": "iyaalu",
+      "sentence": "Iyaalu am ena nder suudu."
+    },
+    "house": {
+      "word": "suudu",
+      "sentence": "Suudu famɗi."
+    },
+    "door": {
+      "word": "damal",
+      "sentence": "Damal ena udditii."
+    },
+    "key": {
+      "word": "ke",
+      "sentence": "Ke ena dow taabal."
+    },
+    "table": {
+      "word": "taabal",
+      "sentence": "Deftere ena dow taabal."
+    },
+    "bed": {
+      "word": "leeso",
+      "sentence": "Cukalel ena nder leeso."
+    },
+    "book": {
+      "word": "deftere",
+      "sentence": "Deftere hesiri."
+    },
+    "water": {
+      "word": "ndiyam",
+      "sentence": "Ndiyam ena peewi."
+    },
+    "fire": {
+      "word": "yiite",
+      "sentence": "Yiite ena wuli."
+    },
+    "bread": {
+      "word": "buuru",
+      "sentence": "Buuru ena moƴƴi."
+    },
+    "apple": {
+      "word": "pomme",
+      "sentence": "Pomme ena boɗee."
+    },
+    "egg": {
+      "word": "ɓoccoonde",
+      "sentence": "Ɓoccoonde ena dow taabal."
+    },
+    "milk": {
+      "word": "kosam",
+      "sentence": "Cukalel ena yara kosam."
+    },
+    "fish": {
+      "word": "liingu",
+      "sentence": "Liingu ena nder ndiyam."
+    },
+    "rice": {
+      "word": "maaro",
+      "sentence": "En nyaaman maaro."
+    },
+    "coffee": {
+      "word": "kafe",
+      "sentence": "Kafe ena wuli."
+    },
+    "eat": {
+      "word": "nyaamgo",
+      "sentence": "En nyaaman buuru."
+    },
+    "drink": {
+      "word": "yarugo",
+      "sentence": "Miɗo yara ndiyam."
+    },
+    "see": {
+      "word": "yi'ugo",
+      "sentence": "Miɗo yi'a naange."
+    },
+    "hear": {
+      "word": "nanugo",
+      "sentence": "Miɗo nana toɓo."
+    },
+    "sleep": {
+      "word": "ɗaanugo",
+      "sentence": "Cukalel ena ɗaana."
+    },
+    "walk": {
+      "word": "yahugo",
+      "sentence": "Gorko ena yaha."
+    },
+    "come": {
+      "word": "arugo",
+      "sentence": "A arata haa suudu."
+    },
+    "sit": {
+      "word": "joodaago",
+      "sentence": "En joodii ba taabal."
+    },
+    "give": {
+      "word": "hokkugo",
+      "sentence": "Mi hokkata ma ke."
+    },
+    "sun": {
+      "word": "naange",
+      "sentence": "Naange ena wuli."
+    },
+    "moon": {
+      "word": "lewru",
+      "sentence": "Miɗo yi'a lewru."
+    },
+    "tree": {
+      "word": "lekki",
+      "sentence": "Lekki mawni."
+    },
+    "flower": {
+      "word": "ful",
+      "sentence": "Ful ena boɗee."
+    },
+    "rain": {
+      "word": "toɓo",
+      "sentence": "Toɓo ena peewi."
+    },
+    "mountain": {
+      "word": "fello",
+      "sentence": "Fello mawni."
+    },
+    "river": {
+      "word": "maayo",
+      "sentence": "Maayo juuti."
+    },
+    "stone": {
+      "word": "haayre",
+      "sentence": "Haayre famɗi."
+    },
+    "dog": {
+      "word": "rawaandu",
+      "sentence": "Rawaandu famɗi."
+    },
+    "cat": {
+      "word": "muusuuru",
+      "sentence": "Muusuuru ena ɗaana."
+    },
+    "bird": {
+      "word": "sonndu",
+      "sentence": "Miɗo yi'a sonduuji ɗiɗi."
+    },
+    "hand": {
+      "word": "junngo",
+      "sentence": "Oo ko junngo am."
+    },
+    "eye": {
+      "word": "yitere",
+      "sentence": "Oo ko yitere am."
+    },
+    "ear": {
+      "word": "nowru",
+      "sentence": "Oo ko nowru am."
+    },
+    "head": {
+      "word": "hoore",
+      "sentence": "Oo ko hoore am."
+    },
+    "mouth": {
+      "word": "hunuko",
+      "sentence": "Oo ko hunuko am."
+    },
+    "foot": {
+      "word": "koyngal",
+      "sentence": "Koyngal am ena peewi."
+    },
+    "road": {
+      "word": "laawol",
+      "sentence": "Laawol juuti."
+    },
+    "city": {
+      "word": "wuro",
+      "sentence": "Wuro mawni."
+    },
+    "school": {
+      "word": "janngirde",
+      "sentence": "Cukalel ena yaha janngirde."
+    },
+    "sea": {
+      "word": "geec",
+      "sentence": "Miɗo yi'a geec."
+    },
+    "night": {
+      "word": "jemma",
+      "sentence": "Jemma ena peewi."
+    },
+    "one": {
+      "word": "go'o",
+      "sentence": "Mi mari pomme go'o."
+    },
+    "two": {
+      "word": "ɗiɗi",
+      "sentence": "Miɗo yi'a sonduuji ɗiɗi."
+    },
+    "big": {
+      "word": "mawɗo",
+      "sentence": "Suudu mawni."
+    },
+    "small": {
+      "word": "famɗo",
+      "sentence": "Cukalel famɗi."
+    },
+    "good": {
+      "word": "moƴƴo",
+      "sentence": "Buuru ena moƴƴi."
+    },
+    "hot": {
+      "word": "wuli",
+      "sentence": "Yiite ena wuli."
+    },
+    "cold": {
+      "word": "peewol",
+      "sentence": "Ndiyam ena peewi."
+    },
+    "red": {
+      "word": "boɗeejo",
+      "sentence": "Pomme ena boɗee."
+    },
+    "new": {
+      "word": "keso",
+      "sentence": "Deftere hesiri."
+    },
+    "this": {
+      "word": "ɗum",
+      "sentence": "Ɗum ko suudu am."
+    }
+  },
+  "lines": {
+    "d1a": "Jam waali. Miɗo ɗoo.",
+    "d1b": "Innde maa ko honto?",
+    "d1c": "Innde am ko Anna. Ooɗo ko gido am.",
+    "d1d": "Naat. Buuru ena moƴƴi.",
+    "d2a": "Miɗo yi'a fello.",
+    "d2b": "Laawol juuti.",
+    "d2c": "Naange ena wuli.",
+    "d2d": "En joodii, miɗo yara ndiyam.",
+    "d3a": "Cukalel ena ɗaana.",
+    "d3b": "Miɗo yi'a lewru.",
+    "d3c": "Miɗo nana toɓo.",
+    "d3d": "Suudu famɗi, suudu moƴƴi."
+  }
+}

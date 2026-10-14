@@ -1,0 +1,277 @@
+{
+  "entries": {
+    "i": {
+      "word": "mụ",
+      "sentence": "M nọ ebe a."
+    },
+    "you": {
+      "word": "gị",
+      "sentence": "Ị bụ enyi m."
+    },
+    "woman": {
+      "word": "nwanyị",
+      "sentence": "Nwanyị nọ ebe a."
+    },
+    "man": {
+      "word": "nwoke",
+      "sentence": "Nwoke na-aga ije."
+    },
+    "child": {
+      "word": "nwa",
+      "sentence": "Nwa na-ehi ụra.",
+      "note": "nwa"
+    },
+    "name": {
+      "word": "aha",
+      "sentence": "Aha m bụ Anna."
+    },
+    "friend": {
+      "word": "enyi",
+      "sentence": "Nke a bụ enyi m."
+    },
+    "family": {
+      "word": "ezinụlọ",
+      "sentence": "Ezinụlọ m nọ n'ụlọ."
+    },
+    "house": {
+      "word": "ụlọ",
+      "sentence": "Ụlọ dị obere."
+    },
+    "door": {
+      "word": "ọnụ ụzọ",
+      "sentence": "Ọnụ ụzọ meghere."
+    },
+    "key": {
+      "word": "igodo",
+      "sentence": "Igodo dị n'elu tebulu."
+    },
+    "table": {
+      "word": "tebulu",
+      "sentence": "Akwụkwọ dị n'elu tebulu."
+    },
+    "bed": {
+      "word": "akwa",
+      "sentence": "Nwa nọ n'akwa."
+    },
+    "book": {
+      "word": "akwụkwọ",
+      "sentence": "Akwụkwọ dị ọhụrụ."
+    },
+    "water": {
+      "word": "mmiri",
+      "sentence": "Mmiri jụrụ oyi."
+    },
+    "fire": {
+      "word": "ọkụ",
+      "sentence": "Ọkụ na-ekpo ọkụ."
+    },
+    "bread": {
+      "word": "achịcha",
+      "sentence": "Achịcha dị mma."
+    },
+    "apple": {
+      "word": "apụl",
+      "sentence": "Apụl na-acha uhie."
+    },
+    "egg": {
+      "word": "akwa",
+      "sentence": "Akwa dị n'elu tebulu.",
+      "note": "akwa also means bed; context shows the egg"
+    },
+    "milk": {
+      "word": "mmiri ara",
+      "sentence": "Nwa na-aṅụ mmiri ara."
+    },
+    "fish": {
+      "word": "azụ̀",
+      "sentence": "Azụ̀ nọ na mmiri."
+    },
+    "rice": {
+      "word": "osikapa",
+      "sentence": "Anyị na-eri osikapa."
+    },
+    "coffee": {
+      "word": "kọfị",
+      "sentence": "Kọfị na-ekpo ọkụ."
+    },
+    "eat": {
+      "word": "rie",
+      "sentence": "Anyị na-eri achịcha."
+    },
+    "drink": {
+      "word": "ṅụọ",
+      "sentence": "M na-aṅụ mmiri."
+    },
+    "see": {
+      "word": "hụ",
+      "sentence": "M na-ahụ anyanwụ."
+    },
+    "hear": {
+      "word": "nụ",
+      "sentence": "M na-anụ mmiri ozuzo."
+    },
+    "sleep": {
+      "word": "hi ụra",
+      "sentence": "Nwa na-ehi ụra."
+    },
+    "walk": {
+      "word": "ga ije",
+      "sentence": "Nwoke na-aga ije."
+    },
+    "come": {
+      "word": "bịa",
+      "sentence": "Ị na-abịa n'ụlọ."
+    },
+    "sit": {
+      "word": "nọdụ",
+      "sentence": "Anyị na-anọdụ n'akụkụ tebulu."
+    },
+    "give": {
+      "word": "nye",
+      "sentence": "M na-enye gị igodo."
+    },
+    "sun": {
+      "word": "anyanwụ",
+      "sentence": "Anyanwụ na-ekpo ọkụ."
+    },
+    "moon": {
+      "word": "ọnwa",
+      "sentence": "M na-ahụ ọnwa."
+    },
+    "tree": {
+      "word": "osisi",
+      "sentence": "Osisi buru ibu."
+    },
+    "flower": {
+      "word": "ifuru",
+      "sentence": "Ifuru na-acha uhie."
+    },
+    "rain": {
+      "word": "mmiri ozuzo",
+      "sentence": "Mmiri ozuzo jụrụ oyi."
+    },
+    "mountain": {
+      "word": "ugwu",
+      "sentence": "Ugwu buru ibu."
+    },
+    "river": {
+      "word": "osimiri",
+      "sentence": "Osimiri dị ogologo."
+    },
+    "stone": {
+      "word": "nkume",
+      "sentence": "Nkume dị obere."
+    },
+    "dog": {
+      "word": "nkịta",
+      "sentence": "Nkịta dị obere."
+    },
+    "cat": {
+      "word": "nwamba",
+      "sentence": "Nwamba na-ehi ụra."
+    },
+    "bird": {
+      "word": "nnụnụ",
+      "sentence": "M na-ahụ nnụnụ abụọ."
+    },
+    "hand": {
+      "word": "aka",
+      "sentence": "Nke a bụ aka m."
+    },
+    "eye": {
+      "word": "anya",
+      "sentence": "Nke a bụ anya m."
+    },
+    "ear": {
+      "word": "ntị",
+      "sentence": "Nke a bụ ntị m."
+    },
+    "head": {
+      "word": "isi",
+      "sentence": "Nke a bụ isi m."
+    },
+    "mouth": {
+      "word": "ọnụ",
+      "sentence": "Nke a bụ ọnụ m."
+    },
+    "foot": {
+      "word": "ụkwụ",
+      "sentence": "Ụkwụ m jụrụ oyi."
+    },
+    "road": {
+      "word": "ụzọ",
+      "sentence": "Ụzọ dị ogologo."
+    },
+    "city": {
+      "word": "obodo",
+      "sentence": "Obodo buru ibu."
+    },
+    "school": {
+      "word": "ụlọ akwụkwọ",
+      "sentence": "Nwa na-aga ụlọ akwụkwọ."
+    },
+    "sea": {
+      "word": "oké osimiri",
+      "sentence": "M na-ahụ oké osimiri."
+    },
+    "night": {
+      "word": "abali",
+      "sentence": "Abali jụrụ oyi."
+    },
+    "one": {
+      "word": "otu",
+      "sentence": "M nwere otu apụl."
+    },
+    "two": {
+      "word": "abụọ",
+      "sentence": "M na-ahụ nnụnụ abụọ."
+    },
+    "big": {
+      "word": "nnukwu",
+      "sentence": "Ụlọ buru ibu."
+    },
+    "small": {
+      "word": "obere",
+      "sentence": "Nwa dị obere."
+    },
+    "good": {
+      "word": "ọma",
+      "sentence": "Achịcha dị mma."
+    },
+    "hot": {
+      "word": "ọkụ",
+      "sentence": "Ọkụ na-ekpo ọkụ.",
+      "note": "ọkụ is also fire"
+    },
+    "cold": {
+      "word": "oyi",
+      "sentence": "Mmiri jụrụ oyi."
+    },
+    "red": {
+      "word": "uhie",
+      "sentence": "Apụl na-acha uhie."
+    },
+    "new": {
+      "word": "ọhụrụ",
+      "sentence": "Akwụkwọ dị ọhụrụ."
+    },
+    "this": {
+      "word": "nke a",
+      "sentence": "Nke a bụ ụlọ m."
+    }
+  },
+  "lines": {
+    "d1a": "Ndewo. M nọ ebe a.",
+    "d1b": "Gịnị bụ aha gị?",
+    "d1c": "Aha m bụ Anna. Nke a bụ enyi m.",
+    "d1d": "Bata. Achịcha dị mma.",
+    "d2a": "M na-ahụ ugwu.",
+    "d2b": "Ụzọ dị ogologo.",
+    "d2c": "Anyanwụ na-ekpo ọkụ.",
+    "d2d": "Anyị na-anọdụ ala, m na-aṅụkwa mmiri.",
+    "d3a": "Nwa na-ehi ụra.",
+    "d3b": "M na-ahụ ọnwa.",
+    "d3c": "M na-anụ mmiri ozuzo.",
+    "d3d": "Ụlọ dị obere ma dịkwa mma."
+  }
+}

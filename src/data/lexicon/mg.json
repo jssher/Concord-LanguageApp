@@ -1,0 +1,274 @@
+{
+  "entries": {
+    "i": {
+      "word": "aho",
+      "sentence": "Eto aho."
+    },
+    "you": {
+      "word": "ianao",
+      "sentence": "Ianao no namako."
+    },
+    "woman": {
+      "word": "vehivavy",
+      "sentence": "Eto ilay vehivavy."
+    },
+    "man": {
+      "word": "lehilahy",
+      "sentence": "Mandeha ilay lehilahy."
+    },
+    "child": {
+      "word": "zaza",
+      "sentence": "Matory ilay zaza."
+    },
+    "name": {
+      "word": "anarana",
+      "sentence": "Anna no anarako."
+    },
+    "friend": {
+      "word": "namana",
+      "sentence": "Ity no namako."
+    },
+    "family": {
+      "word": "fianakaviana",
+      "sentence": "Ao an-trano ny fianakaviako."
+    },
+    "house": {
+      "word": "trano",
+      "sentence": "Kely ny trano."
+    },
+    "door": {
+      "word": "varavarana",
+      "sentence": "Misokatra ny varavarana."
+    },
+    "key": {
+      "word": "fanalahidy",
+      "sentence": "Eo ambony latabatra ny fanalahidy."
+    },
+    "table": {
+      "word": "latabatra",
+      "sentence": "Eo ambony latabatra ny boky."
+    },
+    "bed": {
+      "word": "farafara",
+      "sentence": "Eo am-parafara ny zaza."
+    },
+    "book": {
+      "word": "boky",
+      "sentence": "Vaovao ny boky."
+    },
+    "water": {
+      "word": "rano",
+      "sentence": "Mangatsiaka ny rano."
+    },
+    "fire": {
+      "word": "afo",
+      "sentence": "Mafana ny afo."
+    },
+    "bread": {
+      "word": "mofo",
+      "sentence": "Tsara ny mofo."
+    },
+    "apple": {
+      "word": "paoma",
+      "sentence": "Mena ny paoma."
+    },
+    "egg": {
+      "word": "atody",
+      "sentence": "Eo ambony latabatra ny atody."
+    },
+    "milk": {
+      "word": "ronono",
+      "sentence": "Misotro ronono ilay zaza."
+    },
+    "fish": {
+      "word": "trondro",
+      "sentence": "Ao anaty rano ny trondro."
+    },
+    "rice": {
+      "word": "vary",
+      "sentence": "Mihinana vary izahay."
+    },
+    "coffee": {
+      "word": "kafe",
+      "sentence": "Mafana ny kafe."
+    },
+    "eat": {
+      "word": "mihinana",
+      "sentence": "Mihinana mofo izahay."
+    },
+    "drink": {
+      "word": "misotro",
+      "sentence": "Misotro rano aho."
+    },
+    "see": {
+      "word": "mahita",
+      "sentence": "Mahita ny masoandro aho."
+    },
+    "hear": {
+      "word": "mandre",
+      "sentence": "Mandre ny orana aho."
+    },
+    "sleep": {
+      "word": "matory",
+      "sentence": "Matory ilay zaza."
+    },
+    "walk": {
+      "word": "mandeha",
+      "sentence": "Mandeha ilay lehilahy."
+    },
+    "come": {
+      "word": "avy",
+      "sentence": "Tonga any an-trano ianao."
+    },
+    "sit": {
+      "word": "mipetraka",
+      "sentence": "Mipetraka eo amin'ny latabatra izahay."
+    },
+    "give": {
+      "word": "manome",
+      "sentence": "Manome anao ny fanalahidy aho."
+    },
+    "sun": {
+      "word": "masoandro",
+      "sentence": "Mafana ny masoandro."
+    },
+    "moon": {
+      "word": "volana",
+      "sentence": "Mahita ny volana aho."
+    },
+    "tree": {
+      "word": "hazo",
+      "sentence": "Lehibe ny hazo."
+    },
+    "flower": {
+      "word": "voninkazo",
+      "sentence": "Mena ny voninkazo."
+    },
+    "rain": {
+      "word": "orana",
+      "sentence": "Mangatsiaka ny orana."
+    },
+    "mountain": {
+      "word": "tendrombohitra",
+      "sentence": "Lehibe ny tendrombohitra."
+    },
+    "river": {
+      "word": "ony",
+      "sentence": "Lava ny ony."
+    },
+    "stone": {
+      "word": "vato",
+      "sentence": "Kely ny vato."
+    },
+    "dog": {
+      "word": "alika",
+      "sentence": "Kely ny alika."
+    },
+    "cat": {
+      "word": "saka",
+      "sentence": "Matory ilay saka."
+    },
+    "bird": {
+      "word": "vorona",
+      "sentence": "Mahita vorona roa aho."
+    },
+    "hand": {
+      "word": "tanana",
+      "sentence": "Ity no tanako."
+    },
+    "eye": {
+      "word": "maso",
+      "sentence": "Ity no masoko."
+    },
+    "ear": {
+      "word": "sofina",
+      "sentence": "Ity no sofiko."
+    },
+    "head": {
+      "word": "loha",
+      "sentence": "Ity no lohako."
+    },
+    "mouth": {
+      "word": "vava",
+      "sentence": "Ity no vavako."
+    },
+    "foot": {
+      "word": "tongotra",
+      "sentence": "Mangatsiaka ny tongotro."
+    },
+    "road": {
+      "word": "lalana",
+      "sentence": "Lava ny lalana."
+    },
+    "city": {
+      "word": "tanàna",
+      "sentence": "Lehibe ny tanàna."
+    },
+    "school": {
+      "word": "sekoly",
+      "sentence": "Mandeha any amin'ny sekoly ilay zaza."
+    },
+    "sea": {
+      "word": "ranomasina",
+      "sentence": "Mahita ny ranomasina aho."
+    },
+    "night": {
+      "word": "alina",
+      "sentence": "Mangatsiaka ny alina."
+    },
+    "one": {
+      "word": "iray",
+      "sentence": "Manana paoma iray aho."
+    },
+    "two": {
+      "word": "roa",
+      "sentence": "Mahita vorona roa aho."
+    },
+    "big": {
+      "word": "lehibe",
+      "sentence": "Lehibe ny trano."
+    },
+    "small": {
+      "word": "kely",
+      "sentence": "Kely ilay zaza."
+    },
+    "good": {
+      "word": "tsara",
+      "sentence": "Tsara ny mofo."
+    },
+    "hot": {
+      "word": "mafana",
+      "sentence": "Mafana ny afo."
+    },
+    "cold": {
+      "word": "mangatsiaka",
+      "sentence": "Mangatsiaka ny rano."
+    },
+    "red": {
+      "word": "mena",
+      "sentence": "Mena ny paoma."
+    },
+    "new": {
+      "word": "vaovao",
+      "sentence": "Vaovao ny boky."
+    },
+    "this": {
+      "word": "ity",
+      "sentence": "Ity no tranoko."
+    }
+  },
+  "lines": {
+    "d1a": "Salama. Eto aho.",
+    "d1b": "Iza no anaranao?",
+    "d1c": "Anna no anarako. Ity no namako.",
+    "d1d": "Midira. Tsara ny mofo.",
+    "d2a": "Mahita ny tendrombohitra aho.",
+    "d2b": "Lava ny lalana.",
+    "d2c": "Mafana ny masoandro.",
+    "d2d": "Mipetraka izahay, ary misotro rano aho.",
+    "d3a": "Matory ilay zaza.",
+    "d3b": "Mahita ny volana aho.",
+    "d3c": "Mandre ny orana aho.",
+    "d3d": "Kely sy tsara ny trano."
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "entries": {
+    "i": {
+      "word": "我",
+      "sentence": "我喺度。",
+      "reading": "ngo5"
+    },
+    "you": {
+      "word": "你",
+      "sentence": "你係我朋友。",
+      "reading": "nei5"
+    },
+    "woman": {
+      "word": "女人",
+      "sentence": "女人喺度。",
+      "reading": "neoi5 jan4"
+    },
+    "man": {
+      "word": "男人",
+      "sentence": "男人行緊路。",
+      "reading": "naam4 jan4"
+    },
+    "child": {
+      "word": "小朋友",
+      "sentence": "小朋友瞓緊。",
+      "reading": "siu2 pang4 jau5"
+    },
+    "name": {
+      "word": "名",
+      "sentence": "我叫 Anna。",
+      "reading": "meng2"
+    },
+    "friend": {
+      "word": "朋友",
+      "sentence": "呢個係我朋友。",
+      "reading": "pang4 jau5"
+    },
+    "family": {
+      "word": "屋企人",
+      "sentence": "屋企人喺屋企。",
+      "reading": "uk1 kei2 jan4"
+    },
+    "house": {
+      "word": "屋",
+      "sentence": "間屋好細。",
+      "reading": "uk1"
+    },
+    "door": {
+      "word": "門",
+      "sentence": "道門開住。",
+      "reading": "mun4"
+    },
+    "key": {
+      "word": "鎖匙",
+      "sentence": "鎖匙喺檯上面。",
+      "reading": "so2 si4"
+    },
+    "table": {
+      "word": "檯",
+      "sentence": "本書喺檯上面。",
+      "reading": "toi2"
+    },
+    "bed": {
+      "word": "床",
+      "sentence": "小朋友喺床上面。",
+      "reading": "cong4"
+    },
+    "book": {
+      "word": "書",
+      "sentence": "本書係新嘅。",
+      "reading": "syu1"
+    },
+    "water": {
+      "word": "水",
+      "sentence": "啲水好凍。",
+      "reading": "seoi2"
+    },
+    "fire": {
+      "word": "火",
+      "sentence": "啲火好熱。",
+      "reading": "fo2"
+    },
+    "bread": {
+      "word": "麵包",
+      "sentence": "個麵包好好。",
+      "reading": "min6 baau1"
+    },
+    "apple": {
+      "word": "蘋果",
+      "sentence": "個蘋果係紅嘅。",
+      "reading": "ping4 gwo2"
+    },
+    "egg": {
+      "word": "蛋",
+      "sentence": "隻蛋喺檯上面。",
+      "reading": "daan6"
+    },
+    "milk": {
+      "word": "奶",
+      "sentence": "小朋友飲奶。",
+      "reading": "naai5"
+    },
+    "fish": {
+      "word": "魚",
+      "sentence": "條魚喺水入面。",
+      "reading": "jyu4"
+    },
+    "rice": {
+      "word": "飯",
+      "sentence": "我哋食飯。",
+      "reading": "faan6"
+    },
+    "coffee": {
+      "word": "咖啡",
+      "sentence": "杯咖啡好熱。",
+      "reading": "gaa3 fe1"
+    },
+    "eat": {
+      "word": "食",
+      "sentence": "我哋食麵包。",
+      "reading": "sik6"
+    },
+    "drink": {
+      "word": "飲",
+      "sentence": "我飲水。",
+      "reading": "jam2"
+    },
+    "see": {
+      "word": "見",
+      "sentence": "我見到太陽。",
+      "reading": "gin3"
+    },
+    "hear": {
+      "word": "聽",
+      "sentence": "我聽到雨。",
+      "reading": "teng1"
+    },
+    "sleep": {
+      "word": "瞓",
+      "sentence": "小朋友瞓覺。",
+      "reading": "fan3"
+    },
+    "walk": {
+      "word": "行",
+      "sentence": "男人行路。",
+      "reading": "haang4"
+    },
+    "come": {
+      "word": "嚟",
+      "sentence": "你嚟屋企。",
+      "reading": "lai4"
+    },
+    "sit": {
+      "word": "坐",
+      "sentence": "我哋坐喺檯邊。",
+      "reading": "co5"
+    },
+    "give": {
+      "word": "畀",
+      "sentence": "我畀鎖匙你。",
+      "reading": "bei2"
+    },
+    "sun": {
+      "word": "太陽",
+      "sentence": "太陽好熱。",
+      "reading": "taai3 joeng4"
+    },
+    "moon": {
+      "word": "月亮",
+      "sentence": "我見到月亮。",
+      "reading": "jyut6 loeng6"
+    },
+    "tree": {
+      "word": "樹",
+      "sentence": "棵樹好大。",
+      "reading": "syu6"
+    },
+    "flower": {
+      "word": "花",
+      "sentence": "朵花係紅嘅。",
+      "reading": "faa1"
+    },
+    "rain": {
+      "word": "雨",
+      "sentence": "場雨好凍。",
+      "reading": "jyu5"
+    },
+    "mountain": {
+      "word": "山",
+      "sentence": "座山好大。",
+      "reading": "saan1"
+    },
+    "river": {
+      "word": "河",
+      "sentence": "條河好長。",
+      "reading": "ho4"
+    },
+    "stone": {
+      "word": "石",
+      "sentence": "嚿石好細。",
+      "reading": "sek6"
+    },
+    "dog": {
+      "word": "狗",
+      "sentence": "隻狗好細。",
+      "reading": "gau2"
+    },
+    "cat": {
+      "word": "貓",
+      "sentence": "隻貓瞓緊。",
+      "reading": "maau1"
+    },
+    "bird": {
+      "word": "雀仔",
+      "sentence": "我見到兩隻雀仔。",
+      "reading": "zoek3 zai2"
+    },
+    "hand": {
+      "word": "手",
+      "sentence": "呢隻係我隻手。",
+      "reading": "sau2"
+    },
+    "eye": {
+      "word": "眼",
+      "sentence": "呢隻係我隻眼。",
+      "reading": "ngaan5"
+    },
+    "ear": {
+      "word": "耳",
+      "sentence": "呢隻係我隻耳。",
+      "reading": "ji5"
+    },
+    "head": {
+      "word": "頭",
+      "sentence": "呢個係我個頭。",
+      "reading": "tau4"
+    },
+    "mouth": {
+      "word": "口",
+      "sentence": "呢個係我個口。",
+      "reading": "hau2"
+    },
+    "foot": {
+      "word": "腳",
+      "sentence": "我隻腳好凍。",
+      "reading": "goek3"
+    },
+    "road": {
+      "word": "路",
+      "sentence": "條路好長。",
+      "reading": "lou6"
+    },
+    "city": {
+      "word": "城市",
+      "sentence": "個城市好大。",
+      "reading": "sing4 si5"
+    },
+    "school": {
+      "word": "學校",
+      "sentence": "小朋友去學校。",
+      "reading": "hok6 haau6"
+    },
+    "sea": {
+      "word": "海",
+      "sentence": "我見到海。",
+      "reading": "hoi2"
+    },
+    "night": {
+      "word": "夜晚",
+      "sentence": "夜晚好凍。",
+      "reading": "je6 maan5"
+    },
+    "one": {
+      "word": "一",
+      "sentence": "我有一個蘋果。",
+      "reading": "jat1"
+    },
+    "two": {
+      "word": "兩",
+      "sentence": "我見到兩隻雀仔。",
+      "reading": "loeng5"
+    },
+    "big": {
+      "word": "大",
+      "sentence": "間屋好大。",
+      "reading": "daai6"
+    },
+    "small": {
+      "word": "細",
+      "sentence": "小朋友好細。",
+      "reading": "sai3"
+    },
+    "good": {
+      "word": "好",
+      "sentence": "個麵包好好。",
+      "reading": "hou2"
+    },
+    "hot": {
+      "word": "熱",
+      "sentence": "啲火好熱。",
+      "reading": "jit6"
+    },
+    "cold": {
+      "word": "凍",
+      "sentence": "啲水好凍。",
+      "reading": "dung3"
+    },
+    "red": {
+      "word": "紅",
+      "sentence": "個蘋果係紅嘅。",
+      "reading": "hung4"
+    },
+    "new": {
+      "word": "新",
+      "sentence": "本書係新嘅。",
+      "reading": "san1"
+    },
+    "this": {
+      "word": "呢個",
+      "sentence": "呢間係我間屋。",
+      "reading": "ni1 go3"
+    }
+  },
+  "lines": {
+    "d1a": "你好。我喺度。",
+    "d1b": "你叫咩名？",
+    "d1c": "我叫 Anna。呢個係我朋友。",
+    "d1d": "入嚟。個麵包好好。",
+    "d2a": "我見到山。",
+    "d2b": "條路好長。",
+    "d2c": "太陽好熱。",
+    "d2d": "我哋坐低，我飲水。",
+    "d3a": "小朋友瞓覺。",
+    "d3b": "我見到月亮。",
+    "d3c": "我聽到雨。",
+    "d3d": "間屋又細又好。"
+  }
+}

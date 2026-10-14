@@ -1,0 +1,406 @@
+{
+  "entries": {
+    "i": {
+      "word": "أَنَا",
+      "sentence": "أَنَا هُنَا.",
+      "reading": "anā"
+    },
+    "you": {
+      "word": "أَنْتَ",
+      "sentence": "أَنْتَ صَدِيقِي.",
+      "reading": "anta",
+      "feminine": "أَنْتِ",
+      "note": "anti is feminine"
+    },
+    "woman": {
+      "word": "اِمْرَأَة",
+      "sentence": "الْمَرْأَةُ هُنَا.",
+      "reading": "imraʾa",
+      "gender": "f",
+      "article": "الـ"
+    },
+    "man": {
+      "word": "رَجُل",
+      "sentence": "الرَّجُلُ يَمْشِي.",
+      "reading": "rajul",
+      "gender": "m",
+      "plural": "رِجَال"
+    },
+    "child": {
+      "word": "طِفْل",
+      "sentence": "الطِّفْلُ نَائِمٌ.",
+      "reading": "ṭifl",
+      "gender": "m",
+      "feminine": "طِفْلَة",
+      "plural": "أَطْفَال"
+    },
+    "name": {
+      "word": "اِسْم",
+      "sentence": "اِسْمِي آنَّا.",
+      "reading": "ism",
+      "gender": "m"
+    },
+    "friend": {
+      "word": "صَدِيق",
+      "sentence": "هَذَا صَدِيقِي.",
+      "reading": "ṣadīq",
+      "gender": "m",
+      "feminine": "صَدِيقَة"
+    },
+    "family": {
+      "word": "عَائِلَة",
+      "sentence": "عَائِلَتِي فِي الْبَيْتِ.",
+      "reading": "ʿāʾila",
+      "gender": "f"
+    },
+    "house": {
+      "word": "بَيْت",
+      "sentence": "الْبَيْتُ صَغِيرٌ.",
+      "reading": "bayt",
+      "gender": "m",
+      "plural": "بُيُوت"
+    },
+    "door": {
+      "word": "بَاب",
+      "sentence": "الْبَابُ مَفْتُوحٌ.",
+      "reading": "bāb",
+      "gender": "m",
+      "plural": "أَبْوَاب"
+    },
+    "key": {
+      "word": "مِفْتَاح",
+      "sentence": "الْمِفْتَاحُ عَلَى الطَّاوِلَةِ.",
+      "reading": "miftāḥ",
+      "gender": "m"
+    },
+    "table": {
+      "word": "طَاوِلَة",
+      "sentence": "الْكِتَابُ عَلَى الطَّاوِلَةِ.",
+      "reading": "ṭāwila",
+      "gender": "f"
+    },
+    "bed": {
+      "word": "سَرِير",
+      "sentence": "الطِّفْلُ فِي السَّرِيرِ.",
+      "reading": "sarīr",
+      "gender": "m"
+    },
+    "book": {
+      "word": "كِتَاب",
+      "sentence": "الْكِتَابُ جَدِيدٌ.",
+      "reading": "kitāb",
+      "gender": "m",
+      "plural": "كُتُب"
+    },
+    "water": {
+      "word": "مَاء",
+      "sentence": "الْمَاءُ بَارِدٌ.",
+      "reading": "māʾ",
+      "gender": "m"
+    },
+    "fire": {
+      "word": "نَار",
+      "sentence": "النَّارُ حَارَّةٌ.",
+      "reading": "nār",
+      "gender": "f"
+    },
+    "bread": {
+      "word": "خُبْز",
+      "sentence": "الْخُبْزُ جَيِّدٌ.",
+      "reading": "khubz",
+      "gender": "m"
+    },
+    "apple": {
+      "word": "تُفَّاحَة",
+      "sentence": "التُّفَّاحَةُ حَمْرَاءُ.",
+      "reading": "tuffāḥa",
+      "gender": "f"
+    },
+    "egg": {
+      "word": "بَيْضَة",
+      "sentence": "الْبَيْضَةُ عَلَى الطَّاوِلَةِ.",
+      "reading": "bayḍa",
+      "gender": "f"
+    },
+    "milk": {
+      "word": "حَلِيب",
+      "sentence": "الطِّفْلُ يَشْرَبُ الْحَلِيبَ.",
+      "reading": "ḥalīb",
+      "gender": "m"
+    },
+    "fish": {
+      "word": "سَمَكَة",
+      "sentence": "السَّمَكَةُ فِي الْمَاءِ.",
+      "reading": "samaka",
+      "gender": "f"
+    },
+    "rice": {
+      "word": "أَرُزّ",
+      "sentence": "نَحْنُ نَأْكُلُ الْأَرُزَّ.",
+      "reading": "aruzz",
+      "gender": "m"
+    },
+    "coffee": {
+      "word": "قَهْوَة",
+      "sentence": "الْقَهْوَةُ حَارَّةٌ.",
+      "reading": "qahwa",
+      "gender": "f"
+    },
+    "eat": {
+      "word": "أَكَلَ",
+      "sentence": "نَحْنُ نَأْكُلُ الْخُبْزَ.",
+      "reading": "akala",
+      "note": "past 3rd person masculine"
+    },
+    "drink": {
+      "word": "شَرِبَ",
+      "sentence": "أَنَا أَشْرَبُ الْمَاءَ.",
+      "reading": "shariba",
+      "note": "past 3rd person masculine"
+    },
+    "see": {
+      "word": "رَأَى",
+      "sentence": "أَنَا أَرَى الشَّمْسَ.",
+      "reading": "raʾā",
+      "note": "past 3rd person masculine"
+    },
+    "hear": {
+      "word": "سَمِعَ",
+      "sentence": "أَنَا أَسْمَعُ الْمَطَرَ.",
+      "reading": "samiʿa",
+      "note": "past 3rd person masculine"
+    },
+    "sleep": {
+      "word": "نَامَ",
+      "sentence": "الطِّفْلُ يَنَامُ.",
+      "reading": "nāma",
+      "note": "past 3rd person masculine"
+    },
+    "walk": {
+      "word": "مَشَى",
+      "sentence": "الرَّجُلُ يَمْشِي.",
+      "reading": "mashā",
+      "note": "past 3rd person masculine"
+    },
+    "come": {
+      "word": "جَاءَ",
+      "sentence": "أَنْتَ تَأْتِي إِلَى الْبَيْتِ.",
+      "reading": "jāʾa",
+      "note": "past 3rd person masculine"
+    },
+    "sit": {
+      "word": "جَلَسَ",
+      "sentence": "نَحْنُ نَجْلِسُ عِنْدَ الطَّاوِلَةِ.",
+      "reading": "jalasa",
+      "note": "past 3rd person masculine"
+    },
+    "give": {
+      "word": "أَعْطَى",
+      "sentence": "أَنَا أُعْطِيكَ الْمِفْتَاحَ.",
+      "reading": "aʿṭā",
+      "note": "past 3rd person masculine"
+    },
+    "sun": {
+      "word": "شَمْس",
+      "sentence": "الشَّمْسُ حَارَّةٌ.",
+      "reading": "shams",
+      "gender": "f"
+    },
+    "moon": {
+      "word": "قَمَر",
+      "sentence": "أَنَا أَرَى الْقَمَرَ.",
+      "reading": "qamar",
+      "gender": "m"
+    },
+    "tree": {
+      "word": "شَجَرَة",
+      "sentence": "الشَّجَرَةُ كَبِيرَةٌ.",
+      "reading": "shajara",
+      "gender": "f"
+    },
+    "flower": {
+      "word": "زَهْرَة",
+      "sentence": "الزَّهْرَةُ حَمْرَاءُ.",
+      "reading": "zahra",
+      "gender": "f"
+    },
+    "rain": {
+      "word": "مَطَر",
+      "sentence": "الْمَطَرُ بَارِدٌ.",
+      "reading": "maṭar",
+      "gender": "m"
+    },
+    "mountain": {
+      "word": "جَبَل",
+      "sentence": "الْجَبَلُ كَبِيرٌ.",
+      "reading": "jabal",
+      "gender": "m"
+    },
+    "river": {
+      "word": "نَهْر",
+      "sentence": "النَّهْرُ طَوِيلٌ.",
+      "reading": "nahr",
+      "gender": "m"
+    },
+    "stone": {
+      "word": "حَجَر",
+      "sentence": "الْحَجَرُ صَغِيرٌ.",
+      "reading": "ḥajar",
+      "gender": "m"
+    },
+    "dog": {
+      "word": "كَلْب",
+      "sentence": "الْكَلْبُ صَغِيرٌ.",
+      "reading": "kalb",
+      "gender": "m",
+      "plural": "كِلَاب"
+    },
+    "cat": {
+      "word": "قِطَّة",
+      "sentence": "الْقِطَّةُ نَائِمَةٌ.",
+      "reading": "qiṭṭa",
+      "gender": "f"
+    },
+    "bird": {
+      "word": "طَائِر",
+      "sentence": "أَنَا أَرَى طَائِرَيْنِ.",
+      "reading": "ṭāʾir",
+      "gender": "m"
+    },
+    "hand": {
+      "word": "يَد",
+      "sentence": "هَذِهِ يَدِي.",
+      "reading": "yad",
+      "gender": "f",
+      "plural": "أَيْدٍ"
+    },
+    "eye": {
+      "word": "عَيْن",
+      "sentence": "هَذِهِ عَيْنِي.",
+      "reading": "ʿayn",
+      "gender": "f",
+      "plural": "عُيُون"
+    },
+    "ear": {
+      "word": "أُذُن",
+      "sentence": "هَذِهِ أُذُنِي.",
+      "reading": "udhun",
+      "gender": "f"
+    },
+    "head": {
+      "word": "رَأْس",
+      "sentence": "هَذَا رَأْسِي.",
+      "reading": "raʾs",
+      "gender": "m"
+    },
+    "mouth": {
+      "word": "فَم",
+      "sentence": "هَذَا فَمِي.",
+      "reading": "fam",
+      "gender": "m"
+    },
+    "foot": {
+      "word": "قَدَم",
+      "sentence": "قَدَمِي بَارِدَةٌ.",
+      "reading": "qadam",
+      "gender": "f",
+      "plural": "أَقْدَام"
+    },
+    "road": {
+      "word": "طَرِيق",
+      "sentence": "الطَّرِيقُ طَوِيلٌ.",
+      "reading": "ṭarīq",
+      "gender": "m"
+    },
+    "city": {
+      "word": "مَدِينَة",
+      "sentence": "الْمَدِينَةُ كَبِيرَةٌ.",
+      "reading": "madīna",
+      "gender": "f"
+    },
+    "school": {
+      "word": "مَدْرَسَة",
+      "sentence": "الطِّفْلُ يَذْهَبُ إِلَى الْمَدْرَسَةِ.",
+      "reading": "madrasa",
+      "gender": "f"
+    },
+    "sea": {
+      "word": "بَحْر",
+      "sentence": "أَنَا أَرَى الْبَحْرَ.",
+      "reading": "baḥr",
+      "gender": "m"
+    },
+    "night": {
+      "word": "لَيْل",
+      "sentence": "اللَّيْلُ بَارِدٌ.",
+      "reading": "layl",
+      "gender": "m"
+    },
+    "one": {
+      "word": "وَاحِد",
+      "sentence": "عِنْدِي تُفَّاحَةٌ وَاحِدَةٌ.",
+      "reading": "wāḥid"
+    },
+    "two": {
+      "word": "اِثْنَانِ",
+      "sentence": "أَنَا أَرَى طَائِرَيْنِ.",
+      "reading": "ithnān"
+    },
+    "big": {
+      "word": "كَبِير",
+      "sentence": "الْبَيْتُ كَبِيرٌ.",
+      "reading": "kabīr"
+    },
+    "small": {
+      "word": "صَغِير",
+      "sentence": "الطِّفْلُ صَغِيرٌ.",
+      "reading": "ṣaghīr"
+    },
+    "good": {
+      "word": "جَيِّد",
+      "sentence": "الْخُبْزُ جَيِّدٌ.",
+      "reading": "jayyid"
+    },
+    "hot": {
+      "word": "حَارّ",
+      "sentence": "النَّارُ حَارَّةٌ.",
+      "reading": "ḥārr"
+    },
+    "cold": {
+      "word": "بَارِد",
+      "sentence": "الْمَاءُ بَارِدٌ.",
+      "reading": "bārid"
+    },
+    "red": {
+      "word": "أَحْمَر",
+      "sentence": "التُّفَّاحَةُ حَمْرَاءُ.",
+      "reading": "aḥmar",
+      "feminine": "حَمْرَاء"
+    },
+    "new": {
+      "word": "جَدِيد",
+      "sentence": "الْكِتَابُ جَدِيدٌ.",
+      "reading": "jadīd"
+    },
+    "this": {
+      "word": "هَذَا",
+      "sentence": "هَذَا بَيْتِي.",
+      "reading": "hādhā",
+      "feminine": "هَذِهِ"
+    }
+  },
+  "lines": {
+    "d1a": "مَرْحَبًا. أَنَا هُنَا.",
+    "d1b": "مَا اسْمُكَ؟",
+    "d1c": "اِسْمِي آنَّا. هَذَا صَدِيقِي.",
+    "d1d": "تَفَضَّلْ. الْخُبْزُ جَيِّدٌ.",
+    "d2a": "أَنَا أَرَى الْجَبَلَ.",
+    "d2b": "الطَّرِيقُ طَوِيلٌ.",
+    "d2c": "الشَّمْسُ حَارَّةٌ.",
+    "d2d": "نَحْنُ نَجْلِسُ، وَأَنَا أَشْرَبُ الْمَاءَ.",
+    "d3a": "الطِّفْلُ يَنَامُ.",
+    "d3b": "أَنَا أَرَى الْقَمَرَ.",
+    "d3c": "أَنَا أَسْمَعُ الْمَطَرَ.",
+    "d3d": "الْبَيْتُ صَغِيرٌ وَجَيِّدٌ."
+  }
+}

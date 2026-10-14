@@ -1,0 +1,338 @@
+{
+  "entries": {
+    "i": {
+      "word": "ܐܢܐ",
+      "sentence": "ܐܢܐ ܗܪܟܐ ܐܝܬܝ.",
+      "reading": "enā"
+    },
+    "you": {
+      "word": "ܐܢܬ",
+      "sentence": "ܐܢܬ ܪܚܡܝ ܐܝܬܝܟ.",
+      "reading": "att"
+    },
+    "woman": {
+      "word": "ܐܢܬܬܐ",
+      "sentence": "ܐܢܬܬܐ ܗܪܟܐ ܐܝܬܝܗ.",
+      "reading": "attətā"
+    },
+    "man": {
+      "word": "ܓܒܪܐ",
+      "sentence": "ܓܒܪܐ ܡܗܠܟ.",
+      "reading": "gabrā"
+    },
+    "child": {
+      "word": "ܛܠܝܐ",
+      "sentence": "ܛܠܝܐ ܕܡܝܟ.",
+      "reading": "ṭalyā"
+    },
+    "name": {
+      "word": "ܫܡܐ",
+      "sentence": "ܫܡܝ Anna ܐܝܬܘܗܝ.",
+      "reading": "šmā"
+    },
+    "friend": {
+      "word": "ܪܚܡܐ",
+      "sentence": "ܗܢܐ ܪܚܡܝ ܐܝܬܘܗܝ.",
+      "reading": "rāḥmā"
+    },
+    "family": {
+      "word": "ܒܝܬ ܐܒܐ",
+      "sentence": "ܒܝܬ ܐܒܝ ܒܒܝܬܐ ܐܝܬܘܗܝ.",
+      "reading": "bēṯ avā"
+    },
+    "house": {
+      "word": "ܒܝܬܐ",
+      "sentence": "ܒܝܬܐ ܙܥܘܪܐ ܐܝܬܘܗܝ.",
+      "reading": "baytā"
+    },
+    "door": {
+      "word": "ܬܪܥܐ",
+      "sentence": "ܬܪܥܐ ܦܬܝܚ ܐܝܬܘܗܝ.",
+      "reading": "tarʿā"
+    },
+    "key": {
+      "word": "ܩܠܝܕܐ",
+      "sentence": "ܩܠܝܕܐ ܥܠ ܦܬܘܪܐ ܐܝܬܘܗܝ.",
+      "reading": "qlīdā"
+    },
+    "table": {
+      "word": "ܦܬܘܪܐ",
+      "sentence": "ܟܬܒܐ ܥܠ ܦܬܘܪܐ ܐܝܬܘܗܝ.",
+      "reading": "pāṯurā"
+    },
+    "bed": {
+      "word": "ܥܪܣܐ",
+      "sentence": "ܛܠܝܐ ܒܥܪܣܐ ܐܝܬܘܗܝ.",
+      "reading": "ʿarsā"
+    },
+    "book": {
+      "word": "ܟܬܒܐ",
+      "sentence": "ܟܬܒܐ ܚܕܬܐ ܐܝܬܘܗܝ.",
+      "reading": "kṯāḇā"
+    },
+    "water": {
+      "word": "ܡܝܐ",
+      "sentence": "ܡܝܐ ܩܪܝܪܐ ܐܢܘܢ.",
+      "reading": "mayyā"
+    },
+    "fire": {
+      "word": "ܢܘܪܐ",
+      "sentence": "ܢܘܪܐ ܚܡܝܡܐ ܐܝܬܝܗ.",
+      "reading": "nurā"
+    },
+    "bread": {
+      "word": "ܠܚܡܐ",
+      "sentence": "ܠܚܡܐ ܛܒܐ ܐܝܬܘܗܝ.",
+      "reading": "laḥmā"
+    },
+    "apple": {
+      "word": "ܚܙܘܪܐ",
+      "sentence": "ܚܙܘܪܐ ܣܡܘܩܐ ܐܝܬܘܗܝ.",
+      "reading": "ḥazzurā"
+    },
+    "egg": {
+      "word": "ܒܝܥܬܐ",
+      "sentence": "ܒܝܥܬܐ ܥܠ ܦܬܘܪܐ ܐܝܬܝܗ.",
+      "reading": "beʿtā"
+    },
+    "milk": {
+      "word": "ܚܠܒܐ",
+      "sentence": "ܛܠܝܐ ܫܬܐ ܚܠܒܐ.",
+      "reading": "ḥalḇā"
+    },
+    "fish": {
+      "word": "ܢܘܢܐ",
+      "sentence": "ܢܘܢܐ ܒܡܝܐ ܐܝܬܘܗܝ.",
+      "reading": "nunā"
+    },
+    "rice": {
+      "word": "ܪܘܙܐ",
+      "sentence": "ܐܟܠܝܢܢ ܪܘܙܐ.",
+      "reading": "ruzzā"
+    },
+    "coffee": {
+      "word": "ܩܗܘܐ",
+      "sentence": "ܩܗܘܐ ܚܡܝܡܐ ܐܝܬܝܗ.",
+      "reading": "qahwā"
+    },
+    "eat": {
+      "word": "ܐܟܠ",
+      "sentence": "ܐܟܠܝܢܢ ܠܚܡܐ.",
+      "reading": "ekal"
+    },
+    "drink": {
+      "word": "ܫܬܐ",
+      "sentence": "ܫܬܐ ܐܢܐ ܡܝܐ.",
+      "reading": "eštī"
+    },
+    "see": {
+      "word": "ܚܙܐ",
+      "sentence": "ܚܙܐ ܐܢܐ ܫܡܫܐ.",
+      "reading": "ḥzā"
+    },
+    "hear": {
+      "word": "ܫܡܥ",
+      "sentence": "ܫܡܥ ܐܢܐ ܡܛܪܐ.",
+      "reading": "šmaʿ"
+    },
+    "sleep": {
+      "word": "ܕܡܟ",
+      "sentence": "ܛܠܝܐ ܕܡܟ.",
+      "reading": "dmekh"
+    },
+    "walk": {
+      "word": "ܗܠܟ",
+      "sentence": "ܓܒܪܐ ܡܗܠܟ.",
+      "reading": "hallekh"
+    },
+    "come": {
+      "word": "ܐܬܐ",
+      "sentence": "ܐܬܐ ܐܢܬ ܠܒܝܬܐ.",
+      "reading": "eṯā"
+    },
+    "sit": {
+      "word": "ܝܬܒ",
+      "sentence": "ܝܬܒܝܢܢ ܠܘܬ ܦܬܘܪܐ.",
+      "reading": "itteb"
+    },
+    "give": {
+      "word": "ܝܗܒ",
+      "sentence": "ܝܗܒ ܐܢܐ ܠܟ ܩܠܝܕܐ.",
+      "reading": "yahb"
+    },
+    "sun": {
+      "word": "ܫܡܫܐ",
+      "sentence": "ܫܡܫܐ ܚܡܝܡܐ ܐܝܬܘܗܝ.",
+      "reading": "šemšā"
+    },
+    "moon": {
+      "word": "ܣܗܪܐ",
+      "sentence": "ܚܙܐ ܐܢܐ ܣܗܪܐ.",
+      "reading": "sahrā"
+    },
+    "tree": {
+      "word": "ܐܝܠܢܐ",
+      "sentence": "ܐܝܠܢܐ ܪܒܐ ܐܝܬܘܗܝ.",
+      "reading": "ilānā"
+    },
+    "flower": {
+      "word": "ܗܒܒܐ",
+      "sentence": "ܗܒܒܐ ܣܡܘܩܐ ܐܝܬܘܗܝ.",
+      "reading": "habbāḇā"
+    },
+    "rain": {
+      "word": "ܡܛܪܐ",
+      "sentence": "ܡܛܪܐ ܩܪܝܪܐ ܐܝܬܘܗܝ.",
+      "reading": "meṭrā"
+    },
+    "mountain": {
+      "word": "ܛܘܪܐ",
+      "sentence": "ܛܘܪܐ ܪܒܐ ܐܝܬܘܗܝ.",
+      "reading": "ṭurā"
+    },
+    "river": {
+      "word": "ܢܗܪܐ",
+      "sentence": "ܢܗܪܐ ܐܪܝܟ ܐܝܬܘܗܝ.",
+      "reading": "nahrā"
+    },
+    "stone": {
+      "word": "ܟܐܦܐ",
+      "sentence": "ܟܐܦܐ ܙܥܘܪܐ ܐܝܬܝܗ.",
+      "reading": "kēpā"
+    },
+    "dog": {
+      "word": "ܟܠܒܐ",
+      "sentence": "ܟܠܒܐ ܙܥܘܪܐ ܐܝܬܘܗܝ.",
+      "reading": "kalbā"
+    },
+    "cat": {
+      "word": "ܩܛܐ",
+      "sentence": "ܩܛܐ ܕܡܝܟ.",
+      "reading": "qaṭṭā"
+    },
+    "bird": {
+      "word": "ܛܝܪܐ",
+      "sentence": "ܚܙܐ ܐܢܐ ܬܪܝܢ ܛܝܪܐ.",
+      "reading": "ṭayrā"
+    },
+    "hand": {
+      "word": "ܐܝܕܐ",
+      "sentence": "ܗܕܐ ܐܝܕܝ ܐܝܬܝܗ.",
+      "reading": "idā"
+    },
+    "eye": {
+      "word": "ܥܝܢܐ",
+      "sentence": "ܗܕܐ ܥܝܢܝ ܐܝܬܝܗ.",
+      "reading": "ʿaynā"
+    },
+    "ear": {
+      "word": "ܐܕܢܐ",
+      "sentence": "ܗܕܐ ܐܕܢܝ ܐܝܬܝܗ.",
+      "reading": "ednā"
+    },
+    "head": {
+      "word": "ܪܝܫܐ",
+      "sentence": "ܗܢܐ ܪܝܫܝ ܐܝܬܘܗܝ.",
+      "reading": "rišā"
+    },
+    "mouth": {
+      "word": "ܦܘܡܐ",
+      "sentence": "ܗܢܐ ܦܘܡܝ ܐܝܬܘܗܝ.",
+      "reading": "pummā"
+    },
+    "foot": {
+      "word": "ܪܓܠܐ",
+      "sentence": "ܪܓܠܝ ܩܪܝܪܐ ܐܝܬܝܗ.",
+      "reading": "reghlā"
+    },
+    "road": {
+      "word": "ܐܘܪܚܐ",
+      "sentence": "ܐܘܪܚܐ ܐܪܝܟܐ ܐܝܬܝܗ.",
+      "reading": "urḥā"
+    },
+    "city": {
+      "word": "ܡܕܝܢܬܐ",
+      "sentence": "ܡܕܝܢܬܐ ܪܒܬܐ ܐܝܬܝܗ.",
+      "reading": "mdittā"
+    },
+    "school": {
+      "word": "ܒܝܬ ܣܦܪܐ",
+      "sentence": "ܛܠܝܐ ܐܙܠ ܠܒܝܬ ܣܦܪܐ.",
+      "reading": "bēṯ sefrā"
+    },
+    "sea": {
+      "word": "ܝܡܐ",
+      "sentence": "ܚܙܐ ܐܢܐ ܝܡܐ.",
+      "reading": "yammā"
+    },
+    "night": {
+      "word": "ܠܠܝܐ",
+      "sentence": "ܠܠܝܐ ܩܪܝܪܐ ܐܝܬܘܗܝ.",
+      "reading": "lelyā"
+    },
+    "one": {
+      "word": "ܚܕ",
+      "sentence": "ܐܝܬ ܠܝ ܚܕ ܚܙܘܪܐ.",
+      "reading": "ḥad"
+    },
+    "two": {
+      "word": "ܬܪܝܢ",
+      "sentence": "ܚܙܐ ܐܢܐ ܬܪܝܢ ܛܝܪܐ.",
+      "reading": "trēn"
+    },
+    "big": {
+      "word": "ܪܒܐ",
+      "sentence": "ܒܝܬܐ ܪܒܐ ܐܝܬܘܗܝ.",
+      "reading": "rabbā"
+    },
+    "small": {
+      "word": "ܙܥܘܪܐ",
+      "sentence": "ܛܠܝܐ ܙܥܘܪܐ ܐܝܬܘܗܝ.",
+      "reading": "zʿorā"
+    },
+    "good": {
+      "word": "ܛܒܐ",
+      "sentence": "ܠܚܡܐ ܛܒܐ ܐܝܬܘܗܝ.",
+      "reading": "ṭāḇā"
+    },
+    "hot": {
+      "word": "ܚܡܝܡܐ",
+      "sentence": "ܢܘܪܐ ܚܡܝܡܐ ܐܝܬܝܗ.",
+      "reading": "ḥammimā"
+    },
+    "cold": {
+      "word": "ܩܪܝܪܐ",
+      "sentence": "ܡܝܐ ܩܪܝܪܐ ܐܢܘܢ.",
+      "reading": "qarrirā"
+    },
+    "red": {
+      "word": "ܣܡܘܩܐ",
+      "sentence": "ܚܙܘܪܐ ܣܡܘܩܐ ܐܝܬܘܗܝ.",
+      "reading": "sammūqā"
+    },
+    "new": {
+      "word": "ܚܕܬܐ",
+      "sentence": "ܟܬܒܐ ܚܕܬܐ ܐܝܬܘܗܝ.",
+      "reading": "ḥattā"
+    },
+    "this": {
+      "word": "ܗܢܐ",
+      "sentence": "ܗܢܐ ܒܝܬܝ ܐܝܬܘܗܝ.",
+      "reading": "hānā"
+    }
+  },
+  "lines": {
+    "d1a": "ܫܠܡ. ܐܢܐ ܗܪܟܐ ܐܝܬܝ.",
+    "d1b": "ܡܢܐ ܐܝܬܘܗܝ ܫܡܟ؟",
+    "d1c": "ܫܡܝ ܐܢܐ ܐܝܬܘܗܝ. ܗܢܐ ܪܚܡܝ ܐܝܬܘܗܝ.",
+    "d1d": "ܥܘܠ. ܠܚܡܐ ܛܒܐ ܐܝܬܘܗܝ.",
+    "d2a": "ܚܙܐ ܐܢܐ ܛܘܪܐ.",
+    "d2b": "ܐܘܪܚܐ ܐܪܝܟܐ ܐܝܬܝܗ.",
+    "d2c": "ܫܡܫܐ ܚܡܝܡܐ ܐܝܬܘܗܝ.",
+    "d2d": "ܝܬܒܝܢܢ، ܘܫܬܐ ܐܢܐ ܡܝܐ.",
+    "d3a": "ܛܠܝܐ ܕܡܟ.",
+    "d3b": "ܚܙܐ ܐܢܐ ܣܗܪܐ.",
+    "d3c": "ܫܡܥ ܐܢܐ ܡܛܪܐ.",
+    "d3d": "ܒܝܬܐ ܙܥܘܪܐ ܘܛܒܐ ܐܝܬܘܗܝ."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Concord",
+      "hasCanvas": false,
+      "bodyTextLen": 1509,
+      "bodyTextHash": "90bd2b33ec20fe11ea8ed6cb601239c7749f22993934b743a0c674b4dcfd9a2f",
+      "bodyTextPrefix": "Concord Study Alphabet Path Grammar Talk League English → German",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Concord",
+      "hasCanvas": false,
+      "bodyTextLen": 1462,
+      "bodyTextHash": "27da153619c5910bc701734c53c2e49412346584633b269464ca8ad875e61b7f",
+      "bodyTextPrefix": "Concord Study Alphabet Path Grammar Talk League PARALLEL COURSE ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

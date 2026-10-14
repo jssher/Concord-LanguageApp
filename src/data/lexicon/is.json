@@ -1,0 +1,340 @@
+{
+  "entries": {
+    "i": {
+      "word": "ég",
+      "sentence": "Ég er hér."
+    },
+    "you": {
+      "word": "þú",
+      "sentence": "Þú ert vinur minn.",
+      "note": "singular"
+    },
+    "woman": {
+      "word": "kona",
+      "sentence": "Konan er hér.",
+      "plural": "konur",
+      "gender": "f"
+    },
+    "man": {
+      "word": "maður",
+      "sentence": "Maðurinn gengur.",
+      "plural": "menn",
+      "gender": "m"
+    },
+    "child": {
+      "word": "barn",
+      "sentence": "Barnið sefur.",
+      "plural": "börn",
+      "gender": "n"
+    },
+    "name": {
+      "word": "nafn",
+      "sentence": "Ég heiti Anna.",
+      "gender": "n"
+    },
+    "friend": {
+      "word": "vinur",
+      "sentence": "Þetta er vinur minn.",
+      "feminine": "vinkona",
+      "gender": "m"
+    },
+    "family": {
+      "word": "fjölskylda",
+      "sentence": "Fjölskyldan mín er heima.",
+      "gender": "f"
+    },
+    "house": {
+      "word": "hús",
+      "sentence": "Húsið er lítið.",
+      "gender": "n"
+    },
+    "door": {
+      "word": "hurð",
+      "sentence": "Hurðin er opin.",
+      "gender": "f"
+    },
+    "key": {
+      "word": "lykill",
+      "sentence": "Lykillinn er á borðinu.",
+      "gender": "m"
+    },
+    "table": {
+      "word": "borð",
+      "sentence": "Bókin er á borðinu.",
+      "gender": "n"
+    },
+    "bed": {
+      "word": "rúm",
+      "sentence": "Barnið er í rúminu.",
+      "gender": "n"
+    },
+    "book": {
+      "word": "bók",
+      "sentence": "Bókin er ný.",
+      "plural": "bækur",
+      "gender": "f"
+    },
+    "water": {
+      "word": "vatn",
+      "sentence": "Vatnið er kalt.",
+      "gender": "n"
+    },
+    "fire": {
+      "word": "eldur",
+      "sentence": "Eldurinn er heitur.",
+      "gender": "m"
+    },
+    "bread": {
+      "word": "brauð",
+      "sentence": "Brauðið er gott.",
+      "gender": "n"
+    },
+    "apple": {
+      "word": "epli",
+      "sentence": "Eplið er rautt.",
+      "gender": "n"
+    },
+    "egg": {
+      "word": "egg",
+      "sentence": "Eggið er á borðinu.",
+      "gender": "n"
+    },
+    "milk": {
+      "word": "mjólk",
+      "sentence": "Barnið drekkur mjólk.",
+      "gender": "f"
+    },
+    "fish": {
+      "word": "fiskur",
+      "sentence": "Fiskurinn er í vatninu.",
+      "gender": "m"
+    },
+    "rice": {
+      "word": "hrísgrjón",
+      "sentence": "Við borðum hrísgrjón."
+    },
+    "coffee": {
+      "word": "kaffi",
+      "sentence": "Kaffið er heitt.",
+      "gender": "n"
+    },
+    "eat": {
+      "word": "borða",
+      "sentence": "Við borðum brauð."
+    },
+    "drink": {
+      "word": "drekka",
+      "sentence": "Ég drekk vatn."
+    },
+    "see": {
+      "word": "sjá",
+      "sentence": "Ég sé sólina."
+    },
+    "hear": {
+      "word": "heyra",
+      "sentence": "Ég heyri rigninguna."
+    },
+    "sleep": {
+      "word": "sofa",
+      "sentence": "Barnið sefur."
+    },
+    "walk": {
+      "word": "ganga",
+      "sentence": "Maðurinn gengur."
+    },
+    "come": {
+      "word": "koma",
+      "sentence": "Þú kemur til hússins."
+    },
+    "sit": {
+      "word": "sitja",
+      "sentence": "Við sitjum við borðið."
+    },
+    "give": {
+      "word": "gefa",
+      "sentence": "Ég gef þér lykilinn."
+    },
+    "sun": {
+      "word": "sól",
+      "sentence": "Sólin er heit.",
+      "gender": "f"
+    },
+    "moon": {
+      "word": "tungl",
+      "sentence": "Ég sé tunglið.",
+      "gender": "n"
+    },
+    "tree": {
+      "word": "tré",
+      "sentence": "Tréð er stórt.",
+      "gender": "n"
+    },
+    "flower": {
+      "word": "blóm",
+      "sentence": "Blómið er rautt.",
+      "gender": "n"
+    },
+    "rain": {
+      "word": "rigning",
+      "sentence": "Rigningin er köld.",
+      "gender": "f"
+    },
+    "mountain": {
+      "word": "fjall",
+      "sentence": "Fjallið er stórt.",
+      "gender": "n"
+    },
+    "river": {
+      "word": "á",
+      "sentence": "Áin er löng.",
+      "gender": "f"
+    },
+    "stone": {
+      "word": "steinn",
+      "sentence": "Steinninn er lítill.",
+      "gender": "m"
+    },
+    "dog": {
+      "word": "hundur",
+      "sentence": "Hundurinn er lítill.",
+      "gender": "m"
+    },
+    "cat": {
+      "word": "köttur",
+      "sentence": "Kötturinn sefur.",
+      "gender": "m"
+    },
+    "bird": {
+      "word": "fugl",
+      "sentence": "Ég sé tvo fugla.",
+      "plural": "fuglar",
+      "gender": "m"
+    },
+    "hand": {
+      "word": "hönd",
+      "sentence": "Þetta er höndin mín.",
+      "plural": "hendur",
+      "gender": "f"
+    },
+    "eye": {
+      "word": "auga",
+      "sentence": "Þetta er augað mitt.",
+      "gender": "n"
+    },
+    "ear": {
+      "word": "eyra",
+      "sentence": "Þetta er eyrað mitt.",
+      "gender": "n"
+    },
+    "head": {
+      "word": "höfuð",
+      "sentence": "Þetta er höfuðið mitt.",
+      "gender": "n"
+    },
+    "mouth": {
+      "word": "munnur",
+      "sentence": "Þetta er munnurinn minn.",
+      "gender": "m"
+    },
+    "foot": {
+      "word": "fótur",
+      "sentence": "Fóturinn minn er kaldur.",
+      "plural": "fætur",
+      "gender": "m"
+    },
+    "road": {
+      "word": "vegur",
+      "sentence": "Vegurinn er langur.",
+      "gender": "m"
+    },
+    "city": {
+      "word": "borg",
+      "sentence": "Borgin er stór.",
+      "plural": "borgir",
+      "gender": "f"
+    },
+    "school": {
+      "word": "skóli",
+      "sentence": "Barnið fer í skólann.",
+      "gender": "m"
+    },
+    "sea": {
+      "word": "haf",
+      "sentence": "Ég sé hafið.",
+      "gender": "n"
+    },
+    "night": {
+      "word": "nótt",
+      "sentence": "Nóttin er köld.",
+      "gender": "f"
+    },
+    "one": {
+      "word": "einn",
+      "sentence": "Ég á eitt epli."
+    },
+    "two": {
+      "word": "tveir",
+      "sentence": "Ég sé tvo fugla.",
+      "feminine": "tvær",
+      "neuter": "tvö"
+    },
+    "big": {
+      "word": "stór",
+      "sentence": "Húsið er stórt."
+    },
+    "small": {
+      "word": "lítill",
+      "sentence": "Barnið er lítið.",
+      "feminine": "lítil",
+      "neuter": "lítið"
+    },
+    "good": {
+      "word": "góður",
+      "sentence": "Brauðið er gott.",
+      "feminine": "góð",
+      "neuter": "gott"
+    },
+    "hot": {
+      "word": "heitur",
+      "sentence": "Eldurinn er heitur.",
+      "feminine": "heit",
+      "neuter": "heitt"
+    },
+    "cold": {
+      "word": "kaldur",
+      "sentence": "Vatnið er kalt.",
+      "feminine": "köld",
+      "neuter": "kalt"
+    },
+    "red": {
+      "word": "rauður",
+      "sentence": "Eplið er rautt.",
+      "feminine": "rauð",
+      "neuter": "rautt"
+    },
+    "new": {
+      "word": "nýr",
+      "sentence": "Bókin er ný.",
+      "feminine": "ný",
+      "neuter": "nýtt"
+    },
+    "this": {
+      "word": "þetta",
+      "sentence": "Þetta er húsið mitt."
+    }
+  },
+  "lines": {
+    "d1a": "Halló. Ég er hér.",
+    "d1b": "Hvað heitir þú?",
+    "d1c": "Ég heiti Anna. Þetta er vinur minn.",
+    "d1d": "Komdu inn. Brauðið er gott.",
+    "d2a": "Ég sé fjallið.",
+    "d2b": "Vegurinn er langur.",
+    "d2c": "Sólin er heit.",
+    "d2d": "Við sitjum, og ég drekk vatn.",
+    "d3a": "Barnið sefur.",
+    "d3b": "Ég sé tunglið.",
+    "d3c": "Ég heyri rigninguna.",
+    "d3d": "Húsið er lítið og gott."
+  }
+}

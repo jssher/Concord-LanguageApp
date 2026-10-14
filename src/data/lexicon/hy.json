@@ -1,0 +1,338 @@
+{
+  "entries": {
+    "i": {
+      "word": "ես",
+      "sentence": "Ես այստեղ եմ։",
+      "reading": "yes"
+    },
+    "you": {
+      "word": "դու",
+      "sentence": "Դու իմ ընկերն ես։",
+      "reading": "du"
+    },
+    "woman": {
+      "word": "կին",
+      "sentence": "Կինն այստեղ է։",
+      "reading": "kin"
+    },
+    "man": {
+      "word": "տղամարդ",
+      "sentence": "Տղամարդը քայլում է։",
+      "reading": "tghamard"
+    },
+    "child": {
+      "word": "երեխա",
+      "sentence": "Երեխան քնած է։",
+      "reading": "yerekha"
+    },
+    "name": {
+      "word": "անուն",
+      "sentence": "Իմ անունը Աննա է։",
+      "reading": "anun"
+    },
+    "friend": {
+      "word": "ընկեր",
+      "sentence": "Սա իմ ընկերն է։",
+      "reading": "ənker"
+    },
+    "family": {
+      "word": "ընտանիք",
+      "sentence": "Իմ ընտանիքը տանն է։",
+      "reading": "əntanik"
+    },
+    "house": {
+      "word": "տուն",
+      "sentence": "Տունը փոքր է։",
+      "reading": "tun"
+    },
+    "door": {
+      "word": "դուռ",
+      "sentence": "Դուռը բաց է։",
+      "reading": "dur"
+    },
+    "key": {
+      "word": "բանալի",
+      "sentence": "Բանալին սեղանի վրա է։",
+      "reading": "banali"
+    },
+    "table": {
+      "word": "սեղան",
+      "sentence": "Գիրքը սեղանի վրա է։",
+      "reading": "seghan"
+    },
+    "bed": {
+      "word": "մահճակալ",
+      "sentence": "Երեխան մահճակալի մեջ է։",
+      "reading": "mahchakal"
+    },
+    "book": {
+      "word": "գիրք",
+      "sentence": "Գիրքը նոր է։",
+      "reading": "girk"
+    },
+    "water": {
+      "word": "ջուր",
+      "sentence": "Ջուրը սառն է։",
+      "reading": "jur"
+    },
+    "fire": {
+      "word": "կրակ",
+      "sentence": "Կրակը տաք է։",
+      "reading": "krak"
+    },
+    "bread": {
+      "word": "հաց",
+      "sentence": "Հացը լավն է։",
+      "reading": "hats"
+    },
+    "apple": {
+      "word": "խնձոր",
+      "sentence": "Խնձորը կարմիր է։",
+      "reading": "khndzor"
+    },
+    "egg": {
+      "word": "ձու",
+      "sentence": "Ձուն սեղանի վրա է։",
+      "reading": "dzu"
+    },
+    "milk": {
+      "word": "կաթ",
+      "sentence": "Երեխան կաթ է խմում։",
+      "reading": "kat"
+    },
+    "fish": {
+      "word": "ձուկ",
+      "sentence": "Ձուկը ջրի մեջ է։",
+      "reading": "dzuk"
+    },
+    "rice": {
+      "word": "բրինձ",
+      "sentence": "Մենք բրինձ ենք ուտում։",
+      "reading": "brindz"
+    },
+    "coffee": {
+      "word": "սուրճ",
+      "sentence": "Սուրճը տաք է։",
+      "reading": "surj"
+    },
+    "eat": {
+      "word": "ուտել",
+      "sentence": "Մենք հաց ենք ուտում։",
+      "reading": "utel"
+    },
+    "drink": {
+      "word": "խմել",
+      "sentence": "Ես ջուր եմ խմում։",
+      "reading": "khmel"
+    },
+    "see": {
+      "word": "տեսնել",
+      "sentence": "Ես արևն եմ տեսնում։",
+      "reading": "tesnel"
+    },
+    "hear": {
+      "word": "լսել",
+      "sentence": "Ես անձրևն եմ լսում։",
+      "reading": "lsel"
+    },
+    "sleep": {
+      "word": "քնել",
+      "sentence": "Երեխան քնում է։",
+      "reading": "kʿnel"
+    },
+    "walk": {
+      "word": "քայլել",
+      "sentence": "Տղամարդը քայլում է։",
+      "reading": "kʿaylel"
+    },
+    "come": {
+      "word": "գալ",
+      "sentence": "Դու գալիս ես տուն։",
+      "reading": "gal"
+    },
+    "sit": {
+      "word": "նստել",
+      "sentence": "Մենք նստում ենք սեղանի մոտ։",
+      "reading": "nstel"
+    },
+    "give": {
+      "word": "տալ",
+      "sentence": "Ես քեզ բանալին եմ տալիս։",
+      "reading": "tal"
+    },
+    "sun": {
+      "word": "արև",
+      "sentence": "Արևը տաք է։",
+      "reading": "arev"
+    },
+    "moon": {
+      "word": "լուսին",
+      "sentence": "Ես լուսինն եմ տեսնում։",
+      "reading": "lusin"
+    },
+    "tree": {
+      "word": "ծառ",
+      "sentence": "Ծառը մեծ է։",
+      "reading": "tsar"
+    },
+    "flower": {
+      "word": "ծաղիկ",
+      "sentence": "Ծաղիկը կարմիր է։",
+      "reading": "tsaghik"
+    },
+    "rain": {
+      "word": "անձրև",
+      "sentence": "Անձրևը սառն է։",
+      "reading": "andzrev"
+    },
+    "mountain": {
+      "word": "լեռ",
+      "sentence": "Լեռը մեծ է։",
+      "reading": "ler"
+    },
+    "river": {
+      "word": "գետ",
+      "sentence": "Գետը երկար է։",
+      "reading": "get"
+    },
+    "stone": {
+      "word": "քար",
+      "sentence": "Քարը փոքր է։",
+      "reading": "kʿar"
+    },
+    "dog": {
+      "word": "շուն",
+      "sentence": "Շունը փոքր է։",
+      "reading": "shun"
+    },
+    "cat": {
+      "word": "կատու",
+      "sentence": "Կատուն քնած է։",
+      "reading": "katu"
+    },
+    "bird": {
+      "word": "թռչուն",
+      "sentence": "Ես երկու թռչուն եմ տեսնում։",
+      "reading": "tʿrchʿun"
+    },
+    "hand": {
+      "word": "ձեռք",
+      "sentence": "Սա իմ ձեռքն է։",
+      "reading": "dzerkʿ"
+    },
+    "eye": {
+      "word": "աչք",
+      "sentence": "Սա իմ աչքն է։",
+      "reading": "achkʿ"
+    },
+    "ear": {
+      "word": "ականջ",
+      "sentence": "Սա իմ ականջն է։",
+      "reading": "akanj"
+    },
+    "head": {
+      "word": "գլուխ",
+      "sentence": "Սա իմ գլուխն է։",
+      "reading": "glukh"
+    },
+    "mouth": {
+      "word": "բերան",
+      "sentence": "Սա իմ բերանն է։",
+      "reading": "beran"
+    },
+    "foot": {
+      "word": "ոտք",
+      "sentence": "Ոտքս սառն է։",
+      "reading": "votkʿ"
+    },
+    "road": {
+      "word": "ճանապարհ",
+      "sentence": "Ճանապարհը երկար է։",
+      "reading": "chanaparh"
+    },
+    "city": {
+      "word": "քաղաք",
+      "sentence": "Քաղաքը մեծ է։",
+      "reading": "kʿaghakʿ"
+    },
+    "school": {
+      "word": "դպրոց",
+      "sentence": "Երեխան դպրոց է գնում։",
+      "reading": "dprots"
+    },
+    "sea": {
+      "word": "ծով",
+      "sentence": "Ես ծովն եմ տեսնում։",
+      "reading": "tsov"
+    },
+    "night": {
+      "word": "գիշեր",
+      "sentence": "Գիշերը սառն է։",
+      "reading": "gisher"
+    },
+    "one": {
+      "word": "մեկ",
+      "sentence": "Ես մեկ խնձոր ունեմ։",
+      "reading": "mek"
+    },
+    "two": {
+      "word": "երկու",
+      "sentence": "Ես երկու թռչուն եմ տեսնում։",
+      "reading": "yerku"
+    },
+    "big": {
+      "word": "մեծ",
+      "sentence": "Տունը մեծ է։",
+      "reading": "mets"
+    },
+    "small": {
+      "word": "փոքր",
+      "sentence": "Երեխան փոքր է։",
+      "reading": "pʿokʿr"
+    },
+    "good": {
+      "word": "լավ",
+      "sentence": "Հացը լավն է։",
+      "reading": "lav"
+    },
+    "hot": {
+      "word": "տաք",
+      "sentence": "Կրակը տաք է։",
+      "reading": "tak"
+    },
+    "cold": {
+      "word": "սառը",
+      "sentence": "Ջուրը սառն է։",
+      "reading": "sarə"
+    },
+    "red": {
+      "word": "կարմիր",
+      "sentence": "Խնձորը կարմիր է։",
+      "reading": "karmir"
+    },
+    "new": {
+      "word": "նոր",
+      "sentence": "Գիրքը նոր է։",
+      "reading": "nor"
+    },
+    "this": {
+      "word": "սա",
+      "sentence": "Սա իմ տունն է։",
+      "reading": "sa"
+    }
+  },
+  "lines": {
+    "d1a": "Բարև։ Ես այստեղ եմ։",
+    "d1b": "Ի՞նչ է քո անունը։",
+    "d1c": "Իմ անունը Աննա է։ Սա իմ ընկերն է։",
+    "d1d": "Ներս արի։ Հացը լավն է։",
+    "d2a": "Ես լեռն եմ տեսնում։",
+    "d2b": "Ճանապարհը երկար է։",
+    "d2c": "Արևը տաք է։",
+    "d2d": "Մենք նստում ենք, և ես ջուր եմ խմում։",
+    "d3a": "Երեխան քնում է։",
+    "d3b": "Ես լուսինն եմ տեսնում։",
+    "d3c": "Ես անձրևն եմ լսում։",
+    "d3d": "Տունը փոքր է և լավ։"
+  }
+}

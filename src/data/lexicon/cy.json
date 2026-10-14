@@ -1,0 +1,298 @@
+{
+  "entries": {
+    "i": {
+      "word": "i",
+      "sentence": "Dw i yma."
+    },
+    "you": {
+      "word": "ti",
+      "sentence": "Ti yw fy ffrind.",
+      "note": "singular"
+    },
+    "woman": {
+      "word": "menyw",
+      "sentence": "Mae'r fenyw yma.",
+      "gender": "f"
+    },
+    "man": {
+      "word": "dyn",
+      "sentence": "Mae'r dyn yn cerdded.",
+      "plural": "dynion"
+    },
+    "child": {
+      "word": "plentyn",
+      "sentence": "Mae'r plentyn yn cysgu.",
+      "plural": "plant"
+    },
+    "name": {
+      "word": "enw",
+      "sentence": "Anna yw fy enw i."
+    },
+    "friend": {
+      "word": "ffrind",
+      "sentence": "Dyma fy ffrind."
+    },
+    "family": {
+      "word": "teulu",
+      "sentence": "Mae fy nheulu gartref."
+    },
+    "house": {
+      "word": "tŷ",
+      "sentence": "Mae'r tŷ'n fach.",
+      "plural": "tai"
+    },
+    "door": {
+      "word": "drws",
+      "sentence": "Mae'r drws yn agored."
+    },
+    "key": {
+      "word": "allwedd",
+      "sentence": "Mae'r allwedd ar y bwrdd.",
+      "gender": "f"
+    },
+    "table": {
+      "word": "bwrdd",
+      "sentence": "Mae'r llyfr ar y bwrdd."
+    },
+    "bed": {
+      "word": "gwely",
+      "sentence": "Mae'r plentyn yn y gwely."
+    },
+    "book": {
+      "word": "llyfr",
+      "sentence": "Mae'r llyfr yn newydd."
+    },
+    "water": {
+      "word": "dŵr",
+      "sentence": "Mae'r dŵr yn oer."
+    },
+    "fire": {
+      "word": "tân",
+      "sentence": "Mae'r tân yn boeth."
+    },
+    "bread": {
+      "word": "bara",
+      "sentence": "Mae'r bara'n dda."
+    },
+    "apple": {
+      "word": "afal",
+      "sentence": "Mae'r afal yn goch."
+    },
+    "egg": {
+      "word": "wy",
+      "sentence": "Mae'r wy ar y bwrdd."
+    },
+    "milk": {
+      "word": "llaeth",
+      "sentence": "Mae'r plentyn yn yfed llaeth."
+    },
+    "fish": {
+      "word": "pysgodyn",
+      "sentence": "Mae'r pysgodyn yn y dŵr.",
+      "plural": "pysgod"
+    },
+    "rice": {
+      "word": "reis",
+      "sentence": "Rydyn ni'n bwyta reis."
+    },
+    "coffee": {
+      "word": "coffi",
+      "sentence": "Mae'r coffi'n boeth."
+    },
+    "eat": {
+      "word": "bwyta",
+      "sentence": "Rydyn ni'n bwyta bara."
+    },
+    "drink": {
+      "word": "yfed",
+      "sentence": "Dw i'n yfed dŵr."
+    },
+    "see": {
+      "word": "gweld",
+      "sentence": "Dw i'n gweld yr haul."
+    },
+    "hear": {
+      "word": "clywed",
+      "sentence": "Dw i'n clywed y glaw."
+    },
+    "sleep": {
+      "word": "cysgu",
+      "sentence": "Mae'r plentyn yn cysgu."
+    },
+    "walk": {
+      "word": "cerdded",
+      "sentence": "Mae'r dyn yn cerdded."
+    },
+    "come": {
+      "word": "dod",
+      "sentence": "Rwyt ti'n dod i'r tŷ."
+    },
+    "sit": {
+      "word": "eistedd",
+      "sentence": "Rydyn ni'n eistedd wrth y bwrdd."
+    },
+    "give": {
+      "word": "rhoi",
+      "sentence": "Dw i'n rhoi'r allwedd i ti."
+    },
+    "sun": {
+      "word": "haul",
+      "sentence": "Mae'r haul yn boeth."
+    },
+    "moon": {
+      "word": "lleuad",
+      "sentence": "Dw i'n gweld y lleuad.",
+      "gender": "f"
+    },
+    "tree": {
+      "word": "coeden",
+      "sentence": "Mae'r goeden yn fawr.",
+      "plural": "coed",
+      "gender": "f"
+    },
+    "flower": {
+      "word": "blodyn",
+      "sentence": "Mae'r blodyn yn goch."
+    },
+    "rain": {
+      "word": "glaw",
+      "sentence": "Mae'r glaw yn oer."
+    },
+    "mountain": {
+      "word": "mynydd",
+      "sentence": "Mae'r mynydd yn fawr."
+    },
+    "river": {
+      "word": "afon",
+      "sentence": "Mae'r afon yn hir.",
+      "gender": "f"
+    },
+    "stone": {
+      "word": "carreg",
+      "sentence": "Mae'r garreg yn fach.",
+      "gender": "f"
+    },
+    "dog": {
+      "word": "ci",
+      "sentence": "Mae'r ci'n fach.",
+      "plural": "cŵn"
+    },
+    "cat": {
+      "word": "cath",
+      "sentence": "Mae'r gath yn cysgu.",
+      "gender": "f"
+    },
+    "bird": {
+      "word": "aderyn",
+      "sentence": "Dw i'n gweld dau aderyn.",
+      "plural": "adar"
+    },
+    "hand": {
+      "word": "llaw",
+      "sentence": "Dyma fy llaw.",
+      "plural": "dwylo",
+      "gender": "f"
+    },
+    "eye": {
+      "word": "llygad",
+      "sentence": "Dyma fy llygad."
+    },
+    "ear": {
+      "word": "clust",
+      "sentence": "Dyma fy nghlust.",
+      "gender": "f"
+    },
+    "head": {
+      "word": "pen",
+      "sentence": "Dyma fy mhen."
+    },
+    "mouth": {
+      "word": "ceg",
+      "sentence": "Dyma fy ngheg.",
+      "gender": "f"
+    },
+    "foot": {
+      "word": "troed",
+      "sentence": "Mae fy nhroed yn oer.",
+      "plural": "traed"
+    },
+    "road": {
+      "word": "ffordd",
+      "sentence": "Mae'r ffordd yn hir.",
+      "gender": "f"
+    },
+    "city": {
+      "word": "dinas",
+      "sentence": "Mae'r ddinas yn fawr.",
+      "gender": "f"
+    },
+    "school": {
+      "word": "ysgol",
+      "sentence": "Mae'r plentyn yn mynd i'r ysgol.",
+      "gender": "f"
+    },
+    "sea": {
+      "word": "môr",
+      "sentence": "Dw i'n gweld y môr."
+    },
+    "night": {
+      "word": "nos",
+      "sentence": "Mae'r nos yn oer.",
+      "gender": "f"
+    },
+    "one": {
+      "word": "un",
+      "sentence": "Mae gen i un afal."
+    },
+    "two": {
+      "word": "dau",
+      "sentence": "Dw i'n gweld dau aderyn."
+    },
+    "big": {
+      "word": "mawr",
+      "sentence": "Mae'r tŷ'n fawr."
+    },
+    "small": {
+      "word": "bach",
+      "sentence": "Mae'r plentyn yn fach."
+    },
+    "good": {
+      "word": "da",
+      "sentence": "Mae'r bara'n dda."
+    },
+    "hot": {
+      "word": "poeth",
+      "sentence": "Mae'r tân yn boeth."
+    },
+    "cold": {
+      "word": "oer",
+      "sentence": "Mae'r dŵr yn oer."
+    },
+    "red": {
+      "word": "coch",
+      "sentence": "Mae'r afal yn goch."
+    },
+    "new": {
+      "word": "newydd",
+      "sentence": "Mae'r llyfr yn newydd."
+    },
+    "this": {
+      "word": "dyma",
+      "sentence": "Dyma fy nhŷ."
+    }
+  },
+  "lines": {
+    "d1a": "Helo. Dw i yma.",
+    "d1b": "Beth yw dy enw di?",
+    "d1c": "Anna yw fy enw i. Dyma fy ffrind.",
+    "d1d": "Tyrd i mewn. Mae'r bara'n dda.",
+    "d2a": "Dw i'n gweld y mynydd.",
+    "d2b": "Mae'r ffordd yn hir.",
+    "d2c": "Mae'r haul yn boeth.",
+    "d2d": "Rydyn ni'n eistedd, ac dw i'n yfed dŵr.",
+    "d3a": "Mae'r plentyn yn cysgu.",
+    "d3b": "Dw i'n gweld y lleuad.",
+    "d3c": "Dw i'n clywed y glaw.",
+    "d3d": "Mae'r tŷ'n fach ac yn dda."
+  }
+}

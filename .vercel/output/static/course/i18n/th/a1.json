@@ -1,0 +1,6480 @@
+{
+  "lang": "th",
+  "level": "A1",
+  "items": {
+    "i": {
+      "en": "I",
+      "word": "ฉัน",
+      "sentence": "ฉันอยู่ที่นี่",
+      "reading": "chǎn"
+    },
+    "you": {
+      "en": "you",
+      "word": "คุณ",
+      "sentence": "คุณเป็นเพื่อนของฉัน",
+      "reading": "khun"
+    },
+    "woman": {
+      "en": "woman",
+      "word": "ผู้หญิง",
+      "sentence": "ผู้หญิงอยู่ที่นี่",
+      "reading": "phûu-yǐng"
+    },
+    "man": {
+      "en": "man",
+      "word": "ผู้ชาย",
+      "sentence": "ผู้ชายกำลังเดิน",
+      "reading": "phûu-chaai"
+    },
+    "child": {
+      "en": "child",
+      "word": "เด็ก",
+      "sentence": "เด็กกำลังนอน",
+      "reading": "dèk"
+    },
+    "name": {
+      "en": "name",
+      "word": "ชื่อ",
+      "sentence": "ฉันชื่อ Anna",
+      "reading": "chʉ̂ʉ"
+    },
+    "friend": {
+      "en": "friend",
+      "word": "เพื่อน",
+      "sentence": "นี่คือเพื่อนของฉัน",
+      "reading": "phʉ̂an"
+    },
+    "family": {
+      "en": "family",
+      "word": "ครอบครัว",
+      "sentence": "ครอบครัวของฉันอยู่ที่บ้าน",
+      "reading": "khrɔ̂ɔp-khrua"
+    },
+    "house": {
+      "en": "house",
+      "word": "บ้าน",
+      "sentence": "บ้านเล็ก",
+      "reading": "bâan"
+    },
+    "door": {
+      "en": "door",
+      "word": "ประตู",
+      "sentence": "ประตูเปิดอยู่",
+      "reading": "bprà-dtuu"
+    },
+    "key": {
+      "en": "key",
+      "word": "กุญแจ",
+      "sentence": "กุญแจอยู่บนโต๊ะ",
+      "reading": "gun-jɛɛ"
+    },
+    "table": {
+      "en": "table",
+      "word": "โต๊ะ",
+      "sentence": "หนังสืออยู่บนโต๊ะ",
+      "reading": "dtó"
+    },
+    "bed": {
+      "en": "bed",
+      "word": "เตียง",
+      "sentence": "เด็กอยู่ในเตียง",
+      "reading": "dtiiang"
+    },
+    "book": {
+      "en": "book",
+      "word": "หนังสือ",
+      "sentence": "หนังสือเล่มนี้ใหม่",
+      "reading": "nǎng-sʉ̌ʉ"
+    },
+    "water": {
+      "en": "water",
+      "word": "น้ำ",
+      "sentence": "น้ำเย็น",
+      "reading": "náam"
+    },
+    "fire": {
+      "en": "fire",
+      "word": "ไฟ",
+      "sentence": "ไฟร้อน",
+      "reading": "fai"
+    },
+    "bread": {
+      "en": "bread",
+      "word": "ขนมปัง",
+      "sentence": "ขนมปังดี",
+      "reading": "khà-nǒm-bpang"
+    },
+    "apple": {
+      "en": "apple",
+      "word": "แอปเปิล",
+      "sentence": "แอปเปิลสีแดง",
+      "reading": "ɛ́p-bpə̂n"
+    },
+    "egg": {
+      "en": "egg",
+      "word": "ไข่",
+      "sentence": "ไข่อยู่บนโต๊ะ",
+      "reading": "khài"
+    },
+    "milk": {
+      "en": "milk",
+      "word": "นม",
+      "sentence": "เด็กดื่มนม",
+      "reading": "nom"
+    },
+    "fish": {
+      "en": "fish",
+      "word": "ปลา",
+      "sentence": "ปลาอยู่ในน้ำ",
+      "reading": "bplaa"
+    },
+    "rice": {
+      "en": "rice",
+      "word": "ข้าว",
+      "sentence": "พวกเรากินข้าว",
+      "reading": "khâao"
+    },
+    "coffee": {
+      "en": "coffee",
+      "word": "กาแฟ",
+      "sentence": "กาแฟร้อน",
+      "reading": "gaa-fɛɛ"
+    },
+    "eat": {
+      "en": "eat",
+      "word": "กิน",
+      "sentence": "พวกเรากินขนมปัง",
+      "reading": "gin"
+    },
+    "drink": {
+      "en": "drink",
+      "word": "ดื่ม",
+      "sentence": "ฉันดื่มน้ำ",
+      "reading": "dʉ̀ʉm"
+    },
+    "see": {
+      "en": "see",
+      "word": "เห็น",
+      "sentence": "ฉันเห็นพระอาทิตย์",
+      "reading": "hěn"
+    },
+    "hear": {
+      "en": "hear",
+      "word": "ได้ยิน",
+      "sentence": "ฉันได้ยินฝน",
+      "reading": "dâai-yin"
+    },
+    "sleep": {
+      "en": "sleep",
+      "word": "นอน",
+      "sentence": "เด็กนอน",
+      "reading": "nɔɔn"
+    },
+    "walk": {
+      "en": "walk",
+      "word": "เดิน",
+      "sentence": "ผู้ชายเดิน",
+      "reading": "dəən"
+    },
+    "come": {
+      "en": "come",
+      "word": "มา",
+      "sentence": "คุณมาที่บ้าน",
+      "reading": "maa"
+    },
+    "sit": {
+      "en": "sit",
+      "word": "นั่ง",
+      "sentence": "พวกเรานั่งที่โต๊ะ",
+      "reading": "nâng"
+    },
+    "give": {
+      "en": "give",
+      "word": "ให้",
+      "sentence": "ฉันให้กุญแจกับคุณ",
+      "reading": "hâi"
+    },
+    "sun": {
+      "en": "sun",
+      "word": "พระอาทิตย์",
+      "sentence": "พระอาทิตย์ร้อน",
+      "reading": "prá-aa-thít"
+    },
+    "moon": {
+      "en": "moon",
+      "word": "พระจันทร์",
+      "sentence": "ฉันเห็นพระจันทร์",
+      "reading": "prá-jan"
+    },
+    "tree": {
+      "en": "tree",
+      "word": "ต้นไม้",
+      "sentence": "ต้นไม้ใหญ่",
+      "reading": "dtôn-máai"
+    },
+    "flower": {
+      "en": "flower",
+      "word": "ดอกไม้",
+      "sentence": "ดอกไม้สีแดง",
+      "reading": "dɔ̀ɔk-máai"
+    },
+    "rain": {
+      "en": "rain",
+      "word": "ฝน",
+      "sentence": "ฝนเย็น",
+      "reading": "fǒn"
+    },
+    "mountain": {
+      "en": "mountain",
+      "word": "ภูเขา",
+      "sentence": "ภูเขาใหญ่",
+      "reading": "phuu-khǎo"
+    },
+    "river": {
+      "en": "river",
+      "word": "แม่น้ำ",
+      "sentence": "แม่น้ำยาว",
+      "reading": "mâe-náam"
+    },
+    "stone": {
+      "en": "stone",
+      "word": "หิน",
+      "sentence": "หินเล็ก",
+      "reading": "hǐn"
+    },
+    "dog": {
+      "en": "dog",
+      "word": "หมา",
+      "sentence": "หมาเล็ก",
+      "reading": "mǎa"
+    },
+    "cat": {
+      "en": "cat",
+      "word": "แมว",
+      "sentence": "แมวกำลังนอน",
+      "reading": "mɛɛo"
+    },
+    "bird": {
+      "en": "bird",
+      "word": "นก",
+      "sentence": "ฉันเห็นนกสองตัว",
+      "reading": "nók"
+    },
+    "hand": {
+      "en": "hand",
+      "word": "มือ",
+      "sentence": "นี่คือมือของฉัน",
+      "reading": "mʉʉ"
+    },
+    "eye": {
+      "en": "eye",
+      "word": "ตา",
+      "sentence": "นี่คือตาของฉัน",
+      "reading": "dtaa"
+    },
+    "ear": {
+      "en": "ear",
+      "word": "หู",
+      "sentence": "นี่คือหูของฉัน",
+      "reading": "hǔu"
+    },
+    "head": {
+      "en": "head",
+      "word": "หัว",
+      "sentence": "นี่คือหัวของฉัน",
+      "reading": "hǔa"
+    },
+    "mouth": {
+      "en": "mouth",
+      "word": "ปาก",
+      "sentence": "นี่คือปากของฉัน",
+      "reading": "bpàak"
+    },
+    "foot": {
+      "en": "foot",
+      "word": "เท้า",
+      "sentence": "เท้าของฉันเย็น",
+      "reading": "tháao"
+    },
+    "road": {
+      "en": "road",
+      "word": "ถนน",
+      "sentence": "ถนนยาว",
+      "reading": "thà-nǒn"
+    },
+    "city": {
+      "en": "city",
+      "word": "เมือง",
+      "sentence": "เมืองใหญ่",
+      "reading": "mʉʉang"
+    },
+    "school": {
+      "en": "school",
+      "word": "โรงเรียน",
+      "sentence": "เด็กไปโรงเรียน",
+      "reading": "roong-riian"
+    },
+    "sea": {
+      "en": "sea",
+      "word": "ทะเล",
+      "sentence": "ฉันเห็นทะเล",
+      "reading": "thá-lee"
+    },
+    "night": {
+      "en": "night",
+      "word": "คืน",
+      "sentence": "กลางคืนหนาว",
+      "reading": "khʉʉn"
+    },
+    "one": {
+      "en": "one",
+      "word": "หนึ่ง",
+      "sentence": "ฉันมีแอปเปิลหนึ่งลูก",
+      "reading": "nʉ̀ng"
+    },
+    "two": {
+      "en": "two",
+      "word": "สอง",
+      "sentence": "ฉันเห็นนกสองตัว",
+      "reading": "sɔ̌ɔng"
+    },
+    "big": {
+      "en": "big",
+      "word": "ใหญ่",
+      "sentence": "บ้านใหญ่",
+      "reading": "yài"
+    },
+    "small": {
+      "en": "small",
+      "word": "เล็ก",
+      "sentence": "เด็กเล็ก",
+      "reading": "lék"
+    },
+    "good": {
+      "en": "good",
+      "word": "ดี",
+      "sentence": "ขนมปังดี",
+      "reading": "dii"
+    },
+    "hot": {
+      "en": "hot",
+      "word": "ร้อน",
+      "sentence": "ไฟร้อน",
+      "reading": "rɔ́ɔn"
+    },
+    "cold": {
+      "en": "cold",
+      "word": "เย็น",
+      "sentence": "น้ำเย็น",
+      "reading": "yen"
+    },
+    "red": {
+      "en": "red",
+      "word": "แดง",
+      "sentence": "แอปเปิลสีแดง",
+      "reading": "dɛɛng"
+    },
+    "new": {
+      "en": "new",
+      "word": "ใหม่",
+      "sentence": "หนังสือเล่มนี้ใหม่",
+      "reading": "mài"
+    },
+    "this": {
+      "en": "this",
+      "word": "นี่",
+      "sentence": "นี่คือบ้านของฉัน",
+      "reading": "nîi"
+    },
+    "a1-001": {
+      "en": "mother",
+      "word": "แม่",
+      "sentence": "แม่ของฉันทำอาหารเช้าให้เราทุกเช้า",
+      "reading": "mâe"
+    },
+    "a1-002": {
+      "en": "father",
+      "word": "พ่อ",
+      "sentence": "พ่อของฉันขับรถไปทำงานทุกเช้า",
+      "reading": "phɔ̂ɔ"
+    },
+    "a1-003": {
+      "en": "sister",
+      "word": "น้องสาว",
+      "sentence": "พี่สาวของฉันช่วยฉันทำการบ้าน",
+      "reading": "nɔ́ɔng-sǎao"
+    },
+    "a1-004": {
+      "en": "brother",
+      "word": "พี่ชาย",
+      "sentence": "พี่ชายของฉันเล่นในสวนสาธารณะหลังเลิกเรียน",
+      "reading": "phîi-chaai"
+    },
+    "a1-005": {
+      "en": "daughter",
+      "word": "ลูกสาว",
+      "sentence": "ลูกสาวของพวกเขาเป็นนักเรียนที่มีความสุขที่โรงเรียน",
+      "reading": "lûuk-sǎao"
+    },
+    "a1-006": {
+      "en": "son",
+      "word": "ลูกชาย",
+      "sentence": "ลูกชายของพวกเขาชอบอ่านหนังสือตอนกลางคืน",
+      "reading": "lûuk-chaai"
+    },
+    "a1-007": {
+      "en": "baby",
+      "word": "ที่รัก",
+      "sentence": "ทารกนอนหลับบนเตียงเล็กในเวลากลางคืน",
+      "reading": "thîi-rák"
+    },
+    "a1-008": {
+      "en": "boy",
+      "word": "เด็กชาย",
+      "sentence": "เด็กชายเดินไปโรงเรียนกับน้องสาวของเขา",
+      "reading": "dèk-chaai"
+    },
+    "a1-009": {
+      "en": "girl",
+      "word": "สาว",
+      "sentence": "เด็กผู้หญิงวาดภาพครอบครัวของเธอ",
+      "reading": "sǎao"
+    },
+    "a1-010": {
+      "en": "parent",
+      "word": "ผู้ปกครอง",
+      "sentence": "ผู้ปกครองอ่านนิทานให้ลูกฟังตอนกลางคืน",
+      "reading": "phûu-bpòk-khrɔɔng"
+    },
+    "a1-011": {
+      "en": "grandmother",
+      "word": "คุณยาย",
+      "sentence": "คุณยายของฉันเล่านิทานให้เราฟังในวันอาทิตย์",
+      "reading": "khun-yaai"
+    },
+    "a1-012": {
+      "en": "grandfather",
+      "word": "คุณปู่",
+      "sentence": "ปู่ของฉันเดินเล่นในสวนสาธารณะทุกเช้า",
+      "reading": "khun-bpùu"
+    },
+    "a1-013": {
+      "en": "grandma",
+      "word": "คุณยาย",
+      "sentence": "คุณยายของฉันอบเค้กสำหรับวันเกิดของฉัน",
+      "reading": "khun-yaai"
+    },
+    "a1-014": {
+      "en": "grandpa",
+      "word": "คุณปู่",
+      "sentence": "คุณปู่ของฉันดื่มชาในตอนบ่าย",
+      "reading": "khun-bpùu"
+    },
+    "a1-015": {
+      "en": "aunt",
+      "word": "ป้า",
+      "sentence": "ป้าของฉันอาศัยอยู่ในเมืองเล็กๆ ใกล้ทะเล",
+      "reading": "bpâa"
+    },
+    "a1-016": {
+      "en": "uncle",
+      "word": "ลุง",
+      "sentence": "ลุงของฉันทำงานในฟาร์มที่มีสัตว์หลายชนิด",
+      "reading": "lung"
+    },
+    "a1-017": {
+      "en": "cousin",
+      "word": "ลูกพี่ลูกน้อง",
+      "sentence": "ลูกพี่ลูกน้องของฉันมาเยี่ยมบ้านของเราในฤดูร้อน",
+      "reading": "lûuk-phîi-lûuk-nɔ́ɔng"
+    },
+    "a1-018": {
+      "en": "wife",
+      "word": "ภรรยา",
+      "sentence": "ภรรยาของเขาสอนดนตรีที่โรงเรียนในท้องถิ่น",
+      "reading": "á-ron-yaa"
+    },
+    "a1-019": {
+      "en": "husband",
+      "word": "สามี",
+      "sentence": "สามีของเธอทำอาหารเย็นในคืนวันศุกร์",
+      "reading": "sǎa-mii"
+    },
+    "a1-020": {
+      "en": "twin",
+      "word": "แฝด",
+      "sentence": "ฉันมีพี่ชายฝาแฝดในชั้นเรียนที่โรงเรียน",
+      "reading": "fɛ̀ɛt"
+    },
+    "a1-021": {
+      "en": "niece",
+      "word": "หลานสาว",
+      "sentence": "หลานสาวของฉันอายุห้าขวบและมีความสุขมาก",
+      "reading": "lǎan-sǎao"
+    },
+    "a1-022": {
+      "en": "nephew",
+      "word": "หลานชาย",
+      "sentence": "หลานชายของฉันชอบเล่นในสนาม",
+      "reading": "lǎan-chaai"
+    },
+    "a1-023": {
+      "en": "grandson",
+      "word": "หลานชาย",
+      "sentence": "หลานชายของเธอจะมาเยี่ยมเธอทุกบ่ายวันอาทิตย์",
+      "reading": "lǎan-chaai"
+    },
+    "a1-024": {
+      "en": "granddaughter",
+      "word": "หลานสาว",
+      "sentence": "หลานสาวของเธอวาดรูปที่โต๊ะในครัว",
+      "reading": "lǎan-sǎao"
+    },
+    "a1-025": {
+      "en": "grandchild",
+      "word": "หลาน",
+      "sentence": "หลานทุกคนจะได้รับของขวัญเล็กๆ น้อยๆ ในวันเกิดของพวกเขา",
+      "reading": "lǎan"
+    },
+    "a1-026": {
+      "en": "relative",
+      "word": "ญาติ",
+      "sentence": "ญาติจากเมืองของเรามาเยี่ยมเราในฤดูร้อน",
+      "reading": "yít"
+    },
+    "a1-027": {
+      "en": "toddler",
+      "word": "เด็กวัยหัดเดิน",
+      "sentence": "เด็กน้อยเดินช้าๆ ข้ามห้องนั่งเล่น",
+      "reading": "dèk-wai-hàt-dəən"
+    },
+    "a1-028": {
+      "en": "teenager",
+      "word": "วัยโจ๋",
+      "sentence": "วัยรุ่นช่วยในร้านวันเสาร์",
+      "reading": "wai-jǒo"
+    },
+    "a1-029": {
+      "en": "adult",
+      "word": "ผู้ใหญ่",
+      "sentence": "ผู้ใหญ่รอพร้อมกับเด็กที่ป้ายรถเมล์",
+      "reading": "phûu-yài"
+    },
+    "a1-030": {
+      "en": "birthday",
+      "word": "วันเกิด",
+      "sentence": "เรากินเค้กด้วยกันในวันเกิดของฉันในเดือนพฤษภาคม",
+      "reading": "wan-gə̀ət"
+    },
+    "a1-031": {
+      "en": "wedding",
+      "word": "งานแต่งงาน",
+      "sentence": "งานแต่งงานอยู่ในสวนในวันที่อากาศแจ่มใส",
+      "reading": "ngaan-dtɛ̀ɛng-ngaan"
+    },
+    "a1-032": {
+      "en": "home",
+      "word": "บ้าน",
+      "sentence": "ฉันรู้สึกสงบและมีความสุขเมื่ออยู่ที่บ้าน",
+      "reading": "bâan"
+    },
+    "a1-033": {
+      "en": "brother-in-law",
+      "word": "พี่เขย",
+      "sentence": "พี่เขยของฉันทำงานที่โรงพยาบาลในเมือง",
+      "reading": "phîi-khěei"
+    },
+    "a1-034": {
+      "en": "sister-in-law",
+      "word": "พี่สะใภ้",
+      "sentence": "พี่สะใภ้ของฉันสอนเด็กๆ ที่โรงเรียน",
+      "reading": "phîi-sà-phái"
+    },
+    "a1-035": {
+      "en": "mother-in-law",
+      "word": "แม่สามี",
+      "sentence": "แม่สามีของฉันทำซุปอุ่นๆ ให้กับครอบครัว",
+      "reading": "mâe-sǎa-mii"
+    },
+    "a1-036": {
+      "en": "father-in-law",
+      "word": "พ่อตา",
+      "sentence": "พ่อตาของฉันอาศัยอยู่ในหมู่บ้านที่เงียบสงบ",
+      "reading": "phɔ̂ɔ-dtaa"
+    },
+    "a1-037": {
+      "en": "hug",
+      "word": "กอด",
+      "sentence": "ฉันกอดคุณยายเมื่อไปเยี่ยมบ้านเธอ",
+      "reading": "gɔ̀ɔt"
+    },
+    "a1-038": {
+      "en": "visit",
+      "word": "ไปเยี่ยม",
+      "sentence": "เราไปเยี่ยมลุงที่ฟาร์มของเขาในฤดูร้อน",
+      "reading": "bpai-yîiam"
+    },
+    "a1-039": {
+      "en": "party",
+      "word": "ปาร์ตี้",
+      "sentence": "เรามีงานปาร์ตี้เล็ก ๆ สำหรับวันเกิดของเธอวันนี้",
+      "reading": "bpaa-dtîi"
+    },
+    "a1-040": {
+      "en": "gift",
+      "word": "ของขวัญ",
+      "sentence": "ฉันให้ของขวัญพ่อในวันเกิดของเขา",
+      "reading": "khɔ̌ɔng-khwǎn"
+    },
+    "a1-041": {
+      "en": "shirt",
+      "word": "เสื้อ",
+      "sentence": "ฉันสวมเสื้อเชิ้ตสีขาวสะอาดไปทำงานที่ออฟฟิศ",
+      "reading": "sʉ̂a"
+    },
+    "a1-042": {
+      "en": "shoe",
+      "word": "รองเท้า",
+      "sentence": "ฉันสวมรองเท้าก่อนออกจากบ้าน",
+      "reading": "rɔɔng-tháao"
+    },
+    "a1-043": {
+      "en": "coat",
+      "word": "เสื้อคลุม",
+      "sentence": "ฉันสวมเสื้อคลุมที่อบอุ่นในฤดูหนาวที่หนาวเย็น",
+      "reading": "sʉ̂a-khlum"
+    },
+    "a1-044": {
+      "en": "dress",
+      "word": "ชุด",
+      "sentence": "เธอสวมชุดสีน้ำเงินไปงานปาร์ตี้คืนนี้",
+      "reading": "chút"
+    },
+    "a1-045": {
+      "en": "skirt",
+      "word": "กระโปรง",
+      "sentence": "ฉันสวมกระโปรงยาวไปงานปาร์ตี้ของครอบครัว",
+      "reading": "grà-bproong"
+    },
+    "a1-046": {
+      "en": "pants",
+      "word": "กางเกง",
+      "sentence": "กางเกงเหล่านี้สะอาดและดีสำหรับไปโรงเรียน",
+      "reading": "gaang-geeng"
+    },
+    "a1-047": {
+      "en": "jeans",
+      "word": "กางเกงยีนส์",
+      "sentence": "ฉันสวมกางเกงยีนส์สีน้ำเงินและเสื้อเชิ้ตในวันเสาร์",
+      "reading": "gaang-geeng-yiin"
+    },
+    "a1-048": {
+      "en": "jacket",
+      "word": "แจ็คเก็ต",
+      "sentence": "ฉันสวมแจ็กเก็ตบางเบาในตอนเย็นที่อากาศเย็นสบาย",
+      "reading": "jɛ̀k-gèt"
+    },
+    "a1-049": {
+      "en": "hat",
+      "word": "หมวก",
+      "sentence": "ฉันสวมหมวกเมื่อแดดร้อนมาก",
+      "reading": "mùuak"
+    },
+    "a1-050": {
+      "en": "cap",
+      "word": "หมวก",
+      "sentence": "ฉันสวมหมวกแก๊ปที่ชายหาดในฤดูร้อน",
+      "reading": "mùuak"
+    },
+    "a1-051": {
+      "en": "sock",
+      "word": "ถุงเท้า",
+      "sentence": "ถุงเท้านี้สะอาดและนุ่มเท้าของฉัน",
+      "reading": "thǔng-tháao"
+    },
+    "a1-052": {
+      "en": "sweater",
+      "word": "เสื้อกันหนาว",
+      "sentence": "ฉันสวมเสื้อสเวตเตอร์ที่ให้ความอบอุ่นในฤดูใบไม้ร่วง",
+      "reading": "sʉ̂a-gan-nǎao"
+    },
+    "a1-053": {
+      "en": "scarf",
+      "word": "ผ้าพันคอ",
+      "sentence": "ฉันสวมผ้าพันคอที่อบอุ่นเมื่อลมหนาว",
+      "reading": "phâa-phan-khɔɔ"
+    },
+    "a1-054": {
+      "en": "glove",
+      "word": "ถุงมือ",
+      "sentence": "ถุงมือนี้ช่วยให้มือของฉันอบอุ่นในฤดูหนาว",
+      "reading": "thǔng-mʉʉ"
+    },
+    "a1-055": {
+      "en": "belt",
+      "word": "เข็มขัด",
+      "sentence": "ฉันสวมเข็มขัดสีดำกับกางเกงทำงานของฉัน",
+      "reading": "khěm-khàt"
+    },
+    "a1-056": {
+      "en": "boot",
+      "word": "บูต",
+      "sentence": "รองเท้าบู๊ตรุ่นนี้ช่วยให้เท้าของฉันอบอุ่นท่ามกลางหิมะ",
+      "reading": "bùut"
+    },
+    "a1-057": {
+      "en": "sandal",
+      "word": "รองเท้าแตะ",
+      "sentence": "รองเท้าแตะรุ่นนี้เหมาะสำหรับการเดินเล่นบนชายหาด",
+      "reading": "rɔɔng-tháao-dtɛ̀"
+    },
+    "a1-058": {
+      "en": "shorts",
+      "word": "กางเกงขาสั้น",
+      "sentence": "ฉันสวมกางเกงขาสั้นในวันที่อากาศร้อน",
+      "reading": "gaang-geeng-khǎa-sân"
+    },
+    "a1-059": {
+      "en": "t-shirt",
+      "word": "เสื้อยืด",
+      "sentence": "ฉันสวมเสื้อยืดสีขาวในวันที่อากาศแจ่มใส",
+      "reading": "sʉ̂a-yʉ̂ʉt"
+    },
+    "a1-060": {
+      "en": "tie",
+      "word": "ผูก",
+      "sentence": "เขาสวมเนคไทสีเข้มกับชุดสูทไปทำงาน",
+      "reading": "phùuk"
+    },
+    "a1-061": {
+      "en": "button",
+      "word": "ปุ่ม",
+      "sentence": "ปุ่มสีน้ำเงินบนเสื้อของฉันมีขนาดเล็กมาก",
+      "reading": "bpùm"
+    },
+    "a1-062": {
+      "en": "pocket",
+      "word": "กระเป๋า",
+      "sentence": "กุญแจของฉันอยู่ในกระเป๋าเสื้อโค้ทของฉัน",
+      "reading": "grà-bpǎo"
+    },
+    "a1-063": {
+      "en": "glasses",
+      "word": "แว่นตา",
+      "sentence": "ฉันสวมแว่นตาเมื่ออ่านหนังสือที่บ้าน",
+      "reading": "wɛ̂ɛn-dtaa"
+    },
+    "a1-064": {
+      "en": "sunglasses",
+      "word": "แว่นกันแดด",
+      "sentence": "ฉันสวมแว่นกันแดดที่ชายหาดในวันที่แดดจ้า",
+      "reading": "wɛ̂ɛn-gan-dɛ̀ɛt"
+    },
+    "a1-065": {
+      "en": "ring",
+      "word": "แหวน",
+      "sentence": "แหวนบนนิ้วของฉันเป็นของขวัญจากแม่ของฉัน",
+      "reading": "wɛ̌ɛn"
+    },
+    "a1-066": {
+      "en": "necklace",
+      "word": "สร้อยคอ",
+      "sentence": "วันนี้เธอสวมสร้อยคอกับชุดสีน้ำเงินของเธอ",
+      "reading": "srɔ̂ɔi-khɔɔ"
+    },
+    "a1-067": {
+      "en": "uniform",
+      "word": "เครื่องแบบ",
+      "sentence": "นักเรียนสวมชุดนักเรียนที่สะอาดที่โรงเรียน",
+      "reading": "khrʉ̂ang-bɛ̀ɛp"
+    },
+    "a1-068": {
+      "en": "pajamas",
+      "word": "ชุดนอน",
+      "sentence": "ชุดนอนเหล่านี้มีความนุ่มและอบอุ่นในฤดูหนาว",
+      "reading": "chút-nɔɔn"
+    },
+    "a1-069": {
+      "en": "slipper",
+      "word": "รองเท้าแตะ",
+      "sentence": "รองเท้าแตะคู่นี้มีความนุ่มและอบอุ่นภายในบ้าน",
+      "reading": "rɔɔng-tháao-dtɛ̀"
+    },
+    "a1-070": {
+      "en": "raincoat",
+      "word": "เสื้อกันฝน",
+      "sentence": "ฉันสวมเสื้อกันฝนในวันที่ฝนตก",
+      "reading": "sʉ̂a-gan-fǒn"
+    },
+    "a1-071": {
+      "en": "mitten",
+      "word": "นวม",
+      "sentence": "นวมนี้ช่วยให้มือของฉันอบอุ่นและแห้ง",
+      "reading": "nuuam"
+    },
+    "a1-072": {
+      "en": "umbrella",
+      "word": "ร่ม",
+      "sentence": "ฉันกางร่มเมื่อท้องฟ้ามีเมฆมาก",
+      "reading": "rôm"
+    },
+    "a1-073": {
+      "en": "watch",
+      "word": "นาฬิกา",
+      "sentence": "นาฬิกาของฉันแสดงเวลาเมื่อฉันดูมัน",
+      "reading": "naa-lí-gaa"
+    },
+    "a1-074": {
+      "en": "wallet",
+      "word": "กระเป๋าสตางค์",
+      "sentence": "ฉันเก็บเงินไว้ในกระเป๋าสตางค์",
+      "reading": "grà-bpěet-dtaang"
+    },
+    "a1-075": {
+      "en": "backpack",
+      "word": "กระเป๋าเป้สะพายหลัง",
+      "sentence": "วันนี้กระเป๋าเป้สะพายหลังของฉันเต็มไปด้วยหนังสือสำหรับไปโรงเรียน",
+      "reading": "grà-bpǎo-bpêe-sà-phaai-lǎng"
+    },
+    "a1-076": {
+      "en": "clothes",
+      "word": "เสื้อผ้า",
+      "sentence": "ฉันซักเสื้อผ้าในเช้าวันเสาร์ที่บ้าน",
+      "reading": "sʉ̂a-phâa"
+    },
+    "a1-077": {
+      "en": "vest",
+      "word": "เสื้อกั๊ก",
+      "sentence": "ฉันสวมเสื้อกั๊กที่อบอุ่นภายใต้เสื้อโค้ทกันหนาวของฉัน",
+      "reading": "sʉ̂a-gák"
+    },
+    "a1-078": {
+      "en": "suit",
+      "word": "สูท",
+      "sentence": "วันนี้เขาสวมชุดสูทสีเข้มไปออฟฟิศ",
+      "reading": "sùut"
+    },
+    "a1-079": {
+      "en": "sneaker",
+      "word": "รองเท้าผ้าใบ",
+      "sentence": "รองเท้าผ้าใบรุ่นนี้สะอาดและเหมาะสำหรับการเดิน",
+      "reading": "rɔɔng-tháao-phâa-bai"
+    },
+    "a1-080": {
+      "en": "wear",
+      "word": "สวม",
+      "sentence": "ฉันสวมเสื้อโค้ทและหมวกในฤดูหนาว",
+      "reading": "sǔuam"
+    },
+    "a1-081": {
+      "en": "today",
+      "word": "วันนี้",
+      "sentence": "วันนี้อากาศอบอุ่นและแจ่มใสมาก",
+      "reading": "wan-níi"
+    },
+    "a1-082": {
+      "en": "tomorrow",
+      "word": "พรุ่งนี้",
+      "sentence": "พรุ่งนี้เราไปเยี่ยมยายแต่เช้า",
+      "reading": "phrûng-níi"
+    },
+    "a1-083": {
+      "en": "yesterday",
+      "word": "เมื่อวานนี้",
+      "sentence": "เมื่อวานฉันช่วยพ่อทำสวน",
+      "reading": "mʉ̂a-waan-níi"
+    },
+    "a1-084": {
+      "en": "morning",
+      "word": "ตอนเช้า",
+      "sentence": "ฉันดื่มชาทุกเช้าก่อนออกไปข้างนอก",
+      "reading": "dtɔɔn-cháo"
+    },
+    "a1-085": {
+      "en": "evening",
+      "word": "ตอนเย็น",
+      "sentence": "เรากินข้าวเย็นด้วยกันตอนเย็นที่บ้าน",
+      "reading": "dtɔɔn-yen"
+    },
+    "a1-086": {
+      "en": "afternoon",
+      "word": "ตอนบ่าย",
+      "sentence": "ฉันอ่านหนังสือในช่วงบ่ายอันเงียบสงบที่บ้าน",
+      "reading": "dtɔɔn-bàai"
+    },
+    "a1-087": {
+      "en": "week",
+      "word": "สัปดาห์",
+      "sentence": "ฉันโทรหาคุณยายสัปดาห์ละครั้ง",
+      "reading": "sàp-daa"
+    },
+    "a1-088": {
+      "en": "year",
+      "word": "ปี",
+      "sentence": "ในหนึ่งปีมีสิบสองเดือน",
+      "reading": "bpii"
+    },
+    "a1-089": {
+      "en": "month",
+      "word": "เดือน",
+      "sentence": "มีประมาณสี่สัปดาห์ในหนึ่งเดือน",
+      "reading": "dʉan"
+    },
+    "a1-090": {
+      "en": "hour",
+      "word": "ชั่วโมง",
+      "sentence": "วันนี้บทเรียนภาษาอังกฤษยาวหนึ่งชั่วโมง",
+      "reading": "chûa-moong"
+    },
+    "a1-091": {
+      "en": "minute",
+      "word": "นาที",
+      "sentence": "กรุณารอสักครู่แล้วเราจะไปกันได้",
+      "reading": "naa-thii"
+    },
+    "a1-092": {
+      "en": "second",
+      "word": "ประการที่สอง",
+      "sentence": "กรุณารอสักครู่แล้วจึงเข้ามาข้างใน",
+      "reading": "bprà-gaan-thîi-sɔ̌ɔng"
+    },
+    "a1-093": {
+      "en": "day",
+      "word": "วัน",
+      "sentence": "เป็นวันที่สวยงามสำหรับการเดินเล่นในสวนสาธารณะ",
+      "reading": "wan"
+    },
+    "a1-094": {
+      "en": "monday",
+      "word": "วันจันทร์",
+      "sentence": "วันจันทร์เรามีชั้นเรียนภาษาอังกฤษที่โรงเรียน",
+      "reading": "wan-jan"
+    },
+    "a1-095": {
+      "en": "tuesday",
+      "word": "วันอังคาร",
+      "sentence": "วันอังคาร ฉันเล่นกับเพื่อนๆ หลังเลิกเรียน",
+      "reading": "wan-ang-khaan"
+    },
+    "a1-096": {
+      "en": "wednesday",
+      "word": "วันพุธ",
+      "sentence": "วันพุธเราจะกินซุปเป็นอาหารกลางวันที่บ้าน",
+      "reading": "wan-phút"
+    },
+    "a1-097": {
+      "en": "thursday",
+      "word": "วันพฤหัสบดี",
+      "sentence": "ในวันพฤหัสบดี ฉันไปเยี่ยมคุณยายหลังเลิกเรียน",
+      "reading": "wan-phá-hàt-bìit"
+    },
+    "a1-098": {
+      "en": "friday",
+      "word": "วันศุกร์",
+      "sentence": "วันศุกร์เราจะชมภาพยนตร์ที่โรงละครท้องถิ่น",
+      "reading": "wan-sùk"
+    },
+    "a1-099": {
+      "en": "saturday",
+      "word": "วันเสาร์",
+      "sentence": "ในวันเสาร์ ฉันซักเสื้อผ้าในตอนเช้า",
+      "reading": "wan-sǎo"
+    },
+    "a1-100": {
+      "en": "sunday",
+      "word": "วันอาทิตย์",
+      "sentence": "ในวันอาทิตย์ครอบครัวของเรากินข้าวกลางวันด้วยกันที่บ้าน",
+      "reading": "wan-aa-thít"
+    },
+    "a1-101": {
+      "en": "weekend",
+      "word": "วันหยุดสุดสัปดาห์",
+      "sentence": "เราพักผ่อนที่บ้านในช่วงสุดสัปดาห์และอ่านหนังสือ",
+      "reading": "wan-yùt-sùt-sàp-daa"
+    },
+    "a1-102": {
+      "en": "clock",
+      "word": "นาฬิกา",
+      "sentence": "นาฬิกาในครัวแสดงเวลาที่ถูกต้อง",
+      "reading": "naa-lí-gaa"
+    },
+    "a1-103": {
+      "en": "calendar",
+      "word": "ปฏิทิน",
+      "sentence": "ฉันเขียนวันเกิดของฉันลงในปฏิทินในครัว",
+      "reading": "à-dtì-thin"
+    },
+    "a1-104": {
+      "en": "time",
+      "word": "เวลา",
+      "sentence": "เช้านี้เริ่มเรียนกี่โมง?",
+      "reading": "wee-laa"
+    },
+    "a1-105": {
+      "en": "early",
+      "word": "ในช่วงต้น",
+      "sentence": "ฉันนั่งรถไฟเช้าไปทำงานในเมือง",
+      "reading": "nai-chûuang-dtôn"
+    },
+    "a1-106": {
+      "en": "late",
+      "word": "สาย",
+      "sentence": "เช้านี้รถบัสสายเพราะการจราจรติดขัด",
+      "reading": "sǎai"
+    },
+    "a1-107": {
+      "en": "soon",
+      "word": "เร็ว ๆ นี้",
+      "sentence": "อาหารเย็นจะพร้อมเร็วๆ นี้ ดังนั้นโปรดนั่งลง",
+      "reading": "reo-níi"
+    },
+    "a1-108": {
+      "en": "now",
+      "word": "ตอนนี้",
+      "sentence": "ตอนนี้นักเรียนอยู่ในห้องเรียนเพื่อเรียนบทเรียน",
+      "reading": "dtɔɔn-níi"
+    },
+    "a1-109": {
+      "en": "always",
+      "word": "เสมอ",
+      "sentence": "ฉันมักจะแปรงฟันก่อนเข้านอน",
+      "reading": "sěem"
+    },
+    "a1-110": {
+      "en": "sometimes",
+      "word": "บางครั้ง",
+      "sentence": "บางครั้งฉันก็เดินไปโรงเรียนกับน้องชาย",
+      "reading": "baang-khráng"
+    },
+    "a1-111": {
+      "en": "never",
+      "word": "ไม่เคย",
+      "sentence": "ฉันไม่เคยลืมกุญแจเมื่อออกจากบ้าน",
+      "reading": "mâi-kheei"
+    },
+    "a1-112": {
+      "en": "often",
+      "word": "บ่อยครั้ง",
+      "sentence": "เรามักจะไปสวนสาธารณะในบ่ายวันอาทิตย์",
+      "reading": "bɔ̀ɔi-khráng"
+    },
+    "a1-113": {
+      "en": "usually",
+      "word": "ปกติแล้ว",
+      "sentence": "ฉันมักจะดื่มชาพร้อมอาหารเช้าทุกเช้า",
+      "reading": "bpòk-dtì-lɛ́ɛo"
+    },
+    "a1-114": {
+      "en": "noon",
+      "word": "เที่ยง",
+      "sentence": "เรากินข้าวกลางวันตอนเที่ยงทุกวันที่โรงเรียน",
+      "reading": "thîiang"
+    },
+    "a1-115": {
+      "en": "midnight",
+      "word": "เที่ยงคืน",
+      "sentence": "เมืองนี้เงียบสงบและมืดมิดในเวลาเที่ยงคืน",
+      "reading": "thîiang-khʉʉn"
+    },
+    "a1-116": {
+      "en": "tonight",
+      "word": "คืนนี้",
+      "sentence": "คืนนี้เราทำพาสต้าและกินด้วยกันที่บ้าน",
+      "reading": "khʉʉn-níi"
+    },
+    "a1-117": {
+      "en": "spring",
+      "word": "ฤดูใบไม้ผลิ",
+      "sentence": "สวนจะเขียวขจีและสดใสในฤดูใบไม้ผลิ",
+      "reading": "à-duu-bai-máai-phlì"
+    },
+    "a1-118": {
+      "en": "summer",
+      "word": "ฤดูร้อน",
+      "sentence": "เราว่ายน้ำในทะเลสาบในช่วงฤดูร้อน",
+      "reading": "à-duu-rɔ́ɔn"
+    },
+    "a1-119": {
+      "en": "autumn",
+      "word": "ฤดูใบไม้ร่วง",
+      "sentence": "ฉันสวมเสื้อสเวตเตอร์ที่อบอุ่นในฤดูใบไม้ร่วงที่อากาศเย็นสบาย",
+      "reading": "à-duu-bai-máai-rûuang"
+    },
+    "a1-120": {
+      "en": "winter",
+      "word": "ฤดูหนาว",
+      "sentence": "ฉันสวมเสื้อคลุมหนาในฤดูหนาวที่หนาวเย็น",
+      "reading": "à-duu-nǎao"
+    },
+    "a1-121": {
+      "en": "street",
+      "word": "ถนน",
+      "sentence": "บ้านของเราอยู่บนถนนที่เงียบสงบใกล้สวนสาธารณะ",
+      "reading": "thà-nǒn"
+    },
+    "a1-122": {
+      "en": "station",
+      "word": "สถานี",
+      "sentence": "เรารอรถไฟที่สถานีทุกเช้า",
+      "reading": "à-thǎa-nii"
+    },
+    "a1-123": {
+      "en": "hospital",
+      "word": "โรงพยาบาล",
+      "sentence": "ป้าของฉันทำงานเป็นพยาบาลที่โรงพยาบาล",
+      "reading": "roong-phaai-baan"
+    },
+    "a1-124": {
+      "en": "hotel",
+      "word": "โรงแรม",
+      "sentence": "เราพักที่โรงแรมเล็กๆใกล้ชายหาด",
+      "reading": "roong-rɛɛm"
+    },
+    "a1-125": {
+      "en": "shop",
+      "word": "ร้านค้า",
+      "sentence": "ร้านค้าบนถนนของเราขายขนมปังและผลไม้",
+      "reading": "ráan-kháa"
+    },
+    "a1-126": {
+      "en": "market",
+      "word": "ตลาด",
+      "sentence": "ฉันซื้อผลไม้สดที่ตลาดในวันเสาร์",
+      "reading": "à-lâat"
+    },
+    "a1-127": {
+      "en": "bank",
+      "word": "ธนาคาร",
+      "sentence": "ฉันเก็บเงินไว้ที่ธนาคารในเมือง",
+      "reading": "thaan-khaan"
+    },
+    "a1-128": {
+      "en": "park",
+      "word": "สวนสาธารณะ",
+      "sentence": "เด็กๆ เล่นในสวนสาธารณะหลังเลิกเรียนทุกวัน",
+      "reading": "sǔuan-sǎa-thaa-á-ná"
+    },
+    "a1-129": {
+      "en": "library",
+      "word": "ห้องสมุด",
+      "sentence": "ฉันอ่านหนังสือที่ห้องสมุดใกล้บ้าน",
+      "reading": "hɔ̂ɔng-sùt"
+    },
+    "a1-130": {
+      "en": "restaurant",
+      "word": "ร้านอาหาร",
+      "sentence": "เราทานอาหารเย็นที่ร้านอาหารในคืนวันเสาร์",
+      "reading": "ráan-aa-hǎan"
+    },
+    "a1-131": {
+      "en": "cafe",
+      "word": "คาเฟ่",
+      "sentence": "เราดื่มชาที่ร้านกาแฟใกล้สถานี",
+      "reading": "khaa-fêe"
+    },
+    "a1-132": {
+      "en": "museum",
+      "word": "พิพิธภัณฑ์",
+      "sentence": "พิพิธภัณฑ์เปิดให้บริการในบ่ายวันอาทิตย์สำหรับครอบครัว",
+      "reading": "phí-phít-phan"
+    },
+    "a1-133": {
+      "en": "cinema",
+      "word": "โรงภาพยนตร์",
+      "sentence": "เราไปดูหนังในคืนวันศุกร์กับเพื่อน ๆ",
+      "reading": "roong-phâap-yót"
+    },
+    "a1-134": {
+      "en": "theater",
+      "word": "โรงละคร",
+      "sentence": "เราเห็นละครที่โรงละครในเย็นวันเสาร์",
+      "reading": "roong-lá-khrá"
+    },
+    "a1-135": {
+      "en": "pharmacy",
+      "word": "ร้านขายยา",
+      "sentence": "ฉันซื้อยาที่ร้านขายยาใกล้บ้าน",
+      "reading": "ráan-khǎai-yaa"
+    },
+    "a1-136": {
+      "en": "church",
+      "word": "คริสตจักร",
+      "sentence": "คริสตจักรในเมืองของเราเงียบสงบในเช้าวันจันทร์",
+      "reading": "khrít-jan"
+    },
+    "a1-137": {
+      "en": "bridge",
+      "word": "สะพาน",
+      "sentence": "เราเดินข้ามสะพานไปยังสวนสาธารณะในเมือง",
+      "reading": "sà-phaan"
+    },
+    "a1-138": {
+      "en": "square",
+      "word": "สี่เหลี่ยมจัตุรัส",
+      "sentence": "ผู้คนจะพบกันที่จัตุรัสกลางเมืองในวันตลาด",
+      "reading": "sìi-lìiam-jùt-rát"
+    },
+    "a1-139": {
+      "en": "corner",
+      "word": "มุม",
+      "sentence": "ธนาคารอยู่หัวมุมข้างร้านเบเกอรี่",
+      "reading": "mum"
+    },
+    "a1-140": {
+      "en": "building",
+      "word": "อาคาร",
+      "sentence": "โรงพยาบาลเป็นอาคารขนาดใหญ่ในเมืองของเรา",
+      "reading": "aa-khaan"
+    },
+    "a1-141": {
+      "en": "address",
+      "word": "ที่อยู่",
+      "sentence": "กรุณาเขียนที่อยู่ของคุณลงบนกระดาษให้ชัดเจน",
+      "reading": "thîi-yùu"
+    },
+    "a1-142": {
+      "en": "map",
+      "word": "แผนที่",
+      "sentence": "ฉันดูแผนที่เมื่อฉันต้องการค้นหาพิพิธภัณฑ์",
+      "reading": "phɛ̌ɛn-thîi"
+    },
+    "a1-143": {
+      "en": "supermarket",
+      "word": "ซูเปอร์มาร์เก็ต",
+      "sentence": "เราซื้ออาหารที่ซุปเปอร์มาร์เก็ตทุกเช้าวันเสาร์",
+      "reading": "suu-bpəə-maa-gèt"
+    },
+    "a1-144": {
+      "en": "bakery",
+      "word": "เบเกอรี่",
+      "sentence": "ฉันซื้อขนมปังสดใหม่ที่ร้านเบเกอรี่ในตอนเช้า",
+      "reading": "bee-gəə-rîi"
+    },
+    "a1-145": {
+      "en": "clinic",
+      "word": "คลินิก",
+      "sentence": "ฉันไปคลินิกเมื่อฉันรู้สึกไม่สบาย",
+      "reading": "khlí-ník"
+    },
+    "a1-146": {
+      "en": "airport",
+      "word": "สนามบิน",
+      "sentence": "เรานั่งรถบัสไปสนามบินแต่เช้า",
+      "reading": "sǎam-bin"
+    },
+    "a1-147": {
+      "en": "office",
+      "word": "สำนักงาน",
+      "sentence": "พ่อของฉันทำงานในสำนักงานใกล้สถานี",
+      "reading": "sǎm-nák-ngaan"
+    },
+    "a1-148": {
+      "en": "town",
+      "word": "เมือง",
+      "sentence": "เมืองของเรามีตลาด สวนสาธารณะ และห้องสมุด",
+      "reading": "mʉʉang"
+    },
+    "a1-149": {
+      "en": "village",
+      "word": "หมู่บ้าน",
+      "sentence": "ปู่ย่าตายายของฉันอาศัยอยู่ในหมู่บ้านที่เงียบสงบริมแม่น้ำ",
+      "reading": "mùu-bâan"
+    },
+    "a1-150": {
+      "en": "sidewalk",
+      "word": "ทางเท้า",
+      "sentence": "กรุณาเดินบนทางเท้าใกล้ถนนที่พลุกพล่าน",
+      "reading": "thaang-tháao"
+    },
+    "a1-151": {
+      "en": "traffic",
+      "word": "การจราจร",
+      "sentence": "รถติดช้าในช่วงเช้าใกล้โรงเรียน",
+      "reading": "gaan-à-raa-jon"
+    },
+    "a1-152": {
+      "en": "sign",
+      "word": "ลงชื่อ",
+      "sentence": "ป้ายตรงหัวมุมแสดงทางไปสถานี",
+      "reading": "long-chʉ̂ʉ"
+    },
+    "a1-153": {
+      "en": "bench",
+      "word": "ม้านั่ง",
+      "sentence": "เรานั่งบนม้านั่งในสวนสาธารณะและพูดคุยกัน",
+      "reading": "máa-nâng"
+    },
+    "a1-154": {
+      "en": "playground",
+      "word": "สนามเด็กเล่น",
+      "sentence": "เด็กๆ เล่นที่สนามเด็กเล่นหลังเลิกเรียนทุกวัน",
+      "reading": "sǎam-dèk-lêen"
+    },
+    "a1-155": {
+      "en": "zoo",
+      "word": "สวนสัตว์",
+      "sentence": "เราเห็นสิงโตและช้างที่สวนสัตว์",
+      "reading": "sǔuan-sàt"
+    },
+    "a1-156": {
+      "en": "beach",
+      "word": "ชายหาด",
+      "sentence": "เราเดินบนชายหาดและว่ายน้ำในฤดูร้อน",
+      "reading": "chaai-hàat"
+    },
+    "a1-157": {
+      "en": "tower",
+      "word": "หอคอย",
+      "sentence": "หอคอยเก่าแก่แห่งนี้สูงและมองเห็นได้ง่ายจากในเมือง",
+      "reading": "hɔ̀ɔk"
+    },
+    "a1-158": {
+      "en": "gate",
+      "word": "ประตู",
+      "sentence": "กรุณาปิดประตูเมื่อคุณออกจากสวน",
+      "reading": "bprà-dtuu"
+    },
+    "a1-159": {
+      "en": "stamp",
+      "word": "แสตมป์",
+      "sentence": "ฉันประทับตราบนจดหมายถึงลุงของฉัน",
+      "reading": "sɛ̌ɛm"
+    },
+    "a1-160": {
+      "en": "postcard",
+      "word": "โปสการ์ด",
+      "sentence": "ฉันส่งโปสการ์ดจากชายหาดไปให้คุณยาย",
+      "reading": "bpòot-gàat"
+    },
+    "a1-161": {
+      "en": "teacher",
+      "word": "ครู",
+      "sentence": "ครูเขียนคำศัพท์ใหม่บนกระดานในแต่ละวัน",
+      "reading": "khruu"
+    },
+    "a1-162": {
+      "en": "student",
+      "word": "นักเรียน",
+      "sentence": "วันนี้นักเรียนอ่านเรื่องสั้นในชั้นเรียน",
+      "reading": "nák-riian"
+    },
+    "a1-163": {
+      "en": "classroom",
+      "word": "ห้องเรียน",
+      "sentence": "ห้องเรียนของเราสว่าง สะอาด และเงียบสงบมาก",
+      "reading": "hɔ̂ɔng-riian"
+    },
+    "a1-164": {
+      "en": "desk",
+      "word": "โต๊ะ",
+      "sentence": "ฉันนั่งที่โต๊ะและเขียนลงในสมุดบันทึก",
+      "reading": "dtó"
+    },
+    "a1-165": {
+      "en": "chair",
+      "word": "เก้าอี้",
+      "sentence": "เก้าอี้อยู่ติดกับโต๊ะริมหน้าต่าง",
+      "reading": "gâo-îi"
+    },
+    "a1-166": {
+      "en": "pen",
+      "word": "ปากกา",
+      "sentence": "ฉันเขียนชื่อด้วยปากกาสีน้ำเงินบนกระดาษ",
+      "reading": "bpàak-gaa"
+    },
+    "a1-167": {
+      "en": "pencil",
+      "word": "ดินสอ",
+      "sentence": "ฉันวาดบ้านหลังเล็กๆ ด้วยดินสอสีเหลือง",
+      "reading": "din-sɔ̌ɔ"
+    },
+    "a1-168": {
+      "en": "paper",
+      "word": "กระดาษ",
+      "sentence": "กรุณาเขียนชื่อของคุณลงบนกระดาษตอนนี้",
+      "reading": "grà-dàat"
+    },
+    "a1-169": {
+      "en": "notebook",
+      "word": "สมุดบันทึก",
+      "sentence": "ฉันเขียนคำศัพท์ใหม่ลงในสมุดบันทึกทุกวัน",
+      "reading": "sùt-ban-thʉ́k"
+    },
+    "a1-170": {
+      "en": "page",
+      "word": "หน้า",
+      "sentence": "กรุณาอ่านหน้าแรกของบทเรียนช้าๆ",
+      "reading": "nâa"
+    },
+    "a1-171": {
+      "en": "board",
+      "word": "คณะกรรมการ",
+      "sentence": "ครูเขียนวันที่บนกระดานทุกเช้า",
+      "reading": "á-ná-à-rom-gaan"
+    },
+    "a1-172": {
+      "en": "chalk",
+      "word": "ชอล์ก",
+      "sentence": "ครูเขียนด้วยชอล์กสีขาวบนกระดาน",
+      "reading": "chɔ̂ɔk"
+    },
+    "a1-173": {
+      "en": "marker",
+      "word": "เครื่องหมาย",
+      "sentence": "ฉันเขียนบนกระดานด้วยปากกามาร์กเกอร์สีดำ",
+      "reading": "khrʉ̂ang-mǎai"
+    },
+    "a1-174": {
+      "en": "eraser",
+      "word": "ยางลบ",
+      "sentence": "ยางลบอยู่ติดกับดินสอบนโต๊ะของฉัน",
+      "reading": "yaang-lóp"
+    },
+    "a1-175": {
+      "en": "ruler",
+      "word": "ไม้บรรทัด",
+      "sentence": "ฉันวาดเส้นตรงด้วยไม้บรรทัดในชั้นเรียน",
+      "reading": "máai-bron-thát"
+    },
+    "a1-176": {
+      "en": "homework",
+      "word": "การบ้าน",
+      "sentence": "ฉันทำการบ้านที่โต๊ะในครัวทุกเย็น",
+      "reading": "gaan-bâan"
+    },
+    "a1-177": {
+      "en": "lesson",
+      "word": "บทเรียน",
+      "sentence": "เรามีบทเรียนภาษาอังกฤษทุกเช้าที่โรงเรียน",
+      "reading": "bòt-riian"
+    },
+    "a1-178": {
+      "en": "class",
+      "word": "ชั้นเรียน",
+      "sentence": "ชั้นเรียนของเราเริ่มเวลาแปดโมงเช้า",
+      "reading": "chán-riian"
+    },
+    "a1-179": {
+      "en": "question",
+      "word": "คำถาม",
+      "sentence": "ฉันถามคำถามเมื่อฉันไม่เข้าใจบทเรียน",
+      "reading": "kham-thǎam"
+    },
+    "a1-180": {
+      "en": "answer",
+      "word": "ตอบ",
+      "sentence": "ฉันเขียนคำตอบลงในสมุดบันทึกอย่างระมัดระวัง",
+      "reading": "dtɔ̀ɔp"
+    },
+    "a1-181": {
+      "en": "word",
+      "word": "คำ",
+      "sentence": "เราเรียนรู้คำศัพท์ใหม่ในชั้นเรียนทุกเช้า",
+      "reading": "kham"
+    },
+    "a1-182": {
+      "en": "sentence",
+      "word": "ประโยค",
+      "sentence": "กรุณาเขียนประโยคสั้น ๆ ด้วยคำใหม่",
+      "reading": "bprà-yôok"
+    },
+    "a1-183": {
+      "en": "letter",
+      "word": "ตัวอักษร",
+      "sentence": "ตัวอักษร A นั้นง่ายต่อการเขียนบนกระดาน",
+      "reading": "dtua-àk-sǒn"
+    },
+    "a1-184": {
+      "en": "test",
+      "word": "ทดสอบ",
+      "sentence": "เรามีการทดสอบสั้นๆ ในเช้าวันศุกร์ในชั้นเรียน",
+      "reading": "thót-sɔ̀ɔp"
+    },
+    "a1-185": {
+      "en": "dictionary",
+      "word": "พจนานุกรม",
+      "sentence": "ฉันค้นหาคำศัพท์ใหม่ในพจนานุกรมที่โรงเรียน",
+      "reading": "phót-naa-nú-grom"
+    },
+    "a1-186": {
+      "en": "picture",
+      "word": "รูปภาพ",
+      "sentence": "ฉันวาดภาพครอบครัวและบ้านของเรา",
+      "reading": "rûup-phâap"
+    },
+    "a1-187": {
+      "en": "bag",
+      "word": "กระเป๋า",
+      "sentence": "กระเป๋าของฉันอยู่ใต้เก้าอี้ในห้องเรียน",
+      "reading": "grà-bpǎo"
+    },
+    "a1-188": {
+      "en": "scissors",
+      "word": "กรรไกร",
+      "sentence": "กรรไกรเหล่านี้อยู่บนโต๊ะสำหรับบทเรียนศิลปะ",
+      "reading": "gron-graai"
+    },
+    "a1-189": {
+      "en": "glue",
+      "word": "กาว",
+      "sentence": "ฉันใช้กาวติดรูปภาพลงบนกระดาษ",
+      "reading": "gaao"
+    },
+    "a1-190": {
+      "en": "crayon",
+      "word": "ดินสอสี",
+      "sentence": "ฉันระบายสีรูปภาพด้วยดินสอสีแดงในชั้นเรียน",
+      "reading": "din-sɔ̌ɔ-sǐi"
+    },
+    "a1-191": {
+      "en": "classmate",
+      "word": "เพื่อนร่วมชั้น",
+      "sentence": "เพื่อนร่วมชั้นของฉันช่วยฉันทำการบ้านหลังเลิกเรียน",
+      "reading": "phʉ̂an-rûuam-chán"
+    },
+    "a1-192": {
+      "en": "bell",
+      "word": "ระฆัง",
+      "sentence": "เสียงกริ่งดังขึ้นเมื่อสิ้นสุดวันเรียน",
+      "reading": "rá-khang"
+    },
+    "a1-193": {
+      "en": "note",
+      "word": "หมายเหตุ",
+      "sentence": "ฉันเขียนข้อความสั้นๆ ถึงเพื่อนระหว่างเรียน",
+      "reading": "mǎai-hèet"
+    },
+    "a1-194": {
+      "en": "textbook",
+      "word": "หนังสือเรียน",
+      "sentence": "โปรดเปิดหนังสือเรียนของคุณไปที่หน้าแรกทันที",
+      "reading": "nǎng-sʉ̌ʉ-riian"
+    },
+    "a1-195": {
+      "en": "read",
+      "word": "อ่าน",
+      "sentence": "ฉันอ่านเรื่องสั้นทุกเย็นก่อนนอน",
+      "reading": "àan"
+    },
+    "a1-196": {
+      "en": "write",
+      "word": "เขียน",
+      "sentence": "ฉันเขียนชื่อของฉันที่ด้านบนของหน้า",
+      "reading": "khǐian"
+    },
+    "a1-197": {
+      "en": "study",
+      "word": "เรียน",
+      "sentence": "ฉันเรียนเพื่อสอบวันศุกร์กับเพื่อนร่วมชั้น",
+      "reading": "riian"
+    },
+    "a1-198": {
+      "en": "learn",
+      "word": "เรียน",
+      "sentence": "เราเรียนรู้คำศัพท์ใหม่สิบคำในชั้นเรียนทุกสัปดาห์",
+      "reading": "riian"
+    },
+    "a1-199": {
+      "en": "draw",
+      "word": "วาด",
+      "sentence": "ฉันวาดภาพบ้านและสวน",
+      "reading": "wâat"
+    },
+    "a1-200": {
+      "en": "ask",
+      "word": "ถาม",
+      "sentence": "ฉันขอความช่วยเหลือจากครูในบทเรียนที่ยาก",
+      "reading": "thǎam"
+    },
+    "a1-201": {
+      "en": "weather",
+      "word": "สภาพอากาศ",
+      "sentence": "เช้านี้อากาศในเมืองอบอุ่นและมีแดด",
+      "reading": "à-phâap-aa-gàat"
+    },
+    "a1-202": {
+      "en": "cloud",
+      "word": "เมฆ",
+      "sentence": "เมฆขาวเคลื่อนตัวช้าๆ ผ่านท้องฟ้าสีคราม",
+      "reading": "mêek"
+    },
+    "a1-203": {
+      "en": "snow",
+      "word": "หิมะ",
+      "sentence": "เด็กๆ ชอบเล่นหิมะในฤดูหนาว",
+      "reading": "hì-má"
+    },
+    "a1-204": {
+      "en": "wind",
+      "word": "ลม",
+      "sentence": "ลมแรงบริเวณใกล้ทะเลบ่ายนี้",
+      "reading": "lom"
+    },
+    "a1-205": {
+      "en": "storm",
+      "word": "พายุ",
+      "sentence": "เราอยู่ในบ้านช่วงพายุใหญ่",
+      "reading": "phaa-yú"
+    },
+    "a1-206": {
+      "en": "ice",
+      "word": "น้ำแข็ง",
+      "sentence": "เช้านี้มีน้ำแข็งบนทางเท้า",
+      "reading": "náam-khɛ̌ng"
+    },
+    "a1-207": {
+      "en": "fog",
+      "word": "หมอก",
+      "sentence": "เราขับช้าๆเพราะหมอกหนามาก",
+      "reading": "mɔ̀ɔk"
+    },
+    "a1-208": {
+      "en": "sky",
+      "word": "ท้องฟ้า",
+      "sentence": "ท้องฟ้าเป็นสีฟ้าสดใสหลังฝนตกในตอนเช้า",
+      "reading": "thɔ́ɔng-fáa"
+    },
+    "a1-209": {
+      "en": "sunny",
+      "word": "แดดจัด",
+      "sentence": "อากาศแจ่มใส เราจึงรับประทานอาหารกลางวันข้างนอกในสวนสาธารณะ",
+      "reading": "dɛ̀ɛt-jàt"
+    },
+    "a1-210": {
+      "en": "rainy",
+      "word": "ฝนตก",
+      "sentence": "ฝนตกฉันก็เลยเอาร่มไปโรงเรียน",
+      "reading": "fǒn-dtòk"
+    },
+    "a1-211": {
+      "en": "cloudy",
+      "word": "มีเมฆมาก",
+      "sentence": "ท้องฟ้ามีเมฆมาก แต่อากาศภายนอกยังคงอบอุ่น",
+      "reading": "mii-mêek-mâak"
+    },
+    "a1-212": {
+      "en": "windy",
+      "word": "ลมแรง",
+      "sentence": "ลมแรงฉันเลยสวมเสื้อโค้ทและผ้าพันคอ",
+      "reading": "lom-rɛɛng"
+    },
+    "a1-213": {
+      "en": "snowy",
+      "word": "เต็มไปด้วยหิมะ",
+      "sentence": "มีหิมะตก และสวนสาธารณะก็ดูขาวและเงียบสงบ",
+      "reading": "dtem-bpai-dûuai-hì-má"
+    },
+    "a1-214": {
+      "en": "warm",
+      "word": "อบอุ่น",
+      "sentence": "ซุปอุ่นและอร่อยในวันฤดูหนาว",
+      "reading": "òp-ùn"
+    },
+    "a1-215": {
+      "en": "cool",
+      "word": "เย็น",
+      "sentence": "อากาศยามเย็นจะเย็นสบายหลังจากช่วงบ่ายที่ร้อนอบอ้าว",
+      "reading": "yen"
+    },
+    "a1-216": {
+      "en": "wet",
+      "word": "เปียก",
+      "sentence": "รองเท้าของฉันเปียกหลังจากที่ฉันเดินกลับบ้านท่ามกลางสายฝน",
+      "reading": "bpìiak"
+    },
+    "a1-217": {
+      "en": "dry",
+      "word": "แห้ง",
+      "sentence": "เสื้อของฉันแห้งอีกครั้งหลังเช้าฝนตก",
+      "reading": "ngɛ̂ɛ"
+    },
+    "a1-218": {
+      "en": "temperature",
+      "word": "อุณหภูมิ",
+      "sentence": "วันนี้ในเมืองอุณหภูมิอยู่ที่ 20 องศา",
+      "reading": "un-phim"
+    },
+    "a1-219": {
+      "en": "degree",
+      "word": "องศา",
+      "sentence": "อุณหภูมิเหนือศูนย์ 1 องศาเช้านี้ที่หนาวเย็น",
+      "reading": "ong-sǎa"
+    },
+    "a1-220": {
+      "en": "forecast",
+      "word": "พยากรณ์",
+      "sentence": "พยากรณ์อากาศบอกว่าพรุ่งนี้อากาศแห้งและอบอุ่น",
+      "reading": "phaai-grà"
+    },
+    "a1-221": {
+      "en": "lightning",
+      "word": "ฟ้าผ่า",
+      "sentence": "เราเห็นฟ้าแลบสว่างจ้าในท้องฟ้าที่มืดมิดในเวลากลางคืน",
+      "reading": "fáa-phàa"
+    },
+    "a1-222": {
+      "en": "thunder",
+      "word": "ฟ้าร้อง",
+      "sentence": "เด็กๆ ได้ยินเสียงฟ้าร้องดังมากในช่วงที่เกิดพายุ",
+      "reading": "fáa-rɔ́ɔng"
+    },
+    "a1-223": {
+      "en": "rainbow",
+      "word": "รุ้ง",
+      "sentence": "เราเห็นสายรุ้งสดใสหลังฝนหยุดตก",
+      "reading": "rúng"
+    },
+    "a1-224": {
+      "en": "frost",
+      "word": "น้ำค้างแข็ง",
+      "sentence": "เช้านี้มีน้ำค้างแข็งขาวบนพื้นหญ้า",
+      "reading": "náam-kháang-khɛ̌ng"
+    },
+    "a1-225": {
+      "en": "breeze",
+      "word": "สายลม",
+      "sentence": "ลมเย็นพัดมาจากทะเลบ่ายนี้",
+      "reading": "sǎai-lom"
+    },
+    "a1-226": {
+      "en": "shade",
+      "word": "ร่มเงา",
+      "sentence": "เรานั่งใต้ร่มไม้ใหญ่ตอนเที่ยง",
+      "reading": "rôm-ngao"
+    },
+    "a1-227": {
+      "en": "sunshine",
+      "word": "แสงแดด",
+      "sentence": "เช้านี้แสงแดดอุ่นบนใบหน้าของฉัน",
+      "reading": "sɛ̌ɛng-dɛ̀ɛt"
+    },
+    "a1-228": {
+      "en": "foggy",
+      "word": "มีหมอกหนา",
+      "sentence": "มีหมอกหนา รถบนท้องถนนจึงขับช้าๆ",
+      "reading": "mii-mɔ̀ɔk-nǎa"
+    },
+    "a1-229": {
+      "en": "icy",
+      "word": "น้ำแข็ง",
+      "sentence": "ทางเท้าเป็นน้ำแข็ง ดังนั้นโปรดเดินอย่างระมัดระวัง",
+      "reading": "náam-khɛ̌ng"
+    },
+    "a1-230": {
+      "en": "mild",
+      "word": "ไม่รุนแรง",
+      "sentence": "สภาพอากาศไม่รุนแรงในช่วงฤดูใบไม้ผลิในเมืองของเรา",
+      "reading": "mâi-run-rɛɛng"
+    },
+    "a1-231": {
+      "en": "clear",
+      "word": "ชัดเจน",
+      "sentence": "ท้องฟ้ายามค่ำคืนแจ่มใสและฉันเห็นดวงดาวมากมาย",
+      "reading": "chát-jeen"
+    },
+    "a1-232": {
+      "en": "puddle",
+      "word": "แอ่งน้ำ",
+      "sentence": "เด็กกระโดดข้ามแอ่งน้ำเล็กๆ หลังฝนตก",
+      "reading": "ɛ̀ɛng-náam"
+    },
+    "a1-233": {
+      "en": "drizzle",
+      "word": "ฝนตกปรอยๆ",
+      "sentence": "เช้านี้มีฝนตกปรอยๆ ทั่วสวน",
+      "reading": "fǒn-dtòk-bprɔɔi"
+    },
+    "a1-234": {
+      "en": "hail",
+      "word": "ลูกเห็บ",
+      "sentence": "ลูกเห็บตกหลังคาบ้านเราดังมาก",
+      "reading": "lûuk-hèp"
+    },
+    "a1-235": {
+      "en": "stormy",
+      "word": "มีพายุ",
+      "sentence": "พายุเข้าเราก็อยู่บ้านอ่านหนังสือ",
+      "reading": "mii-phaa-yú"
+    },
+    "a1-236": {
+      "en": "outside",
+      "word": "ภายนอก",
+      "sentence": "เรากินข้าวกลางวันข้างนอกเมื่ออากาศอบอุ่น",
+      "reading": "phaai-nɔ̂ɔk"
+    },
+    "a1-237": {
+      "en": "tea",
+      "word": "ชา",
+      "sentence": "ฉันดื่มชาร้อนผสมน้ำผึ้งเล็กน้อยทุกเช้า",
+      "reading": "chaa"
+    },
+    "a1-238": {
+      "en": "sugar",
+      "word": "น้ำตาล",
+      "sentence": "ฉันใส่น้ำตาลเล็กน้อยลงในถ้วยชา",
+      "reading": "náam-dtaan"
+    },
+    "a1-239": {
+      "en": "salt",
+      "word": "เกลือ",
+      "sentence": "ฉันใส่เกลือเล็กน้อยลงในซุปผัก",
+      "reading": "glʉa"
+    },
+    "a1-240": {
+      "en": "cheese",
+      "word": "ชีส",
+      "sentence": "ฉันชอบชีสบนขนมปังอุ่นๆ เป็นมื้อกลางวันง่ายๆ",
+      "reading": "chîit"
+    },
+    "a1-241": {
+      "en": "meat",
+      "word": "เนื้อ",
+      "sentence": "เรากินเนื้อสัตว์และผักด้วยกันสำหรับมื้อเย็นคืนนี้",
+      "reading": "nʉ́a"
+    },
+    "a1-242": {
+      "en": "fruit",
+      "word": "ผลไม้",
+      "sentence": "ฉันกินผลไม้สดพร้อมอาหารเช้าทุกเช้า",
+      "reading": "phlà-máai"
+    },
+    "a1-243": {
+      "en": "banana",
+      "word": "กล้วย",
+      "sentence": "ฉันกินกล้วยสีเหลืองหลังเลิกเรียนทุกวัน",
+      "reading": "glûuai"
+    },
+    "a1-244": {
+      "en": "orange",
+      "word": "สีส้ม",
+      "sentence": "ส้มชนิดนี้มีรสหวานและเต็มไปด้วยน้ำผลไม้เย็นๆ",
+      "reading": "sǐi-sôm"
+    },
+    "a1-245": {
+      "en": "tomato",
+      "word": "มะเขือเทศ",
+      "sentence": "ฉันหั่นมะเขือเทศสีแดงสำหรับสลัดในมื้อกลางวัน",
+      "reading": "má-khʉ̌a-thêet"
+    },
+    "a1-246": {
+      "en": "potato",
+      "word": "มันฝรั่ง",
+      "sentence": "ฉันปรุงมันฝรั่งในเตาอบสำหรับมื้อเย็นคืนนี้",
+      "reading": "man-à-râng"
+    },
+    "a1-247": {
+      "en": "carrot",
+      "word": "แครอท",
+      "sentence": "กระต่ายชอบแครอทสดจากสวนของเรา",
+      "reading": "khrɛɛ-òt"
+    },
+    "a1-248": {
+      "en": "onion",
+      "word": "หัวหอม",
+      "sentence": "ฉันหั่นหัวหอมสำหรับซุปบนเตา",
+      "reading": "hǔa-hɔ̌ɔm"
+    },
+    "a1-249": {
+      "en": "salad",
+      "word": "สลัด",
+      "sentence": "ฉันกินสลัดผักสดพร้อมอาหารกลางวันทุกวัน",
+      "reading": "à-lát"
+    },
+    "a1-250": {
+      "en": "soup",
+      "word": "ซุป",
+      "sentence": "ซุปนี้อุ่นและเหมาะมากสำหรับมื้อกลางวัน",
+      "reading": "súp"
+    },
+    "a1-251": {
+      "en": "vegetable",
+      "word": "ผัก",
+      "sentence": "โปรดกินผักหนึ่งอย่างกับมื้อเย็นของคุณคืนนี้",
+      "reading": "phàk"
+    },
+    "a1-252": {
+      "en": "juice",
+      "word": "น้ำผลไม้",
+      "sentence": "ฉันดื่มน้ำผลไม้หนึ่งแก้วพร้อมอาหารเช้า",
+      "reading": "náam-phlà-máai"
+    },
+    "a1-253": {
+      "en": "pepper",
+      "word": "พริกไทย",
+      "sentence": "ฉันเติมพริกไทยเล็กน้อยลงในซุปร้อนๆ",
+      "reading": "phrík-thaaii"
+    },
+    "a1-254": {
+      "en": "butter",
+      "word": "เนย",
+      "sentence": "ฉันทาเนยบนขนมปังอุ่นๆ ตอนอาหารเช้า",
+      "reading": "neei"
+    },
+    "a1-255": {
+      "en": "cake",
+      "word": "เค้ก",
+      "sentence": "เราแบ่งปันเค้กชิ้นเล็ก ๆ ในงานวันเกิด",
+      "reading": "khéek"
+    },
+    "a1-256": {
+      "en": "cookie",
+      "word": "คุกกี้",
+      "sentence": "ฉันกินคุกกี้หนึ่งชิ้นกับชาในตอนบ่าย",
+      "reading": "khúk-gîi"
+    },
+    "a1-257": {
+      "en": "sandwich",
+      "word": "แซนด์วิช",
+      "sentence": "ฉันนำแซนวิชชีสไปโรงเรียนเพื่อรับประทานอาหารกลางวัน",
+      "reading": "sɛɛn-wít"
+    },
+    "a1-258": {
+      "en": "pizza",
+      "word": "พิซซ่า",
+      "sentence": "เรากินพิซซ่าด้วยกันที่บ้านในคืนวันศุกร์",
+      "reading": "phít-sâa"
+    },
+    "a1-259": {
+      "en": "pasta",
+      "word": "พาสต้า",
+      "sentence": "ฉันปรุงพาสต้ากับชีสสำหรับมื้อเย็นง่ายๆ กับครอบครัว",
+      "reading": "phâat-dtâa"
+    },
+    "a1-260": {
+      "en": "honey",
+      "word": "ที่รัก",
+      "sentence": "ฉันชอบน้ำผึ้งเล็กน้อยในชาทุกเช้า",
+      "reading": "thîi-rák"
+    },
+    "a1-261": {
+      "en": "breakfast",
+      "word": "อาหารเช้า",
+      "sentence": "เรากินข้าวเช้าด้วยกันก่อนไปโรงเรียน",
+      "reading": "aa-hǎan-cháo"
+    },
+    "a1-262": {
+      "en": "lunch",
+      "word": "อาหารกลางวัน",
+      "sentence": "ฉันกินข้าวเที่ยงกับเพื่อนที่โรงเรียน",
+      "reading": "aa-hǎan-glaang-wan"
+    },
+    "a1-263": {
+      "en": "dinner",
+      "word": "อาหารเย็น",
+      "sentence": "ครอบครัวของเรากินข้าวเย็นด้วยกันตอนเจ็ดโมงทุกคืน",
+      "reading": "aa-hǎan-yen"
+    },
+    "a1-264": {
+      "en": "plate",
+      "word": "จาน",
+      "sentence": "โปรดวางจานที่สะอาดไว้บนโต๊ะสำหรับมื้อเย็น",
+      "reading": "jaan"
+    },
+    "a1-265": {
+      "en": "bowl",
+      "word": "ชาม",
+      "sentence": "ฉันกินซุปอุ่นๆ จากชามสีน้ำเงินในมื้อเที่ยง",
+      "reading": "chaam"
+    },
+    "a1-266": {
+      "en": "cup",
+      "word": "ถ้วย",
+      "sentence": "ฉันดื่มชาจากแก้วสีน้ำเงินทุกเช้า",
+      "reading": "thûuai"
+    },
+    "a1-267": {
+      "en": "glass",
+      "word": "แก้ว",
+      "sentence": "กรุณาให้ฉันแก้วที่สะอาดสำหรับน้ำผลไม้เย็น",
+      "reading": "gwɛ̂ɛ"
+    },
+    "a1-268": {
+      "en": "fork",
+      "word": "ส้อม",
+      "sentence": "ฉันกินสลัดผักสดด้วยส้อมในมื้อกลางวัน",
+      "reading": "sɔ̂ɔm"
+    },
+    "a1-269": {
+      "en": "knife",
+      "word": "มีด",
+      "sentence": "ฉันหั่นมะเขือเทศด้วยมีดทำครัวอันเล็กๆ",
+      "reading": "mîit"
+    },
+    "a1-270": {
+      "en": "spoon",
+      "word": "ช้อน",
+      "sentence": "ฉันกินซุปด้วยช้อนจากชาม",
+      "reading": "chɔ́ɔn"
+    },
+    "a1-271": {
+      "en": "stove",
+      "word": "เตา",
+      "sentence": "ตอนนี้หม้อซุปกำลังอุ่นบนเตาอยู่",
+      "reading": "dtao"
+    },
+    "a1-272": {
+      "en": "oven",
+      "word": "เตาอบ",
+      "sentence": "เค้กวันเกิดอบในเตาอบเป็นเวลาหนึ่งชั่วโมง",
+      "reading": "dtao-òp"
+    },
+    "a1-273": {
+      "en": "fridge",
+      "word": "ตู้เย็น",
+      "sentence": "ฉันใส่น้ำผลไม้และนมลงในตู้เย็น",
+      "reading": "dtûu-yen"
+    },
+    "a1-274": {
+      "en": "bottle",
+      "word": "ขวด",
+      "sentence": "ฉันเปิดขวดน้ำผลไม้ให้เด็กๆ ตอนมื้อเที่ยง",
+      "reading": "khwòt"
+    },
+    "a1-275": {
+      "en": "hungry",
+      "word": "หิว",
+      "sentence": "ฉันหิว เลยทำแซนวิชชีสเป็นมื้อกลางวัน",
+      "reading": "hǐo"
+    },
+    "a1-276": {
+      "en": "cook",
+      "word": "ทำอาหาร",
+      "sentence": "ฉันทำพาสต้ากับผักให้ครอบครัวคืนนี้",
+      "reading": "tham-aa-hǎan"
+    },
+    "a1-277": {
+      "en": "room",
+      "word": "ห้อง",
+      "sentence": "วันนี้ห้องนี้เงียบสงบ อบอุ่น และสะอาดมาก",
+      "reading": "hɔ̂ɔng"
+    },
+    "a1-278": {
+      "en": "window",
+      "word": "หน้าต่าง",
+      "sentence": "ฉันเปิดหน้าต่างในตอนเช้าเพื่อรับอากาศบริสุทธิ์",
+      "reading": "nâa-dtàang"
+    },
+    "a1-279": {
+      "en": "kitchen",
+      "word": "ห้องครัว",
+      "sentence": "เราทำอาหารเย็นและกินข้าวด้วยกันในครัว",
+      "reading": "hɔ̂ɔng-khrua"
+    },
+    "a1-280": {
+      "en": "lamp",
+      "word": "โคมไฟ",
+      "sentence": "โคมไฟบนโต๊ะของฉันให้แสงโทนอุ่นที่นุ่มนวล",
+      "reading": "khoom-fai"
+    },
+    "a1-281": {
+      "en": "bathroom",
+      "word": "ห้องน้ำ",
+      "sentence": "ฉันล้างหน้าและมือในห้องน้ำ",
+      "reading": "hɔ̂ɔng-náam"
+    },
+    "a1-282": {
+      "en": "bedroom",
+      "word": "ห้องนอน",
+      "sentence": "ฉันอ่านหนังสือสั้นในห้องนอนทุกคืน",
+      "reading": "hɔ̂ɔng-nɔɔn"
+    },
+    "a1-283": {
+      "en": "wall",
+      "word": "ผนัง",
+      "sentence": "รูปครอบครัวแขวนอยู่บนผนังเหนือโซฟา",
+      "reading": "phǎng"
+    },
+    "a1-284": {
+      "en": "floor",
+      "word": "พื้น",
+      "sentence": "พื้นในห้องครัวสะอาดหลังอาหารเย็น",
+      "reading": "phʉ́ʉn"
+    },
+    "a1-285": {
+      "en": "roof",
+      "word": "หลังคา",
+      "sentence": "นกนั่งอยู่บนหลังคาบ้านในฤดูใบไม้ผลิ",
+      "reading": "lǎng-khaa"
+    },
+    "a1-286": {
+      "en": "ceiling",
+      "word": "เพดาน",
+      "sentence": "แสงสว่างส่องลงมาจากเพดานในห้องครัวของเรา",
+      "reading": "phee-daan"
+    },
+    "a1-287": {
+      "en": "stair",
+      "word": "บันได",
+      "sentence": "บันไดใกล้ประตูห้องครัวสะอาดและแห้ง",
+      "reading": "ban-daai"
+    },
+    "a1-288": {
+      "en": "garden",
+      "word": "สวน",
+      "sentence": "เราปลูกมะเขือเทศและกุหลาบในสวนหลังบ้าน",
+      "reading": "sǔuan"
+    },
+    "a1-289": {
+      "en": "yard",
+      "word": "ลาน",
+      "sentence": "เด็กๆ เล่นบอลที่สนามหลังเลิกเรียน",
+      "reading": "laan"
+    },
+    "a1-290": {
+      "en": "garage",
+      "word": "โรงรถ",
+      "sentence": "พ่อของฉันเอารถไปไว้ในโรงรถทุกคืน",
+      "reading": "roong-rót"
+    },
+    "a1-291": {
+      "en": "hallway",
+      "word": "โถงทางเดิน",
+      "sentence": "โถงทางเดินจากประตูสู่ห้องนอนเงียบสงบ",
+      "reading": "thǒong-thaang-dəən"
+    },
+    "a1-292": {
+      "en": "balcony",
+      "word": "ระเบียง",
+      "sentence": "เราดื่มชาบนระเบียงในยามเย็นอันอบอุ่น",
+      "reading": "rá-biiang"
+    },
+    "a1-293": {
+      "en": "closet",
+      "word": "ตู้เสื้อผ้า",
+      "sentence": "ฉันแขวนเสื้อโค้ทและเสื้อเชิ้ตไว้ในตู้เสื้อผ้า",
+      "reading": "dtûu-sʉ̂a-phâa"
+    },
+    "a1-294": {
+      "en": "mirror",
+      "word": "กระจกเงา",
+      "sentence": "ฉันส่องกระจกก่อนออกจากบ้าน",
+      "reading": "grà-jòk-ngao"
+    },
+    "a1-295": {
+      "en": "curtain",
+      "word": "ผ้าม่าน",
+      "sentence": "ฉันปิดม่านห้องนอนเมื่อฉันเข้านอน",
+      "reading": "phâa-mâan"
+    },
+    "a1-296": {
+      "en": "carpet",
+      "word": "พรม",
+      "sentence": "พรมในห้องนั่งเล่นมีความนุ่มและเป็นสีน้ำเงิน",
+      "reading": "phrom"
+    },
+    "a1-297": {
+      "en": "sofa",
+      "word": "โซฟา",
+      "sentence": "เรานั่งบนโซฟาและพูดคุยหลังอาหารเย็นด้วยกัน",
+      "reading": "soo-faa"
+    },
+    "a1-298": {
+      "en": "shelf",
+      "word": "ชั้นวางของ",
+      "sentence": "หนังสือของฉันเรียงเป็นแถวเรียบร้อยบนชั้นวาง",
+      "reading": "chán-waang-khɔ̌ɔng"
+    },
+    "a1-299": {
+      "en": "drawer",
+      "word": "ลิ้นชัก",
+      "sentence": "ฉันเก็บถุงเท้าสะอาดไว้ในลิ้นชักด้านบน",
+      "reading": "lín-chák"
+    },
+    "a1-300": {
+      "en": "toilet",
+      "word": "ห้องน้ำ",
+      "sentence": "ห้องน้ำอยู่ในห้องน้ำติดกับฝักบัว",
+      "reading": "hɔ̂ɔng-náam"
+    },
+    "a1-301": {
+      "en": "shower",
+      "word": "ฝักบัว",
+      "sentence": "ฉันอาบน้ำอุ่นทุกเช้าก่อนไปโรงเรียน",
+      "reading": "fàk-bua"
+    },
+    "a1-302": {
+      "en": "bath",
+      "word": "อาบน้ำ",
+      "sentence": "ทารกจะเพลิดเพลินกับการอาบน้ำอุ่นทุกเย็นที่บ้าน",
+      "reading": "àap-náam"
+    },
+    "a1-303": {
+      "en": "towel",
+      "word": "ผ้าเช็ดตัว",
+      "sentence": "ฉันเช็ดมือให้แห้งด้วยผ้าสะอาดหลังจากล้าง",
+      "reading": "phâa-chét-dtua"
+    },
+    "a1-304": {
+      "en": "soap",
+      "word": "สบู่",
+      "sentence": "ฉันล้างมือด้วยสบู่ก่อนรับประทานอาหารทุกมื้อ",
+      "reading": "sùup"
+    },
+    "a1-305": {
+      "en": "pillow",
+      "word": "หมอน",
+      "sentence": "หมอนของฉันนุ่มและฉันนอนหลับสบายในเวลากลางคืน",
+      "reading": "mɔ̌ɔn"
+    },
+    "a1-306": {
+      "en": "blanket",
+      "word": "ผ้าห่ม",
+      "sentence": "ฉันนอนใต้ผ้าห่มอุ่นๆ ในคืนฤดูหนาวที่หนาวเย็น",
+      "reading": "phâa-mà"
+    },
+    "a1-307": {
+      "en": "furniture",
+      "word": "เฟอร์นิเจอร์",
+      "sentence": "เราย้ายเฟอร์นิเจอร์เมื่อเราทำความสะอาดห้องนั่งเล่น",
+      "reading": "fəə-ní-jəə"
+    },
+    "a1-308": {
+      "en": "apartment",
+      "word": "อพาร์ทเมนต์",
+      "sentence": "อพาร์ทเมนท์ของเรามีห้องครัวขนาดเล็กและห้องนอนสองห้อง",
+      "reading": "à-phâat-meen"
+    },
+    "a1-309": {
+      "en": "cupboard",
+      "word": "ตู้",
+      "sentence": "จานและถ้วยอยู่ในตู้ครัว",
+      "reading": "dtûu"
+    },
+    "a1-310": {
+      "en": "rug",
+      "word": "พรม",
+      "sentence": "พรมสีน้ำเงินวางอยู่บนพื้นข้างเตียง",
+      "reading": "phrom"
+    },
+    "a1-311": {
+      "en": "living room",
+      "word": "ห้องนั่งเล่น",
+      "sentence": "เราดูหนังด้วยกันในห้องนั่งเล่นตอนกลางคืน",
+      "reading": "hɔ̂ɔng-nâng-lêen"
+    },
+    "a1-312": {
+      "en": "sink",
+      "word": "อ่างล้างจาน",
+      "sentence": "ฉันล้างถ้วยและจานในอ่างล้างจาน",
+      "reading": "àang-láang-jaan"
+    },
+    "a1-313": {
+      "en": "faucet",
+      "word": "ก๊อกน้ำ",
+      "sentence": "ฉันเปิดก๊อกน้ำและล้างมือด้วยสบู่",
+      "reading": "gɔ́ɔk-náam"
+    },
+    "a1-314": {
+      "en": "chimney",
+      "word": "ปล่องไฟ",
+      "sentence": "ควันเล็กน้อยลอยขึ้นมาจากปล่องไฟในฤดูหนาว",
+      "reading": "bplɔ̀ɔng-fai"
+    },
+    "a1-315": {
+      "en": "porch",
+      "word": "ระเบียง",
+      "sentence": "เรานั่งคุยกันที่ระเบียงยามเย็น",
+      "reading": "rá-biiang"
+    },
+    "a1-316": {
+      "en": "cushion",
+      "word": "เบาะ",
+      "sentence": "เบาะสีน้ำเงินบนโซฟานุ่มและสะอาด",
+      "reading": "bɔ̀"
+    },
+    "a1-317": {
+      "en": "hair",
+      "word": "ผม",
+      "sentence": "ฉันสระผมตอนอาบน้ำทุกเช้า",
+      "reading": "phǒm"
+    },
+    "a1-318": {
+      "en": "nose",
+      "word": "จมูก",
+      "sentence": "จมูกของฉันรู้สึกหนาวเมื่อมีลมหนาวพัดมา",
+      "reading": "jà-mûuk"
+    },
+    "a1-319": {
+      "en": "tooth",
+      "word": "ฟัน",
+      "sentence": "ฉันแปรงฟันทุกซี่ในตอนเช้าและตอนกลางคืน",
+      "reading": "fan"
+    },
+    "a1-320": {
+      "en": "arm",
+      "word": "แขน",
+      "sentence": "ฉันถือกระเป๋าหนักๆ ด้วยแขนขวา",
+      "reading": "khɛ̌ɛn"
+    },
+    "a1-321": {
+      "en": "leg",
+      "word": "ขา",
+      "sentence": "ฉันพักขาซ้ายหลังจากเดินเล่นในเมืองมานาน",
+      "reading": "khǎa"
+    },
+    "a1-322": {
+      "en": "back",
+      "word": "หลัง",
+      "sentence": "หลังของฉันรู้สึกดีขึ้นหลังจากพักผ่อนบนโซฟา",
+      "reading": "lǎng"
+    },
+    "a1-323": {
+      "en": "finger",
+      "word": "นิ้ว",
+      "sentence": "ฉันสวมแหวนวงเล็กที่นิ้วมือซ้าย",
+      "reading": "nío"
+    },
+    "a1-324": {
+      "en": "toe",
+      "word": "นิ้วเท้า",
+      "sentence": "หัวแม่ตีนของฉันรู้สึกอบอุ่นเมื่ออยู่ในถุงเท้าหนาๆ ในฤดูหนาว",
+      "reading": "nío-tháao"
+    },
+    "a1-325": {
+      "en": "knee",
+      "word": "เข่า",
+      "sentence": "ฉันงอเข่าเมื่อเดินขึ้นบันได",
+      "reading": "khào"
+    },
+    "a1-326": {
+      "en": "elbow",
+      "word": "ข้อศอก",
+      "sentence": "ฉันวางข้อศอกบนโต๊ะขณะอ่านหนังสือ",
+      "reading": "khɔ̂ɔ-sɔ̀ɔk"
+    },
+    "a1-327": {
+      "en": "shoulder",
+      "word": "ไหล่",
+      "sentence": "ฉันถือกระเป๋านักเรียนบนไหล่ซ้าย",
+      "reading": "làai"
+    },
+    "a1-328": {
+      "en": "neck",
+      "word": "คอ",
+      "sentence": "ผ้าพันคอเนื้อนุ่มช่วยให้คอของฉันอบอุ่นในฤดูหนาว",
+      "reading": "khɔɔ"
+    },
+    "a1-329": {
+      "en": "face",
+      "word": "ใบหน้า",
+      "sentence": "ฉันล้างหน้าด้วยน้ำอุ่นทุกเช้า",
+      "reading": "bai-nâa"
+    },
+    "a1-330": {
+      "en": "stomach",
+      "word": "กระเพาะอาหาร",
+      "sentence": "ท้องของฉันรู้สึกอิ่มหลังจากรับประทานอาหารเย็นมื้อใหญ่มื้อใหญ่",
+      "reading": "grà-phɔ́-aa-hǎan"
+    },
+    "a1-331": {
+      "en": "chest",
+      "word": "หน้าอก",
+      "sentence": "หน้าอกของฉันรู้สึกหนักแน่นเมื่อฉันหายใจช้าๆ ข้างนอก",
+      "reading": "nâa-òk"
+    },
+    "a1-332": {
+      "en": "heart",
+      "word": "หัวใจ",
+      "sentence": "วันนี้หมอตั้งใจฟังหัวใจของผม",
+      "reading": "hǔa-jai"
+    },
+    "a1-333": {
+      "en": "skin",
+      "word": "ผิว",
+      "sentence": "ผิวของฉันรู้สึกอบอุ่นท่ามกลางแสงแดดสดใสยามบ่าย",
+      "reading": "phǐo"
+    },
+    "a1-334": {
+      "en": "bone",
+      "word": "กระดูก",
+      "sentence": "หมอตรวจดูกระดูกที่แขนซ้ายของฉัน",
+      "reading": "grà-dùuk"
+    },
+    "a1-335": {
+      "en": "tongue",
+      "word": "ลิ้น",
+      "sentence": "ฉันสามารถลิ้มรสน้ำผึ้งอันหอมหวานบนลิ้นของฉัน",
+      "reading": "lín"
+    },
+    "a1-336": {
+      "en": "lip",
+      "word": "ริมฝีปาก",
+      "sentence": "มีน้ำผึ้งเล็กน้อยบนริมฝีปากของฉันจากชา",
+      "reading": "rim-fǐi-bpàak"
+    },
+    "a1-337": {
+      "en": "chin",
+      "word": "คาง",
+      "sentence": "ทารกมีซุปเล็กน้อยบนคางหลังอาหารกลางวัน",
+      "reading": "khaang"
+    },
+    "a1-338": {
+      "en": "cheek",
+      "word": "แก้ม",
+      "sentence": "ฉันจูบลูกน้อยที่แก้มอย่างอ่อนโยน",
+      "reading": "gɛ̂ɛm"
+    },
+    "a1-339": {
+      "en": "beard",
+      "word": "เครา",
+      "sentence": "ลุงของฉันมีหนวดเคราสั้นและมีรอยยิ้มที่อบอุ่น",
+      "reading": "khrao"
+    },
+    "a1-340": {
+      "en": "throat",
+      "word": "คอหอย",
+      "sentence": "ชาอุ่นๆ ดีต่อคอของฉันในวันที่อากาศหนาว",
+      "reading": "khɔɔ-hɔ̌ɔi"
+    },
+    "a1-341": {
+      "en": "wrist",
+      "word": "ข้อมือ",
+      "sentence": "หมอจับข้อมือฉันและฟังเสียงหัวใจของฉัน",
+      "reading": "khɔ̂ɔ-mʉʉ"
+    },
+    "a1-342": {
+      "en": "ankle",
+      "word": "ข้อเท้า",
+      "sentence": "ข้อเท้าของฉันรู้สึกดีขึ้นหลังจากพักผ่อนที่บ้านช่วงสั้นๆ",
+      "reading": "khɔ̂ɔ-tháao"
+    },
+    "a1-343": {
+      "en": "thumb",
+      "word": "นิ้วหัวแม่มือ",
+      "sentence": "ฉันถือดินสอด้วยนิ้วหัวแม่มือและนิ้วของฉัน",
+      "reading": "nío-hǔa-mâe-mʉʉ"
+    },
+    "a1-344": {
+      "en": "body",
+      "word": "ร่างกาย",
+      "sentence": "การเดินสั้นๆ ทุกวันดีต่อทั้งร่างกาย",
+      "reading": "râang-gaai"
+    },
+    "a1-345": {
+      "en": "blood",
+      "word": "เลือด",
+      "sentence": "เลือดไหลผ่านหัวใจและทั่วร่างกาย",
+      "reading": "lʉ̂at"
+    },
+    "a1-346": {
+      "en": "voice",
+      "word": "เสียง",
+      "sentence": "เธอมีเสียงที่ชัดเจนเมื่อเธอร้องเพลงง่ายๆ",
+      "reading": "sǐiang"
+    },
+    "a1-347": {
+      "en": "sick",
+      "word": "ป่วย",
+      "sentence": "เมื่อฉันป่วย ฉันจะนอนบนเตียงและดื่มชาอุ่นๆ",
+      "reading": "bpùuai"
+    },
+    "a1-348": {
+      "en": "healthy",
+      "word": "มีสุขภาพดี",
+      "sentence": "ผลไม้สดและการเดินทุกวันช่วยให้ฉันมีสุขภาพที่ดี",
+      "reading": "mii-sùk-phâap-dii"
+    },
+    "a1-349": {
+      "en": "tired",
+      "word": "เหนื่อย",
+      "sentence": "ฉันรู้สึกเหนื่อยจึงนั่งพักสักพัก",
+      "reading": "nʉ̀ai"
+    },
+    "a1-350": {
+      "en": "fever",
+      "word": "มีไข้",
+      "sentence": "เมื่อฉันเป็นไข้ ฉันจะพักผ่อนและดื่มน้ำมากๆ",
+      "reading": "mii-khâai"
+    },
+    "a1-351": {
+      "en": "medicine",
+      "word": "ยา",
+      "sentence": "ฉันกินยาพร้อมน้ำหนึ่งแก้วทุกเช้า",
+      "reading": "yaa"
+    },
+    "a1-352": {
+      "en": "doctor",
+      "word": "คุณหมอ",
+      "sentence": "คุณหมอใจดีและตอบทุกคำถามค่ะ",
+      "reading": "khun-mɔ̌ɔ"
+    },
+    "a1-353": {
+      "en": "nurse",
+      "word": "พยาบาล",
+      "sentence": "พยาบาลยิ้มและช่วยเหลือหมอกับคนไข้",
+      "reading": "phaai-baan"
+    },
+    "a1-354": {
+      "en": "cough",
+      "word": "ไอ",
+      "sentence": "วันนี้อาการไอของฉันดีขึ้นมากหลังจากดื่มชาอุ่นๆ",
+      "reading": "aai"
+    },
+    "a1-355": {
+      "en": "hurt",
+      "word": "เจ็บ",
+      "sentence": "วันนี้เดินช้าๆไม่เจ็บเข่าครับ",
+      "reading": "jèp"
+    },
+    "a1-356": {
+      "en": "smile",
+      "word": "ยิ้ม",
+      "sentence": "ฉันยิ้มให้เพื่อนบ้านเมื่อฉันเห็นเธอข้างนอก",
+      "reading": "yím"
+    },
+    "a1-357": {
+      "en": "go",
+      "word": "ไป",
+      "sentence": "ฉันไปตลาดกับแม่วันเสาร์",
+      "reading": "bpai"
+    },
+    "a1-358": {
+      "en": "run",
+      "word": "วิ่ง",
+      "sentence": "เราวิ่งด้วยกันในสวนสาธารณะทุกเช้าก่อนไปโรงเรียน",
+      "reading": "wîng"
+    },
+    "a1-359": {
+      "en": "stand",
+      "word": "ยืน",
+      "sentence": "กรุณายืนใกล้ประตูและรออาจารย์",
+      "reading": "yʉʉn"
+    },
+    "a1-360": {
+      "en": "open",
+      "word": "เปิด",
+      "sentence": "กรุณาเปิดหน้าต่างและปล่อยให้อากาศบริสุทธิ์เข้ามา",
+      "reading": "bpə̀ət"
+    },
+    "a1-361": {
+      "en": "close",
+      "word": "ปิด",
+      "sentence": "กรุณาปิดประตูอย่างเงียบๆ เมื่อคุณออกจากห้อง",
+      "reading": "bpìt"
+    },
+    "a1-362": {
+      "en": "take",
+      "word": "เอา",
+      "sentence": "ฉันนั่งรถบัสไปโรงเรียนกับเพื่อนๆ ทุกเช้า",
+      "reading": "ao"
+    },
+    "a1-363": {
+      "en": "bring",
+      "word": "เอามา",
+      "sentence": "ฉันนำแซนด์วิชและผลไม้ไปโรงเรียนเป็นมื้อกลางวัน",
+      "reading": "ao-maa"
+    },
+    "a1-364": {
+      "en": "put",
+      "word": "วาง",
+      "sentence": "กรุณาวางหนังสือของคุณไว้บนโต๊ะก่อนบทเรียน",
+      "reading": "waang"
+    },
+    "a1-365": {
+      "en": "make",
+      "word": "ทำ",
+      "sentence": "เราทำอาหารเช้าด้วยกันทุกเช้าวันอาทิตย์ที่บ้าน",
+      "reading": "tham"
+    },
+    "a1-366": {
+      "en": "do",
+      "word": "ทำ",
+      "sentence": "ฉันทำการบ้านที่โต๊ะในครัวทุกเย็น",
+      "reading": "tham"
+    },
+    "a1-367": {
+      "en": "have",
+      "word": "มี",
+      "sentence": "เรามีมื้อเที่ยงอุ่นๆด้วยกันตอนเที่ยงทุกวัน",
+      "reading": "mii"
+    },
+    "a1-368": {
+      "en": "want",
+      "word": "อยาก",
+      "sentence": "ฉันต้องการน้ำเย็นสักแก้วหลังจากเดินเล่นมายาวนาน",
+      "reading": "yàak"
+    },
+    "a1-369": {
+      "en": "need",
+      "word": "ต้องการ",
+      "sentence": "วันนี้ฉันต้องการดินสอและกระดาษสำหรับการสอบ",
+      "reading": "dtɔ̂ɔng-gaan"
+    },
+    "a1-370": {
+      "en": "like",
+      "word": "ชอบ",
+      "sentence": "ฉันชอบผลไม้สดและชีสเล็กน้อยเป็นอาหารเช้า",
+      "reading": "chɔ̂ɔp"
+    },
+    "a1-371": {
+      "en": "love",
+      "word": "รัก",
+      "sentence": "ฉันรักครอบครัวของฉัน และฉันชอบช่วยพวกเขาที่บ้าน",
+      "reading": "rák"
+    },
+    "a1-372": {
+      "en": "know",
+      "word": "รู้",
+      "sentence": "ฉันรู้ทางไม่ไกลจากบ้านเราถึงสถานี",
+      "reading": "rúu"
+    },
+    "a1-373": {
+      "en": "think",
+      "word": "คิด",
+      "sentence": "ฉันคิดว่าเรื่องราวเล็กๆ น้อยๆ นี้ชัดเจนและใจดีมาก",
+      "reading": "khít"
+    },
+    "a1-374": {
+      "en": "say",
+      "word": "พูด",
+      "sentence": "กรุณาพูดชื่อของคุณช้าๆเพื่อให้ชั้นเรียนได้ยิน",
+      "reading": "phûut"
+    },
+    "a1-375": {
+      "en": "tell",
+      "word": "บอก",
+      "sentence": "กรุณาบอกทางไปโรงพยาบาลจากที่นี่",
+      "reading": "bɔ̀ɔk"
+    },
+    "a1-376": {
+      "en": "talk",
+      "word": "คุย",
+      "sentence": "เราคุยกันถึงวันของเราด้วยกันในมื้อเย็นทุกเย็น",
+      "reading": "khui"
+    },
+    "a1-377": {
+      "en": "speak",
+      "word": "พูด",
+      "sentence": "ฉันพูดคุยกับครูหลังเลิกเรียนในบ่ายวันศุกร์",
+      "reading": "phûut"
+    },
+    "a1-378": {
+      "en": "work",
+      "word": "ทำงาน",
+      "sentence": "แม่ของฉันชอบทำงานที่โรงพยาบาลในเมืองของเรา",
+      "reading": "tham-ngaan"
+    },
+    "a1-379": {
+      "en": "play",
+      "word": "เล่น",
+      "sentence": "เด็กๆ เล่นเกมอย่างมีความสุขในสวนสาธารณะหลังเลิกเรียน",
+      "reading": "lêen"
+    },
+    "a1-380": {
+      "en": "buy",
+      "word": "ซื้อ",
+      "sentence": "ฉันซื้อขนมปังสดใหม่ที่ร้านเบเกอรี่ทุกเช้าวันเสาร์",
+      "reading": "sʉ́ʉ"
+    },
+    "a1-381": {
+      "en": "help",
+      "word": "ช่วย",
+      "sentence": "ฉันช่วยน้องชายอ่านหนังสือทำการบ้าน",
+      "reading": "chûuai"
+    },
+    "a1-382": {
+      "en": "wait",
+      "word": "รอ",
+      "sentence": "เรารอรถบัสตอนเช้าที่สถานีด้วยกัน",
+      "reading": "rɔɔ"
+    },
+    "a1-383": {
+      "en": "look",
+      "word": "มอง",
+      "sentence": "โปรดดูที่กระดานและอ่านประโยคใหม่",
+      "reading": "mɔɔng"
+    },
+    "a1-384": {
+      "en": "live",
+      "word": "อยู่",
+      "sentence": "เราอาศัยอยู่ในอพาร์ตเมนต์เล็กๆ ใกล้สวนสาธารณะประจำเมือง",
+      "reading": "yùu"
+    },
+    "a1-385": {
+      "en": "stay",
+      "word": "อยู่",
+      "sentence": "ฉันอยู่บ้านและพักผ่อนเมื่อฉันรู้สึกเหนื่อยหรือป่วย",
+      "reading": "yùu"
+    },
+    "a1-386": {
+      "en": "leave",
+      "word": "ออก",
+      "sentence": "เราออกจากบ้านตอนแปดโมงเช้าเพื่อไปโรงเรียน",
+      "reading": "ɔ̀ɔk"
+    },
+    "a1-387": {
+      "en": "start",
+      "word": "เริ่ม",
+      "sentence": "เราเริ่มบทเรียนภาษาอังกฤษตอนเก้าโมงทุกเช้า",
+      "reading": "rə̂əm"
+    },
+    "a1-388": {
+      "en": "stop",
+      "word": "หยุด",
+      "sentence": "รถจะจอดตรงหัวมุมเมื่อไฟเป็นสีแดง",
+      "reading": "yùt"
+    },
+    "a1-389": {
+      "en": "find",
+      "word": "หา",
+      "sentence": "ฉันพบกุญแจอยู่บนโต๊ะตัวเล็กข้างประตู",
+      "reading": "hǎa"
+    },
+    "a1-390": {
+      "en": "use",
+      "word": "ใช้",
+      "sentence": "เราใช้พจนานุกรมเมื่อเราเรียนรู้คำศัพท์ภาษาอังกฤษใหม่",
+      "reading": "chái"
+    },
+    "a1-391": {
+      "en": "try",
+      "word": "ลอง",
+      "sentence": "ฉันลองผลไม้ชนิดใหม่ที่ตลาดในแต่ละสัปดาห์",
+      "reading": "lɔɔng"
+    },
+    "a1-392": {
+      "en": "understand",
+      "word": "เข้าใจ",
+      "sentence": "ฉันเข้าใจคำถามและสามารถให้คำตอบได้",
+      "reading": "khâo-jai"
+    },
+    "a1-393": {
+      "en": "show",
+      "word": "แสดง",
+      "sentence": "กรุณาแสดงตั๋วรถไฟของคุณแก่คนขับที่หน้าประตู",
+      "reading": "sɛ̌ɛng"
+    },
+    "a1-394": {
+      "en": "sing",
+      "word": "ร้อง",
+      "sentence": "เราร้องเพลงความสุขง่ายๆ ด้วยกันในชั้นเรียนดนตรี",
+      "reading": "rɔ́ɔng"
+    },
+    "a1-395": {
+      "en": "drive",
+      "word": "ขับ",
+      "sentence": "พ่อของฉันสามารถขับรถครอบครัวไปทำงานทุกเช้า",
+      "reading": "khàp"
+    },
+    "a1-396": {
+      "en": "swim",
+      "word": "ว่าย",
+      "sentence": "เราว่ายน้ำในทะเลสาบที่สะอาดเมื่อฤดูร้อนอากาศอบอุ่น",
+      "reading": "wâai"
+    },
+    "a1-397": {
+      "en": "be",
+      "word": "เป็น",
+      "sentence": "ฉันอยากเป็นครูที่ใจดีเมื่อเรียนจบ",
+      "reading": "bpen"
+    },
+    "a1-398": {
+      "en": "can",
+      "word": "ได้",
+      "sentence": "ฉันสามารถขี่จักรยานไปโรงเรียนได้เมื่ออากาศแห้ง",
+      "reading": "dâai"
+    },
+    "a1-399": {
+      "en": "horse",
+      "word": "ม้า",
+      "sentence": "ม้าวิ่งข้ามทุ่งหญ้าสีเขียวในตอนเช้า",
+      "reading": "máa"
+    },
+    "a1-400": {
+      "en": "cow",
+      "word": "วัว",
+      "sentence": "วัวกินหญ้าสดในทุ่งทั้งวัน",
+      "reading": "wua"
+    },
+    "a1-401": {
+      "en": "pig",
+      "word": "หมู",
+      "sentence": "หมูชอบกลิ้งตัวในโคลนในฟาร์ม",
+      "reading": "mǔu"
+    },
+    "a1-402": {
+      "en": "sheep",
+      "word": "แกะ",
+      "sentence": "แกะกินหญ้าข้างชาวนาในทุ่งนา",
+      "reading": "gɛ̀"
+    },
+    "a1-403": {
+      "en": "goat",
+      "word": "แพะ",
+      "sentence": "แพะจะปีนขึ้นเนินเล็กๆ ใกล้ฟาร์มทุกวัน",
+      "reading": "phɛ́"
+    },
+    "a1-404": {
+      "en": "chicken",
+      "word": "ไก่",
+      "sentence": "ไก่เดินไปรอบๆ สวนและมองหาอาหาร",
+      "reading": "gàai"
+    },
+    "a1-405": {
+      "en": "mouse",
+      "word": "เมาส์",
+      "sentence": "หนูตัวเล็กอาศัยอยู่ในทุ่งอันเงียบสงบใกล้ฟาร์ม",
+      "reading": "mao"
+    },
+    "a1-406": {
+      "en": "rabbit",
+      "word": "กระต่าย",
+      "sentence": "กระต่ายกินแครอทสดในสวนหลังบ้าน",
+      "reading": "grà-dtàai"
+    },
+    "a1-407": {
+      "en": "duck",
+      "word": "เป็ด",
+      "sentence": "เป็ดว่ายน้ำในสระพร้อมกับลูกๆ ของมัน",
+      "reading": "bpèt"
+    },
+    "a1-408": {
+      "en": "goose",
+      "word": "ห่าน",
+      "sentence": "ห่านขาวเดินอยู่ใกล้ทะเลสาบในสวนสาธารณะประจำเมือง",
+      "reading": "hàan"
+    },
+    "a1-409": {
+      "en": "lion",
+      "word": "สิงโต",
+      "sentence": "สิงโตพักผ่อนอย่างเงียบๆ ใต้ร่มเงาของสวนสัตว์",
+      "reading": "sǐng-dtoo"
+    },
+    "a1-410": {
+      "en": "tiger",
+      "word": "เสือ",
+      "sentence": "เสือมีสีส้มและสีดำ อาศัยอยู่ในสวนสัตว์",
+      "reading": "sʉ̌a"
+    },
+    "a1-411": {
+      "en": "bear",
+      "word": "หมี",
+      "sentence": "หมีชอบน้ำผึ้งรสหวานและพักผ่อนในฤดูหนาว",
+      "reading": "mǐi"
+    },
+    "a1-412": {
+      "en": "elephant",
+      "word": "ช้าง",
+      "sentence": "ช้างมีความสงบและอ่อนโยนกับผู้คนในสวนสัตว์",
+      "reading": "cháang"
+    },
+    "a1-413": {
+      "en": "monkey",
+      "word": "ลิง",
+      "sentence": "ลิงกินกล้วยและเล่นบนต้นไม้สูง",
+      "reading": "ling"
+    },
+    "a1-414": {
+      "en": "snake",
+      "word": "งู",
+      "sentence": "งูตัวเล็ก ๆ นอนอยู่บนก้อนหินอุ่น ๆ กลางแสงแดด",
+      "reading": "nguu"
+    },
+    "a1-415": {
+      "en": "frog",
+      "word": "กบ",
+      "sentence": "กบสีเขียวนั่งอยู่บนใบไม้ข้างสระน้ำอันเงียบสงบ",
+      "reading": "gòp"
+    },
+    "a1-416": {
+      "en": "turtle",
+      "word": "เต่า",
+      "sentence": "เต่าจะค่อยๆ เคลื่อนตัวข้ามทรายไปทางน้ำอย่างช้าๆ",
+      "reading": "dtào"
+    },
+    "a1-417": {
+      "en": "spider",
+      "word": "แมงมุม",
+      "sentence": "แมงมุมสร้างใยเล็กๆ ไว้ตรงมุมสวน",
+      "reading": "mɛɛng-mum"
+    },
+    "a1-418": {
+      "en": "bee",
+      "word": "ผึ้ง",
+      "sentence": "ผึ้งตัวหนึ่งนั่งอยู่บนดอกกุหลาบสีแดงในสวนที่มีแสงแดดสดใสของเรา",
+      "reading": "phʉ̂ng"
+    },
+    "a1-419": {
+      "en": "butterfly",
+      "word": "ผีเสื้อ",
+      "sentence": "ผีเสื้อสีเหลืองเกาะบนดอกไม้ในสวน",
+      "reading": "phǐi-sʉ̂a"
+    },
+    "a1-420": {
+      "en": "whale",
+      "word": "ปลาวาฬ",
+      "sentence": "ปลาวาฬแหวกว่ายไปไกลในมหาสมุทรสีน้ำเงินเข้ม",
+      "reading": "bplaa-waan"
+    },
+    "a1-421": {
+      "en": "dolphin",
+      "word": "ปลาโลมา",
+      "sentence": "โลมากระโดดขึ้นจากน้ำทะเลสีฟ้า",
+      "reading": "bplaa-loo-maa"
+    },
+    "a1-422": {
+      "en": "donkey",
+      "word": "ลา",
+      "sentence": "ลาถือถุงผลไม้ไปทั่วฟาร์ม",
+      "reading": "laa"
+    },
+    "a1-423": {
+      "en": "zebra",
+      "word": "ม้าลาย",
+      "sentence": "ม้าลายมีเส้นสีดำและสีขาวบนตัว",
+      "reading": "máa-laai"
+    },
+    "a1-424": {
+      "en": "giraffe",
+      "word": "ยีราฟ",
+      "sentence": "ยีราฟตัวสูงกินใบไม้จากยอดต้นไม้",
+      "reading": "yii-râap"
+    },
+    "a1-425": {
+      "en": "fox",
+      "word": "สุนัขจิ้งจอก",
+      "sentence": "สุนัขจิ้งจอกอาศัยอยู่ในหลุมใกล้กับป่าอันเขียวขจีอันเงียบสงบ",
+      "reading": "sù-nák-jîng-jɔ̀ɔk"
+    },
+    "a1-426": {
+      "en": "deer",
+      "word": "กวาง",
+      "sentence": "กวางดื่มน้ำเย็นจากลำธารในป่า",
+      "reading": "gwaang"
+    },
+    "a1-427": {
+      "en": "owl",
+      "word": "นกฮูก",
+      "sentence": "นกฮูกนั่งเงียบ ๆ บนต้นไม้ในเวลากลางคืน",
+      "reading": "nók-hûuk"
+    },
+    "a1-428": {
+      "en": "parrot",
+      "word": "นกแก้ว",
+      "sentence": "นกแก้วสีเขียวสามารถพูดคำที่เป็นมิตรง่ายๆ ได้",
+      "reading": "nók-gwɛ̂ɛ"
+    },
+    "a1-429": {
+      "en": "penguin",
+      "word": "นกเพนกวิน",
+      "sentence": "เพนกวินเดินบนน้ำแข็งแล้วว่ายน้ำได้ดีมาก",
+      "reading": "nók-phêek-win"
+    },
+    "a1-430": {
+      "en": "camel",
+      "word": "อูฐ",
+      "sentence": "อูฐเดินช้าๆ ข้ามทะเลทรายอันร้อนระอุ",
+      "reading": "ùut"
+    },
+    "a1-431": {
+      "en": "squirrel",
+      "word": "กระรอก",
+      "sentence": "กระรอกปีนต้นไม้และถือถั่วลูกเล็กๆ",
+      "reading": "grà-rɔ̂ɔk"
+    },
+    "a1-432": {
+      "en": "puppy",
+      "word": "ลูกสุนัข",
+      "sentence": "ลูกสุนัขเล่นกับลูกบอลนุ่มๆ ในห้องนั่งเล่น",
+      "reading": "lûuk-sù-nák"
+    },
+    "a1-433": {
+      "en": "kitten",
+      "word": "ลูกแมว",
+      "sentence": "ลูกแมวนอนบนเก้าอี้อันอบอุ่นท่ามกลางแสงแดดยามบ่าย",
+      "reading": "lûuk-mɛɛo"
+    },
+    "a1-434": {
+      "en": "hamster",
+      "word": "หนูแฮมสเตอร์",
+      "sentence": "หนูแฮมสเตอร์ตัวน้อยวิ่งบนวงล้อตัวเล็กในเวลากลางคืน",
+      "reading": "nǔu-hɛɛm-sàt"
+    },
+    "a1-435": {
+      "en": "pet",
+      "word": "สัตว์เลี้ยง",
+      "sentence": "สุนัขที่อ่อนโยนสามารถเป็นสัตว์เลี้ยงที่มีความสุขในบ้านของครอบครัวได้",
+      "reading": "sàt-líiang"
+    },
+    "a1-436": {
+      "en": "wolf",
+      "word": "หมาป่า",
+      "sentence": "หมาป่าอาศัยอยู่กับครอบครัวที่อยู่ลึกเข้าไปในป่า",
+      "reading": "mǎa-bpàa"
+    },
+    "a1-437": {
+      "en": "tail",
+      "word": "หาง",
+      "sentence": "สุนัขกระดิกหางเมื่อเด็กๆ กลับมาบ้าน",
+      "reading": "hǎang"
+    },
+    "a1-438": {
+      "en": "wing",
+      "word": "ปีก",
+      "sentence": "นกจะกางปีกข้างหนึ่งแล้วบินขึ้นไปบนฟ้า",
+      "reading": "bpìik"
+    },
+    "a1-439": {
+      "en": "grass",
+      "word": "หญ้า",
+      "sentence": "หญ้าในสวนยังเขียวและนุ่มหลังฝนตก",
+      "reading": "yâa"
+    },
+    "a1-440": {
+      "en": "leaf",
+      "word": "ใบไม้",
+      "sentence": "ใบไม้สีเหลืองร่วงหล่นจากต้นไม้ลงสู่พื้น",
+      "reading": "bai-máai"
+    },
+    "a1-441": {
+      "en": "forest",
+      "word": "ป่า",
+      "sentence": "เราเดินอย่างเงียบ ๆ ผ่านป่าอันเย็นสบายในเช้าวันอาทิตย์",
+      "reading": "bpàa"
+    },
+    "a1-442": {
+      "en": "field",
+      "word": "ทุ่ง",
+      "sentence": "ม้ากินหญ้าเขียวในทุ่งโล่งกว้าง",
+      "reading": "thûng"
+    },
+    "a1-443": {
+      "en": "hill",
+      "word": "เนินเขา",
+      "sentence": "เราเดินช้าๆ ขึ้นไปบนเนินเขาเขียวๆ ด้านหลังหมู่บ้านของเรา",
+      "reading": "nəən-khǎo"
+    },
+    "a1-444": {
+      "en": "lake",
+      "word": "ทะเลสาบ",
+      "sentence": "ทะเลสาบสงบและเป็นสีฟ้าในช่วงบ่ายที่มีแสงแดดสดใส",
+      "reading": "thá-lee-sàap"
+    },
+    "a1-445": {
+      "en": "ocean",
+      "word": "มหาสมุทร",
+      "sentence": "มหาสมุทรดูเป็นสีฟ้าและกว้างมากเมื่อมองจากชายฝั่งสูง",
+      "reading": "á-hǎa-sǔn"
+    },
+    "a1-446": {
+      "en": "island",
+      "word": "เกาะ",
+      "sentence": "เกาะเล็กๆ แห่งนี้เงียบสงบและเขียวขจีในท้องทะเลสีฟ้า",
+      "reading": "gɔ̀"
+    },
+    "a1-447": {
+      "en": "sand",
+      "word": "ทราย",
+      "sentence": "ทรายบนชายหาดให้ความรู้สึกอบอุ่นในช่วงบ่าย",
+      "reading": "saai"
+    },
+    "a1-448": {
+      "en": "rock",
+      "word": "ร็อค",
+      "sentence": "เรานั่งบนหินแบนขนาดใหญ่และมองดูทะเลสาบ",
+      "reading": "rák"
+    },
+    "a1-449": {
+      "en": "ground",
+      "word": "พื้นดิน",
+      "sentence": "แอปเปิ้ลแดงตกลงบนพื้นใต้ต้นไม้เก่า",
+      "reading": "phʉ́ʉn-din"
+    },
+    "a1-450": {
+      "en": "star",
+      "word": "ดาว",
+      "sentence": "ฉันเห็นดาวสว่างในท้องฟ้าแจ่มใสในเวลากลางคืน",
+      "reading": "daao"
+    },
+    "a1-451": {
+      "en": "plant",
+      "word": "ปลูก",
+      "sentence": "ต้นไม้สีเขียวนี้ต้องการน้ำและแสงสว่างทุกเช้า",
+      "reading": "bplùuk"
+    },
+    "a1-452": {
+      "en": "seed",
+      "word": "เมล็ดพันธุ์",
+      "sentence": "ฉันใส่เมล็ดพืชเล็กๆ ลงในดินแล้วรดน้ำ",
+      "reading": "mêet-phát"
+    },
+    "a1-453": {
+      "en": "root",
+      "word": "ราก",
+      "sentence": "รากของพืชจะเติบโตอยู่ใต้ดินสีเข้ม",
+      "reading": "râak"
+    },
+    "a1-454": {
+      "en": "branch",
+      "word": "สาขา",
+      "sentence": "นกตัวเล็ก ๆ นั่งอยู่บนกิ่งไม้เตี้ย ๆ ของต้นไม้",
+      "reading": "sǎa-khǎa"
+    },
+    "a1-455": {
+      "en": "bush",
+      "word": "พุ่มไม้",
+      "sentence": "กระต่ายซ่อนตัวอยู่ใต้พุ่มไม้สีเขียวในบ้านของเรา",
+      "reading": "phûm-máai"
+    },
+    "a1-456": {
+      "en": "rose",
+      "word": "กุหลาบ",
+      "sentence": "กุหลาบแดงในสวนเราหอมหวานยามเช้า",
+      "reading": "gù-làap"
+    },
+    "a1-457": {
+      "en": "valley",
+      "word": "หุบเขา",
+      "sentence": "แม่น้ำใสไหลผ่านหุบเขาอันเขียวขจีอันกว้างใหญ่",
+      "reading": "hùp-khǎo"
+    },
+    "a1-458": {
+      "en": "cave",
+      "word": "ถ้ำ",
+      "sentence": "ถ้ำภายในเนินเขามืด เย็น และเงียบสงบ",
+      "reading": "thâm"
+    },
+    "a1-459": {
+      "en": "desert",
+      "word": "ทะเลทราย",
+      "sentence": "ทะเลทรายร้อนและแห้ง มีทรายและพืชพรรณไม่กี่ชนิด",
+      "reading": "thá-lêet-raai"
+    },
+    "a1-460": {
+      "en": "pond",
+      "word": "บ่อน้ำ",
+      "sentence": "เป็ดหลายตัวว่ายอยู่ในสระน้ำด้านหลังฟาร์มเก่า",
+      "reading": "bɔ̀ɔ-náam"
+    },
+    "a1-461": {
+      "en": "stream",
+      "word": "สตรีม",
+      "sentence": "น้ำเย็นใสไหลเร็วในลำธารป่าเล็กๆ",
+      "reading": "à-dtriim"
+    },
+    "a1-462": {
+      "en": "cliff",
+      "word": "หน้าผา",
+      "sentence": "เรายืนหยัดได้อย่างดีจากหน้าผาเหนือมหาสมุทร",
+      "reading": "nâa-phǎa"
+    },
+    "a1-463": {
+      "en": "shore",
+      "word": "ฝั่ง",
+      "sentence": "เด็กๆ เล่นบนฝั่งเมื่ออากาศอบอุ่น",
+      "reading": "fàng"
+    },
+    "a1-464": {
+      "en": "wave",
+      "word": "คลื่น",
+      "sentence": "คลื่นเล็กๆ ขึ้นมาบนทรายแล้วกลับ",
+      "reading": "khlʉ̂ʉn"
+    },
+    "a1-465": {
+      "en": "land",
+      "word": "ที่ดิน",
+      "sentence": "ชาวนาปลูกผักบนพื้นที่สีเขียวแห่งนี้ทุกปี",
+      "reading": "thîi-din"
+    },
+    "a1-466": {
+      "en": "soil",
+      "word": "ดิน",
+      "sentence": "ดินในสวนของเรามีสีเข้ม อ่อนนุ่ม และดีต่อพืช",
+      "reading": "din"
+    },
+    "a1-467": {
+      "en": "air",
+      "word": "อากาศ",
+      "sentence": "ฉันเปิดหน้าต่างเพราะต้องการอากาศบริสุทธิ์",
+      "reading": "aa-gàat"
+    },
+    "a1-468": {
+      "en": "world",
+      "word": "โลก",
+      "sentence": "ผู้คนทั่วโลกแบ่งปันอาหาร ดนตรี และเรื่องราว",
+      "reading": "lôok"
+    },
+    "a1-469": {
+      "en": "country",
+      "word": "ประเทศ",
+      "sentence": "บ้านเรามีป่าไม้เขียวขจี แม่น้ำยาว ภูเขาสูง",
+      "reading": "bprà-thêet"
+    },
+    "a1-470": {
+      "en": "jungle",
+      "word": "ป่า",
+      "sentence": "ป่ามีความอบอุ่น เขียวขจี และเต็มไปด้วยต้นไม้สูง",
+      "reading": "bpàa"
+    },
+    "a1-471": {
+      "en": "path",
+      "word": "เส้นทาง",
+      "sentence": "เราเดินตามเส้นทางแคบ ๆ ผ่านป่ายามเช้าอันเงียบสงบ",
+      "reading": "sêen-thaang"
+    },
+    "a1-472": {
+      "en": "mud",
+      "word": "โคลน",
+      "sentence": "รองเท้าของฉันมีโคลนนุ่มๆ หลังจากเดินลุยฝน",
+      "reading": "khloon"
+    },
+    "a1-473": {
+      "en": "farm",
+      "word": "ฟาร์ม",
+      "sentence": "ลุงของฉันเลี้ยงวัว แกะ และไก่ในฟาร์มของเขา",
+      "reading": "faam"
+    },
+    "a1-474": {
+      "en": "earth",
+      "word": "โลก",
+      "sentence": "เราปลูกมันฝรั่งและแครอทไว้ในดินหลังบ้าน",
+      "reading": "lôok"
+    },
+    "a1-475": {
+      "en": "person",
+      "word": "คน",
+      "sentence": "คนใกล้ประตูห้องเรียนคือครูสอนภาษาอังกฤษของเรา",
+      "reading": "khon"
+    },
+    "a1-476": {
+      "en": "neighbor",
+      "word": "เพื่อนบ้าน",
+      "sentence": "เพื่อนบ้านของฉันรดน้ำดอกไม้ในสวนของเธอทุกเย็น",
+      "reading": "phʉ̂an-bâan"
+    },
+    "a1-477": {
+      "en": "guest",
+      "word": "แขก",
+      "sentence": "แขกของเรานั่งกับครอบครัวในห้องนั่งเล่น",
+      "reading": "khɛ̀ɛk"
+    },
+    "a1-478": {
+      "en": "customer",
+      "word": "ลูกค้า",
+      "sentence": "ลูกค้าซื้อแอปเปิ้ลและขนมปังสดที่ร้าน",
+      "reading": "lûuk-kháa"
+    },
+    "a1-479": {
+      "en": "waiter",
+      "word": "บริกร",
+      "sentence": "พนักงานเสิร์ฟนำแก้วน้ำมาที่โต๊ะของเรา",
+      "reading": "brì-grà"
+    },
+    "a1-480": {
+      "en": "chef",
+      "word": "พ่อครัว",
+      "sentence": "พ่อครัวจะปรุงซุปและขนมปังสดใหม่ที่ร้านอาหาร",
+      "reading": "phɔ̂ɔ-khrua"
+    },
+    "a1-481": {
+      "en": "farmer",
+      "word": "ชาวนา",
+      "sentence": "ชาวนาให้อาหารวัวทุกเช้า",
+      "reading": "chaao-naa"
+    },
+    "a1-482": {
+      "en": "driver",
+      "word": "คนขับ",
+      "sentence": "คนขับรถบัสจอดใกล้โรงเรียนทุกเช้า",
+      "reading": "khon-khàp"
+    },
+    "a1-483": {
+      "en": "pilot",
+      "word": "นักบิน",
+      "sentence": "นักบินบินเครื่องบินข้ามมหาสมุทรไปยังประเทศอื่น",
+      "reading": "nák-bin"
+    },
+    "a1-484": {
+      "en": "artist",
+      "word": "ศิลปิน",
+      "sentence": "ศิลปินวาดภาพที่สวยงามของท้องทะเลสีฟ้า",
+      "reading": "sǐn-bpin"
+    },
+    "a1-485": {
+      "en": "dentist",
+      "word": "ทันตแพทย์",
+      "sentence": "ฉันไปพบทันตแพทย์ปีละสองครั้ง",
+      "reading": "thát-phɛ̂ɛt"
+    },
+    "a1-486": {
+      "en": "patient",
+      "word": "คนไข้",
+      "sentence": "คนไข้รอหมออย่างเงียบๆ ในคลินิก",
+      "reading": "khon-khâai"
+    },
+    "a1-487": {
+      "en": "worker",
+      "word": "คนงาน",
+      "sentence": "คนงานมาถึงที่ทำงานก่อนแปดโมงทุกเช้า",
+      "reading": "khon-ngaan"
+    },
+    "a1-488": {
+      "en": "baker",
+      "word": "คนทำขนมปัง",
+      "sentence": "คนทำขนมปังทำขนมปังอุ่นสดใหม่ทุกเช้า",
+      "reading": "khon-tham-khà-nǒm-bpang"
+    },
+    "a1-489": {
+      "en": "cashier",
+      "word": "แคชเชียร์",
+      "sentence": "แคชเชียร์รับเงินและยิ้มอย่างใจดี",
+      "reading": "khɛ̂ɛt-chiia"
+    },
+    "a1-490": {
+      "en": "singer",
+      "word": "นักร้อง",
+      "sentence": "นักร้องมีเสียงที่ไพเราะและยิ้มให้กับผู้คน",
+      "reading": "nák-rɔ́ɔng"
+    },
+    "a1-491": {
+      "en": "job",
+      "word": "งาน",
+      "sentence": "ฉันชอบงานของฉันที่ห้องสมุดเพราะฉันช่วยเหลือผู้คน",
+      "reading": "ngaan"
+    },
+    "a1-492": {
+      "en": "boss",
+      "word": "เจ้านาย",
+      "sentence": "เจ้านายของฉันใจดีและเธอช่วยให้ฉันเรียนรู้สิ่งใหม่ๆ",
+      "reading": "jâo-naai"
+    },
+    "a1-493": {
+      "en": "tourist",
+      "word": "นักท่องเที่ยว",
+      "sentence": "นักท่องเที่ยวดูแผนที่ข้างหอคอยเมืองเก่า",
+      "reading": "nák-thɔ̂ɔng-thîia"
+    },
+    "a1-494": {
+      "en": "he",
+      "word": "เขา",
+      "sentence": "เขาเป็นพี่ชายของฉัน และเขาเดินไปโรงเรียนกับฉัน",
+      "reading": "khǎo"
+    },
+    "a1-495": {
+      "en": "she",
+      "word": "เธอ",
+      "sentence": "เธอเป็นน้องสาวของฉัน และเธอชอบอ่านหนังสือทุกเย็น",
+      "reading": "thəə"
+    },
+    "a1-496": {
+      "en": "we",
+      "word": "เรา",
+      "sentence": "เรากินข้าวเช้าอุ่นๆ ด้วยกันก่อนไปโรงเรียนในแต่ละวัน",
+      "reading": "rao"
+    },
+    "a1-497": {
+      "en": "they",
+      "word": "พวกเขา",
+      "sentence": "พวกเขาเป็นญาติของฉัน และอาศัยอยู่ในหมู่บ้านเล็กๆ",
+      "reading": "phûuak-khǎo"
+    },
+    "a1-498": {
+      "en": "me",
+      "word": "ฉัน",
+      "sentence": "พ่อของฉันอ่านเรื่องสั้นแห่งความสุขให้ฉันฟังตอนกลางคืน",
+      "reading": "chǎn"
+    },
+    "a1-499": {
+      "en": "him",
+      "word": "เขา",
+      "sentence": "ฉันเดินไปโรงเรียนกับเขาทุกเช้าของสัปดาห์",
+      "reading": "khǎo"
+    },
+    "a1-500": {
+      "en": "her",
+      "word": "เธอ",
+      "sentence": "ฉันนั่งข้างเธอในห้องเรียนทุกวัน",
+      "reading": "thəə"
+    },
+    "a1-501": {
+      "en": "us",
+      "word": "พวกเรา",
+      "sentence": "คุณยายของเราทำซุปอุ่นๆ ให้เราในวันอาทิตย์",
+      "reading": "phûuak-rao"
+    },
+    "a1-502": {
+      "en": "them",
+      "word": "พวกเขา",
+      "sentence": "ฉันเจอพวกเขาที่สวนสาธารณะทุกบ่ายวันเสาร์",
+      "reading": "phûuak-khǎo"
+    },
+    "a1-503": {
+      "en": "my",
+      "word": "ของฉัน",
+      "sentence": "แม่ของฉันทำซุปร้อนๆ เมื่ออากาศหนาวในฤดูหนาว",
+      "reading": "khɔ̌ɔng-chǎn"
+    },
+    "a1-504": {
+      "en": "your",
+      "word": "ของคุณ",
+      "sentence": "กระเป๋าเป้สีน้ำเงินของคุณอยู่บนเก้าอี้ใกล้ประตูหน้า",
+      "reading": "khɔ̌ɔng-khun"
+    },
+    "a1-505": {
+      "en": "his",
+      "word": "ของเขา",
+      "sentence": "จักรยานสีแดงของเขาเป็นจักรยานใหม่ และเขาขี่ไปโรงเรียน",
+      "reading": "khɔ̌ɔng-khǎo"
+    },
+    "a1-506": {
+      "en": "our",
+      "word": "ของเรา",
+      "sentence": "บ้านเราหลังเล็กๆแต่อบอุ่น สะอาด และมีความสุข",
+      "reading": "khɔ̌ɔng-rao"
+    },
+    "a1-507": {
+      "en": "their",
+      "word": "พวกเขา",
+      "sentence": "สวนของพวกเขาเต็มไปด้วยดอกไม้สีแดงในช่วงฤดูใบไม้ผลิ",
+      "reading": "phûuak-khǎo"
+    },
+    "a1-508": {
+      "en": "who",
+      "word": "ใคร",
+      "sentence": "ผู้หญิงที่ยืนอยู่ใกล้ประตูหน้าตอนนี้คือใคร?",
+      "reading": "khrai"
+    },
+    "a1-509": {
+      "en": "someone",
+      "word": "ใครบางคน",
+      "sentence": "มีคนอยู่ที่ประตูพร้อมถุงสีน้ำเงินใบเล็ก",
+      "reading": "khrai-baang-khon"
+    },
+    "a1-510": {
+      "en": "everyone",
+      "word": "ทุกคน",
+      "sentence": "ทุกคนในชั้นเรียนของเรามีน้ำใจต่อนักเรียนใหม่",
+      "reading": "thúk-khon"
+    },
+    "a1-511": {
+      "en": "it",
+      "word": "มัน",
+      "sentence": "เป็นวันที่อากาศอบอุ่นสวยงามสำหรับการเดินเล่นในสวนสาธารณะ",
+      "reading": "man"
+    },
+    "a1-512": {
+      "en": "police",
+      "word": "ตำรวจ",
+      "sentence": "ฉันโทรหาตำรวจเมื่อต้องการความช่วยเหลือบนท้องถนน",
+      "reading": "dtam-rûuat"
+    },
+    "a1-513": {
+      "en": "soldier",
+      "word": "ทหาร",
+      "sentence": "ทหารเขียนจดหมายยาวถึงครอบครัวของเขาถึงครอบครัว",
+      "reading": "á-hǎan"
+    },
+    "a1-514": {
+      "en": "passenger",
+      "word": "ผู้โดยสาร",
+      "sentence": "ผู้โดยสารแต่ละคนแสดงตั๋วแล้วนั่งบนรถไฟ",
+      "reading": "phûu-dooi-sǎan"
+    },
+    "a1-515": {
+      "en": "bad",
+      "word": "ไม่ดี",
+      "sentence": "วันนี้อากาศไม่ดีเราจึงอยู่ข้างในและอ่านหนังสือ",
+      "reading": "mâi-dii"
+    },
+    "a1-516": {
+      "en": "old",
+      "word": "เก่า",
+      "sentence": "ปู่ของฉันอายุมากแล้ว และเขาเล่าเรื่องที่ใจดีมาก",
+      "reading": "gào"
+    },
+    "a1-517": {
+      "en": "young",
+      "word": "หนุ่ม",
+      "sentence": "เด็กชายช่วยแม่ล้างถ้วยในครัว",
+      "reading": "nùm"
+    },
+    "a1-518": {
+      "en": "long",
+      "word": "ยาว",
+      "sentence": "ถนนเข้าหมู่บ้านยาว เงียบสงบ และสวยงาม",
+      "reading": "yaao"
+    },
+    "a1-519": {
+      "en": "short",
+      "word": "สั้น",
+      "sentence": "เราใช้เวลาเดินเล่นด้วยกันหลังอาหารเย็นทุกเย็น",
+      "reading": "sân"
+    },
+    "a1-520": {
+      "en": "tall",
+      "word": "สูง",
+      "sentence": "หอคอยเก่าแก่นี้สูงและเราสามารถเห็นได้จากที่บ้าน",
+      "reading": "sǔung"
+    },
+    "a1-521": {
+      "en": "fast",
+      "word": "รวดเร็ว",
+      "sentence": "รถไฟเช้านี้เร็วและมักจะมาถึงตรงเวลา",
+      "reading": "rûuat-reo"
+    },
+    "a1-522": {
+      "en": "slow",
+      "word": "ช้า",
+      "sentence": "เรือลำเล็กมาช้าแต่ล่องทะเลสาบก็ดี",
+      "reading": "cháa"
+    },
+    "a1-523": {
+      "en": "heavy",
+      "word": "หนัก",
+      "sentence": "กระเป๋าเดินทางใบนี้หนักจึงขอความช่วยเหลือจากพี่ชาย",
+      "reading": "nàk"
+    },
+    "a1-524": {
+      "en": "soft",
+      "word": "อ่อนนุ่ม",
+      "sentence": "หมอนใบนี้นุ่มและฉันนอนหลับสบายมาก",
+      "reading": "ɔ̀ɔn-nûm"
+    },
+    "a1-525": {
+      "en": "quiet",
+      "word": "เงียบ",
+      "sentence": "ห้องสมุดเมืองเงียบสงบในช่วงบ่ายอันยาวนาน",
+      "reading": "ngîiap"
+    },
+    "a1-526": {
+      "en": "clean",
+      "word": "สะอาด",
+      "sentence": "ฉันรักษาห้องนอนให้สะอาดและเก็บหนังสือไว้บนชั้นวาง",
+      "reading": "sà-àat"
+    },
+    "a1-527": {
+      "en": "full",
+      "word": "เต็ม",
+      "sentence": "แก้วบนโต๊ะเต็มไปด้วยน้ำแอปเปิ้ลเย็นๆ",
+      "reading": "dtem"
+    },
+    "a1-528": {
+      "en": "happy",
+      "word": "มีความสุข",
+      "sentence": "ฉันรู้สึกมีความสุขเมื่อใช้เวลาช่วงบ่ายกับครอบครัว",
+      "reading": "mii-khwaam-sùk"
+    },
+    "a1-529": {
+      "en": "beautiful",
+      "word": "สวยงาม",
+      "sentence": "สวนของเราดูสวยงามท่ามกลางแสงแดดอันอบอุ่นในฤดูใบไม้ผลิ",
+      "reading": "sǔuai-ngaam"
+    },
+    "a1-530": {
+      "en": "nice",
+      "word": "ดี",
+      "sentence": "เรามีอาหารกลางวันแสนอร่อยกับเพื่อนบ้านในวันอาทิตย์",
+      "reading": "dii"
+    },
+    "a1-531": {
+      "en": "easy",
+      "word": "ง่าย",
+      "sentence": "คำถามนี้ง่ายดังนั้นฉันจึงสามารถตอบได้อย่างรวดเร็ว",
+      "reading": "ngâai"
+    },
+    "a1-532": {
+      "en": "strong",
+      "word": "แข็งแรง",
+      "sentence": "พี่ชายของฉันแข็งแกร่งและสามารถแบกกล่องหนักๆ ได้",
+      "reading": "khɛ̌ng-rɛɛng"
+    },
+    "a1-533": {
+      "en": "safe",
+      "word": "ปลอดภัย",
+      "sentence": "ถนนอันเงียบสงบของเราปลอดภัยสำหรับเด็กในระหว่างวัน",
+      "reading": "bplɔ̀ɔt-phai"
+    },
+    "a1-534": {
+      "en": "blue",
+      "word": "สีฟ้า",
+      "sentence": "ท้องฟ้ายามบ่ายเป็นสีฟ้า และฉันเห็นเมฆเล็กๆ เพียงก้อนเดียว",
+      "reading": "sǐi-fáa"
+    },
+    "a1-535": {
+      "en": "green",
+      "word": "สีเขียว",
+      "sentence": "หญ้าเขียวขจีและอ่อนนุ่มหลังฝนฤดูใบไม้ผลิ",
+      "reading": "sǐi-khǐia"
+    },
+    "a1-536": {
+      "en": "yellow",
+      "word": "สีเหลือง",
+      "sentence": "กล้วยบนจานมีสีเหลืองและหวานมาก",
+      "reading": "sǐi-lʉ̌ang"
+    },
+    "a1-537": {
+      "en": "black",
+      "word": "สีดำ",
+      "sentence": "เสื้อโค้ทกันหนาวของฉันเป็นสีดำ อบอุ่น และเหมาะกับหิมะ",
+      "reading": "sǐi-dam"
+    },
+    "a1-538": {
+      "en": "white",
+      "word": "ขาว",
+      "sentence": "หิมะบนสวนเป็นสีขาวนวลและเย็นมาก",
+      "reading": "khǎao"
+    },
+    "a1-539": {
+      "en": "many",
+      "word": "มากมาย",
+      "sentence": "หลายครอบครัวมาเยี่ยมชมพิพิธภัณฑ์เมืองในบ่ายวันอาทิตย์",
+      "reading": "mâak-maai"
+    },
+    "a1-540": {
+      "en": "some",
+      "word": "บางส่วน",
+      "sentence": "นักเรียนบางคนอยู่หลังเลิกเรียนและถามคำถามกับครู",
+      "reading": "baang-sùuan"
+    },
+    "a1-541": {
+      "en": "very",
+      "word": "มาก",
+      "sentence": "ซุปผักมันร้อนมากฉันเลยกินช้าๆ",
+      "reading": "mâak"
+    },
+    "a1-542": {
+      "en": "and",
+      "word": "และ",
+      "sentence": "พี่ชายและน้องสาวของฉันเดินไปโรงเรียนด้วยกันทุกวัน",
+      "reading": "lɛ́"
+    },
+    "a1-543": {
+      "en": "but",
+      "word": "แต่",
+      "sentence": "กระเป๋านักเรียนมีขนาดเล็ก แต่วันนี้หนักมาก",
+      "reading": "dtɛ̀ɛ"
+    },
+    "a1-544": {
+      "en": "because",
+      "word": "เพราะ",
+      "sentence": "ฉันรู้สึกมีความสุขเพราะวันนี้เพื่อนของฉันอยู่ที่นี่กับฉัน",
+      "reading": "phrɔ́"
+    },
+    "a1-545": {
+      "en": "that",
+      "word": "นั่น",
+      "sentence": "ตึกสูงตรงหัวมุมคือห้องสมุดเมืองของเรา",
+      "reading": "nân"
+    },
+    "a1-546": {
+      "en": "these",
+      "word": "เหล่านี้",
+      "sentence": "รองเท้าที่สะอาดเหล่านี้มีความนุ่มและดีสำหรับการเดินระยะไกล",
+      "reading": "lào-níi"
+    },
+    "a1-547": {
+      "en": "here",
+      "word": "ที่นี่",
+      "sentence": "กรุณาวางเสื้อคลุมเปียกของคุณไว้ที่นี่ ใกล้ประตูหน้า",
+      "reading": "thîi-nîi"
+    },
+    "a1-548": {
+      "en": "there",
+      "word": "ที่นั่น",
+      "sentence": "โรงพยาบาลอยู่ตรงนั้น ข้างสวนสาธารณะของเมือง",
+      "reading": "thîi-nân"
+    },
+    "a1-549": {
+      "en": "in",
+      "word": "ใน",
+      "sentence": "นมเย็นอยู่ในตู้เย็นข้างน้ำผลไม้",
+      "reading": "nai"
+    },
+    "a1-550": {
+      "en": "on",
+      "word": "บน",
+      "sentence": "สมุดบันทึกของคุณอยู่บนโต๊ะข้างหน้าต่าง",
+      "reading": "bon"
+    },
+    "a1-551": {
+      "en": "at",
+      "word": "ที่",
+      "sentence": "เราพบกันที่สถานีรถไฟตอนแปดโมงเช้าทุกเช้า",
+      "reading": "thîi"
+    },
+    "a1-552": {
+      "en": "with",
+      "word": "ด้วย",
+      "sentence": "ฉันไปตลาดนัดวันเสาร์กับแม่และพ่อ",
+      "reading": "dûuai"
+    },
+    "a1-553": {
+      "en": "for",
+      "word": "สำหรับ",
+      "sentence": "ของขวัญเล็กๆ น้อยๆ นี้มอบให้พ่อของฉันในวันเกิดของเขา",
+      "reading": "sǎm-ràp"
+    },
+    "a1-554": {
+      "en": "from",
+      "word": "จาก",
+      "sentence": "จดหมายสั้นๆ นี้มาจากลุงของฉันในหมู่บ้าน",
+      "reading": "jàak"
+    },
+    "a1-555": {
+      "en": "to",
+      "word": "ถึง",
+      "sentence": "เราเดินไปสวนสาธารณะด้วยกันหลังเลิกเรียนทุกวัน",
+      "reading": "thʉ̌ng"
+    },
+    "a1-556": {
+      "en": "or",
+      "word": "หรือ",
+      "sentence": "คุณสามารถดื่มชาหรือน้ำผลไม้สักแก้วพร้อมอาหารเช้า",
+      "reading": "rʉ̌ʉ"
+    },
+    "a1-557": {
+      "en": "car",
+      "word": "รถ",
+      "sentence": "พ่อของฉันล้างรถครอบครัวในเช้าวันเสาร์",
+      "reading": "rót"
+    },
+    "a1-558": {
+      "en": "bus",
+      "word": "รถบัส",
+      "sentence": "ฉันนั่งรถบัสไปโรงเรียนกับเพื่อนทุกเช้า",
+      "reading": "rót-bàt"
+    },
+    "a1-559": {
+      "en": "train",
+      "word": "รถไฟ",
+      "sentence": "เรานั่งรถไฟขบวนแรกเข้าเมืองในวันศุกร์",
+      "reading": "rót-fai"
+    },
+    "a1-560": {
+      "en": "bicycle",
+      "word": "จักรยาน",
+      "sentence": "ฉันขี่จักรยานไปสวนสาธารณะหลังเลิกเรียนในแต่ละวัน",
+      "reading": "jan-yaan"
+    },
+    "a1-561": {
+      "en": "plane",
+      "word": "เครื่องบิน",
+      "sentence": "เครื่องบินบินสูงเหนือภูเขาและทะเลสีฟ้า",
+      "reading": "khrʉ̂ang-bin"
+    },
+    "a1-562": {
+      "en": "boat",
+      "word": "เรือ",
+      "sentence": "เรานั่งด้วยกันในเรือลำเล็กในทะเลสาบอันเงียบสงบ",
+      "reading": "rʉa"
+    },
+    "a1-563": {
+      "en": "ship",
+      "word": "เรือ",
+      "sentence": "เรือใหญ่ออกจากท่าเรือแต่เช้า",
+      "reading": "rʉa"
+    },
+    "a1-564": {
+      "en": "taxi",
+      "word": "แท็กซี่",
+      "sentence": "เรานั่งแท็กซี่จากสนามบินมายังโรงแรมของเรา",
+      "reading": "thɛ́k-sîi"
+    },
+    "a1-565": {
+      "en": "truck",
+      "word": "รถบรรทุก",
+      "sentence": "รถบรรทุกนำอาหารสดใส่กล่องไปตลาด",
+      "reading": "rót-bron-thúk"
+    },
+    "a1-566": {
+      "en": "motorcycle",
+      "word": "รถจักรยานยนต์",
+      "sentence": "เขามักจะสวมหมวกกันน็อคเสมอเมื่อขี่มอเตอร์ไซค์",
+      "reading": "rót-jan-yaan-yon"
+    },
+    "a1-567": {
+      "en": "subway",
+      "word": "รถไฟใต้ดิน",
+      "sentence": "ฉันนั่งรถไฟใต้ดินไปที่ทำงานทุกเช้า",
+      "reading": "rót-fai-dtâi-din"
+    },
+    "a1-568": {
+      "en": "tram",
+      "word": "รถราง",
+      "sentence": "รถรางจะจอดใกล้พิพิธภัณฑ์ทุก ๆ สิบห้านาที",
+      "reading": "rót-raang"
+    },
+    "a1-569": {
+      "en": "ticket",
+      "word": "ตั๋ว",
+      "sentence": "ฉันซื้อตั๋วรถไฟก่อนที่จะไปที่ชานชาลา",
+      "reading": "dtǔa"
+    },
+    "a1-570": {
+      "en": "wheel",
+      "word": "ล้อ",
+      "sentence": "ล้อหน้าของจักรยานของฉันกลมและสะอาด",
+      "reading": "lɔ́ɔ"
+    },
+    "a1-571": {
+      "en": "seat",
+      "word": "ที่นั่ง",
+      "sentence": "กรุณานั่งในที่นั่งว่างใกล้หน้าต่างรถบัส",
+      "reading": "thîi-nâng"
+    },
+    "a1-572": {
+      "en": "helmet",
+      "word": "หมวกกันน็อค",
+      "sentence": "ฉันสวมหมวกกันน็อคทุกครั้งที่ขี่จักรยาน",
+      "reading": "mùuak-gan-nák"
+    },
+    "a1-573": {
+      "en": "platform",
+      "word": "แพลตฟอร์ม",
+      "sentence": "เรารออยู่บนชานชาลาเพื่อให้รถไฟขบวนเช้ามาถึง",
+      "reading": "phlɛ̂ɛt-fɔɔm"
+    },
+    "a1-574": {
+      "en": "highway",
+      "word": "ทางหลวง",
+      "sentence": "ทางหลวงเข้าเมืองมีรถยนต์หนาแน่นทุกเช้า",
+      "reading": "thaang-lǔuang"
+    },
+    "a1-575": {
+      "en": "trip",
+      "word": "การเดินทาง",
+      "sentence": "ครอบครัวของเราใช้เวลาเดินทางสั้นๆ ไปที่ชายหาดในฤดูร้อน",
+      "reading": "gaan-dəən-thaang"
+    },
+    "a1-576": {
+      "en": "passport",
+      "word": "หนังสือเดินทาง",
+      "sentence": "ฉันเก็บหนังสือเดินทางไว้ในกระเป๋าระหว่างการเดินทาง",
+      "reading": "nǎng-sʉ̌ʉ-dəən-thaang"
+    },
+    "a1-577": {
+      "en": "luggage",
+      "word": "กระเป๋าเดินทาง",
+      "sentence": "กระเป๋าของเราก็พร้อมหน้าประตูสำหรับทริปเช้าแล้ว",
+      "reading": "grà-bpǎo-dəən-thaang"
+    },
+    "a1-578": {
+      "en": "suitcase",
+      "word": "กระเป๋าเดินทาง",
+      "sentence": "ฉันเก็บเสื้อผ้าที่สะอาดไว้ในกระเป๋าเดินทางสำหรับการเดินทาง",
+      "reading": "grà-bpǎo-dəən-thaang"
+    },
+    "a1-579": {
+      "en": "tunnel",
+      "word": "อุโมงค์",
+      "sentence": "รถไฟแล่นช้าๆ ผ่านอุโมงค์มืดอันยาวไกล",
+      "reading": "ù-moong"
+    },
+    "a1-580": {
+      "en": "ambulance",
+      "word": "รถพยาบาล",
+      "sentence": "รถพยาบาลพาคนป่วยไปโรงพยาบาลอย่างรวดเร็ว",
+      "reading": "rót-phaai-baan"
+    },
+    "a1-581": {
+      "en": "ferry",
+      "word": "เรือเฟอร์รี่",
+      "sentence": "เรานั่งเรือเฟอร์รี่ข้ามแม่น้ำกว้างทุกวันอาทิตย์",
+      "reading": "rʉa-fəə-rîi"
+    },
+    "a1-582": {
+      "en": "scooter",
+      "word": "สกู๊ตเตอร์",
+      "sentence": "เธอขี่สกู๊ตเตอร์ไปร้านเบเกอรี่เพื่อหาขนมปังสดใหม่",
+      "reading": "súut-dtəə"
+    },
+    "a1-583": {
+      "en": "van",
+      "word": "รถตู้",
+      "sentence": "รถตู้บรรทุกอาหารกล่องไปซุปเปอร์มาร์เก็ตทุกเช้า",
+      "reading": "rót-dtûu"
+    },
+    "a1-584": {
+      "en": "route",
+      "word": "เส้นทาง",
+      "sentence": "รถบัสสายนี้วิ่งผ่านโรงพยาบาลและสวนสาธารณะประจำเมือง",
+      "reading": "sêen-thaang"
+    },
+    "a1-585": {
+      "en": "speed",
+      "word": "ความเร็ว",
+      "sentence": "โปรดใช้ความเร็วที่ปลอดภัยเมื่อขับขี่บนทางหลวง",
+      "reading": "khwaam-reo"
+    },
+    "a1-586": {
+      "en": "harbor",
+      "word": "ท่าเรือ",
+      "sentence": "เรือลำเล็กหลายลำจอดอยู่ที่ท่าเรืออันเงียบสงบเมื่อเช้านี้",
+      "reading": "thâa-rʉa"
+    },
+    "a1-587": {
+      "en": "gas",
+      "word": "แก๊ส",
+      "sentence": "เราแวะซื้อน้ำมันก่อนเดินทางไกลไปทะเลสาบ",
+      "reading": "gɛ́ɛt"
+    },
+    "a1-588": {
+      "en": "timetable",
+      "word": "ตารางเวลา",
+      "sentence": "ฉันอ่านตารางเวลาก่อนจะเดินไปสถานีรถไฟ",
+      "reading": "dtaa-raang-wee-laa"
+    },
+    "a1-589": {
+      "en": "left",
+      "word": "ซ้าย",
+      "sentence": "กรุณาเลี้ยวซ้ายที่ธนาคารแล้วตรงไป",
+      "reading": "sáai"
+    },
+    "a1-590": {
+      "en": "right",
+      "word": "ขวา",
+      "sentence": "เลี้ยวขวาหลังจากสะพานแล้วคุณจะเห็นสวนสาธารณะ",
+      "reading": "khwǎa"
+    },
+    "a1-591": {
+      "en": "straight",
+      "word": "ตรง",
+      "sentence": "เดินตรงไปตามถนนสายนี้ไปยังสถานีรถไฟ",
+      "reading": "dtrong"
+    },
+    "a1-592": {
+      "en": "kilometer",
+      "word": "กิโลเมตร",
+      "sentence": "โรงเรียนของเราอยู่ห่างจากบ้านของครอบครัวประมาณหนึ่งกิโลเมตร",
+      "reading": "gì-loo-meen"
+    },
+    "a1-593": {
+      "en": "mile",
+      "word": "ไมล์",
+      "sentence": "ทะเลสาบสีน้ำเงินอยู่ห่างจากใจกลางเมืองประมาณ 1 ไมล์",
+      "reading": "maai"
+    },
+    "a1-594": {
+      "en": "arrival",
+      "word": "มาถึง",
+      "sentence": "เรามาถึงโรงแรมก็ค่ำๆ",
+      "reading": "maa-thʉ̌ng"
+    },
+    "a1-595": {
+      "en": "departure",
+      "word": "ออกเดินทาง",
+      "sentence": "รถไฟของเราออกเดินทางตอนเที่ยงวันนี้",
+      "reading": "ɔ̀ɔk-dəən-thaang"
+    },
+    "a1-596": {
+      "en": "engine",
+      "word": "เครื่องยนต์",
+      "sentence": "เครื่องยนต์ของรถเมล์เก่าดังแต่ยังแรง",
+      "reading": "khrʉ̂ang-yon"
+    },
+    "a1-597": {
+      "en": "zero",
+      "word": "ศูนย์",
+      "sentence": "อุณหภูมิช่วงเช้าในเมืองเราวันนี้อยู่ที่ 0 องศา",
+      "reading": "sǔun"
+    },
+    "a1-598": {
+      "en": "three",
+      "word": "สาม",
+      "sentence": "ฉันมีลูกพี่ลูกน้องสามคน และพวกเขาอาศัยอยู่ใกล้เรามาก",
+      "reading": "sǎam"
+    },
+    "a1-599": {
+      "en": "four",
+      "word": "สี่",
+      "sentence": "มีเก้าอี้สี่ตัวอยู่รอบโต๊ะในครัวของเรา",
+      "reading": "sìi"
+    },
+    "a1-600": {
+      "en": "five",
+      "word": "ห้า",
+      "sentence": "ชั้นเรียนแรกเริ่มเวลาห้าโมงแปดโมงเช้า",
+      "reading": "hâa"
+    },
+    "a1-601": {
+      "en": "six",
+      "word": "หก",
+      "sentence": "ร้านเบเกอรี่บนถนนของเราปิดตอนหกโมงเย็น",
+      "reading": "hòk"
+    },
+    "a1-602": {
+      "en": "seven",
+      "word": "เจ็ด",
+      "sentence": "ปกติเราจะกินข้าวเย็นด้วยกันตอนเจ็ดโมงเย็น",
+      "reading": "jèt"
+    },
+    "a1-603": {
+      "en": "eight",
+      "word": "แปด",
+      "sentence": "รถไฟขบวนแรกออกจากสถานีเวลาแปดโมงเช้า",
+      "reading": "bpɛ̀ɛt"
+    },
+    "a1-604": {
+      "en": "nine",
+      "word": "เก้า",
+      "sentence": "ฉันมักจะเข้านอนตอนเก้าโมงเมื่อฉันรู้สึกเหนื่อย",
+      "reading": "gâo"
+    },
+    "a1-605": {
+      "en": "ten",
+      "word": "สิบ",
+      "sentence": "เด็กสามารถนับหนึ่งถึงสิบเป็นภาษาอังกฤษได้",
+      "reading": "sìp"
+    },
+    "a1-606": {
+      "en": "eleven",
+      "word": "สิบเอ็ด",
+      "sentence": "รถบัสประจำเมืองมักจะมาถึงตอนสิบเอ็ดโมงเช้า",
+      "reading": "sìp-èt"
+    },
+    "a1-607": {
+      "en": "twelve",
+      "word": "สิบสอง",
+      "sentence": "ในปฏิทินทุกปีมีสิบสองเดือน",
+      "reading": "sìp-sɔ̌ɔng"
+    },
+    "a1-608": {
+      "en": "thirteen",
+      "word": "สิบสาม",
+      "sentence": "วันนี้ลูกพี่ลูกน้องของฉันอายุสิบสามปี",
+      "reading": "sìp-sǎam"
+    },
+    "a1-609": {
+      "en": "fourteen",
+      "word": "สิบสี่",
+      "sentence": "มีนักเรียนสิบสี่คนในชั้นเรียนช่วงเช้าขนาดเล็กของเรา",
+      "reading": "sìp-sìi"
+    },
+    "a1-610": {
+      "en": "fifteen",
+      "word": "สิบห้า",
+      "sentence": "ฉันอ่านหนังสือสิบห้านาทีก่อนนอน",
+      "reading": "sìp-hâa"
+    },
+    "a1-611": {
+      "en": "sixteen",
+      "word": "สิบหก",
+      "sentence": "น้องสาวของฉันอายุสิบหกปีและชอบเรียนดนตรี",
+      "reading": "sìp-hòk"
+    },
+    "a1-612": {
+      "en": "seventeen",
+      "word": "สิบเจ็ด",
+      "sentence": "วันนี้ตั๋วรถไฟเข้าเมืองราคา 17 ดอลลาร์",
+      "reading": "sìp-jèt"
+    },
+    "a1-613": {
+      "en": "eighteen",
+      "word": "สิบแปด",
+      "sentence": "พี่ชายของฉันอายุ 18 ปี และเขาสามารถขับรถครอบครัวได้",
+      "reading": "sìp-bpɛ̀ɛt"
+    },
+    "a1-614": {
+      "en": "nineteen",
+      "word": "สิบเก้า",
+      "sentence": "ฉันเห็นนกสิบเก้าตัวเกาะอยู่บนหลังคาโรงเรียน",
+      "reading": "sìp-gâo"
+    },
+    "a1-615": {
+      "en": "twenty",
+      "word": "ยี่สิบ",
+      "sentence": "ฉันมีเงินยี่สิบดอลลาร์ในกระเป๋าเงินเพื่อไปตลาด",
+      "reading": "yîi-sìp"
+    },
+    "a1-616": {
+      "en": "thirty",
+      "word": "สามสิบ",
+      "sentence": "เดือนนี้มีสามสิบวันในปฏิทิน",
+      "reading": "sǎam-sìp"
+    },
+    "a1-617": {
+      "en": "forty",
+      "word": "สี่สิบ",
+      "sentence": "วันนี้ลุงผู้ใจดีของฉันอายุสี่สิบปีแล้ว",
+      "reading": "sìi-sìp"
+    },
+    "a1-618": {
+      "en": "fifty",
+      "word": "ห้าสิบ",
+      "sentence": "รถบัสช่วงเช้านี้มีห้าสิบที่นั่งสำหรับผู้โดยสารทุกคน",
+      "reading": "hâa-sìp"
+    },
+    "a1-619": {
+      "en": "sixty",
+      "word": "หกสิบ",
+      "sentence": "มีหกสิบวินาทีในทุก ๆ นาทีของชั่วโมง",
+      "reading": "hòk-sìp"
+    },
+    "a1-620": {
+      "en": "seventy",
+      "word": "เจ็ดสิบ",
+      "sentence": "วันนี้อุณหภูมิในเมืองตอนบ่ายอยู่ที่ 70 องศา",
+      "reading": "jèt-sìp"
+    },
+    "a1-621": {
+      "en": "eighty",
+      "word": "แปดสิบ",
+      "sentence": "คุณยายของฉันอายุแปดสิบปีและมีความสุขมาก",
+      "reading": "bpɛ̀ɛt-sìp"
+    },
+    "a1-622": {
+      "en": "ninety",
+      "word": "เก้าสิบ",
+      "sentence": "เสื้อโค้ทกันหนาวที่อบอุ่นในร้านราคาเก้าสิบเหรียญ",
+      "reading": "gâo-sìp"
+    },
+    "a1-623": {
+      "en": "hundred",
+      "word": "ร้อย",
+      "sentence": "สามารถรองรับคนได้ประมาณร้อยคนในโรงละครเล็กๆ ของเรา",
+      "reading": "rɔ́ɔi"
+    },
+    "a1-624": {
+      "en": "thousand",
+      "word": "พัน",
+      "sentence": "ผู้คนประมาณพันคนอาศัยอยู่ในหมู่บ้านอันเงียบสงบของเรา",
+      "reading": "phan"
+    },
+    "a1-625": {
+      "en": "first",
+      "word": "ก่อน",
+      "sentence": "วันจันทร์เป็นวันแรกของสัปดาห์โรงเรียนของเรา",
+      "reading": "gɔ̀ɔn"
+    },
+    "a1-626": {
+      "en": "third",
+      "word": "ที่สาม",
+      "sentence": "วันพุธเป็นวันที่สามของสัปดาห์โรงเรียน",
+      "reading": "thîi-sǎam"
+    },
+    "a1-627": {
+      "en": "half",
+      "word": "ครึ่งหนึ่ง",
+      "sentence": "ฉันกินแซนวิชชีสครึ่งหนึ่งและเก็บส่วนที่เหลือ",
+      "reading": "khrʉ̂ng-nʉ̀ng"
+    },
+    "a1-628": {
+      "en": "dozen",
+      "word": "โหล",
+      "sentence": "ฉันซื้อไข่สดหนึ่งโหลที่ตลาดในวันเสาร์",
+      "reading": "lǒo"
+    },
+    "a1-629": {
+      "en": "once",
+      "word": "ครั้งหนึ่ง",
+      "sentence": "ชั้นเรียนของเราไปเยี่ยมชมพิพิธภัณฑ์เมืองเดือนละครั้ง",
+      "reading": "khráng-nʉ̀ng"
+    },
+    "a1-630": {
+      "en": "twice",
+      "word": "สองครั้ง",
+      "sentence": "ฉันแปรงฟันวันละสองครั้ง ตอนเช้าและตอนกลางคืน",
+      "reading": "sɔ̌ɔng-khráng"
+    },
+    "a1-631": {
+      "en": "number",
+      "word": "หมายเลข",
+      "sentence": "กรุณาเขียนหมายเลขโทรศัพท์ของคุณลงบนกระดาษให้ชัดเจน",
+      "reading": "mǎai-lêek"
+    },
+    "a1-632": {
+      "en": "money",
+      "word": "เงิน",
+      "sentence": "ฉันเก็บเงินธนาคารเพียงเล็กน้อยทุกเดือน",
+      "reading": "ngəən"
+    },
+    "a1-633": {
+      "en": "dollar",
+      "word": "ดอลลาร์",
+      "sentence": "ขนมปังก้อนใหม่นี้ราคาหนึ่งดอลลาร์ที่ร้านเบเกอรี่",
+      "reading": "dɔɔn-laa"
+    },
+    "a1-634": {
+      "en": "coin",
+      "word": "เหรียญ",
+      "sentence": "ฉันพบเหรียญเงินเล็กๆ อยู่บนทางเท้าใกล้โรงเรียน",
+      "reading": "rǐian"
+    },
+    "a1-635": {
+      "en": "price",
+      "word": "ราคา",
+      "sentence": "ราคาตั๋วรถโดยสารเข้าเมืองคือสองดอลลาร์",
+      "reading": "raa-khaa"
+    },
+    "a1-636": {
+      "en": "count",
+      "word": "นับ",
+      "sentence": "วันนี้เรานับหนึ่งถึงยี่สิบด้วยกันช้าๆ",
+      "reading": "náp"
+    },
+    "s-00001": {
+      "en": "a",
+      "word": "หนึ่ง",
+      "sentence": "หนังสืออยู่บนโต๊ะ",
+      "reading": "nʉ̀ng"
+    },
+    "s-00002": {
+      "en": "about",
+      "word": "เกี่ยวกับ",
+      "sentence": "เราคุยกันเรื่องหนังสือ",
+      "reading": "gìia-gàp"
+    },
+    "s-00003": {
+      "en": "above",
+      "word": "ด้านบน",
+      "sentence": "โคมไฟอยู่เหนือโต๊ะ",
+      "reading": "dâan-bon"
+    },
+    "s-00004": {
+      "en": "action",
+      "word": "การกระทำ",
+      "sentence": "นี่คือการกระทำ",
+      "reading": "gaan-grà-tham"
+    },
+    "s-00005": {
+      "en": "activity",
+      "word": "กิจกรรม",
+      "sentence": "นี่คือกิจกรรม",
+      "reading": "gìt-à-rom"
+    },
+    "s-00007": {
+      "en": "add",
+      "word": "บวก",
+      "sentence": "ฉันกำลังเรียนบวก",
+      "reading": "bùuak"
+    },
+    "s-00010": {
+      "en": "after",
+      "word": "หลังจากนั้น",
+      "sentence": "เราพักผ่อนหลังเลิกเรียน",
+      "reading": "lǎng-jàak-nán"
+    },
+    "s-00012": {
+      "en": "again",
+      "word": "อีกครั้ง",
+      "sentence": "กรุณาพูดอีกครั้ง.",
+      "reading": "ìik-khráng"
+    },
+    "s-00013": {
+      "en": "age",
+      "word": "อายุ",
+      "sentence": "นี่คืออายุ",
+      "reading": "aa-yú"
+    },
+    "s-00014": {
+      "en": "ago",
+      "word": "มาแล้ว",
+      "sentence": "ฉันเห็นเธอเมื่อสองวันก่อน",
+      "reading": "maa-lɛ́ɛo"
+    },
+    "s-00019": {
+      "en": "all",
+      "word": "ทั้งหมด",
+      "sentence": "เรากำลังพูดถึงทั้งหมด",
+      "reading": "tháng-mòt"
+    },
+    "s-00020": {
+      "en": "all right",
+      "word": "เอาล่ะ",
+      "sentence": "มันไม่เป็นไร",
+      "reading": "ao-lâ"
+    },
+    "s-00022": {
+      "en": "alone",
+      "word": "คนเดียว",
+      "sentence": "ขอพูดคนเดียว..",
+      "reading": "khon-diia"
+    },
+    "s-00023": {
+      "en": "along",
+      "word": "พร้อม",
+      "sentence": "เราเดินไปตามแม่น้ำ",
+      "reading": "phrɔ́ɔm"
+    },
+    "s-00025": {
+      "en": "also",
+      "word": "ด้วย",
+      "sentence": "ฉันก็อยากได้น้ำเหมือนกัน",
+      "reading": "dûuai"
+    },
+    "s-00027": {
+      "en": "am",
+      "word": "เป็น",
+      "sentence": "ฉันกำลังเรียนเป็น",
+      "reading": "bpen"
+    },
+    "s-00028": {
+      "en": "an",
+      "word": "หนึ่ง",
+      "sentence": "หนังสืออยู่บนโต๊ะ",
+      "reading": "nʉ̀ng"
+    },
+    "s-00031": {
+      "en": "animal",
+      "word": "สัตว์",
+      "sentence": "นี่คือสัตว์",
+      "reading": "sàt"
+    },
+    "s-00034": {
+      "en": "any",
+      "word": "ใด ๆ",
+      "sentence": "เรากำลังพูดถึงเรื่องใดเรื่องหนึ่ง",
+      "reading": "dai"
+    },
+    "s-00035": {
+      "en": "anybody",
+      "word": "ใครก็ได้",
+      "sentence": "เรากำลังพูดถึงใครซักคน",
+      "reading": "khrai-gɔ̂-dâai"
+    },
+    "s-00037": {
+      "en": "anything",
+      "word": "อะไรก็ได้",
+      "sentence": "เรากำลังพูดถึงอะไรก็ได้",
+      "reading": "à-raai-gɔ̂-dâai"
+    },
+    "s-00038": {
+      "en": "april",
+      "word": "เมษายน",
+      "sentence": "นี่คือเดือนเมษายน",
+      "reading": "mee-sǎa-yon"
+    },
+    "s-00039": {
+      "en": "apron",
+      "word": "ผ้ากันเปื้อน",
+      "sentence": "นี่คือผ้ากันเปื้อน",
+      "reading": "phâa-gan-bpʉ̂an"
+    },
+    "s-00040": {
+      "en": "are",
+      "word": "เป็น",
+      "sentence": "ฉันกำลังเรียนเป็น",
+      "reading": "bpen"
+    },
+    "s-00042": {
+      "en": "around",
+      "word": "รอบ ๆ",
+      "sentence": "แมวอยู่รอบบ้าน",
+      "reading": "rɔ̂ɔp"
+    },
+    "s-00046": {
+      "en": "as",
+      "word": "เป็น",
+      "sentence": "หนังสือเป็นเหมือนโต๊ะ",
+      "reading": "bpen"
+    },
+    "s-00049": {
+      "en": "august",
+      "word": "สิงหาคม",
+      "sentence": "นี่คือเดือนสิงหาคม",
+      "reading": "sǐng-hǎa-khom"
+    },
+    "s-00052": {
+      "en": "awake",
+      "word": "ตื่น",
+      "sentence": "มันตื่นแล้ว",
+      "reading": "dtʉ̀ʉn"
+    },
+    "s-00053": {
+      "en": "away",
+      "word": "ห่างออกไป",
+      "sentence": "รถบัสกำลังจะออกไป",
+      "reading": "hàang-ɔ̀ɔk-bpai"
+    },
+    "s-00058": {
+      "en": "ball",
+      "word": "ลูกบอล",
+      "sentence": "นี่คือลูกบอล",
+      "reading": "lûuk-bɔɔn"
+    },
+    "s-00062": {
+      "en": "bar",
+      "word": "บาร์",
+      "sentence": "นี่คือบาร์",
+      "reading": "baa"
+    },
+    "s-00063": {
+      "en": "baseball",
+      "word": "เบสบอล",
+      "sentence": "นี่คือกีฬาเบสบอล",
+      "reading": "bèet-bɔɔn"
+    },
+    "s-00064": {
+      "en": "basketball",
+      "word": "บาสเก็ตบอล",
+      "sentence": "นี่คือบาสเก็ตบอล",
+      "reading": "bàat-gèt-bɔɔn"
+    },
+    "s-00065": {
+      "en": "bat",
+      "word": "ค้างคาว",
+      "sentence": "นี่คือค้างคาว",
+      "reading": "kháang-khaao"
+    },
+    "s-00070": {
+      "en": "bean",
+      "word": "ถั่ว",
+      "sentence": "นี่คือถั่ว",
+      "reading": "thùa"
+    },
+    "s-00074": {
+      "en": "become",
+      "word": "กลายเป็น",
+      "sentence": "ฉันกำลังเรียนกลายเป็น",
+      "reading": "glaai-bpen"
+    },
+    "s-00077": {
+      "en": "beef",
+      "word": "เนื้อวัว",
+      "sentence": "นี่คือเนื้อวัว",
+      "reading": "nʉ́a-wua"
+    },
+    "s-00078": {
+      "en": "before",
+      "word": "ก่อน",
+      "sentence": "ล้างมือก่อนอาหารเย็น",
+      "reading": "gɔ̀ɔn"
+    },
+    "s-00079": {
+      "en": "begin",
+      "word": "เริ่ม",
+      "sentence": "ฉันกำลังเรียนเริ่ม",
+      "reading": "rə̂əm"
+    },
+    "s-00080": {
+      "en": "behind",
+      "word": "ข้างหลัง",
+      "sentence": "สวนอยู่หลังบ้าน.",
+      "reading": "khâang-lǎng"
+    },
+    "s-00083": {
+      "en": "below",
+      "word": "ด้านล่าง",
+      "sentence": "ร้านอยู่ด้านล่างโรงเรียน",
+      "reading": "dâan-lâang"
+    },
+    "s-00084": {
+      "en": "beside",
+      "word": "ข้าง ๆ",
+      "sentence": "นั่งข้างฉัน",
+      "reading": "khâang"
+    },
+    "s-00085": {
+      "en": "best",
+      "word": "ดีที่สุด",
+      "sentence": "มันเป็นเรื่องที่ดีที่สุด",
+      "reading": "dii-thîi-sùt"
+    },
+    "s-00086": {
+      "en": "better",
+      "word": "ดีกว่า",
+      "sentence": "มันจะดีกว่า.",
+      "reading": "dii-gwàa"
+    },
+    "s-00089": {
+      "en": "bike",
+      "word": "จักรยาน",
+      "sentence": "นี่คือจักรยาน",
+      "reading": "jan-yaan"
+    },
+    "s-00090": {
+      "en": "birth",
+      "word": "การเกิด",
+      "sentence": "นี่คือการเกิด",
+      "reading": "gaan-gə̀ət"
+    },
+    "s-00092": {
+      "en": "biscuit",
+      "word": "บิสกิต",
+      "sentence": "นี่คือบิสกิต",
+      "reading": "bìt-gìt"
+    },
+    "s-00094": {
+      "en": "blank",
+      "word": "ว่างเปล่า",
+      "sentence": "มันว่างเปล่า",
+      "reading": "wâang-bplào"
+    },
+    "s-00102": {
+      "en": "bookstore",
+      "word": "ร้านหนังสือ",
+      "sentence": "นี่คือร้านหนังสือ",
+      "reading": "ráan-nǎng-sʉ̌ʉ"
+    },
+    "s-00103": {
+      "en": "boring",
+      "word": "น่าเบื่อ",
+      "sentence": "มันน่าเบื่อ",
+      "reading": "nâa-bʉ̀a"
+    },
+    "s-00107": {
+      "en": "bottom",
+      "word": "ก้น",
+      "sentence": "นี่คือด้านล่าง",
+      "reading": "gôn"
+    },
+    "s-00109": {
+      "en": "box",
+      "word": "กล่อง",
+      "sentence": "นี่คือกล่อง",
+      "reading": "glɔ̀ɔng"
+    },
+    "s-00112": {
+      "en": "brain",
+      "word": "สมอง",
+      "sentence": "นี่คือสมอง",
+      "reading": "sòmng"
+    },
+    "s-00121": {
+      "en": "brown",
+      "word": "สีน้ำตาล",
+      "sentence": "มันเป็นสีน้ำตาล",
+      "reading": "sǐi-náam-dtaan"
+    },
+    "s-00123": {
+      "en": "bucket",
+      "word": "ถัง",
+      "sentence": "นี่คือถัง",
+      "reading": "thǎng"
+    },
+    "s-00124": {
+      "en": "build",
+      "word": "สร้าง",
+      "sentence": "ฉันกำลังเรียนสร้าง",
+      "reading": "srâang"
+    },
+    "s-00126": {
+      "en": "burger",
+      "word": "ชาวเมือง",
+      "sentence": "นี่คือเบอร์เกอร์",
+      "reading": "chaao-mʉʉang"
+    },
+    "s-00135": {
+      "en": "by",
+      "word": "โดย",
+      "sentence": "หนังสืออยู่บนโต๊ะ",
+      "reading": "dooi"
+    },
+    "s-00136": {
+      "en": "bye",
+      "word": "ลาก่อน",
+      "sentence": "นี่คือการลาก่อน",
+      "reading": "laa-gɔ̀ɔn"
+    },
+    "s-00141": {
+      "en": "camp",
+      "word": "ค่าย",
+      "sentence": "นี่คือค่าย",
+      "reading": "khâai"
+    },
+    "s-00143": {
+      "en": "candy",
+      "word": "ลูกอม",
+      "sentence": "นี่คือขนม",
+      "reading": "luu-gɔɔm"
+    },
+    "s-00146": {
+      "en": "card",
+      "word": "การ์ด",
+      "sentence": "นี่คือการ์ด",
+      "reading": "gàat"
+    },
+    "s-00150": {
+      "en": "carry",
+      "word": "ถือ",
+      "sentence": "ฉันกำลังเรียนถือ",
+      "reading": "thʉ̌ʉ"
+    },
+    "s-00152": {
+      "en": "case",
+      "word": "กรณี",
+      "sentence": "นี่เป็นกรณี",
+      "reading": "grà-nii"
+    },
+    "s-00154": {
+      "en": "cd",
+      "word": "ซีดี",
+      "sentence": "นี่คือซีดี",
+      "reading": "sii-dii"
+    },
+    "s-00155": {
+      "en": "cd player",
+      "word": "เครื่องเล่นซีดี",
+      "sentence": "คุณสามารถพูดว่า “เครื่องเล่นซีดี” ในประโยคนี้",
+      "reading": "khrʉ̂ang-lêen-sii-dii"
+    },
+    "s-00159": {
+      "en": "change",
+      "word": "เปลี่ยนแปลง",
+      "sentence": "นี่คือการเปลี่ยนแปลง",
+      "reading": "bplìian-bplɛɛng"
+    },
+    "s-00164": {
+      "en": "chocolate",
+      "word": "ช็อคโกแลต",
+      "sentence": "นี่คือช็อคโกแลต",
+      "reading": "chák-goo-lɛ̂ɛt"
+    },
+    "s-00168": {
+      "en": "circle",
+      "word": "วงกลม",
+      "sentence": "นี่คือวงกลม",
+      "reading": "wong-glom"
+    },
+    "s-00177": {
+      "en": "closed",
+      "word": "ปิดแล้ว",
+      "sentence": "มันถูกปิด",
+      "reading": "bpìt-lɛ́ɛo"
+    },
+    "s-00178": {
+      "en": "cloth",
+      "word": "ผ้า",
+      "sentence": "นี่คือผ้า",
+      "reading": "phâa"
+    },
+    "s-00186": {
+      "en": "coke",
+      "word": "โค้ก",
+      "sentence": "นี่คือโค้ก",
+      "reading": "khóok"
+    },
+    "s-00189": {
+      "en": "college",
+      "word": "วิทยาลัย",
+      "sentence": "นี่คือวิทยาลัย",
+      "reading": "wít-yaa-lai"
+    },
+    "s-00190": {
+      "en": "color",
+      "word": "สี",
+      "sentence": "นี่คือสี",
+      "reading": "sǐi"
+    },
+    "s-00191": {
+      "en": "computer",
+      "word": "คอมพิวเตอร์",
+      "sentence": "นี่คือคอมพิวเตอร์",
+      "reading": "khɔɔm-phio-dtəə"
+    },
+    "s-00198": {
+      "en": "cop",
+      "word": "ตำรวจ",
+      "sentence": "นี่คือตำรวจ",
+      "reading": "dtam-rûuat"
+    },
+    "s-00200": {
+      "en": "corn",
+      "word": "ข้าวโพด",
+      "sentence": "นี่คือข้าวโพด",
+      "reading": "khâao-phôot"
+    },
+    "s-00203": {
+      "en": "couch",
+      "word": "โซฟา",
+      "sentence": "นี่คือโซฟา",
+      "reading": "soo-faa"
+    },
+    "s-00204": {
+      "en": "could",
+      "word": "ได้",
+      "sentence": "ฉันกำลังเรียนได้",
+      "reading": "dâai"
+    },
+    "s-00207": {
+      "en": "cover",
+      "word": "ปก",
+      "sentence": "นี่คือปก",
+      "reading": "bpòk"
+    },
+    "s-00209": {
+      "en": "cream",
+      "word": "ครีม",
+      "sentence": "นี่คือครีม",
+      "reading": "khriim"
+    },
+    "s-00210": {
+      "en": "credit card",
+      "word": "บัตรเครดิต",
+      "sentence": "คุณสามารถพูดว่า “บัตรเครดิต” ในประโยคนี้",
+      "reading": "ban-khree-dìt"
+    },
+    "s-00211": {
+      "en": "cry",
+      "word": "ร้องไห้",
+      "sentence": "นี่คือเสียงร้องไห้",
+      "reading": "rɔ́ɔng-hâai"
+    },
+    "s-00214": {
+      "en": "cut",
+      "word": "ตัด",
+      "sentence": "ฉันกำลังเรียนตัด",
+      "reading": "dtàt"
+    },
+    "s-00215": {
+      "en": "cute",
+      "word": "น่ารัก",
+      "sentence": "มันน่ารัก",
+      "reading": "nâa-rák"
+    },
+    "s-00216": {
+      "en": "dad",
+      "word": "พ่อ",
+      "sentence": "นี่คือพ่อ",
+      "reading": "phɔ̂ɔ"
+    },
+    "s-00217": {
+      "en": "daddy",
+      "word": "พ่อ",
+      "sentence": "นี่คือพ่อ",
+      "reading": "phɔ̂ɔ"
+    },
+    "s-00219": {
+      "en": "dancing",
+      "word": "การเต้นรำ",
+      "sentence": "นี่คือการเต้นรำ",
+      "reading": "gaan-dtêen-ram"
+    },
+    "s-00220": {
+      "en": "dark",
+      "word": "มืด",
+      "sentence": "มันมืด",
+      "reading": "mʉ̂ʉt"
+    },
+    "s-00224": {
+      "en": "dear",
+      "word": "ที่รัก",
+      "sentence": "มันเป็นที่รัก",
+      "reading": "thîi-rák"
+    },
+    "s-00225": {
+      "en": "december",
+      "word": "ธันวาคม",
+      "sentence": "นี่คือเดือนธันวาคม",
+      "reading": "than-waa-khom"
+    },
+    "s-00228": {
+      "en": "design",
+      "word": "การออกแบบ",
+      "sentence": "นี่คือการออกแบบ",
+      "reading": "gaan-ɔ̀ɔk-bɛ̀ɛp"
+    },
+    "s-00231": {
+      "en": "did",
+      "word": "ทำ",
+      "sentence": "ฉันกำลังเรียนทำ",
+      "reading": "tham"
+    },
+    "s-00232": {
+      "en": "difference",
+      "word": "ความแตกต่าง",
+      "sentence": "นี่คือความแตกต่าง",
+      "reading": "khwaam-dtɛ̀ɛk-dtàang"
+    },
+    "s-00236": {
+      "en": "dining room",
+      "word": "ห้องรับประทานอาหาร",
+      "sentence": "คุณสามารถพูดว่า “ห้องรับประทานอาหาร” ในประโยคนี้",
+      "reading": "hɔ̂ɔng-ráp-bprà-thaan-aa-hǎan"
+    },
+    "s-00243": {
+      "en": "does",
+      "word": "ทำ",
+      "sentence": "ฉันกำลังเรียนทำ",
+      "reading": "tham"
+    },
+    "s-00244": {
+      "en": "doing",
+      "word": "กำลังทำ",
+      "sentence": "ฉันกำลังเรียนกำลังทำ",
+      "reading": "gam-lang-tham"
+    },
+    "s-00245": {
+      "en": "doll",
+      "word": "ตุ๊กตา",
+      "sentence": "นี่คือตุ๊กตา",
+      "reading": "dtúk-dtaa"
+    },
+    "s-00247": {
+      "en": "down",
+      "word": "ลง",
+      "sentence": "กรุณานั่งลง.",
+      "reading": "long"
+    },
+    "s-00250": {
+      "en": "dream",
+      "word": "ฝัน",
+      "sentence": "นี่คือความฝัน",
+      "reading": "fǎn"
+    },
+    "s-00257": {
+      "en": "due",
+      "word": "เนื่องจาก",
+      "sentence": "มันครบกำหนดแล้ว",
+      "reading": "nʉ̂ang-jàak"
+    },
+    "s-00258": {
+      "en": "dvd",
+      "word": "ดีวีดี",
+      "sentence": "นี่คือดีวีดี",
+      "reading": "dii-wii-dii"
+    },
+    "s-00259": {
+      "en": "each",
+      "word": "แต่ละคน",
+      "sentence": "เรากำลังพูดถึงแต่ละเรื่อง",
+      "reading": "dtɛ̀ɛ-lá-khon"
+    },
+    "s-00260": {
+      "en": "each other",
+      "word": "กันและกัน",
+      "sentence": "เรากำลังพูดถึงกันและกัน",
+      "reading": "gan-lɛ́-gan"
+    },
+    "s-00266": {
+      "en": "either",
+      "word": "อย่างใดอย่างหนึ่ง",
+      "sentence": "กรุณาพูดด้วย.",
+      "reading": "yàang-dai-yàang-nʉ̀ng"
+    },
+    "s-00267": {
+      "en": "elementary",
+      "word": "ระดับประถมศึกษา",
+      "sentence": "มันเป็นระดับประถมศึกษา",
+      "reading": "rá-dàp-bprà-thǒm-sʉ̀k-sǎa"
+    },
+    "s-00269": {
+      "en": "else",
+      "word": "อย่างอื่น",
+      "sentence": "คุณต้องการอะไรอีกไหม?",
+      "reading": "yàang-ʉ̀ʉn"
+    },
+    "s-00271": {
+      "en": "end",
+      "word": "สิ้นสุด",
+      "sentence": "นี่คือจุดสิ้นสุด",
+      "reading": "sîn-sùt"
+    },
+    "s-00272": {
+      "en": "engineer",
+      "word": "วิศวกร",
+      "sentence": "นี่คือวิศวกร",
+      "reading": "wít-won"
+    },
+    "s-00275": {
+      "en": "event",
+      "word": "เหตุการณ์",
+      "sentence": "นี่คือเหตุการณ์",
+      "reading": "hèet-gaan"
+    },
+    "s-00276": {
+      "en": "every",
+      "word": "ทุก ๆ",
+      "sentence": "ฉันเดินทุกเช้า",
+      "reading": "thúk"
+    },
+    "s-00277": {
+      "en": "everybody",
+      "word": "ทุกคน",
+      "sentence": "เรากำลังพูดถึงทุกคน",
+      "reading": "thúk-khon"
+    },
+    "s-00278": {
+      "en": "everyday",
+      "word": "ทุกวัน",
+      "sentence": "มันเป็นทุกวัน",
+      "reading": "thúk-wan"
+    },
+    "s-00280": {
+      "en": "everything",
+      "word": "ทุกอย่าง",
+      "sentence": "เรากำลังพูดถึงทุกสิ่ง",
+      "reading": "thúk-yàang"
+    },
+    "s-00281": {
+      "en": "everywhere",
+      "word": "ทุกที่",
+      "sentence": "กรุณาพูดทุกที่",
+      "reading": "thúk-thîi"
+    },
+    "s-00283": {
+      "en": "excellent",
+      "word": "ยอดเยี่ยม",
+      "sentence": "มันยอดเยี่ยมมาก",
+      "reading": "yɔ̂ɔt-yîiam"
+    },
+    "s-00285": {
+      "en": "exciting",
+      "word": "น่าตื่นเต้น",
+      "sentence": "มันน่าตื่นเต้น",
+      "reading": "nâa-dtʉ̀ʉn-dtêen"
+    },
+    "s-00292": {
+      "en": "fairy",
+      "word": "นางฟ้า",
+      "sentence": "นี่คือนางฟ้า",
+      "reading": "naang-fáa"
+    },
+    "s-00295": {
+      "en": "fan",
+      "word": "แฟน",
+      "sentence": "นี่คือแฟน",
+      "reading": "fɛɛn"
+    },
+    "s-00299": {
+      "en": "fat",
+      "word": "อ้วน",
+      "sentence": "มันอ้วน",
+      "reading": "ûuan"
+    },
+    "s-00301": {
+      "en": "favorite",
+      "word": "ที่ชื่นชอบ",
+      "sentence": "นี่คือรายการโปรด",
+      "reading": "thîi-chʉ̂ʉn-chɔ̂ɔp"
+    },
+    "s-00302": {
+      "en": "february",
+      "word": "กุมภาพันธ์",
+      "sentence": "นี่คือเดือนกุมภาพันธ์",
+      "reading": "gum-phaa-phan"
+    },
+    "s-00304": {
+      "en": "feel",
+      "word": "รู้สึก",
+      "sentence": "ฉันกำลังเรียนรู้สึก",
+      "reading": "rúu-sʉ̀k"
+    },
+    "s-00311": {
+      "en": "fight",
+      "word": "การต่อสู้",
+      "sentence": "นี่คือการต่อสู้",
+      "reading": "gaan-dtɔ̀ɔ-sûu"
+    },
+    "s-00313": {
+      "en": "fill",
+      "word": "เติม",
+      "sentence": "ฉันกำลังเรียนเติม",
+      "reading": "dtəəm"
+    },
+    "s-00320": {
+      "en": "flag",
+      "word": "ธง",
+      "sentence": "นี่คือธง",
+      "reading": "thong"
+    },
+    "s-00321": {
+      "en": "flat",
+      "word": "แฟลต",
+      "sentence": "นี่คือแฟลต",
+      "reading": "flɛ̂ɛt"
+    },
+    "s-00326": {
+      "en": "following",
+      "word": "ต่อไปนี้",
+      "sentence": "มันกำลังตามมา",
+      "reading": "dtɔ̀ɔ-bpai-níi"
+    },
+    "s-00327": {
+      "en": "food",
+      "word": "อาหาร",
+      "sentence": "อาหารเป็นสิ่งที่ดี",
+      "reading": "aa-hǎan"
+    },
+    "s-00328": {
+      "en": "football",
+      "word": "ฟุตบอล",
+      "sentence": "นี่คือฟุตบอล",
+      "reading": "fút-bɔɔn"
+    },
+    "s-00331": {
+      "en": "foreigner",
+      "word": "ชาวต่างชาติ",
+      "sentence": "นี่คือชาวต่างชาติ",
+      "reading": "chaao-dtàang-chít"
+    },
+    "s-00333": {
+      "en": "form",
+      "word": "แบบฟอร์ม",
+      "sentence": "นี่คือแบบฟอร์ม",
+      "reading": "bɛ̀ɛp-fɔɔm"
+    },
+    "s-00341": {
+      "en": "front",
+      "word": "ด้านหน้า",
+      "sentence": "มันอยู่ด้านหน้า.",
+      "reading": "dâan-nâa"
+    },
+    "s-00344": {
+      "en": "fun",
+      "word": "สนุก",
+      "sentence": "นี่คือความสนุกสนาน",
+      "reading": "sùk"
+    },
+    "s-00346": {
+      "en": "future",
+      "word": "อนาคต",
+      "sentence": "นี่คืออนาคต",
+      "reading": "aan-khót"
+    },
+    "s-00347": {
+      "en": "game",
+      "word": "เกม",
+      "sentence": "นี่คือเกม",
+      "reading": "geem"
+    },
+    "s-00348": {
+      "en": "garbage",
+      "word": "ขยะ",
+      "sentence": "นี่เป็นขยะ",
+      "reading": "khà"
+    },
+    "s-00350": {
+      "en": "get",
+      "word": "ได้",
+      "sentence": "ฉันกำลังเรียนได้",
+      "reading": "dâai"
+    },
+    "s-00351": {
+      "en": "ghost",
+      "word": "ผี",
+      "sentence": "นี่คือผี",
+      "reading": "phǐi"
+    },
+    "s-00360": {
+      "en": "gold",
+      "word": "ทอง",
+      "sentence": "มันเป็นทองคำ",
+      "reading": "thɔɔng"
+    },
+    "s-00361": {
+      "en": "good afternoon",
+      "word": "สวัสดีตอนบ่าย",
+      "sentence": "คุณสามารถพูดว่า “สวัสดีตอนบ่าย” ในประโยคนี้",
+      "reading": "sà-wàt-dii-dtɔɔn-bàai"
+    },
+    "s-00362": {
+      "en": "good morning",
+      "word": "อรุณสวัสดิ์",
+      "sentence": "คุณสามารถพูดว่า “สวัสดีตอนเช้า” ในประโยคนี้",
+      "reading": "à-run-sàt"
+    },
+    "s-00363": {
+      "en": "good night",
+      "word": "ราตรีสวัสดิ์",
+      "sentence": "คุณสามารถพูดว่า “ราตรีสวัสดิ์” ในประโยคนี้",
+      "reading": "raa-dtrii-sàt"
+    },
+    "s-00371": {
+      "en": "grape",
+      "word": "องุ่น",
+      "sentence": "นี่คือองุ่น",
+      "reading": "ùn"
+    },
+    "s-00373": {
+      "en": "gray",
+      "word": "สีเทา",
+      "sentence": "นี่คือสีเทา",
+      "reading": "sǐi-thao"
+    },
+    "s-00374": {
+      "en": "great",
+      "word": "เยี่ยมมาก",
+      "sentence": "มันเยี่ยมมาก",
+      "reading": "yîiam-mâak"
+    },
+    "s-00378": {
+      "en": "group",
+      "word": "กลุ่ม",
+      "sentence": "นี่คือกลุ่ม",
+      "reading": "glùm"
+    },
+    "s-00380": {
+      "en": "guess",
+      "word": "เดา",
+      "sentence": "ฉันกำลังเรียนเดา",
+      "reading": "dao"
+    },
+    "s-00383": {
+      "en": "guy",
+      "word": "คนที่แต่งตัวประหลาด",
+      "sentence": "นี่คือผู้ชาย",
+      "reading": "khon-thîi-dtɛ̀ɛng-dtua-bprà-làat"
+    },
+    "s-00385": {
+      "en": "had",
+      "word": "มี",
+      "sentence": "ฉันกำลังเรียนมี",
+      "reading": "mii"
+    },
+    "s-00387": {
+      "en": "haircut",
+      "word": "ตัดผม",
+      "sentence": "นี่คือการตัดผม",
+      "reading": "dtàt-phǒm"
+    },
+    "s-00389": {
+      "en": "hall",
+      "word": "ห้องโถง",
+      "sentence": "นี่คือห้องโถง",
+      "reading": "hɔ̂ɔng-thǒong"
+    },
+    "s-00390": {
+      "en": "hamburger",
+      "word": "แฮมเบอร์เกอร์",
+      "sentence": "นี่คือแฮมเบอร์เกอร์",
+      "reading": "hɛɛm-bəə-gəə"
+    },
+    "s-00392": {
+      "en": "happen",
+      "word": "เกิด",
+      "sentence": "ฉันกำลังเรียนเกิด",
+      "reading": "gə̀ət"
+    },
+    "s-00395": {
+      "en": "has",
+      "word": "มี",
+      "sentence": "ฉันกำลังเรียนมี",
+      "reading": "mii"
+    },
+    "s-00398": {
+      "en": "have to",
+      "word": "ต้อง",
+      "sentence": "ฉันกำลังเรียนต้อง",
+      "reading": "dtɔ̂ɔng"
+    },
+    "s-00401": {
+      "en": "health",
+      "word": "สุขภาพ",
+      "sentence": "นี่คือสุขภาพ",
+      "reading": "sùk-phâap"
+    },
+    "s-00405": {
+      "en": "hello",
+      "word": "สวัสดี",
+      "sentence": "สวัสดี ฉันชื่อAnna",
+      "reading": "sà-wàt-dii"
+    },
+    "s-00409": {
+      "en": "hers",
+      "word": "ของเธอ",
+      "sentence": "เรากำลังพูดถึงเรื่องของเธอ",
+      "reading": "khɔ̌ɔng-thəə"
+    },
+    "s-00410": {
+      "en": "hi",
+      "word": "สวัสดี",
+      "sentence": "นี่คือสวัสดี",
+      "reading": "sà-wàt-dii"
+    },
+    "s-00412": {
+      "en": "high",
+      "word": "สูง",
+      "sentence": "มันสูง.",
+      "reading": "sǔung"
+    },
+    "s-00418": {
+      "en": "hold",
+      "word": "การจับ",
+      "sentence": "นี่คือการระงับ",
+      "reading": "gaan-jàp"
+    },
+    "s-00419": {
+      "en": "hole",
+      "word": "รู",
+      "sentence": "นี่คือหลุม",
+      "reading": "ruu"
+    },
+    "s-00420": {
+      "en": "holiday",
+      "word": "วันหยุด",
+      "sentence": "นี่คือวันหยุด",
+      "reading": "wan-yùt"
+    },
+    "s-00422": {
+      "en": "hometown",
+      "word": "บ้านเกิด",
+      "sentence": "นี่คือบ้านเกิด",
+      "reading": "bâan-gə̀ət"
+    },
+    "s-00429": {
+      "en": "how",
+      "word": "อย่างไร",
+      "sentence": "ช่วยบอกหน่อยว่าเป็นยังไง.",
+      "reading": "yàang-raai"
+    },
+    "s-00431": {
+      "en": "hurry",
+      "word": "รีบ",
+      "sentence": "นี่เป็นเรื่องเร่งด่วน",
+      "reading": "rîip"
+    },
+    "s-00435": {
+      "en": "ice cream",
+      "word": "ไอศกรีม",
+      "sentence": "คุณสามารถพูดว่า “ไอศกรีม” ในประโยคนี้ได้",
+      "reading": "àait-griim"
+    },
+    "s-00436": {
+      "en": "idea",
+      "word": "ความคิด",
+      "sentence": "นี่คือความคิด",
+      "reading": "khwaam-khít"
+    },
+    "s-00438": {
+      "en": "if",
+      "word": "ถ้า",
+      "sentence": "ฉันโทรหาคุณถ้าฉันถึงบ้าน",
+      "reading": "thâa"
+    },
+    "s-00439": {
+      "en": "imagine",
+      "word": "จินตนาการ",
+      "sentence": "ฉันกำลังเรียนจินตนาการ",
+      "reading": "jin-dtaan-gaan"
+    },
+    "s-00442": {
+      "en": "information",
+      "word": "ข้อมูล",
+      "sentence": "นี่คือข้อมูล",
+      "reading": "khɔ̂ɔ-muun"
+    },
+    "s-00443": {
+      "en": "inside",
+      "word": "ภายใน",
+      "sentence": "แมวอยู่ข้างใน",
+      "reading": "phaai-nai"
+    },
+    "s-00444": {
+      "en": "interested",
+      "word": "สนใจ",
+      "sentence": "มันมีความสนใจ",
+      "reading": "sǒn-jai"
+    },
+    "s-00445": {
+      "en": "interesting",
+      "word": "น่าสนใจ",
+      "sentence": "มันน่าสนใจ",
+      "reading": "nâa-sǒn-jai"
+    },
+    "s-00448": {
+      "en": "interviewer",
+      "word": "ผู้สัมภาษณ์",
+      "sentence": "นี่คือผู้สัมภาษณ์",
+      "reading": "phûu-sǎm-phâat"
+    },
+    "s-00449": {
+      "en": "into",
+      "word": "เข้าไป",
+      "sentence": "หนังสืออยู่บนโต๊ะ",
+      "reading": "khâo-bpai"
+    },
+    "s-00451": {
+      "en": "is",
+      "word": "คือ",
+      "sentence": "ฉันกำลังเรียนคือ",
+      "reading": "khʉʉ"
+    },
+    "s-00454": {
+      "en": "item",
+      "word": "รายการ",
+      "sentence": "นี่คือรายการ",
+      "reading": "raai-gaan"
+    },
+    "s-00455": {
+      "en": "its",
+      "word": "มัน",
+      "sentence": "เรากำลังพูดถึงมัน",
+      "reading": "man"
+    },
+    "s-00457": {
+      "en": "january",
+      "word": "มกราคม",
+      "sentence": "นี่คือเดือนมกราคม",
+      "reading": "mók-raa-khom"
+    },
+    "s-00459": {
+      "en": "jet",
+      "word": "เจ็ท",
+      "sentence": "นี่คือเครื่องบินเจ็ต",
+      "reading": "jèt"
+    },
+    "s-00460": {
+      "en": "jewelry",
+      "word": "เครื่องประดับ",
+      "sentence": "นี่คือเครื่องประดับ",
+      "reading": "khrʉ̂ang-bprà-dàp"
+    },
+    "s-00462": {
+      "en": "join",
+      "word": "เข้าร่วม",
+      "sentence": "ฉันกำลังเรียนเข้าร่วม",
+      "reading": "khâo-rûuam"
+    },
+    "s-00465": {
+      "en": "july",
+      "word": "กรกฎาคม",
+      "sentence": "นี่คือเดือนกรกฎาคม",
+      "reading": "gròk-daa-khom"
+    },
+    "s-00466": {
+      "en": "jump",
+      "word": "กระโดด",
+      "sentence": "ฉันกำลังเรียนกระโดด",
+      "reading": "grà-dòot"
+    },
+    "s-00467": {
+      "en": "june",
+      "word": "มิถุนายน",
+      "sentence": "นี่คือเดือนมิถุนายน",
+      "reading": "mí-thù-naa-yon"
+    },
+    "s-00468": {
+      "en": "just",
+      "word": "เพียงแค่",
+      "sentence": "กรุณาพูดเพียงว่า.",
+      "reading": "phiiang-khɛ̂ɛ"
+    },
+    "s-00469": {
+      "en": "keep",
+      "word": "เก็บ",
+      "sentence": "ฉันกำลังเรียนเก็บ",
+      "reading": "gèp"
+    },
+    "s-00470": {
+      "en": "kick",
+      "word": "เตะ",
+      "sentence": "นี่คือการเตะ",
+      "reading": "dtè"
+    },
+    "s-00471": {
+      "en": "kid",
+      "word": "เด็ก",
+      "sentence": "นี่คือเด็ก",
+      "reading": "dèk"
+    },
+    "s-00473": {
+      "en": "king",
+      "word": "กษัตริย์",
+      "sentence": "นี่คือกษัตริย์",
+      "reading": "à-sìtn"
+    },
+    "s-00474": {
+      "en": "kiss",
+      "word": "จูบ",
+      "sentence": "นี่คือการจูบ",
+      "reading": "jùup"
+    },
+    "s-00476": {
+      "en": "kite",
+      "word": "ว่าว",
+      "sentence": "นี่คือว่าว",
+      "reading": "wâao"
+    },
+    "s-00480": {
+      "en": "lady",
+      "word": "ท่านหญิง",
+      "sentence": "นี่คือผู้หญิง",
+      "reading": "thâan-yǐng"
+    },
+    "s-00481": {
+      "en": "language",
+      "word": "ภาษา",
+      "sentence": "นี่คือภาษา",
+      "reading": "phaa-sǎa"
+    },
+    "s-00482": {
+      "en": "large",
+      "word": "ใหญ่",
+      "sentence": "มันมีขนาดใหญ่",
+      "reading": "yài"
+    },
+    "s-00483": {
+      "en": "last name",
+      "word": "นามสกุล",
+      "sentence": "คุณสามารถพูดว่า “นามสกุล” ในประโยคนี้",
+      "reading": "naam-sǔn"
+    },
+    "s-00485": {
+      "en": "later",
+      "word": "ในภายหลัง",
+      "sentence": "กรุณาพูดในภายหลัง",
+      "reading": "nai-phaai-lǎng"
+    },
+    "s-00486": {
+      "en": "laugh",
+      "word": "หัวเราะ",
+      "sentence": "ฉันกำลังเรียนหัวเราะ",
+      "reading": "hǔa-rɔ́"
+    },
+    "s-00488": {
+      "en": "leader",
+      "word": "ผู้นำ",
+      "sentence": "นี่คือผู้นำ",
+      "reading": "phûu-nam"
+    },
+    "s-00495": {
+      "en": "let",
+      "word": "ปล่อย",
+      "sentence": "ฉันกำลังเรียนปล่อย",
+      "reading": "bplɔ̀ɔi"
+    },
+    "s-00498": {
+      "en": "life",
+      "word": "ชีวิต",
+      "sentence": "ชีวิตเป็นสิ่งที่ดี",
+      "reading": "chii-wít"
+    },
+    "s-00501": {
+      "en": "lily",
+      "word": "ลิลลี่",
+      "sentence": "นี่คือดอกลิลลี่",
+      "reading": "lin-lîi"
+    },
+    "s-00502": {
+      "en": "line",
+      "word": "เส้น",
+      "sentence": "นี่คือเส้น",
+      "reading": "sêen"
+    },
+    "s-00504": {
+      "en": "list",
+      "word": "รายการ",
+      "sentence": "นี่คือรายการ",
+      "reading": "raai-gaan"
+    },
+    "s-00506": {
+      "en": "little",
+      "word": "นิดหน่อย",
+      "sentence": "มันน้อย.",
+      "reading": "nít-nɔ̀ɔi"
+    },
+    "s-00508": {
+      "en": "living",
+      "word": "การใช้ชีวิต",
+      "sentence": "มันเป็นสิ่งมีชีวิต",
+      "reading": "gaan-chái-chii-wít"
+    },
+    "s-00513": {
+      "en": "lot",
+      "word": "มาก",
+      "sentence": "กรุณาพูดมาก.",
+      "reading": "mâak"
+    },
+    "s-00515": {
+      "en": "lovely",
+      "word": "น่ารัก",
+      "sentence": "มันน่ารัก",
+      "reading": "nâa-rák"
+    },
+    "s-00516": {
+      "en": "luck",
+      "word": "โชค",
+      "sentence": "นี่คือโชค",
+      "reading": "chôok"
+    },
+    "s-00517": {
+      "en": "lucky",
+      "word": "โชคดี",
+      "sentence": "วันนี้เธอรู้สึกโชคดี",
+      "reading": "chôok-dii"
+    },
+    "s-00519": {
+      "en": "machine",
+      "word": "เครื่อง",
+      "sentence": "นี่คือเครื่องจักร",
+      "reading": "khrʉ̂ang"
+    },
+    "s-00521": {
+      "en": "mail",
+      "word": "จดหมาย",
+      "sentence": "นี่คือจดหมาย",
+      "reading": "jòt-mǎai"
+    },
+    "s-00526": {
+      "en": "match",
+      "word": "ไม้ขีด",
+      "sentence": "นี่คือการแข่งขัน",
+      "reading": "máai-khìit"
+    },
+    "s-00527": {
+      "en": "math",
+      "word": "คณิตศาสตร์",
+      "sentence": "นี่คือคณิตศาสตร์",
+      "reading": "á-nít-sàat"
+    },
+    "s-00529": {
+      "en": "may",
+      "word": "พฤษภาคม",
+      "sentence": "พฤษภาคมเป็นเดือนที่อบอุ่น",
+      "reading": "phát-phaa-khom"
+    },
+    "s-00532": {
+      "en": "meal",
+      "word": "มื้ออาหาร",
+      "sentence": "นี่คือมื้ออาหาร",
+      "reading": "mʉ́ʉ-aa-hǎan"
+    },
+    "s-00533": {
+      "en": "mean",
+      "word": "หมายถึง",
+      "sentence": "ฉันกำลังเรียนหมายถึง",
+      "reading": "mǎai-thʉ̌ng"
+    },
+    "s-00536": {
+      "en": "meet",
+      "word": "เจอ",
+      "sentence": "ฉันกำลังเรียนเจอ",
+      "reading": "jəə"
+    },
+    "s-00539": {
+      "en": "merry",
+      "word": "ร่าเริง",
+      "sentence": "มันเป็นความสนุกสนาน",
+      "reading": "râa-rəəng"
+    },
+    "s-00541": {
+      "en": "middle",
+      "word": "กลาง",
+      "sentence": "มันอยู่ตรงกลาง",
+      "reading": "glaang"
+    },
+    "s-00543": {
+      "en": "mine",
+      "word": "ของฉัน",
+      "sentence": "เรากำลังพูดถึงเรื่องของฉัน",
+      "reading": "khɔ̌ɔng-chǎn"
+    },
+    "s-00546": {
+      "en": "mobile",
+      "word": "มือถือ",
+      "sentence": "นี่คือมือถือ",
+      "reading": "mʉʉ-thʉ̌ʉ"
+    },
+    "s-00547": {
+      "en": "mobile phone",
+      "word": "โทรศัพท์มือถือ",
+      "sentence": "คุณสามารถพูดว่า “โทรศัพท์มือถือ” ในประโยคนี้",
+      "reading": "soo-sàp-mʉʉ-thʉ̌ʉ"
+    },
+    "s-00548": {
+      "en": "mom",
+      "word": "แม่",
+      "sentence": "นี่คือแม่",
+      "reading": "mâe"
+    },
+    "s-00549": {
+      "en": "moment",
+      "word": "สักครู่",
+      "sentence": "นี่คือช่วงเวลาหนึ่ง",
+      "reading": "sàk-khrûu"
+    },
+    "s-00550": {
+      "en": "mommy",
+      "word": "แม่",
+      "sentence": "นี่คือแม่",
+      "reading": "mâe"
+    },
+    "s-00555": {
+      "en": "more",
+      "word": "มากขึ้น",
+      "sentence": "เรากำลังพูดถึงมากขึ้น",
+      "reading": "mâak-khʉ̂n"
+    },
+    "s-00557": {
+      "en": "most",
+      "word": "มากที่สุด",
+      "sentence": "หนังสือส่วนใหญ่อยู่บนโต๊ะ",
+      "reading": "mâak-thîi-sùt"
+    },
+    "s-00560": {
+      "en": "move",
+      "word": "การย้าย",
+      "sentence": "นี่คือการเคลื่อนไหว",
+      "reading": "gaan-yáai"
+    },
+    "s-00561": {
+      "en": "movie",
+      "word": "ภาพยนตร์",
+      "sentence": "นี่คือภาพยนตร์",
+      "reading": "phâap-yót"
+    },
+    "s-00562": {
+      "en": "much",
+      "word": "มาก",
+      "sentence": "กรุณาพูดมาก.",
+      "reading": "mâak"
+    },
+    "s-00563": {
+      "en": "mum",
+      "word": "แม่",
+      "sentence": "นี่คือแม่",
+      "reading": "mâe"
+    },
+    "s-00565": {
+      "en": "musician",
+      "word": "นักดนตรี",
+      "sentence": "นี่คือนักดนตรี",
+      "reading": "nák-don-dtrii"
+    },
+    "s-00566": {
+      "en": "must",
+      "word": "ต้อง",
+      "sentence": "ฉันกำลังเรียนต้อง",
+      "reading": "dtɔ̂ɔng"
+    },
+    "s-00568": {
+      "en": "nationality",
+      "word": "สัญชาติ",
+      "sentence": "นี่คือสัญชาติ",
+      "reading": "sǎn-chít"
+    },
+    "s-00569": {
+      "en": "near",
+      "word": "ใกล้",
+      "sentence": "โรงเรียนอยู่ใกล้สวนสาธารณะ",
+      "reading": "glâi"
+    },
+    "s-00580": {
+      "en": "no",
+      "word": "ไม่",
+      "sentence": "กรุณาบอกว่าไม่มี.",
+      "reading": "mâi"
+    },
+    "s-00583": {
+      "en": "not",
+      "word": "ไม่",
+      "sentence": "กรุณาบอกว่าไม่ใช่.",
+      "reading": "mâi"
+    },
+    "s-00587": {
+      "en": "november",
+      "word": "พฤศจิกายน",
+      "sentence": "นี่คือเดือนพฤศจิกายน",
+      "reading": "phát-jì-gaai-ná"
+    },
+    "s-00591": {
+      "en": "o'clock",
+      "word": "โมง",
+      "sentence": "กรุณาพูดตอนบ่ายโมง",
+      "reading": "moong"
+    },
+    "s-00592": {
+      "en": "october",
+      "word": "ตุลาคม",
+      "sentence": "นี่คือเดือนตุลาคม",
+      "reading": "dtù-laa-khom"
+    },
+    "s-00593": {
+      "en": "of",
+      "word": "ของ",
+      "sentence": "หนังสือเป็นของโต๊ะ",
+      "reading": "khɔ̌ɔng"
+    },
+    "s-00594": {
+      "en": "off",
+      "word": "ปิด",
+      "sentence": "กรุณาปิดไฟ",
+      "reading": "bpìt"
+    },
+    "s-00596": {
+      "en": "officer",
+      "word": "เจ้าหน้าที่",
+      "sentence": "นี่คือเจ้าหน้าที่",
+      "reading": "jâo-nâa-thîi"
+    },
+    "s-00598": {
+      "en": "ok",
+      "word": "โอเค",
+      "sentence": "มันก็โอเค.",
+      "reading": "oo-khee"
+    },
+    "s-00600": {
+      "en": "olympics",
+      "word": "โอลิมปิก",
+      "sentence": "นี่คือโอลิมปิก",
+      "reading": "oo-lim-bpìk"
+    },
+    "s-00603": {
+      "en": "only",
+      "word": "เท่านั้น",
+      "sentence": "ฉันต้องการแค่น้ำเท่านั้น",
+      "reading": "thâo-nán"
+    },
+    "s-00609": {
+      "en": "other",
+      "word": "อื่น ๆ",
+      "sentence": "หนังสือเล่มอื่นอยู่บนโต๊ะ",
+      "reading": "ʉ̀ʉn"
+    },
+    "s-00611": {
+      "en": "ours",
+      "word": "ของเรา",
+      "sentence": "เรากำลังพูดถึงเรื่องของเรา",
+      "reading": "khɔ̌ɔng-rao"
+    },
+    "s-00612": {
+      "en": "out",
+      "word": "ออก",
+      "sentence": "เด็กๆออกไปแล้ว",
+      "reading": "ɔ̀ɔk"
+    },
+    "s-00614": {
+      "en": "over",
+      "word": "เหนือ",
+      "sentence": "นกบินอยู่เหนือบ้าน",
+      "reading": "nʉ̌a"
+    },
+    "s-00615": {
+      "en": "own",
+      "word": "เป็นเจ้าของ",
+      "sentence": "มันเป็นของตัวเอง",
+      "reading": "bpen-jâo-khɔ̌ɔng"
+    },
+    "s-00616": {
+      "en": "owner",
+      "word": "เจ้าของ",
+      "sentence": "นี่คือเจ้าของ",
+      "reading": "jâo-khɔ̌ɔng"
+    },
+    "s-00620": {
+      "en": "pair",
+      "word": "คู่",
+      "sentence": "นี่คือคู่",
+      "reading": "khûu"
+    },
+    "s-00625": {
+      "en": "pardon",
+      "word": "ขออภัย",
+      "sentence": "นี่คือการให้อภัย",
+      "reading": "khɔ̌ɔ-à-phai"
+    },
+    "s-00630": {
+      "en": "past",
+      "word": "อดีต",
+      "sentence": "ขอบอกว่าผ่านไปแล้ว..",
+      "reading": "ìit"
+    },
+    "s-00635": {
+      "en": "people",
+      "word": "คน",
+      "sentence": "ผู้คนใจดี",
+      "reading": "khon"
+    },
+    "s-00636": {
+      "en": "period",
+      "word": "ระยะเวลา",
+      "sentence": "นี่เป็นช่วงหนึ่ง",
+      "reading": "rá-yá-wee-laa"
+    },
+    "s-00641": {
+      "en": "photo",
+      "word": "ภาพถ่าย",
+      "sentence": "นี่คือภาพถ่าย",
+      "reading": "phâap-thàai"
+    },
+    "s-00643": {
+      "en": "pick",
+      "word": "เลือก",
+      "sentence": "ฉันกำลังเรียนเลือก",
+      "reading": "lʉ̂ak"
+    },
+    "s-00646": {
+      "en": "piece",
+      "word": "ชิ้น",
+      "sentence": "นี้เป็นชิ้น.",
+      "reading": "chín"
+    },
+    "s-00648": {
+      "en": "pink",
+      "word": "สีชมพู",
+      "sentence": "มันเป็นสีชมพู",
+      "reading": "sǐi-chom-phuu"
+    },
+    "s-00650": {
+      "en": "place",
+      "word": "สถานที่",
+      "sentence": "สถานที่แห่งนี้เงียบสงบ",
+      "reading": "à-thǎan-thîi"
+    },
+    "s-00654": {
+      "en": "player",
+      "word": "ผู้เล่น",
+      "sentence": "นี่คือผู้เล่น",
+      "reading": "phûu-lêen"
+    },
+    "s-00655": {
+      "en": "please",
+      "word": "ได้โปรด",
+      "sentence": "กรุณาดื่มกาแฟหนึ่งแก้ว",
+      "reading": "dâai-bpròot"
+    },
+    "s-00658": {
+      "en": "poem",
+      "word": "บทกวี",
+      "sentence": "นี่คือบทกวี",
+      "reading": "bòt-gwii"
+    },
+    "s-00661": {
+      "en": "pool",
+      "word": "สระว่ายน้ำ",
+      "sentence": "นี่คือสระว่ายน้ำ",
+      "reading": "srà-wâa-yá-náam"
+    },
+    "s-00663": {
+      "en": "pop",
+      "word": "ป๊อป",
+      "sentence": "นี่คือป๊อป",
+      "reading": "bpɔ́ɔp"
+    },
+    "s-00664": {
+      "en": "post",
+      "word": "โพสต์",
+      "sentence": "นี่คือการโพสต์",
+      "reading": "phôot"
+    },
+    "s-00668": {
+      "en": "pray",
+      "word": "อธิษฐาน",
+      "sentence": "ฉันกำลังเรียนอธิษฐาน",
+      "reading": "à-thít-thǎan"
+    },
+    "s-00670": {
+      "en": "pretty",
+      "word": "สวย",
+      "sentence": "มันสวย",
+      "reading": "sǔuai"
+    },
+    "s-00672": {
+      "en": "prince",
+      "word": "เจ้าชาย",
+      "sentence": "นี่คือเจ้าชาย",
+      "reading": "jâo-chaai"
+    },
+    "s-00673": {
+      "en": "princess",
+      "word": "เจ้าหญิง",
+      "sentence": "นี่คือเจ้าหญิง",
+      "reading": "jâo-yǐng"
+    },
+    "s-00676": {
+      "en": "purple",
+      "word": "สีม่วง",
+      "sentence": "อันนี้เป็นสีม่วง",
+      "reading": "sǐi-mûuang"
+    },
+    "s-00677": {
+      "en": "push",
+      "word": "ผลัก",
+      "sentence": "ฉันกำลังเรียนผลัก",
+      "reading": "phlàk"
+    },
+    "s-00679": {
+      "en": "quarter",
+      "word": "ไตรมาส",
+      "sentence": "นี่คือหนึ่งในสี่",
+      "reading": "dtraai-mâat"
+    },
+    "s-00684": {
+      "en": "radio",
+      "word": "วิทยุ",
+      "sentence": "นี่คือวิทยุ",
+      "reading": "wít-yú"
+    },
+    "s-00686": {
+      "en": "rat",
+      "word": "หนู",
+      "sentence": "นี่คือหนู",
+      "reading": "nǔu"
+    },
+    "s-00689": {
+      "en": "reading",
+      "word": "การอ่าน",
+      "sentence": "นี่คือการอ่าน",
+      "reading": "gaan-àan"
+    },
+    "s-00690": {
+      "en": "ready",
+      "word": "พร้อม",
+      "sentence": "วันนี้เธอรู้สึกพร้อมแล้ว",
+      "reading": "phrɔ́ɔm"
+    },
+    "s-00691": {
+      "en": "real",
+      "word": "จริง",
+      "sentence": "มันเป็นเรื่องจริง",
+      "reading": "à-ring"
+    },
+    "s-00700": {
+      "en": "ribbon",
+      "word": "ริบบิ้น",
+      "sentence": "นี่คือริบบิ้น",
+      "reading": "ríp-bîn"
+    },
+    "s-00708": {
+      "en": "row",
+      "word": "แถว",
+      "sentence": "นี่คือแถว",
+      "reading": "thɛ̌ɛo"
+    },
+    "s-00710": {
+      "en": "rule",
+      "word": "กฎ",
+      "sentence": "นี่เป็นกฎ",
+      "reading": "gòt"
+    },
+    "s-00714": {
+      "en": "sailor",
+      "word": "กะลาสีเรือ",
+      "sentence": "นี่คือกะลาสีเรือ",
+      "reading": "gà-laa-sǐi-rʉa"
+    },
+    "s-00717": {
+      "en": "same",
+      "word": "เหมือนกัน",
+      "sentence": "มันก็เหมือนกัน",
+      "reading": "mʉ̌an-gan"
+    },
+    "s-00721": {
+      "en": "saw",
+      "word": "เลื่อย",
+      "sentence": "นี่คือเลื่อย",
+      "reading": "lʉ̂ai"
+    },
+    "s-00727": {
+      "en": "section",
+      "word": "ส่วน",
+      "sentence": "นี่คือส่วน",
+      "reading": "sùuan"
+    },
+    "s-00728": {
+      "en": "self",
+      "word": "ตนเอง",
+      "sentence": "นี่คือตัวตน",
+      "reading": "dton-eeng"
+    },
+    "s-00729": {
+      "en": "sell",
+      "word": "ขาย",
+      "sentence": "ฉันกำลังเรียนขาย",
+      "reading": "khǎai"
+    },
+    "s-00731": {
+      "en": "september",
+      "word": "กันยายน",
+      "sentence": "นี่คือเดือนกันยายน",
+      "reading": "gan-yaa-yon"
+    },
+    "s-00732": {
+      "en": "set",
+      "word": "ตั้ง",
+      "sentence": "ฉันกำลังเรียนตั้ง",
+      "reading": "dtâng"
+    },
+    "s-00736": {
+      "en": "shake",
+      "word": "การจับมือ",
+      "sentence": "นี่คือการสั่น",
+      "reading": "gaan-jàp-mʉʉ"
+    },
+    "s-00745": {
+      "en": "shopping",
+      "word": "ช้อปปิ้ง",
+      "sentence": "นี่คือการช้อปปิ้ง",
+      "reading": "chɔ́ɔp-bpîng"
+    },
+    "s-00747": {
+      "en": "should",
+      "word": "ควร",
+      "sentence": "ฉันกำลังเรียนควร",
+      "reading": "khwon"
+    },
+    "s-00753": {
+      "en": "side",
+      "word": "ด้านข้าง",
+      "sentence": "นี่คือด้านข้าง",
+      "reading": "dâan-khâang"
+    },
+    "s-00754": {
+      "en": "sight",
+      "word": "สายตา",
+      "sentence": "นี่คือการมองเห็น",
+      "reading": "sǎai-dtaa"
+    },
+    "s-00758": {
+      "en": "sir",
+      "word": "ท่าน",
+      "sentence": "นี่คือท่าน",
+      "reading": "thâan"
+    },
+    "s-00760": {
+      "en": "site",
+      "word": "เว็บไซต์",
+      "sentence": "นี่คือเว็บไซต์",
+      "reading": "wép-saai"
+    },
+    "s-00770": {
+      "en": "smell",
+      "word": "กลิ่น",
+      "sentence": "นี่คือกลิ่น",
+      "reading": "glìn"
+    },
+    "s-00772": {
+      "en": "smith",
+      "word": "ช่างตีเหล็ก",
+      "sentence": "นี่คือช่างเหล็ก",
+      "reading": "châang-dtii-lèk"
+    },
+    "s-00773": {
+      "en": "smoke",
+      "word": "ควัน",
+      "sentence": "นี่คือควัน",
+      "reading": "khwan"
+    },
+    "s-00774": {
+      "en": "smoking",
+      "word": "สูบบุหรี่",
+      "sentence": "นี่คือการสูบบุหรี่",
+      "reading": "sùup-bù-rìi"
+    },
+    "s-00778": {
+      "en": "so",
+      "word": "ดังนั้น",
+      "sentence": "น้ำเย็นฉันก็เลยชงชา",
+      "reading": "dang-nán"
+    },
+    "s-00779": {
+      "en": "soccer",
+      "word": "ฟุตบอล",
+      "sentence": "นี่คือฟุตบอล",
+      "reading": "fút-bɔɔn"
+    },
+    "s-00787": {
+      "en": "song",
+      "word": "เพลง",
+      "sentence": "นี่คือเพลง",
+      "reading": "phleeng"
+    },
+    "s-00789": {
+      "en": "sorry",
+      "word": "ขอโทษ",
+      "sentence": "ฉันขอโทษ.",
+      "reading": "khɔ̌ɔ-thôot"
+    },
+    "s-00796": {
+      "en": "sport",
+      "word": "กีฬา",
+      "sentence": "นี่คือกีฬา",
+      "reading": "gii-laa"
+    },
+    "s-00797": {
+      "en": "spot",
+      "word": "จุด",
+      "sentence": "นี่คือจุด",
+      "reading": "jùt"
+    },
+    "s-00799": {
+      "en": "spy",
+      "word": "สายลับ",
+      "sentence": "นี่คือสายลับ",
+      "reading": "sǎai-láp"
+    },
+    "s-00806": {
+      "en": "step",
+      "word": "ก้าว",
+      "sentence": "ฉันกำลังเรียนก้าว",
+      "reading": "gâao"
+    },
+    "s-00810": {
+      "en": "story",
+      "word": "เรื่องราว",
+      "sentence": "นี่คือเรื่องราว",
+      "reading": "rʉ̂ang-raao"
+    },
+    "s-00814": {
+      "en": "strict",
+      "word": "เข้มงวด",
+      "sentence": "มันเข้มงวด",
+      "reading": "khêem-ngûuat"
+    },
+    "s-00823": {
+      "en": "sum",
+      "word": "ผลรวม",
+      "sentence": "นี่คือผลรวม",
+      "reading": "phlà-ruuam"
+    },
+    "s-00828": {
+      "en": "super",
+      "word": "สุด ๆ",
+      "sentence": "มันสุดยอดมาก",
+      "reading": "sùt"
+    },
+    "s-00830": {
+      "en": "sure",
+      "word": "แน่นอน",
+      "sentence": "วันนี้เธอรู้สึกมั่นใจ",
+      "reading": "nɛ̂ɛ-nɔɔn"
+    },
+    "s-00831": {
+      "en": "surf",
+      "word": "ท่อง",
+      "sentence": "นี่คือการท่อง",
+      "reading": "thɔ̂ɔng"
+    },
+    "s-00836": {
+      "en": "swimming",
+      "word": "ว่ายน้ำ",
+      "sentence": "นี่คือการว่ายน้ำ",
+      "reading": "wâa-yá-náam"
+    },
+    "s-00837": {
+      "en": "swimming pool",
+      "word": "สระว่ายน้ำ",
+      "sentence": "คุณสามารถพูดว่า “สระว่ายน้ำ” ในประโยคนี้",
+      "reading": "srà-wâa-yá-náam"
+    },
+    "s-00847": {
+      "en": "technology",
+      "word": "เทคโนโลยี",
+      "sentence": "นี่คือเทคโนโลยี",
+      "reading": "thêek-noo-loo-yii"
+    },
+    "s-00848": {
+      "en": "telephone",
+      "word": "โทรศัพท์",
+      "sentence": "นี่คือโทรศัพท์",
+      "reading": "soo-sàp"
+    },
+    "s-00849": {
+      "en": "television",
+      "word": "โทรทัศน์",
+      "sentence": "นี่คือโทรทัศน์",
+      "reading": "soo-thát"
+    },
+    "s-00853": {
+      "en": "tennis",
+      "word": "เทนนิส",
+      "sentence": "นี่คือเทนนิส",
+      "reading": "theen-nít"
+    },
+    "s-00854": {
+      "en": "terrible",
+      "word": "แย่มาก",
+      "sentence": "มันแย่มาก",
+      "reading": "yɛ̂ɛ-mâak"
+    },
+    "s-00856": {
+      "en": "than",
+      "word": "กว่า",
+      "sentence": "หนังสืออยู่มากกว่าโต๊ะ",
+      "reading": "gwàa"
+    },
+    "s-00857": {
+      "en": "thank",
+      "word": "ขอบคุณ",
+      "sentence": "ขอบคุณสำหรับน้ำ",
+      "reading": "khɔ̀ɔp-khun"
+    },
+    "s-00858": {
+      "en": "thanks",
+      "word": "ขอบคุณ",
+      "sentence": "นี่คือการขอบคุณ",
+      "reading": "khɔ̀ɔp-khun"
+    },
+    "s-00860": {
+      "en": "the",
+      "word": "นั้น",
+      "sentence": "หนังสืออยู่บนโต๊ะ",
+      "reading": "nán"
+    },
+    "s-00864": {
+      "en": "then",
+      "word": "แล้ว",
+      "sentence": "เรากินแล้วเราก็เดิน",
+      "reading": "lɛ́ɛo"
+    },
+    "s-00868": {
+      "en": "thick",
+      "word": "หนา",
+      "sentence": "มันมีความหนา",
+      "reading": "nǎa"
+    },
+    "s-00870": {
+      "en": "thing",
+      "word": "สิ่ง",
+      "sentence": "สิ่งนี้มีขนาดเล็ก",
+      "reading": "sìng"
+    },
+    "s-00874": {
+      "en": "those",
+      "word": "เหล่านั้น",
+      "sentence": "เรากำลังพูดถึงสิ่งเหล่านั้น",
+      "reading": "lào-nán"
+    },
+    "s-00876": {
+      "en": "through",
+      "word": "ผ่าน",
+      "sentence": "เราเดินผ่านสวนสาธารณะ",
+      "reading": "phàan"
+    },
+    "s-00877": {
+      "en": "throw",
+      "word": "การโยน",
+      "sentence": "นี่คือการขว้าง",
+      "reading": "gaan-yoon"
+    },
+    "s-00881": {
+      "en": "tight",
+      "word": "แน่น",
+      "sentence": "มันแน่น.",
+      "reading": "nɛ̂ɛn"
+    },
+    "s-00891": {
+      "en": "too",
+      "word": "เกินไป",
+      "sentence": "กาแฟแก้วนี้ร้อนเกินไป",
+      "reading": "gəən-bpai"
+    },
+    "s-00892": {
+      "en": "tool",
+      "word": "เครื่องมือ",
+      "sentence": "นี่คือเครื่องมือ",
+      "reading": "khrʉ̂ang-mʉʉ"
+    },
+    "s-00894": {
+      "en": "top",
+      "word": "ด้านบน",
+      "sentence": "นี่คือด้านบน",
+      "reading": "dâan-bon"
+    },
+    "s-00896": {
+      "en": "touch",
+      "word": "สัมผัส",
+      "sentence": "นี่คือสัมผัส",
+      "reading": "sǎm-phàt"
+    },
+    "s-00900": {
+      "en": "toy",
+      "word": "ของเล่น",
+      "sentence": "นี่คือของเล่น",
+      "reading": "khɔ̌ɔng-lêen"
+    },
+    "s-00902": {
+      "en": "travel",
+      "word": "เดินทาง",
+      "sentence": "ฉันกำลังเรียนเดินทาง",
+      "reading": "dəən-thaang"
+    },
+    "s-00904": {
+      "en": "trousers",
+      "word": "กางเกงขายาว",
+      "sentence": "นี่คือกางเกง",
+      "reading": "gaang-geeng-khǎa-yaao"
+    },
+    "s-00906": {
+      "en": "true",
+      "word": "จริง",
+      "sentence": "มันเป็นเรื่องจริง",
+      "reading": "à-ring"
+    },
+    "s-00908": {
+      "en": "tube",
+      "word": "หลอด",
+      "sentence": "นี่คือหลอด",
+      "reading": "lɔ̀ɔt"
+    },
+    "s-00910": {
+      "en": "turkey",
+      "word": "ไก่งวง",
+      "sentence": "นี่คือไก่งวง",
+      "reading": "gàai-nguuang"
+    },
+    "s-00911": {
+      "en": "turn",
+      "word": "เลี้ยว",
+      "sentence": "นี่คือเทิร์น",
+      "reading": "líia"
+    },
+    "s-00912": {
+      "en": "tv",
+      "word": "ทีวี",
+      "sentence": "นี่คือทีวี",
+      "reading": "thii-wii"
+    },
+    "s-00916": {
+      "en": "ugly",
+      "word": "น่าเกลียด",
+      "sentence": "มันน่าเกลียด",
+      "reading": "nâa-glìiat"
+    },
+    "s-00919": {
+      "en": "under",
+      "word": "ใต้",
+      "sentence": "แมวอยู่ใต้โต๊ะ",
+      "reading": "dtâi"
+    },
+    "s-00922": {
+      "en": "up",
+      "word": "ขึ้น",
+      "sentence": "กรุณายืนขึ้น.",
+      "reading": "khʉ̂n"
+    },
+    "s-00926": {
+      "en": "vacation",
+      "word": "วันหยุด",
+      "sentence": "นี่คือวันหยุด",
+      "reading": "wan-yùt"
+    },
+    "s-00927": {
+      "en": "vase",
+      "word": "แจกัน",
+      "sentence": "นี่คือแจกัน",
+      "reading": "jɛɛ-gan"
+    },
+    "s-00930": {
+      "en": "video",
+      "word": "วิดีโอ",
+      "sentence": "นี่คือวิดีโอ",
+      "reading": "wí-dii-oo"
+    },
+    "s-00932": {
+      "en": "volleyball",
+      "word": "วอลเลย์บอล",
+      "sentence": "นี่คือวอลเลย์บอล",
+      "reading": "wɔɔn-lee-bɔɔn"
+    },
+    "s-00937": {
+      "en": "wake",
+      "word": "การตื่น",
+      "sentence": "นี่คือการตื่น",
+      "reading": "gaan-dtʉ̀ʉn"
+    },
+    "s-00940": {
+      "en": "war",
+      "word": "สงคราม",
+      "sentence": "นี่คือสงคราม",
+      "reading": "sǒng-khraam"
+    },
+    "s-00942": {
+      "en": "was",
+      "word": "เป็น",
+      "sentence": "ฉันกำลังเรียนเป็น",
+      "reading": "bpen"
+    },
+    "s-00943": {
+      "en": "wash",
+      "word": "การซัก",
+      "sentence": "นี่คือการซัก",
+      "reading": "gaan-sák"
+    },
+    "s-00945": {
+      "en": "way",
+      "word": "ทาง",
+      "sentence": "โรงเรียนอยู่ทางไหน?",
+      "reading": "thaang"
+    },
+    "s-00953": {
+      "en": "well",
+      "word": "ดี",
+      "sentence": "ฉันนอนหลับสบาย",
+      "reading": "dii"
+    },
+    "s-00954": {
+      "en": "were",
+      "word": "เป็น",
+      "sentence": "ฉันกำลังเรียนเป็น",
+      "reading": "bpen"
+    },
+    "s-00955": {
+      "en": "what",
+      "word": "อะไร",
+      "sentence": "เรากำลังพูดถึงเรื่องอะไร",
+      "reading": "à-rai"
+    },
+    "s-00957": {
+      "en": "when",
+      "word": "เมื่อ",
+      "sentence": "กรุณาพูดเมื่อ.",
+      "reading": "mʉ̂a"
+    },
+    "s-00958": {
+      "en": "where",
+      "word": "ที่ไหน",
+      "sentence": "ช่วยบอกหน่อยว่าอยู่ไหน..",
+      "reading": "thîi-nǎai"
+    },
+    "s-00959": {
+      "en": "which",
+      "word": "ซึ่ง",
+      "sentence": "เรากำลังพูดถึงเรื่องไหน",
+      "reading": "sʉ̂ng"
+    },
+    "s-00962": {
+      "en": "whose",
+      "word": "ของใคร",
+      "sentence": "เรากำลังพูดถึงใคร",
+      "reading": "khɔ̌ɔng-khrai"
+    },
+    "s-00963": {
+      "en": "why",
+      "word": "ทำไม",
+      "sentence": "ช่วยบอกหน่อยว่าทำไม..",
+      "reading": "tham-mai"
+    },
+    "s-00965": {
+      "en": "will",
+      "word": "จะ",
+      "sentence": "ฉันกำลังเรียนจะ",
+      "reading": "jà"
+    },
+    "s-00970": {
+      "en": "wish",
+      "word": "ความปรารถนา",
+      "sentence": "นี่คือความปรารถนา",
+      "reading": "khwaam-bpràat-naa"
+    },
+    "s-00972": {
+      "en": "wonderful",
+      "word": "วิเศษมาก",
+      "sentence": "มันวิเศษมาก",
+      "reading": "wí-sèet-mâak"
+    },
+    "s-00978": {
+      "en": "would",
+      "word": "จะ",
+      "sentence": "ฉันกำลังเรียนจะ",
+      "reading": "jà"
+    },
+    "s-00980": {
+      "en": "writer",
+      "word": "นักเขียน",
+      "sentence": "นี่คือนักเขียน",
+      "reading": "nák-khǐian"
+    },
+    "s-00981": {
+      "en": "wrong",
+      "word": "ผิด",
+      "sentence": "มันผิด.",
+      "reading": "phìt"
+    },
+    "s-00985": {
+      "en": "yes",
+      "word": "ใช่",
+      "sentence": "ใช่ ฉันเข้าใจ",
+      "reading": "châi"
+    },
+    "s-00988": {
+      "en": "yogurt",
+      "word": "โยเกิร์ต",
+      "sentence": "นี่คือโยเกิร์ต",
+      "reading": "yoo-gə̀ət"
+    },
+    "s-00991": {
+      "en": "yours",
+      "word": "ของคุณ",
+      "sentence": "เรากำลังพูดถึงของคุณ",
+      "reading": "khɔ̌ɔng-khun"
+    },
+    "s-00992": {
+      "en": "yourself",
+      "word": "ตัวคุณเอง",
+      "sentence": "เรากำลังพูดถึงตัวคุณเอง",
+      "reading": "dtua-khun-eeng"
+    }
+  }
+}

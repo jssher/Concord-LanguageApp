@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/study",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Concord",
+      "hasCanvas": false,
+      "bodyTextLen": 477,
+      "bodyTextHash": "2693b8d6ba79d5d24e3fa7c1112d7283f3258365368d5408f5247c58e0800001",
+      "bodyTextPrefix": "Concord Study Path Grammar Talk English → German A1 A2 B1 B2 Phr",
+      "horizontalOverflow": false,
+      "consoleErrors": [
+        "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <Suspense fallback={null}>\n      <MatchImpl routeId=\"/study\">\n        <MatchView router={{...}} match={{id:\"/study...\", ...}}>\n          <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n            <MatchInnerImpl match={{id:\"/study...\", ...}}>\n              <Lazy>\n                <StudyPage>\n                  <Shell>\n                    <div className=\"flex min-h...\">\n                      <header>\n                      <div className=\"flex min-h...\">\n                        <div className=\"flex flex-...\">\n                          <div>\n                          <div className=\"mx-auto gr...\">\n                            <aside className=\"hidden min...\">\n                              <input\n                                value=\"\"\n                                onChange={function onChange}\n                                placeholder=\"Find a word\"\n                                className=\"mb-2 min-h-11 w-full rounded-xl border border-line bg-card px-3\"\n-                               style={{caret-color:\"transparent\"}}\n                              >\n                              ...\n                            ...\n                          ...\n"
+      ],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/study3.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Concord",
+      "hasCanvas": false,
+      "bodyTextLen": 240,
+      "bodyTextHash": "7505084b938b8299b26b1972f0c9ffeed187e088439020cd4881a5fce1dc1199",
+      "bodyTextPrefix": "Concord Study Path Grammar Talk A1 A2 B1 B2 Phrases Translated c",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/study3-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/study3.json"
+}

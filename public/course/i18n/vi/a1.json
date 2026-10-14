@@ -1,0 +1,5402 @@
+{
+  "lang": "vi",
+  "level": "A1",
+  "items": {
+    "i": {
+      "en": "I",
+      "word": "tôi",
+      "sentence": "Tôi ở đây."
+    },
+    "you": {
+      "en": "you",
+      "word": "bạn",
+      "sentence": "Bạn là bạn của tôi."
+    },
+    "woman": {
+      "en": "woman",
+      "word": "phụ nữ",
+      "sentence": "Người phụ nữ ở đây."
+    },
+    "man": {
+      "en": "man",
+      "word": "đàn ông",
+      "sentence": "Người đàn ông đang đi bộ."
+    },
+    "child": {
+      "en": "child",
+      "word": "trẻ em",
+      "sentence": "Đứa trẻ đang ngủ."
+    },
+    "name": {
+      "en": "name",
+      "word": "tên",
+      "sentence": "Tên tôi là Anna."
+    },
+    "friend": {
+      "en": "friend",
+      "word": "bạn",
+      "sentence": "Đây là bạn của tôi."
+    },
+    "family": {
+      "en": "family",
+      "word": "gia đình",
+      "sentence": "Gia đình tôi ở nhà."
+    },
+    "house": {
+      "en": "house",
+      "word": "nhà",
+      "sentence": "Ngôi nhà nhỏ."
+    },
+    "door": {
+      "en": "door",
+      "word": "cửa",
+      "sentence": "Cửa đang mở."
+    },
+    "key": {
+      "en": "key",
+      "word": "chìa khóa",
+      "sentence": "Chìa khóa ở trên bàn."
+    },
+    "table": {
+      "en": "table",
+      "word": "bàn",
+      "sentence": "Cuốn sách ở trên bàn."
+    },
+    "bed": {
+      "en": "bed",
+      "word": "giường",
+      "sentence": "Đứa trẻ ở trên giường."
+    },
+    "book": {
+      "en": "book",
+      "word": "sách",
+      "sentence": "Cuốn sách mới."
+    },
+    "water": {
+      "en": "water",
+      "word": "nước",
+      "sentence": "Nước lạnh."
+    },
+    "fire": {
+      "en": "fire",
+      "word": "lửa",
+      "sentence": "Lửa nóng."
+    },
+    "bread": {
+      "en": "bread",
+      "word": "bánh mì",
+      "sentence": "Bánh mì ngon."
+    },
+    "apple": {
+      "en": "apple",
+      "word": "táo",
+      "sentence": "Quả táo đỏ."
+    },
+    "egg": {
+      "en": "egg",
+      "word": "trứng",
+      "sentence": "Quả trứng ở trên bàn."
+    },
+    "milk": {
+      "en": "milk",
+      "word": "sữa",
+      "sentence": "Đứa trẻ uống sữa."
+    },
+    "fish": {
+      "en": "fish",
+      "word": "cá",
+      "sentence": "Con cá ở trong nước."
+    },
+    "rice": {
+      "en": "rice",
+      "word": "cơm",
+      "sentence": "Chúng tôi ăn cơm."
+    },
+    "coffee": {
+      "en": "coffee",
+      "word": "cà phê",
+      "sentence": "Cà phê nóng."
+    },
+    "eat": {
+      "en": "eat",
+      "word": "ăn",
+      "sentence": "Chúng tôi ăn bánh mì."
+    },
+    "drink": {
+      "en": "drink",
+      "word": "uống",
+      "sentence": "Tôi uống nước."
+    },
+    "see": {
+      "en": "see",
+      "word": "thấy",
+      "sentence": "Tôi thấy mặt trời."
+    },
+    "hear": {
+      "en": "hear",
+      "word": "nghe",
+      "sentence": "Tôi nghe tiếng mưa."
+    },
+    "sleep": {
+      "en": "sleep",
+      "word": "ngủ",
+      "sentence": "Đứa trẻ ngủ."
+    },
+    "walk": {
+      "en": "walk",
+      "word": "đi bộ",
+      "sentence": "Người đàn ông đi bộ."
+    },
+    "come": {
+      "en": "come",
+      "word": "đến",
+      "sentence": "Bạn đến nhà."
+    },
+    "sit": {
+      "en": "sit",
+      "word": "ngồi",
+      "sentence": "Chúng tôi ngồi ở bàn."
+    },
+    "give": {
+      "en": "give",
+      "word": "cho",
+      "sentence": "Tôi cho bạn chìa khóa."
+    },
+    "sun": {
+      "en": "sun",
+      "word": "mặt trời",
+      "sentence": "Mặt trời nóng."
+    },
+    "moon": {
+      "en": "moon",
+      "word": "mặt trăng",
+      "sentence": "Tôi thấy mặt trăng."
+    },
+    "tree": {
+      "en": "tree",
+      "word": "cây",
+      "sentence": "Cây lớn."
+    },
+    "flower": {
+      "en": "flower",
+      "word": "hoa",
+      "sentence": "Bông hoa đỏ."
+    },
+    "rain": {
+      "en": "rain",
+      "word": "mưa",
+      "sentence": "Mưa lạnh."
+    },
+    "mountain": {
+      "en": "mountain",
+      "word": "núi",
+      "sentence": "Núi lớn."
+    },
+    "river": {
+      "en": "river",
+      "word": "sông",
+      "sentence": "Sông dài."
+    },
+    "stone": {
+      "en": "stone",
+      "word": "đá",
+      "sentence": "Hòn đá nhỏ."
+    },
+    "dog": {
+      "en": "dog",
+      "word": "chó",
+      "sentence": "Con chó nhỏ."
+    },
+    "cat": {
+      "en": "cat",
+      "word": "mèo",
+      "sentence": "Con mèo đang ngủ."
+    },
+    "bird": {
+      "en": "bird",
+      "word": "chim",
+      "sentence": "Tôi thấy hai con chim."
+    },
+    "hand": {
+      "en": "hand",
+      "word": "tay",
+      "sentence": "Đây là tay tôi."
+    },
+    "eye": {
+      "en": "eye",
+      "word": "mắt",
+      "sentence": "Đây là mắt tôi."
+    },
+    "ear": {
+      "en": "ear",
+      "word": "tai",
+      "sentence": "Đây là tai tôi."
+    },
+    "head": {
+      "en": "head",
+      "word": "đầu",
+      "sentence": "Đây là đầu tôi."
+    },
+    "mouth": {
+      "en": "mouth",
+      "word": "miệng",
+      "sentence": "Đây là miệng tôi."
+    },
+    "foot": {
+      "en": "foot",
+      "word": "chân",
+      "sentence": "Chân tôi lạnh.",
+      "note": "also means leg"
+    },
+    "road": {
+      "en": "road",
+      "word": "đường",
+      "sentence": "Đường dài."
+    },
+    "city": {
+      "en": "city",
+      "word": "thành phố",
+      "sentence": "Thành phố lớn."
+    },
+    "school": {
+      "en": "school",
+      "word": "trường",
+      "sentence": "Đứa trẻ đi đến trường."
+    },
+    "sea": {
+      "en": "sea",
+      "word": "biển",
+      "sentence": "Tôi thấy biển."
+    },
+    "night": {
+      "en": "night",
+      "word": "đêm",
+      "sentence": "Đêm lạnh."
+    },
+    "one": {
+      "en": "one",
+      "word": "một",
+      "sentence": "Tôi có một quả táo."
+    },
+    "two": {
+      "en": "two",
+      "word": "hai",
+      "sentence": "Tôi thấy hai con chim."
+    },
+    "big": {
+      "en": "big",
+      "word": "lớn",
+      "sentence": "Ngôi nhà lớn."
+    },
+    "small": {
+      "en": "small",
+      "word": "nhỏ",
+      "sentence": "Đứa trẻ nhỏ."
+    },
+    "good": {
+      "en": "good",
+      "word": "tốt",
+      "sentence": "Bánh mì ngon."
+    },
+    "hot": {
+      "en": "hot",
+      "word": "nóng",
+      "sentence": "Lửa nóng."
+    },
+    "cold": {
+      "en": "cold",
+      "word": "lạnh",
+      "sentence": "Nước lạnh."
+    },
+    "red": {
+      "en": "red",
+      "word": "đỏ",
+      "sentence": "Quả táo đỏ."
+    },
+    "new": {
+      "en": "new",
+      "word": "mới",
+      "sentence": "Cuốn sách mới."
+    },
+    "this": {
+      "en": "this",
+      "word": "đây",
+      "sentence": "Đây là nhà tôi."
+    },
+    "a1-001": {
+      "en": "mother",
+      "word": "mẹ",
+      "sentence": "Mẹ tôi nấu bữa sáng cho chúng tôi mỗi sáng."
+    },
+    "a1-002": {
+      "en": "father",
+      "word": "cha",
+      "sentence": "Bố tôi lái xe đi làm mỗi sáng."
+    },
+    "a1-003": {
+      "en": "sister",
+      "word": "chị gái",
+      "sentence": "Em gái tôi giúp tôi làm bài tập về nhà."
+    },
+    "a1-004": {
+      "en": "brother",
+      "word": "anh trai",
+      "sentence": "Anh trai tôi chơi ở công viên sau giờ học."
+    },
+    "a1-005": {
+      "en": "daughter",
+      "word": "con gái",
+      "sentence": "Con gái của họ là một học sinh hạnh phúc ở trường."
+    },
+    "a1-006": {
+      "en": "son",
+      "word": "con trai",
+      "sentence": "Con trai của họ thích đọc sách vào ban đêm."
+    },
+    "a1-007": {
+      "en": "baby",
+      "word": "em bé",
+      "sentence": "Bé ngủ trên chiếc giường nhỏ vào ban đêm."
+    },
+    "a1-008": {
+      "en": "boy",
+      "word": "cậu bé",
+      "sentence": "Cậu bé đi bộ đến trường cùng em gái."
+    },
+    "a1-009": {
+      "en": "girl",
+      "word": "cô gái",
+      "sentence": "Cô bé vẽ một bức tranh về gia đình mình."
+    },
+    "a1-010": {
+      "en": "parent",
+      "word": "cha mẹ",
+      "sentence": "Cha mẹ đọc truyện cho con nghe vào buổi tối."
+    },
+    "a1-011": {
+      "en": "grandmother",
+      "word": "bà nội",
+      "sentence": "Bà tôi kể cho chúng tôi nghe những câu chuyện vào Chủ nhật."
+    },
+    "a1-012": {
+      "en": "grandfather",
+      "word": "ông nội",
+      "sentence": "Ông tôi đi dạo trong công viên mỗi sáng."
+    },
+    "a1-013": {
+      "en": "grandma",
+      "word": "bà",
+      "sentence": "Bà tôi nướng một chiếc bánh cho ngày sinh nhật của tôi."
+    },
+    "a1-014": {
+      "en": "grandpa",
+      "word": "ông nội",
+      "sentence": "Ông tôi uống trà vào buổi chiều."
+    },
+    "a1-015": {
+      "en": "aunt",
+      "word": "dì",
+      "sentence": "Dì tôi sống ở một thị trấn nhỏ gần biển."
+    },
+    "a1-016": {
+      "en": "uncle",
+      "word": "chú",
+      "sentence": "Chú tôi làm việc ở một trang trại có nhiều động vật."
+    },
+    "a1-017": {
+      "en": "cousin",
+      "word": "anh họ",
+      "sentence": "Anh họ của tôi đến thăm nhà chúng tôi vào mùa hè."
+    },
+    "a1-018": {
+      "en": "wife",
+      "word": "vợ",
+      "sentence": "Vợ anh dạy nhạc ở trường địa phương."
+    },
+    "a1-019": {
+      "en": "husband",
+      "word": "chồng",
+      "sentence": "Chồng cô ấy nấu bữa tối vào tối thứ Sáu."
+    },
+    "a1-020": {
+      "en": "twin",
+      "word": "sinh đôi",
+      "sentence": "Tôi có một người anh em sinh đôi cùng lớp ở trường."
+    },
+    "a1-021": {
+      "en": "niece",
+      "word": "cháu gái",
+      "sentence": "Cháu gái tôi năm tuổi và rất hạnh phúc."
+    },
+    "a1-022": {
+      "en": "nephew",
+      "word": "cháu trai",
+      "sentence": "Cháu trai tôi thích chơi ở sân."
+    },
+    "a1-023": {
+      "en": "grandson",
+      "word": "cháu trai",
+      "sentence": "Cháu trai của bà đến thăm bà vào mỗi chiều chủ nhật."
+    },
+    "a1-024": {
+      "en": "granddaughter",
+      "word": "cháu gái",
+      "sentence": "Cháu gái của bà vẽ tranh ở bàn bếp."
+    },
+    "a1-025": {
+      "en": "grandchild",
+      "word": "cháu nội",
+      "sentence": "Mỗi đứa cháu đều nhận được một món quà nhỏ vào ngày sinh nhật của mình."
+    },
+    "a1-026": {
+      "en": "relative",
+      "word": "tương đối",
+      "sentence": "Một người họ hàng từ thị trấn đến thăm chúng tôi vào mùa hè."
+    },
+    "a1-027": {
+      "en": "toddler",
+      "word": "trẻ mới biết đi",
+      "sentence": "Đứa trẻ mới biết đi chậm rãi băng qua phòng khách."
+    },
+    "a1-028": {
+      "en": "teenager",
+      "word": "thiếu niên",
+      "sentence": "Cậu thiếu niên giúp việc trong cửa hàng vào thứ bảy."
+    },
+    "a1-029": {
+      "en": "adult",
+      "word": "người lớn",
+      "sentence": "Một người lớn đợi cùng trẻ ở bến xe buýt."
+    },
+    "a1-030": {
+      "en": "birthday",
+      "word": "sinh nhật",
+      "sentence": "Chúng tôi cùng nhau ăn bánh vào ngày sinh nhật của tôi vào tháng Năm."
+    },
+    "a1-031": {
+      "en": "wedding",
+      "word": "lễ cưới",
+      "sentence": "Đám cưới diễn ra trong vườn vào một ngày nắng đẹp."
+    },
+    "a1-032": {
+      "en": "home",
+      "word": "nhà",
+      "sentence": "Tôi cảm thấy bình yên và hạnh phúc khi ở nhà."
+    },
+    "a1-033": {
+      "en": "brother-in-law",
+      "word": "anh rể",
+      "sentence": "Anh rể tôi làm việc ở bệnh viện thị trấn."
+    },
+    "a1-034": {
+      "en": "sister-in-law",
+      "word": "chị dâu",
+      "sentence": "Chị dâu tôi dạy trẻ ở trường."
+    },
+    "a1-035": {
+      "en": "mother-in-law",
+      "word": "mẹ chồng",
+      "sentence": "Mẹ chồng nấu canh ấm cho gia đình."
+    },
+    "a1-036": {
+      "en": "father-in-law",
+      "word": "bố vợ",
+      "sentence": "Bố chồng tôi sống ở một ngôi làng yên tĩnh."
+    },
+    "a1-037": {
+      "en": "hug",
+      "word": "ôm",
+      "sentence": "Tôi ôm bà tôi khi tôi đến thăm nhà bà."
+    },
+    "a1-038": {
+      "en": "visit",
+      "word": "thăm",
+      "sentence": "Chúng tôi đến thăm chú tôi tại trang trại của ông ấy vào mùa hè."
+    },
+    "a1-039": {
+      "en": "party",
+      "word": "bữa tiệc",
+      "sentence": "Hôm nay chúng tôi tổ chức một bữa tiệc nhỏ mừng sinh nhật cô ấy."
+    },
+    "a1-040": {
+      "en": "gift",
+      "word": "quà tặng",
+      "sentence": "Tôi tặng bố tôi một món quà vào ngày sinh nhật của ông."
+    },
+    "a1-041": {
+      "en": "shirt",
+      "word": "áo sơ mi",
+      "sentence": "Tôi mặc một chiếc áo sơ mi trắng sạch sẽ đến văn phòng."
+    },
+    "a1-042": {
+      "en": "shoe",
+      "word": "giày",
+      "sentence": "Tôi đi giày trước khi ra khỏi nhà."
+    },
+    "a1-043": {
+      "en": "coat",
+      "word": "áo khoác",
+      "sentence": "Tôi mặc áo ấm trong mùa đông lạnh giá."
+    },
+    "a1-044": {
+      "en": "dress",
+      "word": "váy",
+      "sentence": "Cô ấy mặc một chiếc váy màu xanh tới bữa tiệc tối nay."
+    },
+    "a1-045": {
+      "en": "skirt",
+      "word": "váy",
+      "sentence": "Tôi mặc váy dài đến bữa tiệc gia đình."
+    },
+    "a1-046": {
+      "en": "pants",
+      "word": "quần",
+      "sentence": "Những chiếc quần này sạch sẽ và phù hợp để đi học."
+    },
+    "a1-047": {
+      "en": "jeans",
+      "word": "quần jean",
+      "sentence": "Tôi mặc quần jean xanh và áo sơ mi vào thứ bảy."
+    },
+    "a1-048": {
+      "en": "jacket",
+      "word": "áo khoác",
+      "sentence": "Tôi mặc một chiếc áo khoác nhẹ vào một buổi tối mát mẻ."
+    },
+    "a1-049": {
+      "en": "hat",
+      "word": "mũ",
+      "sentence": "Tôi đội mũ khi nắng rất nóng."
+    },
+    "a1-050": {
+      "en": "cap",
+      "word": "mũ lưỡi trai",
+      "sentence": "Tôi đội mũ lưỡi trai ở bãi biển vào mùa hè."
+    },
+    "a1-051": {
+      "en": "sock",
+      "word": "tất",
+      "sentence": "Chiếc tất này sạch sẽ và mềm mại trên chân tôi."
+    },
+    "a1-052": {
+      "en": "sweater",
+      "word": "áo len",
+      "sentence": "Tôi mặc một chiếc áo len ấm áp trong thời tiết mùa thu."
+    },
+    "a1-053": {
+      "en": "scarf",
+      "word": "khăn choàng",
+      "sentence": "Em quàng khăn ấm khi gió lạnh."
+    },
+    "a1-054": {
+      "en": "glove",
+      "word": "găng tay",
+      "sentence": "Chiếc găng tay này giữ ấm bàn tay của tôi vào mùa đông."
+    },
+    "a1-055": {
+      "en": "belt",
+      "word": "vành đai",
+      "sentence": "Tôi đeo đai đen với quần làm việc của mình."
+    },
+    "a1-056": {
+      "en": "boot",
+      "word": "khởi động",
+      "sentence": "Chiếc ủng này giữ ấm chân tôi khi đi trên tuyết."
+    },
+    "a1-057": {
+      "en": "sandal",
+      "word": "dép xăng đan",
+      "sentence": "Sandal này rất thích hợp để đi dạo trên bãi biển."
+    },
+    "a1-058": {
+      "en": "shorts",
+      "word": "quần short",
+      "sentence": "Tôi mặc quần short khi ngày hè nóng bức."
+    },
+    "a1-059": {
+      "en": "t-shirt",
+      "word": "áo thun",
+      "sentence": "Tôi mặc áo phông trắng vào những ngày nắng ấm."
+    },
+    "a1-060": {
+      "en": "tie",
+      "word": "cà vạt",
+      "sentence": "Anh ấy đeo cà vạt tối màu với bộ vest đi làm."
+    },
+    "a1-061": {
+      "en": "button",
+      "word": "nút",
+      "sentence": "Chiếc cúc màu xanh trên áo sơ mi của tôi rất nhỏ."
+    },
+    "a1-062": {
+      "en": "pocket",
+      "word": "túi",
+      "sentence": "Chìa khóa của tôi ở trong túi áo khoác."
+    },
+    "a1-063": {
+      "en": "glasses",
+      "word": "kính",
+      "sentence": "Tôi đeo kính khi đọc sách ở nhà."
+    },
+    "a1-064": {
+      "en": "sunglasses",
+      "word": "kính râm",
+      "sentence": "Tôi đeo kính râm ở bãi biển vào những ngày nắng."
+    },
+    "a1-065": {
+      "en": "ring",
+      "word": "chiếc nhẫn",
+      "sentence": "Chiếc nhẫn trên ngón tay tôi là món quà của mẹ tôi."
+    },
+    "a1-066": {
+      "en": "necklace",
+      "word": "vòng cổ",
+      "sentence": "Hôm nay cô ấy đeo một chiếc vòng cổ với chiếc váy màu xanh."
+    },
+    "a1-067": {
+      "en": "uniform",
+      "word": "đồng phục",
+      "sentence": "Học sinh mặc đồng phục sạch sẽ khi đến trường."
+    },
+    "a1-068": {
+      "en": "pajamas",
+      "word": "đồ ngủ",
+      "sentence": "Những bộ đồ ngủ này mềm mại và ấm áp vào mùa đông."
+    },
+    "a1-069": {
+      "en": "slipper",
+      "word": "dép",
+      "sentence": "Dép này đi trong nhà mềm và ấm lắm."
+    },
+    "a1-070": {
+      "en": "raincoat",
+      "word": "áo mưa",
+      "sentence": "Tôi mặc áo mưa khi ngày mưa."
+    },
+    "a1-071": {
+      "en": "mitten",
+      "word": "găng tay",
+      "sentence": "Chiếc găng tay này giữ cho bàn tay của tôi ấm áp và khô ráo."
+    },
+    "a1-072": {
+      "en": "umbrella",
+      "word": "ô",
+      "sentence": "Tôi cầm ô khi trời nhiều mây."
+    },
+    "a1-073": {
+      "en": "watch",
+      "word": "đồng hồ",
+      "sentence": "Đồng hồ của tôi hiển thị thời gian khi tôi nhìn vào nó."
+    },
+    "a1-074": {
+      "en": "wallet",
+      "word": "ví",
+      "sentence": "Tôi cất tiền trong ví trong túi."
+    },
+    "a1-075": {
+      "en": "backpack",
+      "word": "ba lô",
+      "sentence": "Ba lô của tôi chứa đầy sách để đi học hôm nay."
+    },
+    "a1-076": {
+      "en": "clothes",
+      "word": "quần áo",
+      "sentence": "Tôi giặt quần áo vào sáng thứ bảy ở nhà."
+    },
+    "a1-077": {
+      "en": "vest",
+      "word": "áo vest",
+      "sentence": "Tôi mặc một chiếc áo vest ấm áp dưới chiếc áo khoác mùa đông của mình."
+    },
+    "a1-078": {
+      "en": "suit",
+      "word": "bộ đồ",
+      "sentence": "Hôm nay anh mặc vest tối màu đến văn phòng."
+    },
+    "a1-079": {
+      "en": "sneaker",
+      "word": "giày thể thao",
+      "sentence": "Giày sneaker này sạch sẽ và thích hợp để đi bộ."
+    },
+    "a1-080": {
+      "en": "wear",
+      "word": "mặc",
+      "sentence": "Tôi mặc áo khoác và đội mũ vào mùa đông."
+    },
+    "a1-081": {
+      "en": "today",
+      "word": "hôm nay",
+      "sentence": "Hôm nay thời tiết ấm áp và rất trong xanh."
+    },
+    "a1-082": {
+      "en": "tomorrow",
+      "word": "ngày mai",
+      "sentence": "Ngày mai chúng tôi đến thăm bà tôi vào buổi sáng."
+    },
+    "a1-083": {
+      "en": "yesterday",
+      "word": "hôm qua",
+      "sentence": "Hôm qua tôi đã giúp bố tôi làm vườn."
+    },
+    "a1-084": {
+      "en": "morning",
+      "word": "buổi sáng",
+      "sentence": "Tôi uống trà mỗi sáng trước khi ra ngoài."
+    },
+    "a1-085": {
+      "en": "evening",
+      "word": "buổi tối",
+      "sentence": "Buổi tối chúng tôi ăn tối cùng nhau ở nhà."
+    },
+    "a1-086": {
+      "en": "afternoon",
+      "word": "buổi chiều",
+      "sentence": "Tôi đọc sách vào buổi chiều yên tĩnh ở nhà."
+    },
+    "a1-087": {
+      "en": "week",
+      "word": "tuần",
+      "sentence": "Tôi gọi cho bà tôi mỗi tuần một lần."
+    },
+    "a1-088": {
+      "en": "year",
+      "word": "năm",
+      "sentence": "Có mười hai tháng trong một năm."
+    },
+    "a1-089": {
+      "en": "month",
+      "word": "tháng",
+      "sentence": "Có khoảng bốn tuần trong một tháng."
+    },
+    "a1-090": {
+      "en": "hour",
+      "word": "giờ",
+      "sentence": "Bài học tiếng Anh hôm nay dài một giờ."
+    },
+    "a1-091": {
+      "en": "minute",
+      "word": "phút",
+      "sentence": "Xin vui lòng đợi một phút và sau đó chúng tôi có thể đi."
+    },
+    "a1-092": {
+      "en": "second",
+      "word": "thứ hai",
+      "sentence": "Vui lòng đợi một chút rồi vào trong."
+    },
+    "a1-093": {
+      "en": "day",
+      "word": "ngày",
+      "sentence": "Đó là một ngày đẹp trời để đi dạo trong công viên."
+    },
+    "a1-094": {
+      "en": "monday",
+      "word": "thứ hai",
+      "sentence": "Vào thứ Hai chúng tôi có lớp học tiếng Anh ở trường."
+    },
+    "a1-095": {
+      "en": "tuesday",
+      "word": "thứ ba",
+      "sentence": "Vào thứ Ba, tôi chơi với bạn bè sau giờ học."
+    },
+    "a1-096": {
+      "en": "wednesday",
+      "word": "thứ tư",
+      "sentence": "Vào thứ Tư, chúng tôi ăn súp vào bữa trưa ở nhà."
+    },
+    "a1-097": {
+      "en": "thursday",
+      "word": "thứ năm",
+      "sentence": "Vào thứ Năm, tôi đến thăm bà tôi sau giờ học."
+    },
+    "a1-098": {
+      "en": "friday",
+      "word": "thứ sáu",
+      "sentence": "Vào thứ Sáu, chúng tôi xem một bộ phim tại rạp chiếu phim địa phương."
+    },
+    "a1-099": {
+      "en": "saturday",
+      "word": "thứ bảy",
+      "sentence": "Vào thứ bảy tôi giặt quần áo vào buổi sáng."
+    },
+    "a1-100": {
+      "en": "sunday",
+      "word": "chủ nhật",
+      "sentence": "Vào Chủ Nhật, gia đình chúng tôi ăn trưa cùng nhau ở nhà."
+    },
+    "a1-101": {
+      "en": "weekend",
+      "word": "cuối tuần",
+      "sentence": "Chúng tôi nghỉ ngơi ở nhà vào cuối tuần và đọc sách."
+    },
+    "a1-102": {
+      "en": "clock",
+      "word": "đồng hồ",
+      "sentence": "Đồng hồ trong bếp hiển thị thời gian chính xác."
+    },
+    "a1-103": {
+      "en": "calendar",
+      "word": "lịch",
+      "sentence": "Tôi viết ngày sinh nhật của mình lên lịch nhà bếp."
+    },
+    "a1-104": {
+      "en": "time",
+      "word": "thời gian",
+      "sentence": "Sáng nay mấy giờ lớp học bắt đầu?"
+    },
+    "a1-105": {
+      "en": "early",
+      "word": "sớm",
+      "sentence": "Tôi bắt chuyến tàu sớm vào thành phố để làm việc."
+    },
+    "a1-106": {
+      "en": "late",
+      "word": "muộn",
+      "sentence": "Sáng nay xe buýt đến muộn vì tắc đường."
+    },
+    "a1-107": {
+      "en": "soon",
+      "word": "sớm thôi",
+      "sentence": "Bữa tối sẽ sẵn sàng sớm thôi, vì vậy hãy ngồi xuống."
+    },
+    "a1-108": {
+      "en": "now",
+      "word": "bây giờ",
+      "sentence": "Bây giờ học sinh đang ở trong lớp để học bài."
+    },
+    "a1-109": {
+      "en": "always",
+      "word": "luôn luôn",
+      "sentence": "Tôi luôn đánh răng trước khi đi ngủ."
+    },
+    "a1-110": {
+      "en": "sometimes",
+      "word": "đôi khi",
+      "sentence": "Thỉnh thoảng tôi đi bộ đến trường với anh trai tôi."
+    },
+    "a1-111": {
+      "en": "never",
+      "word": "không bao giờ",
+      "sentence": "Tôi không bao giờ quên chìa khóa khi rời khỏi nhà."
+    },
+    "a1-112": {
+      "en": "often",
+      "word": "thường xuyên",
+      "sentence": "Chúng tôi thường ghé thăm công viên vào chiều chủ nhật."
+    },
+    "a1-113": {
+      "en": "usually",
+      "word": "thường",
+      "sentence": "Tôi thường uống trà vào bữa sáng mỗi sáng."
+    },
+    "a1-114": {
+      "en": "noon",
+      "word": "buổi trưa",
+      "sentence": "Chúng tôi ăn trưa vào buổi trưa mỗi ngày ở trường."
+    },
+    "a1-115": {
+      "en": "midnight",
+      "word": "nửa đêm",
+      "sentence": "Thị trấn yên tĩnh và tối tăm vào lúc nửa đêm."
+    },
+    "a1-116": {
+      "en": "tonight",
+      "word": "tối nay",
+      "sentence": "Tối nay chúng tôi nấu mì ống và ăn cùng nhau ở nhà."
+    },
+    "a1-117": {
+      "en": "spring",
+      "word": "mùa xuân",
+      "sentence": "Khu vườn xanh tươi và rực rỡ vào mùa xuân."
+    },
+    "a1-118": {
+      "en": "summer",
+      "word": "mùa hè",
+      "sentence": "Chúng tôi bơi trong hồ trong mùa hè nóng bức."
+    },
+    "a1-119": {
+      "en": "autumn",
+      "word": "mùa thu",
+      "sentence": "Tôi mặc một chiếc áo len ấm áp trong mùa thu mát mẻ."
+    },
+    "a1-120": {
+      "en": "winter",
+      "word": "mùa đông",
+      "sentence": "Tôi mặc một chiếc áo khoác dày trong mùa đông lạnh giá."
+    },
+    "a1-121": {
+      "en": "street",
+      "word": "đường phố",
+      "sentence": "Nhà của chúng tôi nằm trên một con phố yên tĩnh gần công viên."
+    },
+    "a1-122": {
+      "en": "station",
+      "word": "trạm",
+      "sentence": "Chúng tôi đợi tàu ở ga mỗi sáng."
+    },
+    "a1-123": {
+      "en": "hospital",
+      "word": "bệnh viện",
+      "sentence": "Dì tôi làm y tá ở bệnh viện."
+    },
+    "a1-124": {
+      "en": "hotel",
+      "word": "khách sạn",
+      "sentence": "Chúng tôi ở tại một khách sạn nhỏ gần bãi biển."
+    },
+    "a1-125": {
+      "en": "shop",
+      "word": "cửa hàng",
+      "sentence": "Cửa hàng trên phố của chúng tôi bán bánh mì và trái cây."
+    },
+    "a1-126": {
+      "en": "market",
+      "word": "thị trường",
+      "sentence": "Tôi mua trái cây tươi ở chợ vào thứ bảy."
+    },
+    "a1-127": {
+      "en": "bank",
+      "word": "ngân hàng",
+      "sentence": "Tôi giữ tiền ở ngân hàng trong thị trấn."
+    },
+    "a1-128": {
+      "en": "park",
+      "word": "công viên",
+      "sentence": "Trẻ em chơi ở công viên sau giờ học mỗi ngày."
+    },
+    "a1-129": {
+      "en": "library",
+      "word": "thư viện",
+      "sentence": "Tôi đọc sách ở thư viện gần nhà."
+    },
+    "a1-130": {
+      "en": "restaurant",
+      "word": "nhà hàng",
+      "sentence": "Chúng tôi ăn tối tại một nhà hàng vào tối thứ bảy."
+    },
+    "a1-131": {
+      "en": "cafe",
+      "word": "quán cà phê",
+      "sentence": "Chúng tôi uống trà ở quán cà phê gần ga."
+    },
+    "a1-132": {
+      "en": "museum",
+      "word": "viện bảo tàng",
+      "sentence": "Bảo tàng mở cửa vào chiều Chủ nhật cho các gia đình."
+    },
+    "a1-133": {
+      "en": "cinema",
+      "word": "rạp chiếu phim",
+      "sentence": "Chúng tôi đi xem phim vào tối thứ Sáu với bạn bè."
+    },
+    "a1-134": {
+      "en": "theater",
+      "word": "rạp hát",
+      "sentence": "Chúng tôi xem một vở kịch ở nhà hát vào tối thứ bảy."
+    },
+    "a1-135": {
+      "en": "pharmacy",
+      "word": "hiệu thuốc",
+      "sentence": "Tôi mua thuốc ở hiệu thuốc gần nhà."
+    },
+    "a1-136": {
+      "en": "church",
+      "word": "nhà thờ",
+      "sentence": "Nhà thờ yên tĩnh vào sáng thứ Hai ở thị trấn của chúng tôi."
+    },
+    "a1-137": {
+      "en": "bridge",
+      "word": "cầu",
+      "sentence": "Chúng tôi đi bộ qua cầu đến công viên thành phố."
+    },
+    "a1-138": {
+      "en": "square",
+      "word": "hình vuông",
+      "sentence": "Mọi người gặp nhau ở quảng trường thị trấn vào ngày họp chợ."
+    },
+    "a1-139": {
+      "en": "corner",
+      "word": "góc",
+      "sentence": "Ngân hàng nằm ở góc cạnh tiệm bánh."
+    },
+    "a1-140": {
+      "en": "building",
+      "word": "tòa nhà",
+      "sentence": "Bệnh viện là một tòa nhà lớn ở thị trấn của chúng tôi."
+    },
+    "a1-141": {
+      "en": "address",
+      "word": "địa chỉ",
+      "sentence": "Hãy viết rõ địa chỉ của bạn trên giấy."
+    },
+    "a1-142": {
+      "en": "map",
+      "word": "bản đồ",
+      "sentence": "Tôi nhìn vào bản đồ khi tôi muốn tìm bảo tàng."
+    },
+    "a1-143": {
+      "en": "supermarket",
+      "word": "siêu thị",
+      "sentence": "Chúng tôi mua thực phẩm ở siêu thị vào mỗi sáng thứ Bảy."
+    },
+    "a1-144": {
+      "en": "bakery",
+      "word": "tiệm bánh",
+      "sentence": "Tôi mua bánh mì tươi ở tiệm bánh vào buổi sáng."
+    },
+    "a1-145": {
+      "en": "clinic",
+      "word": "phòng khám",
+      "sentence": "Tôi đến phòng khám khi tôi cảm thấy không khỏe."
+    },
+    "a1-146": {
+      "en": "airport",
+      "word": "sân bay",
+      "sentence": "Chúng tôi bắt xe buýt đến sân bay vào sáng sớm."
+    },
+    "a1-147": {
+      "en": "office",
+      "word": "văn phòng",
+      "sentence": "Bố tôi làm việc ở văn phòng gần nhà ga."
+    },
+    "a1-148": {
+      "en": "town",
+      "word": "thị trấn",
+      "sentence": "Thị trấn của chúng tôi có chợ, công viên và thư viện."
+    },
+    "a1-149": {
+      "en": "village",
+      "word": "làng",
+      "sentence": "Ông bà tôi sống ở một ngôi làng yên tĩnh bên bờ sông."
+    },
+    "a1-150": {
+      "en": "sidewalk",
+      "word": "vỉa hè",
+      "sentence": "Hãy đi bộ trên vỉa hè gần con phố đông đúc."
+    },
+    "a1-151": {
+      "en": "traffic",
+      "word": "giao thông",
+      "sentence": "Giao thông chậm vào buổi sáng gần trường học."
+    },
+    "a1-152": {
+      "en": "sign",
+      "word": "ký tên",
+      "sentence": "Biển báo ở góc chỉ đường đến nhà ga."
+    },
+    "a1-153": {
+      "en": "bench",
+      "word": "băng ghế dự bị",
+      "sentence": "Chúng tôi ngồi trên một chiếc ghế dài trong công viên và nói chuyện cùng nhau."
+    },
+    "a1-154": {
+      "en": "playground",
+      "word": "sân chơi",
+      "sentence": "Trẻ em chơi ở sân chơi sau giờ học mỗi ngày."
+    },
+    "a1-155": {
+      "en": "zoo",
+      "word": "sở thú",
+      "sentence": "Chúng tôi nhìn thấy một con sư tử và một con voi ở sở thú."
+    },
+    "a1-156": {
+      "en": "beach",
+      "word": "bãi biển",
+      "sentence": "Chúng tôi đi dạo trên bãi biển và bơi lội vào mùa hè."
+    },
+    "a1-157": {
+      "en": "tower",
+      "word": "tháp",
+      "sentence": "Tòa tháp cũ cao và dễ dàng nhìn thấy từ thị trấn."
+    },
+    "a1-158": {
+      "en": "gate",
+      "word": "cánh cổng",
+      "sentence": "Vui lòng đóng cổng khi bạn rời khỏi vườn."
+    },
+    "a1-159": {
+      "en": "stamp",
+      "word": "tem",
+      "sentence": "Tôi dán tem lên bức thư gửi chú tôi."
+    },
+    "a1-160": {
+      "en": "postcard",
+      "word": "bưu thiếp",
+      "sentence": "Tôi gửi một tấm bưu thiếp cho bà tôi từ bãi biển."
+    },
+    "a1-161": {
+      "en": "teacher",
+      "word": "giáo viên",
+      "sentence": "Giáo viên viết từ mới lên bảng mỗi ngày."
+    },
+    "a1-162": {
+      "en": "student",
+      "word": "sinh viên",
+      "sentence": "Hôm nay học sinh đọc một câu chuyện ngắn trong lớp."
+    },
+    "a1-163": {
+      "en": "classroom",
+      "word": "lớp học",
+      "sentence": "Lớp học của chúng tôi sáng sủa, sạch sẽ và rất yên tĩnh."
+    },
+    "a1-164": {
+      "en": "desk",
+      "word": "bàn",
+      "sentence": "Tôi ngồi vào bàn và viết vào cuốn sổ của mình."
+    },
+    "a1-165": {
+      "en": "chair",
+      "word": "cái ghế",
+      "sentence": "Chiếc ghế đặt cạnh bàn cạnh cửa sổ."
+    },
+    "a1-166": {
+      "en": "pen",
+      "word": "cây bút",
+      "sentence": "Tôi viết tên mình bằng bút xanh trên giấy."
+    },
+    "a1-167": {
+      "en": "pencil",
+      "word": "bút chì",
+      "sentence": "Tôi vẽ một ngôi nhà nhỏ bằng bút chì màu vàng."
+    },
+    "a1-168": {
+      "en": "paper",
+      "word": "giấy",
+      "sentence": "Hãy viết tên bạn lên giấy ngay bây giờ."
+    },
+    "a1-169": {
+      "en": "notebook",
+      "word": "sổ tay",
+      "sentence": "Tôi viết những từ mới vào sổ tay của mình mỗi ngày."
+    },
+    "a1-170": {
+      "en": "page",
+      "word": "trang",
+      "sentence": "Hãy đọc chậm trang đầu tiên của bài học."
+    },
+    "a1-171": {
+      "en": "board",
+      "word": "bảng",
+      "sentence": "Giáo viên viết ngày lên bảng vào mỗi buổi sáng."
+    },
+    "a1-172": {
+      "en": "chalk",
+      "word": "phấn",
+      "sentence": "Giáo viên viết bằng phấn trắng lên bảng."
+    },
+    "a1-173": {
+      "en": "marker",
+      "word": "điểm đánh dấu",
+      "sentence": "Tôi viết lên bảng bằng bút dạ màu đen."
+    },
+    "a1-174": {
+      "en": "eraser",
+      "word": "cục tẩy",
+      "sentence": "Cục tẩy ở cạnh cây bút chì trên bàn của tôi."
+    },
+    "a1-175": {
+      "en": "ruler",
+      "word": "người cai trị",
+      "sentence": "Tôi vẽ một đường thẳng bằng thước kẻ trong lớp."
+    },
+    "a1-176": {
+      "en": "homework",
+      "word": "bài tập về nhà",
+      "sentence": "Tôi làm bài tập ở bàn bếp mỗi tối."
+    },
+    "a1-177": {
+      "en": "lesson",
+      "word": "bài học",
+      "sentence": "Chúng tôi có một bài học tiếng Anh mỗi sáng ở trường."
+    },
+    "a1-178": {
+      "en": "class",
+      "word": "lớp học",
+      "sentence": "Lớp học của chúng tôi bắt đầu lúc tám giờ sáng."
+    },
+    "a1-179": {
+      "en": "question",
+      "word": "câu hỏi",
+      "sentence": "Tôi đặt câu hỏi khi tôi không hiểu bài học."
+    },
+    "a1-180": {
+      "en": "answer",
+      "word": "câu trả lời",
+      "sentence": "Tôi viết câu trả lời vào sổ tay của mình rất cẩn thận."
+    },
+    "a1-181": {
+      "en": "word",
+      "word": "từ",
+      "sentence": "Chúng tôi học một từ mới trong lớp vào mỗi buổi sáng."
+    },
+    "a1-182": {
+      "en": "sentence",
+      "word": "câu",
+      "sentence": "Hãy viết một câu ngắn với từ mới."
+    },
+    "a1-183": {
+      "en": "letter",
+      "word": "chữ cái",
+      "sentence": "Chữ A rất dễ viết trên bảng."
+    },
+    "a1-184": {
+      "en": "test",
+      "word": "kiểm tra",
+      "sentence": "Chúng tôi có một bài kiểm tra ngắn vào sáng thứ Sáu trong lớp."
+    },
+    "a1-185": {
+      "en": "dictionary",
+      "word": "từ điển",
+      "sentence": "Tôi tra một từ mới trong từ điển ở trường."
+    },
+    "a1-186": {
+      "en": "picture",
+      "word": "bức tranh",
+      "sentence": "Tôi vẽ một bức tranh về gia đình tôi và ngôi nhà của chúng tôi."
+    },
+    "a1-187": {
+      "en": "bag",
+      "word": "túi",
+      "sentence": "Cặp sách của tôi ở dưới ghế trong lớp học."
+    },
+    "a1-188": {
+      "en": "scissors",
+      "word": "kéo",
+      "sentence": "Những chiếc kéo này ở trên bàn để học mỹ thuật."
+    },
+    "a1-189": {
+      "en": "glue",
+      "word": "keo dán",
+      "sentence": "Tôi dùng keo để dán bức tranh lên giấy."
+    },
+    "a1-190": {
+      "en": "crayon",
+      "word": "bút chì màu",
+      "sentence": "Tôi tô màu bức tranh bằng bút chì màu đỏ trong lớp."
+    },
+    "a1-191": {
+      "en": "classmate",
+      "word": "bạn cùng lớp",
+      "sentence": "Bạn cùng lớp của tôi giúp tôi làm bài tập về nhà sau giờ học."
+    },
+    "a1-192": {
+      "en": "bell",
+      "word": "chuông",
+      "sentence": "Tiếng chuông kết thúc ngày học vang lên."
+    },
+    "a1-193": {
+      "en": "note",
+      "word": "ghi chú",
+      "sentence": "Tôi viết một bức thư ngắn cho bạn tôi trong giờ học."
+    },
+    "a1-194": {
+      "en": "textbook",
+      "word": "sách giáo khoa",
+      "sentence": "Hãy mở sách giáo khoa của bạn đến trang đầu tiên ngay bây giờ."
+    },
+    "a1-195": {
+      "en": "read",
+      "word": "đọc",
+      "sentence": "Tôi đọc một câu chuyện ngắn vào mỗi buổi tối trước khi đi ngủ."
+    },
+    "a1-196": {
+      "en": "write",
+      "word": "viết",
+      "sentence": "Tôi viết tên mình ở đầu trang."
+    },
+    "a1-197": {
+      "en": "study",
+      "word": "học",
+      "sentence": "Tôi ôn bài cho bài kiểm tra thứ Sáu với bạn cùng lớp."
+    },
+    "a1-198": {
+      "en": "learn",
+      "word": "học",
+      "sentence": "Chúng tôi học mười từ mới trong lớp mỗi tuần."
+    },
+    "a1-199": {
+      "en": "draw",
+      "word": "vẽ",
+      "sentence": "Tôi vẽ một bức tranh về một ngôi nhà và một khu vườn."
+    },
+    "a1-200": {
+      "en": "ask",
+      "word": "hỏi",
+      "sentence": "Em xin thầy giúp bài khó ạ."
+    },
+    "a1-201": {
+      "en": "weather",
+      "word": "thời tiết",
+      "sentence": "Thời tiết sáng nay ấm áp và đầy nắng ở thị trấn."
+    },
+    "a1-202": {
+      "en": "cloud",
+      "word": "đám mây",
+      "sentence": "Một đám mây trắng di chuyển chậm rãi trên bầu trời xanh."
+    },
+    "a1-203": {
+      "en": "snow",
+      "word": "tuyết",
+      "sentence": "Trẻ em thích chơi trong tuyết vào mùa đông."
+    },
+    "a1-204": {
+      "en": "wind",
+      "word": "gió",
+      "sentence": "Gió rất mạnh gần biển chiều nay."
+    },
+    "a1-205": {
+      "en": "storm",
+      "word": "cơn bão",
+      "sentence": "Chúng tôi ở trong nhà trong cơn bão lớn."
+    },
+    "a1-206": {
+      "en": "ice",
+      "word": "băng",
+      "sentence": "Sáng nay lạnh có băng trên vỉa hè."
+    },
+    "a1-207": {
+      "en": "fog",
+      "word": "sương mù",
+      "sentence": "Chúng tôi lái xe chậm vì sương mù rất dày."
+    },
+    "a1-208": {
+      "en": "sky",
+      "word": "bầu trời",
+      "sentence": "Bầu trời trong xanh và trong xanh sau cơn mưa buổi sáng."
+    },
+    "a1-209": {
+      "en": "sunny",
+      "word": "nắng",
+      "sentence": "Trời nắng nên chúng tôi ăn trưa ngoài công viên."
+    },
+    "a1-210": {
+      "en": "rainy",
+      "word": "nhiều mưa",
+      "sentence": "Trời mưa nên tôi mang ô đi học."
+    },
+    "a1-211": {
+      "en": "cloudy",
+      "word": "nhiều mây",
+      "sentence": "Trời nhiều mây nhưng không khí bên ngoài vẫn ấm áp."
+    },
+    "a1-212": {
+      "en": "windy",
+      "word": "nhiều gió",
+      "sentence": "Trời có gió nên tôi mặc áo khoác và quàng khăn."
+    },
+    "a1-213": {
+      "en": "snowy",
+      "word": "có tuyết",
+      "sentence": "Trời có tuyết và công viên trông trắng xóa và yên tĩnh."
+    },
+    "a1-214": {
+      "en": "warm",
+      "word": "ấm áp",
+      "sentence": "Món súp ấm áp và ngon miệng vào một ngày mùa đông lạnh giá."
+    },
+    "a1-215": {
+      "en": "cool",
+      "word": "mát mẻ",
+      "sentence": "Không khí buổi tối mát mẻ sau buổi chiều nóng nực."
+    },
+    "a1-216": {
+      "en": "wet",
+      "word": "ướt",
+      "sentence": "Giày của tôi bị ướt sau khi tôi đi bộ về nhà dưới mưa."
+    },
+    "a1-217": {
+      "en": "dry",
+      "word": "khô",
+      "sentence": "Áo khoác của tôi lại khô sau cơn mưa buổi sáng."
+    },
+    "a1-218": {
+      "en": "temperature",
+      "word": "nhiệt độ",
+      "sentence": "Nhiệt độ hôm nay ở thị trấn là 20 độ."
+    },
+    "a1-219": {
+      "en": "degree",
+      "word": "bằng cấp",
+      "sentence": "Sáng nay trời lạnh hơn một độ."
+    },
+    "a1-220": {
+      "en": "forecast",
+      "word": "dự báo",
+      "sentence": "Dự báo thời tiết nói ngày mai trời sẽ ấm áp và khô ráo."
+    },
+    "a1-221": {
+      "en": "lightning",
+      "word": "tia sét",
+      "sentence": "Chúng ta nhìn thấy tia chớp sáng trên bầu trời tối vào ban đêm."
+    },
+    "a1-222": {
+      "en": "thunder",
+      "word": "sấm sét",
+      "sentence": "Những đứa trẻ nghe thấy tiếng sấm lớn trong cơn bão."
+    },
+    "a1-223": {
+      "en": "rainbow",
+      "word": "cầu vồng",
+      "sentence": "Chúng ta nhìn thấy cầu vồng rực rỡ sau khi hết mưa."
+    },
+    "a1-224": {
+      "en": "frost",
+      "word": "sương giá",
+      "sentence": "Sáng nay sương trắng đọng trên cỏ."
+    },
+    "a1-225": {
+      "en": "breeze",
+      "word": "gió nhẹ",
+      "sentence": "Chiều nay gió biển thổi về mát lành."
+    },
+    "a1-226": {
+      "en": "shade",
+      "word": "bóng râm",
+      "sentence": "Chúng tôi ngồi dưới bóng cây lớn vào buổi trưa."
+    },
+    "a1-227": {
+      "en": "sunshine",
+      "word": "ánh nắng mặt trời",
+      "sentence": "Sáng nay ánh nắng ấm áp trên mặt tôi."
+    },
+    "a1-228": {
+      "en": "foggy",
+      "word": "có sương mù",
+      "sentence": "Trời có sương mù nên ô tô trên đường chạy chậm."
+    },
+    "a1-229": {
+      "en": "icy",
+      "word": "băng giá",
+      "sentence": "Vỉa hè đóng băng nên hãy đi bộ thật cẩn thận."
+    },
+    "a1-230": {
+      "en": "mild",
+      "word": "nhẹ nhàng",
+      "sentence": "Thời tiết ôn hòa vào mùa xuân ở thị trấn của chúng tôi."
+    },
+    "a1-231": {
+      "en": "clear",
+      "word": "rõ ràng",
+      "sentence": "Bầu trời đêm trong xanh và tôi có thể nhìn thấy rất nhiều ngôi sao."
+    },
+    "a1-232": {
+      "en": "puddle",
+      "word": "vũng nước",
+      "sentence": "Đứa trẻ nhảy qua một vũng nước nhỏ sau cơn mưa."
+    },
+    "a1-233": {
+      "en": "drizzle",
+      "word": "mưa phùn",
+      "sentence": "Sáng nay một cơn mưa phùn nhẹ rơi xuống vườn."
+    },
+    "a1-234": {
+      "en": "hail",
+      "word": "mưa đá",
+      "sentence": "Mưa đá ầm ĩ trên mái nhà của chúng tôi."
+    },
+    "a1-235": {
+      "en": "stormy",
+      "word": "giông bão",
+      "sentence": "Trời đang bão nên chúng tôi ở nhà và đọc sách."
+    },
+    "a1-236": {
+      "en": "outside",
+      "word": "bên ngoài",
+      "sentence": "Chúng tôi ăn trưa bên ngoài khi thời tiết ấm áp."
+    },
+    "a1-237": {
+      "en": "tea",
+      "word": "trà",
+      "sentence": "Tôi uống trà nóng với một ít mật ong vào mỗi buổi sáng."
+    },
+    "a1-238": {
+      "en": "sugar",
+      "word": "đường",
+      "sentence": "Tôi cho một ít đường vào tách trà của mình."
+    },
+    "a1-239": {
+      "en": "salt",
+      "word": "muối",
+      "sentence": "Tôi cho một ít muối vào súp rau."
+    },
+    "a1-240": {
+      "en": "cheese",
+      "word": "phô mai",
+      "sentence": "Tôi thích phô mai trên bánh mì ấm cho bữa trưa đơn giản."
+    },
+    "a1-241": {
+      "en": "meat",
+      "word": "thịt",
+      "sentence": "Chúng tôi cùng nhau ăn thịt và rau vào bữa tối nay."
+    },
+    "a1-242": {
+      "en": "fruit",
+      "word": "trái cây",
+      "sentence": "Tôi ăn trái cây tươi vào bữa sáng mỗi sáng."
+    },
+    "a1-243": {
+      "en": "banana",
+      "word": "chuối",
+      "sentence": "Tôi ăn một quả chuối vàng sau giờ học mỗi ngày."
+    },
+    "a1-244": {
+      "en": "orange",
+      "word": "trái cam",
+      "sentence": "Quả cam này ngọt ngào và đầy nước lạnh."
+    },
+    "a1-245": {
+      "en": "tomato",
+      "word": "cà chua",
+      "sentence": "Tôi cắt một quả cà chua đỏ cho món salad vào bữa trưa."
+    },
+    "a1-246": {
+      "en": "potato",
+      "word": "khoai tây",
+      "sentence": "Tôi nấu khoai tây trong lò cho bữa tối tối nay."
+    },
+    "a1-247": {
+      "en": "carrot",
+      "word": "cà rốt",
+      "sentence": "Con thỏ thích một củ cà rốt tươi từ khu vườn của chúng tôi."
+    },
+    "a1-248": {
+      "en": "onion",
+      "word": "hành tây",
+      "sentence": "Tôi cắt một củ hành cho món súp trên bếp."
+    },
+    "a1-249": {
+      "en": "salad",
+      "word": "xà lách",
+      "sentence": "Tôi ăn salad xanh vào bữa trưa hàng ngày."
+    },
+    "a1-250": {
+      "en": "soup",
+      "word": "súp",
+      "sentence": "Món súp này ấm áp và rất tốt cho bữa trưa."
+    },
+    "a1-251": {
+      "en": "vegetable",
+      "word": "rau",
+      "sentence": "Hãy ăn một loại rau trong bữa tối nay nhé."
+    },
+    "a1-252": {
+      "en": "juice",
+      "word": "nước trái cây",
+      "sentence": "Tôi uống một ly nước trái cây vào bữa sáng."
+    },
+    "a1-253": {
+      "en": "pepper",
+      "word": "hạt tiêu",
+      "sentence": "Tôi thêm một ít hạt tiêu vào món súp nóng."
+    },
+    "a1-254": {
+      "en": "butter",
+      "word": "bơ",
+      "sentence": "Tôi phết bơ lên bánh mì ấm vào bữa sáng."
+    },
+    "a1-255": {
+      "en": "cake",
+      "word": "bánh ngọt",
+      "sentence": "Chúng tôi chia sẻ một chiếc bánh nhỏ trong bữa tiệc sinh nhật."
+    },
+    "a1-256": {
+      "en": "cookie",
+      "word": "bánh quy",
+      "sentence": "Tôi ăn một chiếc bánh quy với trà vào buổi chiều."
+    },
+    "a1-257": {
+      "en": "sandwich",
+      "word": "bánh sandwich",
+      "sentence": "Tôi mang bánh sandwich phô mai đến trường để ăn trưa."
+    },
+    "a1-258": {
+      "en": "pizza",
+      "word": "pizza",
+      "sentence": "Chúng tôi cùng nhau ăn pizza ở nhà vào tối thứ Sáu."
+    },
+    "a1-259": {
+      "en": "pasta",
+      "word": "mì ống",
+      "sentence": "Tôi nấu mì ống với phô mai cho bữa tối gia đình nhanh chóng."
+    },
+    "a1-260": {
+      "en": "honey",
+      "word": "em yêu",
+      "sentence": "Tôi thích một chút mật ong trong trà mỗi sáng."
+    },
+    "a1-261": {
+      "en": "breakfast",
+      "word": "bữa ăn sáng",
+      "sentence": "Chúng tôi cùng ăn sáng trước khi đi học."
+    },
+    "a1-262": {
+      "en": "lunch",
+      "word": "bữa trưa",
+      "sentence": "Tôi ăn trưa vào buổi trưa với bạn bè ở trường."
+    },
+    "a1-263": {
+      "en": "dinner",
+      "word": "bữa tối",
+      "sentence": "Gia đình chúng tôi ăn tối cùng nhau lúc bảy giờ mỗi tối."
+    },
+    "a1-264": {
+      "en": "plate",
+      "word": "tấm",
+      "sentence": "Vui lòng đặt một chiếc đĩa sạch lên bàn cho bữa tối."
+    },
+    "a1-265": {
+      "en": "bowl",
+      "word": "bát",
+      "sentence": "Tôi ăn súp ấm từ một chiếc bát màu xanh vào bữa trưa."
+    },
+    "a1-266": {
+      "en": "cup",
+      "word": "cốc",
+      "sentence": "Tôi uống trà từ chiếc cốc màu xanh vào mỗi buổi sáng."
+    },
+    "a1-267": {
+      "en": "glass",
+      "word": "ly",
+      "sentence": "Xin vui lòng cho tôi một ly sạch để uống nước lạnh."
+    },
+    "a1-268": {
+      "en": "fork",
+      "word": "cái nĩa",
+      "sentence": "Tôi ăn món salad xanh bằng nĩa vào bữa trưa."
+    },
+    "a1-269": {
+      "en": "knife",
+      "word": "con dao",
+      "sentence": "Tôi cắt cà chua bằng một con dao làm bếp nhỏ."
+    },
+    "a1-270": {
+      "en": "spoon",
+      "word": "cái thìa",
+      "sentence": "Tôi ăn súp bằng thìa trong bát."
+    },
+    "a1-271": {
+      "en": "stove",
+      "word": "bếp lò",
+      "sentence": "Nồi súp bây giờ đã ấm trên bếp."
+    },
+    "a1-272": {
+      "en": "oven",
+      "word": "lò nướng",
+      "sentence": "Bánh sinh nhật nướng trong lò trong một giờ."
+    },
+    "a1-273": {
+      "en": "fridge",
+      "word": "tủ lạnh",
+      "sentence": "Tôi để nước trái cây và sữa vào tủ lạnh."
+    },
+    "a1-274": {
+      "en": "bottle",
+      "word": "chai",
+      "sentence": "Tôi mở chai nước trái cây cho bọn trẻ vào bữa trưa."
+    },
+    "a1-275": {
+      "en": "hungry",
+      "word": "đói bụng",
+      "sentence": "Tôi đói nên tôi làm bánh sandwich phô mai cho bữa trưa."
+    },
+    "a1-276": {
+      "en": "cook",
+      "word": "nấu",
+      "sentence": "Tối nay tôi nấu mì ống với rau cho gia đình."
+    },
+    "a1-277": {
+      "en": "room",
+      "word": "phòng",
+      "sentence": "Căn phòng này hôm nay yên tĩnh, ấm áp và rất sạch sẽ."
+    },
+    "a1-278": {
+      "en": "window",
+      "word": "cửa sổ",
+      "sentence": "Tôi mở cửa sổ vào buổi sáng để có không khí trong lành."
+    },
+    "a1-279": {
+      "en": "kitchen",
+      "word": "nhà bếp",
+      "sentence": "Chúng tôi nấu bữa tối và ăn cùng nhau trong bếp."
+    },
+    "a1-280": {
+      "en": "lamp",
+      "word": "đèn",
+      "sentence": "Ngọn đèn trên bàn tôi tỏa ra thứ ánh sáng ấm áp dịu nhẹ."
+    },
+    "a1-281": {
+      "en": "bathroom",
+      "word": "phòng tắm",
+      "sentence": "Tôi rửa mặt và tay trong phòng tắm."
+    },
+    "a1-282": {
+      "en": "bedroom",
+      "word": "phòng ngủ",
+      "sentence": "Tôi đọc một cuốn sách ngắn trong phòng ngủ của tôi mỗi tối."
+    },
+    "a1-283": {
+      "en": "wall",
+      "word": "bức tường",
+      "sentence": "Một bức tranh gia đình treo trên tường phía trên ghế sofa."
+    },
+    "a1-284": {
+      "en": "floor",
+      "word": "sàn nhà",
+      "sentence": "Sàn nhà bếp sạch sẽ sau bữa tối."
+    },
+    "a1-285": {
+      "en": "roof",
+      "word": "mái nhà",
+      "sentence": "Mùa xuân chim đậu trên mái nhà."
+    },
+    "a1-286": {
+      "en": "ceiling",
+      "word": "trần nhà",
+      "sentence": "Một ánh sáng rực rỡ treo trên trần nhà bếp của chúng tôi."
+    },
+    "a1-287": {
+      "en": "stair",
+      "word": "cầu thang",
+      "sentence": "Cầu thang gần cửa bếp sạch sẽ, khô ráo."
+    },
+    "a1-288": {
+      "en": "garden",
+      "word": "vườn",
+      "sentence": "Chúng tôi trồng cà chua và hoa hồng ở khu vườn phía sau nhà."
+    },
+    "a1-289": {
+      "en": "yard",
+      "word": "sân",
+      "sentence": "Bọn trẻ chơi bóng ở sân sau giờ học."
+    },
+    "a1-290": {
+      "en": "garage",
+      "word": "gara",
+      "sentence": "Bố tôi cho xe vào gara mỗi tối."
+    },
+    "a1-291": {
+      "en": "hallway",
+      "word": "hành lang",
+      "sentence": "Hành lang từ cửa vào phòng ngủ vắng lặng."
+    },
+    "a1-292": {
+      "en": "balcony",
+      "word": "ban công",
+      "sentence": "Chúng tôi uống trà ngoài ban công vào buổi tối ấm áp."
+    },
+    "a1-293": {
+      "en": "closet",
+      "word": "tủ quần áo",
+      "sentence": "Tôi treo áo khoác và áo sơ mi trong tủ."
+    },
+    "a1-294": {
+      "en": "mirror",
+      "word": "gương",
+      "sentence": "Tôi nhìn vào gương trước khi ra khỏi nhà."
+    },
+    "a1-295": {
+      "en": "curtain",
+      "word": "rèm",
+      "sentence": "Tôi kéo rèm phòng ngủ khi đi ngủ."
+    },
+    "a1-296": {
+      "en": "carpet",
+      "word": "thảm",
+      "sentence": "Tấm thảm trong phòng khách mềm mại và có màu xanh lam."
+    },
+    "a1-297": {
+      "en": "sofa",
+      "word": "ghế sofa",
+      "sentence": "Chúng tôi ngồi trên ghế sofa và nói chuyện cùng nhau sau bữa tối."
+    },
+    "a1-298": {
+      "en": "shelf",
+      "word": "kệ",
+      "sentence": "Sách của tôi xếp thành hàng ngay ngắn trên kệ."
+    },
+    "a1-299": {
+      "en": "drawer",
+      "word": "ngăn kéo",
+      "sentence": "Tôi cất những chiếc tất sạch của mình ở ngăn kéo trên cùng."
+    },
+    "a1-300": {
+      "en": "toilet",
+      "word": "nhà vệ sinh",
+      "sentence": "Nhà vệ sinh nằm trong phòng tắm cạnh vòi sen."
+    },
+    "a1-301": {
+      "en": "shower",
+      "word": "tắm",
+      "sentence": "Tôi tắm nước ấm vào mỗi buổi sáng trước khi đi học."
+    },
+    "a1-302": {
+      "en": "bath",
+      "word": "tắm",
+      "sentence": "Bé thích tắm nước ấm vào mỗi buổi tối ở nhà."
+    },
+    "a1-303": {
+      "en": "towel",
+      "word": "khăn tắm",
+      "sentence": "Tôi lau khô tay trên một chiếc khăn sạch sau khi rửa."
+    },
+    "a1-304": {
+      "en": "soap",
+      "word": "xà phòng",
+      "sentence": "Tôi rửa tay bằng xà phòng trước mỗi bữa ăn."
+    },
+    "a1-305": {
+      "en": "pillow",
+      "word": "cái gối",
+      "sentence": "Gối của tôi mềm mại và tôi ngủ rất ngon vào ban đêm."
+    },
+    "a1-306": {
+      "en": "blanket",
+      "word": "chăn",
+      "sentence": "Tôi ngủ trong chăn ấm vào những đêm đông lạnh giá."
+    },
+    "a1-307": {
+      "en": "furniture",
+      "word": "đồ nội thất",
+      "sentence": "Chúng ta di chuyển đồ đạc khi dọn dẹp phòng khách."
+    },
+    "a1-308": {
+      "en": "apartment",
+      "word": "căn hộ",
+      "sentence": "Căn hộ của chúng tôi có một nhà bếp nhỏ và hai phòng ngủ."
+    },
+    "a1-309": {
+      "en": "cupboard",
+      "word": "tủ đựng đồ",
+      "sentence": "Những chiếc đĩa và cốc ở trong tủ bếp."
+    },
+    "a1-310": {
+      "en": "rug",
+      "word": "tấm thảm",
+      "sentence": "Một tấm thảm màu xanh nằm trên sàn cạnh giường."
+    },
+    "a1-311": {
+      "en": "living room",
+      "word": "phòng khách",
+      "sentence": "Chúng tôi cùng nhau xem phim trong phòng khách vào buổi tối."
+    },
+    "a1-312": {
+      "en": "sink",
+      "word": "bồn rửa",
+      "sentence": "Tôi rửa cốc và đĩa trong bồn rửa nhà bếp."
+    },
+    "a1-313": {
+      "en": "faucet",
+      "word": "vòi nước",
+      "sentence": "Tôi mở vòi và rửa tay bằng xà phòng."
+    },
+    "a1-314": {
+      "en": "chimney",
+      "word": "ống khói",
+      "sentence": "Một chút khói bốc lên từ ống khói vào mùa đông."
+    },
+    "a1-315": {
+      "en": "porch",
+      "word": "hiên nhà",
+      "sentence": "Chúng tôi ngồi ngoài hiên trò chuyện trong buổi tối mát mẻ."
+    },
+    "a1-316": {
+      "en": "cushion",
+      "word": "đệm",
+      "sentence": "Chiếc đệm màu xanh trên ghế sofa mềm mại và sạch sẽ."
+    },
+    "a1-317": {
+      "en": "hair",
+      "word": "tóc",
+      "sentence": "Tôi gội đầu dưới vòi hoa sen vào mỗi buổi sáng."
+    },
+    "a1-318": {
+      "en": "nose",
+      "word": "mũi",
+      "sentence": "Mũi tôi cảm thấy lạnh khi gió mùa đông thổi qua."
+    },
+    "a1-319": {
+      "en": "tooth",
+      "word": "răng",
+      "sentence": "Tôi đánh răng vào buổi sáng và buổi tối."
+    },
+    "a1-320": {
+      "en": "arm",
+      "word": "cánh tay",
+      "sentence": "Tôi xách chiếc túi nặng bằng tay phải."
+    },
+    "a1-321": {
+      "en": "leg",
+      "word": "chân",
+      "sentence": "Tôi nghỉ chân trái sau một chuyến đi bộ dài trong thị trấn."
+    },
+    "a1-322": {
+      "en": "back",
+      "word": "lưng",
+      "sentence": "Lưng tôi cảm thấy dễ chịu hơn sau khi nghỉ ngơi trên ghế sofa."
+    },
+    "a1-323": {
+      "en": "finger",
+      "word": "ngón tay",
+      "sentence": "Tôi đeo một chiếc nhẫn nhỏ ở ngón tay trái."
+    },
+    "a1-324": {
+      "en": "toe",
+      "word": "ngón chân",
+      "sentence": "Ngón chân cái của tôi cảm thấy ấm áp bên trong chiếc tất dày mùa đông."
+    },
+    "a1-325": {
+      "en": "knee",
+      "word": "đầu gối",
+      "sentence": "Tôi uốn cong đầu gối khi bước lên cầu thang."
+    },
+    "a1-326": {
+      "en": "elbow",
+      "word": "khuỷu tay",
+      "sentence": "Tôi tựa khuỷu tay lên bàn trong khi đọc."
+    },
+    "a1-327": {
+      "en": "shoulder",
+      "word": "vai",
+      "sentence": "Tôi mang cặp đi học trên vai trái."
+    },
+    "a1-328": {
+      "en": "neck",
+      "word": "cái cổ",
+      "sentence": "Chiếc khăn mềm mại giữ ấm cổ tôi trong mùa đông."
+    },
+    "a1-329": {
+      "en": "face",
+      "word": "đối mặt",
+      "sentence": "Tôi rửa mặt bằng nước ấm vào mỗi buổi sáng."
+    },
+    "a1-330": {
+      "en": "stomach",
+      "word": "dạ dày",
+      "sentence": "Bụng tôi cảm thấy no sau một bữa tối thịnh soạn, ấm áp."
+    },
+    "a1-331": {
+      "en": "chest",
+      "word": "ngực",
+      "sentence": "Ngực tôi cảm thấy mạnh mẽ khi tôi thở chậm bên ngoài."
+    },
+    "a1-332": {
+      "en": "heart",
+      "word": "trái tim",
+      "sentence": "Hôm nay bác sĩ chăm chú lắng nghe trái tim tôi."
+    },
+    "a1-333": {
+      "en": "skin",
+      "word": "da",
+      "sentence": "Da tôi cảm thấy ấm áp trong ánh nắng chiều chói chang."
+    },
+    "a1-334": {
+      "en": "bone",
+      "word": "khúc xương",
+      "sentence": "Bác sĩ nhìn vào xương ở cánh tay trái của tôi."
+    },
+    "a1-335": {
+      "en": "tongue",
+      "word": "lưỡi",
+      "sentence": "Tôi có thể nếm được vị mật ngọt ngào trên đầu lưỡi."
+    },
+    "a1-336": {
+      "en": "lip",
+      "word": "môi",
+      "sentence": "Có một chút mật ong từ trà trên môi tôi."
+    },
+    "a1-337": {
+      "en": "chin",
+      "word": "cái cằm",
+      "sentence": "Em bé có một ít súp trên cằm sau bữa trưa."
+    },
+    "a1-338": {
+      "en": "cheek",
+      "word": "má",
+      "sentence": "Tôi hôn nhẹ lên má con tôi."
+    },
+    "a1-339": {
+      "en": "beard",
+      "word": "râu",
+      "sentence": "Chú tôi có bộ râu ngắn và nụ cười ấm áp."
+    },
+    "a1-340": {
+      "en": "throat",
+      "word": "cổ họng",
+      "sentence": "Trà ấm rất tốt cho cổ họng của tôi vào ngày lạnh."
+    },
+    "a1-341": {
+      "en": "wrist",
+      "word": "cổ tay",
+      "sentence": "Bác sĩ giữ cổ tay tôi và lắng nghe trái tim tôi."
+    },
+    "a1-342": {
+      "en": "ankle",
+      "word": "mắt cá chân",
+      "sentence": "Mắt cá chân của tôi cảm thấy dễ chịu hơn sau một thời gian ngắn nghỉ ngơi ở nhà."
+    },
+    "a1-343": {
+      "en": "thumb",
+      "word": "ngón tay cái",
+      "sentence": "Tôi cầm bút chì bằng ngón tay cái và ngón tay của mình."
+    },
+    "a1-344": {
+      "en": "body",
+      "word": "cơ thể",
+      "sentence": "Đi bộ ngắn mỗi ngày rất tốt cho toàn bộ cơ thể."
+    },
+    "a1-345": {
+      "en": "blood",
+      "word": "máu",
+      "sentence": "Máu di chuyển qua tim và đi khắp cơ thể."
+    },
+    "a1-346": {
+      "en": "voice",
+      "word": "giọng nói",
+      "sentence": "Cô ấy có giọng hát trong trẻo khi hát một bài hát đơn giản."
+    },
+    "a1-347": {
+      "en": "sick",
+      "word": "bị bệnh",
+      "sentence": "Khi bị bệnh, tôi nằm trên giường và uống trà ấm."
+    },
+    "a1-348": {
+      "en": "healthy",
+      "word": "khỏe mạnh",
+      "sentence": "Trái cây tươi và đi bộ hàng ngày giúp tôi khỏe mạnh."
+    },
+    "a1-349": {
+      "en": "tired",
+      "word": "mệt mỏi",
+      "sentence": "Tôi thấy mệt nên ngồi xuống nghỉ một lát."
+    },
+    "a1-350": {
+      "en": "fever",
+      "word": "sốt",
+      "sentence": "Khi bị sốt, tôi nghỉ ngơi và uống nhiều nước."
+    },
+    "a1-351": {
+      "en": "medicine",
+      "word": "y học",
+      "sentence": "Tôi uống thuốc với một cốc nước mỗi sáng."
+    },
+    "a1-352": {
+      "en": "doctor",
+      "word": "bác sĩ",
+      "sentence": "Bác sĩ rất tốt bụng và giải đáp mọi thắc mắc của tôi."
+    },
+    "a1-353": {
+      "en": "nurse",
+      "word": "y tá",
+      "sentence": "Cô y tá mỉm cười và giúp bác sĩ chăm sóc bệnh nhân."
+    },
+    "a1-354": {
+      "en": "cough",
+      "word": "ho",
+      "sentence": "Hôm nay cơn ho của tôi đỡ hơn nhiều sau khi uống trà ấm."
+    },
+    "a1-355": {
+      "en": "hurt",
+      "word": "đau",
+      "sentence": "Đầu gối của tôi không bị đau khi tôi đi bộ chậm ngày hôm nay."
+    },
+    "a1-356": {
+      "en": "smile",
+      "word": "mỉm cười",
+      "sentence": "Tôi mỉm cười với người hàng xóm khi nhìn thấy cô ấy ở bên ngoài."
+    },
+    "a1-357": {
+      "en": "go",
+      "word": "đi",
+      "sentence": "Tôi đi chợ với mẹ vào thứ bảy."
+    },
+    "a1-358": {
+      "en": "run",
+      "word": "chạy",
+      "sentence": "Chúng tôi cùng nhau chạy bộ trong công viên vào mỗi buổi sáng trước khi đến trường."
+    },
+    "a1-359": {
+      "en": "stand",
+      "word": "đứng",
+      "sentence": "Hãy đứng gần cửa và đợi giáo viên."
+    },
+    "a1-360": {
+      "en": "open",
+      "word": "mở",
+      "sentence": "Hãy mở cửa sổ và để chút không khí trong lành vào."
+    },
+    "a1-361": {
+      "en": "close",
+      "word": "đóng",
+      "sentence": "Vui lòng đóng cửa nhẹ nhàng khi bạn rời khỏi phòng."
+    },
+    "a1-362": {
+      "en": "take",
+      "word": "lấy",
+      "sentence": "Tôi bắt xe buýt đến trường vào mỗi buổi sáng với bạn bè."
+    },
+    "a1-363": {
+      "en": "bring",
+      "word": "mang",
+      "sentence": "Tôi mang bánh sandwich và một ít trái cây đến trường để ăn trưa."
+    },
+    "a1-364": {
+      "en": "put",
+      "word": "đặt",
+      "sentence": "Vui lòng đặt sách của bạn lên bàn trước giờ học."
+    },
+    "a1-365": {
+      "en": "make",
+      "word": "làm",
+      "sentence": "Chúng tôi cùng nhau làm bữa sáng vào mỗi sáng Chủ nhật ở nhà."
+    },
+    "a1-366": {
+      "en": "do",
+      "word": "làm",
+      "sentence": "Tôi làm bài tập ở bàn bếp mỗi tối."
+    },
+    "a1-367": {
+      "en": "have",
+      "word": "có",
+      "sentence": "Chúng tôi cùng nhau ăn trưa ấm áp vào buổi trưa hàng ngày."
+    },
+    "a1-368": {
+      "en": "want",
+      "word": "muốn",
+      "sentence": "Tôi muốn một cốc nước lạnh sau chuyến đi dài."
+    },
+    "a1-369": {
+      "en": "need",
+      "word": "cần",
+      "sentence": "Tôi cần một cây bút chì và một ít giấy cho bài kiểm tra ngày hôm nay."
+    },
+    "a1-370": {
+      "en": "like",
+      "word": "thích",
+      "sentence": "Tôi thích trái cây tươi và một ít pho mát cho bữa sáng."
+    },
+    "a1-371": {
+      "en": "love",
+      "word": "yêu",
+      "sentence": "Tôi yêu gia đình mình và tôi thích giúp đỡ họ ở nhà."
+    },
+    "a1-372": {
+      "en": "know",
+      "word": "biết",
+      "sentence": "Tôi biết một đoạn đường ngắn từ nhà chúng tôi tới ga."
+    },
+    "a1-373": {
+      "en": "think",
+      "word": "nghĩ",
+      "sentence": "Tôi nghĩ câu chuyện nhỏ này rất rõ ràng và rất tử tế."
+    },
+    "a1-374": {
+      "en": "say",
+      "word": "nói",
+      "sentence": "Hãy nói tên của bạn từ từ để cả lớp có thể nghe thấy."
+    },
+    "a1-375": {
+      "en": "tell",
+      "word": "kể",
+      "sentence": "Làm ơn chỉ cho tôi đường đến bệnh viện từ đây."
+    },
+    "a1-376": {
+      "en": "talk",
+      "word": "nói chuyện",
+      "sentence": "Chúng tôi nói về ngày của chúng tôi cùng nhau vào bữa tối mỗi tối."
+    },
+    "a1-377": {
+      "en": "speak",
+      "word": "nói",
+      "sentence": "Tôi nói chuyện với giáo viên sau giờ học vào chiều thứ Sáu."
+    },
+    "a1-378": {
+      "en": "work",
+      "word": "làm việc",
+      "sentence": "Mẹ tôi thích làm việc tại bệnh viện trong thị trấn của chúng tôi."
+    },
+    "a1-379": {
+      "en": "play",
+      "word": "chơi",
+      "sentence": "Bọn trẻ chơi một trò chơi vui vẻ trong công viên sau giờ học."
+    },
+    "a1-380": {
+      "en": "buy",
+      "word": "mua",
+      "sentence": "Tôi mua bánh mì tươi ở tiệm bánh vào mỗi sáng thứ Bảy."
+    },
+    "a1-381": {
+      "en": "help",
+      "word": "giúp",
+      "sentence": "Tôi giúp em trai tôi làm bài tập đọc."
+    },
+    "a1-382": {
+      "en": "wait",
+      "word": "chờ",
+      "sentence": "Chúng tôi cùng nhau đợi chuyến xe buýt buổi sáng ở nhà ga."
+    },
+    "a1-383": {
+      "en": "look",
+      "word": "nhìn",
+      "sentence": "Hãy nhìn lên bảng và đọc câu mới."
+    },
+    "a1-384": {
+      "en": "live",
+      "word": "sống",
+      "sentence": "Chúng tôi sống trong một căn hộ nhỏ rất gần công viên thị trấn."
+    },
+    "a1-385": {
+      "en": "stay",
+      "word": "ở",
+      "sentence": "Tôi ở nhà và nghỉ ngơi khi cảm thấy mệt mỏi hoặc ốm."
+    },
+    "a1-386": {
+      "en": "leave",
+      "word": "rời",
+      "sentence": "Chúng tôi rời nhà lúc tám giờ mỗi sáng để đến trường."
+    },
+    "a1-387": {
+      "en": "start",
+      "word": "bắt đầu",
+      "sentence": "Chúng tôi bắt đầu bài học tiếng Anh lúc chín giờ mỗi sáng."
+    },
+    "a1-388": {
+      "en": "stop",
+      "word": "dừng",
+      "sentence": "Xe dừng ở góc đường khi đèn đỏ."
+    },
+    "a1-389": {
+      "en": "find",
+      "word": "tìm",
+      "sentence": "Tôi tìm thấy chìa khóa của mình trên chiếc bàn nhỏ cạnh cửa."
+    },
+    "a1-390": {
+      "en": "use",
+      "word": "dùng",
+      "sentence": "Chúng ta sử dụng từ điển khi học một từ tiếng Anh mới."
+    },
+    "a1-391": {
+      "en": "try",
+      "word": "thử",
+      "sentence": "Tôi thử một loại trái cây mới ở chợ mỗi tuần."
+    },
+    "a1-392": {
+      "en": "understand",
+      "word": "hiểu",
+      "sentence": "Tôi hiểu câu hỏi và tôi có thể đưa ra câu trả lời."
+    },
+    "a1-393": {
+      "en": "show",
+      "word": "cho xem",
+      "sentence": "Vui lòng xuất trình vé tàu của bạn cho tài xế tại cửa."
+    },
+    "a1-394": {
+      "en": "sing",
+      "word": "hát",
+      "sentence": "Chúng tôi cùng nhau hát một bài hát vui vẻ đơn giản trong lớp học âm nhạc."
+    },
+    "a1-395": {
+      "en": "drive",
+      "word": "lái",
+      "sentence": "Bố tôi có thể lái chiếc xe của gia đình đi làm mỗi sáng."
+    },
+    "a1-396": {
+      "en": "swim",
+      "word": "bơi",
+      "sentence": "Chúng tôi bơi trong hồ nước sạch khi thời tiết mùa hè ấm áp."
+    },
+    "a1-397": {
+      "en": "be",
+      "word": "là",
+      "sentence": "Tôi muốn trở thành một giáo viên tốt bụng khi học xong."
+    },
+    "a1-398": {
+      "en": "can",
+      "word": "có thể",
+      "sentence": "Tôi có thể đạp xe đến trường khi thời tiết khô ráo."
+    },
+    "a1-399": {
+      "en": "horse",
+      "word": "con ngựa",
+      "sentence": "Con ngựa chạy qua cánh đồng xanh vào buổi sáng."
+    },
+    "a1-400": {
+      "en": "cow",
+      "word": "con bò",
+      "sentence": "Con bò ăn cỏ tươi trên đồng suốt ngày."
+    },
+    "a1-401": {
+      "en": "pig",
+      "word": "con lợn",
+      "sentence": "Con lợn thích lăn lộn trong bùn ở trang trại."
+    },
+    "a1-402": {
+      "en": "sheep",
+      "word": "cừu",
+      "sentence": "Một con cừu ăn cỏ bên cạnh người nông dân trên cánh đồng."
+    },
+    "a1-403": {
+      "en": "goat",
+      "word": "con dê",
+      "sentence": "Con dê leo lên một ngọn đồi nhỏ gần trang trại mỗi ngày."
+    },
+    "a1-404": {
+      "en": "chicken",
+      "word": "gà",
+      "sentence": "Con gà đi quanh sân và tìm kiếm thức ăn."
+    },
+    "a1-405": {
+      "en": "mouse",
+      "word": "chuột",
+      "sentence": "Một con chuột nhỏ sống trên cánh đồng yên tĩnh gần trang trại."
+    },
+    "a1-406": {
+      "en": "rabbit",
+      "word": "con thỏ",
+      "sentence": "Con thỏ ăn một củ cà rốt tươi ở vườn sau."
+    },
+    "a1-407": {
+      "en": "duck",
+      "word": "con vịt",
+      "sentence": "Vịt bơi lội trên ao cùng đàn con nhỏ."
+    },
+    "a1-408": {
+      "en": "goose",
+      "word": "ngỗng",
+      "sentence": "Một con ngỗng trắng đi dạo gần hồ trong công viên thị trấn."
+    },
+    "a1-409": {
+      "en": "lion",
+      "word": "sư tử",
+      "sentence": "Con sư tử nằm lặng lẽ dưới bóng râm ở vườn thú."
+    },
+    "a1-410": {
+      "en": "tiger",
+      "word": "hổ",
+      "sentence": "Con hổ có màu cam và đen và sống ở sở thú."
+    },
+    "a1-411": {
+      "en": "bear",
+      "word": "gấu",
+      "sentence": "Con gấu thích mật ngọt và nghỉ ngơi vào mùa đông."
+    },
+    "a1-412": {
+      "en": "elephant",
+      "word": "con voi",
+      "sentence": "Con voi điềm tĩnh và hiền lành với mọi người ở sở thú."
+    },
+    "a1-413": {
+      "en": "monkey",
+      "word": "khỉ",
+      "sentence": "Con khỉ ăn chuối và chơi đùa trên cây cao."
+    },
+    "a1-414": {
+      "en": "snake",
+      "word": "con rắn",
+      "sentence": "Một con rắn nhỏ nằm trên tảng đá ấm áp dưới ánh mặt trời."
+    },
+    "a1-415": {
+      "en": "frog",
+      "word": "ếch",
+      "sentence": "Một chú ếch xanh ngồi trên chiếc lá bên cạnh mặt ao yên tĩnh."
+    },
+    "a1-416": {
+      "en": "turtle",
+      "word": "rùa",
+      "sentence": "Rùa di chuyển chậm rãi trên cát về phía nước."
+    },
+    "a1-417": {
+      "en": "spider",
+      "word": "nhện",
+      "sentence": "Một con nhện giăng một cái mạng nhỏ ở góc vườn."
+    },
+    "a1-418": {
+      "en": "bee",
+      "word": "con ong",
+      "sentence": "Một con ong đậu trên bông hồng đỏ trong khu vườn đầy nắng của chúng tôi."
+    },
+    "a1-419": {
+      "en": "butterfly",
+      "word": "bướm",
+      "sentence": "Một con bướm vàng đậu trên một bông hoa trong vườn."
+    },
+    "a1-420": {
+      "en": "whale",
+      "word": "cá voi",
+      "sentence": "Cá voi bơi xa trong đại dương xanh thẳm."
+    },
+    "a1-421": {
+      "en": "dolphin",
+      "word": "cá heo",
+      "sentence": "Cá heo nhảy ra khỏi làn nước biển xanh."
+    },
+    "a1-422": {
+      "en": "donkey",
+      "word": "con lừa",
+      "sentence": "Con lừa mang túi trái cây đi khắp trang trại."
+    },
+    "a1-423": {
+      "en": "zebra",
+      "word": "ngựa vằn",
+      "sentence": "Ngựa vằn có các đường màu đen và trắng trên cơ thể."
+    },
+    "a1-424": {
+      "en": "giraffe",
+      "word": "hươu cao cổ",
+      "sentence": "Con hươu cao cổ cao ăn lá từ ngọn cây."
+    },
+    "a1-425": {
+      "en": "fox",
+      "word": "cáo",
+      "sentence": "Con cáo sống trong một cái hang gần khu rừng xanh yên tĩnh."
+    },
+    "a1-426": {
+      "en": "deer",
+      "word": "hươu",
+      "sentence": "Một con nai uống nước mát từ suối rừng."
+    },
+    "a1-427": {
+      "en": "owl",
+      "word": "cú",
+      "sentence": "Con cú ngồi rất lặng lẽ trên cây vào ban đêm."
+    },
+    "a1-428": {
+      "en": "parrot",
+      "word": "con vẹt",
+      "sentence": "Vẹt xanh có thể nói vài lời thân thiện đơn giản."
+    },
+    "a1-429": {
+      "en": "penguin",
+      "word": "chim cánh cụt",
+      "sentence": "Chim cánh cụt đi trên băng rồi bơi rất giỏi."
+    },
+    "a1-430": {
+      "en": "camel",
+      "word": "lạc đà",
+      "sentence": "Lạc đà đi chậm rãi trên sa mạc khô nóng."
+    },
+    "a1-431": {
+      "en": "squirrel",
+      "word": "con sóc",
+      "sentence": "Một con sóc trèo lên cây và cầm một quả hạch nhỏ."
+    },
+    "a1-432": {
+      "en": "puppy",
+      "word": "cún con",
+      "sentence": "Chú chó con chơi với một quả bóng mềm trong phòng khách."
+    },
+    "a1-433": {
+      "en": "kitten",
+      "word": "mèo con",
+      "sentence": "Mèo con ngủ trên chiếc ghế ấm áp dưới nắng chiều."
+    },
+    "a1-434": {
+      "en": "hamster",
+      "word": "chuột đồng",
+      "sentence": "Chú chuột hamster nhỏ chạy trên một bánh xe nhỏ vào ban đêm."
+    },
+    "a1-435": {
+      "en": "pet",
+      "word": "thú cưng",
+      "sentence": "Một chú chó hiền lành có thể là thú cưng hạnh phúc trong một gia đình."
+    },
+    "a1-436": {
+      "en": "wolf",
+      "word": "chó sói",
+      "sentence": "Sói sống cùng gia đình sâu trong rừng."
+    },
+    "a1-437": {
+      "en": "tail",
+      "word": "đuôi",
+      "sentence": "Con chó vẫy đuôi khi bọn trẻ về nhà."
+    },
+    "a1-438": {
+      "en": "wing",
+      "word": "cánh",
+      "sentence": "Con chim nhấc một cánh rồi bay lên trời."
+    },
+    "a1-439": {
+      "en": "grass",
+      "word": "cỏ",
+      "sentence": "Cỏ trong công viên xanh mướt và mềm mại sau cơn mưa."
+    },
+    "a1-440": {
+      "en": "leaf",
+      "word": "lá",
+      "sentence": "Một chiếc lá vàng rơi từ trên cây xuống đất."
+    },
+    "a1-441": {
+      "en": "forest",
+      "word": "rừng",
+      "sentence": "Chúng tôi lặng lẽ đi bộ qua khu rừng mát mẻ vào sáng Chủ nhật."
+    },
+    "a1-442": {
+      "en": "field",
+      "word": "cánh đồng",
+      "sentence": "Những con ngựa ăn cỏ xanh trên cánh đồng rộng mở."
+    },
+    "a1-443": {
+      "en": "hill",
+      "word": "đồi núi",
+      "sentence": "Chúng tôi đi bộ chậm rãi lên ngọn đồi xanh phía sau làng."
+    },
+    "a1-444": {
+      "en": "lake",
+      "word": "hồ",
+      "sentence": "Mặt hồ phẳng lặng và trong xanh vào buổi chiều đầy nắng này."
+    },
+    "a1-445": {
+      "en": "ocean",
+      "word": "đại dương",
+      "sentence": "Đại dương trông rất xanh và rộng từ bờ biển cao."
+    },
+    "a1-446": {
+      "en": "island",
+      "word": "hòn đảo",
+      "sentence": "Hòn đảo nhỏ yên tĩnh và trong xanh giữa đại dương xanh."
+    },
+    "a1-447": {
+      "en": "sand",
+      "word": "cát",
+      "sentence": "Cát trên bãi biển có cảm giác ấm áp vào buổi chiều."
+    },
+    "a1-448": {
+      "en": "rock",
+      "word": "đá",
+      "sentence": "Chúng tôi ngồi trên một tảng đá lớn bằng phẳng và nhìn ra hồ."
+    },
+    "a1-449": {
+      "en": "ground",
+      "word": "mặt đất",
+      "sentence": "Quả táo đỏ rơi xuống đất dưới gốc cây cổ thụ."
+    },
+    "a1-450": {
+      "en": "star",
+      "word": "ngôi sao",
+      "sentence": "Tôi nhìn thấy một ngôi sao sáng trên bầu trời quang đãng vào ban đêm."
+    },
+    "a1-451": {
+      "en": "plant",
+      "word": "thực vật",
+      "sentence": "Cây xanh này cần nước và ánh sáng vào mỗi buổi sáng."
+    },
+    "a1-452": {
+      "en": "seed",
+      "word": "hạt giống",
+      "sentence": "Tôi đặt một hạt giống nhỏ vào đất và tưới nước."
+    },
+    "a1-453": {
+      "en": "root",
+      "word": "gốc",
+      "sentence": "Rễ cây mọc sâu dưới lớp đất tối."
+    },
+    "a1-454": {
+      "en": "branch",
+      "word": "chi nhánh",
+      "sentence": "Một con chim nhỏ đậu trên cành cây thấp."
+    },
+    "a1-455": {
+      "en": "bush",
+      "word": "bụi cây",
+      "sentence": "Một con thỏ trốn dưới bụi cây xanh trong sân nhà chúng tôi."
+    },
+    "a1-456": {
+      "en": "rose",
+      "word": "hoa hồng",
+      "sentence": "Bông hồng đỏ trong vườn của chúng tôi có hương thơm ngọt ngào vào buổi sáng."
+    },
+    "a1-457": {
+      "en": "valley",
+      "word": "thung lũng",
+      "sentence": "Dòng sông trong vắt chảy qua thung lũng xanh rộng."
+    },
+    "a1-458": {
+      "en": "cave",
+      "word": "hang động",
+      "sentence": "Hang động bên trong ngọn đồi tối tăm, mát mẻ và yên tĩnh."
+    },
+    "a1-459": {
+      "en": "desert",
+      "word": "sa mạc",
+      "sentence": "Sa mạc nóng và khô, có cát và ít cây cối."
+    },
+    "a1-460": {
+      "en": "pond",
+      "word": "ao",
+      "sentence": "Một vài con vịt bơi trong ao phía sau trang trại cũ."
+    },
+    "a1-461": {
+      "en": "stream",
+      "word": "dòng suối",
+      "sentence": "Dòng nước trong veo lạnh buốt chảy nhanh trong dòng suối rừng nhỏ."
+    },
+    "a1-462": {
+      "en": "cliff",
+      "word": "vách đá",
+      "sentence": "Chúng tôi đứng cách xa vách đá phía trên đại dương."
+    },
+    "a1-463": {
+      "en": "shore",
+      "word": "bờ biển",
+      "sentence": "Những đứa trẻ chơi đùa trên bờ khi thời tiết ấm áp."
+    },
+    "a1-464": {
+      "en": "wave",
+      "word": "làn sóng",
+      "sentence": "Một làn sóng nhỏ dâng lên trên cát rồi quay trở lại."
+    },
+    "a1-465": {
+      "en": "land",
+      "word": "đất đai",
+      "sentence": "Những người nông dân trồng rau trên mảnh đất xanh này hàng năm."
+    },
+    "a1-466": {
+      "en": "soil",
+      "word": "đất",
+      "sentence": "Đất trong vườn của chúng tôi màu tối, mềm và tốt cho cây trồng."
+    },
+    "a1-467": {
+      "en": "air",
+      "word": "không khí",
+      "sentence": "Tôi mở cửa sổ vì tôi muốn chút không khí trong lành."
+    },
+    "a1-468": {
+      "en": "world",
+      "word": "thế giới",
+      "sentence": "Mọi người trên khắp thế giới chia sẻ ẩm thực, âm nhạc và những câu chuyện."
+    },
+    "a1-469": {
+      "en": "country",
+      "word": "đất nước",
+      "sentence": "Nước ta có rừng xanh, sông dài, núi cao."
+    },
+    "a1-470": {
+      "en": "jungle",
+      "word": "rừng nhiệt đới",
+      "sentence": "Rừng rậm ấm áp, xanh tươi và đầy cây cao."
+    },
+    "a1-471": {
+      "en": "path",
+      "word": "con đường",
+      "sentence": "Chúng tôi đi theo một con đường hẹp xuyên qua khu rừng buổi sáng yên tĩnh."
+    },
+    "a1-472": {
+      "en": "mud",
+      "word": "bùn",
+      "sentence": "Có bùn mềm trên ủng của tôi sau khi đi dạo dưới mưa."
+    },
+    "a1-473": {
+      "en": "farm",
+      "word": "trang trại",
+      "sentence": "Chú tôi nuôi bò, cừu và gà trong trang trại của mình."
+    },
+    "a1-474": {
+      "en": "earth",
+      "word": "trái đất",
+      "sentence": "Chúng tôi trồng khoai tây và cà rốt trên mảnh đất phía sau nhà."
+    },
+    "a1-475": {
+      "en": "person",
+      "word": "người",
+      "sentence": "Người đứng gần cửa lớp là giáo viên tiếng Anh của chúng tôi."
+    },
+    "a1-476": {
+      "en": "neighbor",
+      "word": "hàng xóm",
+      "sentence": "Hàng xóm của tôi tưới hoa trong vườn nhà cô ấy vào mỗi buổi tối."
+    },
+    "a1-477": {
+      "en": "guest",
+      "word": "khách",
+      "sentence": "Khách của chúng tôi ngồi cùng gia đình trong phòng khách."
+    },
+    "a1-478": {
+      "en": "customer",
+      "word": "khách hàng",
+      "sentence": "Khách hàng mua táo và bánh mì tươi tại cửa hàng."
+    },
+    "a1-479": {
+      "en": "waiter",
+      "word": "bồi bàn",
+      "sentence": "Người phục vụ mang cốc nước tới bàn của chúng tôi."
+    },
+    "a1-480": {
+      "en": "chef",
+      "word": "đầu bếp",
+      "sentence": "Đầu bếp nấu súp và bánh mì tươi tại nhà hàng."
+    },
+    "a1-481": {
+      "en": "farmer",
+      "word": "nông dân",
+      "sentence": "Người nông dân cho bò ăn vào mỗi buổi sáng sớm."
+    },
+    "a1-482": {
+      "en": "driver",
+      "word": "người lái xe",
+      "sentence": "Tài xế xe buýt dừng gần trường mỗi sáng."
+    },
+    "a1-483": {
+      "en": "pilot",
+      "word": "phi công",
+      "sentence": "Phi công lái máy bay qua đại dương đến một quốc gia khác."
+    },
+    "a1-484": {
+      "en": "artist",
+      "word": "nghệ sĩ",
+      "sentence": "Họa sĩ vẽ nên một bức tranh tuyệt đẹp về đại dương xanh."
+    },
+    "a1-485": {
+      "en": "dentist",
+      "word": "nha sĩ",
+      "sentence": "Tôi đến gặp nha sĩ hai lần mỗi năm."
+    },
+    "a1-486": {
+      "en": "patient",
+      "word": "bệnh nhân",
+      "sentence": "Bệnh nhân lặng lẽ chờ đợi bác sĩ trong phòng khám."
+    },
+    "a1-487": {
+      "en": "worker",
+      "word": "công nhân",
+      "sentence": "Người công nhân có mặt tại nơi làm việc lúc 8 giờ mỗi sáng."
+    },
+    "a1-488": {
+      "en": "baker",
+      "word": "thợ làm bánh",
+      "sentence": "Người thợ làm bánh làm bánh mì nóng hổi vào mỗi sáng sớm."
+    },
+    "a1-489": {
+      "en": "cashier",
+      "word": "nhân viên thu ngân",
+      "sentence": "Người thu ngân nhận tiền và nở một nụ cười thân thiện."
+    },
+    "a1-490": {
+      "en": "singer",
+      "word": "ca sĩ",
+      "sentence": "Nữ ca sĩ có giọng hát hay và hay cười với mọi người."
+    },
+    "a1-491": {
+      "en": "job",
+      "word": "công việc",
+      "sentence": "Tôi thích công việc của mình ở thư viện vì tôi giúp đỡ mọi người."
+    },
+    "a1-492": {
+      "en": "boss",
+      "word": "ông chủ",
+      "sentence": "Sếp của tôi rất tốt bụng và cô ấy giúp tôi học hỏi những điều mới."
+    },
+    "a1-493": {
+      "en": "tourist",
+      "word": "khách du lịch",
+      "sentence": "Khách du lịch nhìn vào bản đồ bên cạnh tháp phố cổ."
+    },
+    "a1-494": {
+      "en": "he",
+      "word": "anh ấy",
+      "sentence": "Anh ấy là anh trai tôi và anh ấy cùng tôi đến trường."
+    },
+    "a1-495": {
+      "en": "she",
+      "word": "cô ấy",
+      "sentence": "Cô ấy là em gái tôi và cô ấy thích đọc sách mỗi tối."
+    },
+    "a1-496": {
+      "en": "we",
+      "word": "chúng tôi",
+      "sentence": "Chúng tôi cùng nhau ăn bữa sáng ấm áp trước khi đến trường mỗi ngày."
+    },
+    "a1-497": {
+      "en": "they",
+      "word": "họ",
+      "sentence": "Họ là anh em họ của tôi và họ sống trong một ngôi làng nhỏ."
+    },
+    "a1-498": {
+      "en": "me",
+      "word": "tôi",
+      "sentence": "Bố tôi đọc cho tôi nghe một câu chuyện vui ngắn vào buổi tối."
+    },
+    "a1-499": {
+      "en": "him",
+      "word": "anh ấy",
+      "sentence": "Tôi đi bộ đến trường với anh ấy vào mỗi buổi sáng trong tuần."
+    },
+    "a1-500": {
+      "en": "her",
+      "word": "cô ấy",
+      "sentence": "Tôi ngồi cạnh cô ấy trong lớp học mỗi ngày."
+    },
+    "a1-501": {
+      "en": "us",
+      "word": "chúng tôi",
+      "sentence": "Bà của chúng tôi nấu một món súp ấm cho chúng tôi vào Chủ nhật."
+    },
+    "a1-502": {
+      "en": "them",
+      "word": "họ",
+      "sentence": "Tôi gặp họ ở công viên vào mỗi chiều thứ bảy."
+    },
+    "a1-503": {
+      "en": "my",
+      "word": "của tôi",
+      "sentence": "Mẹ tôi nấu canh nóng khi tiết trời mùa đông lạnh giá."
+    },
+    "a1-504": {
+      "en": "your",
+      "word": "của bạn",
+      "sentence": "Ba lô màu xanh của bạn nằm trên ghế gần cửa trước."
+    },
+    "a1-505": {
+      "en": "his",
+      "word": "của anh ấy",
+      "sentence": "Chiếc xe đạp màu đỏ của anh ấy mới mua và anh ấy đạp nó đến trường."
+    },
+    "a1-506": {
+      "en": "our",
+      "word": "của chúng tôi",
+      "sentence": "Ngôi nhà của chúng tôi tuy nhỏ nhưng ấm áp, sạch sẽ và hạnh phúc."
+    },
+    "a1-507": {
+      "en": "their",
+      "word": "của họ",
+      "sentence": "Khu vườn của họ đầy hoa đỏ vào mùa xuân."
+    },
+    "a1-508": {
+      "en": "who",
+      "word": "ai",
+      "sentence": "Người phụ nữ đang đứng gần cửa trước bây giờ là ai?"
+    },
+    "a1-509": {
+      "en": "someone",
+      "word": "ai đó",
+      "sentence": "Có ai đó đang ở cửa với một chiếc túi nhỏ màu xanh."
+    },
+    "a1-510": {
+      "en": "everyone",
+      "word": "mọi người",
+      "sentence": "Mọi người trong lớp chúng tôi đều tử tế với học sinh mới."
+    },
+    "a1-511": {
+      "en": "it",
+      "word": "nó",
+      "sentence": "Đó là một ngày đẹp trời ấm áp để đi dạo trong công viên."
+    },
+    "a1-512": {
+      "en": "police",
+      "word": "cảnh sát",
+      "sentence": "Tôi gọi cảnh sát khi tôi cần giúp đỡ trên đường phố."
+    },
+    "a1-513": {
+      "en": "soldier",
+      "word": "người lính",
+      "sentence": "Người lính viết một bức thư dài về nhà cho gia đình."
+    },
+    "a1-514": {
+      "en": "passenger",
+      "word": "hành khách",
+      "sentence": "Mỗi hành khách xuất trình một vé rồi ngồi lên tàu."
+    },
+    "a1-515": {
+      "en": "bad",
+      "word": "tệ",
+      "sentence": "Thời tiết hôm nay xấu nên chúng tôi ở trong nhà và đọc sách."
+    },
+    "a1-516": {
+      "en": "old",
+      "word": "cũ",
+      "sentence": "Ông tôi đã già và ông kể những câu chuyện rất tử tế."
+    },
+    "a1-517": {
+      "en": "young",
+      "word": "trẻ",
+      "sentence": "Cậu bé giúp mẹ rửa chén trong bếp."
+    },
+    "a1-518": {
+      "en": "long",
+      "word": "dài",
+      "sentence": "Đường vào làng dài, yên tĩnh và đẹp."
+    },
+    "a1-519": {
+      "en": "short",
+      "word": "ngắn",
+      "sentence": "Chúng tôi cùng nhau đi dạo một đoạn ngắn sau bữa tối vào mỗi buổi tối."
+    },
+    "a1-520": {
+      "en": "tall",
+      "word": "cao",
+      "sentence": "Tòa tháp cũ cao và chúng ta có thể nhìn thấy nó từ nhà."
+    },
+    "a1-521": {
+      "en": "fast",
+      "word": "nhanh",
+      "sentence": "Chuyến tàu sáng nay chạy nhanh và thường đến đúng giờ."
+    },
+    "a1-522": {
+      "en": "slow",
+      "word": "chậm",
+      "sentence": "Chiếc thuyền nhỏ đi chậm nhưng đi trên hồ thật tuyệt."
+    },
+    "a1-523": {
+      "en": "heavy",
+      "word": "nặng nề",
+      "sentence": "Chiếc vali này nặng nên tôi nhờ anh trai giúp đỡ."
+    },
+    "a1-524": {
+      "en": "soft",
+      "word": "mềm mại",
+      "sentence": "Chiếc gối này mềm mại, tôi ngủ rất ngon trên đó."
+    },
+    "a1-525": {
+      "en": "quiet",
+      "word": "yên tĩnh",
+      "sentence": "Thư viện thị trấn yên tĩnh trong buổi chiều dài."
+    },
+    "a1-526": {
+      "en": "clean",
+      "word": "sạch sẽ",
+      "sentence": "Tôi giữ phòng ngủ sạch sẽ và đặt sách lên kệ."
+    },
+    "a1-527": {
+      "en": "full",
+      "word": "đầy đủ",
+      "sentence": "Chiếc ly trên bàn chứa đầy nước táo lạnh."
+    },
+    "a1-528": {
+      "en": "happy",
+      "word": "vui",
+      "sentence": "Tôi cảm thấy hạnh phúc khi dành buổi chiều cùng gia đình."
+    },
+    "a1-529": {
+      "en": "beautiful",
+      "word": "đẹp",
+      "sentence": "Khu vườn của chúng tôi trông thật đẹp dưới ánh nắng mùa xuân ấm áp."
+    },
+    "a1-530": {
+      "en": "nice",
+      "word": "tốt đẹp",
+      "sentence": "Chúng tôi có một bữa trưa dài vui vẻ với hàng xóm vào Chủ nhật."
+    },
+    "a1-531": {
+      "en": "easy",
+      "word": "dễ dàng",
+      "sentence": "Câu hỏi này dễ nên tôi có thể trả lời nhanh chóng."
+    },
+    "a1-532": {
+      "en": "strong",
+      "word": "mạnh mẽ",
+      "sentence": "Anh trai tôi khỏe mạnh và có thể xách được chiếc hộp nặng."
+    },
+    "a1-533": {
+      "en": "safe",
+      "word": "an toàn",
+      "sentence": "Con đường yên tĩnh của chúng tôi an toàn cho trẻ em vào ban ngày."
+    },
+    "a1-534": {
+      "en": "blue",
+      "word": "màu xanh",
+      "sentence": "Bầu trời buổi chiều trong xanh và tôi chỉ nhìn thấy một đám mây nhỏ."
+    },
+    "a1-535": {
+      "en": "green",
+      "word": "màu xanh lá cây",
+      "sentence": "Cỏ xanh mềm mại sau cơn mưa xuân."
+    },
+    "a1-536": {
+      "en": "yellow",
+      "word": "màu vàng",
+      "sentence": "Những quả chuối trên đĩa có màu vàng và rất ngọt."
+    },
+    "a1-537": {
+      "en": "black",
+      "word": "màu đen",
+      "sentence": "Áo khoác mùa đông của tôi màu đen, ấm áp và có tác dụng chống tuyết."
+    },
+    "a1-538": {
+      "en": "white",
+      "word": "trắng",
+      "sentence": "Tuyết trong vườn trắng xóa, mềm mại và rất lạnh."
+    },
+    "a1-539": {
+      "en": "many",
+      "word": "nhiều",
+      "sentence": "Nhiều gia đình đến thăm bảo tàng thị trấn vào chiều chủ nhật."
+    },
+    "a1-540": {
+      "en": "some",
+      "word": "một số",
+      "sentence": "Một số học sinh ở lại sau giờ học và đặt câu hỏi cho giáo viên."
+    },
+    "a1-541": {
+      "en": "very",
+      "word": "rất",
+      "sentence": "Canh rau rất nóng nên tôi ăn từ từ."
+    },
+    "a1-542": {
+      "en": "and",
+      "word": "và",
+      "sentence": "Anh trai và em gái tôi cùng nhau đi bộ đến trường mỗi ngày."
+    },
+    "a1-543": {
+      "en": "but",
+      "word": "nhưng",
+      "sentence": "Cặp sách tuy nhỏ nhưng hôm nay lại rất nặng."
+    },
+    "a1-544": {
+      "en": "because",
+      "word": "bởi vì",
+      "sentence": "Tôi cảm thấy hạnh phúc vì hôm nay bạn tôi ở đây với tôi."
+    },
+    "a1-545": {
+      "en": "that",
+      "word": "đó",
+      "sentence": "Tòa nhà cao ở góc phố là thư viện thị trấn của chúng tôi."
+    },
+    "a1-546": {
+      "en": "these",
+      "word": "những cái này",
+      "sentence": "Những đôi giày sạch này mềm mại và phù hợp cho những chuyến đi bộ đường dài."
+    },
+    "a1-547": {
+      "en": "here",
+      "word": "ở đây",
+      "sentence": "Vui lòng đặt áo khoác ướt của bạn ở đây, gần cửa trước."
+    },
+    "a1-548": {
+      "en": "there",
+      "word": "ở đó",
+      "sentence": "Bệnh viện ở đằng kia, ngay cạnh công viên thị trấn."
+    },
+    "a1-549": {
+      "en": "in",
+      "word": "trong",
+      "sentence": "Sữa lạnh ở trong tủ lạnh cạnh nước trái cây."
+    },
+    "a1-550": {
+      "en": "on",
+      "word": "trên",
+      "sentence": "Sổ tay của bạn ở trên bàn cạnh cửa sổ."
+    },
+    "a1-551": {
+      "en": "at",
+      "word": "tại",
+      "sentence": "Chúng tôi gặp nhau ở ga xe lửa lúc 8 giờ mỗi sáng."
+    },
+    "a1-552": {
+      "en": "with",
+      "word": "với",
+      "sentence": "Tôi đi chợ thứ bảy với bố mẹ."
+    },
+    "a1-553": {
+      "en": "for",
+      "word": "cho",
+      "sentence": "Món quà nhỏ này là dành cho bố tôi nhân ngày sinh nhật của ông."
+    },
+    "a1-554": {
+      "en": "from",
+      "word": "từ",
+      "sentence": "Bức thư ngắn này là của chú tôi ở làng."
+    },
+    "a1-555": {
+      "en": "to",
+      "word": "đến",
+      "sentence": "Chúng tôi cùng nhau đi bộ đến công viên sau giờ học mỗi ngày."
+    },
+    "a1-556": {
+      "en": "or",
+      "word": "hoặc",
+      "sentence": "Bạn có thể uống trà hoặc một ly nước trái cây vào bữa sáng."
+    },
+    "a1-557": {
+      "en": "car",
+      "word": "xe hơi",
+      "sentence": "Bố tôi rửa xe cho gia đình vào sáng thứ bảy."
+    },
+    "a1-558": {
+      "en": "bus",
+      "word": "xe buýt",
+      "sentence": "Tôi bắt xe buýt đến trường với bạn bè vào mỗi buổi sáng."
+    },
+    "a1-559": {
+      "en": "train",
+      "word": "xe lửa",
+      "sentence": "Chúng tôi bắt chuyến tàu sớm vào thành phố vào thứ Sáu."
+    },
+    "a1-560": {
+      "en": "bicycle",
+      "word": "xe đạp",
+      "sentence": "Tôi đạp xe đến công viên sau giờ học mỗi ngày."
+    },
+    "a1-561": {
+      "en": "plane",
+      "word": "máy bay",
+      "sentence": "Máy bay bay cao trên núi và biển xanh."
+    },
+    "a1-562": {
+      "en": "boat",
+      "word": "thuyền",
+      "sentence": "Chúng tôi ngồi cùng nhau trên chiếc thuyền nhỏ trên mặt hồ phẳng lặng."
+    },
+    "a1-563": {
+      "en": "ship",
+      "word": "tàu",
+      "sentence": "Con tàu lớn rời bến cảng vào sáng sớm."
+    },
+    "a1-564": {
+      "en": "taxi",
+      "word": "taxi",
+      "sentence": "Chúng tôi đi taxi từ sân bay về khách sạn của chúng tôi."
+    },
+    "a1-565": {
+      "en": "truck",
+      "word": "xe tải",
+      "sentence": "Xe chở những thùng thực phẩm tươi sống đi chợ."
+    },
+    "a1-566": {
+      "en": "motorcycle",
+      "word": "xe gắn máy",
+      "sentence": "Anh ấy luôn đội mũ bảo hiểm khi đi xe máy."
+    },
+    "a1-567": {
+      "en": "subway",
+      "word": "tàu điện ngầm",
+      "sentence": "Tôi đi tàu điện ngầm đến văn phòng mỗi sáng."
+    },
+    "a1-568": {
+      "en": "tram",
+      "word": "xe điện",
+      "sentence": "Xe điện dừng gần bảo tàng cứ sau mười lăm phút."
+    },
+    "a1-569": {
+      "en": "ticket",
+      "word": "vé",
+      "sentence": "Tôi mua vé tàu trước khi tới sân ga."
+    },
+    "a1-570": {
+      "en": "wheel",
+      "word": "bánh xe",
+      "sentence": "Bánh trước xe đạp của tôi tròn và sạch sẽ."
+    },
+    "a1-571": {
+      "en": "seat",
+      "word": "chỗ ngồi",
+      "sentence": "Hãy ngồi ở ghế trống gần cửa sổ xe buýt."
+    },
+    "a1-572": {
+      "en": "helmet",
+      "word": "mũ bảo hiểm",
+      "sentence": "Tôi đội mũ bảo hiểm mỗi khi đi xe đạp."
+    },
+    "a1-573": {
+      "en": "platform",
+      "word": "nền tảng",
+      "sentence": "Chúng tôi đợi ở sân ga chuyến tàu buổi sáng đến."
+    },
+    "a1-574": {
+      "en": "highway",
+      "word": "đường cao tốc",
+      "sentence": "Đường cao tốc vào thị trấn tấp nập xe ô tô vào mỗi buổi sáng."
+    },
+    "a1-575": {
+      "en": "trip",
+      "word": "chuyến đi",
+      "sentence": "Gia đình chúng tôi có một chuyến đi ngắn ngày đến bãi biển vào mùa hè."
+    },
+    "a1-576": {
+      "en": "passport",
+      "word": "hộ chiếu",
+      "sentence": "Tôi giữ hộ chiếu an toàn trong túi trong suốt chuyến đi."
+    },
+    "a1-577": {
+      "en": "luggage",
+      "word": "hành lý",
+      "sentence": "Hành lý của chúng tôi đã sẵn sàng trước cửa cho chuyến đi buổi sáng."
+    },
+    "a1-578": {
+      "en": "suitcase",
+      "word": "va li",
+      "sentence": "Tôi cất quần áo sạch vào vali để chuẩn bị cho chuyến đi."
+    },
+    "a1-579": {
+      "en": "tunnel",
+      "word": "đường hầm",
+      "sentence": "Con tàu chậm rãi đi qua một đường hầm dài tối tăm."
+    },
+    "a1-580": {
+      "en": "ambulance",
+      "word": "xe cứu thương",
+      "sentence": "Xe cứu thương nhanh chóng đưa người bệnh tới bệnh viện."
+    },
+    "a1-581": {
+      "en": "ferry",
+      "word": "phà",
+      "sentence": "Chúng tôi đi phà qua sông rộng vào mỗi Chủ nhật."
+    },
+    "a1-582": {
+      "en": "scooter",
+      "word": "xe tay ga",
+      "sentence": "Cô lái xe máy đến tiệm bánh để mua bánh mì tươi."
+    },
+    "a1-583": {
+      "en": "van",
+      "word": "xe tải",
+      "sentence": "Xe chở những hộp thức ăn đi siêu thị vào mỗi buổi sáng."
+    },
+    "a1-584": {
+      "en": "route",
+      "word": "tuyến đường",
+      "sentence": "Tuyến xe buýt này đi qua bệnh viện và công viên thị trấn."
+    },
+    "a1-585": {
+      "en": "speed",
+      "word": "tốc độ",
+      "sentence": "Hãy giữ tốc độ an toàn khi lái xe trên đường cao tốc."
+    },
+    "a1-586": {
+      "en": "harbor",
+      "word": "hải cảng",
+      "sentence": "Sáng nay nhiều chiếc thuyền nhỏ neo đậu trong bến cảng yên tĩnh."
+    },
+    "a1-587": {
+      "en": "gas",
+      "word": "khí đốt",
+      "sentence": "Chúng tôi dừng lại mua xăng trước chuyến đi dài đến hồ."
+    },
+    "a1-588": {
+      "en": "timetable",
+      "word": "thời gian biểu",
+      "sentence": "Tôi đọc thời gian biểu trước khi đi bộ đến ga xe lửa."
+    },
+    "a1-589": {
+      "en": "left",
+      "word": "trái",
+      "sentence": "Vui lòng rẽ trái ở ngân hàng rồi đi thẳng."
+    },
+    "a1-590": {
+      "en": "right",
+      "word": "phải",
+      "sentence": "Rẽ phải ngay sau cây cầu và bạn sẽ nhìn thấy công viên."
+    },
+    "a1-591": {
+      "en": "straight",
+      "word": "thẳng",
+      "sentence": "Đi thẳng con đường này là đến ga xe lửa."
+    },
+    "a1-592": {
+      "en": "kilometer",
+      "word": "cây số",
+      "sentence": "Trường chúng tôi cách nhà khoảng một cây số."
+    },
+    "a1-593": {
+      "en": "mile",
+      "word": "dặm",
+      "sentence": "Hồ nước trong xanh cách trung tâm thị trấn khoảng một dặm."
+    },
+    "a1-594": {
+      "en": "arrival",
+      "word": "sự đến",
+      "sentence": "Đến khách sạn của chúng tôi là vào buổi tối muộn."
+    },
+    "a1-595": {
+      "en": "departure",
+      "word": "khởi hành",
+      "sentence": "Chuyến tàu của chúng tôi khởi hành vào buổi trưa ngày hôm nay."
+    },
+    "a1-596": {
+      "en": "engine",
+      "word": "động cơ",
+      "sentence": "Động cơ của chiếc xe buýt cũ kêu to nhưng vẫn khỏe."
+    },
+    "a1-597": {
+      "en": "zero",
+      "word": "không",
+      "sentence": "Nhiệt độ buổi sáng hôm nay ở thị trấn của chúng ta là 0 độ."
+    },
+    "a1-598": {
+      "en": "three",
+      "word": "ba",
+      "sentence": "Tôi có ba người anh em họ và họ sống rất gần nhà tôi."
+    },
+    "a1-599": {
+      "en": "four",
+      "word": "bốn",
+      "sentence": "Có bốn chiếc ghế xung quanh bàn bếp của chúng tôi."
+    },
+    "a1-600": {
+      "en": "five",
+      "word": "năm",
+      "sentence": "Lớp học đầu tiên bắt đầu vào lúc tám giờ năm phút sáng."
+    },
+    "a1-601": {
+      "en": "six",
+      "word": "sáu",
+      "sentence": "Tiệm bánh trên phố chúng tôi đóng cửa lúc sáu giờ tối."
+    },
+    "a1-602": {
+      "en": "seven",
+      "word": "bảy",
+      "sentence": "Chúng tôi thường ăn tối cùng nhau lúc bảy giờ tối."
+    },
+    "a1-603": {
+      "en": "eight",
+      "word": "tám",
+      "sentence": "Chuyến tàu sớm rời ga lúc tám giờ sáng."
+    },
+    "a1-604": {
+      "en": "nine",
+      "word": "chín",
+      "sentence": "Tôi thường đi ngủ lúc chín giờ khi cảm thấy mệt mỏi."
+    },
+    "a1-605": {
+      "en": "ten",
+      "word": "mười",
+      "sentence": "Trẻ có thể đếm từ một đến mười bằng tiếng Anh."
+    },
+    "a1-606": {
+      "en": "eleven",
+      "word": "mười một",
+      "sentence": "Xe buýt thành phố thường đến lúc mười một giờ sáng."
+    },
+    "a1-607": {
+      "en": "twelve",
+      "word": "mười hai",
+      "sentence": "Có mười hai tháng trong mỗi năm trên lịch."
+    },
+    "a1-608": {
+      "en": "thirteen",
+      "word": "mười ba",
+      "sentence": "Em họ của tôi hôm nay mười ba tuổi."
+    },
+    "a1-609": {
+      "en": "fourteen",
+      "word": "mười bốn",
+      "sentence": "Có mười bốn học sinh trong lớp học buổi sáng nhỏ của chúng tôi."
+    },
+    "a1-610": {
+      "en": "fifteen",
+      "word": "mười lăm",
+      "sentence": "Tôi đọc sách mười lăm phút trước khi đi ngủ."
+    },
+    "a1-611": {
+      "en": "sixteen",
+      "word": "mười sáu",
+      "sentence": "Em gái tôi mười sáu tuổi và yêu thích lớp học âm nhạc."
+    },
+    "a1-612": {
+      "en": "seventeen",
+      "word": "mười bảy",
+      "sentence": "Vé tàu tới thành phố hôm nay có giá 17 đô la."
+    },
+    "a1-613": {
+      "en": "eighteen",
+      "word": "mười tám",
+      "sentence": "Anh trai tôi mười tám tuổi và anh ấy có thể lái chiếc xe hơi của gia đình."
+    },
+    "a1-614": {
+      "en": "nineteen",
+      "word": "mười chín",
+      "sentence": "Tôi có thể nhìn thấy mười chín con chim đậu trên mái trường."
+    },
+    "a1-615": {
+      "en": "twenty",
+      "word": "hai mươi",
+      "sentence": "Tôi có 20 đô la trong ví để đi chợ."
+    },
+    "a1-616": {
+      "en": "thirty",
+      "word": "ba mươi",
+      "sentence": "Có ba mươi ngày trong tháng này trên lịch."
+    },
+    "a1-617": {
+      "en": "forty",
+      "word": "bốn mươi",
+      "sentence": "Người chú tốt bụng của tôi hôm nay đã bốn mươi tuổi."
+    },
+    "a1-618": {
+      "en": "fifty",
+      "word": "năm mươi",
+      "sentence": "Xe buýt buổi sáng này có năm mươi chỗ ngồi cho tất cả hành khách."
+    },
+    "a1-619": {
+      "en": "sixty",
+      "word": "sáu mươi",
+      "sentence": "Có sáu mươi giây trong mỗi phút của giờ."
+    },
+    "a1-620": {
+      "en": "seventy",
+      "word": "bảy mươi",
+      "sentence": "Nhiệt độ buổi chiều ở thị trấn hôm nay là 70 độ."
+    },
+    "a1-621": {
+      "en": "eighty",
+      "word": "tám mươi",
+      "sentence": "Bà tôi đã tám mươi tuổi và rất hạnh phúc."
+    },
+    "a1-622": {
+      "en": "ninety",
+      "word": "chín mươi",
+      "sentence": "Chiếc áo khoác mùa đông ấm áp ở cửa hàng có giá chín mươi đô la."
+    },
+    "a1-623": {
+      "en": "hundred",
+      "word": "trăm",
+      "sentence": "Khoảng một trăm người có thể ngồi trong rạp hát nhỏ của chúng tôi."
+    },
+    "a1-624": {
+      "en": "thousand",
+      "word": "nghìn",
+      "sentence": "Khoảng một nghìn người sống trong ngôi làng yên tĩnh của chúng tôi."
+    },
+    "a1-625": {
+      "en": "first",
+      "word": "đầu tiên",
+      "sentence": "Thứ Hai là ngày đầu tiên trong tuần học của chúng tôi."
+    },
+    "a1-626": {
+      "en": "third",
+      "word": "thứ ba",
+      "sentence": "Thứ tư là ngày thứ ba trong tuần học."
+    },
+    "a1-627": {
+      "en": "half",
+      "word": "một nửa",
+      "sentence": "Tôi ăn một nửa chiếc bánh sandwich phô mai của mình và để dành phần còn lại."
+    },
+    "a1-628": {
+      "en": "dozen",
+      "word": "tá",
+      "sentence": "Tôi mua một chục quả trứng tươi ở chợ vào thứ bảy."
+    },
+    "a1-629": {
+      "en": "once",
+      "word": "một lần",
+      "sentence": "Lớp chúng tôi đến thăm bảo tàng thị trấn mỗi tháng một lần."
+    },
+    "a1-630": {
+      "en": "twice",
+      "word": "hai lần",
+      "sentence": "Tôi đánh răng hai lần một ngày, vào buổi sáng và buổi tối."
+    },
+    "a1-631": {
+      "en": "number",
+      "word": "con số",
+      "sentence": "Hãy viết rõ số điện thoại của bạn lên giấy."
+    },
+    "a1-632": {
+      "en": "money",
+      "word": "tiền bạc",
+      "sentence": "Tôi tiết kiệm được một ít tiền ở ngân hàng mỗi tháng."
+    },
+    "a1-633": {
+      "en": "dollar",
+      "word": "đô la",
+      "sentence": "Ổ bánh mì tươi này có giá một đô la ở tiệm bánh."
+    },
+    "a1-634": {
+      "en": "coin",
+      "word": "đồng xu",
+      "sentence": "Tôi tìm thấy một đồng bạc nhỏ trên vỉa hè gần trường."
+    },
+    "a1-635": {
+      "en": "price",
+      "word": "giá cả",
+      "sentence": "Giá vé xe buýt vào thị trấn là hai đô la."
+    },
+    "a1-636": {
+      "en": "count",
+      "word": "đếm",
+      "sentence": "Chúng tôi cùng nhau đếm chậm từ một đến hai mươi trong lớp hôm nay."
+    },
+    "s-00001": {
+      "en": "a",
+      "word": "một",
+      "sentence": "Một cuốn sách ở trên bàn."
+    },
+    "s-00002": {
+      "en": "about",
+      "word": "về",
+      "sentence": "Chúng tôi đã nói chuyện về cuốn sách."
+    },
+    "s-00003": {
+      "en": "above",
+      "word": "ở trên",
+      "sentence": "Cái đèn ở phía trên bàn."
+    },
+    "s-00004": {
+      "en": "action",
+      "word": "hành động",
+      "sentence": "Đây là một hành động."
+    },
+    "s-00005": {
+      "en": "activity",
+      "word": "hoạt động",
+      "sentence": "Đây là một hoạt động."
+    },
+    "s-00007": {
+      "en": "add",
+      "word": "cộng",
+      "sentence": "Tôi đang học cộng."
+    },
+    "s-00010": {
+      "en": "after",
+      "word": "sau",
+      "sentence": "Chúng tôi nghỉ ngơi sau giờ học."
+    },
+    "s-00012": {
+      "en": "again",
+      "word": "một lần nữa",
+      "sentence": "Xin hãy nói lại lần nữa."
+    },
+    "s-00013": {
+      "en": "age",
+      "word": "tuổi tác",
+      "sentence": "Đây là một thời đại."
+    },
+    "s-00014": {
+      "en": "ago",
+      "word": "trước đây",
+      "sentence": "Tôi đã gặp cô ấy hai ngày trước."
+    },
+    "s-00019": {
+      "en": "all",
+      "word": "tất cả",
+      "sentence": "Chúng tôi đã nói về tất cả."
+    },
+    "s-00020": {
+      "en": "all right",
+      "word": "được rồi",
+      "sentence": "Mọi chuyện đều ổn."
+    },
+    "s-00022": {
+      "en": "alone",
+      "word": "một mình",
+      "sentence": "Xin hãy nói một mình."
+    },
+    "s-00023": {
+      "en": "along",
+      "word": "dọc theo",
+      "sentence": "Chúng tôi đi dọc bờ sông."
+    },
+    "s-00025": {
+      "en": "also",
+      "word": "cũng",
+      "sentence": "Tôi cũng muốn một ít nước."
+    },
+    "s-00027": {
+      "en": "am",
+      "word": "là",
+      "sentence": "Tôi đang học là."
+    },
+    "s-00028": {
+      "en": "an",
+      "word": "một",
+      "sentence": "Một cuốn sách ở trên bàn."
+    },
+    "s-00031": {
+      "en": "animal",
+      "word": "động vật",
+      "sentence": "Đây là một con vật."
+    },
+    "s-00034": {
+      "en": "any",
+      "word": "bất kỳ",
+      "sentence": "Chúng tôi đã nói về bất kỳ."
+    },
+    "s-00035": {
+      "en": "anybody",
+      "word": "bất cứ ai",
+      "sentence": "Chúng tôi đang nói về bất cứ ai."
+    },
+    "s-00037": {
+      "en": "anything",
+      "word": "bất cứ điều gì",
+      "sentence": "Chúng tôi đã nói về bất cứ điều gì."
+    },
+    "s-00038": {
+      "en": "april",
+      "word": "tháng tư",
+      "sentence": "Đây là một tháng tư."
+    },
+    "s-00039": {
+      "en": "apron",
+      "word": "tạp dề",
+      "sentence": "Đây là một chiếc tạp dề."
+    },
+    "s-00040": {
+      "en": "are",
+      "word": "là",
+      "sentence": "Tôi đang học là."
+    },
+    "s-00042": {
+      "en": "around",
+      "word": "xung quanh",
+      "sentence": "Con mèo ở quanh nhà."
+    },
+    "s-00046": {
+      "en": "as",
+      "word": "như",
+      "sentence": "Cuốn sách giống như cái bàn."
+    },
+    "s-00049": {
+      "en": "august",
+      "word": "tháng tám",
+      "sentence": "Đây là một tháng tám."
+    },
+    "s-00052": {
+      "en": "awake",
+      "word": "thức",
+      "sentence": "Nó tỉnh rồi."
+    },
+    "s-00053": {
+      "en": "away",
+      "word": "đi xa",
+      "sentence": "Xe buýt đang đi xa."
+    },
+    "s-00058": {
+      "en": "ball",
+      "word": "trái bóng",
+      "sentence": "Đây là một quả bóng."
+    },
+    "s-00062": {
+      "en": "bar",
+      "word": "thanh",
+      "sentence": "Đây là một quán bar."
+    },
+    "s-00063": {
+      "en": "baseball",
+      "word": "bóng chày",
+      "sentence": "Đây là một quả bóng chày."
+    },
+    "s-00064": {
+      "en": "basketball",
+      "word": "bóng rổ",
+      "sentence": "Đây là một quả bóng rổ."
+    },
+    "s-00065": {
+      "en": "bat",
+      "word": "dơi",
+      "sentence": "Đây là một con dơi."
+    },
+    "s-00070": {
+      "en": "bean",
+      "word": "hạt đậu",
+      "sentence": "Đây là một hạt đậu."
+    },
+    "s-00074": {
+      "en": "become",
+      "word": "trở thành",
+      "sentence": "Tôi đang học trở thành."
+    },
+    "s-00077": {
+      "en": "beef",
+      "word": "thịt bò",
+      "sentence": "Đây là thịt bò."
+    },
+    "s-00078": {
+      "en": "before",
+      "word": "trước đây",
+      "sentence": "Rửa tay trước bữa tối."
+    },
+    "s-00079": {
+      "en": "begin",
+      "word": "bắt đầu",
+      "sentence": "Tôi đang học bắt đầu."
+    },
+    "s-00080": {
+      "en": "behind",
+      "word": "đằng sau",
+      "sentence": "Khu vườn nằm phía sau nhà."
+    },
+    "s-00083": {
+      "en": "below",
+      "word": "bên dưới",
+      "sentence": "Cửa hàng ở dưới trường học."
+    },
+    "s-00084": {
+      "en": "beside",
+      "word": "bên cạnh",
+      "sentence": "Hãy ngồi cạnh tôi."
+    },
+    "s-00085": {
+      "en": "best",
+      "word": "tốt nhất",
+      "sentence": "Tốt nhất là thế."
+    },
+    "s-00086": {
+      "en": "better",
+      "word": "tốt hơn",
+      "sentence": "Nó tốt hơn."
+    },
+    "s-00089": {
+      "en": "bike",
+      "word": "xe đạp",
+      "sentence": "Đây là một chiếc xe đạp."
+    },
+    "s-00090": {
+      "en": "birth",
+      "word": "sinh",
+      "sentence": "Đây là một sự ra đời."
+    },
+    "s-00092": {
+      "en": "biscuit",
+      "word": "bánh quy",
+      "sentence": "Đây là một cái bánh quy."
+    },
+    "s-00094": {
+      "en": "blank",
+      "word": "chỗ trống",
+      "sentence": "Nó trống rỗng."
+    },
+    "s-00102": {
+      "en": "bookstore",
+      "word": "hiệu sách",
+      "sentence": "Đây là một hiệu sách."
+    },
+    "s-00103": {
+      "en": "boring",
+      "word": "nhàm chán",
+      "sentence": "Thật là nhàm chán."
+    },
+    "s-00107": {
+      "en": "bottom",
+      "word": "đáy",
+      "sentence": "Đây là một đáy."
+    },
+    "s-00109": {
+      "en": "box",
+      "word": "cái hộp",
+      "sentence": "Đây là một cái hộp."
+    },
+    "s-00112": {
+      "en": "brain",
+      "word": "não",
+      "sentence": "Đây là một bộ não."
+    },
+    "s-00121": {
+      "en": "brown",
+      "word": "nâu",
+      "sentence": "Nó có màu nâu."
+    },
+    "s-00123": {
+      "en": "bucket",
+      "word": "xô",
+      "sentence": "Đây là một cái xô."
+    },
+    "s-00124": {
+      "en": "build",
+      "word": "xây",
+      "sentence": "Tôi đang học xây."
+    },
+    "s-00126": {
+      "en": "burger",
+      "word": "bánh mì kẹp thịt",
+      "sentence": "Đây là một cái bánh mì kẹp thịt."
+    },
+    "s-00135": {
+      "en": "by",
+      "word": "bởi",
+      "sentence": "Cuốn sách ở cạnh bàn."
+    },
+    "s-00136": {
+      "en": "bye",
+      "word": "tạm biệt",
+      "sentence": "Đây là lời tạm biệt."
+    },
+    "s-00141": {
+      "en": "camp",
+      "word": "trại",
+      "sentence": "Đây là một trại."
+    },
+    "s-00143": {
+      "en": "candy",
+      "word": "kẹo",
+      "sentence": "Đây là một viên kẹo."
+    },
+    "s-00146": {
+      "en": "card",
+      "word": "thẻ",
+      "sentence": "Đây là một tấm thẻ."
+    },
+    "s-00150": {
+      "en": "carry",
+      "word": "mang",
+      "sentence": "Tôi đang học mang."
+    },
+    "s-00152": {
+      "en": "case",
+      "word": "trường hợp",
+      "sentence": "Đây là một trường hợp."
+    },
+    "s-00154": {
+      "en": "cd",
+      "word": "đĩa cd",
+      "sentence": "Đây là một đĩa CD."
+    },
+    "s-00155": {
+      "en": "cd player",
+      "word": "máy nghe nhạc cd",
+      "sentence": "Bạn có thể nói “máy nghe nhạc cd” trong câu này."
+    },
+    "s-00159": {
+      "en": "change",
+      "word": "thay đổi",
+      "sentence": "Đây là một sự thay đổi."
+    },
+    "s-00164": {
+      "en": "chocolate",
+      "word": "sô cô la",
+      "sentence": "Đây là một sô cô la."
+    },
+    "s-00168": {
+      "en": "circle",
+      "word": "vòng tròn",
+      "sentence": "Đây là một vòng tròn."
+    },
+    "s-00177": {
+      "en": "closed",
+      "word": "đóng cửa",
+      "sentence": "Nó đã đóng cửa."
+    },
+    "s-00178": {
+      "en": "cloth",
+      "word": "vải",
+      "sentence": "Đây là một miếng vải."
+    },
+    "s-00186": {
+      "en": "coke",
+      "word": "than cốc",
+      "sentence": "Đây là một cốc coca."
+    },
+    "s-00189": {
+      "en": "college",
+      "word": "đại học",
+      "sentence": "Đây là một trường cao đẳng."
+    },
+    "s-00190": {
+      "en": "color",
+      "word": "màu sắc",
+      "sentence": "Đây là một màu sắc."
+    },
+    "s-00191": {
+      "en": "computer",
+      "word": "máy tính",
+      "sentence": "Đây là một máy tính."
+    },
+    "s-00198": {
+      "en": "cop",
+      "word": "cảnh sát",
+      "sentence": "Đây là một cảnh sát."
+    },
+    "s-00200": {
+      "en": "corn",
+      "word": "ngô",
+      "sentence": "Đây là một bắp ngô."
+    },
+    "s-00203": {
+      "en": "couch",
+      "word": "đi văng",
+      "sentence": "Đây là một chiếc ghế dài."
+    },
+    "s-00204": {
+      "en": "could",
+      "word": "có thể",
+      "sentence": "Tôi đang học có thể."
+    },
+    "s-00207": {
+      "en": "cover",
+      "word": "che",
+      "sentence": "Đây là một trang bìa."
+    },
+    "s-00209": {
+      "en": "cream",
+      "word": "kem",
+      "sentence": "Đây là một loại kem."
+    },
+    "s-00210": {
+      "en": "credit card",
+      "word": "thẻ tín dụng",
+      "sentence": "Bạn có thể nói “thẻ tín dụng” trong câu này."
+    },
+    "s-00211": {
+      "en": "cry",
+      "word": "khóc",
+      "sentence": "Đây là một tiếng kêu."
+    },
+    "s-00214": {
+      "en": "cut",
+      "word": "cắt",
+      "sentence": "Tôi đang học cắt."
+    },
+    "s-00215": {
+      "en": "cute",
+      "word": "dễ thương",
+      "sentence": "Nó thật dễ thương."
+    },
+    "s-00216": {
+      "en": "dad",
+      "word": "bố",
+      "sentence": "Đây là một người cha."
+    },
+    "s-00217": {
+      "en": "daddy",
+      "word": "bố",
+      "sentence": "Đây là một người cha."
+    },
+    "s-00219": {
+      "en": "dancing",
+      "word": "khiêu vũ",
+      "sentence": "Đây là một điệu nhảy."
+    },
+    "s-00220": {
+      "en": "dark",
+      "word": "tối",
+      "sentence": "Trời tối."
+    },
+    "s-00224": {
+      "en": "dear",
+      "word": "thân yêu",
+      "sentence": "Nó thân yêu."
+    },
+    "s-00225": {
+      "en": "december",
+      "word": "tháng mười hai",
+      "sentence": "Đây là một tháng mười hai."
+    },
+    "s-00228": {
+      "en": "design",
+      "word": "thiết kế",
+      "sentence": "Đây là một thiết kế."
+    },
+    "s-00231": {
+      "en": "did",
+      "word": "đã làm",
+      "sentence": "Tôi đang học đã làm."
+    },
+    "s-00232": {
+      "en": "difference",
+      "word": "sự khác biệt",
+      "sentence": "Đây là một sự khác biệt."
+    },
+    "s-00236": {
+      "en": "dining room",
+      "word": "phòng ăn",
+      "sentence": "Bạn có thể nói “phòng ăn” trong câu này."
+    },
+    "s-00243": {
+      "en": "does",
+      "word": "làm",
+      "sentence": "Tôi đang học làm."
+    },
+    "s-00244": {
+      "en": "doing",
+      "word": "đang làm",
+      "sentence": "Tôi đang học đang làm."
+    },
+    "s-00245": {
+      "en": "doll",
+      "word": "búp bê",
+      "sentence": "Đây là một con búp bê."
+    },
+    "s-00247": {
+      "en": "down",
+      "word": "xuống",
+      "sentence": "Xin mời ngồi xuống."
+    },
+    "s-00250": {
+      "en": "dream",
+      "word": "giấc mơ",
+      "sentence": "Đây là một giấc mơ."
+    },
+    "s-00257": {
+      "en": "due",
+      "word": "đến hạn",
+      "sentence": "Đó là do."
+    },
+    "s-00258": {
+      "en": "dvd",
+      "word": "đĩa dvd",
+      "sentence": "Đây là một đĩa DVD."
+    },
+    "s-00259": {
+      "en": "each",
+      "word": "mỗi",
+      "sentence": "Chúng tôi đã nói về từng cái."
+    },
+    "s-00260": {
+      "en": "each other",
+      "word": "lẫn nhau",
+      "sentence": "Chúng tôi đang nói về nhau."
+    },
+    "s-00266": {
+      "en": "either",
+      "word": "hoặc là",
+      "sentence": "Xin hãy nói điều đó."
+    },
+    "s-00267": {
+      "en": "elementary",
+      "word": "tiểu học",
+      "sentence": "Nó là cơ bản."
+    },
+    "s-00269": {
+      "en": "else",
+      "word": "khác",
+      "sentence": "Bạn có muốn điều gì khác không?"
+    },
+    "s-00271": {
+      "en": "end",
+      "word": "kết thúc",
+      "sentence": "Đây là một kết thúc."
+    },
+    "s-00272": {
+      "en": "engineer",
+      "word": "kỹ sư",
+      "sentence": "Đây là một kỹ sư."
+    },
+    "s-00275": {
+      "en": "event",
+      "word": "sự kiện",
+      "sentence": "Đây là một sự kiện."
+    },
+    "s-00276": {
+      "en": "every",
+      "word": "mỗi",
+      "sentence": "Tôi đi bộ vào mỗi buổi sáng."
+    },
+    "s-00277": {
+      "en": "everybody",
+      "word": "mọi người",
+      "sentence": "Chúng tôi đang nói về tất cả mọi người."
+    },
+    "s-00278": {
+      "en": "everyday",
+      "word": "hàng ngày",
+      "sentence": "Đó là hàng ngày."
+    },
+    "s-00280": {
+      "en": "everything",
+      "word": "mọi thứ",
+      "sentence": "Chúng tôi đã nói về mọi thứ."
+    },
+    "s-00281": {
+      "en": "everywhere",
+      "word": "ở khắp mọi nơi",
+      "sentence": "Hãy nói điều đó ở khắp mọi nơi."
+    },
+    "s-00283": {
+      "en": "excellent",
+      "word": "xuất sắc",
+      "sentence": "Nó thật tuyệt vời."
+    },
+    "s-00285": {
+      "en": "exciting",
+      "word": "thú vị",
+      "sentence": "Thật là thú vị."
+    },
+    "s-00292": {
+      "en": "fairy",
+      "word": "nàng tiên",
+      "sentence": "Đây là một nàng tiên."
+    },
+    "s-00295": {
+      "en": "fan",
+      "word": "quạt",
+      "sentence": "Đây là một người hâm mộ."
+    },
+    "s-00299": {
+      "en": "fat",
+      "word": "béo",
+      "sentence": "Nó béo."
+    },
+    "s-00301": {
+      "en": "favorite",
+      "word": "yêu thích",
+      "sentence": "Đây là một yêu thích."
+    },
+    "s-00302": {
+      "en": "february",
+      "word": "tháng hai",
+      "sentence": "Đây là một tháng hai."
+    },
+    "s-00304": {
+      "en": "feel",
+      "word": "cảm thấy",
+      "sentence": "Tôi đang học cảm thấy."
+    },
+    "s-00311": {
+      "en": "fight",
+      "word": "cuộc đánh nhau",
+      "sentence": "Đây là một cuộc chiến."
+    },
+    "s-00313": {
+      "en": "fill",
+      "word": "điền",
+      "sentence": "Tôi đang học điền."
+    },
+    "s-00320": {
+      "en": "flag",
+      "word": "cờ",
+      "sentence": "Đây là một lá cờ."
+    },
+    "s-00321": {
+      "en": "flat",
+      "word": "căn hộ",
+      "sentence": "Đây là một căn hộ."
+    },
+    "s-00326": {
+      "en": "following",
+      "word": "theo dõi",
+      "sentence": "Nó đang theo sau."
+    },
+    "s-00327": {
+      "en": "food",
+      "word": "thức ăn",
+      "sentence": "Thức ăn rất ngon."
+    },
+    "s-00328": {
+      "en": "football",
+      "word": "bóng đá",
+      "sentence": "Đây là một quả bóng đá."
+    },
+    "s-00331": {
+      "en": "foreigner",
+      "word": "người nước ngoài",
+      "sentence": "Đây là một người nước ngoài."
+    },
+    "s-00333": {
+      "en": "form",
+      "word": "hình thức",
+      "sentence": "Đây là một hình thức."
+    },
+    "s-00341": {
+      "en": "front",
+      "word": "phía trước",
+      "sentence": "Nó ở phía trước."
+    },
+    "s-00344": {
+      "en": "fun",
+      "word": "vui vẻ",
+      "sentence": "Đây là một niềm vui."
+    },
+    "s-00346": {
+      "en": "future",
+      "word": "tương lai",
+      "sentence": "Đây là một tương lai."
+    },
+    "s-00347": {
+      "en": "game",
+      "word": "trò chơi",
+      "sentence": "Đây là một trò chơi."
+    },
+    "s-00348": {
+      "en": "garbage",
+      "word": "rác thải",
+      "sentence": "Đây là một thứ rác rưởi."
+    },
+    "s-00350": {
+      "en": "get",
+      "word": "được",
+      "sentence": "Tôi đang học được."
+    },
+    "s-00351": {
+      "en": "ghost",
+      "word": "ma",
+      "sentence": "Đây là một hồn ma."
+    },
+    "s-00360": {
+      "en": "gold",
+      "word": "vàng",
+      "sentence": "Nó là vàng."
+    },
+    "s-00361": {
+      "en": "good afternoon",
+      "word": "chào buổi chiều",
+      "sentence": "Bạn có thể nói “chào buổi chiều” trong câu này."
+    },
+    "s-00362": {
+      "en": "good morning",
+      "word": "chào buổi sáng",
+      "sentence": "Bạn có thể nói “chào buổi sáng” trong câu này."
+    },
+    "s-00363": {
+      "en": "good night",
+      "word": "chúc ngủ ngon",
+      "sentence": "Bạn có thể nói “chúc ngủ ngon” trong câu này."
+    },
+    "s-00371": {
+      "en": "grape",
+      "word": "nho",
+      "sentence": "Đây là một quả nho."
+    },
+    "s-00373": {
+      "en": "gray",
+      "word": "màu xám",
+      "sentence": "Đây là một màu xám."
+    },
+    "s-00374": {
+      "en": "great",
+      "word": "tuyệt vời",
+      "sentence": "Nó thật tuyệt vời."
+    },
+    "s-00378": {
+      "en": "group",
+      "word": "nhóm",
+      "sentence": "Đây là một nhóm."
+    },
+    "s-00380": {
+      "en": "guess",
+      "word": "đoán",
+      "sentence": "Tôi đang học đoán."
+    },
+    "s-00383": {
+      "en": "guy",
+      "word": "anh chàng",
+      "sentence": "Đây là một chàng trai."
+    },
+    "s-00385": {
+      "en": "had",
+      "word": "đã có",
+      "sentence": "Tôi đang học đã có."
+    },
+    "s-00387": {
+      "en": "haircut",
+      "word": "cắt tóc",
+      "sentence": "Đây là một kiểu tóc."
+    },
+    "s-00389": {
+      "en": "hall",
+      "word": "đại sảnh",
+      "sentence": "Đây là một hội trường."
+    },
+    "s-00390": {
+      "en": "hamburger",
+      "word": "bánh hamburger",
+      "sentence": "Đây là một chiếc bánh hamburger."
+    },
+    "s-00392": {
+      "en": "happen",
+      "word": "xảy ra",
+      "sentence": "Tôi đang học xảy ra."
+    },
+    "s-00395": {
+      "en": "has",
+      "word": "có",
+      "sentence": "Tôi đang học có."
+    },
+    "s-00398": {
+      "en": "have to",
+      "word": "phải",
+      "sentence": "Tôi đang học phải."
+    },
+    "s-00401": {
+      "en": "health",
+      "word": "sức khỏe",
+      "sentence": "Đây là một sức khỏe."
+    },
+    "s-00405": {
+      "en": "hello",
+      "word": "xin chào",
+      "sentence": "Xin chào, tên tôi là Anna."
+    },
+    "s-00409": {
+      "en": "hers",
+      "word": "của cô ấy",
+      "sentence": "Chúng ta đang nói về cô ấy."
+    },
+    "s-00410": {
+      "en": "hi",
+      "word": "chào",
+      "sentence": "Đây là lời chào."
+    },
+    "s-00412": {
+      "en": "high",
+      "word": "cao",
+      "sentence": "Nó cao."
+    },
+    "s-00418": {
+      "en": "hold",
+      "word": "cái nắm",
+      "sentence": "Đây là một sự giữ lại."
+    },
+    "s-00419": {
+      "en": "hole",
+      "word": "lỗ",
+      "sentence": "Đây là một cái lỗ."
+    },
+    "s-00420": {
+      "en": "holiday",
+      "word": "kỳ nghỉ",
+      "sentence": "Đây là một ngày lễ."
+    },
+    "s-00422": {
+      "en": "hometown",
+      "word": "quê hương",
+      "sentence": "Đây là quê hương"
+    },
+    "s-00429": {
+      "en": "how",
+      "word": "làm thế nào",
+      "sentence": "Hãy nói nó như thế nào."
+    },
+    "s-00431": {
+      "en": "hurry",
+      "word": "nhanh lên",
+      "sentence": "Đây là một sự vội vàng."
+    },
+    "s-00435": {
+      "en": "ice cream",
+      "word": "kem",
+      "sentence": "Bạn có thể nói “ice cream” trong câu này."
+    },
+    "s-00436": {
+      "en": "idea",
+      "word": "ý tưởng",
+      "sentence": "Đây là một ý tưởng."
+    },
+    "s-00438": {
+      "en": "if",
+      "word": "nếu",
+      "sentence": "Tôi đã gọi cho bạn nếu tôi về nhà."
+    },
+    "s-00439": {
+      "en": "imagine",
+      "word": "tưởng tượng",
+      "sentence": "Tôi đang học tưởng tượng."
+    },
+    "s-00442": {
+      "en": "information",
+      "word": "thông tin",
+      "sentence": "Đây là một thông tin."
+    },
+    "s-00443": {
+      "en": "inside",
+      "word": "bên trong",
+      "sentence": "Con mèo đang ở bên trong."
+    },
+    "s-00444": {
+      "en": "interested",
+      "word": "quan tâm",
+      "sentence": "Nó quan tâm."
+    },
+    "s-00445": {
+      "en": "interesting",
+      "word": "thú vị",
+      "sentence": "Thật thú vị."
+    },
+    "s-00448": {
+      "en": "interviewer",
+      "word": "người phỏng vấn",
+      "sentence": "Đây là một người phỏng vấn."
+    },
+    "s-00449": {
+      "en": "into",
+      "word": "vào",
+      "sentence": "Cuốn sách ở trên bàn."
+    },
+    "s-00451": {
+      "en": "is",
+      "word": "là",
+      "sentence": "Tôi đang học là."
+    },
+    "s-00454": {
+      "en": "item",
+      "word": "mục",
+      "sentence": "Đây là một mục."
+    },
+    "s-00455": {
+      "en": "its",
+      "word": "nó",
+      "sentence": "Chúng tôi đang nói về nó."
+    },
+    "s-00457": {
+      "en": "january",
+      "word": "tháng giêng",
+      "sentence": "Đây là một tháng một."
+    },
+    "s-00459": {
+      "en": "jet",
+      "word": "máy bay phản lực",
+      "sentence": "Đây là một chiếc máy bay phản lực."
+    },
+    "s-00460": {
+      "en": "jewelry",
+      "word": "đồ trang sức",
+      "sentence": "Đây là một đồ trang sức."
+    },
+    "s-00462": {
+      "en": "join",
+      "word": "tham gia",
+      "sentence": "Tôi đang học tham gia."
+    },
+    "s-00465": {
+      "en": "july",
+      "word": "tháng bảy",
+      "sentence": "Đây là một tháng bảy."
+    },
+    "s-00466": {
+      "en": "jump",
+      "word": "nhảy",
+      "sentence": "Tôi đang học nhảy."
+    },
+    "s-00467": {
+      "en": "june",
+      "word": "tháng sáu",
+      "sentence": "Đây là một tháng sáu."
+    },
+    "s-00468": {
+      "en": "just",
+      "word": "chỉ",
+      "sentence": "Làm ơn chỉ nói thôi."
+    },
+    "s-00469": {
+      "en": "keep",
+      "word": "giữ",
+      "sentence": "Tôi đang học giữ."
+    },
+    "s-00470": {
+      "en": "kick",
+      "word": "cú đá",
+      "sentence": "Đây là một cú đá."
+    },
+    "s-00471": {
+      "en": "kid",
+      "word": "đứa trẻ",
+      "sentence": "Đây là một đứa trẻ."
+    },
+    "s-00473": {
+      "en": "king",
+      "word": "vua",
+      "sentence": "Đây là một vị vua."
+    },
+    "s-00474": {
+      "en": "kiss",
+      "word": "hôn",
+      "sentence": "Đây là một nụ hôn."
+    },
+    "s-00476": {
+      "en": "kite",
+      "word": "diều",
+      "sentence": "Đây là một con diều."
+    },
+    "s-00480": {
+      "en": "lady",
+      "word": "quý cô",
+      "sentence": "Đây là một quý cô."
+    },
+    "s-00481": {
+      "en": "language",
+      "word": "ngôn ngữ",
+      "sentence": "Đây là một ngôn ngữ."
+    },
+    "s-00482": {
+      "en": "large",
+      "word": "lớn",
+      "sentence": "Nó lớn."
+    },
+    "s-00483": {
+      "en": "last name",
+      "word": "họ",
+      "sentence": "Bạn có thể nói “họ” trong câu này."
+    },
+    "s-00485": {
+      "en": "later",
+      "word": "sau này",
+      "sentence": "Xin hãy nói sau."
+    },
+    "s-00486": {
+      "en": "laugh",
+      "word": "cười",
+      "sentence": "Tôi đang học cười."
+    },
+    "s-00488": {
+      "en": "leader",
+      "word": "lãnh đạo",
+      "sentence": "Đây là một nhà lãnh đạo."
+    },
+    "s-00495": {
+      "en": "let",
+      "word": "để",
+      "sentence": "Tôi đang học để."
+    },
+    "s-00498": {
+      "en": "life",
+      "word": "cuộc sống",
+      "sentence": "Cuộc sống là tốt."
+    },
+    "s-00501": {
+      "en": "lily",
+      "word": "hoa huệ",
+      "sentence": "Đây là hoa huệ."
+    },
+    "s-00502": {
+      "en": "line",
+      "word": "dòng",
+      "sentence": "Đây là một dòng."
+    },
+    "s-00504": {
+      "en": "list",
+      "word": "danh sách",
+      "sentence": "Đây là một danh sách."
+    },
+    "s-00506": {
+      "en": "little",
+      "word": "một chút",
+      "sentence": "Nó rất ít."
+    },
+    "s-00508": {
+      "en": "living",
+      "word": "sống",
+      "sentence": "Nó đang sống."
+    },
+    "s-00513": {
+      "en": "lot",
+      "word": "rất nhiều",
+      "sentence": "Hãy nói thật nhiều nhé."
+    },
+    "s-00515": {
+      "en": "lovely",
+      "word": "đáng yêu",
+      "sentence": "Nó thật đáng yêu."
+    },
+    "s-00516": {
+      "en": "luck",
+      "word": "may mắn",
+      "sentence": "Đây là một điều may mắn."
+    },
+    "s-00517": {
+      "en": "lucky",
+      "word": "may mắn",
+      "sentence": "Cô cảm thấy hôm nay thật may mắn."
+    },
+    "s-00519": {
+      "en": "machine",
+      "word": "máy móc",
+      "sentence": "Đây là một cái máy."
+    },
+    "s-00521": {
+      "en": "mail",
+      "word": "thư",
+      "sentence": "Đây là một lá thư."
+    },
+    "s-00526": {
+      "en": "match",
+      "word": "que diêm",
+      "sentence": "Đây là một trận đấu."
+    },
+    "s-00527": {
+      "en": "math",
+      "word": "môn toán",
+      "sentence": "Đây là một môn toán."
+    },
+    "s-00529": {
+      "en": "may",
+      "word": "tháng năm",
+      "sentence": "Tháng Năm là một tháng ấm áp."
+    },
+    "s-00532": {
+      "en": "meal",
+      "word": "bữa ăn",
+      "sentence": "Đây là một bữa ăn."
+    },
+    "s-00533": {
+      "en": "mean",
+      "word": "có nghĩa",
+      "sentence": "Tôi đang học có nghĩa."
+    },
+    "s-00536": {
+      "en": "meet",
+      "word": "gặp",
+      "sentence": "Tôi đang học gặp."
+    },
+    "s-00539": {
+      "en": "merry",
+      "word": "vui vẻ",
+      "sentence": "Thật vui vẻ."
+    },
+    "s-00541": {
+      "en": "middle",
+      "word": "ở giữa",
+      "sentence": "Nó ở giữa."
+    },
+    "s-00543": {
+      "en": "mine",
+      "word": "của tôi",
+      "sentence": "Chúng ta đang nói về tôi."
+    },
+    "s-00546": {
+      "en": "mobile",
+      "word": "di động",
+      "sentence": "Đây là một chiếc điện thoại di động."
+    },
+    "s-00547": {
+      "en": "mobile phone",
+      "word": "điện thoại di động",
+      "sentence": "Bạn có thể nói “mobile phone” trong câu này."
+    },
+    "s-00548": {
+      "en": "mom",
+      "word": "mẹ",
+      "sentence": "Đây là một người mẹ."
+    },
+    "s-00549": {
+      "en": "moment",
+      "word": "khoảnh khắc",
+      "sentence": "Đây là một khoảnh khắc."
+    },
+    "s-00550": {
+      "en": "mommy",
+      "word": "mẹ ơi",
+      "sentence": "Đây là một người mẹ."
+    },
+    "s-00555": {
+      "en": "more",
+      "word": "hơn thế nữa",
+      "sentence": "Chúng tôi đã nói về nhiều hơn nữa."
+    },
+    "s-00557": {
+      "en": "most",
+      "word": "nhất",
+      "sentence": "Hầu hết cuốn sách đều ở trên bàn."
+    },
+    "s-00560": {
+      "en": "move",
+      "word": "nước đi",
+      "sentence": "Đây là một động thái."
+    },
+    "s-00561": {
+      "en": "movie",
+      "word": "phim",
+      "sentence": "Đây là một bộ phim."
+    },
+    "s-00562": {
+      "en": "much",
+      "word": "nhiều",
+      "sentence": "Hãy nói thật nhiều nhé."
+    },
+    "s-00563": {
+      "en": "mum",
+      "word": "mẹ",
+      "sentence": "Đây là một bà mẹ."
+    },
+    "s-00565": {
+      "en": "musician",
+      "word": "nhạc sĩ",
+      "sentence": "Đây là một nhạc sĩ."
+    },
+    "s-00566": {
+      "en": "must",
+      "word": "phải",
+      "sentence": "Tôi đang học phải."
+    },
+    "s-00568": {
+      "en": "nationality",
+      "word": "quốc tịch",
+      "sentence": "Đây là một quốc tịch."
+    },
+    "s-00569": {
+      "en": "near",
+      "word": "gần",
+      "sentence": "Trường học nằm gần công viên."
+    },
+    "s-00580": {
+      "en": "no",
+      "word": "không",
+      "sentence": "Xin hãy nói không."
+    },
+    "s-00583": {
+      "en": "not",
+      "word": "không",
+      "sentence": "Xin hãy nói là không."
+    },
+    "s-00587": {
+      "en": "november",
+      "word": "tháng mười một",
+      "sentence": "Đây là một tháng mười một."
+    },
+    "s-00591": {
+      "en": "o'clock",
+      "word": "giờ",
+      "sentence": "Xin hãy nói là đã 1 giờ."
+    },
+    "s-00592": {
+      "en": "october",
+      "word": "tháng mười",
+      "sentence": "Đây là một tháng mười."
+    },
+    "s-00593": {
+      "en": "of",
+      "word": "của",
+      "sentence": "Cuốn sách là của cái bàn."
+    },
+    "s-00594": {
+      "en": "off",
+      "word": "tắt",
+      "sentence": "Hãy tắt đèn đi."
+    },
+    "s-00596": {
+      "en": "officer",
+      "word": "sĩ quan",
+      "sentence": "Đây là một sĩ quan."
+    },
+    "s-00598": {
+      "en": "ok",
+      "word": "ổn",
+      "sentence": "Không sao đâu."
+    },
+    "s-00600": {
+      "en": "olympics",
+      "word": "thế vận hội",
+      "sentence": "Đây là một Thế vận hội."
+    },
+    "s-00603": {
+      "en": "only",
+      "word": "chỉ",
+      "sentence": "Tôi chỉ cần nước."
+    },
+    "s-00609": {
+      "en": "other",
+      "word": "khác",
+      "sentence": "Cuốn sách khác ở trên bàn."
+    },
+    "s-00611": {
+      "en": "ours",
+      "word": "của chúng tôi",
+      "sentence": "Chúng ta đang nói về chuyện của chúng ta."
+    },
+    "s-00612": {
+      "en": "out",
+      "word": "ra ngoài",
+      "sentence": "Bọn trẻ đã ra ngoài."
+    },
+    "s-00614": {
+      "en": "over",
+      "word": "qua",
+      "sentence": "Con chim bay qua nhà."
+    },
+    "s-00615": {
+      "en": "own",
+      "word": "sở hữu",
+      "sentence": "Nó là của riêng."
+    },
+    "s-00616": {
+      "en": "owner",
+      "word": "chủ sở hữu",
+      "sentence": "Đây là một chủ sở hữu."
+    },
+    "s-00620": {
+      "en": "pair",
+      "word": "cặp",
+      "sentence": "Đây là một cặp."
+    },
+    "s-00625": {
+      "en": "pardon",
+      "word": "tha thứ",
+      "sentence": "Đây là một sự tha thứ."
+    },
+    "s-00630": {
+      "en": "past",
+      "word": "quá khứ",
+      "sentence": "Xin hãy nói điều đó qua đi."
+    },
+    "s-00635": {
+      "en": "people",
+      "word": "mọi người",
+      "sentence": "Người dân rất tốt bụng."
+    },
+    "s-00636": {
+      "en": "period",
+      "word": "thời kỳ",
+      "sentence": "Đây là một thời kỳ."
+    },
+    "s-00641": {
+      "en": "photo",
+      "word": "bức ảnh",
+      "sentence": "Đây là một bức ảnh."
+    },
+    "s-00643": {
+      "en": "pick",
+      "word": "chọn",
+      "sentence": "Tôi đang học chọn."
+    },
+    "s-00646": {
+      "en": "piece",
+      "word": "mảnh",
+      "sentence": "Đây là một mảnh."
+    },
+    "s-00648": {
+      "en": "pink",
+      "word": "màu hồng",
+      "sentence": "Nó có màu hồng."
+    },
+    "s-00650": {
+      "en": "place",
+      "word": "địa điểm",
+      "sentence": "Nơi này yên tĩnh."
+    },
+    "s-00654": {
+      "en": "player",
+      "word": "người chơi",
+      "sentence": "Đây là một người chơi."
+    },
+    "s-00655": {
+      "en": "please",
+      "word": "làm ơn",
+      "sentence": "Làm ơn cho một tách cà phê."
+    },
+    "s-00658": {
+      "en": "poem",
+      "word": "bài thơ",
+      "sentence": "Đây là một bài thơ."
+    },
+    "s-00661": {
+      "en": "pool",
+      "word": "hồ bơi",
+      "sentence": "Đây là một hồ bơi."
+    },
+    "s-00663": {
+      "en": "pop",
+      "word": "bật lên",
+      "sentence": "Đây là một bản nhạc pop."
+    },
+    "s-00664": {
+      "en": "post",
+      "word": "bài đăng",
+      "sentence": "Đây là một bài viết."
+    },
+    "s-00668": {
+      "en": "pray",
+      "word": "cầu nguyện",
+      "sentence": "Tôi đang học cầu nguyện."
+    },
+    "s-00670": {
+      "en": "pretty",
+      "word": "xinh đẹp",
+      "sentence": "Nó rất đẹp."
+    },
+    "s-00672": {
+      "en": "prince",
+      "word": "hoàng tử",
+      "sentence": "Đây là một hoàng tử."
+    },
+    "s-00673": {
+      "en": "princess",
+      "word": "công chúa",
+      "sentence": "Đây là một công chúa."
+    },
+    "s-00676": {
+      "en": "purple",
+      "word": "màu tím",
+      "sentence": "Đây là một màu tím."
+    },
+    "s-00677": {
+      "en": "push",
+      "word": "đẩy",
+      "sentence": "Tôi đang học đẩy."
+    },
+    "s-00679": {
+      "en": "quarter",
+      "word": "một phần tư",
+      "sentence": "Đây là một phần tư."
+    },
+    "s-00684": {
+      "en": "radio",
+      "word": "đài phát thanh",
+      "sentence": "Đây là một đài phát thanh."
+    },
+    "s-00686": {
+      "en": "rat",
+      "word": "chuột",
+      "sentence": "Đây là một con chuột."
+    },
+    "s-00689": {
+      "en": "reading",
+      "word": "đọc sách",
+      "sentence": "Đây là một bài đọc."
+    },
+    "s-00690": {
+      "en": "ready",
+      "word": "sẵn sàng",
+      "sentence": "Hôm nay cô cảm thấy sẵn sàng."
+    },
+    "s-00691": {
+      "en": "real",
+      "word": "thực",
+      "sentence": "Nó là có thật."
+    },
+    "s-00700": {
+      "en": "ribbon",
+      "word": "ruy băng",
+      "sentence": "Đây là một dải ruy băng."
+    },
+    "s-00708": {
+      "en": "row",
+      "word": "hàng",
+      "sentence": "Đây là một hàng."
+    },
+    "s-00710": {
+      "en": "rule",
+      "word": "cai trị",
+      "sentence": "Đây là một quy tắc."
+    },
+    "s-00714": {
+      "en": "sailor",
+      "word": "thủy thủ",
+      "sentence": "Đây là một thủy thủ."
+    },
+    "s-00717": {
+      "en": "same",
+      "word": "giống nhau",
+      "sentence": "Nó giống nhau."
+    },
+    "s-00721": {
+      "en": "saw",
+      "word": "cái cưa",
+      "sentence": "Đây là một cái cưa."
+    },
+    "s-00727": {
+      "en": "section",
+      "word": "phần",
+      "sentence": "Đây là một phần."
+    },
+    "s-00728": {
+      "en": "self",
+      "word": "tự",
+      "sentence": "Đây là một cái tôi."
+    },
+    "s-00729": {
+      "en": "sell",
+      "word": "bán",
+      "sentence": "Tôi đang học bán."
+    },
+    "s-00731": {
+      "en": "september",
+      "word": "tháng chín",
+      "sentence": "Đây là một tháng chín."
+    },
+    "s-00732": {
+      "en": "set",
+      "word": "đặt",
+      "sentence": "Tôi đang học đặt."
+    },
+    "s-00736": {
+      "en": "shake",
+      "word": "cái bắt tay",
+      "sentence": "Đây là một sự rung chuyển."
+    },
+    "s-00745": {
+      "en": "shopping",
+      "word": "mua sắm",
+      "sentence": "Đây là một khu mua sắm."
+    },
+    "s-00747": {
+      "en": "should",
+      "word": "nên",
+      "sentence": "Tôi đang học nên."
+    },
+    "s-00753": {
+      "en": "side",
+      "word": "bên",
+      "sentence": "Đây là một bên."
+    },
+    "s-00754": {
+      "en": "sight",
+      "word": "tầm nhìn",
+      "sentence": "Đây là một cảnh tượng."
+    },
+    "s-00758": {
+      "en": "sir",
+      "word": "thưa ông",
+      "sentence": "Đây là một ngài."
+    },
+    "s-00760": {
+      "en": "site",
+      "word": "trang web",
+      "sentence": "Đây là một trang web."
+    },
+    "s-00770": {
+      "en": "smell",
+      "word": "mùi",
+      "sentence": "Đây là một mùi."
+    },
+    "s-00772": {
+      "en": "smith",
+      "word": "thợ rèn",
+      "sentence": "Đây là một thợ rèn."
+    },
+    "s-00773": {
+      "en": "smoke",
+      "word": "khói",
+      "sentence": "Đây là một làn khói."
+    },
+    "s-00774": {
+      "en": "smoking",
+      "word": "hút thuốc",
+      "sentence": "Đây là một cuộc hút thuốc."
+    },
+    "s-00778": {
+      "en": "so",
+      "word": "vậy",
+      "sentence": "Nước lạnh nên tôi pha trà."
+    },
+    "s-00779": {
+      "en": "soccer",
+      "word": "bóng đá",
+      "sentence": "Đây là một trận bóng đá."
+    },
+    "s-00787": {
+      "en": "song",
+      "word": "bài hát",
+      "sentence": "Đây là một bài hát."
+    },
+    "s-00789": {
+      "en": "sorry",
+      "word": "xin lỗi",
+      "sentence": "Tôi xin lỗi."
+    },
+    "s-00796": {
+      "en": "sport",
+      "word": "thể thao",
+      "sentence": "Đây là một môn thể thao."
+    },
+    "s-00797": {
+      "en": "spot",
+      "word": "chỗ",
+      "sentence": "Đây là một chỗ."
+    },
+    "s-00799": {
+      "en": "spy",
+      "word": "gián điệp",
+      "sentence": "Đây là một điệp viên."
+    },
+    "s-00806": {
+      "en": "step",
+      "word": "bước",
+      "sentence": "Tôi đang học bước."
+    },
+    "s-00810": {
+      "en": "story",
+      "word": "câu chuyện",
+      "sentence": "Đây là một câu chuyện."
+    },
+    "s-00814": {
+      "en": "strict",
+      "word": "nghiêm khắc",
+      "sentence": "Nó rất nghiêm ngặt."
+    },
+    "s-00823": {
+      "en": "sum",
+      "word": "tổng hợp",
+      "sentence": "Đây là một khoản tiền."
+    },
+    "s-00828": {
+      "en": "super",
+      "word": "siêu",
+      "sentence": "Nó thật tuyệt vời."
+    },
+    "s-00830": {
+      "en": "sure",
+      "word": "chắc chắn rồi",
+      "sentence": "Hôm nay cô cảm thấy chắc chắn."
+    },
+    "s-00831": {
+      "en": "surf",
+      "word": "lướt sóng",
+      "sentence": "Đây là một cuộc lướt sóng."
+    },
+    "s-00836": {
+      "en": "swimming",
+      "word": "bơi lội",
+      "sentence": "Đây là một cuộc bơi lội."
+    },
+    "s-00837": {
+      "en": "swimming pool",
+      "word": "bể bơi",
+      "sentence": "Bạn có thể nói “bể bơi” trong câu này."
+    },
+    "s-00847": {
+      "en": "technology",
+      "word": "công nghệ",
+      "sentence": "Đây là một công nghệ."
+    },
+    "s-00848": {
+      "en": "telephone",
+      "word": "điện thoại",
+      "sentence": "Đây là một chiếc điện thoại."
+    },
+    "s-00849": {
+      "en": "television",
+      "word": "truyền hình",
+      "sentence": "Đây là một chiếc tivi."
+    },
+    "s-00853": {
+      "en": "tennis",
+      "word": "quần vợt",
+      "sentence": "Đây là một môn quần vợt."
+    },
+    "s-00854": {
+      "en": "terrible",
+      "word": "khủng khiếp",
+      "sentence": "Nó thật khủng khiếp."
+    },
+    "s-00856": {
+      "en": "than",
+      "word": "hơn",
+      "sentence": "Cuốn sách hơn cái bàn."
+    },
+    "s-00857": {
+      "en": "thank",
+      "word": "cảm ơn",
+      "sentence": "Cảm ơn vì nước."
+    },
+    "s-00858": {
+      "en": "thanks",
+      "word": "cảm ơn",
+      "sentence": "Đây là một lời cảm ơn."
+    },
+    "s-00860": {
+      "en": "the",
+      "word": "ấy",
+      "sentence": "Cuốn sách ở trên bàn."
+    },
+    "s-00864": {
+      "en": "then",
+      "word": "sau đó",
+      "sentence": "Chúng tôi ăn rồi đi bộ."
+    },
+    "s-00868": {
+      "en": "thick",
+      "word": "dày",
+      "sentence": "Nó dày."
+    },
+    "s-00870": {
+      "en": "thing",
+      "word": "điều",
+      "sentence": "Chuyện này nhỏ thôi."
+    },
+    "s-00874": {
+      "en": "those",
+      "word": "những cái đó",
+      "sentence": "Chúng tôi đang nói về những điều đó."
+    },
+    "s-00876": {
+      "en": "through",
+      "word": "thông qua",
+      "sentence": "Chúng tôi đi bộ qua công viên."
+    },
+    "s-00877": {
+      "en": "throw",
+      "word": "cú ném",
+      "sentence": "Đây là một cú ném."
+    },
+    "s-00881": {
+      "en": "tight",
+      "word": "chặt chẽ",
+      "sentence": "Nó rất chặt chẽ."
+    },
+    "s-00891": {
+      "en": "too",
+      "word": "quá",
+      "sentence": "Cà phê này nóng quá."
+    },
+    "s-00892": {
+      "en": "tool",
+      "word": "công cụ",
+      "sentence": "Đây là một công cụ."
+    },
+    "s-00894": {
+      "en": "top",
+      "word": "hàng đầu",
+      "sentence": "Đây là một đỉnh cao."
+    },
+    "s-00896": {
+      "en": "touch",
+      "word": "chạm vào",
+      "sentence": "Đây là một liên lạc."
+    },
+    "s-00900": {
+      "en": "toy",
+      "word": "đồ chơi",
+      "sentence": "Đây là một món đồ chơi."
+    },
+    "s-00902": {
+      "en": "travel",
+      "word": "đi du lịch",
+      "sentence": "Tôi đang học đi du lịch."
+    },
+    "s-00904": {
+      "en": "trousers",
+      "word": "quần",
+      "sentence": "Đây là một chiếc quần."
+    },
+    "s-00906": {
+      "en": "true",
+      "word": "đúng",
+      "sentence": "Đó là sự thật."
+    },
+    "s-00908": {
+      "en": "tube",
+      "word": "ống",
+      "sentence": "Đây là một cái ống."
+    },
+    "s-00910": {
+      "en": "turkey",
+      "word": "gà tây",
+      "sentence": "Đây là một con gà tây."
+    },
+    "s-00911": {
+      "en": "turn",
+      "word": "rẽ",
+      "sentence": "Đây là một ngã rẽ."
+    },
+    "s-00912": {
+      "en": "tv",
+      "word": "truyền hình",
+      "sentence": "Đây là một chiếc tivi."
+    },
+    "s-00916": {
+      "en": "ugly",
+      "word": "xấu xí",
+      "sentence": "Nó thật xấu xí."
+    },
+    "s-00919": {
+      "en": "under",
+      "word": "dưới",
+      "sentence": "Con mèo ở dưới gầm bàn."
+    },
+    "s-00922": {
+      "en": "up",
+      "word": "lên",
+      "sentence": "Xin hãy đứng lên."
+    },
+    "s-00926": {
+      "en": "vacation",
+      "word": "kỳ nghỉ",
+      "sentence": "Đây là một kỳ nghỉ."
+    },
+    "s-00927": {
+      "en": "vase",
+      "word": "bình hoa",
+      "sentence": "Đây là một cái bình."
+    },
+    "s-00930": {
+      "en": "video",
+      "word": "video",
+      "sentence": "Đây là một đoạn video."
+    },
+    "s-00932": {
+      "en": "volleyball",
+      "word": "bóng chuyền",
+      "sentence": "Đây là một quả bóng chuyền."
+    },
+    "s-00937": {
+      "en": "wake",
+      "word": "sự thức",
+      "sentence": "Đây là một sự thức tỉnh."
+    },
+    "s-00940": {
+      "en": "war",
+      "word": "chiến tranh",
+      "sentence": "Đây là một cuộc chiến."
+    },
+    "s-00942": {
+      "en": "was",
+      "word": "đã là",
+      "sentence": "Tôi đang học đã là."
+    },
+    "s-00943": {
+      "en": "wash",
+      "word": "việc giặt",
+      "sentence": "Đây là một sự rửa sạch."
+    },
+    "s-00945": {
+      "en": "way",
+      "word": "đường",
+      "sentence": "Trường học ở hướng nào?"
+    },
+    "s-00953": {
+      "en": "well",
+      "word": "ngon",
+      "sentence": "Tôi ngủ ngon."
+    },
+    "s-00954": {
+      "en": "were",
+      "word": "đã là",
+      "sentence": "Tôi đang học đã là."
+    },
+    "s-00955": {
+      "en": "what",
+      "word": "cái gì",
+      "sentence": "Chúng ta đang nói về cái gì."
+    },
+    "s-00957": {
+      "en": "when",
+      "word": "khi nào",
+      "sentence": "Hãy nói điều đó khi nào."
+    },
+    "s-00958": {
+      "en": "where",
+      "word": "ở đâu",
+      "sentence": "Hãy nói nó ở đâu."
+    },
+    "s-00959": {
+      "en": "which",
+      "word": "cái nào",
+      "sentence": "Chúng tôi đang nói về cái đó."
+    },
+    "s-00962": {
+      "en": "whose",
+      "word": "của ai",
+      "sentence": "Chúng ta đang nói về ai."
+    },
+    "s-00963": {
+      "en": "why",
+      "word": "tại sao",
+      "sentence": "Hãy nói lý do tại sao."
+    },
+    "s-00965": {
+      "en": "will",
+      "word": "sẽ",
+      "sentence": "Tôi đang học sẽ."
+    },
+    "s-00970": {
+      "en": "wish",
+      "word": "ước gì",
+      "sentence": "Đây là một mong muốn."
+    },
+    "s-00972": {
+      "en": "wonderful",
+      "word": "tuyệt vời",
+      "sentence": "Nó thật tuyệt vời."
+    },
+    "s-00978": {
+      "en": "would",
+      "word": "sẽ",
+      "sentence": "Tôi đang học sẽ."
+    },
+    "s-00980": {
+      "en": "writer",
+      "word": "nhà văn",
+      "sentence": "Đây là một nhà văn."
+    },
+    "s-00981": {
+      "en": "wrong",
+      "word": "sai",
+      "sentence": "Nó sai."
+    },
+    "s-00985": {
+      "en": "yes",
+      "word": "vâng",
+      "sentence": "Vâng, tôi hiểu."
+    },
+    "s-00988": {
+      "en": "yogurt",
+      "word": "sữa chua",
+      "sentence": "Đây là sữa chua."
+    },
+    "s-00991": {
+      "en": "yours",
+      "word": "của bạn",
+      "sentence": "Chúng ta đang nói về bạn."
+    },
+    "s-00992": {
+      "en": "yourself",
+      "word": "chính bạn",
+      "sentence": "Chúng ta đang nói về chính bạn."
+    }
+  }
+}

@@ -1,0 +1,3561 @@
+{
+  "lang": "hr",
+  "level": "A1",
+  "items": {
+    "i": {
+      "en": "I",
+      "word": "ja",
+      "sentence": "Ja sam ovdje."
+    },
+    "you": {
+      "en": "you",
+      "word": "ti",
+      "sentence": "Ti si moj prijatelj.",
+      "note": "informal singular"
+    },
+    "woman": {
+      "en": "woman",
+      "word": "žena",
+      "gender": "f",
+      "sentence": "Žena je ovdje."
+    },
+    "man": {
+      "en": "man",
+      "word": "muškarac",
+      "gender": "m",
+      "plural": "muškarci",
+      "sentence": "Muškarac hoda."
+    },
+    "child": {
+      "en": "child",
+      "word": "dijete",
+      "gender": "n",
+      "plural": "djeca",
+      "sentence": "Dijete spava."
+    },
+    "name": {
+      "en": "name",
+      "word": "ime",
+      "gender": "n",
+      "plural": "imena",
+      "sentence": "Moje ime je Anna."
+    },
+    "friend": {
+      "en": "friend",
+      "word": "prijatelj",
+      "gender": "m",
+      "feminine": "prijateljica",
+      "sentence": "Ovo je moj prijatelj."
+    },
+    "family": {
+      "en": "family",
+      "word": "obitelj",
+      "gender": "f",
+      "sentence": "Moja obitelj je kod kuće."
+    },
+    "house": {
+      "en": "house",
+      "word": "kuća",
+      "gender": "f",
+      "sentence": "Kuća je mala."
+    },
+    "door": {
+      "en": "door",
+      "word": "vrata",
+      "gender": "n",
+      "sentence": "Vrata su otvorena.",
+      "note": "plural only"
+    },
+    "key": {
+      "en": "key",
+      "word": "ključ",
+      "gender": "m",
+      "sentence": "Ključ je na stolu."
+    },
+    "table": {
+      "en": "table",
+      "word": "stol",
+      "gender": "m",
+      "sentence": "Knjiga je na stolu."
+    },
+    "bed": {
+      "en": "bed",
+      "word": "krevet",
+      "gender": "m",
+      "sentence": "Dijete je u krevetu."
+    },
+    "book": {
+      "en": "book",
+      "word": "knjiga",
+      "gender": "f",
+      "sentence": "Knjiga je nova."
+    },
+    "water": {
+      "en": "water",
+      "word": "voda",
+      "gender": "f",
+      "sentence": "Voda je hladna."
+    },
+    "fire": {
+      "en": "fire",
+      "word": "vatra",
+      "gender": "f",
+      "sentence": "Vatra je vruća."
+    },
+    "bread": {
+      "en": "bread",
+      "word": "kruh",
+      "gender": "m",
+      "sentence": "Kruh je dobar."
+    },
+    "apple": {
+      "en": "apple",
+      "word": "jabuka",
+      "gender": "f",
+      "sentence": "Jabuka je crvena."
+    },
+    "egg": {
+      "en": "egg",
+      "word": "jaje",
+      "gender": "n",
+      "plural": "jaja",
+      "sentence": "Jaje je na stolu."
+    },
+    "milk": {
+      "en": "milk",
+      "word": "mlijeko",
+      "gender": "n",
+      "sentence": "Dijete pije mlijeko."
+    },
+    "fish": {
+      "en": "fish",
+      "word": "riba",
+      "gender": "f",
+      "sentence": "Riba je u vodi."
+    },
+    "rice": {
+      "en": "rice",
+      "word": "riža",
+      "gender": "f",
+      "sentence": "Jedemo rižu."
+    },
+    "coffee": {
+      "en": "coffee",
+      "word": "kava",
+      "gender": "f",
+      "sentence": "Kava je vruća."
+    },
+    "eat": {
+      "en": "eat",
+      "word": "jesti",
+      "sentence": "Jedemo kruh."
+    },
+    "drink": {
+      "en": "drink",
+      "word": "piti",
+      "sentence": "Pijem vodu."
+    },
+    "see": {
+      "en": "see",
+      "word": "vidjeti",
+      "sentence": "Vidim sunce."
+    },
+    "hear": {
+      "en": "hear",
+      "word": "čuti",
+      "sentence": "Čujem kišu."
+    },
+    "sleep": {
+      "en": "sleep",
+      "word": "spavati",
+      "sentence": "Dijete spava."
+    },
+    "walk": {
+      "en": "walk",
+      "word": "hodati",
+      "sentence": "Muškarac hoda."
+    },
+    "come": {
+      "en": "come",
+      "word": "dolaziti",
+      "sentence": "Ti dolaziš do kuće."
+    },
+    "sit": {
+      "en": "sit",
+      "word": "sjediti",
+      "sentence": "Sjedimo za stolom."
+    },
+    "give": {
+      "en": "give",
+      "word": "davati",
+      "sentence": "Dajem ti ključ."
+    },
+    "sun": {
+      "en": "sun",
+      "word": "sunce",
+      "gender": "n",
+      "sentence": "Sunce je vruće."
+    },
+    "moon": {
+      "en": "moon",
+      "word": "mjesec",
+      "gender": "m",
+      "sentence": "Vidim mjesec.",
+      "note": "also month"
+    },
+    "tree": {
+      "en": "tree",
+      "word": "drvo",
+      "gender": "n",
+      "plural": "stabla",
+      "sentence": "Drvo je veliko."
+    },
+    "flower": {
+      "en": "flower",
+      "word": "cvijet",
+      "gender": "m",
+      "plural": "cvjetovi",
+      "sentence": "Cvijet je crven."
+    },
+    "rain": {
+      "en": "rain",
+      "word": "kiša",
+      "gender": "f",
+      "sentence": "Kiša je hladna."
+    },
+    "mountain": {
+      "en": "mountain",
+      "word": "planina",
+      "gender": "f",
+      "sentence": "Planina je velika."
+    },
+    "river": {
+      "en": "river",
+      "word": "rijeka",
+      "gender": "f",
+      "sentence": "Rijeka je duga."
+    },
+    "stone": {
+      "en": "stone",
+      "word": "kamen",
+      "gender": "m",
+      "sentence": "Kamen je mali."
+    },
+    "dog": {
+      "en": "dog",
+      "word": "pas",
+      "gender": "m",
+      "plural": "psi",
+      "sentence": "Pas je mali."
+    },
+    "cat": {
+      "en": "cat",
+      "word": "mačka",
+      "gender": "f",
+      "masculine": "mačak",
+      "sentence": "Mačka spava."
+    },
+    "bird": {
+      "en": "bird",
+      "word": "ptica",
+      "gender": "f",
+      "sentence": "Vidim dvije ptice."
+    },
+    "hand": {
+      "en": "hand",
+      "word": "ruka",
+      "gender": "f",
+      "sentence": "Ovo je moja ruka.",
+      "note": "also arm"
+    },
+    "eye": {
+      "en": "eye",
+      "word": "oko",
+      "gender": "n",
+      "plural": "oči",
+      "sentence": "Ovo je moje oko."
+    },
+    "ear": {
+      "en": "ear",
+      "word": "uho",
+      "gender": "n",
+      "plural": "uši",
+      "sentence": "Ovo je moje uho."
+    },
+    "head": {
+      "en": "head",
+      "word": "glava",
+      "gender": "f",
+      "sentence": "Ovo je moja glava."
+    },
+    "mouth": {
+      "en": "mouth",
+      "word": "usta",
+      "gender": "n",
+      "sentence": "Ovo su moja usta.",
+      "note": "plural only"
+    },
+    "foot": {
+      "en": "foot",
+      "word": "noga",
+      "gender": "f",
+      "sentence": "Moja noga je hladna.",
+      "note": "also leg"
+    },
+    "road": {
+      "en": "road",
+      "word": "cesta",
+      "gender": "f",
+      "sentence": "Cesta je duga."
+    },
+    "city": {
+      "en": "city",
+      "word": "grad",
+      "gender": "m",
+      "plural": "gradovi",
+      "sentence": "Grad je velik."
+    },
+    "school": {
+      "en": "school",
+      "word": "škola",
+      "gender": "f",
+      "sentence": "Dijete ide u školu."
+    },
+    "sea": {
+      "en": "sea",
+      "word": "more",
+      "gender": "n",
+      "sentence": "Vidim more."
+    },
+    "night": {
+      "en": "night",
+      "word": "noć",
+      "gender": "f",
+      "sentence": "Noć je hladna."
+    },
+    "one": {
+      "en": "one",
+      "word": "jedan",
+      "feminine": "jedna",
+      "neuter": "jedno",
+      "sentence": "Imam jednu jabuku."
+    },
+    "two": {
+      "en": "two",
+      "word": "dva",
+      "feminine": "dvije",
+      "sentence": "Vidim dvije ptice."
+    },
+    "big": {
+      "en": "big",
+      "word": "velik",
+      "sentence": "Kuća je velika."
+    },
+    "small": {
+      "en": "small",
+      "word": "mali",
+      "sentence": "Dijete je malo."
+    },
+    "good": {
+      "en": "good",
+      "word": "dobar",
+      "sentence": "Kruh je dobar."
+    },
+    "hot": {
+      "en": "hot",
+      "word": "vruć",
+      "sentence": "Vatra je vruća."
+    },
+    "cold": {
+      "en": "cold",
+      "word": "hladan",
+      "sentence": "Voda je hladna."
+    },
+    "red": {
+      "en": "red",
+      "word": "crven",
+      "sentence": "Jabuka je crvena."
+    },
+    "new": {
+      "en": "new",
+      "word": "nov",
+      "sentence": "Knjiga je nova."
+    },
+    "this": {
+      "en": "this",
+      "word": "ovaj",
+      "feminine": "ova",
+      "neuter": "ovo",
+      "sentence": "Ovo je moja kuća."
+    },
+    "a1-001": {
+      "en": "mother",
+      "word": "majka",
+      "gender": "f",
+      "sentence": "Moja majka kuha doručak za nas svako jutro."
+    },
+    "a1-002": {
+      "en": "father",
+      "word": "otac",
+      "gender": "m",
+      "sentence": "Moj otac vozi na posao svako jutro."
+    },
+    "a1-003": {
+      "en": "sister",
+      "word": "sestra",
+      "gender": "f",
+      "sentence": "Moja sestra mi pomaže sa zadaćom."
+    },
+    "a1-004": {
+      "en": "brother",
+      "word": "brat",
+      "gender": "m",
+      "sentence": "Moj brat se igra u parku nakon škole."
+    },
+    "a1-005": {
+      "en": "daughter",
+      "word": "kći",
+      "gender": "f",
+      "plural": "kćeri",
+      "sentence": "Njihova kći je vesela učenica u školi."
+    },
+    "a1-006": {
+      "en": "son",
+      "word": "sin",
+      "gender": "m",
+      "sentence": "Njihov sin voli čitati knjige navečer."
+    },
+    "a1-007": {
+      "en": "baby",
+      "word": "beba",
+      "gender": "f",
+      "sentence": "Beba spava u malom krevetu noću."
+    },
+    "a1-008": {
+      "en": "boy",
+      "word": "dječak",
+      "gender": "m",
+      "sentence": "Dječak hoda u školu sa sestrom."
+    },
+    "a1-009": {
+      "en": "girl",
+      "word": "djevojčica",
+      "gender": "f",
+      "sentence": "Djevojčica crta sliku svoje obitelji."
+    },
+    "a1-010": {
+      "en": "parent",
+      "word": "roditelj",
+      "gender": "m",
+      "sentence": "Roditelj čita priču djetetu navečer."
+    },
+    "a1-011": {
+      "en": "grandmother",
+      "word": "baka",
+      "gender": "f",
+      "sentence": "Moja baka nam priča priče u nedjelju."
+    },
+    "a1-012": {
+      "en": "grandfather",
+      "word": "djed",
+      "gender": "m",
+      "sentence": "Moj djed šeta parkom svako jutro."
+    },
+    "a1-013": {
+      "en": "grandma",
+      "word": "baka",
+      "gender": "f",
+      "sentence": "Moja baka peče tortu za moj rođendan.",
+      "note": "informal"
+    },
+    "a1-014": {
+      "en": "grandpa",
+      "word": "djed",
+      "gender": "m",
+      "sentence": "Moj djed pije čaj poslijepodne.",
+      "note": "informal"
+    },
+    "a1-015": {
+      "en": "aunt",
+      "word": "teta",
+      "gender": "f",
+      "sentence": "Moja teta živi u malom gradu blizu mora."
+    },
+    "a1-016": {
+      "en": "uncle",
+      "word": "ujak",
+      "gender": "m",
+      "sentence": "Moj ujak radi na farmi s mnogo životinja.",
+      "note": "also stric"
+    },
+    "a1-017": {
+      "en": "cousin",
+      "word": "bratić",
+      "gender": "m",
+      "feminine": "sestrična",
+      "sentence": "Moj bratić posjećuje naš dom ljeti."
+    },
+    "a1-018": {
+      "en": "wife",
+      "word": "supruga",
+      "gender": "f",
+      "sentence": "Njegova supruga predaje glazbu u mjesnoj školi."
+    },
+    "a1-019": {
+      "en": "husband",
+      "word": "suprug",
+      "gender": "m",
+      "sentence": "Njezin suprug kuha večeru u petak navečer."
+    },
+    "a1-020": {
+      "en": "twin",
+      "word": "blizanac",
+      "gender": "m",
+      "feminine": "blizanka",
+      "sentence": "Imam brata blizanca u razredu u školi."
+    },
+    "a1-021": {
+      "en": "niece",
+      "word": "nećakinja",
+      "gender": "f",
+      "sentence": "Moja nećakinja ima pet godina i vrlo je sretna."
+    },
+    "a1-022": {
+      "en": "nephew",
+      "word": "nećak",
+      "gender": "m",
+      "sentence": "Moj nećak se voli igrati u dvorištu."
+    },
+    "a1-023": {
+      "en": "grandson",
+      "word": "unuk",
+      "gender": "m",
+      "sentence": "Njezin unuk je posjećuje svake nedjelje poslijepodne."
+    },
+    "a1-024": {
+      "en": "granddaughter",
+      "word": "unuka",
+      "gender": "f",
+      "sentence": "Njezina unuka crta slike za kuhinjskim stolom."
+    },
+    "a1-025": {
+      "en": "grandchild",
+      "word": "unuče",
+      "gender": "n",
+      "plural": "unučad",
+      "sentence": "Svako unuče dobije mali dar za rođendan."
+    },
+    "a1-026": {
+      "en": "relative",
+      "word": "rođak",
+      "gender": "m",
+      "feminine": "rođakinja",
+      "sentence": "Rođak iz našeg grada posjećuje nas ljeti."
+    },
+    "a1-027": {
+      "en": "toddler",
+      "word": "mališan",
+      "gender": "m",
+      "sentence": "Mališan polako hoda kroz dnevni boravak."
+    },
+    "a1-028": {
+      "en": "teenager",
+      "word": "tinejdžer",
+      "gender": "m",
+      "feminine": "tinejdžerica",
+      "sentence": "Tinejdžer pomaže u dućanu u subotu."
+    },
+    "a1-029": {
+      "en": "adult",
+      "word": "odrasli",
+      "gender": "m",
+      "feminine": "odrasla",
+      "sentence": "Odrasli čeka s djetetom na autobusnoj postaji."
+    },
+    "a1-030": {
+      "en": "birthday",
+      "word": "rođendan",
+      "gender": "m",
+      "sentence": "Zajedno jedemo tortu na moj rođendan u svibnju."
+    },
+    "a1-031": {
+      "en": "wedding",
+      "word": "vjenčanje",
+      "gender": "n",
+      "sentence": "Vjenčanje je u vrtu na sunčan dan."
+    },
+    "a1-032": {
+      "en": "home",
+      "word": "dom",
+      "gender": "m",
+      "sentence": "Osjećam se mirno i sretno kad sam kod kuće."
+    },
+    "a1-033": {
+      "en": "brother-in-law",
+      "word": "šurjak",
+      "gender": "m",
+      "sentence": "Moj šurjak radi u gradskoj bolnici.",
+      "note": "wife's brother"
+    },
+    "a1-034": {
+      "en": "sister-in-law",
+      "word": "šurjakinja",
+      "gender": "f",
+      "sentence": "Moja šurjakinja uči djecu u školi."
+    },
+    "a1-035": {
+      "en": "mother-in-law",
+      "word": "svekrva",
+      "gender": "f",
+      "sentence": "Moja svekrva kuha toplu juhu za obitelj.",
+      "note": "also punica"
+    },
+    "a1-036": {
+      "en": "father-in-law",
+      "word": "svekar",
+      "gender": "m",
+      "sentence": "Moj svekar živi u mirnom selu.",
+      "note": "also punac"
+    },
+    "a1-037": {
+      "en": "hug",
+      "word": "grliti",
+      "sentence": "Grlim baku kad posjetim njezinu kuću."
+    },
+    "a1-038": {
+      "en": "visit",
+      "word": "posjećivati",
+      "sentence": "Posjećujemo ujaka na njegovoj farmi ljeti."
+    },
+    "a1-039": {
+      "en": "party",
+      "word": "zabava",
+      "gender": "f",
+      "sentence": "Danas imamo malu zabavu za njezin rođendan."
+    },
+    "a1-040": {
+      "en": "gift",
+      "word": "dar",
+      "gender": "m",
+      "sentence": "Ocu dajem dar za rođendan."
+    },
+    "a1-041": {
+      "en": "shirt",
+      "word": "košulja",
+      "gender": "f",
+      "sentence": "Nosim čistu bijelu košulju u ured."
+    },
+    "a1-042": {
+      "en": "shoe",
+      "word": "cipela",
+      "gender": "f",
+      "sentence": "Obujem cipelu prije nego izađem iz kuće."
+    },
+    "a1-043": {
+      "en": "coat",
+      "word": "kaput",
+      "gender": "m",
+      "sentence": "Nosim topli kaput hladne zime."
+    },
+    "a1-044": {
+      "en": "dress",
+      "word": "haljina",
+      "gender": "f",
+      "sentence": "Ona večeras nosi plavu haljinu na zabavu."
+    },
+    "a1-045": {
+      "en": "skirt",
+      "word": "suknja",
+      "gender": "f",
+      "sentence": "Nosim dugu suknju na obiteljsku zabavu."
+    },
+    "a1-046": {
+      "en": "pants",
+      "word": "hlače",
+      "gender": "f",
+      "sentence": "Ove hlače su čiste i dobre za školu.",
+      "note": "plural only"
+    },
+    "a1-047": {
+      "en": "jeans",
+      "word": "traperice",
+      "gender": "f",
+      "sentence": "U subotu nosim plave traperice i košulju.",
+      "note": "plural only"
+    },
+    "a1-048": {
+      "en": "jacket",
+      "word": "jakna",
+      "gender": "f",
+      "sentence": "Nosim laganu jaknu prohladno navečer."
+    },
+    "a1-049": {
+      "en": "hat",
+      "word": "šešir",
+      "gender": "m",
+      "sentence": "Nosim šešir kad je sunce jako vruće."
+    },
+    "a1-050": {
+      "en": "cap",
+      "word": "kapa",
+      "gender": "f",
+      "sentence": "Ljeti na plaži nosim kapu."
+    },
+    "a1-051": {
+      "en": "sock",
+      "word": "čarapa",
+      "gender": "f",
+      "sentence": "Ova čarapa je čista i mekana na nozi."
+    },
+    "a1-052": {
+      "en": "sweater",
+      "word": "džemper",
+      "gender": "m",
+      "sentence": "Nosim topli džemper u jesenskom vremenu."
+    },
+    "a1-053": {
+      "en": "scarf",
+      "word": "šal",
+      "gender": "m",
+      "plural": "šalovi",
+      "sentence": "Nosim topli šal kad je vjetar hladan."
+    },
+    "a1-054": {
+      "en": "glove",
+      "word": "rukavica",
+      "gender": "f",
+      "sentence": "Ova rukavica mi grije ruku zimi."
+    },
+    "a1-055": {
+      "en": "belt",
+      "word": "remen",
+      "gender": "m",
+      "sentence": "S radnim hlačama nosim crni remen."
+    },
+    "a1-056": {
+      "en": "boot",
+      "word": "čizma",
+      "gender": "f",
+      "sentence": "Ova čizma mi grije nogu u snijegu."
+    },
+    "a1-057": {
+      "en": "sandal",
+      "word": "sandala",
+      "gender": "f",
+      "sentence": "Ova sandala je dobra za šetnju plažom."
+    },
+    "a1-058": {
+      "en": "shorts",
+      "word": "kratke hlače",
+      "gender": "f",
+      "sentence": "Nosim kratke hlače kad je ljetni dan vruć.",
+      "note": "plural only"
+    },
+    "a1-059": {
+      "en": "t-shirt",
+      "word": "majica",
+      "gender": "f",
+      "sentence": "Nosim bijelu majicu toplih sunčanih dana."
+    },
+    "a1-060": {
+      "en": "tie",
+      "word": "kravata",
+      "gender": "f",
+      "sentence": "On na posao nosi tamnu kravatu uz odijelo."
+    },
+    "a1-061": {
+      "en": "button",
+      "word": "gumb",
+      "gender": "m",
+      "sentence": "Plavi gumb na mojoj košulji je jako malen."
+    },
+    "a1-062": {
+      "en": "pocket",
+      "word": "džep",
+      "gender": "m",
+      "sentence": "Ključ mi je u džepu kaputa."
+    },
+    "a1-063": {
+      "en": "glasses",
+      "word": "naočale",
+      "gender": "f",
+      "sentence": "Nosim naočale kad kod kuće čitam knjigu.",
+      "note": "plural only"
+    },
+    "a1-064": {
+      "en": "sunglasses",
+      "word": "sunčane naočale",
+      "gender": "f",
+      "sentence": "Sunčanih dana na plaži nosim sunčane naočale.",
+      "note": "plural only"
+    },
+    "a1-065": {
+      "en": "ring",
+      "word": "prsten",
+      "gender": "m",
+      "sentence": "Prsten na mom prstu dar je od majke."
+    },
+    "a1-066": {
+      "en": "necklace",
+      "word": "ogrlica",
+      "gender": "f",
+      "sentence": "Danas nosi ogrlicu uz plavu haljinu."
+    },
+    "a1-067": {
+      "en": "uniform",
+      "word": "uniforma",
+      "gender": "f",
+      "sentence": "Učenik u školi nosi čistu uniformu."
+    },
+    "a1-068": {
+      "en": "pajamas",
+      "word": "pidžama",
+      "gender": "f",
+      "sentence": "Ova pidžama je mekana i topla zimi."
+    },
+    "a1-069": {
+      "en": "slipper",
+      "word": "papuča",
+      "gender": "f",
+      "sentence": "Ova papuča je mekana i topla u kući."
+    },
+    "a1-070": {
+      "en": "raincoat",
+      "word": "kabanica",
+      "gender": "f",
+      "sentence": "Nosim kabanicu kad je dan kišovit."
+    },
+    "a1-071": {
+      "en": "mitten",
+      "word": "palčanka",
+      "gender": "f",
+      "sentence": "Ova palčanka mi drži ruku toplom i suhom."
+    },
+    "a1-072": {
+      "en": "umbrella",
+      "word": "kišobran",
+      "gender": "m",
+      "sentence": "Uzmem kišobran kad je nebo oblačno."
+    },
+    "a1-073": {
+      "en": "watch",
+      "word": "sat",
+      "gender": "m",
+      "sentence": "Moj sat pokazuje vrijeme kad ga pogledam.",
+      "note": "also hour"
+    },
+    "a1-074": {
+      "en": "wallet",
+      "word": "novčanik",
+      "gender": "m",
+      "sentence": "Novac držim u novčaniku u džepu."
+    },
+    "a1-075": {
+      "en": "backpack",
+      "word": "ruksak",
+      "gender": "m",
+      "sentence": "Ruksak mi je danas pun knjiga za školu."
+    },
+    "a1-076": {
+      "en": "clothes",
+      "word": "odjeća",
+      "gender": "f",
+      "sentence": "Perem odjeću subotom ujutro kod kuće."
+    },
+    "a1-077": {
+      "en": "vest",
+      "word": "prsluk",
+      "gender": "m",
+      "sentence": "Nosim topli prsluk ispod zimskog kaputa."
+    },
+    "a1-078": {
+      "en": "suit",
+      "word": "odijelo",
+      "gender": "n",
+      "sentence": "On danas nosi tamno odijelo u ured."
+    },
+    "a1-079": {
+      "en": "sneaker",
+      "word": "tenisica",
+      "gender": "f",
+      "sentence": "Ova tenisica je čista i dobra za hodanje."
+    },
+    "a1-080": {
+      "en": "wear",
+      "word": "nositi",
+      "sentence": "Zimi nosim kaput i šešir."
+    },
+    "a1-081": {
+      "en": "today",
+      "word": "danas",
+      "sentence": "Danas je vrijeme toplo i vrlo vedro."
+    },
+    "a1-082": {
+      "en": "tomorrow",
+      "word": "sutra",
+      "sentence": "Sutra ujutro posjećujemo baku."
+    },
+    "a1-083": {
+      "en": "yesterday",
+      "word": "jučer",
+      "sentence": "Jučer sam pomogao ocu u vrtu."
+    },
+    "a1-084": {
+      "en": "morning",
+      "word": "jutro",
+      "gender": "n",
+      "sentence": "Svako jutro pijem čaj prije nego izađem."
+    },
+    "a1-085": {
+      "en": "evening",
+      "word": "večer",
+      "gender": "f",
+      "sentence": "Navečer kod kuće zajedno večeramo."
+    },
+    "a1-086": {
+      "en": "afternoon",
+      "word": "poslijepodne",
+      "gender": "n",
+      "sentence": "U tihom poslijepodnevu kod kuće čitam knjigu."
+    },
+    "a1-087": {
+      "en": "week",
+      "word": "tjedan",
+      "gender": "m",
+      "plural": "tjedni",
+      "sentence": "Jednom svaki tjedan zovem baku."
+    },
+    "a1-088": {
+      "en": "year",
+      "word": "godina",
+      "gender": "f",
+      "sentence": "U jednoj godini ima dvanaest mjeseci."
+    },
+    "a1-089": {
+      "en": "month",
+      "word": "mjesec",
+      "gender": "m",
+      "sentence": "U mjesecu ima otprilike četiri tjedna.",
+      "note": "also moon"
+    },
+    "a1-090": {
+      "en": "hour",
+      "word": "sat",
+      "gender": "m",
+      "sentence": "Sat engleskog danas traje jedan sat.",
+      "note": "also clock"
+    },
+    "a1-091": {
+      "en": "minute",
+      "word": "minuta",
+      "gender": "f",
+      "sentence": "Molim te, pričekaj minutu pa možemo ići."
+    },
+    "a1-092": {
+      "en": "second",
+      "word": "sekunda",
+      "gender": "f",
+      "sentence": "Molim te, pričekaj sekundu pa uđi."
+    },
+    "a1-093": {
+      "en": "day",
+      "word": "dan",
+      "gender": "m",
+      "sentence": "Lijep je dan za šetnju parkom."
+    },
+    "a1-094": {
+      "en": "monday",
+      "word": "ponedjeljak",
+      "gender": "m",
+      "sentence": "U ponedjeljak imamo sat engleskog u školi."
+    },
+    "a1-095": {
+      "en": "tuesday",
+      "word": "utorak",
+      "gender": "m",
+      "sentence": "Utorkom se nakon škole igram s prijateljima."
+    },
+    "a1-096": {
+      "en": "wednesday",
+      "word": "srijeda",
+      "gender": "f",
+      "sentence": "U srijedu kod kuće jedemo juhu za ručak."
+    },
+    "a1-097": {
+      "en": "thursday",
+      "word": "četvrtak",
+      "gender": "m",
+      "sentence": "U četvrtak nakon škole posjećujem baku."
+    },
+    "a1-098": {
+      "en": "friday",
+      "word": "petak",
+      "gender": "m",
+      "sentence": "U petak gledamo film u mjesnom kinu."
+    },
+    "a1-099": {
+      "en": "saturday",
+      "word": "subota",
+      "gender": "f",
+      "sentence": "U subotu ujutro perem odjeću."
+    },
+    "a1-100": {
+      "en": "sunday",
+      "word": "nedjelja",
+      "gender": "f",
+      "sentence": "U nedjelju naša obitelj zajedno ruča kod kuće."
+    },
+    "a1-101": {
+      "en": "weekend",
+      "word": "vikend",
+      "gender": "m",
+      "sentence": "Vikendom se odmaramo kod kuće i čitamo knjige."
+    },
+    "a1-102": {
+      "en": "clock",
+      "word": "sat",
+      "gender": "m",
+      "sentence": "Sat u kuhinji pokazuje točno vrijeme.",
+      "note": "clock"
+    },
+    "a1-103": {
+      "en": "calendar",
+      "word": "kalendar",
+      "gender": "m",
+      "sentence": "Rođendan upisujem u kuhinjski kalendar."
+    },
+    "a1-104": {
+      "en": "time",
+      "word": "vrijeme",
+      "gender": "n",
+      "sentence": "U koliko sati jutros počinje sat?",
+      "note": "also weather"
+    },
+    "a1-105": {
+      "en": "early",
+      "word": "rani",
+      "sentence": "Ranim vlakom idem u grad na posao."
+    },
+    "a1-106": {
+      "en": "late",
+      "word": "kasni",
+      "sentence": "Autobus jutros kasni zbog prometa.",
+      "note": "verb, also zakašnjeli"
+    },
+    "a1-107": {
+      "en": "soon",
+      "word": "uskoro",
+      "sentence": "Večera će uskoro biti gotova, pa sjedni."
+    },
+    "a1-108": {
+      "en": "now",
+      "word": "sada",
+      "sentence": "Učenici su sada u učionici na satu."
+    },
+    "a1-109": {
+      "en": "always",
+      "word": "uvijek",
+      "sentence": "Uvijek operem zube prije spavanja."
+    },
+    "a1-110": {
+      "en": "sometimes",
+      "word": "ponekad",
+      "sentence": "Ponekad idem u školu pješice s bratom."
+    },
+    "a1-111": {
+      "en": "never",
+      "word": "nikad",
+      "sentence": "Nikad ne zaboravim ključeve kad izlazim od kuće."
+    },
+    "a1-112": {
+      "en": "often",
+      "word": "često",
+      "sentence": "Često u nedjelju poslijepodne idemo u park."
+    },
+    "a1-113": {
+      "en": "usually",
+      "word": "obično",
+      "sentence": "Obično uz doručak svako jutro pijem čaj."
+    },
+    "a1-114": {
+      "en": "noon",
+      "word": "podne",
+      "gender": "n",
+      "sentence": "Svaki dan u školi ručamo u podne."
+    },
+    "a1-115": {
+      "en": "midnight",
+      "word": "ponoć",
+      "gender": "f",
+      "sentence": "Grad je u ponoć tih i mračan."
+    },
+    "a1-116": {
+      "en": "tonight",
+      "word": "večeras",
+      "sentence": "Večeras kuhamo tjesteninu i jedemo zajedno kod kuće."
+    },
+    "a1-117": {
+      "en": "spring",
+      "word": "proljeće",
+      "gender": "n",
+      "sentence": "U proljeće je vrt zelen i svijetao."
+    },
+    "a1-118": {
+      "en": "summer",
+      "word": "ljeto",
+      "gender": "n",
+      "sentence": "Tijekom vrućeg ljeta plivamo u jezeru."
+    },
+    "a1-119": {
+      "en": "autumn",
+      "word": "jesen",
+      "gender": "f",
+      "sentence": "U prohladnoj jeseni nosim topli džemper."
+    },
+    "a1-120": {
+      "en": "winter",
+      "word": "zima",
+      "gender": "f",
+      "sentence": "Hladne zime nosim debeli kaput."
+    },
+    "a1-121": {
+      "en": "street",
+      "word": "ulica",
+      "gender": "f",
+      "sentence": "Naša kuća je u mirnoj ulici blizu parka."
+    },
+    "a1-122": {
+      "en": "station",
+      "word": "kolodvor",
+      "gender": "m",
+      "sentence": "Svako jutro čekamo vlak na kolodvoru."
+    },
+    "a1-123": {
+      "en": "hospital",
+      "word": "bolnica",
+      "gender": "f",
+      "sentence": "Moja teta radi kao medicinska sestra u bolnici."
+    },
+    "a1-124": {
+      "en": "hotel",
+      "word": "hotel",
+      "gender": "m",
+      "sentence": "Odsjedamo u malom hotelu blizu plaže."
+    },
+    "a1-125": {
+      "en": "shop",
+      "word": "dućan",
+      "gender": "m",
+      "sentence": "Dućan u našoj ulici prodaje kruh i voće."
+    },
+    "a1-126": {
+      "en": "market",
+      "word": "tržnica",
+      "gender": "f",
+      "sentence": "U subotu na tržnici kupujem svježe voće."
+    },
+    "a1-127": {
+      "en": "bank",
+      "word": "banka",
+      "gender": "f",
+      "sentence": "Novac držim u banci u gradu."
+    },
+    "a1-128": {
+      "en": "park",
+      "word": "park",
+      "gender": "m",
+      "sentence": "Djeca se svaki dan nakon škole igraju u parku."
+    },
+    "a1-129": {
+      "en": "library",
+      "word": "knjižnica",
+      "gender": "f",
+      "sentence": "Čitam knjige u knjižnici blizu kuće."
+    },
+    "a1-130": {
+      "en": "restaurant",
+      "word": "restoran",
+      "gender": "m",
+      "sentence": "U subotu navečer večeramo u restoranu."
+    },
+    "a1-131": {
+      "en": "cafe",
+      "word": "kafić",
+      "gender": "m",
+      "sentence": "Pijemo čaj u kafiću blizu kolodvora."
+    },
+    "a1-132": {
+      "en": "museum",
+      "word": "muzej",
+      "gender": "m",
+      "sentence": "Muzej je nedjeljom poslijepodne otvoren za obitelji."
+    },
+    "a1-133": {
+      "en": "cinema",
+      "word": "kino",
+      "gender": "n",
+      "sentence": "U petak navečer idemo u kino s prijateljima."
+    },
+    "a1-134": {
+      "en": "theater",
+      "word": "kazalište",
+      "gender": "n",
+      "sentence": "U subotu navečer gledamo predstavu u kazalištu."
+    },
+    "a1-135": {
+      "en": "pharmacy",
+      "word": "ljekarna",
+      "gender": "f",
+      "sentence": "Lijek kupujem u ljekarni blizu kuće."
+    },
+    "a1-136": {
+      "en": "church",
+      "word": "crkva",
+      "gender": "f",
+      "sentence": "Crkva je ponedjeljkom ujutro tiha u našem gradu."
+    },
+    "a1-137": {
+      "en": "bridge",
+      "word": "most",
+      "gender": "m",
+      "sentence": "Preko mosta hodamo do gradskog parka."
+    },
+    "a1-138": {
+      "en": "square",
+      "word": "trg",
+      "gender": "m",
+      "sentence": "Ljudi se sastaju na gradskom trgu na dan sajma."
+    },
+    "a1-139": {
+      "en": "corner",
+      "word": "ugao",
+      "gender": "m",
+      "sentence": "Banka je na uglu pokraj pekarnice."
+    },
+    "a1-140": {
+      "en": "building",
+      "word": "zgrada",
+      "gender": "f",
+      "sentence": "Bolnica je velika zgrada u našem gradu."
+    },
+    "a1-141": {
+      "en": "address",
+      "word": "adresa",
+      "gender": "f",
+      "sentence": "Molim te, jasno napiši svoju adresu na papir."
+    },
+    "a1-142": {
+      "en": "map",
+      "word": "zemljovid",
+      "gender": "m",
+      "sentence": "Gledam zemljovid kad želim naći muzej."
+    },
+    "a1-143": {
+      "en": "supermarket",
+      "word": "supermarket",
+      "gender": "m",
+      "sentence": "Svake subote ujutro kupujemo hranu u supermarketu."
+    },
+    "a1-144": {
+      "en": "bakery",
+      "word": "pekarnica",
+      "gender": "f",
+      "sentence": "Ujutro kupujem svjež kruh u pekarnici."
+    },
+    "a1-145": {
+      "en": "clinic",
+      "word": "klinika",
+      "gender": "f",
+      "sentence": "Idem u kliniku kad se ne osjećam dobro."
+    },
+    "a1-146": {
+      "en": "airport",
+      "word": "zračna luka",
+      "gender": "f",
+      "sentence": "Rano ujutro autobusom idemo u zračnu luku."
+    },
+    "a1-147": {
+      "en": "office",
+      "word": "ured",
+      "gender": "m",
+      "sentence": "Moj otac radi u uredu blizu kolodvora."
+    },
+    "a1-148": {
+      "en": "town",
+      "word": "gradić",
+      "gender": "m",
+      "sentence": "Naš gradić ima tržnicu, park i knjižnicu."
+    },
+    "a1-149": {
+      "en": "village",
+      "word": "selo",
+      "gender": "n",
+      "sentence": "Moji djed i baka žive u mirnom selu kraj rijeke."
+    },
+    "a1-150": {
+      "en": "sidewalk",
+      "word": "pločnik",
+      "gender": "m",
+      "sentence": "Molim te, hodi pločnikom uz prometnu ulicu."
+    },
+    "a1-151": {
+      "en": "traffic",
+      "word": "promet",
+      "gender": "m",
+      "sentence": "Promet je ujutro spor blizu škole."
+    },
+    "a1-152": {
+      "en": "sign",
+      "word": "znak",
+      "gender": "m",
+      "sentence": "Znak na uglu pokazuje put do kolodvora."
+    },
+    "a1-153": {
+      "en": "bench",
+      "word": "klupa",
+      "gender": "f",
+      "sentence": "Sjedimo na klupi u parku i razgovaramo."
+    },
+    "a1-154": {
+      "en": "playground",
+      "word": "igralište",
+      "gender": "n",
+      "sentence": "Djeca se svaki dan nakon škole igraju na igralištu."
+    },
+    "a1-155": {
+      "en": "zoo",
+      "word": "zoološki vrt",
+      "gender": "m",
+      "sentence": "U zoološkom vrtu vidimo lava i slona."
+    },
+    "a1-156": {
+      "en": "beach",
+      "word": "plaža",
+      "gender": "f",
+      "sentence": "Ljeti šetamo plažom i plivamo."
+    },
+    "a1-157": {
+      "en": "tower",
+      "word": "toranj",
+      "gender": "m",
+      "sentence": "Stari toranj je visok i lako se vidi iz grada."
+    },
+    "a1-158": {
+      "en": "gate",
+      "word": "kapija",
+      "gender": "f",
+      "sentence": "Molim te, zatvori kapiju kad izađeš iz vrta."
+    },
+    "a1-159": {
+      "en": "stamp",
+      "word": "marka",
+      "gender": "f",
+      "sentence": "Stavim marku na pismo ujaku."
+    },
+    "a1-160": {
+      "en": "postcard",
+      "word": "razglednica",
+      "gender": "f",
+      "sentence": "S plaže šaljem bakici razglednicu."
+    },
+    "a1-161": {
+      "en": "teacher",
+      "word": "učitelj",
+      "gender": "m",
+      "feminine": "učiteljica",
+      "sentence": "Učitelj svaki dan piše nove riječi na ploču."
+    },
+    "a1-162": {
+      "en": "student",
+      "word": "učenik",
+      "gender": "m",
+      "feminine": "učenica",
+      "sentence": "Učenik danas na satu čita kratku priču."
+    },
+    "a1-163": {
+      "en": "classroom",
+      "word": "učionica",
+      "gender": "f",
+      "sentence": "Naša učionica je svijetla, čista i vrlo tiha."
+    },
+    "a1-164": {
+      "en": "desk",
+      "word": "pisaći stol",
+      "gender": "m",
+      "sentence": "Sjedim za pisaćim stolom i pišem u bilježnicu."
+    },
+    "a1-165": {
+      "en": "chair",
+      "word": "stolica",
+      "gender": "f",
+      "sentence": "Stolica je pokraj stola do prozora."
+    },
+    "a1-166": {
+      "en": "pen",
+      "word": "penkala",
+      "gender": "f",
+      "sentence": "Ime pišem plavom penkalom na papir."
+    },
+    "a1-167": {
+      "en": "pencil",
+      "word": "olovka",
+      "gender": "f",
+      "sentence": "Žutom olovkom crtam malu kuću."
+    },
+    "a1-168": {
+      "en": "paper",
+      "word": "papir",
+      "gender": "m",
+      "sentence": "Molim te, sada napiši ime na papir."
+    },
+    "a1-169": {
+      "en": "notebook",
+      "word": "bilježnica",
+      "gender": "f",
+      "sentence": "Svaki dan u bilježnicu pišem nove riječi."
+    },
+    "a1-170": {
+      "en": "page",
+      "word": "stranica",
+      "gender": "f",
+      "sentence": "Molim te, polako pročitaj prvu stranicu lekcije."
+    },
+    "a1-171": {
+      "en": "board",
+      "word": "ploča",
+      "gender": "f",
+      "sentence": "Učitelj svako jutro piše datum na ploču."
+    },
+    "a1-172": {
+      "en": "chalk",
+      "word": "kreda",
+      "gender": "f",
+      "sentence": "Učitelj piše bijelom kredom na ploču."
+    },
+    "a1-173": {
+      "en": "marker",
+      "word": "flomaster",
+      "gender": "m",
+      "sentence": "Crnim flomasterom pišem na ploču."
+    },
+    "a1-174": {
+      "en": "eraser",
+      "word": "gumica",
+      "gender": "f",
+      "sentence": "Gumica je pokraj olovke na mom stolu."
+    },
+    "a1-175": {
+      "en": "ruler",
+      "word": "ravnalo",
+      "gender": "n",
+      "sentence": "Na satu povlačim ravnu crtu ravnalom."
+    },
+    "a1-176": {
+      "en": "homework",
+      "word": "zadaća",
+      "gender": "f",
+      "sentence": "Svake večeri radim zadaću za kuhinjskim stolom."
+    },
+    "a1-177": {
+      "en": "lesson",
+      "word": "lekcija",
+      "gender": "f",
+      "sentence": "Svako jutro u školi imamo lekciju engleskog."
+    },
+    "a1-178": {
+      "en": "class",
+      "word": "razred",
+      "gender": "m",
+      "sentence": "Naš razred počinje u osam ujutro."
+    },
+    "a1-179": {
+      "en": "question",
+      "word": "pitanje",
+      "gender": "n",
+      "sentence": "Pitam pitanje kad ne razumijem lekciju."
+    },
+    "a1-180": {
+      "en": "answer",
+      "word": "odgovor",
+      "gender": "m",
+      "sentence": "Odgovor vrlo pažljivo pišem u bilježnicu."
+    },
+    "a1-181": {
+      "en": "word",
+      "word": "riječ",
+      "gender": "f",
+      "sentence": "Svako jutro na satu učimo novu riječ."
+    },
+    "a1-182": {
+      "en": "sentence",
+      "word": "rečenica",
+      "gender": "f",
+      "sentence": "Molim te, napiši kratku rečenicu s novom riječju."
+    },
+    "a1-183": {
+      "en": "letter",
+      "word": "slovo",
+      "gender": "n",
+      "sentence": "Slovo A lako se piše na ploču."
+    },
+    "a1-184": {
+      "en": "test",
+      "word": "test",
+      "gender": "m",
+      "sentence": "U petak ujutro imamo kratak test na satu."
+    },
+    "a1-185": {
+      "en": "dictionary",
+      "word": "rječnik",
+      "gender": "m",
+      "sentence": "U školi novu riječ tražim u rječniku."
+    },
+    "a1-186": {
+      "en": "picture",
+      "word": "slika",
+      "gender": "f",
+      "sentence": "Crtam sliku svoje obitelji i naše kuće."
+    },
+    "a1-187": {
+      "en": "bag",
+      "word": "torba",
+      "gender": "f",
+      "sentence": "Torba mi je ispod stolice u učionici."
+    },
+    "a1-188": {
+      "en": "scissors",
+      "word": "škare",
+      "gender": "f",
+      "sentence": "Ove škare su na stolu za sat likovnog.",
+      "note": "plural only"
+    },
+    "a1-189": {
+      "en": "glue",
+      "word": "ljepilo",
+      "gender": "n",
+      "sentence": "Ljepilom lijepim sliku na papir."
+    },
+    "a1-190": {
+      "en": "crayon",
+      "word": "bojica",
+      "gender": "f",
+      "sentence": "Na satu slikam sliku crvenom bojicom."
+    },
+    "a1-191": {
+      "en": "classmate",
+      "word": "suučenik",
+      "gender": "m",
+      "feminine": "suučenica",
+      "sentence": "Suučenik mi nakon škole pomaže sa zadaćom."
+    },
+    "a1-192": {
+      "en": "bell",
+      "word": "zvono",
+      "gender": "n",
+      "sentence": "Zvono zazvoni na kraju školskog dana."
+    },
+    "a1-193": {
+      "en": "note",
+      "word": "bilješka",
+      "gender": "f",
+      "sentence": "Tijekom sata pišem kratku bilješku prijatelju."
+    },
+    "a1-194": {
+      "en": "textbook",
+      "word": "udžbenik",
+      "gender": "m",
+      "sentence": "Molim te, sada otvori udžbenik na prvoj stranici."
+    },
+    "a1-195": {
+      "en": "read",
+      "word": "čitati",
+      "sentence": "Svake večeri prije spavanja čitam kratku priču."
+    },
+    "a1-196": {
+      "en": "write",
+      "word": "pisati",
+      "sentence": "Ime pišem na vrh stranice."
+    },
+    "a1-197": {
+      "en": "study",
+      "word": "učiti",
+      "sentence": "S suučenikom učim za petkov test."
+    },
+    "a1-198": {
+      "en": "learn",
+      "word": "naučiti",
+      "sentence": "Svaki tjedan na satu naučimo deset novih riječi."
+    },
+    "a1-199": {
+      "en": "draw",
+      "word": "crtati",
+      "sentence": "Crtam sliku kuće i vrta."
+    },
+    "a1-200": {
+      "en": "ask",
+      "word": "pitati",
+      "sentence": "Pitam učitelja za pomoć kod teške lekcije."
+    },
+    "a1-201": {
+      "en": "weather",
+      "word": "vrijeme",
+      "gender": "n",
+      "sentence": "Vrijeme je jutros u gradu toplo i sunčano.",
+      "note": "also time"
+    },
+    "a1-202": {
+      "en": "cloud",
+      "word": "oblak",
+      "gender": "m",
+      "sentence": "Bijeli oblak polako ide preko plavog neba."
+    },
+    "a1-203": {
+      "en": "snow",
+      "word": "snijeg",
+      "gender": "m",
+      "sentence": "Djeca se zimi vole igrati u snijegu."
+    },
+    "a1-204": {
+      "en": "wind",
+      "word": "vjetar",
+      "gender": "m",
+      "sentence": "Vjetar je poslijepodne jak blizu mora."
+    },
+    "a1-205": {
+      "en": "storm",
+      "word": "oluja",
+      "gender": "f",
+      "sentence": "Tijekom velike oluje ostajemo u kući."
+    },
+    "a1-206": {
+      "en": "ice",
+      "word": "led",
+      "gender": "m",
+      "sentence": "Ovo hladno jutro ima leda na pločniku."
+    },
+    "a1-207": {
+      "en": "fog",
+      "word": "magla",
+      "gender": "f",
+      "sentence": "Vozimo polako jer je magla vrlo gusta."
+    },
+    "a1-208": {
+      "en": "sky",
+      "word": "nebo",
+      "gender": "n",
+      "sentence": "Nebo je plavo i vedro nakon jutarnje kiše."
+    },
+    "a1-209": {
+      "en": "sunny",
+      "word": "sunčan",
+      "sentence": "Sunčano je, pa ručamo vani u parku."
+    },
+    "a1-210": {
+      "en": "rainy",
+      "word": "kišovit",
+      "sentence": "Kišovito je, pa nosim kišobran u školu."
+    },
+    "a1-211": {
+      "en": "cloudy",
+      "word": "oblačan",
+      "sentence": "Oblačno je, ali zrak vani je još topao."
+    },
+    "a1-212": {
+      "en": "windy",
+      "word": "vjetrovit",
+      "sentence": "Vjetrovito je, pa nosim kaput i šal."
+    },
+    "a1-213": {
+      "en": "snowy",
+      "word": "snježan",
+      "sentence": "Snježno je, a park izgleda bijelo i tiho."
+    },
+    "a1-214": {
+      "en": "warm",
+      "word": "topao",
+      "sentence": "Juha je topla i dobra na hladan zimski dan."
+    },
+    "a1-215": {
+      "en": "cool",
+      "word": "svjež",
+      "sentence": "Večernji zrak je svjež nakon vrućeg poslijepodneva."
+    },
+    "a1-216": {
+      "en": "wet",
+      "word": "mokar",
+      "sentence": "Cipele su mi mokre nakon šetnje kući po kiši."
+    },
+    "a1-217": {
+      "en": "dry",
+      "word": "suh",
+      "sentence": "Kaput mi je opet suh nakon kišnog jutra."
+    },
+    "a1-218": {
+      "en": "temperature",
+      "word": "temperatura",
+      "gender": "f",
+      "sentence": "Temperatura je danas u gradu dvadeset stupnjeva."
+    },
+    "a1-219": {
+      "en": "degree",
+      "word": "stupanj",
+      "gender": "m",
+      "sentence": "Ovo hladno jutro je jedan stupanj iznad nule."
+    },
+    "a1-220": {
+      "en": "forecast",
+      "word": "prognoza",
+      "gender": "f",
+      "sentence": "Prognoza kaže da će sutra biti toplo i suho."
+    },
+    "a1-221": {
+      "en": "lightning",
+      "word": "munja",
+      "gender": "f",
+      "sentence": "Noću vidimo sjajnu munju na tamnom nebu."
+    },
+    "a1-222": {
+      "en": "thunder",
+      "word": "grom",
+      "gender": "m",
+      "sentence": "Djeca čuju glasan grom tijekom oluje."
+    },
+    "a1-223": {
+      "en": "rainbow",
+      "word": "duga",
+      "gender": "f",
+      "sentence": "Vidimo sjajnu dugu kad kiša prestane."
+    },
+    "a1-224": {
+      "en": "frost",
+      "word": "mraz",
+      "gender": "m",
+      "sentence": "Ovo hladno jutro ima bijelog mraza na travi."
+    },
+    "a1-225": {
+      "en": "breeze",
+      "word": "povjetarac",
+      "gender": "m",
+      "sentence": "Hladan povjetarac poslijepodne dolazi s mora."
+    },
+    "a1-226": {
+      "en": "shade",
+      "word": "sjena",
+      "gender": "f",
+      "sentence": "U podne sjedimo u sjeni velikog drveta."
+    },
+    "a1-227": {
+      "en": "sunshine",
+      "word": "sunčeva svjetlost",
+      "gender": "f",
+      "sentence": "Sunčeva svjetlost jutros grije lice."
+    },
+    "a1-228": {
+      "en": "foggy",
+      "word": "maglovit",
+      "sentence": "Maglovito je, pa auti na cesti voze polako."
+    },
+    "a1-229": {
+      "en": "icy",
+      "word": "leden",
+      "sentence": "Pločnik je leden, pa hodi vrlo oprezno."
+    },
+    "a1-230": {
+      "en": "mild",
+      "word": "blag",
+      "sentence": "Vrijeme je u proljeće blago u našem gradu."
+    },
+    "a1-231": {
+      "en": "clear",
+      "word": "vedar",
+      "sentence": "Noćno nebo je vedro i vidim mnogo zvijezda."
+    },
+    "a1-232": {
+      "en": "puddle",
+      "word": "lokva",
+      "gender": "f",
+      "sentence": "Dijete skače preko male lokve nakon kiše."
+    },
+    "a1-233": {
+      "en": "drizzle",
+      "word": "rosulja",
+      "gender": "f",
+      "sentence": "Jutros sitna rosulja pada na vrt."
+    },
+    "a1-234": {
+      "en": "hail",
+      "word": "tuča",
+      "gender": "f",
+      "sentence": "Tuča glasno lupa po krovu naše kuće."
+    },
+    "a1-235": {
+      "en": "stormy",
+      "word": "olujan",
+      "sentence": "Olujno je, pa ostajemo kod kuće i čitamo."
+    },
+    "a1-236": {
+      "en": "outside",
+      "word": "vani",
+      "sentence": "Ručamo vani kad je vrijeme toplo."
+    },
+    "a1-237": {
+      "en": "tea",
+      "word": "čaj",
+      "gender": "m",
+      "sentence": "Svako jutro pijem vruć čaj s malo meda."
+    },
+    "a1-238": {
+      "en": "sugar",
+      "word": "šećer",
+      "gender": "m",
+      "sentence": "U šalicu čaja stavim malo šećera."
+    },
+    "a1-239": {
+      "en": "salt",
+      "word": "sol",
+      "gender": "f",
+      "sentence": "U juhu od povrća stavim malo soli."
+    },
+    "a1-240": {
+      "en": "cheese",
+      "word": "sir",
+      "gender": "m",
+      "sentence": "Volim sir na toplom kruhu za jednostavan ručak."
+    },
+    "a1-241": {
+      "en": "meat",
+      "word": "meso",
+      "gender": "n",
+      "sentence": "Večeras za večeru jedemo meso i povrće."
+    },
+    "a1-242": {
+      "en": "fruit",
+      "word": "voće",
+      "gender": "n",
+      "sentence": "Svako jutro uz doručak jedem svježe voće."
+    },
+    "a1-243": {
+      "en": "banana",
+      "word": "banana",
+      "gender": "f",
+      "sentence": "Svaki dan nakon škole jedem žutu bananu."
+    },
+    "a1-244": {
+      "en": "orange",
+      "word": "naranča",
+      "gender": "f",
+      "sentence": "Ova naranča je slatka i puna hladnog soka."
+    },
+    "a1-245": {
+      "en": "tomato",
+      "word": "rajčica",
+      "gender": "f",
+      "sentence": "Za salatu za ručak režem crvenu rajčicu."
+    },
+    "a1-246": {
+      "en": "potato",
+      "word": "krumpir",
+      "gender": "m",
+      "sentence": "Večeras pečem krumpir u pećnici za večeru."
+    },
+    "a1-247": {
+      "en": "carrot",
+      "word": "mrkva",
+      "gender": "f",
+      "sentence": "Zec voli svježu mrkvu iz našeg vrta."
+    },
+    "a1-248": {
+      "en": "onion",
+      "word": "luk",
+      "gender": "m",
+      "sentence": "Za juhu na štednjaku režem luk."
+    },
+    "a1-249": {
+      "en": "salad",
+      "word": "salata",
+      "gender": "f",
+      "sentence": "Svaki dan uz ručak jedem zelenu salatu."
+    },
+    "a1-250": {
+      "en": "soup",
+      "word": "juha",
+      "gender": "f",
+      "sentence": "Ova juha je topla i vrlo dobra za ručak."
+    },
+    "a1-251": {
+      "en": "vegetable",
+      "word": "povrće",
+      "gender": "n",
+      "sentence": "Molim te, večeras uz večeru pojedi jedno povrće."
+    },
+    "a1-252": {
+      "en": "juice",
+      "word": "sok",
+      "gender": "m",
+      "sentence": "Uz doručak pijem čašu soka."
+    },
+    "a1-253": {
+      "en": "pepper",
+      "word": "papar",
+      "gender": "m",
+      "sentence": "U vruću juhu dodam malo papra."
+    },
+    "a1-254": {
+      "en": "butter",
+      "word": "maslac",
+      "gender": "m",
+      "sentence": "Za doručak mažem maslac na topli kruh."
+    },
+    "a1-255": {
+      "en": "cake",
+      "word": "torta",
+      "gender": "f",
+      "sentence": "Na rođendanskoj zabavi dijelimo malu tortu."
+    },
+    "a1-256": {
+      "en": "cookie",
+      "word": "keks",
+      "gender": "m",
+      "sentence": "Poslijepodne uz čaj jedem jedan keks."
+    },
+    "a1-257": {
+      "en": "sandwich",
+      "word": "sendvič",
+      "gender": "m",
+      "sentence": "U školu za ručak nosim sendvič sa sirom."
+    },
+    "a1-258": {
+      "en": "pizza",
+      "word": "pizza",
+      "gender": "f",
+      "sentence": "U petak navečer kod kuće zajedno jedemo pizzu."
+    },
+    "a1-259": {
+      "en": "pasta",
+      "word": "tjestenina",
+      "gender": "f",
+      "sentence": "Kuham tjesteninu sa sirom za brzu obiteljsku večeru."
+    },
+    "a1-260": {
+      "en": "honey",
+      "word": "med",
+      "gender": "m",
+      "sentence": "Svako jutro volim malo meda u čaju."
+    },
+    "a1-261": {
+      "en": "breakfast",
+      "word": "doručak",
+      "gender": "m",
+      "sentence": "Zajedno doručkujemo prije nego krenemo u školu."
+    },
+    "a1-262": {
+      "en": "lunch",
+      "word": "ručak",
+      "gender": "m",
+      "sentence": "U podne ručam s prijateljima u školi."
+    },
+    "a1-263": {
+      "en": "dinner",
+      "word": "večera",
+      "gender": "f",
+      "sentence": "Naša obitelj svake večeri u sedam večera zajedno."
+    },
+    "a1-264": {
+      "en": "plate",
+      "word": "tanjur",
+      "gender": "m",
+      "sentence": "Molim te, stavi čist tanjur na stol za večeru."
+    },
+    "a1-265": {
+      "en": "bowl",
+      "word": "zdjela",
+      "gender": "f",
+      "sentence": "Za ručak jedem toplu juhu iz plave zdjele."
+    },
+    "a1-266": {
+      "en": "cup",
+      "word": "šalica",
+      "gender": "f",
+      "sentence": "Svako jutro pijem čaj iz plave šalice."
+    },
+    "a1-267": {
+      "en": "glass",
+      "word": "čaša",
+      "gender": "f",
+      "sentence": "Molim te, daj mi čistu čašu za hladni sok."
+    },
+    "a1-268": {
+      "en": "fork",
+      "word": "vilica",
+      "gender": "f",
+      "sentence": "Zelenu salatu za ručak jedem vilicom."
+    },
+    "a1-269": {
+      "en": "knife",
+      "word": "nož",
+      "gender": "m",
+      "plural": "noževi",
+      "sentence": "Rajčicu režem malim kuhinjskim nožem."
+    },
+    "a1-270": {
+      "en": "spoon",
+      "word": "žlica",
+      "gender": "f",
+      "sentence": "Juhu jedem žlicom iz zdjele."
+    },
+    "a1-271": {
+      "en": "stove",
+      "word": "štednjak",
+      "gender": "m",
+      "sentence": "Lonac juhe sada je topao na štednjaku."
+    },
+    "a1-272": {
+      "en": "oven",
+      "word": "pećnica",
+      "gender": "f",
+      "sentence": "Rođendanska torta se peče u pećnici sat vremena."
+    },
+    "a1-273": {
+      "en": "fridge",
+      "word": "hladnjak",
+      "gender": "m",
+      "sentence": "Sok i mlijeko stavljam u hladnjak."
+    },
+    "a1-274": {
+      "en": "bottle",
+      "word": "boca",
+      "gender": "f",
+      "sentence": "Za ručak djeci otvorim bocu soka."
+    },
+    "a1-275": {
+      "en": "hungry",
+      "word": "gladan",
+      "sentence": "Gladan sam, pa za ručak pravim sendvič sa sirom."
+    },
+    "a1-276": {
+      "en": "cook",
+      "word": "kuhati",
+      "sentence": "Večeras obitelji kuham tjesteninu s povrćem."
+    },
+    "a1-277": {
+      "en": "room",
+      "word": "soba",
+      "gender": "f",
+      "sentence": "Ova soba je danas tiha, topla i vrlo čista."
+    },
+    "a1-278": {
+      "en": "window",
+      "word": "prozor",
+      "gender": "m",
+      "sentence": "Ujutro otvorim prozor zbog svježeg zraka."
+    },
+    "a1-279": {
+      "en": "kitchen",
+      "word": "kuhinja",
+      "gender": "f",
+      "sentence": "U kuhinji kuhamo večeru i jedemo zajedno."
+    },
+    "a1-280": {
+      "en": "lamp",
+      "word": "svjetiljka",
+      "gender": "f",
+      "sentence": "Svjetiljka na mom stolu daje meku toplu svjetlost."
+    },
+    "a1-281": {
+      "en": "bathroom",
+      "word": "kupaonica",
+      "gender": "f",
+      "sentence": "U kupaonici perem lice i ruke."
+    },
+    "a1-282": {
+      "en": "bedroom",
+      "word": "spavaća soba",
+      "gender": "f",
+      "sentence": "Svake noći u spavaćoj sobi čitam kratku knjigu."
+    },
+    "a1-283": {
+      "en": "wall",
+      "word": "zid",
+      "gender": "m",
+      "sentence": "Obiteljska slika visi na zidu iznad kauča."
+    },
+    "a1-284": {
+      "en": "floor",
+      "word": "pod",
+      "gender": "m",
+      "sentence": "Pod u kuhinji je čist nakon večere."
+    },
+    "a1-285": {
+      "en": "roof",
+      "word": "krov",
+      "gender": "m",
+      "sentence": "Ptice u proljeće sjede na krovu kuće."
+    },
+    "a1-286": {
+      "en": "ceiling",
+      "word": "strop",
+      "gender": "m",
+      "sentence": "Svijetla svjetiljka visi sa stropa u našoj kuhinji."
+    },
+    "a1-287": {
+      "en": "stair",
+      "word": "stepenica",
+      "gender": "f",
+      "sentence": "Stepenica blizu kuhinjskih vrata je čista i suha."
+    },
+    "a1-288": {
+      "en": "garden",
+      "word": "vrt",
+      "gender": "m",
+      "sentence": "U vrtu iza kuće uzgajamo rajčice i ruže."
+    },
+    "a1-289": {
+      "en": "yard",
+      "word": "dvorište",
+      "gender": "n",
+      "sentence": "Djeca se nakon škole igraju loptom u dvorištu."
+    },
+    "a1-290": {
+      "en": "garage",
+      "word": "garaža",
+      "gender": "f",
+      "sentence": "Otac svake noći stavlja auto u garažu."
+    },
+    "a1-291": {
+      "en": "hallway",
+      "word": "hodnik",
+      "gender": "m",
+      "sentence": "Hodnik od vrata do spavaće sobe je tih."
+    },
+    "a1-292": {
+      "en": "balcony",
+      "word": "balkon",
+      "gender": "m",
+      "sentence": "Toplih večeri pijemo čaj na balkonu."
+    },
+    "a1-293": {
+      "en": "closet",
+      "word": "ormar",
+      "gender": "m",
+      "sentence": "Kapute i košulje vješam u ormar."
+    },
+    "a1-294": {
+      "en": "mirror",
+      "word": "zrcalo",
+      "gender": "n",
+      "sentence": "Pogledam se u zrcalo prije nego izađem iz kuće."
+    },
+    "a1-295": {
+      "en": "curtain",
+      "word": "zavjesa",
+      "gender": "f",
+      "sentence": "Zatvorim zavjesu u spavaćoj sobi kad idem spavati."
+    },
+    "a1-296": {
+      "en": "carpet",
+      "word": "tepih",
+      "gender": "m",
+      "sentence": "Tepih u dnevnom boravku je mekan i plav."
+    },
+    "a1-297": {
+      "en": "sofa",
+      "word": "kauč",
+      "gender": "m",
+      "sentence": "Nakon večere sjedimo na kauču i razgovaramo."
+    },
+    "a1-298": {
+      "en": "shelf",
+      "word": "polica",
+      "gender": "f",
+      "plural": "police",
+      "sentence": "Knjige stoje u urednom redu na polici."
+    },
+    "a1-299": {
+      "en": "drawer",
+      "word": "ladica",
+      "gender": "f",
+      "sentence": "Čiste čarape držim u gornjoj ladici."
+    },
+    "a1-300": {
+      "en": "toilet",
+      "word": "zahod",
+      "gender": "m",
+      "sentence": "Zahod je u kupaonici pokraj tuša."
+    },
+    "a1-301": {
+      "en": "shower",
+      "word": "tuš",
+      "gender": "m",
+      "sentence": "Svako jutro prije škole tuširam se toplom vodom."
+    },
+    "a1-302": {
+      "en": "bath",
+      "word": "kupka",
+      "gender": "f",
+      "sentence": "Beba svake večeri kod kuće uživa u toploj kupki."
+    },
+    "a1-303": {
+      "en": "towel",
+      "word": "ručnik",
+      "gender": "m",
+      "sentence": "Nakon pranja ruke obrišem čistim ručnikom."
+    },
+    "a1-304": {
+      "en": "soap",
+      "word": "sapun",
+      "gender": "m",
+      "sentence": "Prije svakog obroka perem ruke sapunom."
+    },
+    "a1-305": {
+      "en": "pillow",
+      "word": "jastuk",
+      "gender": "m",
+      "sentence": "Jastuk mi je mekan i noću dobro spavam."
+    },
+    "a1-306": {
+      "en": "blanket",
+      "word": "deka",
+      "gender": "f",
+      "sentence": "Hladnih zimskih noći spavam pod toplom dekom."
+    },
+    "a1-307": {
+      "en": "furniture",
+      "word": "namještaj",
+      "gender": "m",
+      "sentence": "Pomaknemo namještaj kad čistimo dnevni boravak."
+    },
+    "a1-308": {
+      "en": "apartment",
+      "word": "stan",
+      "gender": "m",
+      "sentence": "Naš stan ima malu kuhinju i dvije spavaće sobe."
+    },
+    "a1-309": {
+      "en": "cupboard",
+      "word": "kredenac",
+      "gender": "m",
+      "sentence": "Tanjuri i šalice su u kuhinjskom kredencu."
+    },
+    "a1-310": {
+      "en": "rug",
+      "word": "sag",
+      "gender": "m",
+      "sentence": "Plavi sag leži na podu pokraj kreveta."
+    },
+    "a1-311": {
+      "en": "living room",
+      "word": "dnevni boravak",
+      "gender": "m",
+      "sentence": "Navečer zajedno gledamo film u dnevnom boravku."
+    },
+    "a1-312": {
+      "en": "sink",
+      "word": "sudoper",
+      "gender": "m",
+      "sentence": "U kuhinjskom sudoperu perem šalice i tanjure."
+    },
+    "a1-313": {
+      "en": "faucet",
+      "word": "slavina",
+      "gender": "f",
+      "sentence": "Otvorim slavinu i perem ruke sapunom."
+    },
+    "a1-314": {
+      "en": "chimney",
+      "word": "dimnjak",
+      "gender": "m",
+      "sentence": "Zimi se iz dimnjaka diže malo dima."
+    },
+    "a1-315": {
+      "en": "porch",
+      "word": "trijem",
+      "gender": "m",
+      "sentence": "Prohladnih večeri sjedimo na trijemu i razgovaramo."
+    },
+    "a1-316": {
+      "en": "cushion",
+      "word": "jastučić",
+      "gender": "m",
+      "sentence": "Plavi jastučić na kauču je mekan i čist."
+    },
+    "a1-317": {
+      "en": "hair",
+      "word": "kosa",
+      "gender": "f",
+      "sentence": "Svako jutro pod tušem perem kosu."
+    },
+    "a1-318": {
+      "en": "nose",
+      "word": "nos",
+      "gender": "m",
+      "sentence": "Nos mi je hladan kad puše zimski vjetar."
+    },
+    "a1-319": {
+      "en": "tooth",
+      "word": "zub",
+      "gender": "m",
+      "plural": "zubi",
+      "sentence": "Ujutro i navečer perem svaki zub."
+    },
+    "a1-320": {
+      "en": "arm",
+      "word": "ruka",
+      "gender": "f",
+      "sentence": "Tešku torbu nosim desnom rukom.",
+      "note": "arm, also hand"
+    },
+    "a1-321": {
+      "en": "leg",
+      "word": "noga",
+      "gender": "f",
+      "sentence": "Nakon duge šetnje gradom odmaram lijevu nogu.",
+      "note": "leg, also foot"
+    },
+    "a1-322": {
+      "en": "back",
+      "word": "leđa",
+      "gender": "n",
+      "sentence": "Leđa me manje bole nakon odmora na kauču.",
+      "note": "plural only"
+    },
+    "a1-323": {
+      "en": "finger",
+      "word": "prst",
+      "gender": "m",
+      "sentence": "Na prstu lijeve ruke nosim mali prsten."
+    },
+    "a1-324": {
+      "en": "toe",
+      "word": "nožni prst",
+      "gender": "m",
+      "sentence": "Veliki nožni prst mi je topao u debeloj zimskoj čarapi."
+    },
+    "a1-325": {
+      "en": "knee",
+      "word": "koljeno",
+      "gender": "n",
+      "sentence": "Savijem koljeno kad idem stubama gore."
+    },
+    "a1-326": {
+      "en": "elbow",
+      "word": "lakat",
+      "gender": "m",
+      "sentence": "Oslonim lakat na stol dok čitam."
+    },
+    "a1-327": {
+      "en": "shoulder",
+      "word": "rame",
+      "gender": "n",
+      "sentence": "Školsku torbu nosim na lijevom ramenu."
+    },
+    "a1-328": {
+      "en": "neck",
+      "word": "vrat",
+      "gender": "m",
+      "sentence": "Mekani šal mi zimi grije vrat."
+    },
+    "a1-329": {
+      "en": "face",
+      "word": "lice",
+      "gender": "n",
+      "sentence": "Svako jutro perem lice toplom vodom."
+    },
+    "a1-330": {
+      "en": "stomach",
+      "word": "trbuh",
+      "gender": "m",
+      "sentence": "Trbuh mi je pun nakon velike tople večere."
+    },
+    "a1-331": {
+      "en": "chest",
+      "word": "prsa",
+      "gender": "n",
+      "sentence": "Prsa mi se čine jakima kad vani polako dišem.",
+      "note": "plural only"
+    },
+    "a1-332": {
+      "en": "heart",
+      "word": "srce",
+      "gender": "n",
+      "sentence": "Liječnik danas pažljivo sluša moje srce."
+    },
+    "a1-333": {
+      "en": "skin",
+      "word": "koža",
+      "gender": "f",
+      "sentence": "Koža mi je topla na jakom poslijepodnevnom suncu."
+    },
+    "a1-334": {
+      "en": "bone",
+      "word": "kost",
+      "gender": "f",
+      "sentence": "Liječnik gleda kost u mojoj lijevoj ruci."
+    },
+    "a1-335": {
+      "en": "tongue",
+      "word": "jezik",
+      "gender": "m",
+      "sentence": "Na jeziku osjetim slatki med."
+    },
+    "a1-336": {
+      "en": "lip",
+      "word": "usna",
+      "gender": "f",
+      "sentence": "Na usni mi je malo meda od čaja."
+    },
+    "a1-337": {
+      "en": "chin",
+      "word": "brada",
+      "gender": "f",
+      "sentence": "Beba ima malo juhe na bradi nakon ručka.",
+      "note": "chin"
+    },
+    "a1-338": {
+      "en": "cheek",
+      "word": "obraz",
+      "gender": "m",
+      "sentence": "Bebi dam nježan poljubac na obraz."
+    },
+    "a1-339": {
+      "en": "beard",
+      "word": "brada",
+      "gender": "f",
+      "sentence": "Moj ujak ima kratku bradu i topli osmijeh.",
+      "note": "beard"
+    },
+    "a1-340": {
+      "en": "throat",
+      "word": "grlo",
+      "gender": "n",
+      "sentence": "Vruć čaj je dobar za grlo na hladan dan."
+    },
+    "a1-341": {
+      "en": "wrist",
+      "word": "zapešće",
+      "gender": "n",
+      "sentence": "Liječnik drži moje zapešće i sluša srce."
+    },
+    "a1-342": {
+      "en": "ankle",
+      "word": "gležanj",
+      "gender": "m",
+      "sentence": "Gležanj mi je bolji nakon kratkog odmora kod kuće."
+    },
+    "a1-343": {
+      "en": "thumb",
+      "word": "palac",
+      "gender": "m",
+      "sentence": "Olovku držim palcem i prstom."
+    },
+    "a1-344": {
+      "en": "body",
+      "word": "tijelo",
+      "gender": "n",
+      "sentence": "Kratka šetnja svaki dan dobra je za cijelo tijelo."
+    },
+    "a1-345": {
+      "en": "blood",
+      "word": "krv",
+      "gender": "f",
+      "sentence": "Krv teče kroz srce i po tijelu."
+    },
+    "a1-346": {
+      "en": "voice",
+      "word": "glas",
+      "gender": "m",
+      "sentence": "Ona ima jasan glas kad pjeva jednostavnu pjesmu."
+    },
+    "a1-347": {
+      "en": "sick",
+      "word": "bolestan",
+      "sentence": "Kad sam bolestan, odmaram u krevetu i pijem topli čaj."
+    },
+    "a1-348": {
+      "en": "healthy",
+      "word": "zdrav",
+      "sentence": "Svježe voće i svakodnevne šetnje pomažu mi da ostanem zdrav."
+    },
+    "a1-349": {
+      "en": "tired",
+      "word": "umoran",
+      "sentence": "Umoran sam, pa sjednem i malo se odmorim."
+    },
+    "a1-350": {
+      "en": "fever",
+      "word": "vrućica",
+      "gender": "f",
+      "sentence": "Kad imam vrućicu, odmaram i pijem puno vode."
+    },
+    "a1-351": {
+      "en": "medicine",
+      "word": "lijek",
+      "gender": "m",
+      "sentence": "Svako jutro uzmem lijek s čašom vode."
+    },
+    "a1-352": {
+      "en": "doctor",
+      "word": "liječnik",
+      "gender": "m",
+      "feminine": "liječnica",
+      "sentence": "Liječnik je ljubazan i odgovara na sva moja pitanja."
+    },
+    "a1-353": {
+      "en": "nurse",
+      "word": "medicinska sestra",
+      "gender": "f",
+      "sentence": "Medicinska sestra se smiješi i pomaže liječniku s bolesnikom."
+    },
+    "a1-354": {
+      "en": "cough",
+      "word": "kašalj",
+      "gender": "m",
+      "sentence": "Kašalj mi je danas puno bolji nakon toplog čaja."
+    },
+    "a1-355": {
+      "en": "hurt",
+      "word": "boljeti",
+      "sentence": "Koljeno me danas ne boli kad hodam polako."
+    },
+    "a1-356": {
+      "en": "smile",
+      "word": "smiješiti se",
+      "sentence": "Nasmiješim se susjedi kad je vidim vani."
+    },
+    "a1-357": {
+      "en": "go",
+      "word": "ići",
+      "sentence": "U subotu idem na tržnicu s mamom."
+    },
+    "a1-358": {
+      "en": "run",
+      "word": "trčati",
+      "sentence": "Svako jutro prije škole trčimo zajedno u parku."
+    },
+    "a1-359": {
+      "en": "stand",
+      "word": "stajati",
+      "sentence": "Molim te, stani blizu vrata i pričekaj učitelja."
+    },
+    "a1-360": {
+      "en": "open",
+      "word": "otvoriti",
+      "sentence": "Molim te, otvori prozor i pusti svjež zrak."
+    },
+    "a1-361": {
+      "en": "close",
+      "word": "zatvoriti",
+      "sentence": "Molim te, tiho zatvori vrata kad izađeš iz sobe."
+    },
+    "a1-362": {
+      "en": "take",
+      "word": "uzeti",
+      "sentence": "Svako jutro s prijateljima idem autobusom u školu."
+    },
+    "a1-363": {
+      "en": "bring",
+      "word": "donijeti",
+      "sentence": "U školu za ručak donesem sendvič i malo voća."
+    },
+    "a1-364": {
+      "en": "put",
+      "word": "staviti",
+      "sentence": "Molim te, stavi knjige na stol prije sata."
+    },
+    "a1-365": {
+      "en": "make",
+      "word": "praviti",
+      "sentence": "Svake nedjelje ujutro kod kuće zajedno pravimo doručak."
+    },
+    "a1-366": {
+      "en": "do",
+      "word": "raditi",
+      "sentence": "Svake večeri radim zadaću za kuhinjskim stolom.",
+      "note": "do"
+    },
+    "a1-367": {
+      "en": "have",
+      "word": "imati",
+      "sentence": "Svaki dan u podne imamo topli ručak zajedno."
+    },
+    "a1-368": {
+      "en": "want",
+      "word": "htjeti",
+      "sentence": "Nakon duge šetnje hoću čašu hladne vode."
+    },
+    "a1-369": {
+      "en": "need",
+      "word": "trebati",
+      "sentence": "Za današnji test trebam olovku i malo papira."
+    },
+    "a1-370": {
+      "en": "like",
+      "word": "sviđati se",
+      "sentence": "Sviđa mi se svježe voće i malo sira za doručak."
+    },
+    "a1-371": {
+      "en": "love",
+      "word": "voljeti",
+      "sentence": "Volim svoju obitelj i volim im pomagati kod kuće."
+    },
+    "a1-372": {
+      "en": "know",
+      "word": "znati",
+      "sentence": "Znam kratak put od naše kuće do kolodvora."
+    },
+    "a1-373": {
+      "en": "think",
+      "word": "misliti",
+      "sentence": "Mislim da je ova kratka priča jasna i vrlo lijepa."
+    },
+    "a1-374": {
+      "en": "say",
+      "word": "reći",
+      "sentence": "Molim te, reci ime polako da te razred čuje."
+    },
+    "a1-375": {
+      "en": "tell",
+      "word": "kazati",
+      "sentence": "Molim te, kaži mi put do bolnice odavde."
+    },
+    "a1-376": {
+      "en": "talk",
+      "word": "razgovarati",
+      "sentence": "Svake večeri za večerom razgovaramo o svom danu."
+    },
+    "a1-377": {
+      "en": "speak",
+      "word": "govoriti",
+      "sentence": "U petak poslijepodne nakon sata razgovaram s učiteljem."
+    },
+    "a1-378": {
+      "en": "work",
+      "word": "raditi",
+      "sentence": "Mama voli raditi u bolnici u našem gradu.",
+      "note": "work"
+    },
+    "a1-379": {
+      "en": "play",
+      "word": "igrati se",
+      "sentence": "Djeca se nakon škole igraju veselu igru u parku."
+    },
+    "a1-380": {
+      "en": "buy",
+      "word": "kupovati",
+      "sentence": "Svake subote ujutro kupujem svjež kruh u pekarnici."
+    },
+    "a1-381": {
+      "en": "help",
+      "word": "pomagati",
+      "sentence": "Pomažem mlađem bratu sa zadaćom iz čitanja."
+    },
+    "a1-382": {
+      "en": "wait",
+      "word": "čekati",
+      "sentence": "Zajedno čekamo jutarnji autobus na kolodvoru."
+    },
+    "a1-383": {
+      "en": "look",
+      "word": "gledati",
+      "sentence": "Molim te, pogledaj ploču i pročitaj novu rečenicu."
+    },
+    "a1-384": {
+      "en": "live",
+      "word": "živjeti",
+      "sentence": "Živimo u malom stanu vrlo blizu gradskog parka."
+    },
+    "a1-385": {
+      "en": "stay",
+      "word": "ostati",
+      "sentence": "Ostanem kod kuće i odmaram kad sam umoran ili bolestan."
+    },
+    "a1-386": {
+      "en": "leave",
+      "word": "odlaziti",
+      "sentence": "Svako jutro u osam odlazimo od kuće u školu."
+    },
+    "a1-387": {
+      "en": "start",
+      "word": "početi",
+      "sentence": "Svako jutro u devet počnemo sat engleskog."
+    },
+    "a1-388": {
+      "en": "stop",
+      "word": "stati",
+      "sentence": "Auti stanu na uglu kad je svjetlo crveno."
+    },
+    "a1-389": {
+      "en": "find",
+      "word": "naći",
+      "sentence": "Ključeve nađem na malom stolu pokraj vrata."
+    },
+    "a1-390": {
+      "en": "use",
+      "word": "koristiti",
+      "sentence": "Koristimo rječnik kad učimo novu englesku riječ."
+    },
+    "a1-391": {
+      "en": "try",
+      "word": "probati",
+      "sentence": "Svaki tjedan na tržnici probam novu vrstu voća."
+    },
+    "a1-392": {
+      "en": "understand",
+      "word": "razumjeti",
+      "sentence": "Razumijem pitanje i mogu dati odgovor."
+    },
+    "a1-393": {
+      "en": "show",
+      "word": "pokazivati",
+      "sentence": "Molim te, pokaži vozaču kartu na vratima."
+    },
+    "a1-394": {
+      "en": "sing",
+      "word": "pjevati",
+      "sentence": "Na satu glazbe zajedno pjevamo jednostavnu veselu pjesmu."
+    },
+    "a1-395": {
+      "en": "drive",
+      "word": "voziti",
+      "sentence": "Tata može svako jutro voziti obiteljski auto na posao."
+    },
+    "a1-396": {
+      "en": "swim",
+      "word": "plivati",
+      "sentence": "Plivamo u čistom jezeru kad je ljeto toplo."
+    },
+    "a1-397": {
+      "en": "be",
+      "word": "biti",
+      "sentence": "Hoću biti ljubazan učitelj kad završim školu."
+    },
+    "a1-398": {
+      "en": "can",
+      "word": "moći",
+      "sentence": "Mogu biciklom ići u školu kad je vrijeme suho."
+    },
+    "a1-399": {
+      "en": "horse",
+      "word": "konj",
+      "gender": "m",
+      "sentence": "Konj ujutro trči preko zelenog polja."
+    },
+    "a1-400": {
+      "en": "cow",
+      "word": "krava",
+      "gender": "f",
+      "sentence": "Krava cijeli dan jede svježu travu na polju."
+    },
+    "a1-401": {
+      "en": "pig",
+      "word": "svinja",
+      "gender": "f",
+      "sentence": "Svinja se voli valjati u blatu na farmi."
+    },
+    "a1-402": {
+      "en": "sheep",
+      "word": "ovca",
+      "gender": "f",
+      "sentence": "Ovca jede travu pokraj seljaka na polju."
+    },
+    "a1-403": {
+      "en": "goat",
+      "word": "koza",
+      "gender": "f",
+      "sentence": "Koza se svaki dan penje na malo brdo blizu farme."
+    },
+    "a1-404": {
+      "en": "chicken",
+      "word": "kokoš",
+      "gender": "f",
+      "sentence": "Kokoš hoda po dvorištu i traži hranu."
+    },
+    "a1-405": {
+      "en": "mouse",
+      "word": "miš",
+      "gender": "m",
+      "plural": "miševi",
+      "sentence": "Mali miš živi na tihom polju blizu farme."
+    },
+    "a1-406": {
+      "en": "rabbit",
+      "word": "zec",
+      "gender": "m",
+      "sentence": "Zec u stražnjem vrtu jede svježu mrkvu."
+    },
+    "a1-407": {
+      "en": "duck",
+      "word": "patka",
+      "gender": "f",
+      "sentence": "Patka pliva na jezercu sa svojim malim ptićima."
+    },
+    "a1-408": {
+      "en": "goose",
+      "word": "guska",
+      "gender": "f",
+      "sentence": "Bijela guska hoda blizu jezera u gradskom parku."
+    },
+    "a1-409": {
+      "en": "lion",
+      "word": "lav",
+      "gender": "m",
+      "sentence": "Lav se tiho odmara u sjeni u zoološkom vrtu."
+    },
+    "a1-410": {
+      "en": "tiger",
+      "word": "tigar",
+      "gender": "m",
+      "sentence": "Tigar je narančast i crn i živi u zoološkom vrtu."
+    },
+    "a1-411": {
+      "en": "bear",
+      "word": "medvjed",
+      "gender": "m",
+      "sentence": "Medvjed voli slatki med i zimi se odmara."
+    },
+    "a1-412": {
+      "en": "elephant",
+      "word": "slon",
+      "gender": "m",
+      "sentence": "Slon je miran i nježan prema ljudima u zoološkom vrtu."
+    },
+    "a1-413": {
+      "en": "monkey",
+      "word": "majmun",
+      "gender": "m",
+      "sentence": "Majmun jede bananu i igra se na visokom drvetu."
+    },
+    "a1-414": {
+      "en": "snake",
+      "word": "zmija",
+      "gender": "f",
+      "sentence": "Mala zmija se odmara na toplom kamenu na suncu."
+    },
+    "a1-415": {
+      "en": "frog",
+      "word": "žaba",
+      "gender": "f",
+      "sentence": "Zelena žaba sjedi na listu pokraj tihog jezerca."
+    },
+    "a1-416": {
+      "en": "turtle",
+      "word": "kornjača",
+      "gender": "f",
+      "sentence": "Kornjača se polako kreće preko pijeska prema vodi."
+    },
+    "a1-417": {
+      "en": "spider",
+      "word": "pauk",
+      "gender": "m",
+      "sentence": "Pauk pravi malu mrežu u kutu vrta."
+    },
+    "a1-418": {
+      "en": "bee",
+      "word": "pčela",
+      "gender": "f",
+      "sentence": "Pčela sjedi na crvenoj ruži u našem sunčanom vrtu."
+    },
+    "a1-419": {
+      "en": "butterfly",
+      "word": "leptir",
+      "gender": "m",
+      "sentence": "Žuti leptir sleti na cvijet u vrtu."
+    },
+    "a1-420": {
+      "en": "whale",
+      "word": "kit",
+      "gender": "m",
+      "sentence": "Kit pliva daleko u dubokom plavom oceanu."
+    },
+    "a1-421": {
+      "en": "dolphin",
+      "word": "dupin",
+      "gender": "m",
+      "sentence": "Dupin iskoči iz plave morske vode."
+    },
+    "a1-422": {
+      "en": "donkey",
+      "word": "magarac",
+      "gender": "m",
+      "sentence": "Magarac nosi vreće voća preko farme."
+    },
+    "a1-423": {
+      "en": "zebra",
+      "word": "zebra",
+      "gender": "f",
+      "sentence": "Zebra ima crne i bijele pruge po tijelu."
+    },
+    "a1-424": {
+      "en": "giraffe",
+      "word": "žirafa",
+      "gender": "f",
+      "sentence": "Visoka žirafa jede lišće s vrha drveta."
+    },
+    "a1-425": {
+      "en": "fox",
+      "word": "lisica",
+      "gender": "f",
+      "sentence": "Lisica živi u rupi blizu tihe zelene šume."
+    },
+    "a1-426": {
+      "en": "deer",
+      "word": "jelen",
+      "gender": "m",
+      "sentence": "Jelen pije hladnu vodu iz šumskog potoka."
+    },
+    "a1-427": {
+      "en": "owl",
+      "word": "sova",
+      "gender": "f",
+      "sentence": "Sova noću vrlo tiho sjedi na drvetu."
+    },
+    "a1-428": {
+      "en": "parrot",
+      "word": "papiga",
+      "gender": "f",
+      "sentence": "Zelena papiga može reći nekoliko jednostavnih prijateljskih riječi."
+    },
+    "a1-429": {
+      "en": "penguin",
+      "word": "pingvin",
+      "gender": "m",
+      "sentence": "Pingvin hoda po ledu i onda vrlo dobro pliva."
+    },
+    "a1-430": {
+      "en": "camel",
+      "word": "deva",
+      "gender": "f",
+      "sentence": "Deva polako hoda preko vruće suhe pustinje."
+    },
+    "a1-431": {
+      "en": "squirrel",
+      "word": "vjeverica",
+      "gender": "f",
+      "sentence": "Vjeverica se penje na drvo i drži mali orah."
+    },
+    "a1-432": {
+      "en": "puppy",
+      "word": "štene",
+      "gender": "n",
+      "sentence": "Štene se igra mekom loptom u dnevnom boravku."
+    },
+    "a1-433": {
+      "en": "kitten",
+      "word": "mače",
+      "gender": "n",
+      "sentence": "Mače spava na toploj stolici na poslijepodnevnom suncu."
+    },
+    "a1-434": {
+      "en": "hamster",
+      "word": "hrčak",
+      "gender": "m",
+      "sentence": "Mali hrčak noću trči na malom kotaču."
+    },
+    "a1-435": {
+      "en": "pet",
+      "word": "ljubimac",
+      "gender": "m",
+      "sentence": "Nježan pas može biti veseo ljubimac u obiteljskom domu."
+    },
+    "a1-436": {
+      "en": "wolf",
+      "word": "vuk",
+      "gender": "m",
+      "plural": "vukovi",
+      "sentence": "Vuk živi sa svojom obitelji duboko u šumi."
+    },
+    "a1-437": {
+      "en": "tail",
+      "word": "rep",
+      "gender": "m",
+      "sentence": "Pas maše repom kad djeca dođu kući."
+    },
+    "a1-438": {
+      "en": "wing",
+      "word": "krilo",
+      "gender": "n",
+      "sentence": "Ptica podigne jedno krilo i onda odleti u nebo."
+    },
+    "a1-439": {
+      "en": "grass",
+      "word": "trava",
+      "gender": "f",
+      "sentence": "Trava u parku je zelena i mekana nakon kiše."
+    },
+    "a1-440": {
+      "en": "leaf",
+      "word": "list",
+      "gender": "m",
+      "plural": "listovi",
+      "sentence": "Žuti list padne s drveta na tlo."
+    },
+    "a1-441": {
+      "en": "forest",
+      "word": "šuma",
+      "gender": "f",
+      "sentence": "U nedjelju ujutro tiho šetamo kroz prohladnu šumu."
+    },
+    "a1-442": {
+      "en": "field",
+      "word": "polje",
+      "gender": "n",
+      "sentence": "Konji jedu zelenu travu na širokom otvorenom polju."
+    },
+    "a1-443": {
+      "en": "hill",
+      "word": "brdo",
+      "gender": "n",
+      "sentence": "Polako hodamo uz zeleno brdo iza našeg sela."
+    },
+    "a1-444": {
+      "en": "lake",
+      "word": "jezero",
+      "gender": "n",
+      "sentence": "Jezero je mirno i plavo ovog sunčanog poslijepodneva."
+    },
+    "a1-445": {
+      "en": "ocean",
+      "word": "ocean",
+      "gender": "m",
+      "sentence": "Ocean izgleda vrlo plavo i široko s visoke obale."
+    },
+    "a1-446": {
+      "en": "island",
+      "word": "otok",
+      "gender": "m",
+      "sentence": "Mali otok je tih i zelen u plavom oceanu."
+    },
+    "a1-447": {
+      "en": "sand",
+      "word": "pijesak",
+      "gender": "m",
+      "sentence": "Pijesak na plaži poslijepodne je topao."
+    },
+    "a1-448": {
+      "en": "rock",
+      "word": "stijena",
+      "gender": "f",
+      "sentence": "Sjedimo na velikoj ravnoj stijeni i gledamo jezero."
+    },
+    "a1-449": {
+      "en": "ground",
+      "word": "tlo",
+      "gender": "n",
+      "sentence": "Crvena jabuka padne na tlo ispod starog drveta."
+    },
+    "a1-450": {
+      "en": "star",
+      "word": "zvijezda",
+      "gender": "f",
+      "sentence": "Noću vidim sjajnu zvijezdu na vedrom nebu."
+    },
+    "a1-451": {
+      "en": "plant",
+      "word": "biljka",
+      "gender": "f",
+      "sentence": "Ovoj zelenoj biljci svako jutro treba voda i svjetlo."
+    },
+    "a1-452": {
+      "en": "seed",
+      "word": "sjeme",
+      "gender": "n",
+      "sentence": "Stavim malo sjeme u tlo i zalijem ga."
+    },
+    "a1-453": {
+      "en": "root",
+      "word": "korijen",
+      "gender": "m",
+      "sentence": "Korijen biljke raste dolje ispod tamnog tla."
+    },
+    "a1-454": {
+      "en": "branch",
+      "word": "grana",
+      "gender": "f",
+      "sentence": "Mala ptica sjedi na niskoj grani drveta."
+    },
+    "a1-455": {
+      "en": "bush",
+      "word": "grm",
+      "gender": "m",
+      "sentence": "Zec se sakrije ispod zelenog grma u našem dvorištu."
+    },
+    "a1-456": {
+      "en": "rose",
+      "word": "ruža",
+      "gender": "f",
+      "sentence": "Crvena ruža u našem vrtu ujutro slatko miriše."
+    },
+    "a1-457": {
+      "en": "valley",
+      "word": "dolina",
+      "gender": "f",
+      "sentence": "Bistra rijeka teče kroz široku zelenu dolinu."
+    },
+    "a1-458": {
+      "en": "cave",
+      "word": "špilja",
+      "gender": "f",
+      "sentence": "Špilja u brdu je tamna, prohladna i tiha."
+    },
+    "a1-459": {
+      "en": "desert",
+      "word": "pustinja",
+      "gender": "f",
+      "sentence": "Pustinja je vruća i suha, s pijeskom i malo biljaka."
+    },
+    "a1-460": {
+      "en": "pond",
+      "word": "jezerce",
+      "gender": "n",
+      "sentence": "Nekoliko pataka pliva u jezercu iza stare farme."
+    },
+    "a1-461": {
+      "en": "stream",
+      "word": "potok",
+      "gender": "m",
+      "sentence": "Bistra hladna voda brzo teče u malom šumskom potoku."
+    },
+    "a1-462": {
+      "en": "cliff",
+      "word": "litica",
+      "gender": "f",
+      "sentence": "Stojimo dovoljno daleko od litice iznad oceana."
+    },
+    "a1-463": {
+      "en": "shore",
+      "word": "obala",
+      "gender": "f",
+      "sentence": "Djeca se igraju na obali kad je vrijeme toplo."
+    },
+    "a1-464": {
+      "en": "wave",
+      "word": "val",
+      "gender": "m",
+      "sentence": "Mali val dođe na pijesak i onda se vrati."
+    },
+    "a1-465": {
+      "en": "land",
+      "word": "zemlja",
+      "gender": "f",
+      "sentence": "Seljaci svake godine uzgajaju povrće na ovoj zelenoj zemlji.",
+      "note": "land"
+    },
+    "a1-466": {
+      "en": "soil",
+      "word": "tlo",
+      "gender": "n",
+      "sentence": "Tlo u našem vrtu je tamno, mekano i dobro za biljke.",
+      "note": "soil"
+    },
+    "a1-467": {
+      "en": "air",
+      "word": "zrak",
+      "gender": "m",
+      "sentence": "Otvorim prozor jer hoću malo svježeg zraka."
+    },
+    "a1-468": {
+      "en": "world",
+      "word": "svijet",
+      "gender": "m",
+      "sentence": "Ljudi diljem svijeta dijele hranu, glazbu i priče."
+    },
+    "a1-469": {
+      "en": "country",
+      "word": "država",
+      "gender": "f",
+      "sentence": "Naša država ima zelene šume, duge rijeke i visoke planine."
+    },
+    "a1-470": {
+      "en": "jungle",
+      "word": "džungla",
+      "gender": "f",
+      "sentence": "Džungla je topla, zelena i puna visokih biljaka."
+    },
+    "a1-471": {
+      "en": "path",
+      "word": "staza",
+      "gender": "f",
+      "sentence": "Slijedimo usku stazu kroz tihu jutarnju šumu."
+    },
+    "a1-472": {
+      "en": "mud",
+      "word": "blato",
+      "gender": "n",
+      "sentence": "Na čizmama mi je mekano blato nakon šetnje po kiši."
+    },
+    "a1-473": {
+      "en": "farm",
+      "word": "farma",
+      "gender": "f",
+      "sentence": "Ujak na farmi drži krave, ovce i kokoši."
+    },
+    "a1-474": {
+      "en": "earth",
+      "word": "zemlja",
+      "gender": "f",
+      "sentence": "Iza kuće u zemlji uzgajamo krumpir i mrkvu.",
+      "note": "earth"
+    },
+    "a1-475": {
+      "en": "person",
+      "word": "osoba",
+      "gender": "f",
+      "plural": "osobe",
+      "sentence": "Osoba blizu vrata učionice naš je učitelj engleskog."
+    },
+    "a1-476": {
+      "en": "neighbor",
+      "word": "susjed",
+      "gender": "m",
+      "feminine": "susjeda",
+      "sentence": "Susjeda svake večeri zalijeva cvijeće u svom vrtu."
+    },
+    "a1-477": {
+      "en": "guest",
+      "word": "gost",
+      "gender": "m",
+      "feminine": "gošća",
+      "sentence": "Gost sjedi s obitelji u dnevnom boravku."
+    },
+    "a1-478": {
+      "en": "customer",
+      "word": "kupac",
+      "gender": "m",
+      "sentence": "Kupac u dućanu kupuje jabuke i svjež kruh."
+    },
+    "a1-479": {
+      "en": "waiter",
+      "word": "konobar",
+      "gender": "m",
+      "feminine": "konobarica",
+      "sentence": "Konobar donese čašu vode do našeg stola."
+    },
+    "a1-480": {
+      "en": "chef",
+      "word": "kuhar",
+      "gender": "m",
+      "feminine": "kuharica",
+      "sentence": "Kuhar u restoranu kuha juhu i svjež kruh."
+    },
+    "a1-481": {
+      "en": "farmer",
+      "word": "poljoprivrednik",
+      "gender": "m",
+      "sentence": "Poljoprivrednik svako jutro rano daje hranu kravama."
+    },
+    "a1-482": {
+      "en": "driver",
+      "word": "vozač",
+      "gender": "m",
+      "feminine": "vozačica",
+      "sentence": "Vozač autobusa svako jutro stane blizu škole."
+    },
+    "a1-483": {
+      "en": "pilot",
+      "word": "pilot",
+      "gender": "m",
+      "feminine": "pilotkinja",
+      "sentence": "Pilot leti zrakoplovom preko oceana u drugu državu."
+    },
+    "a1-484": {
+      "en": "artist",
+      "word": "umjetnik",
+      "gender": "m",
+      "feminine": "umjetnica",
+      "sentence": "Umjetnik crta lijepu sliku plavog oceana."
+    },
+    "a1-485": {
+      "en": "dentist",
+      "word": "zubar",
+      "gender": "m",
+      "feminine": "zubarica",
+      "sentence": "Zubara posjećujem dva puta svake godine."
+    },
+    "a1-486": {
+      "en": "patient",
+      "word": "pacijent",
+      "gender": "m",
+      "feminine": "pacijentica",
+      "sentence": "Pacijent tiho čeka u klinici na liječnika."
+    },
+    "a1-487": {
+      "en": "worker",
+      "word": "radnik",
+      "gender": "m",
+      "feminine": "radnica",
+      "sentence": "Radnik je na poslu do osam svako jutro."
+    },
+    "a1-488": {
+      "en": "baker",
+      "word": "pekar",
+      "gender": "m",
+      "feminine": "pekarica",
+      "sentence": "Pekar vrlo rano svako jutro pravi svjež topli kruh."
+    },
+    "a1-489": {
+      "en": "cashier",
+      "word": "blagajnik",
+      "gender": "m",
+      "feminine": "blagajnica",
+      "sentence": "Blagajnik uzme novac i ljubazno se nasmiješi."
+    },
+    "a1-490": {
+      "en": "singer",
+      "word": "pjevač",
+      "gender": "m",
+      "feminine": "pjevačica",
+      "sentence": "Pjevač ima lijep glas i smiješi se ljudima."
+    },
+    "a1-491": {
+      "en": "job",
+      "word": "posao",
+      "gender": "m",
+      "sentence": "Sviđa mi se posao u knjižnici jer pomažem ljudima."
+    },
+    "a1-492": {
+      "en": "boss",
+      "word": "šef",
+      "gender": "m",
+      "feminine": "šefica",
+      "sentence": "Šefica je ljubazna i pomaže mi da naučim nove stvari."
+    },
+    "a1-493": {
+      "en": "tourist",
+      "word": "turist",
+      "gender": "m",
+      "feminine": "turistkinja",
+      "sentence": "Turist gleda zemljovid pokraj starog gradskog tornja."
+    },
+    "a1-494": {
+      "en": "he",
+      "word": "on",
+      "sentence": "On je moj stariji brat i sa mnom hoda u školu."
+    },
+    "a1-495": {
+      "en": "she",
+      "word": "ona",
+      "sentence": "Ona je moja sestra i voli čitati svake večeri."
+    },
+    "a1-496": {
+      "en": "we",
+      "word": "mi",
+      "sentence": "Svaki dan prije škole zajedno jedemo topli doručak."
+    },
+    "a1-497": {
+      "en": "they",
+      "word": "oni",
+      "sentence": "Oni su moji rođaci i žive u malom selu."
+    },
+    "a1-498": {
+      "en": "me",
+      "word": "mene",
+      "sentence": "Tata mi navečer čita kratku veselu priču.",
+      "note": "accusative, also me"
+    },
+    "a1-499": {
+      "en": "him",
+      "word": "njega",
+      "sentence": "Svako jutro u tjednu hodam s njim u školu.",
+      "note": "accusative"
+    },
+    "a1-500": {
+      "en": "her",
+      "word": "nju",
+      "sentence": "Svaki dan sjedim pokraj nje u učionici.",
+      "note": "object"
+    },
+    "a1-501": {
+      "en": "us",
+      "word": "nas",
+      "sentence": "Baka nam u nedjelju kuha toplu juhu."
+    },
+    "a1-502": {
+      "en": "them",
+      "word": "njih",
+      "sentence": "Svake subote poslijepodne sretnem ih u parku."
+    },
+    "a1-503": {
+      "en": "my",
+      "word": "moj",
+      "feminine": "moja",
+      "neuter": "moje",
+      "sentence": "Moja mama skuha vruću juhu kad je zimsko vrijeme hladno."
+    },
+    "a1-504": {
+      "en": "your",
+      "word": "tvoj",
+      "feminine": "tvoja",
+      "neuter": "tvoje",
+      "sentence": "Tvoj plavi ruksak je na stolici blizu ulaznih vrata."
+    },
+    "a1-505": {
+      "en": "his",
+      "word": "njegov",
+      "feminine": "njegova",
+      "neuter": "njegovo",
+      "sentence": "Njegov crveni bicikl je nov i njime ide u školu."
+    },
+    "a1-506": {
+      "en": "our",
+      "word": "naš",
+      "feminine": "naša",
+      "neuter": "naše",
+      "sentence": "Naš dom je malen, ali topao, čist i veseo."
+    },
+    "a1-507": {
+      "en": "their",
+      "word": "njihov",
+      "feminine": "njihova",
+      "neuter": "njihovo",
+      "sentence": "Njihov vrt je u proljeće pun crvenog cvijeća."
+    },
+    "a1-508": {
+      "en": "who",
+      "word": "tko",
+      "sentence": "Tko je žena koja sada stoji blizu ulaznih vrata?"
+    },
+    "a1-509": {
+      "en": "someone",
+      "word": "netko",
+      "sentence": "Netko je kod vrata s malom plavom torbom."
+    },
+    "a1-510": {
+      "en": "everyone",
+      "word": "svi",
+      "sentence": "Svi u našem razredu ljubazni su prema novom učeniku."
+    },
+    "a1-511": {
+      "en": "it",
+      "word": "to",
+      "sentence": "Lijep je i topao dan za šetnju parkom."
+    },
+    "a1-512": {
+      "en": "police",
+      "word": "policija",
+      "gender": "f",
+      "sentence": "Zovem policiju kad trebam pomoć na ulici."
+    },
+    "a1-513": {
+      "en": "soldier",
+      "word": "vojnik",
+      "gender": "m",
+      "sentence": "Vojnik piše dugo pismo kući svojoj obitelji."
+    },
+    "a1-514": {
+      "en": "passenger",
+      "word": "putnik",
+      "gender": "m",
+      "feminine": "putnica",
+      "sentence": "Svaki putnik pokaže kartu i onda sjedne u vlak."
+    },
+    "a1-515": {
+      "en": "bad",
+      "word": "loš",
+      "sentence": "Vrijeme je danas loše, pa ostajemo unutra i čitamo."
+    },
+    "a1-516": {
+      "en": "old",
+      "word": "star",
+      "sentence": "Moj djed je star i priča vrlo lijepe priče."
+    },
+    "a1-517": {
+      "en": "young",
+      "word": "mlad",
+      "sentence": "Mladi dječak pomaže mami prati šalice u kuhinji."
+    },
+    "a1-518": {
+      "en": "long",
+      "word": "dug",
+      "sentence": "Cesta u selo je duga, tiha i lijepa."
+    },
+    "a1-519": {
+      "en": "short",
+      "word": "kratak",
+      "sentence": "Svake večeri nakon večere idemo na kratku šetnju."
+    },
+    "a1-520": {
+      "en": "tall",
+      "word": "visok",
+      "sentence": "Stari toranj je visok i vidimo ga od kuće."
+    },
+    "a1-521": {
+      "en": "fast",
+      "word": "brz",
+      "sentence": "Ovaj jutarnji vlak je brz i obično stiže na vrijeme."
+    },
+    "a1-522": {
+      "en": "slow",
+      "word": "spor",
+      "sentence": "Mali čamac je spor, ali vožnja jezerom je lijepa."
+    },
+    "a1-523": {
+      "en": "heavy",
+      "word": "težak",
+      "sentence": "Ovaj kovčeg je težak, pa molim brata za pomoć."
+    },
+    "a1-524": {
+      "en": "soft",
+      "word": "mekan",
+      "sentence": "Ovaj jastuk je mekan i na njemu jako dobro spavam."
+    },
+    "a1-525": {
+      "en": "quiet",
+      "word": "tih",
+      "sentence": "Gradska knjižnica je tiha cijelo dugo poslijepodne."
+    },
+    "a1-526": {
+      "en": "clean",
+      "word": "čist",
+      "sentence": "Spavaću sobu držim čistom i knjige stavljam na policu."
+    },
+    "a1-527": {
+      "en": "full",
+      "word": "pun",
+      "sentence": "Čaša na stolu puna je hladnog soka od jabuke."
+    },
+    "a1-528": {
+      "en": "happy",
+      "word": "sretan",
+      "sentence": "Sretan sam kad poslijepodne provedem s obitelji."
+    },
+    "a1-529": {
+      "en": "beautiful",
+      "word": "lijep",
+      "sentence": "Naš vrt je lijep na toplom proljetnom suncu."
+    },
+    "a1-530": {
+      "en": "nice",
+      "word": "ugodan",
+      "sentence": "Nedjeljom imamo ugodan dugi ručak sa susjedima."
+    },
+    "a1-531": {
+      "en": "easy",
+      "word": "lagan",
+      "sentence": "Ovo pitanje je lagano, pa mogu brzo odgovoriti."
+    },
+    "a1-532": {
+      "en": "strong",
+      "word": "jak",
+      "sentence": "Moj stariji brat je jak i može nositi tešku kutiju."
+    },
+    "a1-533": {
+      "en": "safe",
+      "word": "siguran",
+      "sentence": "Naša tiha ulica je sigurna za djecu tijekom dana."
+    },
+    "a1-534": {
+      "en": "blue",
+      "word": "plav",
+      "sentence": "Poslijepodnevno nebo je plavo i vidim samo jedan mali oblak."
+    },
+    "a1-535": {
+      "en": "green",
+      "word": "zelen",
+      "sentence": "Trava je zelena i mekana nakon proljetne kiše."
+    },
+    "a1-536": {
+      "en": "yellow",
+      "word": "žut",
+      "sentence": "Banana na tanjuru je žuta i jako slatka."
+    }
+  }
+}

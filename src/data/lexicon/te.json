@@ -1,0 +1,338 @@
+{
+  "entries": {
+    "i": {
+      "word": "నేను",
+      "sentence": "నేను ఇక్కడ ఉన్నాను.",
+      "reading": "nēnu"
+    },
+    "you": {
+      "word": "నువ్వు",
+      "sentence": "నువ్వు నా స్నేహితుడివి.",
+      "reading": "nuvvu"
+    },
+    "woman": {
+      "word": "మహిళ",
+      "sentence": "మహిళ ఇక్కడ ఉంది.",
+      "reading": "mahiḷa"
+    },
+    "man": {
+      "word": "మగవాడు",
+      "sentence": "మగవాడు నడుస్తున్నాడు.",
+      "reading": "magavāḍu"
+    },
+    "child": {
+      "word": "పిల్లవాడు",
+      "sentence": "పిల్లవాడు నిద్రపోతున్నాడు.",
+      "reading": "pillavāḍu"
+    },
+    "name": {
+      "word": "పేరు",
+      "sentence": "నా పేరు Anna.",
+      "reading": "pēru"
+    },
+    "friend": {
+      "word": "స్నేహితుడు",
+      "sentence": "ఇది నా స్నేహితుడు.",
+      "reading": "snēhituḍu"
+    },
+    "family": {
+      "word": "కుటుంబం",
+      "sentence": "నా కుటుంబం ఇంట్లో ఉంది.",
+      "reading": "kuṭumbaṁ"
+    },
+    "house": {
+      "word": "ఇల్లు",
+      "sentence": "ఇల్లు చిన్నది.",
+      "reading": "illu"
+    },
+    "door": {
+      "word": "తలుపు",
+      "sentence": "తలుపు తెరిచి ఉంది.",
+      "reading": "talupu"
+    },
+    "key": {
+      "word": "తాళం చెవి",
+      "sentence": "తాళం చెవి బల్ల మీద ఉంది.",
+      "reading": "tāḷaṁ cevi"
+    },
+    "table": {
+      "word": "బల్ల",
+      "sentence": "పుస్తకం బల్ల మీద ఉంది.",
+      "reading": "balla"
+    },
+    "bed": {
+      "word": "మంచం",
+      "sentence": "పిల్లవాడు మంచం మీద ఉన్నాడు.",
+      "reading": "mañcaṁ"
+    },
+    "book": {
+      "word": "పుస్తకం",
+      "sentence": "పుస్తకం కొత్తది.",
+      "reading": "pustakaṁ"
+    },
+    "water": {
+      "word": "నీళ్లు",
+      "sentence": "నీళ్లు చల్లగా ఉన్నాయి.",
+      "reading": "nīḷlu"
+    },
+    "fire": {
+      "word": "నిప్పు",
+      "sentence": "నిప్పు వేడిగా ఉంది.",
+      "reading": "nippu"
+    },
+    "bread": {
+      "word": "రొట్టె",
+      "sentence": "రొట్టె మంచిగా ఉంది.",
+      "reading": "roṭṭe"
+    },
+    "apple": {
+      "word": "ఆపిల్",
+      "sentence": "ఆపిల్ ఎర్రగా ఉంది.",
+      "reading": "āpil"
+    },
+    "egg": {
+      "word": "గుడ్డు",
+      "sentence": "గుడ్డు బల్ల మీద ఉంది.",
+      "reading": "guḍḍu"
+    },
+    "milk": {
+      "word": "పాలు",
+      "sentence": "పిల్లవాడు పాలు తాగుతాడు.",
+      "reading": "pālu"
+    },
+    "fish": {
+      "word": "చేప",
+      "sentence": "చేప నీళ్లలో ఉంది.",
+      "reading": "cēpa"
+    },
+    "rice": {
+      "word": "అన్నం",
+      "sentence": "మేము అన్నం తింటాం.",
+      "reading": "annaṁ"
+    },
+    "coffee": {
+      "word": "కాఫీ",
+      "sentence": "కాఫీ వేడిగా ఉంది.",
+      "reading": "kāphī"
+    },
+    "eat": {
+      "word": "తినడం",
+      "sentence": "మేము రొట్టె తింటాం.",
+      "reading": "tinaḍaṁ"
+    },
+    "drink": {
+      "word": "తాగడం",
+      "sentence": "నేను నీళ్లు తాగుతాను.",
+      "reading": "tāgaḍaṁ"
+    },
+    "see": {
+      "word": "చూడడం",
+      "sentence": "నేను సూర్యుడిని చూస్తాను.",
+      "reading": "cūḍaḍaṁ"
+    },
+    "hear": {
+      "word": "వినడం",
+      "sentence": "నేను వాన వింటాను.",
+      "reading": "vinaḍaṁ"
+    },
+    "sleep": {
+      "word": "నిద్రపోవడం",
+      "sentence": "పిల్లవాడు నిద్రపోతాడు.",
+      "reading": "nidrapōvaḍaṁ"
+    },
+    "walk": {
+      "word": "నడవడం",
+      "sentence": "మగవాడు నడుస్తాడు.",
+      "reading": "naḍavaḍaṁ"
+    },
+    "come": {
+      "word": "రావడం",
+      "sentence": "నువ్వు ఇంటికి వస్తావు.",
+      "reading": "rāvaḍaṁ"
+    },
+    "sit": {
+      "word": "కూర్చోవడం",
+      "sentence": "మేము బల్ల దగ్గర కూర్చుంటాం.",
+      "reading": "kūrcōvaḍaṁ"
+    },
+    "give": {
+      "word": "ఇవ్వడం",
+      "sentence": "నేను నీకు తాళం చెవి ఇస్తాను.",
+      "reading": "ivvaḍaṁ"
+    },
+    "sun": {
+      "word": "సూర్యుడు",
+      "sentence": "సూర్యుడు వేడిగా ఉన్నాడు.",
+      "reading": "sūryuḍu"
+    },
+    "moon": {
+      "word": "చంద్రుడు",
+      "sentence": "నేను చంద్రుడిని చూస్తాను.",
+      "reading": "candruḍu"
+    },
+    "tree": {
+      "word": "చెట్టు",
+      "sentence": "చెట్టు పెద్దది.",
+      "reading": "ceṭṭu"
+    },
+    "flower": {
+      "word": "పువ్వు",
+      "sentence": "పువ్వు ఎర్రగా ఉంది.",
+      "reading": "puvvu"
+    },
+    "rain": {
+      "word": "వాన",
+      "sentence": "వాన చల్లగా ఉంది.",
+      "reading": "vāna"
+    },
+    "mountain": {
+      "word": "కొండ",
+      "sentence": "కొండ పెద్దది.",
+      "reading": "koṇḍa"
+    },
+    "river": {
+      "word": "నది",
+      "sentence": "నది పొడవుగా ఉంది.",
+      "reading": "nadi"
+    },
+    "stone": {
+      "word": "రాయి",
+      "sentence": "రాయి చిన్నది.",
+      "reading": "rāyi"
+    },
+    "dog": {
+      "word": "కుక్క",
+      "sentence": "కుక్క చిన్నది.",
+      "reading": "kukka"
+    },
+    "cat": {
+      "word": "పిల్లి",
+      "sentence": "పిల్లి నిద్రపోతోంది.",
+      "reading": "pilli"
+    },
+    "bird": {
+      "word": "పక్షి",
+      "sentence": "నేను రెండు పక్షులను చూస్తాను.",
+      "reading": "pakṣi"
+    },
+    "hand": {
+      "word": "చెయ్యి",
+      "sentence": "ఇది నా చెయ్యి.",
+      "reading": "ceyyi"
+    },
+    "eye": {
+      "word": "కన్ను",
+      "sentence": "ఇది నా కన్ను.",
+      "reading": "kannu"
+    },
+    "ear": {
+      "word": "చెవి",
+      "sentence": "ఇది నా చెవి.",
+      "reading": "cevi"
+    },
+    "head": {
+      "word": "తల",
+      "sentence": "ఇది నా తల.",
+      "reading": "tala"
+    },
+    "mouth": {
+      "word": "నోరు",
+      "sentence": "ఇది నా నోరు.",
+      "reading": "nōru"
+    },
+    "foot": {
+      "word": "పాదం",
+      "sentence": "నా పాదం చల్లగా ఉంది.",
+      "reading": "pādaṁ"
+    },
+    "road": {
+      "word": "రోడ్డు",
+      "sentence": "రోడ్డు పొడవుగా ఉంది.",
+      "reading": "rōḍḍu"
+    },
+    "city": {
+      "word": "నగరం",
+      "sentence": "నగరం పెద్దది.",
+      "reading": "nagaraṁ"
+    },
+    "school": {
+      "word": "పాఠశాల",
+      "sentence": "పిల్లవాడు పాఠశాలకు వెళ్తాడు.",
+      "reading": "pāṭhaśāla"
+    },
+    "sea": {
+      "word": "సముద్రం",
+      "sentence": "నేను సముద్రం చూస్తాను.",
+      "reading": "samudraṁ"
+    },
+    "night": {
+      "word": "రాత్రి",
+      "sentence": "రాత్రి చల్లగా ఉంది.",
+      "reading": "rātri"
+    },
+    "one": {
+      "word": "ఒకటి",
+      "sentence": "నా దగ్గర ఒక ఆపిల్ ఉంది.",
+      "reading": "okaṭi"
+    },
+    "two": {
+      "word": "రెండు",
+      "sentence": "నేను రెండు పక్షులను చూస్తాను.",
+      "reading": "reṇḍu"
+    },
+    "big": {
+      "word": "పెద్ద",
+      "sentence": "ఇల్లు పెద్దది.",
+      "reading": "pedda"
+    },
+    "small": {
+      "word": "చిన్న",
+      "sentence": "పిల్లవాడు చిన్నవాడు.",
+      "reading": "cinna"
+    },
+    "good": {
+      "word": "మంచి",
+      "sentence": "రొట్టె మంచిగా ఉంది.",
+      "reading": "mañci"
+    },
+    "hot": {
+      "word": "వేడి",
+      "sentence": "నిప్పు వేడిగా ఉంది.",
+      "reading": "vēḍi"
+    },
+    "cold": {
+      "word": "చల్లని",
+      "sentence": "నీళ్లు చల్లగా ఉన్నాయి.",
+      "reading": "callani"
+    },
+    "red": {
+      "word": "ఎరుపు",
+      "sentence": "ఆపిల్ ఎర్రగా ఉంది.",
+      "reading": "erupu"
+    },
+    "new": {
+      "word": "కొత్త",
+      "sentence": "పుస్తకం కొత్తది.",
+      "reading": "kotta"
+    },
+    "this": {
+      "word": "ఇది",
+      "sentence": "ఇది నా ఇల్లు.",
+      "reading": "idi"
+    }
+  },
+  "lines": {
+    "d1a": "నమస్కారం. నేను ఇక్కడ ఉన్నాను.",
+    "d1b": "నీ పేరు ఏమిటి?",
+    "d1c": "నా పేరు Anna. ఇది నా స్నేహితుడు.",
+    "d1d": "లోపలికి రా. రొట్టె మంచిగా ఉంది.",
+    "d2a": "నేను కొండను చూస్తాను.",
+    "d2b": "రోడ్డు పొడవుగా ఉంది.",
+    "d2c": "సూర్యుడు వేడిగా ఉన్నాడు.",
+    "d2d": "మేము కూర్చుంటాం, నేను నీళ్లు తాగుతాను.",
+    "d3a": "పిల్లవాడు నిద్రపోతాడు.",
+    "d3b": "నేను చంద్రుడిని చూస్తాను.",
+    "d3c": "నేను వాన వింటాను.",
+    "d3d": "ఇల్లు చిన్నది, మంచిది."
+  }
+}

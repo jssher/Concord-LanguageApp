@@ -1,0 +1,338 @@
+{
+  "entries": {
+    "i": {
+      "word": "میں",
+      "sentence": "میں یہاں ہوں۔",
+      "reading": "maiṁ"
+    },
+    "you": {
+      "word": "تم",
+      "sentence": "تم میرے دوست ہو۔",
+      "reading": "tum"
+    },
+    "woman": {
+      "word": "عورت",
+      "sentence": "عورت یہاں ہے۔",
+      "reading": "aurat"
+    },
+    "man": {
+      "word": "آدمی",
+      "sentence": "آدمی چل رہا ہے۔",
+      "reading": "ādmī"
+    },
+    "child": {
+      "word": "بچہ",
+      "sentence": "بچہ سو رہا ہے۔",
+      "reading": "baccā"
+    },
+    "name": {
+      "word": "نام",
+      "sentence": "میرا نام Anna ہے۔",
+      "reading": "nām"
+    },
+    "friend": {
+      "word": "دوست",
+      "sentence": "یہ میرا دوست ہے۔",
+      "reading": "dost"
+    },
+    "family": {
+      "word": "خاندان",
+      "sentence": "میرا خاندان گھر پر ہے۔",
+      "reading": "khāndān"
+    },
+    "house": {
+      "word": "گھر",
+      "sentence": "گھر چھوٹا ہے۔",
+      "reading": "ghar"
+    },
+    "door": {
+      "word": "دروازہ",
+      "sentence": "دروازہ کھلا ہے۔",
+      "reading": "darvāza"
+    },
+    "key": {
+      "word": "چابی",
+      "sentence": "چابی میز پر ہے۔",
+      "reading": "cābī"
+    },
+    "table": {
+      "word": "میز",
+      "sentence": "کتاب میز پر ہے۔",
+      "reading": "mez"
+    },
+    "bed": {
+      "word": "بستر",
+      "sentence": "بچہ بستر میں ہے۔",
+      "reading": "bistar"
+    },
+    "book": {
+      "word": "کتاب",
+      "sentence": "کتاب نئی ہے۔",
+      "reading": "kitāb"
+    },
+    "water": {
+      "word": "پانی",
+      "sentence": "پانی ٹھنڈا ہے۔",
+      "reading": "pānī"
+    },
+    "fire": {
+      "word": "آگ",
+      "sentence": "آگ گرم ہے۔",
+      "reading": "āg"
+    },
+    "bread": {
+      "word": "روٹی",
+      "sentence": "روٹی اچھی ہے۔",
+      "reading": "roṭī"
+    },
+    "apple": {
+      "word": "سیب",
+      "sentence": "سیب سرخ ہے۔",
+      "reading": "seb"
+    },
+    "egg": {
+      "word": "انڈا",
+      "sentence": "انڈا میز پر ہے۔",
+      "reading": "anḍā"
+    },
+    "milk": {
+      "word": "دودھ",
+      "sentence": "بچہ دودھ پیتا ہے۔",
+      "reading": "dūdh"
+    },
+    "fish": {
+      "word": "مچھلی",
+      "sentence": "مچھلی پانی میں ہے۔",
+      "reading": "machlī"
+    },
+    "rice": {
+      "word": "چاول",
+      "sentence": "ہم چاول کھاتے ہیں۔",
+      "reading": "cāval"
+    },
+    "coffee": {
+      "word": "کافی",
+      "sentence": "کافی گرم ہے۔",
+      "reading": "kāfī"
+    },
+    "eat": {
+      "word": "کھانا",
+      "sentence": "ہم روٹی کھاتے ہیں۔",
+      "reading": "khānā"
+    },
+    "drink": {
+      "word": "پینا",
+      "sentence": "میں پانی پیتا ہوں۔",
+      "reading": "pīnā"
+    },
+    "see": {
+      "word": "دیکھنا",
+      "sentence": "میں سورج دیکھتا ہوں۔",
+      "reading": "dekhnā"
+    },
+    "hear": {
+      "word": "سننا",
+      "sentence": "میں بارش سنتا ہوں۔",
+      "reading": "sunnā"
+    },
+    "sleep": {
+      "word": "سونا",
+      "sentence": "بچہ سوتا ہے۔",
+      "reading": "sonā"
+    },
+    "walk": {
+      "word": "چلنا",
+      "sentence": "آدمی چلتا ہے۔",
+      "reading": "calnā"
+    },
+    "come": {
+      "word": "آنا",
+      "sentence": "تم گھر آتے ہو۔",
+      "reading": "ānā"
+    },
+    "sit": {
+      "word": "بیٹھنا",
+      "sentence": "ہم میز کے پاس بیٹھتے ہیں۔",
+      "reading": "baiṭhnā"
+    },
+    "give": {
+      "word": "دینا",
+      "sentence": "میں تمہیں چابی دیتا ہوں۔",
+      "reading": "denā"
+    },
+    "sun": {
+      "word": "سورج",
+      "sentence": "سورج گرم ہے۔",
+      "reading": "sūraj"
+    },
+    "moon": {
+      "word": "چاند",
+      "sentence": "میں چاند دیکھتا ہوں۔",
+      "reading": "cānd"
+    },
+    "tree": {
+      "word": "درخت",
+      "sentence": "درخت بڑا ہے۔",
+      "reading": "daraxt"
+    },
+    "flower": {
+      "word": "پھول",
+      "sentence": "پھول سرخ ہے۔",
+      "reading": "phūl"
+    },
+    "rain": {
+      "word": "بارش",
+      "sentence": "بارش ٹھنڈی ہے۔",
+      "reading": "bāriś"
+    },
+    "mountain": {
+      "word": "پہاڑ",
+      "sentence": "پہاڑ بڑا ہے۔",
+      "reading": "pahāṛ"
+    },
+    "river": {
+      "word": "دریا",
+      "sentence": "دریا لمبا ہے۔",
+      "reading": "daryā"
+    },
+    "stone": {
+      "word": "پتھر",
+      "sentence": "پتھر چھوٹا ہے۔",
+      "reading": "patthar"
+    },
+    "dog": {
+      "word": "کتا",
+      "sentence": "کتا چھوٹا ہے۔",
+      "reading": "kuttā"
+    },
+    "cat": {
+      "word": "بلی",
+      "sentence": "بلی سو رہی ہے۔",
+      "reading": "billī"
+    },
+    "bird": {
+      "word": "پرندہ",
+      "sentence": "میں دو پرندے دیکھتا ہوں۔",
+      "reading": "parinda"
+    },
+    "hand": {
+      "word": "ہاتھ",
+      "sentence": "یہ میرا ہاتھ ہے۔",
+      "reading": "hāth"
+    },
+    "eye": {
+      "word": "آنکھ",
+      "sentence": "یہ میری آنکھ ہے۔",
+      "reading": "ānkh"
+    },
+    "ear": {
+      "word": "کان",
+      "sentence": "یہ میرا کان ہے۔",
+      "reading": "kān"
+    },
+    "head": {
+      "word": "سر",
+      "sentence": "یہ میرا سر ہے۔",
+      "reading": "sar"
+    },
+    "mouth": {
+      "word": "منہ",
+      "sentence": "یہ میرا منہ ہے۔",
+      "reading": "munh"
+    },
+    "foot": {
+      "word": "پاؤں",
+      "sentence": "میرا پاؤں ٹھنڈا ہے۔",
+      "reading": "pā̃o"
+    },
+    "road": {
+      "word": "سڑک",
+      "sentence": "سڑک لمبی ہے۔",
+      "reading": "saṛak"
+    },
+    "city": {
+      "word": "شہر",
+      "sentence": "شہر بڑا ہے۔",
+      "reading": "śahr"
+    },
+    "school": {
+      "word": "اسکول",
+      "sentence": "بچہ اسکول جاتا ہے۔",
+      "reading": "iskūl"
+    },
+    "sea": {
+      "word": "سمندر",
+      "sentence": "میں سمندر دیکھتا ہوں۔",
+      "reading": "samandar"
+    },
+    "night": {
+      "word": "رات",
+      "sentence": "رات ٹھنڈی ہے۔",
+      "reading": "rāt"
+    },
+    "one": {
+      "word": "ایک",
+      "sentence": "میرے پاس ایک سیب ہے۔",
+      "reading": "ek"
+    },
+    "two": {
+      "word": "دو",
+      "sentence": "میں دو پرندے دیکھتا ہوں۔",
+      "reading": "do"
+    },
+    "big": {
+      "word": "بڑا",
+      "sentence": "گھر بڑا ہے۔",
+      "reading": "baṛā"
+    },
+    "small": {
+      "word": "چھوٹا",
+      "sentence": "بچہ چھوٹا ہے۔",
+      "reading": "choṭā"
+    },
+    "good": {
+      "word": "اچھا",
+      "sentence": "روٹی اچھی ہے۔",
+      "reading": "acchā"
+    },
+    "hot": {
+      "word": "گرم",
+      "sentence": "آگ گرم ہے۔",
+      "reading": "garam"
+    },
+    "cold": {
+      "word": "ٹھنڈا",
+      "sentence": "پانی ٹھنڈا ہے۔",
+      "reading": "ṭhanḍā"
+    },
+    "red": {
+      "word": "سرخ",
+      "sentence": "سیب سرخ ہے۔",
+      "reading": "surkh"
+    },
+    "new": {
+      "word": "نیا",
+      "sentence": "کتاب نئی ہے۔",
+      "reading": "nayā"
+    },
+    "this": {
+      "word": "یہ",
+      "sentence": "یہ میرا گھر ہے۔",
+      "reading": "yeh"
+    }
+  },
+  "lines": {
+    "d1a": "سلام۔ میں یہاں ہوں۔",
+    "d1b": "تمہارا نام کیا ہے؟",
+    "d1c": "میرا نام Anna ہے۔ یہ میرا دوست ہے۔",
+    "d1d": "اندر آؤ۔ روٹی اچھی ہے۔",
+    "d2a": "میں پہاڑ دیکھتا ہوں۔",
+    "d2b": "سڑک لمبی ہے۔",
+    "d2c": "سورج گرم ہے۔",
+    "d2d": "ہم بیٹھتے ہیں، اور میں پانی پیتا ہوں۔",
+    "d3a": "بچہ سوتا ہے۔",
+    "d3b": "میں چاند دیکھتا ہوں۔",
+    "d3c": "میں بارش سنتا ہوں۔",
+    "d3d": "گھر چھوٹا اور اچھا ہے۔"
+  }
+}

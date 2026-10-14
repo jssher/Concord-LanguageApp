@@ -1,0 +1,275 @@
+{
+  "entries": {
+    "i": {
+      "word": "che",
+      "sentence": "Che aime ko'ápe."
+    },
+    "you": {
+      "word": "nde",
+      "sentence": "Nde che angirũ."
+    },
+    "woman": {
+      "word": "kuña",
+      "sentence": "Kuña oĩ ko'ápe."
+    },
+    "man": {
+      "word": "kuimba'e",
+      "sentence": "Kuimba'e oguata."
+    },
+    "child": {
+      "word": "mitã",
+      "sentence": "Mitã oke."
+    },
+    "name": {
+      "word": "téra",
+      "sentence": "Cheréra Anna."
+    },
+    "friend": {
+      "word": "angirũ",
+      "sentence": "Ko che angirũ."
+    },
+    "family": {
+      "word": "ogapy",
+      "sentence": "Che ogapy oĩ hógape."
+    },
+    "house": {
+      "word": "óga",
+      "sentence": "Óga michĩ."
+    },
+    "door": {
+      "word": "okẽ",
+      "sentence": "Okẽ ijurujá."
+    },
+    "key": {
+      "word": "llave",
+      "sentence": "Ñapepo oĩ mesápe."
+    },
+    "table": {
+      "word": "mesa",
+      "sentence": "Kuatia oĩ mesápe."
+    },
+    "bed": {
+      "word": "tupá",
+      "sentence": "Mitã oĩ tupápe."
+    },
+    "book": {
+      "word": "kuatia",
+      "sentence": "Kuatia pyahu."
+    },
+    "water": {
+      "word": "y",
+      "sentence": "Y ho'ysã."
+    },
+    "fire": {
+      "word": "tata",
+      "sentence": "Tata haku."
+    },
+    "bread": {
+      "word": "mbujape",
+      "sentence": "Mbujape iporã."
+    },
+    "apple": {
+      "word": "mansána",
+      "sentence": "Mansána ipytã."
+    },
+    "egg": {
+      "word": "tupi'a",
+      "sentence": "Tupi'a oĩ mesápe."
+    },
+    "milk": {
+      "word": "kamby",
+      "sentence": "Mitã ho'u kamby."
+    },
+    "fish": {
+      "word": "pira",
+      "sentence": "Pira oĩ ýpe."
+    },
+    "rice": {
+      "word": "arro",
+      "sentence": "Ro'u arro."
+    },
+    "coffee": {
+      "word": "kafi",
+      "sentence": "Kafi haku."
+    },
+    "eat": {
+      "word": "u",
+      "sentence": "Ro'u mbujape."
+    },
+    "drink": {
+      "word": "y'u",
+      "sentence": "Ha'u y."
+    },
+    "see": {
+      "word": "hecha",
+      "sentence": "Ahecha kuarahy."
+    },
+    "hear": {
+      "word": "hendu",
+      "sentence": "Ahendu ama."
+    },
+    "sleep": {
+      "word": "ke",
+      "sentence": "Mitã oke."
+    },
+    "walk": {
+      "word": "guata",
+      "sentence": "Kuimba'e oguata."
+    },
+    "come": {
+      "word": "ju",
+      "sentence": "Reju hógape."
+    },
+    "sit": {
+      "word": "guapy",
+      "sentence": "Roĩ mesa ypýpe."
+    },
+    "give": {
+      "word": "me'ẽ",
+      "sentence": "Ame'ẽ ndéve ñapepo."
+    },
+    "sun": {
+      "word": "kuarahy",
+      "sentence": "Kuarahy haku."
+    },
+    "moon": {
+      "word": "jasy",
+      "sentence": "Ahecha jasy."
+    },
+    "tree": {
+      "word": "yvyra",
+      "sentence": "Yvyra tuicha."
+    },
+    "flower": {
+      "word": "poty",
+      "sentence": "Poty ipytã."
+    },
+    "rain": {
+      "word": "ama",
+      "sentence": "Ama ho'ysã."
+    },
+    "mountain": {
+      "word": "yvyty",
+      "sentence": "Yvyty tuicha.",
+      "note": "yvyty"
+    },
+    "river": {
+      "word": "ysyry",
+      "sentence": "Ysyry ipuku."
+    },
+    "stone": {
+      "word": "ita",
+      "sentence": "Ita michĩ."
+    },
+    "dog": {
+      "word": "jagua",
+      "sentence": "Jagua michĩ."
+    },
+    "cat": {
+      "word": "mbarakaja",
+      "sentence": "Mbarakaja oke."
+    },
+    "bird": {
+      "word": "guyra",
+      "sentence": "Ahecha mokõi guyra."
+    },
+    "hand": {
+      "word": "po",
+      "sentence": "Ko che po."
+    },
+    "eye": {
+      "word": "tesa",
+      "sentence": "Ko che tesa."
+    },
+    "ear": {
+      "word": "nambi",
+      "sentence": "Ko che nambi."
+    },
+    "head": {
+      "word": "akã",
+      "sentence": "Ko che akã."
+    },
+    "mouth": {
+      "word": "jurú",
+      "sentence": "Ko che jurú."
+    },
+    "foot": {
+      "word": "py",
+      "sentence": "Che py ho'ysã."
+    },
+    "road": {
+      "word": "tape",
+      "sentence": "Tape ipuku."
+    },
+    "city": {
+      "word": "táva",
+      "sentence": "Táva tuicha."
+    },
+    "school": {
+      "word": "mbo'ehao",
+      "sentence": "Mitã oho mbo'ehaópe."
+    },
+    "sea": {
+      "word": "para",
+      "sentence": "Ahecha para."
+    },
+    "night": {
+      "word": "pyhare",
+      "sentence": "Pyhare ho'ysã."
+    },
+    "one": {
+      "word": "peteĩ",
+      "sentence": "Aguereko peteĩ mansána."
+    },
+    "two": {
+      "word": "mokõi",
+      "sentence": "Ahecha mokõi guyra."
+    },
+    "big": {
+      "word": "tuicha",
+      "sentence": "Óga tuicha."
+    },
+    "small": {
+      "word": "michĩ",
+      "sentence": "Mitã michĩ."
+    },
+    "good": {
+      "word": "porã",
+      "sentence": "Mbujape iporã."
+    },
+    "hot": {
+      "word": "haku",
+      "sentence": "Tata haku."
+    },
+    "cold": {
+      "word": "ro'y",
+      "sentence": "Y ho'ysã."
+    },
+    "red": {
+      "word": "pytã",
+      "sentence": "Mansána ipytã."
+    },
+    "new": {
+      "word": "pyahu",
+      "sentence": "Kuatia pyahu."
+    },
+    "this": {
+      "word": "ko",
+      "sentence": "Ko che róga."
+    }
+  },
+  "lines": {
+    "d1a": "Mba'éichapa. Che aime ko'ápe.",
+    "d1b": "Mba'e nde réra?",
+    "d1c": "Cheréra Anna. Ko che angirũ.",
+    "d1d": "Eike. Mbujape iporã.",
+    "d2a": "Ahecha yvyty.",
+    "d2b": "Tape ipuku.",
+    "d2c": "Kuarahy haku.",
+    "d2d": "Roguapy ha ha'u y.",
+    "d3a": "Mitã oke.",
+    "d3b": "Ahecha jasy.",
+    "d3c": "Ahendu ama.",
+    "d3d": "Óga michĩ ha iporã."
+  }
+}

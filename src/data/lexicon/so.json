@@ -1,0 +1,274 @@
+{
+  "entries": {
+    "i": {
+      "word": "aniga",
+      "sentence": "Waan halkan joogaa."
+    },
+    "you": {
+      "word": "adiga",
+      "sentence": "Adigu waxaad tahay saaxiibkay."
+    },
+    "woman": {
+      "word": "naag",
+      "sentence": "Naagtu waa halkan."
+    },
+    "man": {
+      "word": "nin",
+      "sentence": "Ninku wuu socdaa."
+    },
+    "child": {
+      "word": "cunug",
+      "sentence": "Cunuggu wuu seexdaa."
+    },
+    "name": {
+      "word": "magac",
+      "sentence": "Magacaygu waa Anna."
+    },
+    "friend": {
+      "word": "saaxiib",
+      "sentence": "Kani waa saaxiibkay."
+    },
+    "family": {
+      "word": "qoys",
+      "sentence": "Qoyskaygu guriga ayuu joogaa."
+    },
+    "house": {
+      "word": "guri",
+      "sentence": "Gurigu waa yar yahay."
+    },
+    "door": {
+      "word": "albaab",
+      "sentence": "Albaabku waa furan yahay."
+    },
+    "key": {
+      "word": "fure",
+      "sentence": "Furaha miiska ayuu saaran yahay."
+    },
+    "table": {
+      "word": "miis",
+      "sentence": "Buuggu miiska ayuu saaran yahay."
+    },
+    "bed": {
+      "word": "sariir",
+      "sentence": "Cunuggu sariirta ayuu ku jiraa."
+    },
+    "book": {
+      "word": "buug",
+      "sentence": "Buuggu waa cusub yahay."
+    },
+    "water": {
+      "word": "biyo",
+      "sentence": "Biyuhu waa qabow yihiin."
+    },
+    "fire": {
+      "word": "dab",
+      "sentence": "Dabku waa kulul yahay."
+    },
+    "bread": {
+      "word": "rooti",
+      "sentence": "Rootigu waa wanaagsan yahay."
+    },
+    "apple": {
+      "word": "tufaax",
+      "sentence": "Tufaaxu waa cas yahay."
+    },
+    "egg": {
+      "word": "ukun",
+      "sentence": "Ukuntu miiska ayuu saaran yahay."
+    },
+    "milk": {
+      "word": "caano",
+      "sentence": "Cunuggu caano ayuu cabbaa."
+    },
+    "fish": {
+      "word": "kalluun",
+      "sentence": "Kalluunku biyaha ayuu ku jiraa."
+    },
+    "rice": {
+      "word": "bariis",
+      "sentence": "Bariis ayaan cunnaa."
+    },
+    "coffee": {
+      "word": "kafee",
+      "sentence": "Kafeegu waa kulul yahay."
+    },
+    "eat": {
+      "word": "cun",
+      "sentence": "Rooti ayaan cunnaa."
+    },
+    "drink": {
+      "word": "cab",
+      "sentence": "Biyo ayaan cabbaa."
+    },
+    "see": {
+      "word": "arag",
+      "sentence": "Qorraxda ayaan arkaa."
+    },
+    "hear": {
+      "word": "maqal",
+      "sentence": "Roobka ayaan maqlaa."
+    },
+    "sleep": {
+      "word": "seexo",
+      "sentence": "Cunuggu wuu seexdaa."
+    },
+    "walk": {
+      "word": "soco",
+      "sentence": "Ninku wuu socdaa."
+    },
+    "come": {
+      "word": "imaw",
+      "sentence": "Guriga ayaad timaaddaa."
+    },
+    "sit": {
+      "word": "fadhiiso",
+      "sentence": "Miiska agtiisa ayaan fadhiinaa."
+    },
+    "give": {
+      "word": "sii",
+      "sentence": "Furaha ayaan ku siinayaa."
+    },
+    "sun": {
+      "word": "qorrax",
+      "sentence": "Qorraxdu waa kulul tahay."
+    },
+    "moon": {
+      "word": "dayax",
+      "sentence": "Dayaxa ayaan arkaa."
+    },
+    "tree": {
+      "word": "geed",
+      "sentence": "Geedku waa weyn yahay."
+    },
+    "flower": {
+      "word": "ubax",
+      "sentence": "Ubaxu waa cas yahay."
+    },
+    "rain": {
+      "word": "roob",
+      "sentence": "Roobku waa qabow yahay."
+    },
+    "mountain": {
+      "word": "buur",
+      "sentence": "Buurtu waa weyn tahay."
+    },
+    "river": {
+      "word": "webi",
+      "sentence": "Webigu waa dheer yahay."
+    },
+    "stone": {
+      "word": "dhagax",
+      "sentence": "Dhagaxu waa yar yahay."
+    },
+    "dog": {
+      "word": "eey",
+      "sentence": "Eeygu waa yar yahay."
+    },
+    "cat": {
+      "word": "bisad",
+      "sentence": "Bisaddu way seexanaysaa."
+    },
+    "bird": {
+      "word": "shimbir",
+      "sentence": "Laba shimbir ayaan arkaa."
+    },
+    "hand": {
+      "word": "gacan",
+      "sentence": "Tani waa gacantayda."
+    },
+    "eye": {
+      "word": "il",
+      "sentence": "Tani waa ilkayda."
+    },
+    "ear": {
+      "word": "dheg",
+      "sentence": "Tani waa dhegtayda."
+    },
+    "head": {
+      "word": "madax",
+      "sentence": "Kani waa madaxayga."
+    },
+    "mouth": {
+      "word": "af",
+      "sentence": "Kani waa afkayga."
+    },
+    "foot": {
+      "word": "cag",
+      "sentence": "Cagtaydu waa qabow tahay."
+    },
+    "road": {
+      "word": "jid",
+      "sentence": "Jidku waa dheer yahay."
+    },
+    "city": {
+      "word": "magaalo",
+      "sentence": "Magaaladu waa weyn tahay."
+    },
+    "school": {
+      "word": "dugsi",
+      "sentence": "Cunuggu dugsiga ayuu tagaa."
+    },
+    "sea": {
+      "word": "bad",
+      "sentence": "Badda ayaan arkaa."
+    },
+    "night": {
+      "word": "habeen",
+      "sentence": "Habeenku waa qabow yahay."
+    },
+    "one": {
+      "word": "hal",
+      "sentence": "Hal tufaax ayaan haystaa."
+    },
+    "two": {
+      "word": "laba",
+      "sentence": "Laba shimbir ayaan arkaa."
+    },
+    "big": {
+      "word": "weyn",
+      "sentence": "Gurigu waa weyn yahay."
+    },
+    "small": {
+      "word": "yar",
+      "sentence": "Cunuggu waa yar yahay."
+    },
+    "good": {
+      "word": "wanaagsan",
+      "sentence": "Rootigu waa wanaagsan yahay."
+    },
+    "hot": {
+      "word": "kulul",
+      "sentence": "Dabku waa kulul yahay."
+    },
+    "cold": {
+      "word": "qabow",
+      "sentence": "Biyuhu waa qabow yihiin."
+    },
+    "red": {
+      "word": "cas",
+      "sentence": "Tufaaxu waa cas yahay."
+    },
+    "new": {
+      "word": "cusub",
+      "sentence": "Buuggu waa cusub yahay."
+    },
+    "this": {
+      "word": "kan",
+      "sentence": "Kani waa gurigayga."
+    }
+  },
+  "lines": {
+    "d1a": "Iska warran. Waan halkan joogaa.",
+    "d1b": "Magacaa?",
+    "d1c": "Magacaygu waa Anna. Kani waa saaxiibkay.",
+    "d1d": "Soo gal. Rootigu waa wanaagsan yahay.",
+    "d2a": "Buurta ayaan arkaa.",
+    "d2b": "Jidku waa dheer yahay.",
+    "d2c": "Qorraxdu waa kulul tahay.",
+    "d2d": "Waanu fadhiinaa, biyo ayaan cabbaa.",
+    "d3a": "Cunuggu wuu seexdaa.",
+    "d3b": "Dayaxa ayaan arkaa.",
+    "d3c": "Roobka ayaan maqlaa.",
+    "d3d": "Gurigu waa yar yahay oo wanaagsan."
+  }
+}

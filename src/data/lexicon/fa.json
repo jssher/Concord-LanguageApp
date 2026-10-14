@@ -1,0 +1,338 @@
+{
+  "entries": {
+    "i": {
+      "word": "من",
+      "sentence": "من اینجام.",
+      "reading": "man"
+    },
+    "you": {
+      "word": "تو",
+      "sentence": "تو دوست منی.",
+      "reading": "to"
+    },
+    "woman": {
+      "word": "زن",
+      "sentence": "زن اینجاست.",
+      "reading": "zan"
+    },
+    "man": {
+      "word": "مرد",
+      "sentence": "مرد راه می‌رود.",
+      "reading": "mard"
+    },
+    "child": {
+      "word": "کودک",
+      "sentence": "کودک خواب است.",
+      "reading": "kudak"
+    },
+    "name": {
+      "word": "اسم",
+      "sentence": "اسم من آناست.",
+      "reading": "esm"
+    },
+    "friend": {
+      "word": "دوست",
+      "sentence": "این دوست من است.",
+      "reading": "dust"
+    },
+    "family": {
+      "word": "خانواده",
+      "sentence": "خانوادهٔ من در خانه است.",
+      "reading": "khânevâde"
+    },
+    "house": {
+      "word": "خانه",
+      "sentence": "خانه کوچک است.",
+      "reading": "khâne"
+    },
+    "door": {
+      "word": "در",
+      "sentence": "در باز است.",
+      "reading": "dar"
+    },
+    "key": {
+      "word": "کلید",
+      "sentence": "کلید روی میز است.",
+      "reading": "kelid"
+    },
+    "table": {
+      "word": "میز",
+      "sentence": "کتاب روی میز است.",
+      "reading": "miz"
+    },
+    "bed": {
+      "word": "تخت",
+      "sentence": "کودک توی تخت است.",
+      "reading": "takht"
+    },
+    "book": {
+      "word": "کتاب",
+      "sentence": "کتاب نو است.",
+      "reading": "ketâb"
+    },
+    "water": {
+      "word": "آب",
+      "sentence": "آب سرد است.",
+      "reading": "âb"
+    },
+    "fire": {
+      "word": "آتش",
+      "sentence": "آتش داغ است.",
+      "reading": "âtash"
+    },
+    "bread": {
+      "word": "نان",
+      "sentence": "نان خوب است.",
+      "reading": "nân"
+    },
+    "apple": {
+      "word": "سیب",
+      "sentence": "سیب قرمز است.",
+      "reading": "sib"
+    },
+    "egg": {
+      "word": "تخم‌مرغ",
+      "sentence": "تخم‌مرغ روی میز است.",
+      "reading": "tokhm-e morgh"
+    },
+    "milk": {
+      "word": "شیر",
+      "sentence": "کودک شیر می‌نوشد.",
+      "reading": "shir"
+    },
+    "fish": {
+      "word": "ماهی",
+      "sentence": "ماهی توی آب است.",
+      "reading": "mâhi"
+    },
+    "rice": {
+      "word": "برنج",
+      "sentence": "ما برنج می‌خوریم.",
+      "reading": "berenj"
+    },
+    "coffee": {
+      "word": "قهوه",
+      "sentence": "قهوه داغ است.",
+      "reading": "ghahve"
+    },
+    "eat": {
+      "word": "خوردن",
+      "sentence": "ما نان می‌خوریم.",
+      "reading": "khordan"
+    },
+    "drink": {
+      "word": "نوشیدن",
+      "sentence": "من آب می‌نوشم.",
+      "reading": "nushidan"
+    },
+    "see": {
+      "word": "دیدن",
+      "sentence": "من خورشید را می‌بینم.",
+      "reading": "didan"
+    },
+    "hear": {
+      "word": "شنیدن",
+      "sentence": "من باران را می‌شنوم.",
+      "reading": "shenidan"
+    },
+    "sleep": {
+      "word": "خوابیدن",
+      "sentence": "کودک می‌خوابد.",
+      "reading": "khâbidan"
+    },
+    "walk": {
+      "word": "راه رفتن",
+      "sentence": "مرد راه می‌رود.",
+      "reading": "râh raftan"
+    },
+    "come": {
+      "word": "آمدن",
+      "sentence": "تو به خانه می‌آیی.",
+      "reading": "âmadan"
+    },
+    "sit": {
+      "word": "نشستن",
+      "sentence": "ما پشت میز می‌نشینیم.",
+      "reading": "neshastan"
+    },
+    "give": {
+      "word": "دادن",
+      "sentence": "من کلید را به تو می‌دهم.",
+      "reading": "dâdan"
+    },
+    "sun": {
+      "word": "خورشید",
+      "sentence": "خورشید داغ است.",
+      "reading": "khorshid"
+    },
+    "moon": {
+      "word": "ماه",
+      "sentence": "من ماه را می‌بینم.",
+      "reading": "mâh"
+    },
+    "tree": {
+      "word": "درخت",
+      "sentence": "درخت بزرگ است.",
+      "reading": "derakht"
+    },
+    "flower": {
+      "word": "گل",
+      "sentence": "گل قرمز است.",
+      "reading": "gol"
+    },
+    "rain": {
+      "word": "باران",
+      "sentence": "باران سرد است.",
+      "reading": "bârân"
+    },
+    "mountain": {
+      "word": "کوه",
+      "sentence": "کوه بزرگ است.",
+      "reading": "kuh"
+    },
+    "river": {
+      "word": "رود",
+      "sentence": "رود دراز است.",
+      "reading": "rud"
+    },
+    "stone": {
+      "word": "سنگ",
+      "sentence": "سنگ کوچک است.",
+      "reading": "sang"
+    },
+    "dog": {
+      "word": "سگ",
+      "sentence": "سگ کوچک است.",
+      "reading": "sag"
+    },
+    "cat": {
+      "word": "گربه",
+      "sentence": "گربه خواب است.",
+      "reading": "gorbe"
+    },
+    "bird": {
+      "word": "پرنده",
+      "sentence": "من دو پرنده می‌بینم.",
+      "reading": "parande"
+    },
+    "hand": {
+      "word": "دست",
+      "sentence": "این دست من است.",
+      "reading": "dast"
+    },
+    "eye": {
+      "word": "چشم",
+      "sentence": "این چشم من است.",
+      "reading": "cheshm"
+    },
+    "ear": {
+      "word": "گوش",
+      "sentence": "این گوش من است.",
+      "reading": "gush"
+    },
+    "head": {
+      "word": "سر",
+      "sentence": "این سر من است.",
+      "reading": "sar"
+    },
+    "mouth": {
+      "word": "دهان",
+      "sentence": "این دهان من است.",
+      "reading": "dahân"
+    },
+    "foot": {
+      "word": "پا",
+      "sentence": "پای من سرد است.",
+      "reading": "pâ"
+    },
+    "road": {
+      "word": "راه",
+      "sentence": "راه دراز است.",
+      "reading": "râh"
+    },
+    "city": {
+      "word": "شهر",
+      "sentence": "شهر بزرگ است.",
+      "reading": "shahr"
+    },
+    "school": {
+      "word": "مدرسه",
+      "sentence": "کودک به مدرسه می‌رود.",
+      "reading": "madrese"
+    },
+    "sea": {
+      "word": "دریا",
+      "sentence": "من دریا را می‌بینم.",
+      "reading": "daryâ"
+    },
+    "night": {
+      "word": "شب",
+      "sentence": "شب سرد است.",
+      "reading": "shab"
+    },
+    "one": {
+      "word": "یک",
+      "sentence": "من یک سیب دارم.",
+      "reading": "yek"
+    },
+    "two": {
+      "word": "دو",
+      "sentence": "من دو پرنده می‌بینم.",
+      "reading": "do"
+    },
+    "big": {
+      "word": "بزرگ",
+      "sentence": "خانه بزرگ است.",
+      "reading": "bozorg"
+    },
+    "small": {
+      "word": "کوچک",
+      "sentence": "کودک کوچک است.",
+      "reading": "kuchak"
+    },
+    "good": {
+      "word": "خوب",
+      "sentence": "نان خوب است.",
+      "reading": "khub"
+    },
+    "hot": {
+      "word": "داغ",
+      "sentence": "آتش داغ است.",
+      "reading": "dâgh"
+    },
+    "cold": {
+      "word": "سرد",
+      "sentence": "آب سرد است.",
+      "reading": "sard"
+    },
+    "red": {
+      "word": "قرمز",
+      "sentence": "سیب قرمز است.",
+      "reading": "ghermez"
+    },
+    "new": {
+      "word": "نو",
+      "sentence": "کتاب نو است.",
+      "reading": "now"
+    },
+    "this": {
+      "word": "این",
+      "sentence": "این خانهٔ من است.",
+      "reading": "in"
+    }
+  },
+  "lines": {
+    "d1a": "سلام. من اینجام.",
+    "d1b": "اسم تو چیست؟",
+    "d1c": "اسم من آناست. این دوست من است.",
+    "d1d": "بفرما داخل. نان خوب است.",
+    "d2a": "من کوه را می‌بینم.",
+    "d2b": "راه دراز است.",
+    "d2c": "خورشید داغ است.",
+    "d2d": "ما می‌نشینیم و من آب می‌نوشم.",
+    "d3a": "کودک می‌خوابد.",
+    "d3b": "من ماه را می‌بینم.",
+    "d3c": "من باران را می‌شنوم.",
+    "d3d": "خانه کوچک و خوب است."
+  }
+}

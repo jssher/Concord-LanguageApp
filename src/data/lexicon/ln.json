@@ -1,0 +1,274 @@
+{
+  "entries": {
+    "i": {
+      "word": "ngáí",
+      "sentence": "Ngáí nazalí áwa."
+    },
+    "you": {
+      "word": "yo",
+      "sentence": "Yo ozalí moníngá na ngáí."
+    },
+    "woman": {
+      "word": "mwǎsí",
+      "sentence": "Mwǎsí azalí áwa."
+    },
+    "man": {
+      "word": "mobáli",
+      "sentence": "Mobáli atámboli."
+    },
+    "child": {
+      "word": "mwǎna",
+      "sentence": "Mwǎna alálí."
+    },
+    "name": {
+      "word": "nkómbó",
+      "sentence": "Nkómbó na ngáí Anna."
+    },
+    "friend": {
+      "word": "moníngá",
+      "sentence": "Óyo moníngá na ngáí."
+    },
+    "family": {
+      "word": "libotá",
+      "sentence": "Libotá na ngáí ezalí na ndáko."
+    },
+    "house": {
+      "word": "ndáko",
+      "sentence": "Ndáko ezalí mokɛ́."
+    },
+    "door": {
+      "word": "ekuke",
+      "sentence": "Ekuke efungámí."
+    },
+    "key": {
+      "word": "fungóla",
+      "sentence": "Fungóla ezalí na mésá."
+    },
+    "table": {
+      "word": "mésá",
+      "sentence": "Búku ezalí na mésá."
+    },
+    "bed": {
+      "word": "mbeto",
+      "sentence": "Mwǎna azalí na mbeto."
+    },
+    "book": {
+      "word": "búku",
+      "sentence": "Búku ezalí ya sika."
+    },
+    "water": {
+      "word": "mái",
+      "sentence": "Mái mazalí malíli."
+    },
+    "fire": {
+      "word": "mɔ́tɔ",
+      "sentence": "Mɔ́tɔ mozalí molungé."
+    },
+    "bread": {
+      "word": "límpa",
+      "sentence": "Límpa ezalí malámu."
+    },
+    "apple": {
+      "word": "pɔm",
+      "sentence": "Pɔm ezalí motáné."
+    },
+    "egg": {
+      "word": "likeí",
+      "sentence": "Likeí ezalí na mésá."
+    },
+    "milk": {
+      "word": "míliki",
+      "sentence": "Mwǎna amɛli míliki."
+    },
+    "fish": {
+      "word": "mbísi",
+      "sentence": "Mbísi ezalí na mái."
+    },
+    "rice": {
+      "word": "lɔ́sɔ",
+      "sentence": "Tolíí lɔ́sɔ."
+    },
+    "coffee": {
+      "word": "kafé",
+      "sentence": "Kafé ezalí molungé."
+    },
+    "eat": {
+      "word": "kolíya",
+      "sentence": "Tolíí límpa."
+    },
+    "drink": {
+      "word": "komɛlɛ",
+      "sentence": "Namɛli mái."
+    },
+    "see": {
+      "word": "komɔ́nɔ",
+      "sentence": "Namɔ́ni mɔ́i."
+    },
+    "hear": {
+      "word": "koyóka",
+      "sentence": "Nayóki mbúla."
+    },
+    "sleep": {
+      "word": "kolála",
+      "sentence": "Mwǎna alálí."
+    },
+    "walk": {
+      "word": "kotámbola",
+      "sentence": "Mobáli atámboli."
+    },
+    "come": {
+      "word": "koyá",
+      "sentence": "Oyáí na ndáko."
+    },
+    "sit": {
+      "word": "kofánda",
+      "sentence": "Tofándí na mésá."
+    },
+    "give": {
+      "word": "kopésa",
+      "sentence": "Napésí yo fungóla."
+    },
+    "sun": {
+      "word": "mɔ́i",
+      "sentence": "Mɔ́i mozalí mɔ́tɔ."
+    },
+    "moon": {
+      "word": "sánzá",
+      "sentence": "Namɔ́ni sánzá."
+    },
+    "tree": {
+      "word": "nzɛtɛ",
+      "sentence": "Nzɛtɛ ezalí monɛ́nɛ."
+    },
+    "flower": {
+      "word": "fulɛ́lɛ",
+      "sentence": "Fulɛ́lɛ ezalí motáné."
+    },
+    "rain": {
+      "word": "mbúla",
+      "sentence": "Mbúla ezalí malíli."
+    },
+    "mountain": {
+      "word": "ngómbá",
+      "sentence": "Ngómbá ezalí monɛ́nɛ."
+    },
+    "river": {
+      "word": "ebale",
+      "sentence": "Ebale ezalí molái."
+    },
+    "stone": {
+      "word": "libángá",
+      "sentence": "Libángá ezalí mokɛ́."
+    },
+    "dog": {
+      "word": "mbwá",
+      "sentence": "Mbwá ezalí mokɛ́."
+    },
+    "cat": {
+      "word": "nyáu",
+      "sentence": "Nyáu alálí."
+    },
+    "bird": {
+      "word": "ndɛkɛ",
+      "sentence": "Namɔ́ni ndɛkɛ míbalé."
+    },
+    "hand": {
+      "word": "lobɔ́kɔ",
+      "sentence": "Óyo lobɔ́kɔ na ngáí."
+    },
+    "eye": {
+      "word": "lísó",
+      "sentence": "Óyo lísó na ngáí."
+    },
+    "ear": {
+      "word": "litói",
+      "sentence": "Óyo litói na ngáí."
+    },
+    "head": {
+      "word": "motó",
+      "sentence": "Óyo motó na ngáí."
+    },
+    "mouth": {
+      "word": "monɔkɔ",
+      "sentence": "Óyo monɔkɔ na ngáí."
+    },
+    "foot": {
+      "word": "lokolo",
+      "sentence": "Lokolo na ngáí ezalí malíli."
+    },
+    "road": {
+      "word": "balabála",
+      "sentence": "Balabála ezalí molái."
+    },
+    "city": {
+      "word": "engumba",
+      "sentence": "Engumba ezalí monɛ́nɛ."
+    },
+    "school": {
+      "word": "etéyelo",
+      "sentence": "Mwǎna akei na etéyelo."
+    },
+    "sea": {
+      "word": "mbú",
+      "sentence": "Namɔ́ni mbú."
+    },
+    "night": {
+      "word": "butú",
+      "sentence": "Butú ezalí malíli."
+    },
+    "one": {
+      "word": "mɔ́kɔ́",
+      "sentence": "Nazalí na pɔm mɔ́kɔ́."
+    },
+    "two": {
+      "word": "míbalé",
+      "sentence": "Namɔ́ni ndɛkɛ míbalé."
+    },
+    "big": {
+      "word": "monɛ́nɛ",
+      "sentence": "Ndáko ezalí monɛ́nɛ."
+    },
+    "small": {
+      "word": "mokɛ́",
+      "sentence": "Mwǎna azalí mokɛ́."
+    },
+    "good": {
+      "word": "malámu",
+      "sentence": "Límpa ezalí malámu."
+    },
+    "hot": {
+      "word": "molungé",
+      "sentence": "Mɔ́tɔ mozalí molungé."
+    },
+    "cold": {
+      "word": "malíli",
+      "sentence": "Mái mazalí malíli."
+    },
+    "red": {
+      "word": "motáné",
+      "sentence": "Pɔm ezalí motáné."
+    },
+    "new": {
+      "word": "ya sika",
+      "sentence": "Búku ezalí ya sika."
+    },
+    "this": {
+      "word": "óyo",
+      "sentence": "Óyo ndáko na ngáí."
+    }
+  },
+  "lines": {
+    "d1a": "Mbote. Ngáí nazalí áwa.",
+    "d1b": "Nkómbó na yo náni?",
+    "d1c": "Nkómbó na ngáí Anna. Óyo moníngá na ngáí.",
+    "d1d": "Kótá. Límpa ezalí malámu.",
+    "d2a": "Namɔ́ni ngómbá.",
+    "d2b": "Balabála ezalí molái.",
+    "d2c": "Mɔ́i mozalí mɔ́tɔ.",
+    "d2d": "Tofándí, mpe namɛli mái.",
+    "d3a": "Mwǎna alálí.",
+    "d3b": "Namɔ́ni sánzá.",
+    "d3c": "Nayóki mbúla.",
+    "d3d": "Ndáko ezalí mokɛ́ mpe malámu."
+  }
+}

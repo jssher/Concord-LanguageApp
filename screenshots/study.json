@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/study",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Concord",
+      "hasCanvas": false,
+      "bodyTextLen": 988,
+      "bodyTextHash": "050aa00757cf5cbc87e9783235b53e1ef475021c3eecd2d4486d8cbbe7db74d0",
+      "bodyTextPrefix": "Concord Study Path Grammar Talk English → German A1 A2 B1 B2 Phr",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/study.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Concord",
+      "hasCanvas": false,
+      "bodyTextLen": 719,
+      "bodyTextHash": "5447d4cdcdba52a9b24e40e46ba24db0ae7cd1df73b3b40b15efb49d292034ac",
+      "bodyTextPrefix": "Concord Study Path Grammar Talk A1 A2 B1 B2 Phrases Translated G",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/study-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/study.json"
+}

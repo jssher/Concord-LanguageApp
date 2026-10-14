@@ -1,0 +1,300 @@
+{
+  "entries": {
+    "i": {
+      "word": "mé",
+      "sentence": "Tá mé anseo."
+    },
+    "you": {
+      "word": "tú",
+      "sentence": "Is cara liom tú.",
+      "note": "singular"
+    },
+    "woman": {
+      "word": "bean",
+      "sentence": "Tá an bhean anseo.",
+      "plural": "mná",
+      "gender": "f"
+    },
+    "man": {
+      "word": "fear",
+      "sentence": "Tá an fear ag siúl.",
+      "plural": "fir",
+      "gender": "m"
+    },
+    "child": {
+      "word": "páiste",
+      "sentence": "Tá an páiste ina chodladh.",
+      "gender": "m"
+    },
+    "name": {
+      "word": "ainm",
+      "sentence": "Anna is ainm dom."
+    },
+    "friend": {
+      "word": "cara",
+      "sentence": "Seo é mo chara."
+    },
+    "family": {
+      "word": "teaghlach",
+      "sentence": "Tá mo theaghlach sa bhaile."
+    },
+    "house": {
+      "word": "teach",
+      "sentence": "Tá an teach beag."
+    },
+    "door": {
+      "word": "doras",
+      "sentence": "Tá an doras oscailte."
+    },
+    "key": {
+      "word": "eochair",
+      "sentence": "Tá an eochair ar an mbord.",
+      "gender": "f"
+    },
+    "table": {
+      "word": "bord",
+      "sentence": "Tá an leabhar ar an mbord."
+    },
+    "bed": {
+      "word": "leaba",
+      "sentence": "Tá an páiste sa leaba.",
+      "gender": "f"
+    },
+    "book": {
+      "word": "leabhar",
+      "sentence": "Tá an leabhar nua."
+    },
+    "water": {
+      "word": "uisce",
+      "sentence": "Tá an t-uisce fuar.",
+      "gender": "m"
+    },
+    "fire": {
+      "word": "tine",
+      "sentence": "Tá an tine te.",
+      "gender": "f"
+    },
+    "bread": {
+      "word": "arán",
+      "sentence": "Tá an t-arán maith."
+    },
+    "apple": {
+      "word": "úll",
+      "sentence": "Tá an t-úll dearg."
+    },
+    "egg": {
+      "word": "ubh",
+      "sentence": "Tá an ubh ar an mbord.",
+      "gender": "f"
+    },
+    "milk": {
+      "word": "bainne",
+      "sentence": "Ólann an páiste bainne."
+    },
+    "fish": {
+      "word": "iasc",
+      "sentence": "Tá an t-iasc san uisce."
+    },
+    "rice": {
+      "word": "rís",
+      "sentence": "Ithimid rís."
+    },
+    "coffee": {
+      "word": "caife",
+      "sentence": "Tá an caife te."
+    },
+    "eat": {
+      "word": "ith",
+      "sentence": "Ithimid arán."
+    },
+    "drink": {
+      "word": "ól",
+      "sentence": "Ólaim uisce."
+    },
+    "see": {
+      "word": "feic",
+      "sentence": "Feicim an ghrian."
+    },
+    "hear": {
+      "word": "clois",
+      "sentence": "Cloisim an bháisteach."
+    },
+    "sleep": {
+      "word": "codail",
+      "sentence": "Codlaíonn an páiste."
+    },
+    "walk": {
+      "word": "siúil",
+      "sentence": "Siúlann an fear."
+    },
+    "come": {
+      "word": "tar",
+      "sentence": "Tagann tú go dtí an teach."
+    },
+    "sit": {
+      "word": "suigh",
+      "sentence": "Suímid ag an mbord."
+    },
+    "give": {
+      "word": "tabhair",
+      "sentence": "Tugaim an eochair duit."
+    },
+    "sun": {
+      "word": "grian",
+      "sentence": "Tá an ghrian te.",
+      "gender": "f"
+    },
+    "moon": {
+      "word": "gealach",
+      "sentence": "Feicim an ghealach.",
+      "gender": "f"
+    },
+    "tree": {
+      "word": "crann",
+      "sentence": "Tá an crann mór."
+    },
+    "flower": {
+      "word": "bláth",
+      "sentence": "Tá an bláth dearg."
+    },
+    "rain": {
+      "word": "báisteach",
+      "sentence": "Tá an bháisteach fuar.",
+      "gender": "f"
+    },
+    "mountain": {
+      "word": "sliabh",
+      "sentence": "Tá an sliabh mór."
+    },
+    "river": {
+      "word": "abhainn",
+      "sentence": "Tá an abhainn fada.",
+      "gender": "f"
+    },
+    "stone": {
+      "word": "cloch",
+      "sentence": "Tá an chloch beag.",
+      "gender": "f"
+    },
+    "dog": {
+      "word": "madra",
+      "sentence": "Tá an madra beag."
+    },
+    "cat": {
+      "word": "cat",
+      "sentence": "Tá an cat ina chodladh."
+    },
+    "bird": {
+      "word": "éan",
+      "sentence": "Feicim dhá éan."
+    },
+    "hand": {
+      "word": "lámh",
+      "sentence": "Seo í mo lámh.",
+      "gender": "f"
+    },
+    "eye": {
+      "word": "súil",
+      "sentence": "Seo í mo shúil.",
+      "gender": "f"
+    },
+    "ear": {
+      "word": "cluas",
+      "sentence": "Seo í mo chluas.",
+      "gender": "f"
+    },
+    "head": {
+      "word": "ceann",
+      "sentence": "Seo é mo cheann."
+    },
+    "mouth": {
+      "word": "béal",
+      "sentence": "Seo é mo bhéal."
+    },
+    "foot": {
+      "word": "cos",
+      "sentence": "Tá mo chos fuar.",
+      "plural": "cosa",
+      "gender": "f"
+    },
+    "road": {
+      "word": "bóthar",
+      "sentence": "Tá an bóthar fada."
+    },
+    "city": {
+      "word": "cathair",
+      "sentence": "Tá an chathair mór.",
+      "plural": "cathracha",
+      "gender": "f"
+    },
+    "school": {
+      "word": "scoil",
+      "sentence": "Téann an páiste ar scoil.",
+      "gender": "f"
+    },
+    "sea": {
+      "word": "farraige",
+      "sentence": "Feicim an fharraige.",
+      "gender": "f"
+    },
+    "night": {
+      "word": "oíche",
+      "sentence": "Tá an oíche fuar.",
+      "gender": "f"
+    },
+    "one": {
+      "word": "aon",
+      "sentence": "Tá aon úll amháin agam."
+    },
+    "two": {
+      "word": "dhá",
+      "sentence": "Feicim dhá éan."
+    },
+    "big": {
+      "word": "mór",
+      "sentence": "Tá an teach mór."
+    },
+    "small": {
+      "word": "beag",
+      "sentence": "Tá an páiste beag."
+    },
+    "good": {
+      "word": "maith",
+      "sentence": "Tá an t-arán maith."
+    },
+    "hot": {
+      "word": "te",
+      "sentence": "Tá an tine te."
+    },
+    "cold": {
+      "word": "fuar",
+      "sentence": "Tá an t-uisce fuar."
+    },
+    "red": {
+      "word": "dearg",
+      "sentence": "Tá an t-úll dearg."
+    },
+    "new": {
+      "word": "nua",
+      "sentence": "Tá an leabhar nua."
+    },
+    "this": {
+      "word": "seo",
+      "sentence": "Seo é mo theach."
+    }
+  },
+  "lines": {
+    "d1a": "Dia dhuit. Tá mé anseo.",
+    "d1b": "Cad is ainm duit?",
+    "d1c": "Anna is ainm dom. Seo é mo chara.",
+    "d1d": "Tar isteach. Tá an t-arán maith.",
+    "d2a": "Feicim an sliabh.",
+    "d2b": "Tá an bóthar fada.",
+    "d2c": "Tá an ghrian te.",
+    "d2d": "Suímid, agus ólaim uisce.",
+    "d3a": "Codlaíonn an páiste.",
+    "d3b": "Feicim an ghealach.",
+    "d3c": "Cloisim an bháisteach.",
+    "d3d": "Tá an teach beag agus maith."
+  }
+}

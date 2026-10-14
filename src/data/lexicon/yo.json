@@ -1,0 +1,274 @@
+{
+  "entries": {
+    "i": {
+      "word": "èmi",
+      "sentence": "Mo wà níbí."
+    },
+    "you": {
+      "word": "ìwọ",
+      "sentence": "Ìwọ ni ọ̀rẹ́ mi."
+    },
+    "woman": {
+      "word": "obìnrin",
+      "sentence": "Obìnrin wà níbí."
+    },
+    "man": {
+      "word": "ọkùnrin",
+      "sentence": "Ọkùnrin ń rìn."
+    },
+    "child": {
+      "word": "ọmọ",
+      "sentence": "Ọmọ ń sùn."
+    },
+    "name": {
+      "word": "orúkọ",
+      "sentence": "Orúkọ mi ni Anna."
+    },
+    "friend": {
+      "word": "ọ̀rẹ́",
+      "sentence": "Èyí ni ọ̀rẹ́ mi."
+    },
+    "family": {
+      "word": "ẹbí",
+      "sentence": "Ẹbí mi wà nílé."
+    },
+    "house": {
+      "word": "ilé",
+      "sentence": "Ilé kéré."
+    },
+    "door": {
+      "word": "ìlẹ̀kùn",
+      "sentence": "Ìlẹ̀kùn ṣí sílẹ̀."
+    },
+    "key": {
+      "word": "kọ́kọ́rọ́",
+      "sentence": "Kọ́kọ́rọ́ wà lórí tábìlì."
+    },
+    "table": {
+      "word": "tábìlì",
+      "sentence": "Ìwé wà lórí tábìlì."
+    },
+    "bed": {
+      "word": "ibùsùn",
+      "sentence": "Ọmọ wà nínú ibùsùn."
+    },
+    "book": {
+      "word": "ìwé",
+      "sentence": "Ìwé tuntun ni."
+    },
+    "water": {
+      "word": "omi",
+      "sentence": "Omi tútù."
+    },
+    "fire": {
+      "word": "iná",
+      "sentence": "Iná gbóná."
+    },
+    "bread": {
+      "word": "búréèdì",
+      "sentence": "Búréèdì dára."
+    },
+    "apple": {
+      "word": "àpù",
+      "sentence": "Àpù pupa ni."
+    },
+    "egg": {
+      "word": "ẹyin",
+      "sentence": "Ẹyin wà lórí tábìlì."
+    },
+    "milk": {
+      "word": "wàrà",
+      "sentence": "Ọmọ ń mu wàrà."
+    },
+    "fish": {
+      "word": "ẹja",
+      "sentence": "Ẹja wà nínú omi."
+    },
+    "rice": {
+      "word": "ìrẹsì",
+      "sentence": "A ń jẹ ìrẹsì."
+    },
+    "coffee": {
+      "word": "kọfí",
+      "sentence": "Kọfí gbóná."
+    },
+    "eat": {
+      "word": "jẹ",
+      "sentence": "A ń jẹ búréèdì."
+    },
+    "drink": {
+      "word": "mu",
+      "sentence": "Mo ń mu omi."
+    },
+    "see": {
+      "word": "rí",
+      "sentence": "Mo rí òòrùn."
+    },
+    "hear": {
+      "word": "gbọ́",
+      "sentence": "Mo gbọ́ òjò."
+    },
+    "sleep": {
+      "word": "sùn",
+      "sentence": "Ọmọ ń sùn."
+    },
+    "walk": {
+      "word": "rìn",
+      "sentence": "Ọkùnrin ń rìn."
+    },
+    "come": {
+      "word": "wá",
+      "sentence": "Ìwọ ń wá sílé."
+    },
+    "sit": {
+      "word": "jókòó",
+      "sentence": "A jókòó lọ́dọ̀ tábìlì."
+    },
+    "give": {
+      "word": "fún",
+      "sentence": "Mo fún ọ ní kọ́kọ́rọ́."
+    },
+    "sun": {
+      "word": "òòrùn",
+      "sentence": "Òòrùn gbóná."
+    },
+    "moon": {
+      "word": "òṣùpá",
+      "sentence": "Mo rí òṣùpá."
+    },
+    "tree": {
+      "word": "igi",
+      "sentence": "Igi tóbi."
+    },
+    "flower": {
+      "word": "odòdó",
+      "sentence": "Odòdó pupa ni."
+    },
+    "rain": {
+      "word": "òjò",
+      "sentence": "Òjò tútù."
+    },
+    "mountain": {
+      "word": "òkè",
+      "sentence": "Òkè tóbi."
+    },
+    "river": {
+      "word": "odò",
+      "sentence": "Odò gùn."
+    },
+    "stone": {
+      "word": "òkúta",
+      "sentence": "Òkúta kéré."
+    },
+    "dog": {
+      "word": "ajá",
+      "sentence": "Ajá kéré."
+    },
+    "cat": {
+      "word": "ológbò",
+      "sentence": "Ológbò ń sùn."
+    },
+    "bird": {
+      "word": "ẹyẹ",
+      "sentence": "Mo rí ẹyẹ méjì."
+    },
+    "hand": {
+      "word": "ọwọ́",
+      "sentence": "Èyí ni ọwọ́ mi."
+    },
+    "eye": {
+      "word": "ojú",
+      "sentence": "Èyí ni ojú mi."
+    },
+    "ear": {
+      "word": "etí",
+      "sentence": "Èyí ni etí mi."
+    },
+    "head": {
+      "word": "orí",
+      "sentence": "Èyí ni orí mi."
+    },
+    "mouth": {
+      "word": "ẹnu",
+      "sentence": "Èyí ni ẹnu mi."
+    },
+    "foot": {
+      "word": "ẹsẹ̀",
+      "sentence": "Ẹsẹ̀ mi tútù."
+    },
+    "road": {
+      "word": "ọ̀nà",
+      "sentence": "Ọ̀nà gùn."
+    },
+    "city": {
+      "word": "ìlú",
+      "sentence": "Ìlú tóbi."
+    },
+    "school": {
+      "word": "ilé-ìwé",
+      "sentence": "Ọmọ ń lọ sí ilé-ìwé."
+    },
+    "sea": {
+      "word": "òkun",
+      "sentence": "Mo rí òkun."
+    },
+    "night": {
+      "word": "alẹ́",
+      "sentence": "Alẹ́ tútù."
+    },
+    "one": {
+      "word": "ọ̀kan",
+      "sentence": "Mo ní àpù kan."
+    },
+    "two": {
+      "word": "mẹ́jì",
+      "sentence": "Mo rí ẹyẹ méjì."
+    },
+    "big": {
+      "word": "ńlá",
+      "sentence": "Ilé tóbi."
+    },
+    "small": {
+      "word": "kékeré",
+      "sentence": "Ọmọ kéré."
+    },
+    "good": {
+      "word": "dára",
+      "sentence": "Búréèdì dára."
+    },
+    "hot": {
+      "word": "gbóná",
+      "sentence": "Iná gbóná."
+    },
+    "cold": {
+      "word": "tútù",
+      "sentence": "Omi tútù."
+    },
+    "red": {
+      "word": "pupa",
+      "sentence": "Àpù pupa ni."
+    },
+    "new": {
+      "word": "tuntun",
+      "sentence": "Ìwé tuntun ni."
+    },
+    "this": {
+      "word": "èyí",
+      "sentence": "Èyí ni ilé mi."
+    }
+  },
+  "lines": {
+    "d1a": "Pẹ̀lẹ́. Mo wà níbí.",
+    "d1b": "Kí ni orúkọ rẹ?",
+    "d1c": "Orúkọ mi ni Anna. Èyí ni ọ̀rẹ́ mi.",
+    "d1d": "Wọlé. Búréèdì dára.",
+    "d2a": "Mo rí òkè.",
+    "d2b": "Ọ̀nà gùn.",
+    "d2c": "Òòrùn gbóná.",
+    "d2d": "A jókòó, mo sì ń mu omi.",
+    "d3a": "Ọmọ ń sùn.",
+    "d3b": "Mo rí òṣùpá.",
+    "d3c": "Mo gbọ́ òjò.",
+    "d3d": "Ilé kéré, ó sì dára."
+  }
+}

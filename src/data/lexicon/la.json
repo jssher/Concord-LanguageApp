@@ -1,0 +1,342 @@
+{
+  "entries": {
+    "i": {
+      "word": "ego",
+      "sentence": "Ego hīc sum."
+    },
+    "you": {
+      "word": "tū",
+      "sentence": "Tū amīcus meus es.",
+      "note": "singular"
+    },
+    "woman": {
+      "word": "fēmina",
+      "sentence": "Fēmina hīc est.",
+      "plural": "fēminae",
+      "gender": "f"
+    },
+    "man": {
+      "word": "vir",
+      "sentence": "Vir ambulat.",
+      "plural": "virī",
+      "gender": "m"
+    },
+    "child": {
+      "word": "īnfāns",
+      "sentence": "Īnfāns dormit.",
+      "plural": "īnfantēs",
+      "gender": "c"
+    },
+    "name": {
+      "word": "nōmen",
+      "sentence": "Nōmen meum est Anna.",
+      "gender": "n"
+    },
+    "friend": {
+      "word": "amīcus",
+      "sentence": "Hic est amīcus meus.",
+      "feminine": "amīca",
+      "gender": "m"
+    },
+    "family": {
+      "word": "familia",
+      "sentence": "Familia mea domī est.",
+      "gender": "f"
+    },
+    "house": {
+      "word": "domus",
+      "sentence": "Domus parva est.",
+      "gender": "f"
+    },
+    "door": {
+      "word": "iānua",
+      "sentence": "Iānua aperta est.",
+      "gender": "f"
+    },
+    "key": {
+      "word": "clāvis",
+      "sentence": "Clāvis in mēnsā est.",
+      "gender": "f"
+    },
+    "table": {
+      "word": "mēnsa",
+      "sentence": "Liber in mēnsā est.",
+      "gender": "f"
+    },
+    "bed": {
+      "word": "lectus",
+      "sentence": "Īnfāns in lectō est.",
+      "gender": "m"
+    },
+    "book": {
+      "word": "liber",
+      "sentence": "Liber novus est.",
+      "plural": "librī",
+      "gender": "m"
+    },
+    "water": {
+      "word": "aqua",
+      "sentence": "Aqua frīgida est.",
+      "gender": "f"
+    },
+    "fire": {
+      "word": "ignis",
+      "sentence": "Ignis calidus est.",
+      "gender": "m"
+    },
+    "bread": {
+      "word": "pānis",
+      "sentence": "Pānis bonus est.",
+      "gender": "m"
+    },
+    "apple": {
+      "word": "mālum",
+      "sentence": "Mālum rubrum est.",
+      "gender": "n"
+    },
+    "egg": {
+      "word": "ōvum",
+      "sentence": "Ōvum in mēnsā est.",
+      "gender": "n"
+    },
+    "milk": {
+      "word": "lac",
+      "sentence": "Īnfāns lac bibit.",
+      "gender": "n"
+    },
+    "fish": {
+      "word": "piscis",
+      "sentence": "Piscis in aquā est.",
+      "gender": "m"
+    },
+    "rice": {
+      "word": "orȳza",
+      "sentence": "Orȳzam edimus.",
+      "note": "a later word"
+    },
+    "coffee": {
+      "word": "cafēum",
+      "sentence": "Cafēum calidum est.",
+      "note": "a later word"
+    },
+    "eat": {
+      "word": "edere",
+      "sentence": "Pānem edimus."
+    },
+    "drink": {
+      "word": "bibere",
+      "sentence": "Aquam bibō."
+    },
+    "see": {
+      "word": "vidēre",
+      "sentence": "Sōlem videō."
+    },
+    "hear": {
+      "word": "audīre",
+      "sentence": "Pluviam audiō."
+    },
+    "sleep": {
+      "word": "dormīre",
+      "sentence": "Īnfāns dormit."
+    },
+    "walk": {
+      "word": "ambulāre",
+      "sentence": "Vir ambulat."
+    },
+    "come": {
+      "word": "venīre",
+      "sentence": "Tū ad domum venīs."
+    },
+    "sit": {
+      "word": "sedēre",
+      "sentence": "Ad mēnsam sedēmus."
+    },
+    "give": {
+      "word": "dare",
+      "sentence": "Clāvem tibi dō."
+    },
+    "sun": {
+      "word": "sōl",
+      "sentence": "Sōl calidus est.",
+      "gender": "m"
+    },
+    "moon": {
+      "word": "lūna",
+      "sentence": "Lūnam videō.",
+      "gender": "f"
+    },
+    "tree": {
+      "word": "arbor",
+      "sentence": "Arbor magna est.",
+      "gender": "f"
+    },
+    "flower": {
+      "word": "flōs",
+      "sentence": "Flōs ruber est.",
+      "gender": "m"
+    },
+    "rain": {
+      "word": "pluvia",
+      "sentence": "Pluvia frīgida est.",
+      "gender": "f"
+    },
+    "mountain": {
+      "word": "mōns",
+      "sentence": "Mōns magnus est.",
+      "gender": "m"
+    },
+    "river": {
+      "word": "flūmen",
+      "sentence": "Flūmen longum est.",
+      "gender": "n"
+    },
+    "stone": {
+      "word": "lapis",
+      "sentence": "Lapis parvus est.",
+      "gender": "m"
+    },
+    "dog": {
+      "word": "canis",
+      "sentence": "Canis parvus est.",
+      "gender": "c"
+    },
+    "cat": {
+      "word": "fēlēs",
+      "sentence": "Fēlēs dormit.",
+      "gender": "f"
+    },
+    "bird": {
+      "word": "avis",
+      "sentence": "Duās avēs videō.",
+      "plural": "avēs",
+      "gender": "f"
+    },
+    "hand": {
+      "word": "manus",
+      "sentence": "Haec est manus mea.",
+      "gender": "f"
+    },
+    "eye": {
+      "word": "oculus",
+      "sentence": "Hic est oculus meus.",
+      "gender": "m"
+    },
+    "ear": {
+      "word": "auris",
+      "sentence": "Haec est auris mea.",
+      "gender": "f"
+    },
+    "head": {
+      "word": "caput",
+      "sentence": "Hoc est caput meum.",
+      "gender": "n"
+    },
+    "mouth": {
+      "word": "ōs",
+      "sentence": "Hoc est ōs meum.",
+      "gender": "n"
+    },
+    "foot": {
+      "word": "pēs",
+      "sentence": "Pēs meus frīgidus est.",
+      "plural": "pedēs",
+      "gender": "m"
+    },
+    "road": {
+      "word": "via",
+      "sentence": "Via longa est.",
+      "gender": "f"
+    },
+    "city": {
+      "word": "urbs",
+      "sentence": "Urbs magna est.",
+      "plural": "urbēs",
+      "gender": "f"
+    },
+    "school": {
+      "word": "lūdus",
+      "sentence": "Īnfāns ad lūdum it.",
+      "gender": "m"
+    },
+    "sea": {
+      "word": "mare",
+      "sentence": "Mare videō.",
+      "gender": "n"
+    },
+    "night": {
+      "word": "nox",
+      "sentence": "Nox frīgida est.",
+      "gender": "f"
+    },
+    "one": {
+      "word": "ūnus",
+      "sentence": "Ūnum mālum habeō."
+    },
+    "two": {
+      "word": "duo",
+      "sentence": "Duās avēs videō."
+    },
+    "big": {
+      "word": "magnus",
+      "sentence": "Domus magna est.",
+      "feminine": "magna",
+      "neuter": "magnum"
+    },
+    "small": {
+      "word": "parvus",
+      "sentence": "Īnfāns parvus est.",
+      "feminine": "parva",
+      "neuter": "parvum"
+    },
+    "good": {
+      "word": "bonus",
+      "sentence": "Pānis bonus est.",
+      "feminine": "bona",
+      "neuter": "bonum"
+    },
+    "hot": {
+      "word": "calidus",
+      "sentence": "Ignis calidus est.",
+      "feminine": "calida",
+      "neuter": "calidum"
+    },
+    "cold": {
+      "word": "frīgidus",
+      "sentence": "Aqua frīgida est.",
+      "feminine": "frīgida",
+      "neuter": "frīgidum"
+    },
+    "red": {
+      "word": "ruber",
+      "sentence": "Mālum rubrum est.",
+      "feminine": "rubra",
+      "neuter": "rubrum"
+    },
+    "new": {
+      "word": "novus",
+      "sentence": "Liber novus est.",
+      "feminine": "nova",
+      "neuter": "novum"
+    },
+    "this": {
+      "word": "hic",
+      "sentence": "Haec est domus mea.",
+      "feminine": "haec",
+      "neuter": "hoc"
+    }
+  },
+  "lines": {
+    "d1a": "Salvē. Ego hīc sum.",
+    "d1b": "Quid est nōmen tuum?",
+    "d1c": "Nōmen meum est Anna. Hic est amīcus meus.",
+    "d1d": "Intrā. Pānis bonus est.",
+    "d2a": "Mōntem videō.",
+    "d2b": "Via longa est.",
+    "d2c": "Sōl calidus est.",
+    "d2d": "Sedēmus, et aquam bibō.",
+    "d3a": "Īnfāns dormit.",
+    "d3b": "Lūnam videō.",
+    "d3c": "Pluviam audiō.",
+    "d3d": "Domus parva et bona est."
+  }
+}

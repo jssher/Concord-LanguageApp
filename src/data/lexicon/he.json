@@ -1,0 +1,406 @@
+{
+  "entries": {
+    "i": {
+      "word": "אֲנִי",
+      "sentence": "אֲנִי כָּאן.",
+      "reading": "ani"
+    },
+    "you": {
+      "word": "אַתָּה",
+      "sentence": "אַתָּה חָבֵר שֶׁלִּי.",
+      "reading": "ata",
+      "feminine": "אַתְּ",
+      "note": "at is feminine"
+    },
+    "woman": {
+      "word": "אִשָּׁה",
+      "sentence": "הָאִשָּׁה כָּאן.",
+      "reading": "isha",
+      "gender": "f",
+      "article": "הַ"
+    },
+    "man": {
+      "word": "אִישׁ",
+      "sentence": "הָאִישׁ הוֹלֵךְ.",
+      "reading": "ish",
+      "gender": "m",
+      "plural": "אֲנָשִׁים"
+    },
+    "child": {
+      "word": "יֶלֶד",
+      "sentence": "הַיֶּלֶד יָשֵׁן.",
+      "reading": "yeled",
+      "gender": "m",
+      "feminine": "יַלְדָּה",
+      "plural": "יְלָדִים"
+    },
+    "name": {
+      "word": "שֵׁם",
+      "sentence": "הַשֵּׁם שֶׁלִּי אַנָּה.",
+      "reading": "shem",
+      "gender": "m"
+    },
+    "friend": {
+      "word": "חָבֵר",
+      "sentence": "זֶה חָבֵר שֶׁלִּי.",
+      "reading": "ḥaver",
+      "gender": "m",
+      "feminine": "חֲבֵרָה"
+    },
+    "family": {
+      "word": "מִשְׁפָּחָה",
+      "sentence": "הַמִּשְׁפָּחָה שֶׁלִּי בַּבַּיִת.",
+      "reading": "mishpaḥa",
+      "gender": "f"
+    },
+    "house": {
+      "word": "בַּיִת",
+      "sentence": "הַבַּיִת קָטָן.",
+      "reading": "bayit",
+      "gender": "m",
+      "plural": "בָּתִּים"
+    },
+    "door": {
+      "word": "דֶּלֶת",
+      "sentence": "הַדֶּלֶת פְּתוּחָה.",
+      "reading": "delet",
+      "gender": "f"
+    },
+    "key": {
+      "word": "מַפְתֵּחַ",
+      "sentence": "הַמַּפְתֵּחַ עַל הַשֻּׁלְחָן.",
+      "reading": "mafteaḥ",
+      "gender": "m"
+    },
+    "table": {
+      "word": "שֻׁלְחָן",
+      "sentence": "הַסֵּפֶר עַל הַשֻּׁלְחָן.",
+      "reading": "shulḥan",
+      "gender": "m"
+    },
+    "bed": {
+      "word": "מִטָּה",
+      "sentence": "הַיֶּלֶד בַּמִּטָּה.",
+      "reading": "mita",
+      "gender": "f"
+    },
+    "book": {
+      "word": "סֵפֶר",
+      "sentence": "הַסֵּפֶר חָדָשׁ.",
+      "reading": "sefer",
+      "gender": "m",
+      "plural": "סְפָרִים"
+    },
+    "water": {
+      "word": "מַיִם",
+      "sentence": "הַמַּיִם קָרִים.",
+      "reading": "mayim",
+      "gender": "m",
+      "note": "plural form"
+    },
+    "fire": {
+      "word": "אֵשׁ",
+      "sentence": "הָאֵשׁ חַמָּה.",
+      "reading": "esh",
+      "gender": "f"
+    },
+    "bread": {
+      "word": "לֶחֶם",
+      "sentence": "הַלֶּחֶם טוֹב.",
+      "reading": "leḥem",
+      "gender": "m"
+    },
+    "apple": {
+      "word": "תַּפּוּחַ",
+      "sentence": "הַתַּפּוּחַ אָדֹם.",
+      "reading": "tapuaḥ",
+      "gender": "m"
+    },
+    "egg": {
+      "word": "בֵּיצָה",
+      "sentence": "הַבֵּיצָה עַל הַשֻּׁלְחָן.",
+      "reading": "beitsa",
+      "gender": "f"
+    },
+    "milk": {
+      "word": "חָלָב",
+      "sentence": "הַיֶּלֶד שׁוֹתֶה חָלָב.",
+      "reading": "ḥalav",
+      "gender": "m"
+    },
+    "fish": {
+      "word": "דָּג",
+      "sentence": "הַדָּג בַּמַּיִם.",
+      "reading": "dag",
+      "gender": "m"
+    },
+    "rice": {
+      "word": "אוֹרֶז",
+      "sentence": "אֲנַחְנוּ אוֹכְלִים אוֹרֶז.",
+      "reading": "orez"
+    },
+    "coffee": {
+      "word": "קָפֶה",
+      "sentence": "הַקָּפֶה חַם.",
+      "reading": "kafe"
+    },
+    "eat": {
+      "word": "אָכַל",
+      "sentence": "אֲנַחְנוּ אוֹכְלִים לֶחֶם.",
+      "reading": "akhal",
+      "note": "past 3rd person masculine"
+    },
+    "drink": {
+      "word": "שָׁתָה",
+      "sentence": "אֲנִי שׁוֹתֶה מַיִם.",
+      "reading": "shata",
+      "note": "past 3rd person masculine"
+    },
+    "see": {
+      "word": "רָאָה",
+      "sentence": "אֲנִי רוֹאֶה אֶת הַשֶּׁמֶשׁ.",
+      "reading": "raʾa",
+      "note": "past 3rd person masculine"
+    },
+    "hear": {
+      "word": "שָׁמַע",
+      "sentence": "אֲנִי שׁוֹמֵעַ אֶת הַגֶּשֶׁם.",
+      "reading": "shama",
+      "note": "past 3rd person masculine"
+    },
+    "sleep": {
+      "word": "יָשַׁן",
+      "sentence": "הַיֶּלֶד יָשֵׁן.",
+      "reading": "yashan",
+      "note": "past 3rd person masculine"
+    },
+    "walk": {
+      "word": "הָלַךְ",
+      "sentence": "הָאִישׁ הוֹלֵךְ.",
+      "reading": "halakh",
+      "note": "past 3rd person masculine"
+    },
+    "come": {
+      "word": "בָּא",
+      "sentence": "אַתָּה בָּא אֶל הַבַּיִת.",
+      "reading": "ba",
+      "note": "past 3rd person masculine"
+    },
+    "sit": {
+      "word": "יָשַׁב",
+      "sentence": "אֲנַחְנוּ יוֹשְׁבִים לְיַד הַשֻּׁלְחָן.",
+      "reading": "yashav",
+      "note": "past 3rd person masculine"
+    },
+    "give": {
+      "word": "נָתַן",
+      "sentence": "אֲנִי נוֹתֵן לְךָ אֶת הַמַּפְתֵּחַ.",
+      "reading": "natan",
+      "note": "past 3rd person masculine"
+    },
+    "sun": {
+      "word": "שֶׁמֶשׁ",
+      "sentence": "הַשֶּׁמֶשׁ חַמָּה.",
+      "reading": "shemesh",
+      "gender": "f"
+    },
+    "moon": {
+      "word": "יָרֵחַ",
+      "sentence": "אֲנִי רוֹאֶה אֶת הַיָּרֵחַ.",
+      "reading": "yareaḥ",
+      "gender": "m"
+    },
+    "tree": {
+      "word": "עֵץ",
+      "sentence": "הָעֵץ גָּדוֹל.",
+      "reading": "ets",
+      "gender": "m"
+    },
+    "flower": {
+      "word": "פֶּרַח",
+      "sentence": "הַפֶּרַח אָדֹם.",
+      "reading": "peraḥ",
+      "gender": "m"
+    },
+    "rain": {
+      "word": "גֶּשֶׁם",
+      "sentence": "הַגֶּשֶׁם קַר.",
+      "reading": "geshem",
+      "gender": "m"
+    },
+    "mountain": {
+      "word": "הַר",
+      "sentence": "הָהָר גָּדוֹל.",
+      "reading": "har",
+      "gender": "m"
+    },
+    "river": {
+      "word": "נָהָר",
+      "sentence": "הַנָּהָר אָרֹךְ.",
+      "reading": "nahar",
+      "gender": "m"
+    },
+    "stone": {
+      "word": "אֶבֶן",
+      "sentence": "הָאֶבֶן קְטַנָּה.",
+      "reading": "even",
+      "gender": "f"
+    },
+    "dog": {
+      "word": "כֶּלֶב",
+      "sentence": "הַכֶּלֶב קָטָן.",
+      "reading": "kelev",
+      "gender": "m",
+      "plural": "כְּלָבִים"
+    },
+    "cat": {
+      "word": "חָתוּל",
+      "sentence": "הֶחָתוּל יָשֵׁן.",
+      "reading": "ḥatul",
+      "gender": "m",
+      "feminine": "חֲתוּלָה"
+    },
+    "bird": {
+      "word": "צִפּוֹר",
+      "sentence": "אֲנִי רוֹאֶה שְׁתֵּי צִפֳּרִים.",
+      "reading": "tsipor",
+      "gender": "f",
+      "plural": "צִפֳּרִים"
+    },
+    "hand": {
+      "word": "יָד",
+      "sentence": "זוֹ הַיָּד שֶׁלִּי.",
+      "reading": "yad",
+      "gender": "f",
+      "plural": "יָדַיִם"
+    },
+    "eye": {
+      "word": "עַיִן",
+      "sentence": "זוֹ הָעַיִן שֶׁלִּי.",
+      "reading": "ayin",
+      "gender": "f",
+      "plural": "עֵינַיִם"
+    },
+    "ear": {
+      "word": "אֹזֶן",
+      "sentence": "זוֹ הָאֹזֶן שֶׁלִּי.",
+      "reading": "ozen",
+      "gender": "f"
+    },
+    "head": {
+      "word": "רֹאשׁ",
+      "sentence": "זֶה הָרֹאשׁ שֶׁלִּי.",
+      "reading": "rosh",
+      "gender": "m"
+    },
+    "mouth": {
+      "word": "פֶּה",
+      "sentence": "זֶה הַפֶּה שֶׁלִּי.",
+      "reading": "pe",
+      "gender": "m"
+    },
+    "foot": {
+      "word": "רֶגֶל",
+      "sentence": "הָרֶגֶל שֶׁלִּי קָרָה.",
+      "reading": "regel",
+      "gender": "f",
+      "plural": "רַגְלַיִם"
+    },
+    "road": {
+      "word": "דֶּרֶךְ",
+      "sentence": "הַדֶּרֶךְ אֲרֻכָּה.",
+      "reading": "derekh",
+      "gender": "f"
+    },
+    "city": {
+      "word": "עִיר",
+      "sentence": "הָעִיר גְּדוֹלָה.",
+      "reading": "ir",
+      "gender": "f",
+      "plural": "עָרִים"
+    },
+    "school": {
+      "word": "בֵּית סֵפֶר",
+      "sentence": "הַיֶּלֶד הוֹלֵךְ לְבֵית הַסֵּפֶר.",
+      "reading": "beit sefer",
+      "gender": "m"
+    },
+    "sea": {
+      "word": "יָם",
+      "sentence": "אֲנִי רוֹאֶה אֶת הַיָּם.",
+      "reading": "yam",
+      "gender": "m"
+    },
+    "night": {
+      "word": "לַיְלָה",
+      "sentence": "הַלַּיְלָה קַר.",
+      "reading": "layla",
+      "gender": "m"
+    },
+    "one": {
+      "word": "אֶחָד",
+      "sentence": "יֵשׁ לִי תַּפּוּחַ אֶחָד.",
+      "reading": "eḥad"
+    },
+    "two": {
+      "word": "שְׁנַיִם",
+      "sentence": "אֲנִי רוֹאֶה שְׁתֵּי צִפֳּרִים.",
+      "reading": "shnayim"
+    },
+    "big": {
+      "word": "גָּדוֹל",
+      "sentence": "הַבַּיִת גָּדוֹל.",
+      "reading": "gadol"
+    },
+    "small": {
+      "word": "קָטָן",
+      "sentence": "הַיֶּלֶד קָטָן.",
+      "reading": "katan"
+    },
+    "good": {
+      "word": "טוֹב",
+      "sentence": "הַלֶּחֶם טוֹב.",
+      "reading": "tov"
+    },
+    "hot": {
+      "word": "חַם",
+      "sentence": "הָאֵשׁ חַמָּה.",
+      "reading": "ḥam"
+    },
+    "cold": {
+      "word": "קַר",
+      "sentence": "הַמַּיִם קָרִים.",
+      "reading": "kar"
+    },
+    "red": {
+      "word": "אָדֹם",
+      "sentence": "הַתַּפּוּחַ אָדֹם.",
+      "reading": "adom"
+    },
+    "new": {
+      "word": "חָדָשׁ",
+      "sentence": "הַסֵּפֶר חָדָשׁ.",
+      "reading": "ḥadash"
+    },
+    "this": {
+      "word": "זֶה",
+      "sentence": "זֶה הַבַּיִת שֶׁלִּי.",
+      "reading": "ze",
+      "feminine": "זֹאת"
+    }
+  },
+  "lines": {
+    "d1a": "שָׁלוֹם. אֲנִי כָּאן.",
+    "d1b": "מַה הַשֵּׁם שֶׁלְּךָ?",
+    "d1c": "הַשֵּׁם שֶׁלִּי אַנָּה. זֶה חָבֵר שֶׁלִּי.",
+    "d1d": "בּוֹא פְּנִימָה. הַלֶּחֶם טוֹב.",
+    "d2a": "אֲנִי רוֹאֶה אֶת הָהָר.",
+    "d2b": "הַדֶּרֶךְ אֲרֻכָּה.",
+    "d2c": "הַשֶּׁמֶשׁ חַמָּה.",
+    "d2d": "אֲנַחְנוּ יוֹשְׁבִים, וַאֲנִי שׁוֹתֶה מַיִם.",
+    "d3a": "הַיֶּלֶד יָשֵׁן.",
+    "d3b": "אֲנִי רוֹאֶה אֶת הַיָּרֵחַ.",
+    "d3c": "אֲנִי שׁוֹמֵעַ אֶת הַגֶּשֶׁם.",
+    "d3d": "הַבַּיִת קָטָן וְטוֹב."
+  }
+}

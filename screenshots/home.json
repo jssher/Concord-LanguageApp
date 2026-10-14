@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Concord",
+      "hasCanvas": false,
+      "bodyTextLen": 2071,
+      "bodyTextHash": "0bb10b571fe53e2ac814d10c45b934c8b5b2daed67afc2d34e82bb37528fe8e0",
+      "bodyTextPrefix": "Concord Study Path Grammar Talk English → German PARALLEL COURSE",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/home.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Concord",
+      "hasCanvas": false,
+      "bodyTextLen": 2158,
+      "bodyTextHash": "bebe05913baea39f97f492857126b87ab9d98c92b534414f4ab42ecfd8096dee",
+      "bodyTextPrefix": "Concord Study Path Grammar Talk PARALLEL COURSE English on the l",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/home-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/home.json"
+}

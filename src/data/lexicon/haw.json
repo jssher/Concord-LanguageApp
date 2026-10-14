@@ -1,0 +1,276 @@
+{
+  "entries": {
+    "i": {
+      "word": "au",
+      "sentence": "Aia au ma ʻaneʻi."
+    },
+    "you": {
+      "word": "ʻoe",
+      "sentence": "ʻO ʻoe koʻu hoa.",
+      "note": "singular"
+    },
+    "woman": {
+      "word": "wahine",
+      "sentence": "Aia ka wahine ma ʻaneʻi.",
+      "plural": "wāhine"
+    },
+    "man": {
+      "word": "kāne",
+      "sentence": "Ke hele nei ke kāne."
+    },
+    "child": {
+      "word": "keiki",
+      "sentence": "Ke moe nei ke keiki."
+    },
+    "name": {
+      "word": "inoa",
+      "sentence": "ʻO Anna koʻu inoa."
+    },
+    "friend": {
+      "word": "hoa",
+      "sentence": "ʻO kēia koʻu hoa."
+    },
+    "family": {
+      "word": "ʻohana",
+      "sentence": "Aia koʻu ʻohana ma ka hale."
+    },
+    "house": {
+      "word": "hale",
+      "sentence": "Liʻiliʻi ka hale."
+    },
+    "door": {
+      "word": "puka",
+      "sentence": "Ua wehe ka puka."
+    },
+    "key": {
+      "word": "kī",
+      "sentence": "Aia ke kī ma ka pākaukau."
+    },
+    "table": {
+      "word": "pākaukau",
+      "sentence": "Aia ka puke ma ka pākaukau."
+    },
+    "bed": {
+      "word": "hikieʻe",
+      "sentence": "Aia ke keiki ma ka hikieʻe."
+    },
+    "book": {
+      "word": "puke",
+      "sentence": "Hou ka puke."
+    },
+    "water": {
+      "word": "wai",
+      "sentence": "Anu ka wai."
+    },
+    "fire": {
+      "word": "ahi",
+      "sentence": "Wela ke ahi."
+    },
+    "bread": {
+      "word": "palaoa",
+      "sentence": "Maikaʻi ka palaoa."
+    },
+    "apple": {
+      "word": "ʻāpala",
+      "sentence": "ʻUlaʻula ka ʻāpala."
+    },
+    "egg": {
+      "word": "hua",
+      "sentence": "Aia ka hua ma ka pākaukau."
+    },
+    "milk": {
+      "word": "waiū",
+      "sentence": "Inu waiū ke keiki."
+    },
+    "fish": {
+      "word": "iʻa",
+      "sentence": "Aia ka iʻa i ka wai."
+    },
+    "rice": {
+      "word": "laiki",
+      "sentence": "ʻAi mākou i ka laiki."
+    },
+    "coffee": {
+      "word": "kope",
+      "sentence": "Wela ke kope."
+    },
+    "eat": {
+      "word": "ʻai",
+      "sentence": "ʻAi mākou i ka palaoa."
+    },
+    "drink": {
+      "word": "inu",
+      "sentence": "Inu au i ka wai."
+    },
+    "see": {
+      "word": "ʻike",
+      "sentence": "ʻIke au i ka lā."
+    },
+    "hear": {
+      "word": "lohe",
+      "sentence": "Lohe au i ka ua."
+    },
+    "sleep": {
+      "word": "moe",
+      "sentence": "Moe ke keiki."
+    },
+    "walk": {
+      "word": "hele",
+      "sentence": "Hele ke kāne."
+    },
+    "come": {
+      "word": "hele mai",
+      "sentence": "Hele mai ʻoe i ka hale."
+    },
+    "sit": {
+      "word": "noho",
+      "sentence": "Noho mākou ma ka pākaukau."
+    },
+    "give": {
+      "word": "hāʻawi",
+      "sentence": "Hāʻawi au i ke kī iā ʻoe."
+    },
+    "sun": {
+      "word": "lā",
+      "sentence": "Wela ka lā."
+    },
+    "moon": {
+      "word": "mahina",
+      "sentence": "ʻIke au i ka mahina."
+    },
+    "tree": {
+      "word": "kumulāʻau",
+      "sentence": "Nui ke kumulāʻau."
+    },
+    "flower": {
+      "word": "pua",
+      "sentence": "ʻUlaʻula ka pua."
+    },
+    "rain": {
+      "word": "ua",
+      "sentence": "Anu ka ua."
+    },
+    "mountain": {
+      "word": "mauna",
+      "sentence": "Nui ka mauna."
+    },
+    "river": {
+      "word": "muliwai",
+      "sentence": "Lōʻihi ka muliwai."
+    },
+    "stone": {
+      "word": "pōhaku",
+      "sentence": "Liʻiliʻi ka pōhaku."
+    },
+    "dog": {
+      "word": "ʻīlio",
+      "sentence": "Liʻiliʻi ka ʻīlio."
+    },
+    "cat": {
+      "word": "pōpoki",
+      "sentence": "Moe ka pōpoki."
+    },
+    "bird": {
+      "word": "manu",
+      "sentence": "ʻIke au i ʻelua manu."
+    },
+    "hand": {
+      "word": "lima",
+      "sentence": "ʻO kēia koʻu lima."
+    },
+    "eye": {
+      "word": "maka",
+      "sentence": "ʻO kēia koʻu maka."
+    },
+    "ear": {
+      "word": "pepeiao",
+      "sentence": "ʻO kēia koʻu pepeiao."
+    },
+    "head": {
+      "word": "poʻo",
+      "sentence": "ʻO kēia koʻu poʻo."
+    },
+    "mouth": {
+      "word": "waha",
+      "sentence": "ʻO kēia koʻu waha."
+    },
+    "foot": {
+      "word": "wāwae",
+      "sentence": "Anu koʻu wāwae."
+    },
+    "road": {
+      "word": "alanui",
+      "sentence": "Lōʻihi ke alanui."
+    },
+    "city": {
+      "word": "kūlanakauhale",
+      "sentence": "Nui ke kūlanakauhale."
+    },
+    "school": {
+      "word": "kula",
+      "sentence": "Hele ke keiki i ke kula."
+    },
+    "sea": {
+      "word": "kai",
+      "sentence": "ʻIke au i ke kai."
+    },
+    "night": {
+      "word": "pō",
+      "sentence": "Anu ka pō."
+    },
+    "one": {
+      "word": "ʻekahi",
+      "sentence": "He ʻāpala hoʻokahi koʻu."
+    },
+    "two": {
+      "word": "ʻelua",
+      "sentence": "ʻIke au i ʻelua manu."
+    },
+    "big": {
+      "word": "nui",
+      "sentence": "Nui ka hale."
+    },
+    "small": {
+      "word": "liʻiliʻi",
+      "sentence": "Liʻiliʻi ke keiki."
+    },
+    "good": {
+      "word": "maikaʻi",
+      "sentence": "Maikaʻi ka palaoa."
+    },
+    "hot": {
+      "word": "wela",
+      "sentence": "Wela ke ahi."
+    },
+    "cold": {
+      "word": "anu",
+      "sentence": "Anu ka wai."
+    },
+    "red": {
+      "word": "ʻulaʻula",
+      "sentence": "ʻUlaʻula ka ʻāpala."
+    },
+    "new": {
+      "word": "hou",
+      "sentence": "Hou ka puke."
+    },
+    "this": {
+      "word": "kēia",
+      "sentence": "ʻO kēia koʻu hale."
+    }
+  },
+  "lines": {
+    "d1a": "Aloha. Aia au ma ʻaneʻi.",
+    "d1b": "ʻO wai kou inoa?",
+    "d1c": "ʻO Anna koʻu inoa. ʻO kēia koʻu hoa.",
+    "d1d": "E komo mai. Maikaʻi ka palaoa.",
+    "d2a": "ʻIke au i ka mauna.",
+    "d2b": "Lōʻihi ke alanui.",
+    "d2c": "Wela ka lā.",
+    "d2d": "Noho mākou, a inu au i ka wai.",
+    "d3a": "Moe ke keiki.",
+    "d3b": "ʻIke au i ka mahina.",
+    "d3c": "Lohe au i ka ua.",
+    "d3d": "Liʻiliʻi a maikaʻi ka hale."
+  }
+}

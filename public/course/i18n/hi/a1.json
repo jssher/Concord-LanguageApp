@@ -1,0 +1,7197 @@
+{
+  "lang": "hi",
+  "level": "A1",
+  "items": {
+    "i": {
+      "en": "I",
+      "word": "मैं",
+      "sentence": "मैं यहाँ हूँ।",
+      "reading": "maĩ"
+    },
+    "you": {
+      "en": "you",
+      "word": "तुम",
+      "sentence": "तुम मेरे दोस्त हो।",
+      "reading": "tum"
+    },
+    "woman": {
+      "en": "woman",
+      "word": "औरत",
+      "sentence": "औरत यहाँ है।",
+      "reading": "aurat",
+      "gender": "f"
+    },
+    "man": {
+      "en": "man",
+      "word": "आदमी",
+      "sentence": "आदमी चल रहा है।",
+      "reading": "ādmī",
+      "gender": "m"
+    },
+    "child": {
+      "en": "child",
+      "word": "बच्चा",
+      "sentence": "बच्चा सो रहा है।",
+      "reading": "baccā",
+      "gender": "m"
+    },
+    "name": {
+      "en": "name",
+      "word": "नाम",
+      "sentence": "मेरा नाम Anna है।",
+      "reading": "nām",
+      "gender": "m"
+    },
+    "friend": {
+      "en": "friend",
+      "word": "दोस्त",
+      "sentence": "यह मेरा दोस्त है।",
+      "reading": "dost",
+      "gender": "m"
+    },
+    "family": {
+      "en": "family",
+      "word": "परिवार",
+      "sentence": "मेरा परिवार घर पर है।",
+      "reading": "parivār",
+      "gender": "m"
+    },
+    "house": {
+      "en": "house",
+      "word": "घर",
+      "sentence": "घर छोटा है।",
+      "reading": "ghar",
+      "gender": "m"
+    },
+    "door": {
+      "en": "door",
+      "word": "दरवाज़ा",
+      "sentence": "दरवाज़ा खुला है।",
+      "reading": "darvāzā",
+      "gender": "m"
+    },
+    "key": {
+      "en": "key",
+      "word": "चाबी",
+      "sentence": "चाबी मेज़ पर है।",
+      "reading": "cābī",
+      "gender": "f"
+    },
+    "table": {
+      "en": "table",
+      "word": "मेज़",
+      "sentence": "किताब मेज़ पर है।",
+      "reading": "mez",
+      "gender": "f"
+    },
+    "bed": {
+      "en": "bed",
+      "word": "बिस्तर",
+      "sentence": "बच्चा बिस्तर में है।",
+      "reading": "bistar",
+      "gender": "m"
+    },
+    "book": {
+      "en": "book",
+      "word": "किताब",
+      "sentence": "किताब नई है।",
+      "reading": "kitāb",
+      "gender": "f"
+    },
+    "water": {
+      "en": "water",
+      "word": "पानी",
+      "sentence": "पानी ठंडा है।",
+      "reading": "pānī",
+      "gender": "m"
+    },
+    "fire": {
+      "en": "fire",
+      "word": "आग",
+      "sentence": "आग गर्म है।",
+      "reading": "āg",
+      "gender": "f"
+    },
+    "bread": {
+      "en": "bread",
+      "word": "रोटी",
+      "sentence": "रोटी अच्छी है।",
+      "reading": "roṭī",
+      "gender": "f"
+    },
+    "apple": {
+      "en": "apple",
+      "word": "सेब",
+      "sentence": "सेब लाल है।",
+      "reading": "seb",
+      "gender": "m"
+    },
+    "egg": {
+      "en": "egg",
+      "word": "अंडा",
+      "sentence": "अंडा मेज़ पर है।",
+      "reading": "aṇḍā",
+      "gender": "m"
+    },
+    "milk": {
+      "en": "milk",
+      "word": "दूध",
+      "sentence": "बच्चा दूध पीता है।",
+      "reading": "dūdh",
+      "gender": "m"
+    },
+    "fish": {
+      "en": "fish",
+      "word": "मछली",
+      "sentence": "मछली पानी में है।",
+      "reading": "machlī",
+      "gender": "f"
+    },
+    "rice": {
+      "en": "rice",
+      "word": "चावल",
+      "sentence": "हम चावल खाते हैं।",
+      "reading": "cāval",
+      "gender": "m"
+    },
+    "coffee": {
+      "en": "coffee",
+      "word": "कॉफ़ी",
+      "sentence": "कॉफ़ी गर्म है।",
+      "reading": "kŏfī",
+      "gender": "f"
+    },
+    "eat": {
+      "en": "eat",
+      "word": "खाना",
+      "sentence": "हम रोटी खाते हैं।",
+      "reading": "khānā"
+    },
+    "drink": {
+      "en": "drink",
+      "word": "पीना",
+      "sentence": "मैं पानी पीता हूँ।",
+      "reading": "pīnā"
+    },
+    "see": {
+      "en": "see",
+      "word": "देखना",
+      "sentence": "मैं सूरज देखता हूँ।",
+      "reading": "dekhnā"
+    },
+    "hear": {
+      "en": "hear",
+      "word": "सुनना",
+      "sentence": "मैं बारिश सुनता हूँ।",
+      "reading": "sunnā"
+    },
+    "sleep": {
+      "en": "sleep",
+      "word": "सोना",
+      "sentence": "बच्चा सोता है।",
+      "reading": "sonā"
+    },
+    "walk": {
+      "en": "walk",
+      "word": "चलना",
+      "sentence": "आदमी चलता है।",
+      "reading": "calnā"
+    },
+    "come": {
+      "en": "come",
+      "word": "आना",
+      "sentence": "तुम घर आते हो।",
+      "reading": "ānā"
+    },
+    "sit": {
+      "en": "sit",
+      "word": "बैठना",
+      "sentence": "हम मेज़ के पास बैठते हैं।",
+      "reading": "baiṭhnā"
+    },
+    "give": {
+      "en": "give",
+      "word": "देना",
+      "sentence": "मैं तुम्हें चाबी देता हूँ।",
+      "reading": "denā"
+    },
+    "sun": {
+      "en": "sun",
+      "word": "सूरज",
+      "sentence": "सूरज गर्म है।",
+      "reading": "sūraj",
+      "gender": "m"
+    },
+    "moon": {
+      "en": "moon",
+      "word": "चाँद",
+      "sentence": "मैं चाँद देखता हूँ।",
+      "reading": "cā̃d",
+      "gender": "m"
+    },
+    "tree": {
+      "en": "tree",
+      "word": "पेड़",
+      "sentence": "पेड़ बड़ा है।",
+      "reading": "peṛ",
+      "gender": "m"
+    },
+    "flower": {
+      "en": "flower",
+      "word": "फूल",
+      "sentence": "फूल लाल है।",
+      "reading": "phūl",
+      "gender": "m"
+    },
+    "rain": {
+      "en": "rain",
+      "word": "बारिश",
+      "sentence": "बारिश ठंडी है।",
+      "reading": "bāriś",
+      "gender": "f"
+    },
+    "mountain": {
+      "en": "mountain",
+      "word": "पहाड़",
+      "sentence": "पहाड़ बड़ा है।",
+      "reading": "pahāṛ",
+      "gender": "m"
+    },
+    "river": {
+      "en": "river",
+      "word": "नदी",
+      "sentence": "नदी लंबी है।",
+      "reading": "nadī",
+      "gender": "f"
+    },
+    "stone": {
+      "en": "stone",
+      "word": "पत्थर",
+      "sentence": "पत्थर छोटा है।",
+      "reading": "patthar",
+      "gender": "m"
+    },
+    "dog": {
+      "en": "dog",
+      "word": "कुत्ता",
+      "sentence": "कुत्ता छोटा है।",
+      "reading": "kuttā",
+      "gender": "m"
+    },
+    "cat": {
+      "en": "cat",
+      "word": "बिल्ली",
+      "sentence": "बिल्ली सो रही है।",
+      "reading": "billī",
+      "gender": "f"
+    },
+    "bird": {
+      "en": "bird",
+      "word": "चिड़िया",
+      "sentence": "मैं दो चिड़ियाँ देखता हूँ।",
+      "reading": "ciṛiyā",
+      "gender": "f"
+    },
+    "hand": {
+      "en": "hand",
+      "word": "हाथ",
+      "sentence": "यह मेरा हाथ है।",
+      "reading": "hāth",
+      "gender": "m"
+    },
+    "eye": {
+      "en": "eye",
+      "word": "आँख",
+      "sentence": "यह मेरी आँख है।",
+      "reading": "ā̃kh",
+      "gender": "f"
+    },
+    "ear": {
+      "en": "ear",
+      "word": "कान",
+      "sentence": "यह मेरा कान है।",
+      "reading": "kān",
+      "gender": "m"
+    },
+    "head": {
+      "en": "head",
+      "word": "सिर",
+      "sentence": "यह मेरा सिर है।",
+      "reading": "sir",
+      "gender": "m"
+    },
+    "mouth": {
+      "en": "mouth",
+      "word": "मुँह",
+      "sentence": "यह मेरा मुँह है।",
+      "reading": "mũh",
+      "gender": "m"
+    },
+    "foot": {
+      "en": "foot",
+      "word": "पैर",
+      "sentence": "मेरा पैर ठंडा है।",
+      "reading": "pair",
+      "gender": "m"
+    },
+    "road": {
+      "en": "road",
+      "word": "सड़क",
+      "sentence": "सड़क लंबी है।",
+      "reading": "saṛak",
+      "gender": "f"
+    },
+    "city": {
+      "en": "city",
+      "word": "शहर",
+      "sentence": "शहर बड़ा है।",
+      "reading": "śahar",
+      "gender": "m"
+    },
+    "school": {
+      "en": "school",
+      "word": "स्कूल",
+      "sentence": "बच्चा स्कूल जाता है।",
+      "reading": "skūl",
+      "gender": "m"
+    },
+    "sea": {
+      "en": "sea",
+      "word": "समुद्र",
+      "sentence": "मैं समुद्र देखता हूँ।",
+      "reading": "samudra",
+      "gender": "m"
+    },
+    "night": {
+      "en": "night",
+      "word": "रात",
+      "sentence": "रात ठंडी है।",
+      "reading": "rāt",
+      "gender": "f"
+    },
+    "one": {
+      "en": "one",
+      "word": "एक",
+      "sentence": "मेरे पास एक सेब है।",
+      "reading": "ek"
+    },
+    "two": {
+      "en": "two",
+      "word": "दो",
+      "sentence": "मैं दो चिड़ियाँ देखता हूँ।",
+      "reading": "do"
+    },
+    "big": {
+      "en": "big",
+      "word": "बड़ा",
+      "sentence": "घर बड़ा है।",
+      "reading": "baṛā",
+      "feminine": "बड़ी"
+    },
+    "small": {
+      "en": "small",
+      "word": "छोटा",
+      "sentence": "बच्चा छोटा है।",
+      "reading": "choṭā",
+      "feminine": "छोटी"
+    },
+    "good": {
+      "en": "good",
+      "word": "अच्छा",
+      "sentence": "रोटी अच्छी है।",
+      "reading": "acchā",
+      "feminine": "अच्छी"
+    },
+    "hot": {
+      "en": "hot",
+      "word": "गर्म",
+      "sentence": "आग गर्म है।",
+      "reading": "garm"
+    },
+    "cold": {
+      "en": "cold",
+      "word": "ठंडा",
+      "sentence": "पानी ठंडा है।",
+      "reading": "ṭhaṇḍā",
+      "feminine": "ठंडी"
+    },
+    "red": {
+      "en": "red",
+      "word": "लाल",
+      "sentence": "सेब लाल है।",
+      "reading": "lāl"
+    },
+    "new": {
+      "en": "new",
+      "word": "नया",
+      "sentence": "किताब नई है।",
+      "reading": "nayā",
+      "feminine": "नई"
+    },
+    "this": {
+      "en": "this",
+      "word": "यह",
+      "sentence": "यह मेरा घर है।",
+      "reading": "yah"
+    },
+    "a1-001": {
+      "en": "mother",
+      "word": "माँ",
+      "sentence": "मेरी माँ हर सुबह हमारे लिए नाश्ता बनाती हैं।",
+      "reading": "mā̃",
+      "gender": "f"
+    },
+    "a1-002": {
+      "en": "father",
+      "word": "पिता",
+      "sentence": "मेरे पिता हर सुबह काम पर जाते हैं।",
+      "reading": "pitā",
+      "gender": "m"
+    },
+    "a1-003": {
+      "en": "sister",
+      "word": "बहन",
+      "sentence": "मेरी बहन मेरे होमवर्क में मेरी मदद करती है।",
+      "reading": "bahan",
+      "gender": "f"
+    },
+    "a1-004": {
+      "en": "brother",
+      "word": "भाई",
+      "sentence": "मेरा भाई स्कूल के बाद पार्क में खेलता है।",
+      "reading": "bhāī",
+      "gender": "m"
+    },
+    "a1-005": {
+      "en": "daughter",
+      "word": "बेटी",
+      "sentence": "उनकी बेटी स्कूल में एक खुशमिजाज़ छात्रा है।",
+      "reading": "beṭī",
+      "gender": "f"
+    },
+    "a1-006": {
+      "en": "son",
+      "word": "बेटा",
+      "sentence": "उनके बेटे को रात में किताबें पढ़ना पसंद है।",
+      "reading": "beṭā",
+      "gender": "m"
+    },
+    "a1-007": {
+      "en": "baby",
+      "word": "बेबी",
+      "sentence": "बच्चा रात में एक छोटे से बिस्तर पर सोता है।",
+      "reading": "bebī",
+      "gender": "f"
+    },
+    "a1-008": {
+      "en": "boy",
+      "word": "लड़का",
+      "sentence": "लड़का अपनी बहन के साथ स्कूल जाता है।",
+      "reading": "laṛkā",
+      "gender": "m"
+    },
+    "a1-009": {
+      "en": "girl",
+      "word": "लड़की",
+      "sentence": "लड़की अपने परिवार का चित्र बनाती है।",
+      "reading": "laṛkī",
+      "gender": "f"
+    },
+    "a1-010": {
+      "en": "parent",
+      "word": "अभिभावक",
+      "sentence": "माता-पिता रात में बच्चे को कहानी सुनाते हैं।",
+      "reading": "abhibhāvak",
+      "gender": "m"
+    },
+    "a1-011": {
+      "en": "grandmother",
+      "word": "दादी",
+      "sentence": "मेरी दादी हमें रविवार को कहानियाँ सुनाती हैं।",
+      "reading": "dādī",
+      "gender": "f"
+    },
+    "a1-012": {
+      "en": "grandfather",
+      "word": "दादा",
+      "sentence": "मेरे दादाजी हर सुबह पार्क में टहलते हैं।",
+      "reading": "dādā",
+      "gender": "m"
+    },
+    "a1-013": {
+      "en": "grandma",
+      "word": "दादी",
+      "sentence": "मेरी दादी मेरे जन्मदिन के लिए केक बनाती हैं।",
+      "reading": "dādī",
+      "gender": "f"
+    },
+    "a1-014": {
+      "en": "grandpa",
+      "word": "दादाजी",
+      "sentence": "मेरे दादाजी दोपहर में चाय पीते हैं।",
+      "reading": "dādājī",
+      "gender": "f"
+    },
+    "a1-015": {
+      "en": "aunt",
+      "word": "चाची",
+      "sentence": "मेरी चाची समुद्र के पास एक छोटे से शहर में रहती हैं।",
+      "reading": "cācī",
+      "gender": "f"
+    },
+    "a1-016": {
+      "en": "uncle",
+      "word": "चाचा",
+      "sentence": "मेरे चाचा एक खेत में कई जानवरों के साथ काम करते हैं।",
+      "reading": "cācā",
+      "gender": "m"
+    },
+    "a1-017": {
+      "en": "cousin",
+      "word": "चचेरा भाई",
+      "sentence": "मेरा चचेरा भाई गर्मियों में हमारे घर आता है।",
+      "reading": "cacerā bhāī",
+      "gender": "m"
+    },
+    "a1-018": {
+      "en": "wife",
+      "word": "पत्नी",
+      "sentence": "उनकी पत्नी स्थानीय स्कूल में संगीत सिखाती हैं।",
+      "reading": "patnī",
+      "gender": "f"
+    },
+    "a1-019": {
+      "en": "husband",
+      "word": "पति",
+      "sentence": "शुक्रवार की रात उसका पति खाना बना रहा था।",
+      "reading": "pati",
+      "gender": "m"
+    },
+    "a1-020": {
+      "en": "twin",
+      "word": "जुड़वां",
+      "sentence": "स्कूल में मेरी कक्षा में मेरा एक जुड़वाँ भाई है।",
+      "reading": "juṛvā̃",
+      "gender": "m"
+    },
+    "a1-021": {
+      "en": "niece",
+      "word": "भतीजी",
+      "sentence": "मेरी भतीजी पाँच साल की है और बहुत खुश है।",
+      "reading": "bhatījī",
+      "gender": "f"
+    },
+    "a1-022": {
+      "en": "nephew",
+      "word": "भतीजा",
+      "sentence": "मेरे भतीजे को आँगन में खेलना पसंद है।",
+      "reading": "bhatījā",
+      "gender": "m"
+    },
+    "a1-023": {
+      "en": "grandson",
+      "word": "पोता",
+      "sentence": "उनका पोता हर रविवार दोपहर को उनसे मिलने आता है।",
+      "reading": "potā",
+      "gender": "m"
+    },
+    "a1-024": {
+      "en": "granddaughter",
+      "word": "पोती",
+      "sentence": "उनकी पोती रसोई की मेज पर तस्वीरें बनाती है।",
+      "reading": "potī",
+      "gender": "f"
+    },
+    "a1-025": {
+      "en": "grandchild",
+      "word": "पोता",
+      "sentence": "हर पोते को उसके जन्मदिन पर एक छोटा सा उपहार मिलता है।",
+      "reading": "potā",
+      "gender": "m"
+    },
+    "a1-026": {
+      "en": "relative",
+      "word": "रिश्तेदार",
+      "sentence": "हमारे शहर का एक रिश्तेदार गर्मियों में हमसे मिलने आता है।",
+      "reading": "riśtedār",
+      "gender": "m"
+    },
+    "a1-027": {
+      "en": "toddler",
+      "word": "बच्चा",
+      "sentence": "बच्चा लिविंग रूम में धीरे-धीरे चलता है।",
+      "reading": "baccā",
+      "gender": "m"
+    },
+    "a1-028": {
+      "en": "teenager",
+      "word": "किशोर",
+      "sentence": "किशोरी शनिवार को दुकान में मदद करती है।",
+      "reading": "kiśor",
+      "gender": "m"
+    },
+    "a1-029": {
+      "en": "adult",
+      "word": "वयस्क",
+      "sentence": "एक वयस्क बस स्टॉप पर बच्चे के साथ इंतजार कर रहा है।",
+      "reading": "vayask",
+      "gender": "m"
+    },
+    "a1-030": {
+      "en": "birthday",
+      "word": "जन्मदिन",
+      "sentence": "मई में मेरे जन्मदिन पर हम साथ में केक खाते हैं।",
+      "reading": "janmadin",
+      "gender": "m"
+    },
+    "a1-031": {
+      "en": "wedding",
+      "word": "शादी",
+      "sentence": "शादी एक धूप वाले दिन एक बगीचे में होती है।",
+      "reading": "śādī",
+      "gender": "f"
+    },
+    "a1-032": {
+      "en": "home",
+      "word": "घर",
+      "sentence": "जब मैं घर पर होता हूं तो शांत और खुश महसूस करता हूं।",
+      "reading": "ghar",
+      "gender": "m"
+    },
+    "a1-033": {
+      "en": "brother-in-law",
+      "word": "जीजाजी",
+      "sentence": "मेरे जीजा शहर के अस्पताल में काम करते हैं।",
+      "reading": "jījājī",
+      "gender": "f"
+    },
+    "a1-034": {
+      "en": "sister-in-law",
+      "word": "भाभी",
+      "sentence": "मेरी भाभी स्कूल में बच्चों को पढ़ाती हैं।",
+      "reading": "bhābhī",
+      "gender": "f"
+    },
+    "a1-035": {
+      "en": "mother-in-law",
+      "word": "सास",
+      "sentence": "मेरी सास परिवार के लिए गर्म सूप बनाती हैं।",
+      "reading": "sās",
+      "gender": "f"
+    },
+    "a1-036": {
+      "en": "father-in-law",
+      "word": "ससुर",
+      "sentence": "मेरे ससुर एक शांत गाँव में रहते हैं।",
+      "reading": "sasur",
+      "gender": "m"
+    },
+    "a1-037": {
+      "en": "hug",
+      "word": "गले लगाना",
+      "sentence": "जब मैं अपनी दादी के घर जाता हूं तो उन्हें गले लगाता हूं।",
+      "reading": "gale lagānā"
+    },
+    "a1-038": {
+      "en": "visit",
+      "word": "मिलने जाना",
+      "sentence": "हम गर्मियों में अपने चाचा से मिलने उनके खेत पर जाते हैं।",
+      "reading": "milne jānā"
+    },
+    "a1-039": {
+      "en": "party",
+      "word": "पार्टी",
+      "sentence": "हमने आज उनके जन्मदिन पर एक छोटी सी पार्टी रखी है।'",
+      "reading": "pārṭī",
+      "gender": "f"
+    },
+    "a1-040": {
+      "en": "gift",
+      "word": "उपहार",
+      "sentence": "मैं अपने पिता को उनके जन्मदिन पर एक उपहार देता हूं।",
+      "reading": "uphār",
+      "gender": "m"
+    },
+    "a1-041": {
+      "en": "shirt",
+      "word": "शर्ट",
+      "sentence": "मैं कार्यालय में साफ सफेद शर्ट पहनता हूं।",
+      "reading": "śarṭ",
+      "gender": "f"
+    },
+    "a1-042": {
+      "en": "shoe",
+      "word": "जूता",
+      "sentence": "मैं घर से निकलने से पहले अपना जूता पहनता हूं।",
+      "reading": "jūtā",
+      "gender": "m"
+    },
+    "a1-043": {
+      "en": "coat",
+      "word": "कोट",
+      "sentence": "मैं कड़ाके की सर्दी में गर्म कोट पहनता हूं।",
+      "reading": "koṭ",
+      "gender": "m"
+    },
+    "a1-044": {
+      "en": "dress",
+      "word": "पोशाक",
+      "sentence": "उसने आज रात पार्टी में नीली पोशाक पहनी है।",
+      "reading": "pośāk",
+      "gender": "f"
+    },
+    "a1-045": {
+      "en": "skirt",
+      "word": "स्कर्ट",
+      "sentence": "मैं पारिवारिक पार्टी में लंबी स्कर्ट पहनती हूं।",
+      "reading": "skarṭ",
+      "gender": "f"
+    },
+    "a1-046": {
+      "en": "pants",
+      "word": "पैंट",
+      "sentence": "ये पैंट साफ-सुथरे हैं और स्कूल के लिए अच्छे हैं।",
+      "reading": "paiṇṭ",
+      "gender": "f"
+    },
+    "a1-047": {
+      "en": "jeans",
+      "word": "जीन्स",
+      "sentence": "मैं शनिवार को नीली जींस और शर्ट पहनता हूं।",
+      "reading": "jīns",
+      "gender": "f"
+    },
+    "a1-048": {
+      "en": "jacket",
+      "word": "जैकेट",
+      "sentence": "मैं ठंडी शाम को हल्की जैकेट पहनता हूं।",
+      "reading": "jaikeṭ",
+      "gender": "f"
+    },
+    "a1-049": {
+      "en": "hat",
+      "word": "टोपी",
+      "sentence": "जब धूप बहुत तेज़ होती है तो मैं टोपी पहनता हूँ।",
+      "reading": "ṭopī",
+      "gender": "f"
+    },
+    "a1-050": {
+      "en": "cap",
+      "word": "टोपी",
+      "sentence": "मैं गर्मियों में समुद्र तट पर टोपी पहनता हूँ।",
+      "reading": "ṭopī",
+      "gender": "f"
+    },
+    "a1-051": {
+      "en": "sock",
+      "word": "मोजा",
+      "sentence": "यह मोजा मेरे पैर के लिए साफ और मुलायम है।",
+      "reading": "mojā",
+      "gender": "m"
+    },
+    "a1-052": {
+      "en": "sweater",
+      "word": "स्वेटर",
+      "sentence": "मैं पतझड़ के मौसम में गर्म स्वेटर पहनता हूँ।",
+      "reading": "sveṭar",
+      "gender": "m"
+    },
+    "a1-053": {
+      "en": "scarf",
+      "word": "दुपट्टा",
+      "sentence": "जब हवा ठंडी होती है तो मैं गर्म दुपट्टा पहनता हूं।",
+      "reading": "dupaṭṭā",
+      "gender": "m"
+    },
+    "a1-054": {
+      "en": "glove",
+      "word": "दस्ताना",
+      "sentence": "यह दस्ताना सर्दियों में मेरा हाथ गर्म रखता है।",
+      "reading": "dastānā",
+      "gender": "m"
+    },
+    "a1-055": {
+      "en": "belt",
+      "word": "बेल्ट",
+      "sentence": "मैं अपने वर्क पैंट के साथ ब्लैक बेल्ट पहनता हूं।",
+      "reading": "belṭ",
+      "gender": "f"
+    },
+    "a1-056": {
+      "en": "boot",
+      "word": "बूट",
+      "sentence": "यह बूट बर्फ में मेरे पैर को गर्म रखता है।",
+      "reading": "būṭ",
+      "gender": "m"
+    },
+    "a1-057": {
+      "en": "sandal",
+      "word": "चप्पल",
+      "sentence": "यह सैंडल समुद्र तट पर टहलने के लिए अच्छा है।",
+      "reading": "cappal",
+      "gender": "f"
+    },
+    "a1-058": {
+      "en": "shorts",
+      "word": "शॉर्ट्स",
+      "sentence": "जब गर्मी के दिन गर्म होते हैं तो मैं शॉर्ट्स पहनता हूं।",
+      "reading": "śŏrṭsa",
+      "gender": "m"
+    },
+    "a1-059": {
+      "en": "t-shirt",
+      "word": "टी-शर्ट",
+      "sentence": "मैं गर्म धूप वाले दिनों में सफेद टी-शर्ट पहनता हूं।",
+      "reading": "ṭī-śarṭ",
+      "gender": "f"
+    },
+    "a1-060": {
+      "en": "tie",
+      "word": "टाई",
+      "sentence": "वह काम करने के लिए अपने सूट के साथ गहरे रंग की टाई पहनता है।",
+      "reading": "ṭāī",
+      "gender": "f"
+    },
+    "a1-061": {
+      "en": "button",
+      "word": "बटन",
+      "sentence": "मेरी शर्ट का नीला बटन बहुत छोटा है।",
+      "reading": "baṭan",
+      "gender": "m"
+    },
+    "a1-062": {
+      "en": "pocket",
+      "word": "जेब",
+      "sentence": "मेरी चाबी मेरे कोट की जेब में है।",
+      "reading": "jeb",
+      "gender": "f"
+    },
+    "a1-063": {
+      "en": "glasses",
+      "word": "चश्मा",
+      "sentence": "जब मैं घर पर किताब पढ़ता हूं तो चश्मा पहनता हूं।",
+      "reading": "caśmā",
+      "gender": "m"
+    },
+    "a1-064": {
+      "en": "sunglasses",
+      "word": "धूप का चश्मा",
+      "sentence": "मैं धूप वाले दिनों में समुद्र तट पर धूप का चश्मा पहनता हूं।",
+      "reading": "dhūp kā caśmā",
+      "gender": "m"
+    },
+    "a1-065": {
+      "en": "ring",
+      "word": "अंगूठी",
+      "sentence": "मेरी उंगली पर अंगूठी मेरी माँ की ओर से एक उपहार है।",
+      "reading": "aṅgūṭhī",
+      "gender": "f"
+    },
+    "a1-066": {
+      "en": "necklace",
+      "word": "हार",
+      "sentence": "वह आज अपनी नीली ड्रेस के साथ नेकलेस पहनती हैं।",
+      "reading": "hār",
+      "gender": "m"
+    },
+    "a1-067": {
+      "en": "uniform",
+      "word": "वर्दी",
+      "sentence": "विद्यार्थी स्कूल में साफ-सुथरी वर्दी पहनता है।",
+      "reading": "vardī",
+      "gender": "f"
+    },
+    "a1-068": {
+      "en": "pajamas",
+      "word": "पजामा",
+      "sentence": "ये पजामा सर्दियों में नरम और गर्म होते हैं।",
+      "reading": "pajāmā",
+      "gender": "m"
+    },
+    "a1-069": {
+      "en": "slipper",
+      "word": "चप्पल",
+      "sentence": "यह चप्पल घर के अंदर नरम और गर्म होती है।",
+      "reading": "cappal",
+      "gender": "f"
+    },
+    "a1-070": {
+      "en": "raincoat",
+      "word": "रेनकोट",
+      "sentence": "जब दिन बारिश का होता है तो मैं रेनकोट पहनता हूं।",
+      "reading": "renkoṭ",
+      "gender": "m"
+    },
+    "a1-071": {
+      "en": "mitten",
+      "word": "दस्ताना",
+      "sentence": "यह दस्ताना मेरे हाथ को गर्म और सूखा रखता है।",
+      "reading": "dastānā",
+      "gender": "m"
+    },
+    "a1-072": {
+      "en": "umbrella",
+      "word": "छाता",
+      "sentence": "जब आसमान में बादल होते हैं तो मैं अपना छाता ले लेता हूं।",
+      "reading": "chātā",
+      "gender": "m"
+    },
+    "a1-073": {
+      "en": "watch",
+      "word": "घड़ी",
+      "sentence": "जब भी मैं अपनी घड़ी देखता हूं तो मुझे समय पता चल जाता है।",
+      "reading": "ghaṛī",
+      "gender": "f"
+    },
+    "a1-074": {
+      "en": "wallet",
+      "word": "बटुआ",
+      "sentence": "मैं अपना पैसा अपनी जेब में एक बटुए में रखता हूं।",
+      "reading": "baṭuā",
+      "gender": "m"
+    },
+    "a1-075": {
+      "en": "backpack",
+      "word": "बैकपैक",
+      "sentence": "आज मेरा बैग स्कूल के लिए किताबों से भरा हुआ है।",
+      "reading": "baikpaik",
+      "gender": "m"
+    },
+    "a1-076": {
+      "en": "clothes",
+      "word": "कपड़े",
+      "sentence": "मैं शनिवार की सुबह घर पर अपने कपड़े धोता हूँ।",
+      "reading": "kapṛe",
+      "gender": "m"
+    },
+    "a1-077": {
+      "en": "vest",
+      "word": "बनियान",
+      "sentence": "मैं अपने शीतकालीन कोट के नीचे एक गर्म बनियान पहनता हूं।",
+      "reading": "baniyān",
+      "gender": "f"
+    },
+    "a1-078": {
+      "en": "suit",
+      "word": "सूट",
+      "sentence": "वह आज कार्यालय में गहरे रंग का सूट पहनता है।",
+      "reading": "sūṭ",
+      "gender": "m"
+    },
+    "a1-079": {
+      "en": "sneaker",
+      "word": "स्नीकर",
+      "sentence": "यह स्नीकर साफ-सुथरा और चलने के लिए अच्छा है।",
+      "reading": "snīkar",
+      "gender": "m"
+    },
+    "a1-080": {
+      "en": "wear",
+      "word": "पहनना",
+      "sentence": "मैं सर्दियों में कोट और टोपी पहनता हूँ।",
+      "reading": "pahnanā"
+    },
+    "a1-081": {
+      "en": "today",
+      "word": "आज",
+      "sentence": "आज मौसम गर्म और बहुत साफ़ है।",
+      "reading": "āj",
+      "gender": "m"
+    },
+    "a1-082": {
+      "en": "tomorrow",
+      "word": "कल",
+      "sentence": "कल हम सुबह अपनी दादी से मिलने जायेंगे।",
+      "reading": "kal",
+      "gender": "m"
+    },
+    "a1-083": {
+      "en": "yesterday",
+      "word": "कल",
+      "sentence": "कल मैंने बगीचे में अपने पिता की मदद की।",
+      "reading": "kal",
+      "gender": "m"
+    },
+    "a1-084": {
+      "en": "morning",
+      "word": "सुबह",
+      "sentence": "मैं हर सुबह बाहर जाने से पहले चाय पीता हूं।",
+      "reading": "subah",
+      "gender": "f"
+    },
+    "a1-085": {
+      "en": "evening",
+      "word": "शाम",
+      "sentence": "हम शाम को घर पर एक साथ खाना खाते हैं।",
+      "reading": "śām",
+      "gender": "f"
+    },
+    "a1-086": {
+      "en": "afternoon",
+      "word": "दोपहर",
+      "sentence": "मैंने घर पर शांत दोपहर में एक किताब पढ़ी।",
+      "reading": "dophar",
+      "gender": "f"
+    },
+    "a1-087": {
+      "en": "week",
+      "word": "सप्ताह",
+      "sentence": "मैं अपनी दादी को हर हफ्ते एक बार फोन करता हूं।",
+      "reading": "saptāh",
+      "gender": "m"
+    },
+    "a1-088": {
+      "en": "year",
+      "word": "वर्ष",
+      "sentence": "एक वर्ष में बारह महीने होते हैं।",
+      "reading": "varṣ",
+      "gender": "m"
+    },
+    "a1-089": {
+      "en": "month",
+      "word": "महीना",
+      "sentence": "एक महीने में लगभग चार सप्ताह होते हैं।",
+      "reading": "mahīnā",
+      "gender": "m"
+    },
+    "a1-090": {
+      "en": "hour",
+      "word": "घंटा",
+      "sentence": "आज अंग्रेजी का पाठ एक घंटे का है।",
+      "reading": "ghaṇṭā",
+      "gender": "m"
+    },
+    "a1-091": {
+      "en": "minute",
+      "word": "मिनट",
+      "sentence": "कृपया एक मिनट प्रतीक्षा करें और फिर हम जा सकते हैं।",
+      "reading": "minaṭ",
+      "gender": "m"
+    },
+    "a1-092": {
+      "en": "second",
+      "word": "दूसरा",
+      "sentence": "कृपया एक सेकंड रुकें और फिर अंदर आएँ।",
+      "reading": "dūsrā",
+      "gender": "m"
+    },
+    "a1-093": {
+      "en": "day",
+      "word": "दिन",
+      "sentence": "यह पार्क में टहलने के लिए एक खूबसूरत दिन है।",
+      "reading": "din",
+      "gender": "m"
+    },
+    "a1-094": {
+      "en": "monday",
+      "word": "सोमवार",
+      "sentence": "सोमवार को स्कूल में हमारी अंग्रेजी की कक्षा है।",
+      "reading": "somvār",
+      "gender": "m"
+    },
+    "a1-095": {
+      "en": "tuesday",
+      "word": "मंगलवार",
+      "sentence": "मंगलवार को मैं स्कूल के बाद अपने दोस्तों के साथ खेलता हूँ।",
+      "reading": "maṅgalvār",
+      "gender": "m"
+    },
+    "a1-096": {
+      "en": "wednesday",
+      "word": "बुधवार",
+      "sentence": "बुधवार को हम घर पर दोपहर के भोजन के लिए सूप खाते हैं।",
+      "reading": "budhvār",
+      "gender": "m"
+    },
+    "a1-097": {
+      "en": "thursday",
+      "word": "गुरूवार",
+      "sentence": "गुरुवार को मैं स्कूल के बाद अपनी दादी से मिलने जाता हूँ।",
+      "reading": "gurūvār",
+      "gender": "m"
+    },
+    "a1-098": {
+      "en": "friday",
+      "word": "शुक्रवार",
+      "sentence": "शुक्रवार को हम स्थानीय थिएटर में एक फिल्म देखते हैं।",
+      "reading": "śukravār",
+      "gender": "m"
+    },
+    "a1-099": {
+      "en": "saturday",
+      "word": "शनिवार",
+      "sentence": "शनिवार को मैं सुबह अपने कपड़े धोता हूँ।",
+      "reading": "śanivār",
+      "gender": "m"
+    },
+    "a1-100": {
+      "en": "sunday",
+      "word": "रविवार",
+      "sentence": "रविवार को हमारा परिवार घर पर एक साथ दोपहर का खाना खाता है।",
+      "reading": "ravivār",
+      "gender": "m"
+    },
+    "a1-101": {
+      "en": "weekend",
+      "word": "सप्ताहांत",
+      "sentence": "हम सप्ताहांत में घर पर आराम करते हैं और किताबें पढ़ते हैं।",
+      "reading": "saptāhānt",
+      "gender": "m"
+    },
+    "a1-102": {
+      "en": "clock",
+      "word": "घड़ी",
+      "sentence": "रसोई में लगी घड़ी सही समय बताती है।",
+      "reading": "ghaṛī",
+      "gender": "f"
+    },
+    "a1-103": {
+      "en": "calendar",
+      "word": "कैलेंडर",
+      "sentence": "मैं अपना जन्मदिन रसोई के कैलेंडर पर लिखता हूं।",
+      "reading": "kaileṇḍar",
+      "gender": "m"
+    },
+    "a1-104": {
+      "en": "time",
+      "word": "समय",
+      "sentence": "आज सुबह कक्षा कितने बजे शुरू होगी?",
+      "reading": "samay",
+      "gender": "m"
+    },
+    "a1-105": {
+      "en": "early",
+      "word": "जल्दी",
+      "sentence": "मैं काम के लिए शहर जाने के लिए जल्दी ट्रेन पकड़ता हूं।",
+      "reading": "jaldī"
+    },
+    "a1-106": {
+      "en": "late",
+      "word": "देर से",
+      "sentence": "आज सुबह यातायात के कारण बस देर से आई।",
+      "reading": "der se"
+    },
+    "a1-107": {
+      "en": "soon",
+      "word": "जल्द ही",
+      "sentence": "रात का खाना जल्दी ही तैयार हो जाएगा, इसलिए कृपया बैठ जाइए।",
+      "reading": "jald hī"
+    },
+    "a1-108": {
+      "en": "now",
+      "word": "अभी",
+      "sentence": "छात्र अब पाठ के लिए कक्षा में हैं।",
+      "reading": "abhī"
+    },
+    "a1-109": {
+      "en": "always",
+      "word": "हमेशा",
+      "sentence": "मैं हमेशा बिस्तर पर जाने से पहले अपने दाँत ब्रश करता हूँ।",
+      "reading": "hameśā"
+    },
+    "a1-110": {
+      "en": "sometimes",
+      "word": "कभी-कभी",
+      "sentence": "मैं कभी-कभी अपने भाई के साथ पैदल स्कूल जाता हूँ।",
+      "reading": "kabhī-kabhī"
+    },
+    "a1-111": {
+      "en": "never",
+      "word": "कभी नहीं",
+      "sentence": "मैं घर से निकलते समय अपनी चाबियाँ कभी नहीं भूलता।",
+      "reading": "kabhī nahīṁ"
+    },
+    "a1-112": {
+      "en": "often",
+      "word": "अक्सर",
+      "sentence": "हम अक्सर रविवार की दोपहर को पार्क में जाते हैं।",
+      "reading": "aksar"
+    },
+    "a1-113": {
+      "en": "usually",
+      "word": "आमतौर पर",
+      "sentence": "मैं आमतौर पर हर सुबह नाश्ते के साथ चाय पीता हूं।",
+      "reading": "āmtaur par"
+    },
+    "a1-114": {
+      "en": "noon",
+      "word": "दोपहर",
+      "sentence": "हम हर दिन स्कूल में दोपहर का खाना खाते हैं।",
+      "reading": "dophar",
+      "gender": "f"
+    },
+    "a1-115": {
+      "en": "midnight",
+      "word": "आधी रात",
+      "sentence": "आधी रात को शहर शांत और अंधेरा रहता है।",
+      "reading": "ādhī rāt",
+      "gender": "f"
+    },
+    "a1-116": {
+      "en": "tonight",
+      "word": "आज रात",
+      "sentence": "आज रात हम घर पर पास्ता पकाएंगे और साथ में खाएंगे।",
+      "reading": "āj rāt",
+      "gender": "f"
+    },
+    "a1-117": {
+      "en": "spring",
+      "word": "वसंत",
+      "sentence": "वसंत ऋतु में उद्यान हरा और उज्ज्वल होता है।",
+      "reading": "vasant",
+      "gender": "m"
+    },
+    "a1-118": {
+      "en": "summer",
+      "word": "गर्मी",
+      "sentence": "हम भीषण गर्मी के दौरान झील में तैरते हैं।",
+      "reading": "garmī",
+      "gender": "f"
+    },
+    "a1-119": {
+      "en": "autumn",
+      "word": "पतझड़",
+      "sentence": "मैं ठंडी शरद ऋतु में गर्म स्वेटर पहनता हूँ।",
+      "reading": "patjhaṛ",
+      "gender": "m"
+    },
+    "a1-120": {
+      "en": "winter",
+      "word": "सर्दी",
+      "sentence": "मैं कड़ाके की सर्दी में मोटा कोट पहनता हूं।",
+      "reading": "sardī",
+      "gender": "f"
+    },
+    "a1-121": {
+      "en": "street",
+      "word": "सड़क",
+      "sentence": "हमारा घर पार्क के पास एक शांत सड़क पर है।",
+      "reading": "saṛak",
+      "gender": "f"
+    },
+    "a1-122": {
+      "en": "station",
+      "word": "स्टेशन",
+      "sentence": "हम रोज सुबह स्टेशन पर ट्रेन का इंतजार करते हैं।",
+      "reading": "sṭeśan",
+      "gender": "m"
+    },
+    "a1-123": {
+      "en": "hospital",
+      "word": "अस्पताल",
+      "sentence": "मेरी चाची अस्पताल में नर्स के रूप में काम करती हैं।",
+      "reading": "aspatāl",
+      "gender": "m"
+    },
+    "a1-124": {
+      "en": "hotel",
+      "word": "होटल",
+      "sentence": "हम समुद्र तट के पास एक छोटे से होटल में ठहरते हैं।",
+      "reading": "hoṭal",
+      "gender": "m"
+    },
+    "a1-125": {
+      "en": "shop",
+      "word": "दुकान",
+      "sentence": "हमारी सड़क पर दुकान ब्रेड और फल बेचती है।",
+      "reading": "dukān",
+      "gender": "f"
+    },
+    "a1-126": {
+      "en": "market",
+      "word": "बाज़ार",
+      "sentence": "मैं शनिवार को बाज़ार से ताज़ा फल खरीदता हूँ।",
+      "reading": "bāzār",
+      "gender": "m"
+    },
+    "a1-127": {
+      "en": "bank",
+      "word": "बैंक",
+      "sentence": "मैं अपना पैसा शहर के बैंक में रखता हूँ।",
+      "reading": "baiṅk",
+      "gender": "m"
+    },
+    "a1-128": {
+      "en": "park",
+      "word": "पार्क",
+      "sentence": "बच्चे प्रतिदिन स्कूल के बाद पार्क में खेलते हैं।",
+      "reading": "pārk",
+      "gender": "m"
+    },
+    "a1-129": {
+      "en": "library",
+      "word": "पुस्तकालय",
+      "sentence": "मैं अपने घर के पास की लाइब्रेरी में किताबें पढ़ता हूं।",
+      "reading": "pustakālay",
+      "gender": "m"
+    },
+    "a1-130": {
+      "en": "restaurant",
+      "word": "भोजनालय",
+      "sentence": "हम शनिवार की रात एक रेस्तरां में खाना खाते हैं।",
+      "reading": "bhojanālay",
+      "gender": "m"
+    },
+    "a1-131": {
+      "en": "cafe",
+      "word": "कैफ़े",
+      "sentence": "हम स्टेशन के पास कैफे में चाय पीते हैं।",
+      "reading": "kaife",
+      "gender": "m"
+    },
+    "a1-132": {
+      "en": "museum",
+      "word": "संग्रहालय",
+      "sentence": "संग्रहालय रविवार दोपहर को परिवारों के लिए खुला रहता है।",
+      "reading": "saṅgrahālay",
+      "gender": "m"
+    },
+    "a1-133": {
+      "en": "cinema",
+      "word": "सिनेमा",
+      "sentence": "हम शुक्रवार की रात दोस्तों के साथ सिनेमा देखने जाते हैं।",
+      "reading": "sinemā",
+      "gender": "m"
+    },
+    "a1-134": {
+      "en": "theater",
+      "word": "थिएटर",
+      "sentence": "हम शनिवार शाम को थिएटर में एक नाटक देखते हैं।",
+      "reading": "thieṭar",
+      "gender": "m"
+    },
+    "a1-135": {
+      "en": "pharmacy",
+      "word": "फार्मेसी",
+      "sentence": "मैं अपने घर के पास की फार्मेसी से दवा खरीदता हूं।",
+      "reading": "phārmesī",
+      "gender": "f"
+    },
+    "a1-136": {
+      "en": "church",
+      "word": "चर्च",
+      "sentence": "हमारे शहर में सोमवार की सुबह चर्च शांत रहता है।",
+      "reading": "carc",
+      "gender": "m"
+    },
+    "a1-137": {
+      "en": "bridge",
+      "word": "पुल",
+      "sentence": "हम पुल पार करके सिटी पार्क की ओर चलते हैं।",
+      "reading": "pul",
+      "gender": "m"
+    },
+    "a1-138": {
+      "en": "square",
+      "word": "वर्ग",
+      "sentence": "बाज़ार के दिन लोग शहर के चौराहे पर मिलते हैं।",
+      "reading": "varg",
+      "gender": "m"
+    },
+    "a1-139": {
+      "en": "corner",
+      "word": "कोने",
+      "sentence": "बैंक बेकरी के बगल वाले कोने पर है।",
+      "reading": "kone",
+      "gender": "m"
+    },
+    "a1-140": {
+      "en": "building",
+      "word": "इमारत",
+      "sentence": "अस्पताल हमारे शहर की एक बड़ी इमारत है।",
+      "reading": "imārat",
+      "gender": "f"
+    },
+    "a1-141": {
+      "en": "address",
+      "word": "पता",
+      "sentence": "कृपया अपना पता कागज पर स्पष्ट रूप से लिखें।",
+      "reading": "patā",
+      "gender": "m"
+    },
+    "a1-142": {
+      "en": "map",
+      "word": "नक्शा",
+      "sentence": "जब मैं संग्रहालय ढूंढना चाहता हूं तो मैं मानचित्र देखता हूं।",
+      "reading": "nakśā",
+      "gender": "m"
+    },
+    "a1-143": {
+      "en": "supermarket",
+      "word": "सुपरमार्केट",
+      "sentence": "हम हर शनिवार सुबह सुपरमार्केट से खाना खरीदते हैं।",
+      "reading": "suparamārkeṭ",
+      "gender": "m"
+    },
+    "a1-144": {
+      "en": "bakery",
+      "word": "बेकरी",
+      "sentence": "मैं सुबह बेकरी से ताज़ी ब्रेड खरीदता हूँ।",
+      "reading": "bekrī",
+      "gender": "f"
+    },
+    "a1-145": {
+      "en": "clinic",
+      "word": "क्लिनिक",
+      "sentence": "जब मेरी तबीयत ठीक नहीं होती तो मैं क्लिनिक जाता हूं।",
+      "reading": "klinik",
+      "gender": "f"
+    },
+    "a1-146": {
+      "en": "airport",
+      "word": "हवाई अड्डा",
+      "sentence": "हम सुबह-सुबह हवाई अड्डे के लिए बस लेते हैं।",
+      "reading": "havāī aḍḍā",
+      "gender": "m"
+    },
+    "a1-147": {
+      "en": "office",
+      "word": "कार्यालय",
+      "sentence": "मेरे पापा स्टेशन के पास एक ऑफिस में काम करते हैं।",
+      "reading": "kāryālay",
+      "gender": "m"
+    },
+    "a1-148": {
+      "en": "town",
+      "word": "शहर",
+      "sentence": "हमारे शहर में एक बाज़ार, एक पार्क और एक पुस्तकालय है।",
+      "reading": "śahar",
+      "gender": "m"
+    },
+    "a1-149": {
+      "en": "village",
+      "word": "गाँव",
+      "sentence": "मेरे दादा-दादी एक नदी के किनारे एक शांत गाँव में रहते हैं।",
+      "reading": "gā̃v",
+      "gender": "m"
+    },
+    "a1-150": {
+      "en": "sidewalk",
+      "word": "फुटपाथ",
+      "sentence": "कृपया व्यस्त सड़क के पास फुटपाथ पर चलें।",
+      "reading": "phuṭpāth",
+      "gender": "m"
+    },
+    "a1-151": {
+      "en": "traffic",
+      "word": "यातायात",
+      "sentence": "स्कूल के पास सुबह के समय यातायात धीमा रहता है।",
+      "reading": "yātāyāt",
+      "gender": "m"
+    },
+    "a1-152": {
+      "en": "sign",
+      "word": "संकेत",
+      "sentence": "कोने पर लगा चिन्ह स्टेशन का रास्ता दिखाता है।",
+      "reading": "saṅket",
+      "gender": "m"
+    },
+    "a1-153": {
+      "en": "bench",
+      "word": "बेंच",
+      "sentence": "हम पार्क में एक बेंच पर बैठते हैं और साथ में बातें करते हैं।",
+      "reading": "beñc",
+      "gender": "f"
+    },
+    "a1-154": {
+      "en": "playground",
+      "word": "खेल का मैदान",
+      "sentence": "बच्चे प्रतिदिन स्कूल के बाद खेल के मैदान में खेलते हैं।",
+      "reading": "khel kā maidān",
+      "gender": "m"
+    },
+    "a1-155": {
+      "en": "zoo",
+      "word": "चिड़ियाघर",
+      "sentence": "हम चिड़ियाघर में एक शेर और एक हाथी देखते हैं।",
+      "reading": "ciṛiyāghar",
+      "gender": "m"
+    },
+    "a1-156": {
+      "en": "beach",
+      "word": "समुद्रतट",
+      "sentence": "हम समुद्र तट पर चलते हैं और गर्मियों में तैरते हैं।",
+      "reading": "samudrataṭ",
+      "gender": "m"
+    },
+    "a1-157": {
+      "en": "tower",
+      "word": "टावर",
+      "sentence": "पुराना टॉवर लंबा है और शहर से देखना आसान है।",
+      "reading": "ṭāvar",
+      "gender": "m"
+    },
+    "a1-158": {
+      "en": "gate",
+      "word": "द्वार",
+      "sentence": "जब आप बगीचे से बाहर निकलें तो कृपया गेट बंद कर दें।",
+      "reading": "dvār",
+      "gender": "m"
+    },
+    "a1-159": {
+      "en": "stamp",
+      "word": "मोहर",
+      "sentence": "मैंने अपने चाचा को लिखे पत्र पर मोहर लगा दी।",
+      "reading": "mohar",
+      "gender": "m"
+    },
+    "a1-160": {
+      "en": "postcard",
+      "word": "पोस्टकार्ड",
+      "sentence": "मैं समुद्र तट से अपनी दादी को एक पोस्टकार्ड भेजता हूँ।",
+      "reading": "posṭakārḍ",
+      "gender": "m"
+    },
+    "a1-161": {
+      "en": "teacher",
+      "word": "शिक्षक",
+      "sentence": "शिक्षक प्रत्येक दिन बोर्ड पर नए शब्द लिखता है।",
+      "reading": "śikṣak",
+      "gender": "m"
+    },
+    "a1-162": {
+      "en": "student",
+      "word": "छात्र",
+      "sentence": "छात्र आज कक्षा में एक छोटी कहानी पढ़ता है।",
+      "reading": "chātra",
+      "gender": "m"
+    },
+    "a1-163": {
+      "en": "classroom",
+      "word": "कक्षा",
+      "sentence": "हमारी कक्षा उज्ज्वल, स्वच्छ और बहुत शांत है।",
+      "reading": "kakṣā",
+      "gender": "f"
+    },
+    "a1-164": {
+      "en": "desk",
+      "word": "डेस्क",
+      "sentence": "मैं अपनी मेज पर बैठता हूं और अपनी नोटबुक में लिखता हूं।",
+      "reading": "ḍesk",
+      "gender": "m"
+    },
+    "a1-165": {
+      "en": "chair",
+      "word": "कुर्सी",
+      "sentence": "कुर्सी खिड़की के पास डेस्क के बगल में है।",
+      "reading": "kursī",
+      "gender": "f"
+    },
+    "a1-166": {
+      "en": "pen",
+      "word": "कलम",
+      "sentence": "मैं कागज पर नीले पेन से अपना नाम लिखता हूं।",
+      "reading": "kalam",
+      "gender": "f"
+    },
+    "a1-167": {
+      "en": "pencil",
+      "word": "पेंसिल",
+      "sentence": "मैं पीली पेंसिल से एक छोटा सा घर बनाता हूँ।",
+      "reading": "peṁsil",
+      "gender": "f"
+    },
+    "a1-168": {
+      "en": "paper",
+      "word": "कागज",
+      "sentence": "कृपया अब कागज पर अपना नाम लिखें।",
+      "reading": "kāgaj",
+      "gender": "m"
+    },
+    "a1-169": {
+      "en": "notebook",
+      "word": "नोटबुक",
+      "sentence": "मैं हर दिन अपनी नोटबुक में नए शब्द लिखता हूं।",
+      "reading": "noṭbuk",
+      "gender": "f"
+    },
+    "a1-170": {
+      "en": "page",
+      "word": "पेज",
+      "sentence": "कृपया पाठ का पहला पृष्ठ धीरे-धीरे पढ़ें।",
+      "reading": "pej",
+      "gender": "m"
+    },
+    "a1-171": {
+      "en": "board",
+      "word": "बोर्ड",
+      "sentence": "शिक्षक हर सुबह बोर्ड पर तारीख लिखते हैं।",
+      "reading": "borḍ",
+      "gender": "m"
+    },
+    "a1-172": {
+      "en": "chalk",
+      "word": "चाक",
+      "sentence": "शिक्षक बोर्ड पर सफेद चॉक से लिखते हैं।",
+      "reading": "cāk",
+      "gender": "m"
+    },
+    "a1-173": {
+      "en": "marker",
+      "word": "मार्कर",
+      "sentence": "मैं बोर्ड पर काले मार्कर से लिखता हूं।",
+      "reading": "mārkar",
+      "gender": "m"
+    },
+    "a1-174": {
+      "en": "eraser",
+      "word": "मिटाने वाला",
+      "sentence": "इरेज़र मेरी मेज पर पेंसिल के बगल में है।",
+      "reading": "miṭāne vālā",
+      "gender": "m"
+    },
+    "a1-175": {
+      "en": "ruler",
+      "word": "शासक",
+      "sentence": "मैं कक्षा में अपने रूलर से एक सीधी रेखा खींचता हूँ।",
+      "reading": "śāsak",
+      "gender": "m"
+    },
+    "a1-176": {
+      "en": "homework",
+      "word": "गृहकार्य",
+      "sentence": "मैं हर शाम रसोई की मेज पर अपना होमवर्क करती हूं।",
+      "reading": "gṛhakārya",
+      "gender": "m"
+    },
+    "a1-177": {
+      "en": "lesson",
+      "word": "सबक",
+      "sentence": "हमारे स्कूल में हर सुबह एक अंग्रेजी पाठ होता है।",
+      "reading": "sabak",
+      "gender": "m"
+    },
+    "a1-178": {
+      "en": "class",
+      "word": "कक्षा",
+      "sentence": "हमारी क्लास सुबह आठ बजे शुरू होती है।",
+      "reading": "kakṣā",
+      "gender": "f"
+    },
+    "a1-179": {
+      "en": "question",
+      "word": "प्रश्न",
+      "sentence": "जब मुझे पाठ समझ में नहीं आता तो मैं प्रश्न पूछता हूं।",
+      "reading": "praśna",
+      "gender": "m"
+    },
+    "a1-180": {
+      "en": "answer",
+      "word": "उत्तर",
+      "sentence": "मैं बहुत ध्यान से उत्तर अपनी नोटबुक में लिखता हूं।",
+      "reading": "uttar",
+      "gender": "m"
+    },
+    "a1-181": {
+      "en": "word",
+      "word": "शब्द",
+      "sentence": "हम हर सुबह कक्षा में एक नया शब्द सीखते हैं।",
+      "reading": "śabd",
+      "gender": "m"
+    },
+    "a1-182": {
+      "en": "sentence",
+      "word": "वाक्य",
+      "sentence": "कृपया नए शब्द के साथ एक छोटा वाक्य लिखें।",
+      "reading": "vākya",
+      "gender": "m"
+    },
+    "a1-183": {
+      "en": "letter",
+      "word": "अक्षर",
+      "sentence": "बोर्ड पर अक्षर A लिखना आसान है।",
+      "reading": "akṣar",
+      "gender": "m"
+    },
+    "a1-184": {
+      "en": "test",
+      "word": "परीक्षण",
+      "sentence": "शुक्रवार की सुबह कक्षा में हमारी एक छोटी परीक्षा है।",
+      "reading": "parīkṣaṇ",
+      "gender": "m"
+    },
+    "a1-185": {
+      "en": "dictionary",
+      "word": "शब्दकोष",
+      "sentence": "मैं स्कूल में शब्दकोश में एक नया शब्द देखता हूँ।",
+      "reading": "śabdakoṣ",
+      "gender": "m"
+    },
+    "a1-186": {
+      "en": "picture",
+      "word": "चित्र",
+      "sentence": "मैं अपने परिवार और हमारे घर का चित्र बनाता हूँ।",
+      "reading": "citra",
+      "gender": "f"
+    },
+    "a1-187": {
+      "en": "bag",
+      "word": "थैला",
+      "sentence": "मेरा बैग कक्षा में कुर्सी के नीचे है।",
+      "reading": "thailā",
+      "gender": "m"
+    },
+    "a1-188": {
+      "en": "scissors",
+      "word": "कैंची",
+      "sentence": "ये कैंची कला पाठ के लिए डेस्क पर हैं।",
+      "reading": "kaiñcī",
+      "gender": "f"
+    },
+    "a1-189": {
+      "en": "glue",
+      "word": "गोंद",
+      "sentence": "मैं चित्र को कागज पर चिपकाने के लिए गोंद का उपयोग करता हूँ।",
+      "reading": "gond",
+      "gender": "m"
+    },
+    "a1-190": {
+      "en": "crayon",
+      "word": "क्रेयॉन",
+      "sentence": "मैं कक्षा में चित्र को लाल क्रेयॉन से रंगता हूँ।",
+      "reading": "kreyŏn",
+      "gender": "m"
+    },
+    "a1-191": {
+      "en": "classmate",
+      "word": "सहपाठी",
+      "sentence": "मेरा सहपाठी स्कूल के बाद होमवर्क में मेरी मदद करता है।",
+      "reading": "sahpāṭhī",
+      "gender": "f"
+    },
+    "a1-192": {
+      "en": "bell",
+      "word": "घंटी",
+      "sentence": "स्कूल के दिन के अंत में घंटी बजती है।",
+      "reading": "ghaṇṭī",
+      "gender": "f"
+    },
+    "a1-193": {
+      "en": "note",
+      "word": "नोट",
+      "sentence": "मैं कक्षा के दौरान अपने मित्र को एक संक्षिप्त नोट लिखता हूँ।",
+      "reading": "noṭ",
+      "gender": "m"
+    },
+    "a1-194": {
+      "en": "textbook",
+      "word": "पाठ्यपुस्तक",
+      "sentence": "कृपया अब अपनी पाठ्यपुस्तक का पहला पृष्ठ खोलें।",
+      "reading": "pāṭhyapustak",
+      "gender": "f"
+    },
+    "a1-195": {
+      "en": "read",
+      "word": "पढ़ना",
+      "sentence": "मैं हर शाम सोने से पहले एक छोटी कहानी पढ़ता हूं।",
+      "reading": "paṛhnā"
+    },
+    "a1-196": {
+      "en": "write",
+      "word": "लिखना",
+      "sentence": "मैं पृष्ठ के शीर्ष पर अपना नाम लिखता हूँ।",
+      "reading": "likhnā"
+    },
+    "a1-197": {
+      "en": "study",
+      "word": "पढ़ना",
+      "sentence": "मैं अपने सहपाठी के साथ शुक्रवार की परीक्षा के लिए अध्ययन करता हूँ।",
+      "reading": "paṛhnā"
+    },
+    "a1-198": {
+      "en": "learn",
+      "word": "सीखना",
+      "sentence": "हम हर सप्ताह कक्षा में दस नए शब्द सीखते हैं।",
+      "reading": "sīkhnā"
+    },
+    "a1-199": {
+      "en": "draw",
+      "word": "चित्र बनाना",
+      "sentence": "मैं एक घर और एक बगीचे का चित्र बनाता हूँ।",
+      "reading": "citra banānā"
+    },
+    "a1-200": {
+      "en": "ask",
+      "word": "पूछना",
+      "sentence": "मैं कठिन पाठ के लिए शिक्षक से मदद माँगता हूँ।",
+      "reading": "pūchnā"
+    },
+    "a1-201": {
+      "en": "weather",
+      "word": "मौसम",
+      "sentence": "शहर में आज सुबह मौसम गर्म और धूप वाला है।",
+      "reading": "mausam",
+      "gender": "m"
+    },
+    "a1-202": {
+      "en": "cloud",
+      "word": "बादल",
+      "sentence": "एक सफेद बादल नीले आकाश में धीरे-धीरे घूम रहा है।",
+      "reading": "bādal",
+      "gender": "m"
+    },
+    "a1-203": {
+      "en": "snow",
+      "word": "बर्फ",
+      "sentence": "सर्दी के मौसम में बच्चों को बर्फ में खेलना बहुत पसंद होता है।",
+      "reading": "barph",
+      "gender": "m"
+    },
+    "a1-204": {
+      "en": "wind",
+      "word": "हवा",
+      "sentence": "आज दोपहर समुद्र के पास हवा तेज़ है।",
+      "reading": "havā",
+      "gender": "f"
+    },
+    "a1-205": {
+      "en": "storm",
+      "word": "तूफ़ान",
+      "sentence": "बड़े तूफ़ान के दौरान हम घर के अंदर ही रहते हैं।",
+      "reading": "tūfān",
+      "gender": "m"
+    },
+    "a1-206": {
+      "en": "ice",
+      "word": "बर्फ",
+      "sentence": "इस ठंडी सुबह फुटपाथ पर बर्फ है।",
+      "reading": "barph",
+      "gender": "m"
+    },
+    "a1-207": {
+      "en": "fog",
+      "word": "कोहरा",
+      "sentence": "हम धीरे-धीरे गाड़ी चलाते हैं क्योंकि कोहरा बहुत घना है।",
+      "reading": "kohrā",
+      "gender": "m"
+    },
+    "a1-208": {
+      "en": "sky",
+      "word": "आकाश",
+      "sentence": "सुबह की बारिश के बाद आसमान नीला और साफ है।",
+      "reading": "ākāś",
+      "gender": "m"
+    },
+    "a1-209": {
+      "en": "sunny",
+      "word": "धूप",
+      "sentence": "धूप है, इसलिए हम दोपहर का खाना बाहर पार्क में खाते हैं।",
+      "reading": "dhūp"
+    },
+    "a1-210": {
+      "en": "rainy",
+      "word": "बरसाती",
+      "sentence": "बारिश का मौसम है, इसलिए मैं अपना छाता लेकर स्कूल जाता हूँ।",
+      "reading": "barsātī"
+    },
+    "a1-211": {
+      "en": "cloudy",
+      "word": "बादल छाए रहेंगे",
+      "sentence": "बादल छाए हुए हैं, लेकिन बाहर की हवा अभी भी गर्म है।",
+      "reading": "bādal chāe raheṅge"
+    },
+    "a1-212": {
+      "en": "windy",
+      "word": "हवादार",
+      "sentence": "हवा चल रही है, इसलिए मैं कोट और दुपट्टा पहनता हूं।",
+      "reading": "havādār"
+    },
+    "a1-213": {
+      "en": "snowy",
+      "word": "बर्फीला",
+      "sentence": "बर्फ़बारी है, और पार्क सफ़ेद और शांत दिखता है।",
+      "reading": "barphīlā"
+    },
+    "a1-214": {
+      "en": "warm",
+      "word": "गर्म",
+      "sentence": "सर्दी के दिनों में सूप गर्म और अच्छा होता है।",
+      "reading": "garm"
+    },
+    "a1-215": {
+      "en": "cool",
+      "word": "मस्त",
+      "sentence": "गर्म दोपहर के बाद शाम की हवा ठंडी होती है।",
+      "reading": "mast"
+    },
+    "a1-216": {
+      "en": "wet",
+      "word": "गीला",
+      "sentence": "बारिश में घर चलने के बाद मेरे जूते गीले हो गए हैं।",
+      "reading": "gīlā"
+    },
+    "a1-217": {
+      "en": "dry",
+      "word": "सूखा",
+      "sentence": "बरसात की सुबह के बाद मेरा कोट फिर से सूख गया है।",
+      "reading": "sūkhā"
+    },
+    "a1-218": {
+      "en": "temperature",
+      "word": "तापमान",
+      "sentence": "शहर में आज तापमान बीस डिग्री है।",
+      "reading": "tāpmān",
+      "gender": "m"
+    },
+    "a1-219": {
+      "en": "degree",
+      "word": "डिग्री",
+      "sentence": "इस ठंडी सुबह का तापमान शून्य से एक डिग्री ऊपर है।",
+      "reading": "ḍigrī",
+      "gender": "f"
+    },
+    "a1-220": {
+      "en": "forecast",
+      "word": "पूर्वानुमान",
+      "sentence": "पूर्वानुमान कहता है कि कल गर्म और शुष्क रहेगा।",
+      "reading": "pūrvānumān",
+      "gender": "m"
+    },
+    "a1-221": {
+      "en": "lightning",
+      "word": "बिजली",
+      "sentence": "हम रात्रि के समय अँधेरे आकाश में चमकीली बिजली देखते हैं।",
+      "reading": "bijlī",
+      "gender": "f"
+    },
+    "a1-222": {
+      "en": "thunder",
+      "word": "गड़गड़ाहट",
+      "sentence": "तूफ़ान के दौरान बच्चों को तेज़ गड़गड़ाहट सुनाई देती है।",
+      "reading": "gaṛagaṛāhaṭ",
+      "gender": "f"
+    },
+    "a1-223": {
+      "en": "rainbow",
+      "word": "इंद्रधनुष",
+      "sentence": "बारिश रुकने के बाद हमें एक चमकीला इंद्रधनुष दिखाई देता है।",
+      "reading": "indradhnuṣ",
+      "gender": "m"
+    },
+    "a1-224": {
+      "en": "frost",
+      "word": "ठंढ",
+      "sentence": "इस ठंडी सुबह घास पर सफेद बर्फ है।",
+      "reading": "ṭhaṇḍh",
+      "gender": "m"
+    },
+    "a1-225": {
+      "en": "breeze",
+      "word": "हवा",
+      "sentence": "आज दोपहर को समुद्र से ठंडी हवा आती है।",
+      "reading": "havā",
+      "gender": "f"
+    },
+    "a1-226": {
+      "en": "shade",
+      "word": "छाया",
+      "sentence": "हम दोपहर के समय एक बड़े पेड़ की छाया में बैठते हैं।",
+      "reading": "chāyā",
+      "gender": "f"
+    },
+    "a1-227": {
+      "en": "sunshine",
+      "word": "धूप",
+      "sentence": "आज सुबह मेरे चेहरे पर धूप गर्म महसूस हो रही है।",
+      "reading": "dhūp",
+      "gender": "f"
+    },
+    "a1-228": {
+      "en": "foggy",
+      "word": "धूमिल",
+      "sentence": "कोहरा है, इसलिए सड़क पर गाड़ियाँ धीमी गति से चल रही हैं।",
+      "reading": "dhūmil"
+    },
+    "a1-229": {
+      "en": "icy",
+      "word": "बर्फीला",
+      "sentence": "फुटपाथ बर्फीला है, इसलिए कृपया बहुत सावधानी से चलें।",
+      "reading": "barphīlā"
+    },
+    "a1-230": {
+      "en": "mild",
+      "word": "सौम्य",
+      "sentence": "हमारे शहर में वसंत ऋतु के दौरान मौसम सुहावना होता है।",
+      "reading": "saumya"
+    },
+    "a1-231": {
+      "en": "clear",
+      "word": "स्पष्ट",
+      "sentence": "रात का आकाश साफ़ है, और मैं कई तारे देख सकता हूँ।",
+      "reading": "spaṣṭ"
+    },
+    "a1-232": {
+      "en": "puddle",
+      "word": "पोखर",
+      "sentence": "बच्चा बारिश के बाद एक छोटे से पोखर पर छलांग लगाता है।",
+      "reading": "pokhar",
+      "gender": "m"
+    },
+    "a1-233": {
+      "en": "drizzle",
+      "word": "बूंदाबांदी",
+      "sentence": "आज सुबह बगीचे में हल्की बूंदाबांदी हो रही है।",
+      "reading": "būndābāndī",
+      "gender": "f"
+    },
+    "a1-234": {
+      "en": "hail",
+      "word": "जय हो",
+      "sentence": "हमारे घर की छत पर ओले जोर-जोर से गिर रहे हैं।",
+      "reading": "jay ho",
+      "gender": "m"
+    },
+    "a1-235": {
+      "en": "stormy",
+      "word": "तूफ़ानी",
+      "sentence": "तूफ़ानी है इसलिए हम घर पर रहकर पढ़ते हैं।",
+      "reading": "tūfānī"
+    },
+    "a1-236": {
+      "en": "outside",
+      "word": "बाहर",
+      "sentence": "मौसम गर्म होने पर हम दोपहर का खाना बाहर खाते हैं।",
+      "reading": "bāhar"
+    },
+    "a1-237": {
+      "en": "tea",
+      "word": "चाय",
+      "sentence": "मैं हर सुबह थोड़े से शहद के साथ गर्म चाय पीता हूं।",
+      "reading": "cāy",
+      "gender": "f"
+    },
+    "a1-238": {
+      "en": "sugar",
+      "word": "चीनी",
+      "sentence": "मैंने अपनी चाय के कप में थोड़ी सी चीनी डाल दी।",
+      "reading": "cīnī",
+      "gender": "f"
+    },
+    "a1-239": {
+      "en": "salt",
+      "word": "नमक",
+      "sentence": "मैंने सब्जी के सूप में थोड़ा नमक डाला।",
+      "reading": "namak",
+      "gender": "m"
+    },
+    "a1-240": {
+      "en": "cheese",
+      "word": "पनीर",
+      "sentence": "मुझे साधारण दोपहर के भोजन के लिए गर्म रोटी पर पनीर पसंद है।",
+      "reading": "panīr",
+      "gender": "m"
+    },
+    "a1-241": {
+      "en": "meat",
+      "word": "मांस",
+      "sentence": "आज रात के खाने में हम एक साथ मांस और सब्जियाँ खाते हैं।",
+      "reading": "māṁs",
+      "gender": "m"
+    },
+    "a1-242": {
+      "en": "fruit",
+      "word": "फल",
+      "sentence": "मैं हर सुबह नाश्ते में ताजे फल खाता हूं।",
+      "reading": "phal",
+      "gender": "m"
+    },
+    "a1-243": {
+      "en": "banana",
+      "word": "केला",
+      "sentence": "मैं हर दिन स्कूल के बाद एक पीला केला खाता हूं।",
+      "reading": "kelā",
+      "gender": "m"
+    },
+    "a1-244": {
+      "en": "orange",
+      "word": "नारंगी",
+      "sentence": "यह संतरा मीठा और ठंडे रस से भरपूर होता है।",
+      "reading": "nāraṅgī",
+      "gender": "f"
+    },
+    "a1-245": {
+      "en": "tomato",
+      "word": "टमाटर",
+      "sentence": "मैंने दोपहर के भोजन में सलाद के लिए एक लाल टमाटर काटा।",
+      "reading": "ṭamāṭar",
+      "gender": "m"
+    },
+    "a1-246": {
+      "en": "potato",
+      "word": "आलू",
+      "sentence": "मैं आज रात के खाने के लिए ओवन में आलू पकाती हूँ।",
+      "reading": "ālū",
+      "gender": "m"
+    },
+    "a1-247": {
+      "en": "carrot",
+      "word": "गाजर",
+      "sentence": "खरगोश को हमारे बगीचे की ताज़ी गाजर पसंद है।",
+      "reading": "gājar",
+      "gender": "f"
+    },
+    "a1-248": {
+      "en": "onion",
+      "word": "प्याज",
+      "sentence": "मैंने स्टोव पर सूप के लिए एक प्याज काटा।",
+      "reading": "pyāj",
+      "gender": "m"
+    },
+    "a1-249": {
+      "en": "salad",
+      "word": "सलाद",
+      "sentence": "मैं हर दिन अपने दोपहर के भोजन के साथ हरा सलाद खाता हूं।",
+      "reading": "salād",
+      "gender": "m"
+    },
+    "a1-250": {
+      "en": "soup",
+      "word": "सूप",
+      "sentence": "यह सूप गर्म है और दोपहर के भोजन के लिए बहुत अच्छा है।",
+      "reading": "sūp",
+      "gender": "m"
+    },
+    "a1-251": {
+      "en": "vegetable",
+      "word": "सब्जी",
+      "sentence": "कृपया आज रात के खाने में एक सब्जी खायें।",
+      "reading": "sabjī",
+      "gender": "f"
+    },
+    "a1-252": {
+      "en": "juice",
+      "word": "रस",
+      "sentence": "मैं नाश्ते के साथ एक गिलास जूस पीता हूं।",
+      "reading": "ras",
+      "gender": "m"
+    },
+    "a1-253": {
+      "en": "pepper",
+      "word": "काली मिर्च",
+      "sentence": "मैं गर्म सूप में थोड़ी सी काली मिर्च मिलाता हूँ।",
+      "reading": "kālī mirc",
+      "gender": "f"
+    },
+    "a1-254": {
+      "en": "butter",
+      "word": "मक्खन",
+      "sentence": "मैं नाश्ते के समय गर्म ब्रेड पर मक्खन लगाता हूं।",
+      "reading": "makkhan",
+      "gender": "m"
+    },
+    "a1-255": {
+      "en": "cake",
+      "word": "केक",
+      "sentence": "हम जन्मदिन की पार्टी में एक छोटा सा केक साझा करते हैं।",
+      "reading": "kek",
+      "gender": "m"
+    },
+    "a1-256": {
+      "en": "cookie",
+      "word": "कुकी",
+      "sentence": "मैं दोपहर में अपनी चाय के साथ एक कुकी खाता हूं।",
+      "reading": "kukī",
+      "gender": "f"
+    },
+    "a1-257": {
+      "en": "sandwich",
+      "word": "सैंडविच",
+      "sentence": "मैं दोपहर के भोजन के लिए स्कूल में पनीर सैंडविच लाता हूँ।",
+      "reading": "saiṇḍvic",
+      "gender": "m"
+    },
+    "a1-258": {
+      "en": "pizza",
+      "word": "पिज़्ज़ा",
+      "sentence": "हम शुक्रवार की रात को घर पर एक साथ पिज़्ज़ा खाते हैं।",
+      "reading": "pizzā",
+      "gender": "m"
+    },
+    "a1-259": {
+      "en": "pasta",
+      "word": "पास्ता",
+      "sentence": "मैं पारिवारिक रात्रिभोज के लिए पनीर के साथ पास्ता पकाती हूँ।",
+      "reading": "pāstā",
+      "gender": "m"
+    },
+    "a1-260": {
+      "en": "honey",
+      "word": "प्रिये",
+      "sentence": "मुझे हर सुबह अपनी चाय में थोड़ा सा शहद पसंद है।",
+      "reading": "priye",
+      "gender": "m"
+    },
+    "a1-261": {
+      "en": "breakfast",
+      "word": "नाश्ता",
+      "sentence": "स्कूल जाने से पहले हम साथ में नाश्ता करते हैं।",
+      "reading": "nāśtā",
+      "gender": "m"
+    },
+    "a1-262": {
+      "en": "lunch",
+      "word": "दोपहर का भोजन",
+      "sentence": "मैं स्कूल में अपने दोस्तों के साथ दोपहर का खाना खाता हूँ।",
+      "reading": "dophar kā bhojan",
+      "gender": "m"
+    },
+    "a1-263": {
+      "en": "dinner",
+      "word": "रात का खाना",
+      "sentence": "हमारा परिवार हर रात सात बजे एक साथ खाना खाता है।",
+      "reading": "rāt kā khānā",
+      "gender": "m"
+    },
+    "a1-264": {
+      "en": "plate",
+      "word": "प्लेट",
+      "sentence": "कृपया रात के खाने के लिए मेज पर एक साफ प्लेट रखें।",
+      "reading": "pleṭ",
+      "gender": "f"
+    },
+    "a1-265": {
+      "en": "bowl",
+      "word": "कटोरा",
+      "sentence": "मैं दोपहर के भोजन में नीले कटोरे से गर्म सूप खाता हूं।",
+      "reading": "kaṭorā",
+      "gender": "m"
+    },
+    "a1-266": {
+      "en": "cup",
+      "word": "कप",
+      "sentence": "मैं हर सुबह नीले कप से चाय पीता हूं।",
+      "reading": "kap",
+      "gender": "m"
+    },
+    "a1-267": {
+      "en": "glass",
+      "word": "गिलास",
+      "sentence": "कृपया मुझे ठंडे जूस के लिए एक साफ गिलास दीजिए।",
+      "reading": "gilās",
+      "gender": "f"
+    },
+    "a1-268": {
+      "en": "fork",
+      "word": "कांटा",
+      "sentence": "मैं दोपहर के भोजन में हरे सलाद को कांटे से खाता हूं।",
+      "reading": "kāṇṭā",
+      "gender": "m"
+    },
+    "a1-269": {
+      "en": "knife",
+      "word": "चाकू",
+      "sentence": "मैंने टमाटर को रसोई के छोटे चाकू से काटा।",
+      "reading": "cākū",
+      "gender": "m"
+    },
+    "a1-270": {
+      "en": "spoon",
+      "word": "चम्मच",
+      "sentence": "मैं अपना सूप कटोरे से चम्मच से खाता हूं।",
+      "reading": "cammac",
+      "gender": "f"
+    },
+    "a1-271": {
+      "en": "stove",
+      "word": "चूल्हा",
+      "sentence": "सूप का बर्तन अब चूल्हे पर गर्म है।",
+      "reading": "cūlhā",
+      "gender": "m"
+    },
+    "a1-272": {
+      "en": "oven",
+      "word": "ओवन",
+      "sentence": "जन्मदिन का केक ओवन में एक घंटे तक बेक होता है।",
+      "reading": "ovan",
+      "gender": "m"
+    },
+    "a1-273": {
+      "en": "fridge",
+      "word": "फ्रिज",
+      "sentence": "मैंने जूस और दूध को फ्रिज में रख दिया।",
+      "reading": "phrij",
+      "gender": "m"
+    },
+    "a1-274": {
+      "en": "bottle",
+      "word": "बोतल",
+      "sentence": "दोपहर के भोजन के समय मैं बच्चों के लिए जूस की एक बोतल खोलता हूँ।",
+      "reading": "botal",
+      "gender": "f"
+    },
+    "a1-275": {
+      "en": "hungry",
+      "word": "भूखा",
+      "sentence": "मुझे भूख लगी है, इसलिए मैं दोपहर के भोजन के लिए पनीर सैंडविच बनाती हूं।",
+      "reading": "bhūkhā"
+    },
+    "a1-276": {
+      "en": "cook",
+      "word": "पकाना",
+      "sentence": "मैं आज रात अपने परिवार के लिए सब्जियों के साथ पास्ता पकाती हूँ।",
+      "reading": "pakānā"
+    },
+    "a1-277": {
+      "en": "room",
+      "word": "कमरा",
+      "sentence": "यह कमरा आज शांत, गर्म और बहुत साफ है।",
+      "reading": "kamrā",
+      "gender": "m"
+    },
+    "a1-278": {
+      "en": "window",
+      "word": "खिड़की",
+      "sentence": "मैं सुबह ताजी हवा के लिए खिड़की खोलता हूं।",
+      "reading": "khiṛkī",
+      "gender": "f"
+    },
+    "a1-279": {
+      "en": "kitchen",
+      "word": "रसोई",
+      "sentence": "हम रात का खाना पकाते हैं और रसोई में एक साथ खाते हैं।",
+      "reading": "rasoī",
+      "gender": "f"
+    },
+    "a1-280": {
+      "en": "lamp",
+      "word": "दीपक",
+      "sentence": "मेरी मेज़ पर रखा लैंप हल्की गर्म रोशनी देता है।",
+      "reading": "dīpak",
+      "gender": "m"
+    },
+    "a1-281": {
+      "en": "bathroom",
+      "word": "बाथरूम",
+      "sentence": "मैं बाथरूम में अपना चेहरा और हाथ धोता हूं।",
+      "reading": "bāthrūm",
+      "gender": "m"
+    },
+    "a1-282": {
+      "en": "bedroom",
+      "word": "शयनकक्ष",
+      "sentence": "मैं हर रात अपने शयनकक्ष में एक छोटी किताब पढ़ता हूं।",
+      "reading": "śayanakakṣ",
+      "gender": "m"
+    },
+    "a1-283": {
+      "en": "wall",
+      "word": "दीवार",
+      "sentence": "सोफ़े के ऊपर की दीवार पर एक पारिवारिक तस्वीर टंगी हुई है।",
+      "reading": "dīvār",
+      "gender": "f"
+    },
+    "a1-284": {
+      "en": "floor",
+      "word": "मंज़िल",
+      "sentence": "रात के खाने के बाद रसोई में फर्श साफ है।",
+      "reading": "maṁzil",
+      "gender": "f"
+    },
+    "a1-285": {
+      "en": "roof",
+      "word": "छत",
+      "sentence": "वसंत ऋतु में पक्षी घर की छत पर बैठते हैं।",
+      "reading": "chat",
+      "gender": "f"
+    },
+    "a1-286": {
+      "en": "ceiling",
+      "word": "छत",
+      "sentence": "हमारी रसोई में छत से एक तेज़ रोशनी लटक रही है।",
+      "reading": "chat",
+      "gender": "f"
+    },
+    "a1-287": {
+      "en": "stair",
+      "word": "सीढ़ी",
+      "sentence": "रसोई के दरवाज़े के पास की सीढ़ियाँ साफ़ और सूखी हों।",
+      "reading": "sīṛhī",
+      "gender": "f"
+    },
+    "a1-288": {
+      "en": "garden",
+      "word": "बगीचा",
+      "sentence": "हम घर के पीछे बगीचे में टमाटर और गुलाब उगाते हैं।",
+      "reading": "bagīcā",
+      "gender": "m"
+    },
+    "a1-289": {
+      "en": "yard",
+      "word": "यार्ड",
+      "sentence": "बच्चे स्कूल के बाद आँगन में गेंद खेलते हैं।",
+      "reading": "yārḍ",
+      "gender": "m"
+    },
+    "a1-290": {
+      "en": "garage",
+      "word": "गैराज",
+      "sentence": "मेरे पिता हर रात कार को गैरेज में रख देते हैं।",
+      "reading": "gairāj",
+      "gender": "m"
+    },
+    "a1-291": {
+      "en": "hallway",
+      "word": "दालान",
+      "sentence": "दरवाजे से शयनकक्ष तक का दालान शांत है।",
+      "reading": "dālān",
+      "gender": "m"
+    },
+    "a1-292": {
+      "en": "balcony",
+      "word": "बालकनी",
+      "sentence": "गर्म शाम में हम बालकनी में चाय पीते हैं।",
+      "reading": "bālkanī",
+      "gender": "f"
+    },
+    "a1-293": {
+      "en": "closet",
+      "word": "कोठरी",
+      "sentence": "मैं अपने कोट और शर्ट को कोठरी में लटका देता हूँ।",
+      "reading": "koṭhrī",
+      "gender": "f"
+    },
+    "a1-294": {
+      "en": "mirror",
+      "word": "दर्पण",
+      "sentence": "मैं घर से निकलने से पहले आईने में देखता हूं।",
+      "reading": "darpaṇ",
+      "gender": "m"
+    },
+    "a1-295": {
+      "en": "curtain",
+      "word": "पर्दा",
+      "sentence": "जब मैं सोने जाता हूँ तो शयनकक्ष का पर्दा बंद कर देता हूँ।",
+      "reading": "pardā",
+      "gender": "m"
+    },
+    "a1-296": {
+      "en": "carpet",
+      "word": "कालीन",
+      "sentence": "लिविंग रूम में कालीन मुलायम और नीला है।",
+      "reading": "kālīn",
+      "gender": "m"
+    },
+    "a1-297": {
+      "en": "sofa",
+      "word": "सोफ़ा",
+      "sentence": "हम साथ में डिनर के बाद सोफे पर बैठते हैं और बातें करते हैं।",
+      "reading": "sofā",
+      "gender": "m"
+    },
+    "a1-298": {
+      "en": "shelf",
+      "word": "शेल्फ",
+      "sentence": "मेरी किताबें शेल्फ पर एक साफ-सुथरी पंक्ति में खड़ी हैं।",
+      "reading": "śelph",
+      "gender": "m"
+    },
+    "a1-299": {
+      "en": "drawer",
+      "word": "दराज",
+      "sentence": "मैं अपने साफ़ मोज़े ऊपर वाली दराज में रखता हूँ।",
+      "reading": "darāj",
+      "gender": "f"
+    },
+    "a1-300": {
+      "en": "toilet",
+      "word": "शौचालय",
+      "sentence": "शौचालय बाथरूम में शॉवर के बगल में है।",
+      "reading": "śaucālay",
+      "gender": "m"
+    },
+    "a1-301": {
+      "en": "shower",
+      "word": "स्नान",
+      "sentence": "मैं हर सुबह स्कूल से पहले गर्म पानी से नहाता हूँ।",
+      "reading": "snān",
+      "gender": "m"
+    },
+    "a1-302": {
+      "en": "bath",
+      "word": "स्नान",
+      "sentence": "बच्चा हर शाम घर पर गर्म स्नान का आनंद लेता है।",
+      "reading": "snān",
+      "gender": "m"
+    },
+    "a1-303": {
+      "en": "towel",
+      "word": "तौलिया",
+      "sentence": "धोने के बाद मैं अपने हाथ साफ तौलिये पर सुखाता हूं।",
+      "reading": "tauliyā",
+      "gender": "m"
+    },
+    "a1-304": {
+      "en": "soap",
+      "word": "साबुन",
+      "sentence": "मैं प्रत्येक भोजन से पहले अपने हाथ साबुन से धोता हूँ।",
+      "reading": "sābun",
+      "gender": "m"
+    },
+    "a1-305": {
+      "en": "pillow",
+      "word": "तकिया",
+      "sentence": "मेरा तकिया मुलायम है और मुझे रात में अच्छी नींद आती है।",
+      "reading": "takiyā",
+      "gender": "m"
+    },
+    "a1-306": {
+      "en": "blanket",
+      "word": "कम्बल",
+      "sentence": "मैं सर्द रातों में गर्म कंबल के नीचे सोता हूं।",
+      "reading": "kambal",
+      "gender": "m"
+    },
+    "a1-307": {
+      "en": "furniture",
+      "word": "फर्नीचर",
+      "sentence": "जब हम लिविंग रूम की सफ़ाई करते हैं तो हम फ़र्निचर को हटा देते हैं।",
+      "reading": "pharnīcar",
+      "gender": "m"
+    },
+    "a1-308": {
+      "en": "apartment",
+      "word": "अपार्टमेंट",
+      "sentence": "हमारे अपार्टमेंट में एक छोटी रसोई और दो शयनकक्ष हैं।",
+      "reading": "apārṭameṇṭ",
+      "gender": "m"
+    },
+    "a1-309": {
+      "en": "cupboard",
+      "word": "अलमारी",
+      "sentence": "प्लेटें और कप रसोई की अलमारी में हैं।",
+      "reading": "almārī",
+      "gender": "f"
+    },
+    "a1-310": {
+      "en": "rug",
+      "word": "गलीचा",
+      "sentence": "बिस्तर के पास फर्श पर एक नीला गलीचा पड़ा है।",
+      "reading": "galīcā",
+      "gender": "f"
+    },
+    "a1-311": {
+      "en": "living room",
+      "word": "लिविंग रूम",
+      "sentence": "हम रात में लिविंग रूम में एक साथ फिल्म देखते हैं।",
+      "reading": "liviṅg rūm",
+      "gender": "m"
+    },
+    "a1-312": {
+      "en": "sink",
+      "word": "सिंक",
+      "sentence": "मैं कप और प्लेटें रसोई के सिंक में धोता हूँ।",
+      "reading": "siṅk",
+      "gender": "m"
+    },
+    "a1-313": {
+      "en": "faucet",
+      "word": "नल",
+      "sentence": "मैं नल चालू करता हूं और अपने हाथ साबुन से धोता हूं।",
+      "reading": "nal",
+      "gender": "m"
+    },
+    "a1-314": {
+      "en": "chimney",
+      "word": "चिमनी",
+      "sentence": "सर्दियों में चिमनी से थोड़ा धुआं उठता है।",
+      "reading": "cimnī",
+      "gender": "f"
+    },
+    "a1-315": {
+      "en": "porch",
+      "word": "बरामदा",
+      "sentence": "ठंडी शाम को हम बरामदे पर बैठ कर बातें करते हैं।",
+      "reading": "barāmdā",
+      "gender": "m"
+    },
+    "a1-316": {
+      "en": "cushion",
+      "word": "गद्दी",
+      "sentence": "सोफ़े पर नीला गद्दी मुलायम और साफ़ है।",
+      "reading": "gaddī",
+      "gender": "f"
+    },
+    "a1-317": {
+      "en": "hair",
+      "word": "बाल",
+      "sentence": "मैं हर सुबह शॉवर में अपने बाल धोता हूं।",
+      "reading": "bāl",
+      "gender": "m"
+    },
+    "a1-318": {
+      "en": "nose",
+      "word": "नाक",
+      "sentence": "जब सर्द हवा चलती है तो मेरी नाक ठंडी लगती है।",
+      "reading": "nāk",
+      "gender": "f"
+    },
+    "a1-319": {
+      "en": "tooth",
+      "word": "दांत",
+      "sentence": "मैं सुबह और रात में हर दाँत को ब्रश करता हूँ।",
+      "reading": "dānt",
+      "gender": "m"
+    },
+    "a1-320": {
+      "en": "arm",
+      "word": "बांह",
+      "sentence": "मैं भारी बैग को अपने दाहिने हाथ से उठाता हूं।",
+      "reading": "bāṁh",
+      "gender": "f"
+    },
+    "a1-321": {
+      "en": "leg",
+      "word": "टांग",
+      "sentence": "शहर में लंबी सैर के बाद मैं अपने बाएँ पैर को आराम देता हूँ।",
+      "reading": "ṭāṅg",
+      "gender": "f"
+    },
+    "a1-322": {
+      "en": "back",
+      "word": "पीठ",
+      "sentence": "सोफे पर आराम करने के बाद मेरी पीठ बेहतर महसूस होती है।",
+      "reading": "pīṭh",
+      "gender": "f"
+    },
+    "a1-323": {
+      "en": "finger",
+      "word": "उंगली",
+      "sentence": "मैं अपने बाएं हाथ की उंगली पर एक छोटी सी अंगूठी पहनता हूं।",
+      "reading": "uṅglī",
+      "gender": "f"
+    },
+    "a1-324": {
+      "en": "toe",
+      "word": "पैर का अंगूठा",
+      "sentence": "मेरे मोटे शीतकालीन मोजे के अंदर मेरे पैर का अंगूठा गर्म महसूस होता है।",
+      "reading": "pair kā aṅgūṭhā",
+      "gender": "m"
+    },
+    "a1-325": {
+      "en": "knee",
+      "word": "घुटना",
+      "sentence": "जब मैं सीढ़ी पर चढ़ता हूं तो अपना घुटना मोड़ लेता हूं।",
+      "reading": "ghuṭnā",
+      "gender": "m"
+    },
+    "a1-326": {
+      "en": "elbow",
+      "word": "कोहनी",
+      "sentence": "पढ़ते समय मैं अपनी कोहनी मेज पर टिका देता हूँ।",
+      "reading": "kohnī",
+      "gender": "f"
+    },
+    "a1-327": {
+      "en": "shoulder",
+      "word": "कंधा",
+      "sentence": "मैं अपना स्कूल बैग अपने बाएं कंधे पर रखता हूं।",
+      "reading": "kandhā",
+      "gender": "m"
+    },
+    "a1-328": {
+      "en": "neck",
+      "word": "गर्दन",
+      "sentence": "एक मुलायम दुपट्टा सर्दियों में मेरी गर्दन को गर्म रखता है।",
+      "reading": "gardan",
+      "gender": "f"
+    },
+    "a1-329": {
+      "en": "face",
+      "word": "चेहरा",
+      "sentence": "मैं हर सुबह अपना चेहरा गर्म पानी से धोता हूं।",
+      "reading": "cehrā",
+      "gender": "m"
+    },
+    "a1-330": {
+      "en": "stomach",
+      "word": "पेट",
+      "sentence": "एक बड़े गर्म रात्रिभोज के बाद मेरा पेट भरा हुआ महसूस होता है।",
+      "reading": "peṭ",
+      "gender": "m"
+    },
+    "a1-331": {
+      "en": "chest",
+      "word": "छाती",
+      "sentence": "जब मैं धीरे-धीरे बाहर सांस लेता हूं तो मेरी छाती मजबूत महसूस होती है।",
+      "reading": "chātī",
+      "gender": "f"
+    },
+    "a1-332": {
+      "en": "heart",
+      "word": "दिल",
+      "sentence": "डॉक्टर आज मेरे दिल की बात ध्यान से सुनता है।",
+      "reading": "dil",
+      "gender": "m"
+    },
+    "a1-333": {
+      "en": "skin",
+      "word": "त्वचा",
+      "sentence": "दोपहर की तेज़ धूप में मेरी त्वचा गर्म महसूस होती है।",
+      "reading": "tvacā",
+      "gender": "f"
+    },
+    "a1-334": {
+      "en": "bone",
+      "word": "हड्डी",
+      "sentence": "डॉक्टर मेरी बाईं बांह की हड्डी को देखता है।",
+      "reading": "haḍḍī",
+      "gender": "f"
+    },
+    "a1-335": {
+      "en": "tongue",
+      "word": "जीभ",
+      "sentence": "मैं अपनी जीभ पर मीठे शहद का स्वाद ले सकता हूँ।",
+      "reading": "jībh",
+      "gender": "f"
+    },
+    "a1-336": {
+      "en": "lip",
+      "word": "होंठ",
+      "sentence": "चाय से मेरे होठों पर थोड़ा सा शहद लग गया है।",
+      "reading": "hoṇṭh",
+      "gender": "m"
+    },
+    "a1-337": {
+      "en": "chin",
+      "word": "ठुड्डी",
+      "sentence": "दोपहर के भोजन के बाद बच्चे की ठोड़ी पर थोड़ा सा सूप है।",
+      "reading": "ṭhuḍḍī",
+      "gender": "f"
+    },
+    "a1-338": {
+      "en": "cheek",
+      "word": "गाल",
+      "sentence": "मैं अपने बच्चे के गाल पर एक हल्का चुंबन देती हूँ।",
+      "reading": "gāl",
+      "gender": "m"
+    },
+    "a1-339": {
+      "en": "beard",
+      "word": "दाढ़ी",
+      "sentence": "मेरे चाचा की छोटी दाढ़ी और गर्मजोशी भरी मुस्कान है।",
+      "reading": "dāṛhī",
+      "gender": "f"
+    },
+    "a1-340": {
+      "en": "throat",
+      "word": "गला",
+      "sentence": "ठंड के दिनों में गर्म चाय मेरे गले के लिए अच्छी होती है।",
+      "reading": "galā",
+      "gender": "m"
+    },
+    "a1-341": {
+      "en": "wrist",
+      "word": "कलाई",
+      "sentence": "डॉक्टर मेरी कलाई पकड़कर मेरे दिल की बात सुनता है।",
+      "reading": "kalāī",
+      "gender": "f"
+    },
+    "a1-342": {
+      "en": "ankle",
+      "word": "टखना",
+      "sentence": "घर पर थोड़े आराम के बाद मेरा टखना बेहतर महसूस हो रहा है।",
+      "reading": "ṭakhnā",
+      "gender": "m"
+    },
+    "a1-343": {
+      "en": "thumb",
+      "word": "अंगूठा",
+      "sentence": "मैं पेंसिल को अपने अंगूठे और अपनी उंगली से पकड़ता हूं।",
+      "reading": "aṅgūṭhā",
+      "gender": "m"
+    },
+    "a1-344": {
+      "en": "body",
+      "word": "शरीर",
+      "sentence": "प्रतिदिन थोड़ी देर टहलना पूरे शरीर के लिए अच्छा होता है।",
+      "reading": "śarīr",
+      "gender": "m"
+    },
+    "a1-345": {
+      "en": "blood",
+      "word": "खून",
+      "sentence": "रक्त हृदय और शरीर के चारों ओर घूमता है।",
+      "reading": "khūn",
+      "gender": "m"
+    },
+    "a1-346": {
+      "en": "voice",
+      "word": "आवाज",
+      "sentence": "जब वह कोई साधारण गीत गाती है तो उसकी आवाज स्पष्ट होती है।",
+      "reading": "āvāj",
+      "gender": "f"
+    },
+    "a1-347": {
+      "en": "sick",
+      "word": "बीमार",
+      "sentence": "जब मैं बीमार होता हूं तो बिस्तर पर आराम करता हूं और गर्म चाय पीता हूं।",
+      "reading": "bīmār"
+    },
+    "a1-348": {
+      "en": "healthy",
+      "word": "स्वस्थ",
+      "sentence": "ताजे फल और दैनिक सैर मुझे स्वस्थ रहने में मदद करती है।",
+      "reading": "svasth"
+    },
+    "a1-349": {
+      "en": "tired",
+      "word": "थका हुआ",
+      "sentence": "मुझे थकान महसूस होती है, इसलिए मैं बैठ जाता हूं और कुछ देर आराम करता हूं।",
+      "reading": "thakā huā"
+    },
+    "a1-350": {
+      "en": "fever",
+      "word": "बुखार",
+      "sentence": "जब मुझे बुखार होता है तो मैं आराम करता हूं और खूब पानी पीता हूं।",
+      "reading": "bukhār",
+      "gender": "m"
+    },
+    "a1-351": {
+      "en": "medicine",
+      "word": "दवा",
+      "sentence": "मैं हर सुबह एक गिलास पानी के साथ अपनी दवा लेता हूं।",
+      "reading": "davā",
+      "gender": "f"
+    },
+    "a1-352": {
+      "en": "doctor",
+      "word": "डॉक्टर",
+      "sentence": "डॉक्टर दयालु हैं और मेरे सभी सवालों का जवाब देते हैं।",
+      "reading": "ḍŏkṭar",
+      "gender": "m"
+    },
+    "a1-353": {
+      "en": "nurse",
+      "word": "नर्स",
+      "sentence": "नर्स मुस्कुराती है और मरीज के साथ डॉक्टर की मदद करती है।",
+      "reading": "nars",
+      "gender": "f"
+    },
+    "a1-354": {
+      "en": "cough",
+      "word": "खांसी",
+      "sentence": "गर्म चाय के बाद आज मेरी खांसी काफी बेहतर है।",
+      "reading": "khāṁsī",
+      "gender": "f"
+    },
+    "a1-355": {
+      "en": "hurt",
+      "word": "दर्द करना",
+      "sentence": "आज जब मैं धीरे-धीरे चलता हूं तो मेरे घुटने में दर्द नहीं होता।",
+      "reading": "dard karnā"
+    },
+    "a1-356": {
+      "en": "smile",
+      "word": "मुस्कुराना",
+      "sentence": "जब मैं अपनी पड़ोसी को बाहर देखता हूं तो उसे देखकर मुस्कुराता हूं।",
+      "reading": "muskurānā"
+    },
+    "a1-357": {
+      "en": "go",
+      "word": "जाना",
+      "sentence": "मैं शनिवार को अपनी माँ के साथ बाज़ार जाता हूँ।",
+      "reading": "jānā"
+    },
+    "a1-358": {
+      "en": "run",
+      "word": "दौड़ना",
+      "sentence": "हम हर सुबह स्कूल से पहले पार्क में एक साथ दौड़ते हैं।",
+      "reading": "dauṛnā"
+    },
+    "a1-359": {
+      "en": "stand",
+      "word": "खड़ा होना",
+      "sentence": "कृपया दरवाजे के पास खड़े होकर शिक्षक की प्रतीक्षा करें।",
+      "reading": "khaṛā honā"
+    },
+    "a1-360": {
+      "en": "open",
+      "word": "खोलना",
+      "sentence": "कृपया खिड़की खोलें और कुछ ताज़ी हवा आने दें।",
+      "reading": "kholnā"
+    },
+    "a1-361": {
+      "en": "close",
+      "word": "बंद करना",
+      "sentence": "जब आप कमरे से बाहर निकलें तो कृपया चुपचाप दरवाज़ा बंद कर दें।",
+      "reading": "band karnā"
+    },
+    "a1-362": {
+      "en": "take",
+      "word": "लेना",
+      "sentence": "मैं हर सुबह अपने दोस्तों के साथ स्कूल जाने के लिए बस लेता हूँ।",
+      "reading": "lenā"
+    },
+    "a1-363": {
+      "en": "bring",
+      "word": "लाना",
+      "sentence": "मैं दोपहर के भोजन के लिए स्कूल में एक सैंडविच और कुछ फल लाता हूँ।",
+      "reading": "lānā"
+    },
+    "a1-364": {
+      "en": "put",
+      "word": "रखना",
+      "sentence": "कृपया पाठ से पहले अपनी किताबें डेस्क पर रखें।",
+      "reading": "rakhnā"
+    },
+    "a1-365": {
+      "en": "make",
+      "word": "बनाना",
+      "sentence": "हम हर रविवार सुबह घर पर एक साथ नाश्ता बनाते हैं।",
+      "reading": "banānā"
+    },
+    "a1-366": {
+      "en": "do",
+      "word": "करना",
+      "sentence": "मैं हर शाम रसोई की मेज पर अपना होमवर्क करती हूं।",
+      "reading": "karnā"
+    },
+    "a1-367": {
+      "en": "have",
+      "word": "रखना",
+      "sentence": "हम हर दिन दोपहर के समय एक साथ गर्मागर्म दोपहर का भोजन करते हैं।",
+      "reading": "rakhnā"
+    },
+    "a1-368": {
+      "en": "want",
+      "word": "चाहना",
+      "sentence": "लंबी सैर के बाद मुझे एक गिलास ठंडा पानी चाहिए।",
+      "reading": "cāhnā"
+    },
+    "a1-369": {
+      "en": "need",
+      "word": "चाहिए",
+      "sentence": "मुझे आज परीक्षण के लिए एक पेंसिल और कुछ कागज़ की आवश्यकता है।",
+      "reading": "cāhie"
+    },
+    "a1-370": {
+      "en": "like",
+      "word": "पसंद करना",
+      "sentence": "मुझे नाश्ते में ताजे फल और थोड़ा पनीर पसंद है।",
+      "reading": "pasand karnā"
+    },
+    "a1-371": {
+      "en": "love",
+      "word": "प्यार करना",
+      "sentence": "मैं अपने परिवार से प्यार करता हूं और मुझे घर पर उनकी मदद करना पसंद है।",
+      "reading": "pyār karnā"
+    },
+    "a1-372": {
+      "en": "know",
+      "word": "जानना",
+      "sentence": "मुझे हमारे घर से स्टेशन तक का छोटा रास्ता मालूम है।",
+      "reading": "jānnā"
+    },
+    "a1-373": {
+      "en": "think",
+      "word": "सोचना",
+      "sentence": "मुझे लगता है कि यह छोटी सी कहानी स्पष्ट और बहुत दयालु है।",
+      "reading": "socnā"
+    },
+    "a1-374": {
+      "en": "say",
+      "word": "कहना",
+      "sentence": "कृपया अपना नाम धीरे-धीरे बोलें ताकि कक्षा सुन सके।",
+      "reading": "kahnā"
+    },
+    "a1-375": {
+      "en": "tell",
+      "word": "बताना",
+      "sentence": "कृपया मुझे यहां से अस्पताल का रास्ता बताएं।",
+      "reading": "batānā"
+    },
+    "a1-376": {
+      "en": "talk",
+      "word": "बात करना",
+      "sentence": "हम हर शाम डिनर के समय एक साथ अपने दिन के बारे में बात करते हैं।",
+      "reading": "bāt karnā"
+    },
+    "a1-377": {
+      "en": "speak",
+      "word": "बोलना",
+      "sentence": "मैं शुक्रवार दोपहर को कक्षा के बाद अपने शिक्षक से बात करता हूँ।",
+      "reading": "bolnā"
+    },
+    "a1-378": {
+      "en": "work",
+      "word": "काम करना",
+      "sentence": "मेरी माँ को हमारे शहर के अस्पताल में काम करना पसंद है।",
+      "reading": "kām karnā"
+    },
+    "a1-379": {
+      "en": "play",
+      "word": "खेलना",
+      "sentence": "बच्चे स्कूल के बाद पार्क में ख़ुशनुमा खेल खेलते हैं।",
+      "reading": "khelnā"
+    },
+    "a1-380": {
+      "en": "buy",
+      "word": "खरीदना",
+      "sentence": "मैं हर शनिवार सुबह बेकरी से ताज़ी ब्रेड खरीदता हूँ।",
+      "reading": "kharīdnā"
+    },
+    "a1-381": {
+      "en": "help",
+      "word": "मदद करना",
+      "sentence": "मैं अपने छोटे भाई को होमवर्क पढ़ने में मदद करता हूँ।",
+      "reading": "madad karnā"
+    },
+    "a1-382": {
+      "en": "wait",
+      "word": "इंतज़ार करना",
+      "sentence": "हम एक साथ स्टेशन पर सुबह की बस का इंतज़ार करते हैं।",
+      "reading": "intzār karnā"
+    },
+    "a1-383": {
+      "en": "look",
+      "word": "देखना",
+      "sentence": "कृपया बोर्ड को देखें और नया वाक्य पढ़ें।",
+      "reading": "dekhnā"
+    },
+    "a1-384": {
+      "en": "live",
+      "word": "रहना",
+      "sentence": "हम टाउन पार्क के बिल्कुल पास एक छोटे से अपार्टमेंट में रहते हैं।",
+      "reading": "rahnā"
+    },
+    "a1-385": {
+      "en": "stay",
+      "word": "रहना",
+      "sentence": "जब मैं थका हुआ या बीमार महसूस करता हूं तो मैं घर पर रहता हूं और आराम करता हूं।",
+      "reading": "rahnā"
+    },
+    "a1-386": {
+      "en": "leave",
+      "word": "छोड़ना",
+      "sentence": "हम रोज सुबह आठ बजे स्कूल के लिए घर से निकलते हैं।",
+      "reading": "choṛnā"
+    },
+    "a1-387": {
+      "en": "start",
+      "word": "शुरू करना",
+      "sentence": "हम हर सुबह नौ बजे अंग्रेजी पाठ शुरू करते हैं।",
+      "reading": "śurū karnā"
+    },
+    "a1-388": {
+      "en": "stop",
+      "word": "रुकना",
+      "sentence": "बत्ती लाल होने पर गाड़ियाँ कोने पर रुक जाती हैं।",
+      "reading": "ruknā"
+    },
+    "a1-389": {
+      "en": "find",
+      "word": "ढूँढना",
+      "sentence": "मुझे अपनी चाबियाँ दरवाजे के पास छोटी मेज पर मिलीं।",
+      "reading": "ḍhū̃ḍhnā"
+    },
+    "a1-390": {
+      "en": "use",
+      "word": "इस्तेमाल करना",
+      "sentence": "जब हम कोई नया अंग्रेजी शब्द सीखते हैं तो हम शब्दकोश का उपयोग करते हैं।",
+      "reading": "istemāl karnā"
+    },
+    "a1-391": {
+      "en": "try",
+      "word": "कोशिश करना",
+      "sentence": "मैं हर सप्ताह बाज़ार में एक नए प्रकार का फल आज़माता हूँ।",
+      "reading": "kośiś karnā"
+    },
+    "a1-392": {
+      "en": "understand",
+      "word": "समझना",
+      "sentence": "मैं प्रश्न समझता हूं और उत्तर दे सकता हूं।",
+      "reading": "samjhanā"
+    },
+    "a1-393": {
+      "en": "show",
+      "word": "दिखाना",
+      "sentence": "कृपया दरवाजे पर ड्राइवर को अपना ट्रेन टिकट दिखाएं।",
+      "reading": "dikhānā"
+    },
+    "a1-394": {
+      "en": "sing",
+      "word": "गाना",
+      "sentence": "हम संगीत कक्षा में एक साथ एक सरल ख़ुशी वाला गीत गाते हैं।",
+      "reading": "gānā"
+    },
+    "a1-395": {
+      "en": "drive",
+      "word": "चलाना",
+      "sentence": "मेरे पिता हर सुबह काम पर जाने के लिए परिवार की कार चला सकते हैं।",
+      "reading": "calānā"
+    },
+    "a1-396": {
+      "en": "swim",
+      "word": "तैरना",
+      "sentence": "जब गर्मी का मौसम गर्म होता है तो हम साफ झील में तैरते हैं।",
+      "reading": "tairnā"
+    },
+    "a1-397": {
+      "en": "be",
+      "word": "होना",
+      "sentence": "मैं स्कूल ख़त्म करने के बाद एक दयालु शिक्षक बनना चाहता हूँ।",
+      "reading": "honā"
+    },
+    "a1-398": {
+      "en": "can",
+      "word": "सकना",
+      "sentence": "मौसम शुष्क होने पर मैं अपनी साइकिल से स्कूल जा सकता हूँ।",
+      "reading": "saknā"
+    },
+    "a1-399": {
+      "en": "horse",
+      "word": "घोड़ा",
+      "sentence": "घोड़ा सुबह हरे मैदान में दौड़ता है।",
+      "reading": "ghoṛā",
+      "gender": "m"
+    },
+    "a1-400": {
+      "en": "cow",
+      "word": "गाय",
+      "sentence": "गाय सारा दिन खेत में ताजी घास खाती है।",
+      "reading": "gāy",
+      "gender": "f"
+    },
+    "a1-401": {
+      "en": "pig",
+      "word": "सुअर",
+      "sentence": "सुअर को खेत में कीचड़ में लोटना पसंद है।",
+      "reading": "suar",
+      "gender": "m"
+    },
+    "a1-402": {
+      "en": "sheep",
+      "word": "भेड़",
+      "sentence": "एक भेड़ खेत में किसान के पास घास खा रही है।",
+      "reading": "bheṛ",
+      "gender": "f"
+    },
+    "a1-403": {
+      "en": "goat",
+      "word": "बकरी",
+      "sentence": "बकरी हर दिन खेत के पास एक छोटी पहाड़ी पर चढ़ती है।",
+      "reading": "bakrī",
+      "gender": "f"
+    },
+    "a1-404": {
+      "en": "chicken",
+      "word": "चिकन",
+      "sentence": "मुर्गी यार्ड में घूमती है और भोजन की तलाश करती है।",
+      "reading": "cikan",
+      "gender": "f"
+    },
+    "a1-405": {
+      "en": "mouse",
+      "word": "चूहा",
+      "sentence": "खेत के पास शांत खेत में एक छोटा सा चूहा रहता है।",
+      "reading": "cūhā",
+      "gender": "m"
+    },
+    "a1-406": {
+      "en": "rabbit",
+      "word": "खरगोश",
+      "sentence": "खरगोश पिछवाड़े के बगीचे में ताज़ी गाजर खाता है।",
+      "reading": "khargoś",
+      "gender": "m"
+    },
+    "a1-407": {
+      "en": "duck",
+      "word": "बत्तख",
+      "sentence": "बत्तख अपने छोटे बच्चों के साथ तालाब पर तैरती है।",
+      "reading": "battakh",
+      "gender": "f"
+    },
+    "a1-408": {
+      "en": "goose",
+      "word": "हंस",
+      "sentence": "एक सफेद हंस टाउन पार्क में झील के पास टहल रहा है।",
+      "reading": "haṁs",
+      "gender": "m"
+    },
+    "a1-409": {
+      "en": "lion",
+      "word": "सिंह",
+      "sentence": "शेर चिड़ियाघर में छाया में चुपचाप आराम कर रहा है।",
+      "reading": "siṁh",
+      "gender": "m"
+    },
+    "a1-410": {
+      "en": "tiger",
+      "word": "बाघ",
+      "sentence": "बाघ नारंगी और काले रंग का है और चिड़ियाघर में रहता है।",
+      "reading": "bāgh",
+      "gender": "m"
+    },
+    "a1-411": {
+      "en": "bear",
+      "word": "भालू",
+      "sentence": "भालू को मीठा शहद पसंद है और वह सर्दियों में आराम करता है।",
+      "reading": "bhālū",
+      "gender": "m"
+    },
+    "a1-412": {
+      "en": "elephant",
+      "word": "हाथी",
+      "sentence": "हाथी चिड़ियाघर में लोगों के साथ शांत और सौम्य है।",
+      "reading": "hāthī",
+      "gender": "f"
+    },
+    "a1-413": {
+      "en": "monkey",
+      "word": "बंदर",
+      "sentence": "बंदर केला खाता है और ऊंचे पेड़ पर खेलता है।",
+      "reading": "bandar",
+      "gender": "m"
+    },
+    "a1-414": {
+      "en": "snake",
+      "word": "साँप",
+      "sentence": "एक छोटा साँप धूप में गर्म चट्टान पर आराम कर रहा है।",
+      "reading": "sā̃p",
+      "gender": "m"
+    },
+    "a1-415": {
+      "en": "frog",
+      "word": "मेढक",
+      "sentence": "एक हरा मेंढक शांत तालाब के किनारे एक पत्ते पर बैठा है।",
+      "reading": "meḍhak",
+      "gender": "m"
+    },
+    "a1-416": {
+      "en": "turtle",
+      "word": "कछुआ",
+      "sentence": "कछुआ रेत के पार धीरे-धीरे पानी की ओर बढ़ता है।",
+      "reading": "kachuā",
+      "gender": "m"
+    },
+    "a1-417": {
+      "en": "spider",
+      "word": "मकड़ी",
+      "sentence": "एक मकड़ी बगीचे के कोने में एक छोटा सा जाल बनाती है।",
+      "reading": "makṛī",
+      "gender": "f"
+    },
+    "a1-418": {
+      "en": "bee",
+      "word": "मधुमक्खी",
+      "sentence": "एक मधुमक्खी हमारे धूप वाले बगीचे में लाल गुलाब पर बैठी है।",
+      "reading": "madhumakkhī",
+      "gender": "f"
+    },
+    "a1-419": {
+      "en": "butterfly",
+      "word": "तितली",
+      "sentence": "एक पीली तितली बगीचे में एक फूल पर बैठती है।",
+      "reading": "titlī",
+      "gender": "f"
+    },
+    "a1-420": {
+      "en": "whale",
+      "word": "व्हेल",
+      "sentence": "व्हेल गहरे नीले समुद्र में बहुत दूर तक तैरती है।",
+      "reading": "vhel",
+      "gender": "f"
+    },
+    "a1-421": {
+      "en": "dolphin",
+      "word": "डॉल्फिन",
+      "sentence": "डॉल्फिन नीले समुद्र के पानी से बाहर कूदती है।",
+      "reading": "ḍŏlphin",
+      "gender": "m"
+    },
+    "a1-422": {
+      "en": "donkey",
+      "word": "गधा",
+      "sentence": "गधा पूरे खेत में फलों से भरे थैले ले जाता है।",
+      "reading": "gadhā",
+      "gender": "m"
+    },
+    "a1-423": {
+      "en": "zebra",
+      "word": "ज़ेबरा",
+      "sentence": "ज़ेबरा के शरीर पर काली और सफेद रेखाएं होती हैं।",
+      "reading": "zebrā",
+      "gender": "m"
+    },
+    "a1-424": {
+      "en": "giraffe",
+      "word": "जिराफ",
+      "sentence": "लंबा जिराफ पेड़ के ऊपर से पत्तियां खाता है।",
+      "reading": "jirāph",
+      "gender": "m"
+    },
+    "a1-425": {
+      "en": "fox",
+      "word": "लोमड़ी",
+      "sentence": "लोमड़ी शांत हरे जंगल के पास एक बिल में रहती है।",
+      "reading": "lomṛī",
+      "gender": "f"
+    },
+    "a1-426": {
+      "en": "deer",
+      "word": "हिरण",
+      "sentence": "एक हिरण जंगल की धारा से ठंडा पानी पीता है।",
+      "reading": "hiraṇ",
+      "gender": "m"
+    },
+    "a1-427": {
+      "en": "owl",
+      "word": "उल्लू",
+      "sentence": "उल्लू रात के समय पेड़ पर बहुत चुपचाप बैठा रहता है।",
+      "reading": "ullū",
+      "gender": "m"
+    },
+    "a1-428": {
+      "en": "parrot",
+      "word": "तोता",
+      "sentence": "हरा तोता कुछ सरल मैत्रीपूर्ण शब्द कह सकता है।",
+      "reading": "totā",
+      "gender": "m"
+    },
+    "a1-429": {
+      "en": "penguin",
+      "word": "पेंगुइन",
+      "sentence": "पेंगुइन बर्फ पर चलता है और फिर बहुत अच्छे से तैरता है।",
+      "reading": "peṅguin",
+      "gender": "m"
+    },
+    "a1-430": {
+      "en": "camel",
+      "word": "ऊँट",
+      "sentence": "ऊँट गर्म शुष्क रेगिस्तान में धीरे-धीरे चलता है।",
+      "reading": "ū̃ṭ",
+      "gender": "m"
+    },
+    "a1-431": {
+      "en": "squirrel",
+      "word": "गिलहरी",
+      "sentence": "एक गिलहरी पेड़ पर चढ़ती है और एक छोटा सा अखरोट पकड़ लेती है।",
+      "reading": "gilharī",
+      "gender": "f"
+    },
+    "a1-432": {
+      "en": "puppy",
+      "word": "पिल्ला",
+      "sentence": "पिल्ला लिविंग रूम में एक नरम गेंद से खेलता है।",
+      "reading": "pillā",
+      "gender": "m"
+    },
+    "a1-433": {
+      "en": "kitten",
+      "word": "बिल्ली का बच्चा",
+      "sentence": "बिल्ली का बच्चा दोपहर की धूप में गर्म कुर्सी पर सोता है।",
+      "reading": "billī kā baccā",
+      "gender": "m"
+    },
+    "a1-434": {
+      "en": "hamster",
+      "word": "हम्सटर",
+      "sentence": "छोटा हम्सटर रात में एक छोटे पहिये पर चलता है।",
+      "reading": "hamsaṭar",
+      "gender": "m"
+    },
+    "a1-435": {
+      "en": "pet",
+      "word": "पालतू",
+      "sentence": "एक सौम्य कुत्ता परिवार के घर में एक खुश पालतू जानवर हो सकता है।",
+      "reading": "pāltū",
+      "gender": "m"
+    },
+    "a1-436": {
+      "en": "wolf",
+      "word": "भेड़िया",
+      "sentence": "भेड़िया अपने परिवार के साथ घने जंगल में रहता है।",
+      "reading": "bheṛiyā",
+      "gender": "m"
+    },
+    "a1-437": {
+      "en": "tail",
+      "word": "पूंछ",
+      "sentence": "जब बच्चे घर आते हैं तो कुत्ता पूंछ हिलाता है।",
+      "reading": "pūñch",
+      "gender": "m"
+    },
+    "a1-438": {
+      "en": "wing",
+      "word": "पंख",
+      "sentence": "पक्षी एक पंख उठाता है और फिर आकाश में उड़ जाता है।",
+      "reading": "paṅkh",
+      "gender": "m"
+    },
+    "a1-439": {
+      "en": "grass",
+      "word": "घास",
+      "sentence": "बारिश के बाद पार्क में घास हरी और मुलायम है।",
+      "reading": "ghās",
+      "gender": "f"
+    },
+    "a1-440": {
+      "en": "leaf",
+      "word": "पत्ती",
+      "sentence": "एक पीला पत्ता पेड़ से ज़मीन पर गिरता है।",
+      "reading": "pattī",
+      "gender": "f"
+    },
+    "a1-441": {
+      "en": "forest",
+      "word": "जंगल",
+      "sentence": "हम रविवार की सुबह ठंडे जंगल में चुपचाप चलते हैं।",
+      "reading": "jaṅgal",
+      "gender": "m"
+    },
+    "a1-442": {
+      "en": "field",
+      "word": "खेत",
+      "sentence": "घोड़े चौड़े खुले मैदान में हरी घास खाते हैं।",
+      "reading": "khet",
+      "gender": "m"
+    },
+    "a1-443": {
+      "en": "hill",
+      "word": "पहाड़ी",
+      "sentence": "हम अपने गाँव के पीछे की हरी-भरी पहाड़ी पर धीरे-धीरे चलते हैं।",
+      "reading": "pahāṛī",
+      "gender": "f"
+    },
+    "a1-444": {
+      "en": "lake",
+      "word": "झील",
+      "sentence": "इस धूप भरी दोपहर में झील शांत और नीली है।",
+      "reading": "jhīl",
+      "gender": "f"
+    },
+    "a1-445": {
+      "en": "ocean",
+      "word": "सागर",
+      "sentence": "ऊँचे किनारे से समुद्र बहुत नीला और चौड़ा दिखता है।",
+      "reading": "sāgar",
+      "gender": "m"
+    },
+    "a1-446": {
+      "en": "island",
+      "word": "द्वीप",
+      "sentence": "नीले सागर में छोटा सा द्वीप शांत और हरा-भरा है।",
+      "reading": "dvīp",
+      "gender": "m"
+    },
+    "a1-447": {
+      "en": "sand",
+      "word": "रेत",
+      "sentence": "दोपहर में समुद्र तट की रेत गर्म महसूस होती है।",
+      "reading": "ret",
+      "gender": "f"
+    },
+    "a1-448": {
+      "en": "rock",
+      "word": "चट्टान",
+      "sentence": "हम एक बड़ी सपाट चट्टान पर बैठते हैं और झील को देखते हैं।",
+      "reading": "caṭṭān",
+      "gender": "f"
+    },
+    "a1-449": {
+      "en": "ground",
+      "word": "ज़मीन",
+      "sentence": "लाल सेब पुराने पेड़ के नीचे जमीन पर गिर जाता है।",
+      "reading": "zamīn",
+      "gender": "f"
+    },
+    "a1-450": {
+      "en": "star",
+      "word": "सितारा",
+      "sentence": "मुझे रात के समय साफ़ आकाश में एक चमकीला तारा दिखाई देता है।",
+      "reading": "sitārā",
+      "gender": "m"
+    },
+    "a1-451": {
+      "en": "plant",
+      "word": "पौधा",
+      "sentence": "इस हरे पौधे को हर सुबह पानी और रोशनी की जरूरत होती है।",
+      "reading": "paudhā",
+      "gender": "m"
+    },
+    "a1-452": {
+      "en": "seed",
+      "word": "बीज",
+      "sentence": "मैं मिट्टी में एक छोटा सा बीज डालता हूं और उसे पानी देता हूं।",
+      "reading": "bīj",
+      "gender": "m"
+    },
+    "a1-453": {
+      "en": "root",
+      "word": "जड़",
+      "sentence": "पौधे की जड़ अंधेरी मिट्टी के नीचे बढ़ती है।",
+      "reading": "jaṛ",
+      "gender": "f"
+    },
+    "a1-454": {
+      "en": "branch",
+      "word": "शाखा",
+      "sentence": "एक छोटा पक्षी पेड़ की निचली शाखा पर बैठा है।",
+      "reading": "śākhā",
+      "gender": "f"
+    },
+    "a1-455": {
+      "en": "bush",
+      "word": "झाड़ी",
+      "sentence": "एक खरगोश हमारे आँगन में हरी झाड़ी के नीचे छिपा हुआ है।",
+      "reading": "jhāṛī",
+      "gender": "f"
+    },
+    "a1-456": {
+      "en": "rose",
+      "word": "गुलाब",
+      "sentence": "हमारे बगीचे में लाल गुलाब की महक सुबह के समय मीठी होती है।",
+      "reading": "gulāb",
+      "gender": "m"
+    },
+    "a1-457": {
+      "en": "valley",
+      "word": "घाटी",
+      "sentence": "एक साफ़ नदी चौड़ी हरी घाटी से होकर बहती है।",
+      "reading": "ghāṭī",
+      "gender": "f"
+    },
+    "a1-458": {
+      "en": "cave",
+      "word": "गुफा",
+      "sentence": "पहाड़ी के अंदर की गुफा अंधेरी, ठंडी और शांत है।",
+      "reading": "guphā",
+      "gender": "f"
+    },
+    "a1-459": {
+      "en": "desert",
+      "word": "रेगिस्तान",
+      "sentence": "रेत और कुछ पौधों के साथ रेगिस्तान गर्म और शुष्क है।",
+      "reading": "registān",
+      "gender": "m"
+    },
+    "a1-460": {
+      "en": "pond",
+      "word": "तालाब",
+      "sentence": "पुराने फार्म के पीछे तालाब में कई बत्तखें तैर रही हैं।",
+      "reading": "tālāb",
+      "gender": "m"
+    },
+    "a1-461": {
+      "en": "stream",
+      "word": "स्ट्रीम",
+      "sentence": "साफ ठंडा पानी छोटी वन धारा में तेजी से बहता है।",
+      "reading": "sṭrīm",
+      "gender": "m"
+    },
+    "a1-462": {
+      "en": "cliff",
+      "word": "चट्टान",
+      "sentence": "हम समुद्र के ऊपर चट्टान से काफ़ी पीछे खड़े हैं।",
+      "reading": "caṭṭān",
+      "gender": "f"
+    },
+    "a1-463": {
+      "en": "shore",
+      "word": "किनारा",
+      "sentence": "मौसम गर्म होने पर बच्चे किनारे पर खेलते हैं।",
+      "reading": "kinārā",
+      "gender": "m"
+    },
+    "a1-464": {
+      "en": "wave",
+      "word": "लहर",
+      "sentence": "एक छोटी सी लहर रेत के ऊपर आती है और फिर वापस चली जाती है।",
+      "reading": "lahar",
+      "gender": "f"
+    },
+    "a1-465": {
+      "en": "land",
+      "word": "भूमि",
+      "sentence": "इस हरी-भरी जमीन पर किसान हर साल सब्जियां उगाते हैं।",
+      "reading": "bhūmi",
+      "gender": "m"
+    },
+    "a1-466": {
+      "en": "soil",
+      "word": "मिट्टी",
+      "sentence": "हमारे बगीचे की मिट्टी गहरी, मुलायम और पौधों के लिए अच्छी है।",
+      "reading": "miṭṭī",
+      "gender": "f"
+    },
+    "a1-467": {
+      "en": "air",
+      "word": "वायु",
+      "sentence": "मैं खिड़की खोलता हूं क्योंकि मुझे कुछ ताजी हवा चाहिए।",
+      "reading": "vāyu",
+      "gender": "f"
+    },
+    "a1-468": {
+      "en": "world",
+      "word": "दुनिया",
+      "sentence": "दुनिया भर में लोग भोजन, संगीत और कहानियाँ साझा करते हैं।",
+      "reading": "duniyā",
+      "gender": "f"
+    },
+    "a1-469": {
+      "en": "country",
+      "word": "देश",
+      "sentence": "हमारे देश में हरे-भरे जंगल, लंबी-लंबी नदियाँ और ऊँचे-ऊँचे पहाड़ हैं।",
+      "reading": "deś",
+      "gender": "m"
+    },
+    "a1-470": {
+      "en": "jungle",
+      "word": "जंगल",
+      "sentence": "जंगल गर्म, हरा-भरा और ऊँचे पौधों से भरा हुआ है।",
+      "reading": "jaṅgal",
+      "gender": "m"
+    },
+    "a1-471": {
+      "en": "path",
+      "word": "पथ",
+      "sentence": "हम सुबह के शांत जंगल से होकर एक संकरे रास्ते पर चलते हैं।",
+      "reading": "path",
+      "gender": "m"
+    },
+    "a1-472": {
+      "en": "mud",
+      "word": "कीचड़",
+      "sentence": "बारिश में टहलने के बाद मेरे जूतों पर मुलायम कीचड़ लग गया है।",
+      "reading": "kīcaṛ",
+      "gender": "m"
+    },
+    "a1-473": {
+      "en": "farm",
+      "word": "खेत",
+      "sentence": "मेरे चाचा अपने फार्म में गाय, भेड़ और मुर्गियाँ रखते हैं।",
+      "reading": "khet",
+      "gender": "m"
+    },
+    "a1-474": {
+      "en": "earth",
+      "word": "पृथ्वी",
+      "sentence": "हम घर के पीछे की ज़मीन में आलू और गाजर उगाते हैं।",
+      "reading": "pṛthvī",
+      "gender": "f"
+    },
+    "a1-475": {
+      "en": "person",
+      "word": "व्यक्ति",
+      "sentence": "कक्षा के दरवाजे के पास वाला व्यक्ति हमारा अंग्रेजी शिक्षक है।",
+      "reading": "vyakti",
+      "gender": "m"
+    },
+    "a1-476": {
+      "en": "neighbor",
+      "word": "पड़ोसी",
+      "sentence": "मेरी पड़ोसी हर शाम अपने बगीचे में फूलों को पानी देती है।",
+      "reading": "paṛosī",
+      "gender": "f"
+    },
+    "a1-477": {
+      "en": "guest",
+      "word": "अतिथि",
+      "sentence": "हमारे मेहमान लिविंग रूम में परिवार के साथ बैठे हैं।",
+      "reading": "atithi",
+      "gender": "m"
+    },
+    "a1-478": {
+      "en": "customer",
+      "word": "ग्राहक",
+      "sentence": "ग्राहक दुकान पर सेब और ताज़ी ब्रेड खरीदता है।",
+      "reading": "grāhak",
+      "gender": "m"
+    },
+    "a1-479": {
+      "en": "waiter",
+      "word": "वेटर",
+      "sentence": "वेटर हमारी मेज पर एक गिलास पानी लाता है।",
+      "reading": "veṭar",
+      "gender": "m"
+    },
+    "a1-480": {
+      "en": "chef",
+      "word": "महाराज",
+      "sentence": "रेस्तरां में शेफ सूप और ताज़ी ब्रेड पकाते हैं।",
+      "reading": "mahārāj",
+      "gender": "m"
+    },
+    "a1-481": {
+      "en": "farmer",
+      "word": "किसान",
+      "sentence": "किसान प्रतिदिन सुबह-सुबह गायों को भोजन देता है।",
+      "reading": "kisān",
+      "gender": "m"
+    },
+    "a1-482": {
+      "en": "driver",
+      "word": "ड्राइवर",
+      "sentence": "रोज सुबह ड्राइवर स्कूल के पास बस रोकता है।",
+      "reading": "ḍrāivar",
+      "gender": "m"
+    },
+    "a1-483": {
+      "en": "pilot",
+      "word": "पायलट",
+      "sentence": "पायलट विमान को समुद्र के ऊपर से दूसरे देश में ले जाता है।",
+      "reading": "pāylaṭ",
+      "gender": "m"
+    },
+    "a1-484": {
+      "en": "artist",
+      "word": "कलाकार",
+      "sentence": "कलाकार नीले सागर का सुंदर चित्र बनाता है।",
+      "reading": "kalākār",
+      "gender": "m"
+    },
+    "a1-485": {
+      "en": "dentist",
+      "word": "दंतचिकित्सक",
+      "sentence": "मैं हर साल दो बार दंत चिकित्सक के पास जाता हूं।",
+      "reading": "dantacikitsak",
+      "gender": "m"
+    },
+    "a1-486": {
+      "en": "patient",
+      "word": "मरीज़",
+      "sentence": "मरीज क्लिनिक में चुपचाप डॉक्टर का इंतजार करता है।",
+      "reading": "marīz",
+      "gender": "m"
+    },
+    "a1-487": {
+      "en": "worker",
+      "word": "कार्यकर्ता",
+      "sentence": "कर्मचारी हर सुबह आठ बजे तक काम पर पहुंच जाता है।",
+      "reading": "kāryakartā",
+      "gender": "m"
+    },
+    "a1-488": {
+      "en": "baker",
+      "word": "नानबाई",
+      "sentence": "बेकर हर सुबह सुबह ताज़ी गर्म रोटी बनाता है।",
+      "reading": "nānabāī",
+      "gender": "m"
+    },
+    "a1-489": {
+      "en": "cashier",
+      "word": "खजांची",
+      "sentence": "खजांची पैसे लेता है और एक दयालु मुस्कान देता है।",
+      "reading": "khajāñcī",
+      "gender": "f"
+    },
+    "a1-490": {
+      "en": "singer",
+      "word": "गायक",
+      "sentence": "गायक की आवाज़ खूबसूरत है और वह लोगों को देखकर मुस्कुराता है।",
+      "reading": "gāyak",
+      "gender": "m"
+    },
+    "a1-491": {
+      "en": "job",
+      "word": "नौकरी",
+      "sentence": "मुझे पुस्तकालय में अपना काम पसंद है क्योंकि मैं लोगों की मदद करता हूँ।",
+      "reading": "naukrī",
+      "gender": "f"
+    },
+    "a1-492": {
+      "en": "boss",
+      "word": "बॉस",
+      "sentence": "मेरी बॉस दयालु हैं और वह मुझे नई चीजें सीखने में मदद करती हैं।",
+      "reading": "bŏs",
+      "gender": "m"
+    },
+    "a1-493": {
+      "en": "tourist",
+      "word": "पर्यटक",
+      "sentence": "पर्यटक पुराने शहर के टॉवर के बगल में एक मानचित्र को देखता है।",
+      "reading": "paryaṭak",
+      "gender": "m"
+    },
+    "a1-494": {
+      "en": "he",
+      "word": "वह",
+      "sentence": "वह मेरा बड़ा भाई है, और वह मेरे साथ स्कूल जाता है।",
+      "reading": "vah"
+    },
+    "a1-495": {
+      "en": "she",
+      "word": "वह",
+      "sentence": "वह मेरी बहन है और उसे हर शाम पढ़ना पसंद है।",
+      "reading": "vah"
+    },
+    "a1-496": {
+      "en": "we",
+      "word": "हम",
+      "sentence": "हम हर दिन स्कूल से पहले एक साथ गर्म नाश्ता करते हैं।",
+      "reading": "ham"
+    },
+    "a1-497": {
+      "en": "they",
+      "word": "वे",
+      "sentence": "वे मेरे चचेरे भाई हैं, और एक छोटे से गाँव में रहते हैं।",
+      "reading": "ve"
+    },
+    "a1-498": {
+      "en": "me",
+      "word": "मुझे",
+      "sentence": "मेरे पिता रात में मुझे एक छोटी सी ख़ुशी भरी कहानी पढ़कर सुनाते हैं।",
+      "reading": "mujhe"
+    },
+    "a1-499": {
+      "en": "him",
+      "word": "उसे",
+      "sentence": "मैं सप्ताह की हर सुबह उसके साथ स्कूल जाता हूँ।",
+      "reading": "use"
+    },
+    "a1-500": {
+      "en": "her",
+      "word": "उसे",
+      "sentence": "मैं हर दिन कक्षा में उसके पास बैठता हूं।",
+      "reading": "use"
+    },
+    "a1-501": {
+      "en": "us",
+      "word": "हमें",
+      "sentence": "हमारी दादी रविवार को हमारे लिए गर्म सूप बनाती हैं।",
+      "reading": "hamẽ"
+    },
+    "a1-502": {
+      "en": "them",
+      "word": "उन्हें",
+      "sentence": "मैं उनसे हर शनिवार दोपहर को पार्क में मिलता हूं।",
+      "reading": "unhẽ"
+    },
+    "a1-503": {
+      "en": "my",
+      "word": "मेरा",
+      "sentence": "सर्दी का मौसम ठंडा होने पर मेरी मां गर्म सूप बनाती हैं।",
+      "reading": "merā"
+    },
+    "a1-504": {
+      "en": "your",
+      "word": "आपका",
+      "sentence": "आपका नीला बैकपैक सामने के दरवाजे के पास कुर्सी पर है।",
+      "reading": "āpkā"
+    },
+    "a1-505": {
+      "en": "his",
+      "word": "उसका",
+      "sentence": "उसकी लाल साइकिल नई है और वह उससे स्कूल जाता है।",
+      "reading": "uskā"
+    },
+    "a1-506": {
+      "en": "our",
+      "word": "हमारा",
+      "sentence": "हमारा घर छोटा है, लेकिन यह गर्म, स्वच्छ और खुशहाल है।",
+      "reading": "hamārā"
+    },
+    "a1-507": {
+      "en": "their",
+      "word": "उनके",
+      "sentence": "वसंत ऋतु में उनका बगीचा लाल फूलों से भरा रहता है।",
+      "reading": "unke"
+    },
+    "a1-508": {
+      "en": "who",
+      "word": "कौन",
+      "sentence": "अब सामने के दरवाजे के पास खड़ी महिला कौन है?",
+      "reading": "kaun"
+    },
+    "a1-509": {
+      "en": "someone",
+      "word": "कोई",
+      "sentence": "दरवाज़े पर कोई एक छोटा सा नीला बैग लेकर खड़ा है।",
+      "reading": "koī"
+    },
+    "a1-510": {
+      "en": "everyone",
+      "word": "हर कोई",
+      "sentence": "हमारी कक्षा में हर कोई नए छात्र के प्रति दयालु है।",
+      "reading": "har koī"
+    },
+    "a1-511": {
+      "en": "it",
+      "word": "यह",
+      "sentence": "यह पार्क में टहलने के लिए एक सुंदर गर्म दिन है।",
+      "reading": "yah"
+    },
+    "a1-512": {
+      "en": "police",
+      "word": "पुलिस",
+      "sentence": "जब मुझे सड़क पर मदद की ज़रूरत होती है तो मैं पुलिस को फोन करता हूँ।",
+      "reading": "pulis",
+      "gender": "f"
+    },
+    "a1-513": {
+      "en": "soldier",
+      "word": "सिपाही",
+      "sentence": "सैनिक ने अपने परिवार को एक लंबा पत्र लिखा।",
+      "reading": "sipāhī",
+      "gender": "f"
+    },
+    "a1-514": {
+      "en": "passenger",
+      "word": "यात्री",
+      "sentence": "प्रत्येक यात्री एक टिकट दिखाता है और फिर ट्रेन में बैठता है।",
+      "reading": "yātrī",
+      "gender": "f"
+    },
+    "a1-515": {
+      "en": "bad",
+      "word": "ख़राब",
+      "sentence": "आज मौसम ख़राब है इसलिए हम अंदर रहकर पढ़ते हैं।",
+      "reading": "k͟harāb"
+    },
+    "a1-516": {
+      "en": "old",
+      "word": "पुराना",
+      "sentence": "मेरे दादाजी बूढ़े हैं, और वह बहुत दयालु कहानियाँ सुनाते हैं।",
+      "reading": "purānā"
+    },
+    "a1-517": {
+      "en": "young",
+      "word": "युवा",
+      "sentence": "छोटा लड़का रसोई में कप धोने में अपनी माँ की मदद करता है।",
+      "reading": "yuvā"
+    },
+    "a1-518": {
+      "en": "long",
+      "word": "लंबा",
+      "sentence": "गाँव की सड़क लंबी, शांत और सुंदर है।",
+      "reading": "lambā"
+    },
+    "a1-519": {
+      "en": "short",
+      "word": "लघु",
+      "sentence": "हम हर शाम रात के खाने के बाद एक साथ थोड़ी देर टहलते हैं।",
+      "reading": "laghu"
+    },
+    "a1-520": {
+      "en": "tall",
+      "word": "लंबा",
+      "sentence": "पुराना टॉवर ऊंचा है, और हम इसे घर से देख सकते हैं।",
+      "reading": "lambā"
+    },
+    "a1-521": {
+      "en": "fast",
+      "word": "तेज़",
+      "sentence": "आज सुबह की ट्रेन तेज़ है और आमतौर पर समय पर पहुंचती है।",
+      "reading": "tez"
+    },
+    "a1-522": {
+      "en": "slow",
+      "word": "धीमा",
+      "sentence": "छोटी नाव धीमी है, लेकिन झील की सवारी अच्छी है।",
+      "reading": "dhīmā"
+    },
+    "a1-523": {
+      "en": "heavy",
+      "word": "भारी",
+      "sentence": "यह सूटकेस भारी है, इसलिए मैं अपने भाई से मदद माँगता हूँ।",
+      "reading": "bhārī"
+    },
+    "a1-524": {
+      "en": "soft",
+      "word": "नरम",
+      "sentence": "यह तकिया मुलायम है और इस पर मुझे बहुत अच्छी नींद आती है।",
+      "reading": "naram"
+    },
+    "a1-525": {
+      "en": "quiet",
+      "word": "शांत",
+      "sentence": "लंबी दोपहर में शहर का पुस्तकालय शांत रहता है।",
+      "reading": "śānt"
+    },
+    "a1-526": {
+      "en": "clean",
+      "word": "साफ़",
+      "sentence": "मैं अपना शयनकक्ष साफ रखता हूं और अपनी किताबें शेल्फ पर रखता हूं।",
+      "reading": "sāf"
+    },
+    "a1-527": {
+      "en": "full",
+      "word": "पूर्ण",
+      "sentence": "मेज पर रखा गिलास ठंडे सेब के रस से भरा है।",
+      "reading": "pūrṇ"
+    },
+    "a1-528": {
+      "en": "happy",
+      "word": "खुश",
+      "sentence": "जब मैं अपने परिवार के साथ दोपहर बिताता हूं तो मुझे खुशी होती है।",
+      "reading": "khuś"
+    },
+    "a1-529": {
+      "en": "beautiful",
+      "word": "सुन्दर",
+      "sentence": "हमारा बगीचा वसंत की गर्म धूप में सुंदर दिखता है।",
+      "reading": "sundar"
+    },
+    "a1-530": {
+      "en": "nice",
+      "word": "अच्छा",
+      "sentence": "रविवार को हमने अपने पड़ोसियों के साथ अच्छा लंच किया।",
+      "reading": "acchā"
+    },
+    "a1-531": {
+      "en": "easy",
+      "word": "आसान",
+      "sentence": "यह प्रश्न आसान है, इसलिए मैं इसका उत्तर तुरंत दे सकता हूँ।",
+      "reading": "āsān"
+    },
+    "a1-532": {
+      "en": "strong",
+      "word": "मजबूत",
+      "sentence": "मेरा बड़ा भाई मजबूत है, और वह भारी बक्सा उठा सकता है।",
+      "reading": "majbūt"
+    },
+    "a1-533": {
+      "en": "safe",
+      "word": "सुरक्षित",
+      "sentence": "हमारी शांत सड़क दिन के दौरान बच्चों के लिए सुरक्षित है।",
+      "reading": "surakṣit"
+    },
+    "a1-534": {
+      "en": "blue",
+      "word": "नीला",
+      "sentence": "दोपहर का आकाश नीला है, और मुझे केवल एक छोटा बादल दिखाई देता है।",
+      "reading": "nīlā"
+    },
+    "a1-535": {
+      "en": "green",
+      "word": "हरा",
+      "sentence": "वसंत की बारिश के बाद घास हरी और मुलायम होती है।",
+      "reading": "harā"
+    },
+    "a1-536": {
+      "en": "yellow",
+      "word": "पीला",
+      "sentence": "प्लेट में रखा केला पीला और बहुत मीठा है।",
+      "reading": "pīlā"
+    },
+    "a1-537": {
+      "en": "black",
+      "word": "काला",
+      "sentence": "मेरा शीतकालीन कोट काला, गर्म और बर्फ़ के लिए अच्छा है।",
+      "reading": "kālā"
+    },
+    "a1-538": {
+      "en": "white",
+      "word": "सफेद",
+      "sentence": "बगीचे की बर्फ़ सफ़ेद, मुलायम और बहुत ठंडी है।",
+      "reading": "saphed"
+    },
+    "a1-539": {
+      "en": "many",
+      "word": "अनेक",
+      "sentence": "कई परिवार रविवार दोपहर को शहर के संग्रहालय में जाते हैं।",
+      "reading": "anek"
+    },
+    "a1-540": {
+      "en": "some",
+      "word": "कुछ",
+      "sentence": "कुछ छात्र कक्षा के बाद रुकते हैं और शिक्षक से प्रश्न पूछते हैं।",
+      "reading": "kuch"
+    },
+    "a1-541": {
+      "en": "very",
+      "word": "बहुत",
+      "sentence": "सब्जी का सूप बहुत गर्म होता है, इसलिए मैं इसे धीरे-धीरे खाता हूं।",
+      "reading": "bahut"
+    },
+    "a1-542": {
+      "en": "and",
+      "word": "और",
+      "sentence": "मेरा भाई और मेरी बहन हर दिन एक साथ स्कूल जाते हैं।",
+      "reading": "aur"
+    },
+    "a1-543": {
+      "en": "but",
+      "word": "लेकिन",
+      "sentence": "स्कूल बैग छोटा है, लेकिन आज बहुत भारी है।",
+      "reading": "lekin"
+    },
+    "a1-544": {
+      "en": "because",
+      "word": "क्योंकि",
+      "sentence": "मुझे ख़ुशी है क्योंकि मेरा दोस्त आज मेरे साथ यहाँ है।",
+      "reading": "kyoṅki"
+    },
+    "a1-545": {
+      "en": "that",
+      "word": "वह",
+      "sentence": "कोने पर वह ऊंची इमारत हमारी शहर की लाइब्रेरी है।",
+      "reading": "vah"
+    },
+    "a1-546": {
+      "en": "these",
+      "word": "ये",
+      "sentence": "ये साफ जूते मुलायम हैं और लंबी सैर के लिए अच्छे हैं।",
+      "reading": "ye"
+    },
+    "a1-547": {
+      "en": "here",
+      "word": "यहाँ",
+      "sentence": "कृपया अपना गीला कोट यहीं सामने वाले दरवाजे के पास रखें।",
+      "reading": "yahā̃"
+    },
+    "a1-548": {
+      "en": "there",
+      "word": "वहाँ",
+      "sentence": "अस्पताल वहीं पर है, टाउन पार्क के ठीक बगल में।",
+      "reading": "vahā̃"
+    },
+    "a1-549": {
+      "en": "in",
+      "word": "में",
+      "sentence": "जूस के बगल में ठंडा दूध फ्रिज में है।",
+      "reading": "mẽ"
+    },
+    "a1-550": {
+      "en": "on",
+      "word": "पर",
+      "sentence": "आपकी नोटबुक खिड़की के पास वाली मेज़ पर है।",
+      "reading": "par"
+    },
+    "a1-551": {
+      "en": "at",
+      "word": "पर",
+      "sentence": "हम हर सुबह आठ बजे रेलवे स्टेशन पर मिलते हैं।",
+      "reading": "par"
+    },
+    "a1-552": {
+      "en": "with",
+      "word": "के साथ",
+      "sentence": "मैं अपनी मां और पिता के साथ शनिवार बाजार जाता हूं।",
+      "reading": "ke sāth"
+    },
+    "a1-553": {
+      "en": "for",
+      "word": "के लिए",
+      "sentence": "यह छोटा सा उपहार मेरे पिता के लिए उनके जन्मदिन पर है।",
+      "reading": "ke lie"
+    },
+    "a1-554": {
+      "en": "from",
+      "word": "से",
+      "sentence": "यह संक्षिप्त पत्र गाँव में मेरे चाचा का है।",
+      "reading": "se"
+    },
+    "a1-555": {
+      "en": "to",
+      "word": "को",
+      "sentence": "हम हर दिन स्कूल के बाद एक साथ पार्क में जाते हैं।",
+      "reading": "ko"
+    },
+    "a1-556": {
+      "en": "or",
+      "word": "या",
+      "sentence": "आप नाश्ते के साथ चाय या एक गिलास जूस ले सकते हैं।",
+      "reading": "yā"
+    },
+    "a1-557": {
+      "en": "car",
+      "word": "कार",
+      "sentence": "मेरे पिता शनिवार की सुबह परिवार की कार धोते हैं।",
+      "reading": "kār",
+      "gender": "f"
+    },
+    "a1-558": {
+      "en": "bus",
+      "word": "बस",
+      "sentence": "मैं हर सुबह अपने दोस्तों के साथ स्कूल जाने के लिए बस लेता हूँ।",
+      "reading": "bas",
+      "gender": "f"
+    },
+    "a1-559": {
+      "en": "train",
+      "word": "ट्रेन",
+      "sentence": "हम शुक्रवार को शहर के लिए शुरुआती ट्रेन पकड़ते हैं।",
+      "reading": "ṭren",
+      "gender": "f"
+    },
+    "a1-560": {
+      "en": "bicycle",
+      "word": "साइकिल",
+      "sentence": "मैं हर दिन स्कूल के बाद अपनी साइकिल से पार्क जाता हूँ।",
+      "reading": "sāikil",
+      "gender": "f"
+    },
+    "a1-561": {
+      "en": "plane",
+      "word": "विमान",
+      "sentence": "विमान पहाड़ों और नीले समुद्र के ऊपर ऊंची उड़ान भरता है।",
+      "reading": "vimān",
+      "gender": "m"
+    },
+    "a1-562": {
+      "en": "boat",
+      "word": "नाव",
+      "sentence": "हम शांत झील पर एक छोटी सी नाव में एक साथ बैठते हैं।",
+      "reading": "nāv",
+      "gender": "f"
+    },
+    "a1-563": {
+      "en": "ship",
+      "word": "जहाज़",
+      "sentence": "बड़ा जहाज सुबह-सुबह बंदरगाह से निकल जाता है।",
+      "reading": "jahāz",
+      "gender": "m"
+    },
+    "a1-564": {
+      "en": "taxi",
+      "word": "टैक्सी",
+      "sentence": "हम हवाई अड्डे से अपने होटल तक टैक्सी लेते हैं।",
+      "reading": "ṭaiksī",
+      "gender": "f"
+    },
+    "a1-565": {
+      "en": "truck",
+      "word": "ट्रक",
+      "sentence": "ट्रक ताज़ा भोजन के डिब्बे बाज़ार में लाता है।",
+      "reading": "ṭrak",
+      "gender": "m"
+    },
+    "a1-566": {
+      "en": "motorcycle",
+      "word": "मोटरसाइकिल",
+      "sentence": "जब वह मोटरसाइकिल चलाते हैं तो हमेशा हेलमेट पहनते हैं।",
+      "reading": "moṭarasāikil",
+      "gender": "f"
+    },
+    "a1-567": {
+      "en": "subway",
+      "word": "भूमिगत मार्ग",
+      "sentence": "मैं हर सुबह ऑफिस जाने के लिए मेट्रो लेता हूं।",
+      "reading": "bhūmigat mārg",
+      "gender": "m"
+    },
+    "a1-568": {
+      "en": "tram",
+      "word": "ट्राम",
+      "sentence": "ट्राम हर पंद्रह मिनट में संग्रहालय के पास रुकती है।",
+      "reading": "ṭrām",
+      "gender": "f"
+    },
+    "a1-569": {
+      "en": "ticket",
+      "word": "टिकट",
+      "sentence": "मैं प्लेटफॉर्म पर जाने से पहले ट्रेन का टिकट खरीदता हूं।",
+      "reading": "ṭikaṭ",
+      "gender": "m"
+    },
+    "a1-570": {
+      "en": "wheel",
+      "word": "पहिया",
+      "sentence": "मेरी साइकिल का अगला पहिया गोल और साफ है।",
+      "reading": "pahiyā",
+      "gender": "m"
+    },
+    "a1-571": {
+      "en": "seat",
+      "word": "सीट",
+      "sentence": "कृपया बस की खिड़की के पास खाली सीट पर बैठें।",
+      "reading": "sīṭ",
+      "gender": "f"
+    },
+    "a1-572": {
+      "en": "helmet",
+      "word": "हेलमेट",
+      "sentence": "जब भी मैं साइकिल चलाता हूं तो हेलमेट पहनता हूं।",
+      "reading": "helmeṭ",
+      "gender": "m"
+    },
+    "a1-573": {
+      "en": "platform",
+      "word": "मंच",
+      "sentence": "हम प्लेटफार्म पर सुबह की ट्रेन आने का इंतजार करते हैं।",
+      "reading": "mañc",
+      "gender": "m"
+    },
+    "a1-574": {
+      "en": "highway",
+      "word": "राजमार्ग",
+      "sentence": "शहर का राजमार्ग हर सुबह कारों से व्यस्त रहता है।",
+      "reading": "rājamārg",
+      "gender": "m"
+    },
+    "a1-575": {
+      "en": "trip",
+      "word": "यात्रा",
+      "sentence": "हमारा परिवार गर्मियों में समुद्र तट की एक छोटी यात्रा पर जाता है।",
+      "reading": "yātrā",
+      "gender": "f"
+    },
+    "a1-576": {
+      "en": "passport",
+      "word": "पासपोर्ट",
+      "sentence": "मैं यात्रा के दौरान अपना पासपोर्ट अपने बैग में सुरक्षित रखता हूं।",
+      "reading": "pāsaporṭ",
+      "gender": "m"
+    },
+    "a1-577": {
+      "en": "luggage",
+      "word": "सामान",
+      "sentence": "सुबह की यात्रा के लिए हमारा सामान दरवाजे पर तैयार है।",
+      "reading": "sāmān",
+      "gender": "m"
+    },
+    "a1-578": {
+      "en": "suitcase",
+      "word": "सूटकेस",
+      "sentence": "मैंने यात्रा के लिए अपने साफ कपड़े सूटकेस में रख दिए।",
+      "reading": "sūṭkes",
+      "gender": "m"
+    },
+    "a1-579": {
+      "en": "tunnel",
+      "word": "सुरंग",
+      "sentence": "ट्रेन एक लंबी अंधेरी सुरंग से धीरे-धीरे गुजरती है।",
+      "reading": "suraṅg",
+      "gender": "f"
+    },
+    "a1-580": {
+      "en": "ambulance",
+      "word": "एम्बुलेंस",
+      "sentence": "एम्बुलेंस बीमार लोगों को तुरंत अस्पताल पहुंचाती है।",
+      "reading": "embuleṁs",
+      "gender": "f"
+    },
+    "a1-581": {
+      "en": "ferry",
+      "word": "नौका",
+      "sentence": "हम हर रविवार को चौड़ी नदी के पार नौका लेते हैं।",
+      "reading": "naukā",
+      "gender": "f"
+    },
+    "a1-582": {
+      "en": "scooter",
+      "word": "स्कूटर",
+      "sentence": "वह ताज़ी ब्रेड के लिए अपने स्कूटर से बेकरी तक जाती है।",
+      "reading": "skūṭar",
+      "gender": "m"
+    },
+    "a1-583": {
+      "en": "van",
+      "word": "वैन",
+      "sentence": "वैन हर सुबह भोजन के डिब्बे सुपरमार्केट तक ले जाती है।",
+      "reading": "vain",
+      "gender": "f"
+    },
+    "a1-584": {
+      "en": "route",
+      "word": "मार्ग",
+      "sentence": "यह बस मार्ग अस्पताल और टाउन पार्क से होकर गुजरता है।",
+      "reading": "mārg",
+      "gender": "m"
+    },
+    "a1-585": {
+      "en": "speed",
+      "word": "गति",
+      "sentence": "कृपया राजमार्ग पर वाहन चलाते समय सुरक्षित गति रखें।",
+      "reading": "gati",
+      "gender": "f"
+    },
+    "a1-586": {
+      "en": "harbor",
+      "word": "बंदरगाह",
+      "sentence": "आज सुबह कई छोटी नावें शांत बंदरगाह में आराम कर रही हैं।",
+      "reading": "bandargāh",
+      "gender": "m"
+    },
+    "a1-587": {
+      "en": "gas",
+      "word": "गैस",
+      "sentence": "झील की लंबी यात्रा से पहले हम गैस खरीदने के लिए रुकते हैं।",
+      "reading": "gais",
+      "gender": "f"
+    },
+    "a1-588": {
+      "en": "timetable",
+      "word": "समय सारिणी",
+      "sentence": "ट्रेन स्टेशन पर चलने से पहले मैं समय सारिणी पढ़ता हूँ।",
+      "reading": "samay sāriṇī",
+      "gender": "f"
+    },
+    "a1-589": {
+      "en": "left",
+      "word": "बाएँ",
+      "sentence": "कृपया बैंक में बाएं मुड़ें और फिर सीधे जाएं।",
+      "reading": "bāẽ"
+    },
+    "a1-590": {
+      "en": "right",
+      "word": "दाएँ",
+      "sentence": "पुल के ठीक बाद दाएँ मुड़ें और आपको पार्क दिखाई देगा।",
+      "reading": "dāẽ"
+    },
+    "a1-591": {
+      "en": "straight",
+      "word": "सीधा",
+      "sentence": "इस सड़क पर सीधे रेलवे स्टेशन पर जाएँ।",
+      "reading": "sīdhā"
+    },
+    "a1-592": {
+      "en": "kilometer",
+      "word": "किलोमीटर",
+      "sentence": "हमारा स्कूल परिवार के घर से लगभग एक किलोमीटर दूर है।",
+      "reading": "kilomīṭar",
+      "gender": "m"
+    },
+    "a1-593": {
+      "en": "mile",
+      "word": "मील",
+      "sentence": "नीली झील शहर के केंद्र से लगभग एक मील दूर है।",
+      "reading": "mīl",
+      "gender": "m"
+    },
+    "a1-594": {
+      "en": "arrival",
+      "word": "आगमन",
+      "sentence": "होटल में हमारा आगमन देर शाम को है।",
+      "reading": "āgman",
+      "gender": "m"
+    },
+    "a1-595": {
+      "en": "departure",
+      "word": "प्रस्थान",
+      "sentence": "हमारी ट्रेन का प्रस्थान आज दोपहर को है।",
+      "reading": "prasthān",
+      "gender": "m"
+    },
+    "a1-596": {
+      "en": "engine",
+      "word": "इंजन",
+      "sentence": "पुरानी बस का इंजन तेज़ है लेकिन फिर भी मजबूत है।",
+      "reading": "iñjan",
+      "gender": "m"
+    },
+    "a1-597": {
+      "en": "zero",
+      "word": "शून्य",
+      "sentence": "हमारे शहर में आज सुबह का तापमान शून्य डिग्री है।",
+      "reading": "śūnya"
+    },
+    "a1-598": {
+      "en": "three",
+      "word": "तीन",
+      "sentence": "मेरे तीन चचेरे भाई हैं, और वे हमारे बहुत करीब रहते हैं।",
+      "reading": "tīn"
+    },
+    "a1-599": {
+      "en": "four",
+      "word": "चार",
+      "sentence": "हमारी रसोई की मेज के चारों ओर चार कुर्सियाँ हैं।",
+      "reading": "cār"
+    },
+    "a1-600": {
+      "en": "five",
+      "word": "पांच",
+      "sentence": "पहली क्लास सुबह साढ़े पांच बजे शुरू होती है।",
+      "reading": "pāñc"
+    },
+    "a1-601": {
+      "en": "six",
+      "word": "छह",
+      "sentence": "हमारी सड़क पर बेकरी शाम छह बजे बंद हो जाती है।",
+      "reading": "chah"
+    },
+    "a1-602": {
+      "en": "seven",
+      "word": "सात",
+      "sentence": "हम आमतौर पर शाम सात बजे एक साथ खाना खाते हैं।'",
+      "reading": "sāt"
+    },
+    "a1-603": {
+      "en": "eight",
+      "word": "आठ",
+      "sentence": "शुरुआती ट्रेन सुबह आठ बजे स्टेशन से रवाना होती है।",
+      "reading": "āṭh"
+    },
+    "a1-604": {
+      "en": "nine",
+      "word": "नौ",
+      "sentence": "मैं आमतौर पर नौ बजे बिस्तर पर चला जाता हूं जब मुझे थकान महसूस होती है।",
+      "reading": "nau"
+    },
+    "a1-605": {
+      "en": "ten",
+      "word": "दस",
+      "sentence": "बच्चे अंग्रेजी में एक से दस तक गिनती कर सकते हैं।",
+      "reading": "das"
+    },
+    "a1-606": {
+      "en": "eleven",
+      "word": "ग्यारह",
+      "sentence": "सिटी बस आमतौर पर सुबह ग्यारह बजे आती है।",
+      "reading": "gyārah"
+    },
+    "a1-607": {
+      "en": "twelve",
+      "word": "बारह",
+      "sentence": "कैलेंडर में हर साल बारह महीने होते हैं।",
+      "reading": "bārah"
+    },
+    "a1-608": {
+      "en": "thirteen",
+      "word": "तेरह",
+      "sentence": "मेरा युवा चचेरा भाई आज तेरह वर्ष का है।",
+      "reading": "terah"
+    },
+    "a1-609": {
+      "en": "fourteen",
+      "word": "चौदह",
+      "sentence": "हमारी छोटी सी सुबह की कक्षा में चौदह छात्र हैं।",
+      "reading": "caudah"
+    },
+    "a1-610": {
+      "en": "fifteen",
+      "word": "पन्द्रह",
+      "sentence": "मैं सोने से पहले पंद्रह मिनट तक अपनी किताब पढ़ता हूं।",
+      "reading": "pandrah"
+    },
+    "a1-611": {
+      "en": "sixteen",
+      "word": "सोलह",
+      "sentence": "मेरी बहन सोलह साल की है और उसे संगीत कक्षा पसंद है।",
+      "reading": "solah"
+    },
+    "a1-612": {
+      "en": "seventeen",
+      "word": "सत्रह",
+      "sentence": "शहर के लिए ट्रेन टिकट की कीमत आज सत्रह डॉलर है।",
+      "reading": "satrah"
+    },
+    "a1-613": {
+      "en": "eighteen",
+      "word": "अठारह",
+      "sentence": "मेरा भाई अठारह साल का है, और वह परिवार की गाड़ी चला सकता है।",
+      "reading": "aṭhārah"
+    },
+    "a1-614": {
+      "en": "nineteen",
+      "word": "उन्नीस",
+      "sentence": "मैं स्कूल की छत पर उन्नीस पक्षियों को बैठे हुए देख सकता हूँ।",
+      "reading": "unnīs"
+    },
+    "a1-615": {
+      "en": "twenty",
+      "word": "बीस",
+      "sentence": "मेरे बटुए में बाज़ार के लिए बीस डॉलर हैं।",
+      "reading": "bīs"
+    },
+    "a1-616": {
+      "en": "thirty",
+      "word": "तीस",
+      "sentence": "कैलेंडर के अनुसार इस महीने में तीस दिन होते हैं।",
+      "reading": "tīs"
+    },
+    "a1-617": {
+      "en": "forty",
+      "word": "चालीस",
+      "sentence": "मेरे दयालु चाचा आज चालीस वर्ष के हैं।",
+      "reading": "cālīs"
+    },
+    "a1-618": {
+      "en": "fifty",
+      "word": "पचास",
+      "sentence": "इस सुबह की बस में सभी यात्रियों के लिए पचास सीटें हैं।",
+      "reading": "pacās"
+    },
+    "a1-619": {
+      "en": "sixty",
+      "word": "साठ",
+      "sentence": "एक घंटे के प्रत्येक मिनट में साठ सेकंड होते हैं।",
+      "reading": "sāṭh"
+    },
+    "a1-620": {
+      "en": "seventy",
+      "word": "सत्तर",
+      "sentence": "शहर में आज दोपहर का तापमान सत्तर डिग्री है।",
+      "reading": "sattar"
+    },
+    "a1-621": {
+      "en": "eighty",
+      "word": "अस्सी",
+      "sentence": "मेरी दादी अस्सी साल की हैं और बहुत खुश हैं।",
+      "reading": "assī"
+    },
+    "a1-622": {
+      "en": "ninety",
+      "word": "नब्बे",
+      "sentence": "दुकान में सर्दियों के गर्म कोट की कीमत नब्बे डॉलर है।",
+      "reading": "nabbe"
+    },
+    "a1-623": {
+      "en": "hundred",
+      "word": "सौ",
+      "sentence": "हमारे छोटे थिएटर में लगभग सौ लोग बैठ सकते हैं।",
+      "reading": "sau"
+    },
+    "a1-624": {
+      "en": "thousand",
+      "word": "हजार",
+      "sentence": "हमारे शांत गांव में लगभग एक हजार लोग रहते हैं।",
+      "reading": "hajār"
+    },
+    "a1-625": {
+      "en": "first",
+      "word": "प्रथम",
+      "sentence": "सोमवार हमारे स्कूल सप्ताह का पहला दिन है।",
+      "reading": "pratham"
+    },
+    "a1-626": {
+      "en": "third",
+      "word": "तीसरा",
+      "sentence": "बुधवार स्कूल सप्ताह का तीसरा दिन है।",
+      "reading": "tīsrā"
+    },
+    "a1-627": {
+      "en": "half",
+      "word": "आधा",
+      "sentence": "मैं अपने पनीर सैंडविच का आधा हिस्सा खाता हूं और बाकी बचा लेता हूं।",
+      "reading": "ādhā",
+      "gender": "m"
+    },
+    "a1-628": {
+      "en": "dozen",
+      "word": "दर्जन",
+      "sentence": "मैं शनिवार को बाज़ार से एक दर्जन ताज़ा अंडे खरीदता हूँ।",
+      "reading": "darjan",
+      "gender": "m"
+    },
+    "a1-629": {
+      "en": "once",
+      "word": "एक बार",
+      "sentence": "हमारी कक्षा हर महीने एक बार शहर के संग्रहालय का दौरा करती है।",
+      "reading": "ek bār"
+    },
+    "a1-630": {
+      "en": "twice",
+      "word": "दो बार",
+      "sentence": "मैं दिन में दो बार, सुबह और रात में अपने दाँत ब्रश करता हूँ।",
+      "reading": "do bār"
+    },
+    "a1-631": {
+      "en": "number",
+      "word": "संख्या",
+      "sentence": "कृपया कागज पर अपना फोन नंबर स्पष्ट रूप से लिखें।",
+      "reading": "saṅkhyā",
+      "gender": "f"
+    },
+    "a1-632": {
+      "en": "money",
+      "word": "पैसा",
+      "sentence": "मैं हर महीने बैंक में कुछ पैसे बचाता हूं।",
+      "reading": "paisā",
+      "gender": "m"
+    },
+    "a1-633": {
+      "en": "dollar",
+      "word": "डॉलर",
+      "sentence": "बेकरी में इस ताज़ी रोटी की कीमत एक डॉलर है।",
+      "reading": "ḍŏlar",
+      "gender": "m"
+    },
+    "a1-634": {
+      "en": "coin",
+      "word": "सिक्का",
+      "sentence": "मुझे स्कूल के पास फुटपाथ पर एक छोटा चाँदी का सिक्का मिला।",
+      "reading": "sikkā",
+      "gender": "m"
+    },
+    "a1-635": {
+      "en": "price",
+      "word": "कीमत",
+      "sentence": "शहर में बस टिकट की कीमत दो डॉलर है।",
+      "reading": "kīmat",
+      "gender": "f"
+    },
+    "a1-636": {
+      "en": "count",
+      "word": "गिनना",
+      "sentence": "हम आज कक्षा में एक साथ धीरे-धीरे एक से बीस तक गिनती करते हैं।",
+      "reading": "ginnā"
+    },
+    "s-00001": {
+      "en": "a",
+      "word": "एक",
+      "sentence": "मेज़ पर एक किताब है।",
+      "reading": "ek"
+    },
+    "s-00002": {
+      "en": "about",
+      "word": "के बारे में",
+      "sentence": "हमने किताब के बारे में बात की।",
+      "reading": "ke bāre mẽ"
+    },
+    "s-00003": {
+      "en": "above",
+      "word": "ऊपर",
+      "sentence": "दीपक मेज के ऊपर है।",
+      "reading": "ūpar"
+    },
+    "s-00004": {
+      "en": "action",
+      "word": "कार्रवाई",
+      "sentence": "यह एक क्रिया है।",
+      "reading": "kārravāī",
+      "gender": "f"
+    },
+    "s-00005": {
+      "en": "activity",
+      "word": "गतिविधि",
+      "sentence": "यह एक गतिविधि है।",
+      "reading": "gatividhi",
+      "gender": "f"
+    },
+    "s-00007": {
+      "en": "add",
+      "word": "जोड़ना",
+      "sentence": "मैं जोड़ना सीख रहा हूँ।",
+      "reading": "joṛnā"
+    },
+    "s-00010": {
+      "en": "after",
+      "word": "के बाद",
+      "sentence": "हम स्कूल के बाद आराम करते हैं।",
+      "reading": "ke bād"
+    },
+    "s-00012": {
+      "en": "again",
+      "word": "पुनः",
+      "sentence": "कृपया इसे फिर से कहना।",
+      "reading": "punaḥ"
+    },
+    "s-00013": {
+      "en": "age",
+      "word": "उम्र",
+      "sentence": "ये एक उम्र है।",
+      "reading": "umra",
+      "gender": "f"
+    },
+    "s-00014": {
+      "en": "ago",
+      "word": "पहले",
+      "sentence": "मैंने उसे दो दिन पहले देखा था।",
+      "reading": "pahle"
+    },
+    "s-00019": {
+      "en": "all",
+      "word": "सब",
+      "sentence": "हम सभी के बारे में बात कर रहे थे।",
+      "reading": "sab"
+    },
+    "s-00020": {
+      "en": "all right",
+      "word": "ठीक है",
+      "sentence": "यह बिलकुल ठीक है।",
+      "reading": "ṭhīk hai"
+    },
+    "s-00022": {
+      "en": "alone",
+      "word": "अकेले",
+      "sentence": "कृपया इसे अकेले में कहें।",
+      "reading": "akele"
+    },
+    "s-00023": {
+      "en": "along",
+      "word": "साथ में",
+      "sentence": "हम नदी के किनारे चले।",
+      "reading": "sāth mẽ"
+    },
+    "s-00025": {
+      "en": "also",
+      "word": "भी",
+      "sentence": "मुझे भी थोड़ा पानी चाहिए।",
+      "reading": "bhī"
+    },
+    "s-00027": {
+      "en": "am",
+      "word": "हूँ",
+      "sentence": "मैं हूँ सीख रहा हूँ।",
+      "reading": "hū̃"
+    },
+    "s-00028": {
+      "en": "an",
+      "word": "एक",
+      "sentence": "मेज़ पर एक किताब है।",
+      "reading": "ek"
+    },
+    "s-00031": {
+      "en": "animal",
+      "word": "जानवर",
+      "sentence": "यह एक जानवर है।",
+      "reading": "jānvar",
+      "gender": "m"
+    },
+    "s-00034": {
+      "en": "any",
+      "word": "कोई भी",
+      "sentence": "हम किसी के बारे में बात कर रहे थे।",
+      "reading": "koī bhī"
+    },
+    "s-00035": {
+      "en": "anybody",
+      "word": "कोई भी",
+      "sentence": "हम किसी के बारे में बात कर रहे थे।",
+      "reading": "koī bhī"
+    },
+    "s-00037": {
+      "en": "anything",
+      "word": "कुछ भी",
+      "sentence": "हम कुछ भी बात कर रहे थे।",
+      "reading": "kuch bhī"
+    },
+    "s-00038": {
+      "en": "april",
+      "word": "अप्रैल",
+      "sentence": "यह एक अप्रैल है।",
+      "reading": "aprail",
+      "gender": "m"
+    },
+    "s-00039": {
+      "en": "apron",
+      "word": "एप्रन",
+      "sentence": "यह एक एप्रन है।",
+      "reading": "epran",
+      "gender": "m"
+    },
+    "s-00040": {
+      "en": "are",
+      "word": "हो",
+      "sentence": "मैं हो सीख रहा हूँ।",
+      "reading": "ho"
+    },
+    "s-00042": {
+      "en": "around",
+      "word": "चारों ओर",
+      "sentence": "बिल्ली घर के आसपास है।",
+      "reading": "cārõ or"
+    },
+    "s-00046": {
+      "en": "as",
+      "word": "जैसे",
+      "sentence": "किताब मेज की तरह है।",
+      "reading": "jaise"
+    },
+    "s-00049": {
+      "en": "august",
+      "word": "अगस्त",
+      "sentence": "यह एक अगस्त है।",
+      "reading": "agast",
+      "gender": "m"
+    },
+    "s-00052": {
+      "en": "awake",
+      "word": "जागा",
+      "sentence": "यह जागृत है।",
+      "reading": "jāgā"
+    },
+    "s-00053": {
+      "en": "away",
+      "word": "दूर",
+      "sentence": "बस चली जा रही है।",
+      "reading": "dūr"
+    },
+    "s-00058": {
+      "en": "ball",
+      "word": "गेंद",
+      "sentence": "यह एक गेंद है।",
+      "reading": "gend",
+      "gender": "f"
+    },
+    "s-00062": {
+      "en": "bar",
+      "word": "बार",
+      "sentence": "यह एक बार है।",
+      "reading": "bār",
+      "gender": "m"
+    },
+    "s-00063": {
+      "en": "baseball",
+      "word": "बेसबॉल",
+      "sentence": "यह एक बेसबॉल है।",
+      "reading": "besbŏl",
+      "gender": "m"
+    },
+    "s-00064": {
+      "en": "basketball",
+      "word": "बास्केटबॉल",
+      "sentence": "यह एक बास्केटबॉल है।",
+      "reading": "bāskeṭbŏl",
+      "gender": "m"
+    },
+    "s-00065": {
+      "en": "bat",
+      "word": "बल्ला",
+      "sentence": "यह एक चमगादड़ है।",
+      "reading": "ballā",
+      "gender": "m"
+    },
+    "s-00070": {
+      "en": "bean",
+      "word": "बीन",
+      "sentence": "यह एक बीन है।",
+      "reading": "bīn",
+      "gender": "m"
+    },
+    "s-00074": {
+      "en": "become",
+      "word": "बनना",
+      "sentence": "मैं बनना सीख रहा हूँ।",
+      "reading": "bannā"
+    },
+    "s-00077": {
+      "en": "beef",
+      "word": "गोमांस",
+      "sentence": "यह गोमांस है।",
+      "reading": "gomāṁs",
+      "gender": "m"
+    },
+    "s-00078": {
+      "en": "before",
+      "word": "पहले",
+      "sentence": "रात के खाने से पहले अपने हाथ धोएं।",
+      "reading": "pahle"
+    },
+    "s-00079": {
+      "en": "begin",
+      "word": "शुरू करना",
+      "sentence": "मैं शुरू करना सीख रहा हूँ।",
+      "reading": "śurū karnā"
+    },
+    "s-00080": {
+      "en": "behind",
+      "word": "पीछे",
+      "sentence": "घर के पीछे बगीचा है।",
+      "reading": "pīche"
+    },
+    "s-00083": {
+      "en": "below",
+      "word": "नीचे",
+      "sentence": "दुकान स्कूल के नीचे है।",
+      "reading": "nīce"
+    },
+    "s-00084": {
+      "en": "beside",
+      "word": "बगल में",
+      "sentence": "मेरे पास बैठो।",
+      "reading": "bagal mẽ"
+    },
+    "s-00085": {
+      "en": "best",
+      "word": "सर्वोत्तम",
+      "sentence": "यह सबसे अच्छा है।",
+      "reading": "sarvottam"
+    },
+    "s-00086": {
+      "en": "better",
+      "word": "बेहतर",
+      "sentence": "यह बेहतर है।",
+      "reading": "behtar"
+    },
+    "s-00089": {
+      "en": "bike",
+      "word": "बाइक",
+      "sentence": "यह एक बाइक है।",
+      "reading": "bāik",
+      "gender": "m"
+    },
+    "s-00090": {
+      "en": "birth",
+      "word": "जन्म",
+      "sentence": "यह एक जन्म है।",
+      "reading": "janma",
+      "gender": "m"
+    },
+    "s-00092": {
+      "en": "biscuit",
+      "word": "बिस्किट",
+      "sentence": "यह एक बिस्किट है।",
+      "reading": "biskiṭ",
+      "gender": "m"
+    },
+    "s-00094": {
+      "en": "blank",
+      "word": "रिक्त",
+      "sentence": "यह खाली है।",
+      "reading": "rikt"
+    },
+    "s-00102": {
+      "en": "bookstore",
+      "word": "किताबों की दुकान",
+      "sentence": "यह एक किताबों की दुकान है।",
+      "reading": "kitābõ kī dukān",
+      "gender": "f"
+    },
+    "s-00103": {
+      "en": "boring",
+      "word": "उबाऊ",
+      "sentence": "यह उबाऊ है।",
+      "reading": "ubāū"
+    },
+    "s-00107": {
+      "en": "bottom",
+      "word": "तल",
+      "sentence": "यह एक तल है।",
+      "reading": "tal",
+      "gender": "f"
+    },
+    "s-00109": {
+      "en": "box",
+      "word": "बक्सा",
+      "sentence": "यह एक बक्सा है।",
+      "reading": "baksā",
+      "gender": "m"
+    },
+    "s-00112": {
+      "en": "brain",
+      "word": "मस्तिष्क",
+      "sentence": "यह एक मस्तिष्क है।",
+      "reading": "mastiṣk",
+      "gender": "m"
+    },
+    "s-00121": {
+      "en": "brown",
+      "word": "भूरा",
+      "sentence": "यह भूरे रंग का है।",
+      "reading": "bhūrā"
+    },
+    "s-00123": {
+      "en": "bucket",
+      "word": "बाल्टी",
+      "sentence": "यह एक बाल्टी है।",
+      "reading": "bālṭī",
+      "gender": "f"
+    },
+    "s-00124": {
+      "en": "build",
+      "word": "बनाना",
+      "sentence": "मैं बनाना सीख रहा हूँ।",
+      "reading": "banānā"
+    },
+    "s-00126": {
+      "en": "burger",
+      "word": "बर्गर",
+      "sentence": "यह एक बर्गर है।",
+      "reading": "bargar",
+      "gender": "m"
+    },
+    "s-00135": {
+      "en": "by",
+      "word": "द्वारा",
+      "sentence": "किताब मेज़ के पास है।",
+      "reading": "dvārā"
+    },
+    "s-00136": {
+      "en": "bye",
+      "word": "अलविदा",
+      "sentence": "यह अलविदा है।",
+      "reading": "alvidā",
+      "gender": "m"
+    },
+    "s-00141": {
+      "en": "camp",
+      "word": "शिविर",
+      "sentence": "यह एक शिविर है।",
+      "reading": "śivir",
+      "gender": "m"
+    },
+    "s-00143": {
+      "en": "candy",
+      "word": "कैंडी",
+      "sentence": "यह एक कैंडी है।",
+      "reading": "kaiṇḍī",
+      "gender": "f"
+    },
+    "s-00146": {
+      "en": "card",
+      "word": "कार्ड",
+      "sentence": "यह एक कार्ड है।",
+      "reading": "kārḍ",
+      "gender": "m"
+    },
+    "s-00150": {
+      "en": "carry",
+      "word": "ले जाना",
+      "sentence": "मैं ले जाना सीख रहा हूँ।",
+      "reading": "le jānā"
+    },
+    "s-00152": {
+      "en": "case",
+      "word": "मामला",
+      "sentence": "ये एक मामला है।",
+      "reading": "māmlā",
+      "gender": "m"
+    },
+    "s-00154": {
+      "en": "cd",
+      "word": "सीडी",
+      "sentence": "यह एक सीडी है।",
+      "reading": "sīḍī",
+      "gender": "f"
+    },
+    "s-00155": {
+      "en": "cd player",
+      "word": "सीडी प्लेयर",
+      "sentence": "आप इस वाक्य में \"सीडी प्लेयर\" कह सकते हैं।",
+      "reading": "sīḍī pleyar",
+      "gender": "m"
+    },
+    "s-00159": {
+      "en": "change",
+      "word": "परिवर्तन",
+      "sentence": "ये एक बदलाव है।",
+      "reading": "parivartan",
+      "gender": "m"
+    },
+    "s-00164": {
+      "en": "chocolate",
+      "word": "चॉकलेट",
+      "sentence": "यह एक चॉकलेट है।",
+      "reading": "cŏkleṭ",
+      "gender": "m"
+    },
+    "s-00168": {
+      "en": "circle",
+      "word": "वृत्त",
+      "sentence": "यह एक वृत्त है।",
+      "reading": "vṛtt",
+      "gender": "m"
+    },
+    "s-00177": {
+      "en": "closed",
+      "word": "बंद",
+      "sentence": "यह बंद है।",
+      "reading": "band"
+    },
+    "s-00178": {
+      "en": "cloth",
+      "word": "कपड़ा",
+      "sentence": "यह एक कपड़ा है।",
+      "reading": "kapṛā",
+      "gender": "m"
+    },
+    "s-00186": {
+      "en": "coke",
+      "word": "कोक",
+      "sentence": "यह एक कोक है।",
+      "reading": "kok",
+      "gender": "m"
+    },
+    "s-00189": {
+      "en": "college",
+      "word": "कॉलेज",
+      "sentence": "यह एक कॉलेज है।",
+      "reading": "kŏlej",
+      "gender": "m"
+    },
+    "s-00190": {
+      "en": "color",
+      "word": "रंग",
+      "sentence": "ये एक रंग है।",
+      "reading": "raṅg",
+      "gender": "m"
+    },
+    "s-00191": {
+      "en": "computer",
+      "word": "कंप्यूटर",
+      "sentence": "यह एक कंप्यूटर है।",
+      "reading": "kampyūṭar",
+      "gender": "m"
+    },
+    "s-00198": {
+      "en": "cop",
+      "word": "सिपाही",
+      "sentence": "यह एक पुलिस वाला है।",
+      "reading": "sipāhī",
+      "gender": "f"
+    },
+    "s-00200": {
+      "en": "corn",
+      "word": "मक्का",
+      "sentence": "यह एक मक्का है।",
+      "reading": "makkā",
+      "gender": "m"
+    },
+    "s-00203": {
+      "en": "couch",
+      "word": "सोफ़ा",
+      "sentence": "यह एक सोफ़ा है।",
+      "reading": "sofā",
+      "gender": "m"
+    },
+    "s-00204": {
+      "en": "could",
+      "word": "सका",
+      "sentence": "मैं सका सीख रहा हूँ।",
+      "reading": "sakā"
+    },
+    "s-00207": {
+      "en": "cover",
+      "word": "कवर",
+      "sentence": "यह एक आवरण है।",
+      "reading": "kavar",
+      "gender": "m"
+    },
+    "s-00209": {
+      "en": "cream",
+      "word": "क्रीम",
+      "sentence": "यह एक क्रीम है।",
+      "reading": "krīm",
+      "gender": "m"
+    },
+    "s-00210": {
+      "en": "credit card",
+      "word": "क्रेडिट कार्ड",
+      "sentence": "आप इस वाक्य में \"क्रेडिट कार्ड\" कह सकते हैं।",
+      "reading": "kreḍiṭ kārḍ",
+      "gender": "m"
+    },
+    "s-00211": {
+      "en": "cry",
+      "word": "रोना",
+      "sentence": "ये एक रोना है।",
+      "reading": "ronā",
+      "gender": "m"
+    },
+    "s-00214": {
+      "en": "cut",
+      "word": "काटना",
+      "sentence": "मैं काटना सीख रहा हूँ।",
+      "reading": "kāṭnā"
+    },
+    "s-00215": {
+      "en": "cute",
+      "word": "प्यारा",
+      "sentence": "यह प्यारा है।",
+      "reading": "pyārā"
+    },
+    "s-00216": {
+      "en": "dad",
+      "word": "पिताजी",
+      "sentence": "यह एक पिता है।",
+      "reading": "pitājī",
+      "gender": "f"
+    },
+    "s-00217": {
+      "en": "daddy",
+      "word": "पिताजी",
+      "sentence": "यह एक डैडी है।",
+      "reading": "pitājī",
+      "gender": "f"
+    },
+    "s-00219": {
+      "en": "dancing",
+      "word": "नृत्य",
+      "sentence": "यह एक नृत्य है।",
+      "reading": "nṛtya",
+      "gender": "m"
+    },
+    "s-00220": {
+      "en": "dark",
+      "word": "अंधेरा",
+      "sentence": "अंधेरा है।",
+      "reading": "andherā"
+    },
+    "s-00224": {
+      "en": "dear",
+      "word": "प्रिय",
+      "sentence": "यह प्रिय है।",
+      "reading": "priy"
+    },
+    "s-00225": {
+      "en": "december",
+      "word": "दिसम्बर",
+      "sentence": "ये एक दिसंबर है।",
+      "reading": "disambar",
+      "gender": "m"
+    },
+    "s-00228": {
+      "en": "design",
+      "word": "डिज़ाइन",
+      "sentence": "यह एक डिज़ाइन है।",
+      "reading": "ḍizāin",
+      "gender": "m"
+    },
+    "s-00231": {
+      "en": "did",
+      "word": "किया",
+      "sentence": "मैं किया सीख रहा हूँ।",
+      "reading": "kiyā"
+    },
+    "s-00232": {
+      "en": "difference",
+      "word": "अंतर",
+      "sentence": "ये एक अंतर है।",
+      "reading": "antar",
+      "gender": "m"
+    },
+    "s-00236": {
+      "en": "dining room",
+      "word": "भोजन कक्ष",
+      "sentence": "आप इस वाक्य में \"भोजन कक्ष\" कह सकते हैं।",
+      "reading": "bhojan kakṣ",
+      "gender": "m"
+    },
+    "s-00243": {
+      "en": "does",
+      "word": "करता है",
+      "sentence": "मैं करता है सीख रहा हूँ।",
+      "reading": "kartā hai"
+    },
+    "s-00244": {
+      "en": "doing",
+      "word": "कर रहा",
+      "sentence": "मैं कर रहा सीख रहा हूँ।",
+      "reading": "kar rahā"
+    },
+    "s-00245": {
+      "en": "doll",
+      "word": "गुड़िया",
+      "sentence": "यह एक गुड़िया है।",
+      "reading": "guṛiyā",
+      "gender": "f"
+    },
+    "s-00247": {
+      "en": "down",
+      "word": "नीचे",
+      "sentence": "कृपया बैठ जाओ।",
+      "reading": "nīce"
+    },
+    "s-00250": {
+      "en": "dream",
+      "word": "सपना",
+      "sentence": "यह सपना है।",
+      "reading": "sapnā",
+      "gender": "m"
+    },
+    "s-00257": {
+      "en": "due",
+      "word": "बकाया",
+      "sentence": "यह कारण है।",
+      "reading": "bakāyā"
+    },
+    "s-00258": {
+      "en": "dvd",
+      "word": "डीवीडी",
+      "sentence": "यह एक डीवीडी है।",
+      "reading": "ḍīvīḍī",
+      "gender": "f"
+    },
+    "s-00259": {
+      "en": "each",
+      "word": "प्रत्येक",
+      "sentence": "हम प्रत्येक के बारे में बात कर रहे थे।",
+      "reading": "pratyek"
+    },
+    "s-00260": {
+      "en": "each other",
+      "word": "एक दूसरे",
+      "sentence": "हम एक दूसरे के बारे में बात कर रहे थे।",
+      "reading": "ek dūsre"
+    },
+    "s-00266": {
+      "en": "either",
+      "word": "या तो",
+      "sentence": "कृपया यह भी कहें।",
+      "reading": "yā to"
+    },
+    "s-00267": {
+      "en": "elementary",
+      "word": "प्राथमिक",
+      "sentence": "यह प्राथमिक है।",
+      "reading": "prāthmik"
+    },
+    "s-00269": {
+      "en": "else",
+      "word": "अन्यथा",
+      "sentence": "आप कुछ और चाहेंगे?",
+      "reading": "anyathā"
+    },
+    "s-00271": {
+      "en": "end",
+      "word": "अंत",
+      "sentence": "यह एक अंत है।",
+      "reading": "ant",
+      "gender": "m"
+    },
+    "s-00272": {
+      "en": "engineer",
+      "word": "इंजीनियर",
+      "sentence": "ये एक इंजीनियर है।",
+      "reading": "iñjīniyar",
+      "gender": "m"
+    },
+    "s-00275": {
+      "en": "event",
+      "word": "घटना",
+      "sentence": "यह एक घटना है।",
+      "reading": "ghaṭnā",
+      "gender": "f"
+    },
+    "s-00276": {
+      "en": "every",
+      "word": "प्रत्येक",
+      "sentence": "मैं हर सुबह टहलता हूं।",
+      "reading": "pratyek"
+    },
+    "s-00277": {
+      "en": "everybody",
+      "word": "हर कोई",
+      "sentence": "हम सबके बारे में बात कर रहे थे।",
+      "reading": "har koī"
+    },
+    "s-00278": {
+      "en": "everyday",
+      "word": "प्रतिदिन",
+      "sentence": "यह हर रोज है।",
+      "reading": "pratidin"
+    },
+    "s-00280": {
+      "en": "everything",
+      "word": "सब कुछ",
+      "sentence": "हम हर चीज़ के बारे में बात कर रहे थे।",
+      "reading": "sab kuch"
+    },
+    "s-00281": {
+      "en": "everywhere",
+      "word": "हर जगह",
+      "sentence": "कृपया इसे हर जगह कहें।",
+      "reading": "har jagah"
+    },
+    "s-00283": {
+      "en": "excellent",
+      "word": "उत्कृष्ट",
+      "sentence": "यह उत्कृष्ट है।",
+      "reading": "utkṛṣṭ"
+    },
+    "s-00285": {
+      "en": "exciting",
+      "word": "रोमांचक",
+      "sentence": "यह रोमांचक है।",
+      "reading": "romāñcak"
+    },
+    "s-00292": {
+      "en": "fairy",
+      "word": "परी",
+      "sentence": "यह एक परी है।",
+      "reading": "parī",
+      "gender": "f"
+    },
+    "s-00295": {
+      "en": "fan",
+      "word": "पंखा",
+      "sentence": "यह एक प्रशंसक है।",
+      "reading": "paṅkhā",
+      "gender": "m"
+    },
+    "s-00299": {
+      "en": "fat",
+      "word": "मोटा",
+      "sentence": "यह वसा है।",
+      "reading": "moṭā"
+    },
+    "s-00301": {
+      "en": "favorite",
+      "word": "पसंदीदा",
+      "sentence": "यह एक पसंदीदा है।",
+      "reading": "pasandīdā",
+      "gender": "m"
+    },
+    "s-00302": {
+      "en": "february",
+      "word": "फ़रवरी",
+      "sentence": "ये फरवरी है।",
+      "reading": "farvarī",
+      "gender": "f"
+    },
+    "s-00304": {
+      "en": "feel",
+      "word": "महसूस करना",
+      "sentence": "मैं महसूस करना सीख रहा हूँ।",
+      "reading": "mahsūs karnā"
+    },
+    "s-00311": {
+      "en": "fight",
+      "word": "लड़ाई",
+      "sentence": "यह एक लड़ाई है।",
+      "reading": "laṛāī",
+      "gender": "f"
+    },
+    "s-00313": {
+      "en": "fill",
+      "word": "भरना",
+      "sentence": "मैं भरना सीख रहा हूँ।",
+      "reading": "bharnā"
+    },
+    "s-00320": {
+      "en": "flag",
+      "word": "झंडा",
+      "sentence": "यह एक झंडा है।",
+      "reading": "jhaṇḍā",
+      "gender": "m"
+    },
+    "s-00321": {
+      "en": "flat",
+      "word": "फ्लैट",
+      "sentence": "यह एक फ्लैट है।",
+      "reading": "phlaiṭ",
+      "gender": "m"
+    },
+    "s-00326": {
+      "en": "following",
+      "word": "निम्नलिखित",
+      "sentence": "यह अनुसरण कर रहा है।",
+      "reading": "nimnalikhit"
+    },
+    "s-00327": {
+      "en": "food",
+      "word": "खाना",
+      "sentence": "खाना अच्छा है।",
+      "reading": "khānā",
+      "gender": "m"
+    },
+    "s-00328": {
+      "en": "football",
+      "word": "फुटबॉल",
+      "sentence": "यह एक फुटबॉल है।",
+      "reading": "phuṭbŏl",
+      "gender": "m"
+    },
+    "s-00331": {
+      "en": "foreigner",
+      "word": "विदेशी",
+      "sentence": "यह एक विदेशी है।",
+      "reading": "videśī",
+      "gender": "f"
+    },
+    "s-00333": {
+      "en": "form",
+      "word": "प्रपत्र",
+      "sentence": "यह एक रूप है।",
+      "reading": "prapatra",
+      "gender": "m"
+    },
+    "s-00341": {
+      "en": "front",
+      "word": "सामने",
+      "sentence": "यह सामने है।",
+      "reading": "sāmne"
+    },
+    "s-00344": {
+      "en": "fun",
+      "word": "मज़ा",
+      "sentence": "ये एक मज़ा है।",
+      "reading": "mazā",
+      "gender": "m"
+    },
+    "s-00346": {
+      "en": "future",
+      "word": "भविष्य",
+      "sentence": "यह एक भविष्य है।",
+      "reading": "bhaviṣya",
+      "gender": "m"
+    },
+    "s-00347": {
+      "en": "game",
+      "word": "खेल",
+      "sentence": "यह एक खेल है।",
+      "reading": "khel",
+      "gender": "m"
+    },
+    "s-00348": {
+      "en": "garbage",
+      "word": "कचरा",
+      "sentence": "ये तो कूड़ा है।",
+      "reading": "kacrā",
+      "gender": "m"
+    },
+    "s-00350": {
+      "en": "get",
+      "word": "पाना",
+      "sentence": "मैं पाना सीख रहा हूँ।",
+      "reading": "pānā"
+    },
+    "s-00351": {
+      "en": "ghost",
+      "word": "भूत",
+      "sentence": "यह एक भूत है।",
+      "reading": "bhūt",
+      "gender": "m"
+    },
+    "s-00360": {
+      "en": "gold",
+      "word": "सोना",
+      "sentence": "यह सोना है।",
+      "reading": "sonā"
+    },
+    "s-00361": {
+      "en": "good afternoon",
+      "word": "शुभ दोपहर",
+      "sentence": "आप इस वाक्य में \"शुभ दोपहर\" कह सकते हैं।",
+      "reading": "śubh dophar",
+      "gender": "f"
+    },
+    "s-00362": {
+      "en": "good morning",
+      "word": "सुप्रभात",
+      "sentence": "आप इस वाक्य में \"सुप्रभात\" कह सकते हैं।",
+      "reading": "suprabhāt",
+      "gender": "m"
+    },
+    "s-00363": {
+      "en": "good night",
+      "word": "शुभ रात्रि",
+      "sentence": "आप इस वाक्य में \"शुभ रात्रि\" कह सकते हैं।",
+      "reading": "śubh rātri",
+      "gender": "m"
+    },
+    "s-00371": {
+      "en": "grape",
+      "word": "अंगूर",
+      "sentence": "यह एक अंगूर है।",
+      "reading": "aṅgūr",
+      "gender": "m"
+    },
+    "s-00373": {
+      "en": "gray",
+      "word": "धूसर",
+      "sentence": "यह एक ग्रे है।",
+      "reading": "dhūsar",
+      "gender": "m"
+    },
+    "s-00374": {
+      "en": "great",
+      "word": "बढ़िया",
+      "sentence": "यह बहुत अच्छा है।",
+      "reading": "baṛhiyā"
+    },
+    "s-00378": {
+      "en": "group",
+      "word": "समूह",
+      "sentence": "यह एक समूह है।",
+      "reading": "samūh",
+      "gender": "m"
+    },
+    "s-00380": {
+      "en": "guess",
+      "word": "अंदाज़ा लगाना",
+      "sentence": "मैं अंदाज़ा लगाना सीख रहा हूँ।",
+      "reading": "andāzā lagānā"
+    },
+    "s-00383": {
+      "en": "guy",
+      "word": "लड़का",
+      "sentence": "यह एक लड़का है।",
+      "reading": "laṛkā",
+      "gender": "m"
+    },
+    "s-00385": {
+      "en": "had",
+      "word": "था",
+      "sentence": "मैं था सीख रहा हूँ।",
+      "reading": "thā"
+    },
+    "s-00387": {
+      "en": "haircut",
+      "word": "बाल काटना",
+      "sentence": "यह एक बाल कटवाने वाला है।",
+      "reading": "bāl kāṭnā",
+      "gender": "m"
+    },
+    "s-00389": {
+      "en": "hall",
+      "word": "हॉल",
+      "sentence": "यह एक हॉल है।",
+      "reading": "hŏl",
+      "gender": "m"
+    },
+    "s-00390": {
+      "en": "hamburger",
+      "word": "हैमबर्गर",
+      "sentence": "यह एक हैमबर्गर है।",
+      "reading": "haimabargar",
+      "gender": "m"
+    },
+    "s-00392": {
+      "en": "happen",
+      "word": "होना",
+      "sentence": "मैं होना सीख रहा हूँ।",
+      "reading": "honā"
+    },
+    "s-00395": {
+      "en": "has",
+      "word": "है",
+      "sentence": "मैं है सीख रहा हूँ।",
+      "reading": "hai"
+    },
+    "s-00398": {
+      "en": "have to",
+      "word": "पड़ना",
+      "sentence": "मैं पड़ना सीख रहा हूँ।",
+      "reading": "paṛnā"
+    },
+    "s-00401": {
+      "en": "health",
+      "word": "स्वास्थ्य",
+      "sentence": "यह एक स्वास्थ्य है।",
+      "reading": "svāsthya",
+      "gender": "m"
+    },
+    "s-00405": {
+      "en": "hello",
+      "word": "नमस्ते",
+      "sentence": "नमस्कार मेरा नाम Anna है।",
+      "reading": "namaste",
+      "gender": "m"
+    },
+    "s-00409": {
+      "en": "hers",
+      "word": "उसका",
+      "sentence": "हम उसके बारे में बात कर रहे थे।",
+      "reading": "uskā"
+    },
+    "s-00410": {
+      "en": "hi",
+      "word": "नमस्ते",
+      "sentence": "यह हाय है।",
+      "reading": "namaste",
+      "gender": "m"
+    },
+    "s-00412": {
+      "en": "high",
+      "word": "उच्च",
+      "sentence": "यह ऊँचा है।",
+      "reading": "ucc"
+    },
+    "s-00418": {
+      "en": "hold",
+      "word": "पकड़",
+      "sentence": "यह एक पकड़ है।",
+      "reading": "pakaṛ",
+      "gender": "f"
+    },
+    "s-00419": {
+      "en": "hole",
+      "word": "छेद",
+      "sentence": "यह एक छेद है।",
+      "reading": "ched",
+      "gender": "m"
+    },
+    "s-00420": {
+      "en": "holiday",
+      "word": "छुट्टियाँ",
+      "sentence": "यह एक छुट्टी है।",
+      "reading": "chuṭṭiyā̃",
+      "gender": "f"
+    },
+    "s-00422": {
+      "en": "hometown",
+      "word": "गृहनगर",
+      "sentence": "यह एक गृहनगर है।",
+      "reading": "gṛhangar",
+      "gender": "m"
+    },
+    "s-00429": {
+      "en": "how",
+      "word": "कैसे",
+      "sentence": "कृपया बताएं कैसे।",
+      "reading": "kaise"
+    },
+    "s-00431": {
+      "en": "hurry",
+      "word": "जल्दी करो",
+      "sentence": "ये जल्दबाजी है।",
+      "reading": "jaldī karo",
+      "gender": "m"
+    },
+    "s-00435": {
+      "en": "ice cream",
+      "word": "आइसक्रीम",
+      "sentence": "आप इस वाक्य में \"आइसक्रीम\" कह सकते हैं।",
+      "reading": "āisakrīm",
+      "gender": "m"
+    },
+    "s-00436": {
+      "en": "idea",
+      "word": "विचार",
+      "sentence": "यह एक विचार है।",
+      "reading": "vicār",
+      "gender": "m"
+    },
+    "s-00438": {
+      "en": "if",
+      "word": "यदि",
+      "sentence": "अगर मैं घर आया तो मैंने तुम्हें फोन किया।",
+      "reading": "yadi"
+    },
+    "s-00439": {
+      "en": "imagine",
+      "word": "कल्पना करना",
+      "sentence": "मैं कल्पना करना सीख रहा हूँ।",
+      "reading": "kalpanā karnā"
+    },
+    "s-00442": {
+      "en": "information",
+      "word": "जानकारी",
+      "sentence": "ये एक जानकारी है।",
+      "reading": "jānkārī",
+      "gender": "f"
+    },
+    "s-00443": {
+      "en": "inside",
+      "word": "अंदर",
+      "sentence": "बिल्ली अंदर है।",
+      "reading": "andar"
+    },
+    "s-00444": {
+      "en": "interested",
+      "word": "रुचि",
+      "sentence": "इसमें रुचि है।",
+      "reading": "ruci"
+    },
+    "s-00445": {
+      "en": "interesting",
+      "word": "दिलचस्प",
+      "sentence": "यह दिलचस्प है।",
+      "reading": "dilacasp"
+    },
+    "s-00448": {
+      "en": "interviewer",
+      "word": "साक्षात्कारकर्ता",
+      "sentence": "यह एक साक्षात्कारकर्ता है।",
+      "reading": "sākṣātkārakartā",
+      "gender": "m"
+    },
+    "s-00449": {
+      "en": "into",
+      "word": "में",
+      "sentence": "किताब मेज पर है।",
+      "reading": "mẽ"
+    },
+    "s-00451": {
+      "en": "is",
+      "word": "है",
+      "sentence": "मैं है सीख रहा हूँ।",
+      "reading": "hai"
+    },
+    "s-00454": {
+      "en": "item",
+      "word": "आइटम",
+      "sentence": "यह एक वस्तु है।",
+      "reading": "āiṭam",
+      "gender": "m"
+    },
+    "s-00455": {
+      "en": "its",
+      "word": "इसका",
+      "sentence": "हम इसके बारे में बात कर रहे थे।",
+      "reading": "iskā"
+    },
+    "s-00457": {
+      "en": "january",
+      "word": "जनवरी",
+      "sentence": "यह जनवरी है।",
+      "reading": "janvarī",
+      "gender": "f"
+    },
+    "s-00459": {
+      "en": "jet",
+      "word": "जेट",
+      "sentence": "यह एक जेट है।",
+      "reading": "jeṭ",
+      "gender": "m"
+    },
+    "s-00460": {
+      "en": "jewelry",
+      "word": "आभूषण",
+      "sentence": "यह एक आभूषण है।",
+      "reading": "ābhūṣaṇ",
+      "gender": "m"
+    },
+    "s-00462": {
+      "en": "join",
+      "word": "शामिल होना",
+      "sentence": "मैं शामिल होना सीख रहा हूँ।",
+      "reading": "śāmil honā"
+    },
+    "s-00465": {
+      "en": "july",
+      "word": "जुलाई",
+      "sentence": "यह एक जुलाई है।",
+      "reading": "julāī",
+      "gender": "m"
+    },
+    "s-00466": {
+      "en": "jump",
+      "word": "कूदना",
+      "sentence": "मैं कूदना सीख रहा हूँ।",
+      "reading": "kūdnā"
+    },
+    "s-00467": {
+      "en": "june",
+      "word": "जून",
+      "sentence": "यह एक जून है।",
+      "reading": "jūn",
+      "gender": "m"
+    },
+    "s-00468": {
+      "en": "just",
+      "word": "बस",
+      "sentence": "कृपया बस इतना ही कहें।",
+      "reading": "bas"
+    },
+    "s-00469": {
+      "en": "keep",
+      "word": "रखना",
+      "sentence": "मैं रखना सीख रहा हूँ।",
+      "reading": "rakhnā"
+    },
+    "s-00470": {
+      "en": "kick",
+      "word": "लात",
+      "sentence": "यह एक किक है।",
+      "reading": "lāt",
+      "gender": "m"
+    },
+    "s-00471": {
+      "en": "kid",
+      "word": "बच्चा",
+      "sentence": "यह एक बच्चा है।",
+      "reading": "baccā",
+      "gender": "m"
+    },
+    "s-00473": {
+      "en": "king",
+      "word": "राजा",
+      "sentence": "यह एक राजा है।",
+      "reading": "rājā",
+      "gender": "m"
+    },
+    "s-00474": {
+      "en": "kiss",
+      "word": "चुंबन",
+      "sentence": "यह एक चुम्बन है।",
+      "reading": "cumban",
+      "gender": "m"
+    },
+    "s-00476": {
+      "en": "kite",
+      "word": "पतंग",
+      "sentence": "यह एक पतंग है।",
+      "reading": "pataṅg",
+      "gender": "m"
+    },
+    "s-00480": {
+      "en": "lady",
+      "word": "महिला",
+      "sentence": "यह एक महिला है।",
+      "reading": "mahilā",
+      "gender": "f"
+    },
+    "s-00481": {
+      "en": "language",
+      "word": "भाषा",
+      "sentence": "यह एक भाषा है।",
+      "reading": "bhāṣā",
+      "gender": "f"
+    },
+    "s-00482": {
+      "en": "large",
+      "word": "बड़ा",
+      "sentence": "यह बड़ा है।",
+      "reading": "baṛā"
+    },
+    "s-00483": {
+      "en": "last name",
+      "word": "अंतिम नाम",
+      "sentence": "आप इस वाक्य में \"अंतिम नाम\" कह सकते हैं।",
+      "reading": "antim nām",
+      "gender": "m"
+    },
+    "s-00485": {
+      "en": "later",
+      "word": "बाद में",
+      "sentence": "कृपया इसे बाद में कहें।",
+      "reading": "bād mẽ"
+    },
+    "s-00486": {
+      "en": "laugh",
+      "word": "हँसना",
+      "sentence": "मैं हँसना सीख रहा हूँ।",
+      "reading": "hãsnā"
+    },
+    "s-00488": {
+      "en": "leader",
+      "word": "नेता",
+      "sentence": "ये एक नेता है।",
+      "reading": "netā",
+      "gender": "m"
+    },
+    "s-00495": {
+      "en": "let",
+      "word": "देना",
+      "sentence": "मैं देना सीख रहा हूँ।",
+      "reading": "denā"
+    },
+    "s-00498": {
+      "en": "life",
+      "word": "जिंदगी",
+      "sentence": "जीवन अच्छा है।",
+      "reading": "jindgī",
+      "gender": "f"
+    },
+    "s-00501": {
+      "en": "lily",
+      "word": "लिली",
+      "sentence": "यह एक लिली है।",
+      "reading": "lilī",
+      "gender": "f"
+    },
+    "s-00502": {
+      "en": "line",
+      "word": "लाइन",
+      "sentence": "ये एक लाइन है।",
+      "reading": "lāin",
+      "gender": "m"
+    },
+    "s-00504": {
+      "en": "list",
+      "word": "सूची",
+      "sentence": "यह एक सूची है।",
+      "reading": "sūcī",
+      "gender": "f"
+    },
+    "s-00506": {
+      "en": "little",
+      "word": "थोड़ा",
+      "sentence": "यह थोड़ा है।",
+      "reading": "thoṛā"
+    },
+    "s-00508": {
+      "en": "living",
+      "word": "जीवित",
+      "sentence": "यह जीवित है।",
+      "reading": "jīvit"
+    },
+    "s-00513": {
+      "en": "lot",
+      "word": "बहुत",
+      "sentence": "कृपया इसे खूब कहें।",
+      "reading": "bahut"
+    },
+    "s-00515": {
+      "en": "lovely",
+      "word": "सुन्दर",
+      "sentence": "यह प्यारा है।",
+      "reading": "sundar"
+    },
+    "s-00516": {
+      "en": "luck",
+      "word": "भाग्य",
+      "sentence": "यह सौभाग्य है।",
+      "reading": "bhāgya",
+      "gender": "m"
+    },
+    "s-00517": {
+      "en": "lucky",
+      "word": "भाग्यशाली",
+      "sentence": "वह आज खुद को भाग्यशाली महसूस कर रही हैं।",
+      "reading": "bhāgyaśālī"
+    },
+    "s-00519": {
+      "en": "machine",
+      "word": "मशीन",
+      "sentence": "यह एक मशीन है।",
+      "reading": "maśīn",
+      "gender": "f"
+    },
+    "s-00521": {
+      "en": "mail",
+      "word": "मेल",
+      "sentence": "यह एक मेल है।",
+      "reading": "mel",
+      "gender": "m"
+    },
+    "s-00526": {
+      "en": "match",
+      "word": "माचिस",
+      "sentence": "यह एक मैच है।",
+      "reading": "mācis",
+      "gender": "f"
+    },
+    "s-00527": {
+      "en": "math",
+      "word": "गणित",
+      "sentence": "ये एक गणित है।",
+      "reading": "gaṇit",
+      "gender": "m"
+    },
+    "s-00529": {
+      "en": "may",
+      "word": "मई",
+      "sentence": "मई एक गर्म महीना है।",
+      "reading": "maī",
+      "gender": "f"
+    },
+    "s-00532": {
+      "en": "meal",
+      "word": "भोजन",
+      "sentence": "यह एक भोजन है।",
+      "reading": "bhojan",
+      "gender": "m"
+    },
+    "s-00533": {
+      "en": "mean",
+      "word": "मतलब होना",
+      "sentence": "मैं मतलब होना सीख रहा हूँ।",
+      "reading": "matlab honā"
+    },
+    "s-00536": {
+      "en": "meet",
+      "word": "मिलना",
+      "sentence": "मैं मिलना सीख रहा हूँ।",
+      "reading": "milnā"
+    },
+    "s-00539": {
+      "en": "merry",
+      "word": "आनंदमय",
+      "sentence": "यह आनंदमय है।",
+      "reading": "ānandmay"
+    },
+    "s-00541": {
+      "en": "middle",
+      "word": "मध्य",
+      "sentence": "यह मध्य है।",
+      "reading": "madhya"
+    },
+    "s-00543": {
+      "en": "mine",
+      "word": "मेरा",
+      "sentence": "हम मेरी बात कर रहे थे।",
+      "reading": "merā"
+    },
+    "s-00546": {
+      "en": "mobile",
+      "word": "मोबाइल",
+      "sentence": "यह एक मोबाइल है।",
+      "reading": "mobāil",
+      "gender": "m"
+    },
+    "s-00547": {
+      "en": "mobile phone",
+      "word": "मोबाइल फोन",
+      "sentence": "आप इस वाक्य में \"मोबाइल फोन\" कह सकते हैं।",
+      "reading": "mobāil phon",
+      "gender": "m"
+    },
+    "s-00548": {
+      "en": "mom",
+      "word": "माँ",
+      "sentence": "यह एक माँ है।",
+      "reading": "mā̃",
+      "gender": "f"
+    },
+    "s-00549": {
+      "en": "moment",
+      "word": "क्षण",
+      "sentence": "यह एक क्षण है।",
+      "reading": "kṣaṇ",
+      "gender": "m"
+    },
+    "s-00550": {
+      "en": "mommy",
+      "word": "माँ",
+      "sentence": "यह एक माँ है।",
+      "reading": "mā̃",
+      "gender": "f"
+    },
+    "s-00555": {
+      "en": "more",
+      "word": "अधिक",
+      "sentence": "हम और अधिक के बारे में बात कर रहे थे।",
+      "reading": "adhik"
+    },
+    "s-00557": {
+      "en": "most",
+      "word": "सबसे",
+      "sentence": "अधिकांश किताब मेज पर है।",
+      "reading": "sabse"
+    },
+    "s-00560": {
+      "en": "move",
+      "word": "चाल",
+      "sentence": "यह एक चाल है।",
+      "reading": "cāl",
+      "gender": "f"
+    },
+    "s-00561": {
+      "en": "movie",
+      "word": "चलचित्र",
+      "sentence": "यह एक फिल्म है।",
+      "reading": "calacitra",
+      "gender": "m"
+    },
+    "s-00562": {
+      "en": "much",
+      "word": "बहुत",
+      "sentence": "कृपया इसे खूब कहें।",
+      "reading": "bahut"
+    },
+    "s-00563": {
+      "en": "mum",
+      "word": "माँ",
+      "sentence": "यह एक माँ है।",
+      "reading": "mā̃",
+      "gender": "f"
+    },
+    "s-00565": {
+      "en": "musician",
+      "word": "संगीतकार",
+      "sentence": "यह एक संगीतकार है।",
+      "reading": "saṅgītkār",
+      "gender": "m"
+    },
+    "s-00566": {
+      "en": "must",
+      "word": "चाहिए",
+      "sentence": "मैं चाहिए सीख रहा हूँ।",
+      "reading": "cāhie"
+    },
+    "s-00568": {
+      "en": "nationality",
+      "word": "राष्ट्रीयता",
+      "sentence": "यह एक राष्ट्रीयता है।",
+      "reading": "rāṣṭrīytā",
+      "gender": "f"
+    },
+    "s-00569": {
+      "en": "near",
+      "word": "निकट",
+      "sentence": "स्कूल पार्क के पास है।",
+      "reading": "nikaṭ"
+    },
+    "s-00580": {
+      "en": "no",
+      "word": "नहीं",
+      "sentence": "कृपया इसे 'नहीं' कहें।",
+      "reading": "nahīṁ"
+    },
+    "s-00583": {
+      "en": "not",
+      "word": "नहीं",
+      "sentence": "कृपया ऐसा न कहें।",
+      "reading": "nahīṁ"
+    },
+    "s-00587": {
+      "en": "november",
+      "word": "नवंबर",
+      "sentence": "यह एक नवंबर है।",
+      "reading": "navambar",
+      "gender": "m"
+    },
+    "s-00591": {
+      "en": "o'clock",
+      "word": "बजे",
+      "sentence": "प्लीज़ बोल दो बजे हैं।",
+      "reading": "baje"
+    },
+    "s-00592": {
+      "en": "october",
+      "word": "अक्टूबर",
+      "sentence": "यह एक अक्टूबर है।",
+      "reading": "akṭūbar",
+      "gender": "m"
+    },
+    "s-00593": {
+      "en": "of",
+      "word": "का",
+      "sentence": "किताब मेज की है।",
+      "reading": "kā"
+    },
+    "s-00594": {
+      "en": "off",
+      "word": "बंद",
+      "sentence": "कृपया लैंप बंद कर दें।",
+      "reading": "band"
+    },
+    "s-00596": {
+      "en": "officer",
+      "word": "अधिकारी",
+      "sentence": "यह एक अधिकारी है।",
+      "reading": "adhikārī",
+      "gender": "f"
+    },
+    "s-00598": {
+      "en": "ok",
+      "word": "ठीक",
+      "sentence": "यह ठीक है।",
+      "reading": "ṭhīk"
+    },
+    "s-00600": {
+      "en": "olympics",
+      "word": "ओलंपिक",
+      "sentence": "यह एक ओलंपिक है।",
+      "reading": "olampik",
+      "gender": "m"
+    },
+    "s-00603": {
+      "en": "only",
+      "word": "केवल",
+      "sentence": "मुझे केवल पानी चाहिए।",
+      "reading": "keval"
+    },
+    "s-00609": {
+      "en": "other",
+      "word": "अन्य",
+      "sentence": "दूसरी किताब मेज़ पर है।",
+      "reading": "anya"
+    },
+    "s-00611": {
+      "en": "ours",
+      "word": "हमारा",
+      "sentence": "हम अपनी बात कर रहे थे।",
+      "reading": "hamārā"
+    },
+    "s-00612": {
+      "en": "out",
+      "word": "बाहर",
+      "sentence": "बच्चे बाहर हैं।",
+      "reading": "bāhar"
+    },
+    "s-00614": {
+      "en": "over",
+      "word": "ऊपर",
+      "sentence": "पक्षी घर के ऊपर से उड़ गया।",
+      "reading": "ūpar"
+    },
+    "s-00615": {
+      "en": "own",
+      "word": "अपना",
+      "sentence": "यह अपना है।",
+      "reading": "apnā"
+    },
+    "s-00616": {
+      "en": "owner",
+      "word": "मालिक",
+      "sentence": "यह एक मालिक है।",
+      "reading": "mālik",
+      "gender": "m"
+    },
+    "s-00620": {
+      "en": "pair",
+      "word": "जोड़ी",
+      "sentence": "ये एक जोड़ी है।",
+      "reading": "joṛī",
+      "gender": "f"
+    },
+    "s-00625": {
+      "en": "pardon",
+      "word": "क्षमा करें",
+      "sentence": "यह क्षमा है।",
+      "reading": "kṣamā karẽ",
+      "gender": "m"
+    },
+    "s-00630": {
+      "en": "past",
+      "word": "अतीत",
+      "sentence": "कृपया इसे अतीत कहें।",
+      "reading": "atīt"
+    },
+    "s-00635": {
+      "en": "people",
+      "word": "लोग",
+      "sentence": "लोग दयालु हैं।",
+      "reading": "log",
+      "gender": "m"
+    },
+    "s-00636": {
+      "en": "period",
+      "word": "अवधि",
+      "sentence": "यह एक कालखंड है।",
+      "reading": "avdhi",
+      "gender": "f"
+    },
+    "s-00641": {
+      "en": "photo",
+      "word": "फोटो",
+      "sentence": "यह एक तस्वीर है।",
+      "reading": "phoṭo",
+      "gender": "m"
+    },
+    "s-00643": {
+      "en": "pick",
+      "word": "चुनना",
+      "sentence": "मैं चुनना सीख रहा हूँ।",
+      "reading": "cunnā"
+    },
+    "s-00646": {
+      "en": "piece",
+      "word": "टुकड़ा",
+      "sentence": "यह एक टुकड़ा है।",
+      "reading": "ṭukṛā",
+      "gender": "m"
+    },
+    "s-00648": {
+      "en": "pink",
+      "word": "गुलाबी",
+      "sentence": "यह गुलाबी है।",
+      "reading": "gulābī"
+    },
+    "s-00650": {
+      "en": "place",
+      "word": "जगह",
+      "sentence": "यह जगह शांत है।",
+      "reading": "jagah",
+      "gender": "f"
+    },
+    "s-00654": {
+      "en": "player",
+      "word": "खिलाड़ी",
+      "sentence": "यह एक खिलाड़ी है।",
+      "reading": "khilāṛī",
+      "gender": "f"
+    },
+    "s-00655": {
+      "en": "please",
+      "word": "कृपया",
+      "sentence": "कृपया एक कप कॉफ़ी।",
+      "reading": "kṛpyā"
+    },
+    "s-00658": {
+      "en": "poem",
+      "word": "कविता",
+      "sentence": "यह एक कविता है।",
+      "reading": "kavitā",
+      "gender": "f"
+    },
+    "s-00661": {
+      "en": "pool",
+      "word": "पूल",
+      "sentence": "यह एक पूल है।",
+      "reading": "pūl",
+      "gender": "m"
+    },
+    "s-00663": {
+      "en": "pop",
+      "word": "पॉप",
+      "sentence": "यह एक पॉप है।",
+      "reading": "pŏp",
+      "gender": "m"
+    },
+    "s-00664": {
+      "en": "post",
+      "word": "पोस्ट",
+      "sentence": "यह एक पोस्ट है।",
+      "reading": "posṭ",
+      "gender": "m"
+    },
+    "s-00668": {
+      "en": "pray",
+      "word": "प्रार्थना करना",
+      "sentence": "मैं प्रार्थना करना सीख रहा हूँ।",
+      "reading": "prārthanā karnā"
+    },
+    "s-00670": {
+      "en": "pretty",
+      "word": "सुन्दर",
+      "sentence": "यह सुंदर है।",
+      "reading": "sundar"
+    },
+    "s-00672": {
+      "en": "prince",
+      "word": "राजकुमार",
+      "sentence": "यह एक राजकुमार है।",
+      "reading": "rājakumār",
+      "gender": "m"
+    },
+    "s-00673": {
+      "en": "princess",
+      "word": "राजकुमारी",
+      "sentence": "यह एक राजकुमारी है।",
+      "reading": "rājakumārī",
+      "gender": "f"
+    },
+    "s-00676": {
+      "en": "purple",
+      "word": "बैंगनी",
+      "sentence": "यह बैंगनी है।",
+      "reading": "baiṅgnī",
+      "gender": "f"
+    },
+    "s-00677": {
+      "en": "push",
+      "word": "धक्का देना",
+      "sentence": "मैं धक्का देना सीख रहा हूँ।",
+      "reading": "dhakkā denā"
+    },
+    "s-00679": {
+      "en": "quarter",
+      "word": "चौथाई",
+      "sentence": "यह एक चौथाई है।",
+      "reading": "cauthāī",
+      "gender": "m"
+    },
+    "s-00684": {
+      "en": "radio",
+      "word": "रेडियो",
+      "sentence": "यह एक रेडियो है।",
+      "reading": "reḍiyo",
+      "gender": "m"
+    },
+    "s-00686": {
+      "en": "rat",
+      "word": "चूहा",
+      "sentence": "यह एक चूहा है।",
+      "reading": "cūhā",
+      "gender": "m"
+    },
+    "s-00689": {
+      "en": "reading",
+      "word": "पढ़ना",
+      "sentence": "यह एक वाचन है।",
+      "reading": "paṛhnā",
+      "gender": "m"
+    },
+    "s-00690": {
+      "en": "ready",
+      "word": "तैयार",
+      "sentence": "वह आज तैयार महसूस करती है।",
+      "reading": "taiyār"
+    },
+    "s-00691": {
+      "en": "real",
+      "word": "असली",
+      "sentence": "यह वास्तविक है।",
+      "reading": "aslī"
+    },
+    "s-00700": {
+      "en": "ribbon",
+      "word": "रिबन",
+      "sentence": "यह एक रिबन है।",
+      "reading": "riban",
+      "gender": "m"
+    },
+    "s-00708": {
+      "en": "row",
+      "word": "पंक्ति",
+      "sentence": "यह एक पंक्ति है।",
+      "reading": "paṅkti",
+      "gender": "m"
+    },
+    "s-00710": {
+      "en": "rule",
+      "word": "नियम",
+      "sentence": "यह एक नियम है।",
+      "reading": "niyam",
+      "gender": "m"
+    },
+    "s-00714": {
+      "en": "sailor",
+      "word": "नाविक",
+      "sentence": "यह एक नाविक है।",
+      "reading": "nāvik",
+      "gender": "m"
+    },
+    "s-00717": {
+      "en": "same",
+      "word": "वही",
+      "sentence": "यह वैसा ही है।",
+      "reading": "vahī"
+    },
+    "s-00721": {
+      "en": "saw",
+      "word": "आरा",
+      "sentence": "यह एक आरी है।",
+      "reading": "ārā",
+      "gender": "m"
+    },
+    "s-00727": {
+      "en": "section",
+      "word": "अनुभाग",
+      "sentence": "यह एक अनुभाग है।",
+      "reading": "anubhāg",
+      "gender": "m"
+    },
+    "s-00728": {
+      "en": "self",
+      "word": "स्व",
+      "sentence": "यह एक स्व है।",
+      "reading": "sva",
+      "gender": "m"
+    },
+    "s-00729": {
+      "en": "sell",
+      "word": "बेचना",
+      "sentence": "मैं बेचना सीख रहा हूँ।",
+      "reading": "becnā"
+    },
+    "s-00731": {
+      "en": "september",
+      "word": "सितम्बर",
+      "sentence": "यह एक सितम्बर है।",
+      "reading": "sitambar",
+      "gender": "m"
+    },
+    "s-00732": {
+      "en": "set",
+      "word": "रखना",
+      "sentence": "मैं रखना सीख रहा हूँ।",
+      "reading": "rakhnā"
+    },
+    "s-00736": {
+      "en": "shake",
+      "word": "हाथ मिलाना",
+      "sentence": "ये एक झटका है।",
+      "reading": "hāth milānā",
+      "gender": "m"
+    },
+    "s-00745": {
+      "en": "shopping",
+      "word": "खरीदारी",
+      "sentence": "ये एक शॉपिंग है।",
+      "reading": "kharīdārī",
+      "gender": "f"
+    },
+    "s-00747": {
+      "en": "should",
+      "word": "चाहिए",
+      "sentence": "मैं चाहिए सीख रहा हूँ।",
+      "reading": "cāhie"
+    },
+    "s-00753": {
+      "en": "side",
+      "word": "ओर",
+      "sentence": "ये एक पक्ष है।",
+      "reading": "or",
+      "gender": "m"
+    },
+    "s-00754": {
+      "en": "sight",
+      "word": "दृष्टि",
+      "sentence": "ये एक नजारा है।",
+      "reading": "dṛṣṭi",
+      "gender": "m"
+    },
+    "s-00758": {
+      "en": "sir",
+      "word": "सर",
+      "sentence": "ये साहब हैं।",
+      "reading": "sar",
+      "gender": "m"
+    },
+    "s-00760": {
+      "en": "site",
+      "word": "साइट",
+      "sentence": "यह एक साइट है।",
+      "reading": "sāiṭ",
+      "gender": "f"
+    },
+    "s-00770": {
+      "en": "smell",
+      "word": "गंध",
+      "sentence": "यह एक गंध है।",
+      "reading": "gandh",
+      "gender": "m"
+    },
+    "s-00772": {
+      "en": "smith",
+      "word": "लोहार",
+      "sentence": "यह लोहार है।",
+      "reading": "lohār",
+      "gender": "m"
+    },
+    "s-00773": {
+      "en": "smoke",
+      "word": "धुआं",
+      "sentence": "यह एक धुआं है।",
+      "reading": "dhuā̃",
+      "gender": "m"
+    },
+    "s-00774": {
+      "en": "smoking",
+      "word": "धूम्रपान",
+      "sentence": "यह एक धूम्रपान है।",
+      "reading": "dhūmrapān",
+      "gender": "m"
+    },
+    "s-00778": {
+      "en": "so",
+      "word": "तो",
+      "sentence": "पानी ठंडा है इसलिए मैंने चाय बना ली।",
+      "reading": "to"
+    },
+    "s-00779": {
+      "en": "soccer",
+      "word": "फुटबॉल",
+      "sentence": "यह एक फुटबॉल है।",
+      "reading": "phuṭbŏl",
+      "gender": "m"
+    },
+    "s-00787": {
+      "en": "song",
+      "word": "गाना",
+      "sentence": "यह एक गाना है।",
+      "reading": "gānā",
+      "gender": "m"
+    },
+    "s-00789": {
+      "en": "sorry",
+      "word": "क्षमा करें",
+      "sentence": "मुझे खेद है।",
+      "reading": "kṣamā karẽ"
+    },
+    "s-00796": {
+      "en": "sport",
+      "word": "खेल",
+      "sentence": "यह एक खेल है।",
+      "reading": "khel",
+      "gender": "m"
+    },
+    "s-00797": {
+      "en": "spot",
+      "word": "स्थान",
+      "sentence": "यह एक स्थान है।",
+      "reading": "sthān",
+      "gender": "m"
+    },
+    "s-00799": {
+      "en": "spy",
+      "word": "जासूस",
+      "sentence": "यह एक जासूस है।",
+      "reading": "jāsūs",
+      "gender": "m"
+    },
+    "s-00806": {
+      "en": "step",
+      "word": "कदम रखना",
+      "sentence": "मैं कदम रखना सीख रहा हूँ।",
+      "reading": "kadam rakhnā"
+    },
+    "s-00810": {
+      "en": "story",
+      "word": "कहानी",
+      "sentence": "ये एक कहानी है।",
+      "reading": "kahānī",
+      "gender": "f"
+    },
+    "s-00814": {
+      "en": "strict",
+      "word": "सख्त",
+      "sentence": "यह सख्त है।",
+      "reading": "sakht"
+    },
+    "s-00823": {
+      "en": "sum",
+      "word": "योग",
+      "sentence": "यह एक योग है।",
+      "reading": "yog",
+      "gender": "m"
+    },
+    "s-00828": {
+      "en": "super",
+      "word": "अति उत्तम",
+      "sentence": "यह बेहतर है।",
+      "reading": "ati uttam"
+    },
+    "s-00830": {
+      "en": "sure",
+      "word": "ज़रूर",
+      "sentence": "वह आज आश्वस्त महसूस कर रही है।",
+      "reading": "zarūr"
+    },
+    "s-00831": {
+      "en": "surf",
+      "word": "सर्फ",
+      "sentence": "यह एक सर्फ है।",
+      "reading": "sarph",
+      "gender": "m"
+    },
+    "s-00836": {
+      "en": "swimming",
+      "word": "तैराकी",
+      "sentence": "यह एक तैराकी है।",
+      "reading": "tairākī",
+      "gender": "f"
+    },
+    "s-00837": {
+      "en": "swimming pool",
+      "word": "स्विमिंग पूल",
+      "sentence": "आप इस वाक्य में \"स्विमिंग पूल\" कह सकते हैं।",
+      "reading": "svimiṅg pūl",
+      "gender": "m"
+    },
+    "s-00847": {
+      "en": "technology",
+      "word": "प्रौद्योगिकी",
+      "sentence": "ये एक तकनीक है।",
+      "reading": "praudyogikī",
+      "gender": "f"
+    },
+    "s-00848": {
+      "en": "telephone",
+      "word": "टेलीफ़ोन",
+      "sentence": "यह एक टेलीफोन है।",
+      "reading": "ṭelīfon",
+      "gender": "m"
+    },
+    "s-00849": {
+      "en": "television",
+      "word": "टेलीविज़न",
+      "sentence": "यह एक टेलीविजन है।",
+      "reading": "ṭelīvizan",
+      "gender": "m"
+    },
+    "s-00853": {
+      "en": "tennis",
+      "word": "टेनिस",
+      "sentence": "यह एक टेनिस है।",
+      "reading": "ṭenis",
+      "gender": "m"
+    },
+    "s-00854": {
+      "en": "terrible",
+      "word": "भयानक",
+      "sentence": "यह भयानक है।",
+      "reading": "bhayānak"
+    },
+    "s-00856": {
+      "en": "than",
+      "word": "से",
+      "sentence": "पुस्तक मेज से अधिक है।",
+      "reading": "se"
+    },
+    "s-00857": {
+      "en": "thank",
+      "word": "धन्यवाद देना",
+      "sentence": "पानी के लिए धन्यवाद।",
+      "reading": "dhanyavād denā"
+    },
+    "s-00858": {
+      "en": "thanks",
+      "word": "धन्यवाद",
+      "sentence": "यह एक धन्यवाद है।",
+      "reading": "dhanyavād",
+      "gender": "m"
+    },
+    "s-00860": {
+      "en": "the",
+      "word": "वह",
+      "sentence": "किताब मेज़ पर है।",
+      "reading": "vah"
+    },
+    "s-00864": {
+      "en": "then",
+      "word": "फिर",
+      "sentence": "हम खाते हैं, और फिर चलते हैं।",
+      "reading": "phir"
+    },
+    "s-00868": {
+      "en": "thick",
+      "word": "मोटा",
+      "sentence": "यह गाढ़ा है।",
+      "reading": "moṭā"
+    },
+    "s-00870": {
+      "en": "thing",
+      "word": "बात",
+      "sentence": "ये बात छोटी है।",
+      "reading": "bāt",
+      "gender": "f"
+    },
+    "s-00874": {
+      "en": "those",
+      "word": "वे",
+      "sentence": "हम उन्हीं के बारे में बात कर रहे थे।",
+      "reading": "ve"
+    },
+    "s-00876": {
+      "en": "through",
+      "word": "के माध्यम से",
+      "sentence": "हम पार्क में घूमे।",
+      "reading": "ke mādhyam se"
+    },
+    "s-00877": {
+      "en": "throw",
+      "word": "फेंक",
+      "sentence": "यह एक फेंक है।",
+      "reading": "pheṅk",
+      "gender": "m"
+    },
+    "s-00881": {
+      "en": "tight",
+      "word": "तंग",
+      "sentence": "यह तंग है।",
+      "reading": "taṅg"
+    },
+    "s-00891": {
+      "en": "too",
+      "word": "भी",
+      "sentence": "यह कॉफ़ी बहुत गर्म है।",
+      "reading": "bhī"
+    },
+    "s-00892": {
+      "en": "tool",
+      "word": "औज़ार",
+      "sentence": "यह एक उपकरण है।",
+      "reading": "auzār",
+      "gender": "m"
+    },
+    "s-00894": {
+      "en": "top",
+      "word": "शीर्ष",
+      "sentence": "यह एक शीर्ष है।",
+      "reading": "śīrṣ",
+      "gender": "m"
+    },
+    "s-00896": {
+      "en": "touch",
+      "word": "स्पर्श करें",
+      "sentence": "यह एक स्पर्श है।",
+      "reading": "sparś karẽ",
+      "gender": "m"
+    },
+    "s-00900": {
+      "en": "toy",
+      "word": "खिलौना",
+      "sentence": "यह एक खिलौना है।",
+      "reading": "khilaunā",
+      "gender": "m"
+    },
+    "s-00902": {
+      "en": "travel",
+      "word": "यात्रा करना",
+      "sentence": "मैं यात्रा करना सीख रहा हूँ।",
+      "reading": "yātrā karnā"
+    },
+    "s-00904": {
+      "en": "trousers",
+      "word": "पतलून",
+      "sentence": "यह एक पतलून है।",
+      "reading": "patlūn",
+      "gender": "f"
+    },
+    "s-00906": {
+      "en": "true",
+      "word": "सच",
+      "sentence": "ये सच है।",
+      "reading": "sac"
+    },
+    "s-00908": {
+      "en": "tube",
+      "word": "ट्यूब",
+      "sentence": "यह एक ट्यूब है।",
+      "reading": "ṭyūb",
+      "gender": "f"
+    },
+    "s-00910": {
+      "en": "turkey",
+      "word": "टर्की",
+      "sentence": "यह एक टर्की है।",
+      "reading": "ṭarkī",
+      "gender": "f"
+    },
+    "s-00911": {
+      "en": "turn",
+      "word": "बारी",
+      "sentence": "ये एक मोड़ है।",
+      "reading": "bārī",
+      "gender": "f"
+    },
+    "s-00912": {
+      "en": "tv",
+      "word": "टी.वी",
+      "sentence": "यह एक टीवी है।",
+      "reading": "ṭī.vī",
+      "gender": "f"
+    },
+    "s-00916": {
+      "en": "ugly",
+      "word": "कुरूप",
+      "sentence": "यह बदसूरत है।",
+      "reading": "kurūp"
+    },
+    "s-00919": {
+      "en": "under",
+      "word": "नीचे",
+      "sentence": "बिल्ली मेज़ के नीचे है।",
+      "reading": "nīce"
+    },
+    "s-00922": {
+      "en": "up",
+      "word": "ऊपर",
+      "sentence": "कृपया खड़े हो जाओ।",
+      "reading": "ūpar"
+    },
+    "s-00926": {
+      "en": "vacation",
+      "word": "छुट्टी",
+      "sentence": "यह एक छुट्टी है।",
+      "reading": "chuṭṭī",
+      "gender": "f"
+    },
+    "s-00927": {
+      "en": "vase",
+      "word": "फूलदान",
+      "sentence": "यह एक फूलदान है।",
+      "reading": "phūldān",
+      "gender": "m"
+    },
+    "s-00930": {
+      "en": "video",
+      "word": "वीडियो",
+      "sentence": "ये एक वीडियो है।",
+      "reading": "vīḍiyo",
+      "gender": "m"
+    },
+    "s-00932": {
+      "en": "volleyball",
+      "word": "वॉलीबॉल",
+      "sentence": "यह वॉलीबॉल है।",
+      "reading": "vŏlībŏl",
+      "gender": "m"
+    },
+    "s-00937": {
+      "en": "wake",
+      "word": "जागरण",
+      "sentence": "यह एक जागृति है।",
+      "reading": "jāgraṇ",
+      "gender": "m"
+    },
+    "s-00940": {
+      "en": "war",
+      "word": "युद्ध",
+      "sentence": "यह एक युद्ध है।",
+      "reading": "yuddh",
+      "gender": "m"
+    },
+    "s-00942": {
+      "en": "was",
+      "word": "था",
+      "sentence": "मैं था सीख रहा हूँ।",
+      "reading": "thā"
+    },
+    "s-00943": {
+      "en": "wash",
+      "word": "धुलाई",
+      "sentence": "यह धुलाई है।",
+      "reading": "dhulāī",
+      "gender": "f"
+    },
+    "s-00945": {
+      "en": "way",
+      "word": "रास्ता",
+      "sentence": "स्कूल किस तरफ है?",
+      "reading": "rāstā",
+      "gender": "m"
+    },
+    "s-00953": {
+      "en": "well",
+      "word": "अच्छी तरह",
+      "sentence": "मैं अच्छी तरह से सोया।",
+      "reading": "acchī tarah"
+    },
+    "s-00954": {
+      "en": "were",
+      "word": "थे",
+      "sentence": "मैं थे सीख रहा हूँ।",
+      "reading": "the"
+    },
+    "s-00955": {
+      "en": "what",
+      "word": "क्या",
+      "sentence": "हम किस बारे में बात कर रहे थे।",
+      "reading": "kyā"
+    },
+    "s-00957": {
+      "en": "when",
+      "word": "कब",
+      "sentence": "कृपया इसे कब कहें।",
+      "reading": "kab"
+    },
+    "s-00958": {
+      "en": "where",
+      "word": "कहाँ",
+      "sentence": "कृपया इसे कहां कहें।",
+      "reading": "kahā̃"
+    },
+    "s-00959": {
+      "en": "which",
+      "word": "जो",
+      "sentence": "जिसके बारे में हम बात कर रहे थे।",
+      "reading": "jo"
+    },
+    "s-00962": {
+      "en": "whose",
+      "word": "किसका",
+      "sentence": "हम किसकी बात कर रहे थे।",
+      "reading": "kiskā"
+    },
+    "s-00963": {
+      "en": "why",
+      "word": "क्यों",
+      "sentence": "कृपया इसका कारण बताएं।",
+      "reading": "kyõ"
+    },
+    "s-00965": {
+      "en": "will",
+      "word": "होगा",
+      "sentence": "मैं होगा सीख रहा हूँ।",
+      "reading": "hogā"
+    },
+    "s-00970": {
+      "en": "wish",
+      "word": "इच्छा",
+      "sentence": "ये एक चाहत है।",
+      "reading": "icchā",
+      "gender": "f"
+    },
+    "s-00972": {
+      "en": "wonderful",
+      "word": "अद्भुत",
+      "sentence": "यह अद्भुत है।",
+      "reading": "adbhut"
+    },
+    "s-00978": {
+      "en": "would",
+      "word": "होता",
+      "sentence": "मैं होता सीख रहा हूँ।",
+      "reading": "hotā"
+    },
+    "s-00980": {
+      "en": "writer",
+      "word": "लेखक",
+      "sentence": "ये एक लेखक हैं।",
+      "reading": "lekhak",
+      "gender": "m"
+    },
+    "s-00981": {
+      "en": "wrong",
+      "word": "गलत",
+      "sentence": "गलत बात है।",
+      "reading": "galat"
+    },
+    "s-00985": {
+      "en": "yes",
+      "word": "हाँ",
+      "sentence": "हाँ, मैं समझता हूँ।",
+      "reading": "hā̃"
+    },
+    "s-00988": {
+      "en": "yogurt",
+      "word": "दही",
+      "sentence": "यह दही है।",
+      "reading": "dahī",
+      "gender": "f"
+    },
+    "s-00991": {
+      "en": "yours",
+      "word": "तुम्हारा",
+      "sentence": "हम आपकी बात कर रहे थे।",
+      "reading": "tumhārā"
+    },
+    "s-00992": {
+      "en": "yourself",
+      "word": "अपने आप",
+      "sentence": "हम आपके बारे में बात कर रहे थे।",
+      "reading": "apne āp"
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "entries": {
+    "i": {
+      "word": "मी",
+      "sentence": "मी इथे आहे.",
+      "reading": "mī"
+    },
+    "you": {
+      "word": "तू",
+      "sentence": "तू माझा मित्र आहेस.",
+      "reading": "tū"
+    },
+    "woman": {
+      "word": "बाई",
+      "sentence": "बाई इथे आहे.",
+      "reading": "bāī"
+    },
+    "man": {
+      "word": "माणूस",
+      "sentence": "माणूस चालतो.",
+      "reading": "māṇūs"
+    },
+    "child": {
+      "word": "मूल",
+      "sentence": "मूल झोपतं.",
+      "reading": "mūl"
+    },
+    "name": {
+      "word": "नाव",
+      "sentence": "माझे नाव Anna आहे.",
+      "reading": "nāv"
+    },
+    "friend": {
+      "word": "मित्र",
+      "sentence": "हा माझा मित्र आहे.",
+      "reading": "mitra"
+    },
+    "family": {
+      "word": "कुटुंब",
+      "sentence": "माझे कुटुंब घरी आहे.",
+      "reading": "kuṭumba"
+    },
+    "house": {
+      "word": "घर",
+      "sentence": "घर लहान आहे.",
+      "reading": "ghar"
+    },
+    "door": {
+      "word": "दार",
+      "sentence": "दार उघडं आहे.",
+      "reading": "dār"
+    },
+    "key": {
+      "word": "किल्ली",
+      "sentence": "किल्ली टेबलावर आहे.",
+      "reading": "killī"
+    },
+    "table": {
+      "word": "टेबल",
+      "sentence": "पुस्तक टेबलावर आहे.",
+      "reading": "ṭebal"
+    },
+    "bed": {
+      "word": "पलंग",
+      "sentence": "मूल पलंगावर आहे.",
+      "reading": "palaṅg"
+    },
+    "book": {
+      "word": "पुस्तक",
+      "sentence": "पुस्तक नवीन आहे.",
+      "reading": "pustak"
+    },
+    "water": {
+      "word": "पाणी",
+      "sentence": "पाणी थंड आहे.",
+      "reading": "pāṇī"
+    },
+    "fire": {
+      "word": "आग",
+      "sentence": "आग गरम आहे.",
+      "reading": "āg"
+    },
+    "bread": {
+      "word": "पाव",
+      "sentence": "पाव चांगला आहे.",
+      "reading": "pāv"
+    },
+    "apple": {
+      "word": "सफरचंद",
+      "sentence": "सफरचंद लाल आहे.",
+      "reading": "sapharcaṃd"
+    },
+    "egg": {
+      "word": "अंडं",
+      "sentence": "अंडं टेबलावर आहे.",
+      "reading": "aṇḍa"
+    },
+    "milk": {
+      "word": "दूध",
+      "sentence": "मूल दूध पितं.",
+      "reading": "dūdh"
+    },
+    "fish": {
+      "word": "मासा",
+      "sentence": "मासा पाण्यात आहे.",
+      "reading": "māsā"
+    },
+    "rice": {
+      "word": "भात",
+      "sentence": "आम्ही भात खातो.",
+      "reading": "bhāt"
+    },
+    "coffee": {
+      "word": "कॉफी",
+      "sentence": "कॉफी गरम आहे.",
+      "reading": "kŏphī"
+    },
+    "eat": {
+      "word": "खाणे",
+      "sentence": "आम्ही पाव खातो.",
+      "reading": "khāṇe"
+    },
+    "drink": {
+      "word": "पिणे",
+      "sentence": "मी पाणी पितो.",
+      "reading": "piṇe"
+    },
+    "see": {
+      "word": "पाहणे",
+      "sentence": "मी सूर्य पाहतो.",
+      "reading": "pāhaṇe"
+    },
+    "hear": {
+      "word": "ऐकणे",
+      "sentence": "मी पाऊस ऐकतो.",
+      "reading": "aikaṇe"
+    },
+    "sleep": {
+      "word": "झोपणे",
+      "sentence": "मूल झोपतं.",
+      "reading": "jhopṇe"
+    },
+    "walk": {
+      "word": "चालणे",
+      "sentence": "माणूस चालतो.",
+      "reading": "cālṇe"
+    },
+    "come": {
+      "word": "येणे",
+      "sentence": "तू घरी येतोस.",
+      "reading": "yeṇe"
+    },
+    "sit": {
+      "word": "बसणे",
+      "sentence": "आम्ही टेबलाजवळ बसतो.",
+      "reading": "basṇe"
+    },
+    "give": {
+      "word": "देणे",
+      "sentence": "मी तुला किल्ली देतो.",
+      "reading": "deṇe"
+    },
+    "sun": {
+      "word": "सूर्य",
+      "sentence": "सूर्य गरम आहे.",
+      "reading": "sūrya"
+    },
+    "moon": {
+      "word": "चंद्र",
+      "sentence": "मी चंद्र पाहतो.",
+      "reading": "candra"
+    },
+    "tree": {
+      "word": "झाड",
+      "sentence": "झाड मोठं आहे.",
+      "reading": "jhāḍ"
+    },
+    "flower": {
+      "word": "फूल",
+      "sentence": "फूल लाल आहे.",
+      "reading": "phūl"
+    },
+    "rain": {
+      "word": "पाऊस",
+      "sentence": "पाऊस थंड आहे.",
+      "reading": "pāūs"
+    },
+    "mountain": {
+      "word": "डोंगर",
+      "sentence": "डोंगर मोठा आहे.",
+      "reading": "ḍoṅgar"
+    },
+    "river": {
+      "word": "नदी",
+      "sentence": "नदी लांब आहे.",
+      "reading": "nadī"
+    },
+    "stone": {
+      "word": "दगड",
+      "sentence": "दगड लहान आहे.",
+      "reading": "dagaḍ"
+    },
+    "dog": {
+      "word": "कुत्रा",
+      "sentence": "कुत्रा लहान आहे.",
+      "reading": "kutrā"
+    },
+    "cat": {
+      "word": "मांजर",
+      "sentence": "मांजर झोपले आहे.",
+      "reading": "māñjar"
+    },
+    "bird": {
+      "word": "पक्षी",
+      "sentence": "मला दोन पक्षी दिसतात.",
+      "reading": "pakṣī"
+    },
+    "hand": {
+      "word": "हात",
+      "sentence": "हा माझा हात आहे.",
+      "reading": "hāt"
+    },
+    "eye": {
+      "word": "डोळा",
+      "sentence": "हा माझा डोळा आहे.",
+      "reading": "ḍoḷā"
+    },
+    "ear": {
+      "word": "कान",
+      "sentence": "हा माझा कान आहे.",
+      "reading": "kān"
+    },
+    "head": {
+      "word": "डोके",
+      "sentence": "हे माझे डोके आहे.",
+      "reading": "ḍoke"
+    },
+    "mouth": {
+      "word": "तोंड",
+      "sentence": "हे माझे तोंड आहे.",
+      "reading": "toṇḍ"
+    },
+    "foot": {
+      "word": "पाय",
+      "sentence": "माझा पाय थंड आहे.",
+      "reading": "pāy"
+    },
+    "road": {
+      "word": "रस्ता",
+      "sentence": "रस्ता लांब आहे.",
+      "reading": "rastā"
+    },
+    "city": {
+      "word": "शहर",
+      "sentence": "शहर मोठं आहे.",
+      "reading": "śahar"
+    },
+    "school": {
+      "word": "शाळा",
+      "sentence": "मूल शाळेत जातं.",
+      "reading": "śāḷā"
+    },
+    "sea": {
+      "word": "समुद्र",
+      "sentence": "मला समुद्र दिसतो.",
+      "reading": "samudra"
+    },
+    "night": {
+      "word": "रात्र",
+      "sentence": "रात्र थंड आहे.",
+      "reading": "rātra"
+    },
+    "one": {
+      "word": "एक",
+      "sentence": "माझ्याकडे एक सफरचंद आहे.",
+      "reading": "ek"
+    },
+    "two": {
+      "word": "दोन",
+      "sentence": "मला दोन पक्षी दिसतात.",
+      "reading": "don"
+    },
+    "big": {
+      "word": "मोठा",
+      "sentence": "घर मोठं आहे.",
+      "reading": "moṭhā"
+    },
+    "small": {
+      "word": "लहान",
+      "sentence": "मूल लहान आहे.",
+      "reading": "lahān"
+    },
+    "good": {
+      "word": "चांगला",
+      "sentence": "पाव चांगला आहे.",
+      "reading": "cāṅglā"
+    },
+    "hot": {
+      "word": "गरम",
+      "sentence": "आग गरम आहे.",
+      "reading": "garam"
+    },
+    "cold": {
+      "word": "थंड",
+      "sentence": "पाणी थंड आहे.",
+      "reading": "thaṇḍ"
+    },
+    "red": {
+      "word": "लाल",
+      "sentence": "सफरचंद लाल आहे.",
+      "reading": "lāl"
+    },
+    "new": {
+      "word": "नवीन",
+      "sentence": "पुस्तक नवीन आहे.",
+      "reading": "navīn"
+    },
+    "this": {
+      "word": "हे",
+      "sentence": "हे माझे घर आहे.",
+      "reading": "he"
+    }
+  },
+  "lines": {
+    "d1a": "नमस्कार. मी इथे आहे.",
+    "d1b": "तुझे नाव काय आहे?",
+    "d1c": "माझे नाव Anna आहे. हा माझा मित्र आहे.",
+    "d1d": "आत ये. पाव चांगला आहे.",
+    "d2a": "मला डोंगर दिसतो.",
+    "d2b": "रस्ता लांब आहे.",
+    "d2c": "सूर्य गरम आहे.",
+    "d2d": "आम्ही बसतो, आणि मी पाणी पितो.",
+    "d3a": "मूल झोपतं.",
+    "d3b": "मी चंद्र पाहतो.",
+    "d3c": "मी पाऊस ऐकतो.",
+    "d3d": "घर लहान आणि चांगलं आहे."
+  }
+}

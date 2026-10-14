@@ -1,0 +1,338 @@
+{
+  "entries": {
+    "i": {
+      "word": "আমি",
+      "sentence": "আমি এখানে আছি।",
+      "reading": "āmi"
+    },
+    "you": {
+      "word": "তুমি",
+      "sentence": "তুমি আমার বন্ধু।",
+      "reading": "tumi"
+    },
+    "woman": {
+      "word": "মহিলা",
+      "sentence": "মহিলা এখানে আছে।",
+      "reading": "mohilā"
+    },
+    "man": {
+      "word": "পুরুষ",
+      "sentence": "পুরুষ হাঁটছে।",
+      "reading": "puruṣ"
+    },
+    "child": {
+      "word": "বাচ্চা",
+      "sentence": "বাচ্চা ঘুমাচ্ছে।",
+      "reading": "bāccā"
+    },
+    "name": {
+      "word": "নাম",
+      "sentence": "আমার নাম Anna।",
+      "reading": "nām"
+    },
+    "friend": {
+      "word": "বন্ধু",
+      "sentence": "এটা আমার বন্ধু।",
+      "reading": "bandhu"
+    },
+    "family": {
+      "word": "পরিবার",
+      "sentence": "আমার পরিবার বাড়িতে আছে।",
+      "reading": "paribār"
+    },
+    "house": {
+      "word": "বাড়ি",
+      "sentence": "বাড়ি ছোট।",
+      "reading": "bāṛi"
+    },
+    "door": {
+      "word": "দরজা",
+      "sentence": "দরজা খোলা।",
+      "reading": "darajā"
+    },
+    "key": {
+      "word": "চাবি",
+      "sentence": "চাবি টেবিলে আছে।",
+      "reading": "cābi"
+    },
+    "table": {
+      "word": "টেবিল",
+      "sentence": "বই টেবিলে আছে।",
+      "reading": "ṭebil"
+    },
+    "bed": {
+      "word": "বিছানা",
+      "sentence": "বাচ্চা বিছানায় আছে।",
+      "reading": "bichānā"
+    },
+    "book": {
+      "word": "বই",
+      "sentence": "বই নতুন।",
+      "reading": "boi"
+    },
+    "water": {
+      "word": "পানি",
+      "sentence": "পানি ঠান্ডা।",
+      "reading": "pāni"
+    },
+    "fire": {
+      "word": "আগুন",
+      "sentence": "আগুন গরম।",
+      "reading": "āgun"
+    },
+    "bread": {
+      "word": "রুটি",
+      "sentence": "রুটি ভালো।",
+      "reading": "ruṭi"
+    },
+    "apple": {
+      "word": "আপেল",
+      "sentence": "আপেল লাল।",
+      "reading": "āpel"
+    },
+    "egg": {
+      "word": "ডিম",
+      "sentence": "ডিম টেবিলে আছে।",
+      "reading": "ḍim"
+    },
+    "milk": {
+      "word": "দুধ",
+      "sentence": "বাচ্চা দুধ খায়।",
+      "reading": "dudh"
+    },
+    "fish": {
+      "word": "মাছ",
+      "sentence": "মাছ পানিতে আছে।",
+      "reading": "māch"
+    },
+    "rice": {
+      "word": "ভাত",
+      "sentence": "আমরা ভাত খাই।",
+      "reading": "bhāt"
+    },
+    "coffee": {
+      "word": "কফি",
+      "sentence": "কফি গরম।",
+      "reading": "kaphi"
+    },
+    "eat": {
+      "word": "খাওয়া",
+      "sentence": "আমরা রুটি খাই।",
+      "reading": "khāoyā"
+    },
+    "drink": {
+      "word": "পান করা",
+      "sentence": "আমি পানি পান করি।",
+      "reading": "pān karā"
+    },
+    "see": {
+      "word": "দেখা",
+      "sentence": "আমি সূর্য দেখি।",
+      "reading": "dekhā"
+    },
+    "hear": {
+      "word": "শোনা",
+      "sentence": "আমি বৃষ্টি শুনি।",
+      "reading": "śonā"
+    },
+    "sleep": {
+      "word": "ঘুমানো",
+      "sentence": "বাচ্চা ঘুমায়।",
+      "reading": "ghumāno"
+    },
+    "walk": {
+      "word": "হাঁটা",
+      "sentence": "পুরুষ হাঁটে।",
+      "reading": "hā̃ṭā"
+    },
+    "come": {
+      "word": "আসা",
+      "sentence": "তুমি বাড়িতে আসো।",
+      "reading": "āsā"
+    },
+    "sit": {
+      "word": "বসা",
+      "sentence": "আমরা টেবিলে বসি।",
+      "reading": "basā"
+    },
+    "give": {
+      "word": "দেওয়া",
+      "sentence": "আমি তোমাকে চাবি দিই।",
+      "reading": "deoyā"
+    },
+    "sun": {
+      "word": "সূর্য",
+      "sentence": "সূর্য গরম।",
+      "reading": "sūrya"
+    },
+    "moon": {
+      "word": "চাঁদ",
+      "sentence": "আমি চাঁদ দেখি।",
+      "reading": "cā̃d"
+    },
+    "tree": {
+      "word": "গাছ",
+      "sentence": "গাছ বড়।",
+      "reading": "gāch"
+    },
+    "flower": {
+      "word": "ফুল",
+      "sentence": "ফুল লাল।",
+      "reading": "phul"
+    },
+    "rain": {
+      "word": "বৃষ্টি",
+      "sentence": "বৃষ্টি ঠান্ডা।",
+      "reading": "briṣṭi"
+    },
+    "mountain": {
+      "word": "পাহাড়",
+      "sentence": "পাহাড় বড়।",
+      "reading": "pāhāṛ"
+    },
+    "river": {
+      "word": "নদী",
+      "sentence": "নদী লম্বা।",
+      "reading": "nadī"
+    },
+    "stone": {
+      "word": "পাথর",
+      "sentence": "পাথর ছোট।",
+      "reading": "pāthor"
+    },
+    "dog": {
+      "word": "কুকুর",
+      "sentence": "কুকুর ছোট।",
+      "reading": "kukur"
+    },
+    "cat": {
+      "word": "বিড়াল",
+      "sentence": "বিড়াল ঘুমাচ্ছে।",
+      "reading": "biṛāl"
+    },
+    "bird": {
+      "word": "পাখি",
+      "sentence": "আমি দুটি পাখি দেখি।",
+      "reading": "pākhi"
+    },
+    "hand": {
+      "word": "হাত",
+      "sentence": "এটা আমার হাত।",
+      "reading": "hāt"
+    },
+    "eye": {
+      "word": "চোখ",
+      "sentence": "এটা আমার চোখ।",
+      "reading": "cokh"
+    },
+    "ear": {
+      "word": "কান",
+      "sentence": "এটা আমার কান।",
+      "reading": "kān"
+    },
+    "head": {
+      "word": "মাথা",
+      "sentence": "এটা আমার মাথা।",
+      "reading": "māthā"
+    },
+    "mouth": {
+      "word": "মুখ",
+      "sentence": "এটা আমার মুখ।",
+      "reading": "mukh"
+    },
+    "foot": {
+      "word": "পা",
+      "sentence": "আমার পা ঠান্ডা।",
+      "reading": "pā"
+    },
+    "road": {
+      "word": "রাস্তা",
+      "sentence": "রাস্তা লম্বা।",
+      "reading": "rāstā"
+    },
+    "city": {
+      "word": "শহর",
+      "sentence": "শহর বড়।",
+      "reading": "śahar"
+    },
+    "school": {
+      "word": "স্কুল",
+      "sentence": "বাচ্চা স্কুলে যায়।",
+      "reading": "skul"
+    },
+    "sea": {
+      "word": "সমুদ্র",
+      "sentence": "আমি সমুদ্র দেখি।",
+      "reading": "samudra"
+    },
+    "night": {
+      "word": "রাত",
+      "sentence": "রাত ঠান্ডা।",
+      "reading": "rāt"
+    },
+    "one": {
+      "word": "এক",
+      "sentence": "আমার একটি আপেল আছে।",
+      "reading": "ek"
+    },
+    "two": {
+      "word": "দুই",
+      "sentence": "আমি দুটি পাখি দেখি।",
+      "reading": "dui"
+    },
+    "big": {
+      "word": "বড়",
+      "sentence": "বাড়ি বড়।",
+      "reading": "bôṛo"
+    },
+    "small": {
+      "word": "ছোট",
+      "sentence": "বাচ্চা ছোট।",
+      "reading": "choṭo"
+    },
+    "good": {
+      "word": "ভালো",
+      "sentence": "রুটি ভালো।",
+      "reading": "bhālo"
+    },
+    "hot": {
+      "word": "গরম",
+      "sentence": "আগুন গরম।",
+      "reading": "garam"
+    },
+    "cold": {
+      "word": "ঠান্ডা",
+      "sentence": "পানি ঠান্ডা।",
+      "reading": "ṭhāṇḍā"
+    },
+    "red": {
+      "word": "লাল",
+      "sentence": "আপেল লাল।",
+      "reading": "lāl"
+    },
+    "new": {
+      "word": "নতুন",
+      "sentence": "বই নতুন।",
+      "reading": "natun"
+    },
+    "this": {
+      "word": "এটা",
+      "sentence": "এটা আমার বাড়ি।",
+      "reading": "eṭā"
+    }
+  },
+  "lines": {
+    "d1a": "হ্যালো। আমি এখানে আছি।",
+    "d1b": "তোমার নাম কী?",
+    "d1c": "আমার নাম Anna। এটা আমার বন্ধু।",
+    "d1d": "ভেতরে এসো। রুটি ভালো।",
+    "d2a": "আমি পাহাড় দেখি।",
+    "d2b": "রাস্তা লম্বা।",
+    "d2c": "সূর্য গরম।",
+    "d2d": "আমরা বসি, আর আমি পানি পান করি।",
+    "d3a": "বাচ্চা ঘুমায়।",
+    "d3b": "আমি চাঁদ দেখি।",
+    "d3c": "আমি বৃষ্টি শুনি।",
+    "d3d": "বাড়ি ছোট আর ভালো।"
+  }
+}

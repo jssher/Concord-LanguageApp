@@ -1,0 +1,275 @@
+{
+  "entries": {
+    "i": {
+      "word": "ni",
+      "sentence": "Ni hemen nago."
+    },
+    "you": {
+      "word": "zu",
+      "sentence": "Zu nire laguna zara.",
+      "note": "singular"
+    },
+    "woman": {
+      "word": "emakume",
+      "sentence": "Emakumea hemen dago."
+    },
+    "man": {
+      "word": "gizon",
+      "sentence": "Gizona oinez dabil."
+    },
+    "child": {
+      "word": "haur",
+      "sentence": "Haurra lotan dago."
+    },
+    "name": {
+      "word": "izen",
+      "sentence": "Nire izena Anna da."
+    },
+    "friend": {
+      "word": "lagun",
+      "sentence": "Hau nire laguna da."
+    },
+    "family": {
+      "word": "familia",
+      "sentence": "Nire familia etxean dago."
+    },
+    "house": {
+      "word": "etxe",
+      "sentence": "Etxea txikia da."
+    },
+    "door": {
+      "word": "ate",
+      "sentence": "Atea irekita dago."
+    },
+    "key": {
+      "word": "giltza",
+      "sentence": "Giltza mahaian dago."
+    },
+    "table": {
+      "word": "mahai",
+      "sentence": "Liburua mahaian dago."
+    },
+    "bed": {
+      "word": "ohe",
+      "sentence": "Haurra ohean dago."
+    },
+    "book": {
+      "word": "liburu",
+      "sentence": "Liburua berria da."
+    },
+    "water": {
+      "word": "ur",
+      "sentence": "Ura hotza da."
+    },
+    "fire": {
+      "word": "su",
+      "sentence": "Sua beroa da."
+    },
+    "bread": {
+      "word": "ogi",
+      "sentence": "Ogia ona da."
+    },
+    "apple": {
+      "word": "sagar",
+      "sentence": "Sagarra gorria da."
+    },
+    "egg": {
+      "word": "arrautza",
+      "sentence": "Arrautza mahaian dago."
+    },
+    "milk": {
+      "word": "esne",
+      "sentence": "Haurrak esnea edaten du."
+    },
+    "fish": {
+      "word": "arrain",
+      "sentence": "Arraina uretan dago."
+    },
+    "rice": {
+      "word": "arroz",
+      "sentence": "Arroza jaten dugu."
+    },
+    "coffee": {
+      "word": "kafe",
+      "sentence": "Kafea beroa da."
+    },
+    "eat": {
+      "word": "jan",
+      "sentence": "Ogia jaten dugu."
+    },
+    "drink": {
+      "word": "edan",
+      "sentence": "Ura edaten dut."
+    },
+    "see": {
+      "word": "ikusi",
+      "sentence": "Eguzkia ikusten dut."
+    },
+    "hear": {
+      "word": "entzun",
+      "sentence": "Euria entzuten dut."
+    },
+    "sleep": {
+      "word": "lo egin",
+      "sentence": "Haurra lotan dago."
+    },
+    "walk": {
+      "word": "oinez ibili",
+      "sentence": "Gizona oinez dabil."
+    },
+    "come": {
+      "word": "etorri",
+      "sentence": "Zu etxera zatoz."
+    },
+    "sit": {
+      "word": "eseri",
+      "sentence": "Mahaian esertzen gara."
+    },
+    "give": {
+      "word": "eman",
+      "sentence": "Giltza ematen dizut."
+    },
+    "sun": {
+      "word": "eguzki",
+      "sentence": "Eguzkia beroa da."
+    },
+    "moon": {
+      "word": "ilargi",
+      "sentence": "Ilargia ikusten dut."
+    },
+    "tree": {
+      "word": "zuhaitz",
+      "sentence": "Zuhaitza handia da."
+    },
+    "flower": {
+      "word": "lore",
+      "sentence": "Lorea gorria da."
+    },
+    "rain": {
+      "word": "euri",
+      "sentence": "Euria hotza da."
+    },
+    "mountain": {
+      "word": "mendi",
+      "sentence": "Mendia handia da."
+    },
+    "river": {
+      "word": "ibai",
+      "sentence": "Ibaia luzea da."
+    },
+    "stone": {
+      "word": "harri",
+      "sentence": "Harria txikia da."
+    },
+    "dog": {
+      "word": "txakur",
+      "sentence": "Txakurra txikia da."
+    },
+    "cat": {
+      "word": "katu",
+      "sentence": "Katua lotan dago."
+    },
+    "bird": {
+      "word": "txori",
+      "sentence": "Bi txori ikusten ditut."
+    },
+    "hand": {
+      "word": "esku",
+      "sentence": "Hau nire eskua da."
+    },
+    "eye": {
+      "word": "begi",
+      "sentence": "Hau nire begia da."
+    },
+    "ear": {
+      "word": "belarri",
+      "sentence": "Hau nire belarria da."
+    },
+    "head": {
+      "word": "buru",
+      "sentence": "Hau nire burua da."
+    },
+    "mouth": {
+      "word": "aho",
+      "sentence": "Hau nire ahoa da."
+    },
+    "foot": {
+      "word": "oin",
+      "sentence": "Nire oina hotza da."
+    },
+    "road": {
+      "word": "bide",
+      "sentence": "Bidea luzea da."
+    },
+    "city": {
+      "word": "hiri",
+      "sentence": "Hiria handia da."
+    },
+    "school": {
+      "word": "eskola",
+      "sentence": "Haurra eskolara doa."
+    },
+    "sea": {
+      "word": "itsaso",
+      "sentence": "Itsasoa ikusten dut."
+    },
+    "night": {
+      "word": "gau",
+      "sentence": "Gaua hotza da."
+    },
+    "one": {
+      "word": "bat",
+      "sentence": "Sagar bat dut."
+    },
+    "two": {
+      "word": "bi",
+      "sentence": "Bi txori ikusten ditut."
+    },
+    "big": {
+      "word": "handi",
+      "sentence": "Etxea handia da."
+    },
+    "small": {
+      "word": "txiki",
+      "sentence": "Haurra txikia da."
+    },
+    "good": {
+      "word": "on",
+      "sentence": "Ogia ona da."
+    },
+    "hot": {
+      "word": "bero",
+      "sentence": "Sua beroa da."
+    },
+    "cold": {
+      "word": "hotz",
+      "sentence": "Ura hotza da."
+    },
+    "red": {
+      "word": "gorri",
+      "sentence": "Sagarra gorria da."
+    },
+    "new": {
+      "word": "berri",
+      "sentence": "Liburua berria da."
+    },
+    "this": {
+      "word": "hau",
+      "sentence": "Hau nire etxea da."
+    }
+  },
+  "lines": {
+    "d1a": "Kaixo. Ni hemen nago.",
+    "d1b": "Zein da zure izena?",
+    "d1c": "Nire izena Anna da. Hau nire laguna da.",
+    "d1d": "Sartu. Ogia ona da.",
+    "d2a": "Mendia ikusten dut.",
+    "d2b": "Bidea luzea da.",
+    "d2c": "Eguzkia beroa da.",
+    "d2d": "Esertzen gara, eta ura edaten dut.",
+    "d3a": "Haurra lotan dago.",
+    "d3b": "Ilargia ikusten dut.",
+    "d3c": "Euria entzuten dut.",
+    "d3d": "Etxea txikia eta ona da."
+  }
+}

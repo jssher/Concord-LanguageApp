@@ -1,0 +1,288 @@
+{
+  "entries": {
+    "i": {
+      "word": "mi",
+      "sentence": "mi lon ni."
+    },
+    "you": {
+      "word": "sina",
+      "sentence": "sina jan pona mi.",
+      "note": "singular"
+    },
+    "woman": {
+      "word": "meli",
+      "sentence": "meli li lon ni."
+    },
+    "man": {
+      "word": "mije",
+      "sentence": "mije li tawa."
+    },
+    "child": {
+      "word": "jan lili",
+      "sentence": "jan lili li lape."
+    },
+    "name": {
+      "word": "nimi",
+      "sentence": "nimi mi li Anna."
+    },
+    "friend": {
+      "word": "jan pona",
+      "sentence": "ni li jan pona mi."
+    },
+    "family": {
+      "word": "kulupu mama",
+      "sentence": "kulupu mama mi li lon tomo."
+    },
+    "house": {
+      "word": "tomo",
+      "sentence": "tomo li lili."
+    },
+    "door": {
+      "word": "lupa",
+      "sentence": "lupa li open."
+    },
+    "key": {
+      "word": "ilo open",
+      "sentence": "ilo open li lon supa.",
+      "note": "a tool for opening"
+    },
+    "table": {
+      "word": "supa",
+      "sentence": "lipu li lon supa."
+    },
+    "bed": {
+      "word": "supa lape",
+      "sentence": "jan lili li lon supa lape."
+    },
+    "book": {
+      "word": "lipu",
+      "sentence": "lipu li sin."
+    },
+    "water": {
+      "word": "telo",
+      "sentence": "telo li lete."
+    },
+    "fire": {
+      "word": "seli",
+      "sentence": "seli li seli.",
+      "note": "the same word is hot"
+    },
+    "bread": {
+      "word": "pan",
+      "sentence": "pan li pona."
+    },
+    "apple": {
+      "word": "kili",
+      "sentence": "kili li loje.",
+      "note": "any fruit"
+    },
+    "egg": {
+      "word": "sike mama",
+      "sentence": "sike mama li lon supa."
+    },
+    "milk": {
+      "word": "telo walo",
+      "sentence": "jan lili li moku e telo walo.",
+      "note": "white liquid"
+    },
+    "fish": {
+      "word": "kala",
+      "sentence": "kala li lon telo."
+    },
+    "rice": {
+      "word": "pan kasi",
+      "sentence": "mi mute li moku e pan kasi.",
+      "note": "grain from a plant"
+    },
+    "coffee": {
+      "word": "telo seli pimeja",
+      "sentence": "telo seli pimeja li seli.",
+      "note": "a hot dark drink"
+    },
+    "eat": {
+      "word": "moku",
+      "sentence": "mi mute li moku e pan.",
+      "note": "also drink"
+    },
+    "drink": {
+      "word": "moku",
+      "sentence": "mi moku e telo.",
+      "note": "the same word as eat"
+    },
+    "see": {
+      "word": "lukin",
+      "sentence": "mi lukin e suno."
+    },
+    "hear": {
+      "word": "kute",
+      "sentence": "mi kute e telo sewi.",
+      "note": "also the ear"
+    },
+    "sleep": {
+      "word": "lape",
+      "sentence": "jan lili li lape."
+    },
+    "walk": {
+      "word": "tawa",
+      "sentence": "mije li tawa."
+    },
+    "come": {
+      "word": "kama",
+      "sentence": "sina kama lon tomo."
+    },
+    "sit": {
+      "word": "awen",
+      "sentence": "mi mute li awen lon supa."
+    },
+    "give": {
+      "word": "pana",
+      "sentence": "mi pana e ilo open tawa sina."
+    },
+    "sun": {
+      "word": "suno",
+      "sentence": "suno li seli."
+    },
+    "moon": {
+      "word": "mun",
+      "sentence": "mi lukin e mun."
+    },
+    "tree": {
+      "word": "kasi suli",
+      "sentence": "kasi suli li suli."
+    },
+    "flower": {
+      "word": "kasi kule",
+      "sentence": "kasi kule li loje."
+    },
+    "rain": {
+      "word": "telo sewi",
+      "sentence": "telo sewi li lete."
+    },
+    "mountain": {
+      "word": "nena suli",
+      "sentence": "nena suli li suli."
+    },
+    "river": {
+      "word": "telo tawa",
+      "sentence": "telo tawa li suli.",
+      "note": "suli also covers long"
+    },
+    "stone": {
+      "word": "kiwen",
+      "sentence": "kiwen li lili."
+    },
+    "dog": {
+      "word": "soweli",
+      "sentence": "soweli li lili.",
+      "note": "a land animal"
+    },
+    "cat": {
+      "word": "soweli suwi",
+      "sentence": "soweli suwi li lape.",
+      "note": "a soft land animal"
+    },
+    "bird": {
+      "word": "waso",
+      "sentence": "mi lukin e waso tu."
+    },
+    "hand": {
+      "word": "luka",
+      "sentence": "ni li luka mi."
+    },
+    "eye": {
+      "word": "oko",
+      "sentence": "ni li oko mi."
+    },
+    "ear": {
+      "word": "kute",
+      "sentence": "ni li kute mi.",
+      "note": "also the verb hear"
+    },
+    "head": {
+      "word": "lawa",
+      "sentence": "ni li lawa mi."
+    },
+    "mouth": {
+      "word": "uta",
+      "sentence": "ni li uta mi."
+    },
+    "foot": {
+      "word": "noka",
+      "sentence": "noka mi li lete."
+    },
+    "road": {
+      "word": "nasin",
+      "sentence": "nasin li suli."
+    },
+    "city": {
+      "word": "ma tomo",
+      "sentence": "ma tomo li suli."
+    },
+    "school": {
+      "word": "tomo sona",
+      "sentence": "jan lili li tawa tomo sona."
+    },
+    "sea": {
+      "word": "telo suli",
+      "sentence": "mi lukin e telo suli."
+    },
+    "night": {
+      "word": "tenpo pimeja",
+      "sentence": "tenpo pimeja li lete."
+    },
+    "one": {
+      "word": "wan",
+      "sentence": "mi jo e kili wan."
+    },
+    "two": {
+      "word": "tu",
+      "sentence": "mi lukin e waso tu."
+    },
+    "big": {
+      "word": "suli",
+      "sentence": "tomo li suli."
+    },
+    "small": {
+      "word": "lili",
+      "sentence": "jan lili li lili."
+    },
+    "good": {
+      "word": "pona",
+      "sentence": "pan li pona."
+    },
+    "hot": {
+      "word": "seli",
+      "sentence": "seli li seli."
+    },
+    "cold": {
+      "word": "lete",
+      "sentence": "telo li lete."
+    },
+    "red": {
+      "word": "loje",
+      "sentence": "kili li loje."
+    },
+    "new": {
+      "word": "sin",
+      "sentence": "lipu li sin."
+    },
+    "this": {
+      "word": "ni",
+      "sentence": "ni li tomo mi."
+    }
+  },
+  "lines": {
+    "d1a": "toki. mi lon ni.",
+    "d1b": "nimi sina li seme?",
+    "d1c": "nimi mi li Anna. ni li jan pona mi.",
+    "d1d": "o kama insa. pan li pona.",
+    "d2a": "mi lukin e nena suli.",
+    "d2b": "nasin li suli.",
+    "d2c": "suno li seli.",
+    "d2d": "mi mute li awen. mi moku e telo.",
+    "d3a": "jan lili li lape.",
+    "d3b": "mi lukin e mun.",
+    "d3c": "mi kute e telo sewi.",
+    "d3d": "tomo li lili li pona."
+  }
+}

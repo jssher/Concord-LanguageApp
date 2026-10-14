@@ -1,0 +1,338 @@
+{
+  "entries": {
+    "i": {
+      "word": "હું",
+      "sentence": "હું અહીં છું.",
+      "reading": "hũ"
+    },
+    "you": {
+      "word": "તું",
+      "sentence": "તું મારો મિત્ર છે.",
+      "reading": "tũ"
+    },
+    "woman": {
+      "word": "સ્ત્રી",
+      "sentence": "સ્ત્રી અહીં છે.",
+      "reading": "strī"
+    },
+    "man": {
+      "word": "માણસ",
+      "sentence": "માણસ ચાલે છે.",
+      "reading": "māṇas"
+    },
+    "child": {
+      "word": "બાળક",
+      "sentence": "બાળક સૂઈ રહ્યું છે.",
+      "reading": "bāḷak"
+    },
+    "name": {
+      "word": "નામ",
+      "sentence": "મારું નામ Anna છે.",
+      "reading": "nām"
+    },
+    "friend": {
+      "word": "મિત્ર",
+      "sentence": "આ મારો મિત્ર છે.",
+      "reading": "mitra"
+    },
+    "family": {
+      "word": "કુટુંબ",
+      "sentence": "મારું કુટુંબ ઘરે છે.",
+      "reading": "kuṭumb"
+    },
+    "house": {
+      "word": "ઘર",
+      "sentence": "ઘર નાનું છે.",
+      "reading": "ghar"
+    },
+    "door": {
+      "word": "બારણું",
+      "sentence": "બારણું ખુલ્લું છે.",
+      "reading": "bārṇũ"
+    },
+    "key": {
+      "word": "ચાવી",
+      "sentence": "ચાવી ટેબલ પર છે.",
+      "reading": "cāvī"
+    },
+    "table": {
+      "word": "ટેબલ",
+      "sentence": "પુસ્તક ટેબલ પર છે.",
+      "reading": "ṭebal"
+    },
+    "bed": {
+      "word": "પલંગ",
+      "sentence": "બાળક પલંગમાં છે.",
+      "reading": "palaṅg"
+    },
+    "book": {
+      "word": "પુસ્તક",
+      "sentence": "પુસ્તક નવું છે.",
+      "reading": "pustak"
+    },
+    "water": {
+      "word": "પાણી",
+      "sentence": "પાણી ઠંડું છે.",
+      "reading": "pāṇī"
+    },
+    "fire": {
+      "word": "આગ",
+      "sentence": "આગ ગરમ છે.",
+      "reading": "āg"
+    },
+    "bread": {
+      "word": "રોટલી",
+      "sentence": "રોટલી સારી છે.",
+      "reading": "roṭlī"
+    },
+    "apple": {
+      "word": "સફરજન",
+      "sentence": "સફરજન લાલ છે.",
+      "reading": "sapharjan"
+    },
+    "egg": {
+      "word": "ઈંડું",
+      "sentence": "ઈંડું ટેબલ પર છે.",
+      "reading": "īṇḍũ"
+    },
+    "milk": {
+      "word": "દૂધ",
+      "sentence": "બાળક દૂધ પીવે છે.",
+      "reading": "dūdh"
+    },
+    "fish": {
+      "word": "માછલી",
+      "sentence": "માછલી પાણીમાં છે.",
+      "reading": "māchlī"
+    },
+    "rice": {
+      "word": "ભાત",
+      "sentence": "અમે ભાત ખાઈએ છીએ.",
+      "reading": "bhāt"
+    },
+    "coffee": {
+      "word": "કૉફી",
+      "sentence": "કૉફી ગરમ છે.",
+      "reading": "kŏphī"
+    },
+    "eat": {
+      "word": "ખાવું",
+      "sentence": "અમે રોટલી ખાઈએ છીએ.",
+      "reading": "khāvũ"
+    },
+    "drink": {
+      "word": "પીવું",
+      "sentence": "હું પાણી પીઉં છું.",
+      "reading": "pīvũ"
+    },
+    "see": {
+      "word": "જોવું",
+      "sentence": "હું સૂર્ય જોઉં છું.",
+      "reading": "jovũ"
+    },
+    "hear": {
+      "word": "સાંભળવું",
+      "sentence": "હું વરસાદ સાંભળું છું.",
+      "reading": "sā̃bhaḷvũ"
+    },
+    "sleep": {
+      "word": "ઊંઘવું",
+      "sentence": "બાળક સૂએ છે.",
+      "reading": "ū̃ghvũ"
+    },
+    "walk": {
+      "word": "ચાલવું",
+      "sentence": "માણસ ચાલે છે.",
+      "reading": "cālvũ"
+    },
+    "come": {
+      "word": "આવવું",
+      "sentence": "તું ઘરે આવે છે.",
+      "reading": "āvvũ"
+    },
+    "sit": {
+      "word": "બેસવું",
+      "sentence": "અમે ટેબલ પાસે બેસીએ છીએ.",
+      "reading": "besvũ"
+    },
+    "give": {
+      "word": "આપવું",
+      "sentence": "હું તને ચાવી આપું છું.",
+      "reading": "āpvũ"
+    },
+    "sun": {
+      "word": "સૂર્ય",
+      "sentence": "સૂર્ય ગરમ છે.",
+      "reading": "sūrya"
+    },
+    "moon": {
+      "word": "ચંદ્ર",
+      "sentence": "હું ચંદ્ર જોઉં છું.",
+      "reading": "candra"
+    },
+    "tree": {
+      "word": "ઝાડ",
+      "sentence": "ઝાડ મોટું છે.",
+      "reading": "jhāḍ"
+    },
+    "flower": {
+      "word": "ફૂલ",
+      "sentence": "ફૂલ લાલ છે.",
+      "reading": "phūl"
+    },
+    "rain": {
+      "word": "વરસાદ",
+      "sentence": "વરસાદ ઠંડો છે.",
+      "reading": "varasād"
+    },
+    "mountain": {
+      "word": "પહાડ",
+      "sentence": "પહાડ મોટો છે.",
+      "reading": "pahāḍ"
+    },
+    "river": {
+      "word": "નદી",
+      "sentence": "નદી લાંબી છે.",
+      "reading": "nadī"
+    },
+    "stone": {
+      "word": "પથ્થર",
+      "sentence": "પથ્થર નાનો છે.",
+      "reading": "paththar"
+    },
+    "dog": {
+      "word": "કૂતરો",
+      "sentence": "કૂતરો નાનો છે.",
+      "reading": "kūtaro"
+    },
+    "cat": {
+      "word": "બિલાડી",
+      "sentence": "બિલાડી સૂઈ રહી છે.",
+      "reading": "biḷāḍī"
+    },
+    "bird": {
+      "word": "પક્ષી",
+      "sentence": "હું બે પક્ષી જોઉં છું.",
+      "reading": "pakṣī"
+    },
+    "hand": {
+      "word": "હાથ",
+      "sentence": "આ મારો હાથ છે.",
+      "reading": "hāth"
+    },
+    "eye": {
+      "word": "આંખ",
+      "sentence": "આ મારી આંખ છે.",
+      "reading": "ā̃kh"
+    },
+    "ear": {
+      "word": "કાન",
+      "sentence": "આ મારું કાન છે.",
+      "reading": "kān"
+    },
+    "head": {
+      "word": "માથું",
+      "sentence": "આ મારું માથું છે.",
+      "reading": "māthũ"
+    },
+    "mouth": {
+      "word": "મોં",
+      "sentence": "આ મારું મોં છે.",
+      "reading": "moṁ"
+    },
+    "foot": {
+      "word": "પગ",
+      "sentence": "મારો પગ ઠંડો છે.",
+      "reading": "pag"
+    },
+    "road": {
+      "word": "રસ્તો",
+      "sentence": "રસ્તો લાંબો છે.",
+      "reading": "rasto"
+    },
+    "city": {
+      "word": "શહેર",
+      "sentence": "શહેર મોટું છે.",
+      "reading": "śaher"
+    },
+    "school": {
+      "word": "શાળા",
+      "sentence": "બાળક શાળાએ જાય છે.",
+      "reading": "śāḷā"
+    },
+    "sea": {
+      "word": "સમુદ્ર",
+      "sentence": "હું સમુદ્ર જોઉં છું.",
+      "reading": "samudra"
+    },
+    "night": {
+      "word": "રાત",
+      "sentence": "રાત ઠંડી છે.",
+      "reading": "rāt"
+    },
+    "one": {
+      "word": "એક",
+      "sentence": "મારી પાસે એક સફરજન છે.",
+      "reading": "ek"
+    },
+    "two": {
+      "word": "બે",
+      "sentence": "હું બે પક્ષી જોઉં છું.",
+      "reading": "be"
+    },
+    "big": {
+      "word": "મોટું",
+      "sentence": "ઘર મોટું છે.",
+      "reading": "moṭũ"
+    },
+    "small": {
+      "word": "નાનું",
+      "sentence": "બાળક નાનું છે.",
+      "reading": "nānũ"
+    },
+    "good": {
+      "word": "સારું",
+      "sentence": "રોટલી સારી છે.",
+      "reading": "sārũ"
+    },
+    "hot": {
+      "word": "ગરમ",
+      "sentence": "આગ ગરમ છે.",
+      "reading": "garam"
+    },
+    "cold": {
+      "word": "ઠંડું",
+      "sentence": "પાણી ઠંડું છે.",
+      "reading": "ṭhaṇḍũ"
+    },
+    "red": {
+      "word": "લાલ",
+      "sentence": "સફરજન લાલ છે.",
+      "reading": "lāl"
+    },
+    "new": {
+      "word": "નવું",
+      "sentence": "પુસ્તક નવું છે.",
+      "reading": "navũ"
+    },
+    "this": {
+      "word": "આ",
+      "sentence": "આ મારું ઘર છે.",
+      "reading": "ā"
+    }
+  },
+  "lines": {
+    "d1a": "નમસ્તે. હું અહીં છું.",
+    "d1b": "તારું નામ શું છે?",
+    "d1c": "મારું નામ Anna છે. આ મારો મિત્ર છે.",
+    "d1d": "અંદર આવ. રોટલી સારી છે.",
+    "d2a": "હું પહાડ જોઉં છું.",
+    "d2b": "રસ્તો લાંબો છે.",
+    "d2c": "સૂર્ય ગરમ છે.",
+    "d2d": "અમે બેસીએ છીએ, અને હું પાણી પીઉં છું.",
+    "d3a": "બાળક સૂએ છે.",
+    "d3b": "હું ચંદ્ર જોઉં છું.",
+    "d3c": "હું વરસાદ સાંભળું છું.",
+    "d3d": "ઘર નાનું અને સારું છે."
+  }
+}

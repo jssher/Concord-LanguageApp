@@ -1,0 +1,46 @@
+{
+  "url": "http://127.0.0.1:8080/study",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Concord",
+      "hasCanvas": false,
+      "bodyTextLen": 477,
+      "bodyTextHash": "ebf4903ac6918c9555c6da9f3dd261e9fbc5ca2383564d24c186387a18b46c1e",
+      "bodyTextPrefix": "Concord Study Path Grammar Talk English → German A1 A2 B1 B2 Phr",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/study2.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Concord",
+      "hasCanvas": false,
+      "bodyTextLen": 240,
+      "bodyTextHash": "08113b70200167c9b2b19512c8eb434184ff2bcf173bcee969173c31e862f58d",
+      "bodyTextPrefix": "Concord Study Path Grammar Talk A1 A2 B1 B2 Phrases Translated c",
+      "horizontalOverflow": false,
+      "consoleErrors": [
+        "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <Suspense fallback={null}>\n      <MatchImpl routeId=\"/study\">\n        <MatchView router={{...}} match={{id:\"/study...\", ...}}>\n          <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n            <MatchInnerImpl match={{id:\"/study...\", ...}}>\n              <Lazy>\n                <StudyPage>\n                  <Shell>\n                    <div className=\"flex min-h...\">\n                      <header>\n                      <div className=\"flex min-h...\">\n                        <div className=\"flex flex-...\">\n                          <div>\n                          <div className=\"mx-auto gr...\">\n                            <aside className=\"hidden min...\">\n                              <input\n                                value=\"\"\n                                onChange={function onChange}\n                                placeholder=\"Find a word\"\n                                className=\"mb-2 min-h-11 w-full rounded-xl border border-line bg-card px-3\"\n-                               style={{caret-color:\"transparent\"}}\n                              >\n                              ...\n                            ...\n                          ...\n",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/study2-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/study2.json"
+}

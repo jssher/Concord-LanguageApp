@@ -1,0 +1,338 @@
+{
+  "entries": {
+    "i": {
+      "word": "ⵏⴽⴽⵉ",
+      "sentence": "ⵏⴽⴽⵉ ⴷⴰ.",
+      "reading": "nekki"
+    },
+    "you": {
+      "word": "ⴽⵢⵢⵉ",
+      "sentence": "ⴽⵢⵢⵉ ⴷ ⴰⵎⴷⴷⴰⴽⵯⵍ ⵉⵏⵓ.",
+      "reading": "kyyi"
+    },
+    "woman": {
+      "word": "ⵜⴰⵎⵖⴰⵔⵜ",
+      "sentence": "ⵜⴰⵎⵖⴰⵔⵜ ⴷⴰ.",
+      "reading": "tamɣart"
+    },
+    "man": {
+      "word": "ⴰⵔⴳⴰⵣ",
+      "sentence": "ⴰⵔⴳⴰⵣ ⴰⵔ ⵉⵜⵜⴷⴷⵓ.",
+      "reading": "argaz"
+    },
+    "child": {
+      "word": "ⴰⵔⴱⴰ",
+      "sentence": "ⴰⵔⴱⴰ ⴰⵔ ⵉⵜⵜⵟⵟⴰⵚ.",
+      "reading": "arba"
+    },
+    "name": {
+      "word": "ⵉⵙⵎ",
+      "sentence": "ⵉⵙⵎ ⵉⵏⵓ ⴷ Anna.",
+      "reading": "ism"
+    },
+    "friend": {
+      "word": "ⴰⵎⴷⴷⴰⴽⵯⵍ",
+      "sentence": "ⵡⴰ ⴷ ⴰⵎⴷⴷⴰⴽⵯⵍ ⵉⵏⵓ.",
+      "reading": "amddakʷl"
+    },
+    "family": {
+      "word": "ⵜⴰⵡⵊⴰ",
+      "sentence": "ⵜⴰⵡⵊⴰ ⵉⵏⵓ ⵜⵍⵍⴰ ⴳ ⵓⵅⵅⴰⵎ.",
+      "reading": "tawja"
+    },
+    "house": {
+      "word": "ⴰⵅⵅⴰⵎ",
+      "sentence": "ⴰⵅⵅⴰⵎ ⵉⵎⵥⵥⵉ.",
+      "reading": "axxam"
+    },
+    "door": {
+      "word": "ⵜⴰⵡⵡⵓⵔⵜ",
+      "sentence": "ⵜⴰⵡⵡⵓⵔⵜ ⵜⴻⵔⵣⵎ.",
+      "reading": "tawwurt"
+    },
+    "key": {
+      "word": "ⵜⴰⵙⴰⵔⵓⵜ",
+      "sentence": "ⵜⴰⵙⴰⵔⵓⵜ ⵅⴼ ⵟⵟⴰⴱⵍⴰ.",
+      "reading": "tasarut"
+    },
+    "table": {
+      "word": "ⵟⵟⴰⴱⵍⴰ",
+      "sentence": "ⴰⴷⵍⵉⵙ ⵅⴼ ⵟⵟⴰⴱⵍⴰ.",
+      "reading": "ṭṭabla"
+    },
+    "bed": {
+      "word": "ⴰⵙⵔⵉⵔ",
+      "sentence": "ⴰⵔⴱⴰ ⴳ ⵓⵙⵔⵉⵔ.",
+      "reading": "asrir"
+    },
+    "book": {
+      "word": "ⴰⴷⵍⵉⵙ",
+      "sentence": "ⴰⴷⵍⵉⵙ ⴰⵎⴰⵢⵏⵓ.",
+      "reading": "adlis"
+    },
+    "water": {
+      "word": "ⴰⵎⴰⵏ",
+      "sentence": "ⴰⵎⴰⵏ ⵚⵎⵎⵉⴹⵏ.",
+      "reading": "aman"
+    },
+    "fire": {
+      "word": "ⵜⵉⵎⵙⵙⵉ",
+      "sentence": "ⵜⵉⵎⵙⵙⵉ ⵜⵉⵔⵖ.",
+      "reading": "timssi"
+    },
+    "bread": {
+      "word": "ⴰⵖⵔⵓⵎ",
+      "sentence": "ⴰⵖⵔⵓⵎ ⵉⴼⵓⵍⴽⵉ.",
+      "reading": "aɣrum"
+    },
+    "apple": {
+      "word": "ⵜⴰⴼⴼⴰⵃⵜ",
+      "sentence": "ⵜⴰⴼⴼⴰⵃⵜ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ.",
+      "reading": "taffaḥt"
+    },
+    "egg": {
+      "word": "ⵜⴰⴳⵍⴰⵢⵜ",
+      "sentence": "ⵜⴰⴳⵍⴰⵢⵜ ⵅⴼ ⵟⵟⴰⴱⵍⴰ.",
+      "reading": "taglayt"
+    },
+    "milk": {
+      "word": "ⴰⴳⵯⵉ",
+      "sentence": "ⴰⵔⴱⴰ ⴰⵔ ⵉⵙⵙⵡ ⴰⴳⵯⵉ.",
+      "reading": "agʷi"
+    },
+    "fish": {
+      "word": "ⴰⵙⵍⵎ",
+      "sentence": "ⴰⵙⵍⵎ ⴳ ⵡⴰⵎⴰⵏ.",
+      "reading": "aslm"
+    },
+    "rice": {
+      "word": "ⵔⵔⵓⵣ",
+      "sentence": "ⵏⵛⵛⴰ ⵔⵔⵓⵣ.",
+      "reading": "rruz"
+    },
+    "coffee": {
+      "word": "ⵇⵇⴰⵀⵡⴰ",
+      "sentence": "ⵇⵇⴰⵀⵡⴰ ⵜⵉⵔⵖ.",
+      "reading": "qqahwa"
+    },
+    "eat": {
+      "word": "ⵛⵛ",
+      "sentence": "ⵏⵛⵛⴰ ⴰⵖⵔⵓⵎ.",
+      "reading": "cč"
+    },
+    "drink": {
+      "word": "ⵙⵡ",
+      "sentence": "ⵙⵙⵡⵖ ⴰⵎⴰⵏ.",
+      "reading": "sw"
+    },
+    "see": {
+      "word": "ⵥⵕ",
+      "sentence": "ⵥⵕⵉⵖ ⵜⴰⴼⵓⴽⵜ.",
+      "reading": "ẓṛ"
+    },
+    "hear": {
+      "word": "ⵙⵍ",
+      "sentence": "ⵙⵍⵍⵉⵖ ⴰⵏⵥⴰⵔ.",
+      "reading": "sll"
+    },
+    "sleep": {
+      "word": "ⵟⵟⵚ",
+      "sentence": "ⴰⵔⴱⴰ ⴰⵔ ⵉⵜⵜⵟⵟⴰⵚ.",
+      "reading": "ṭṭṣ"
+    },
+    "walk": {
+      "word": "ⴷⴷⵓ",
+      "sentence": "ⴰⵔⴳⴰⵣ ⴰⵔ ⵉⵜⵜⴷⴷⵓ.",
+      "reading": "ddu"
+    },
+    "come": {
+      "word": "ⴰⵡⴹ",
+      "sentence": "ⵜⴰⵡⴹⴷ ⵖⵔ ⵓⵅⵅⴰⵎ.",
+      "reading": "awḍ"
+    },
+    "sit": {
+      "word": "ⵇⵇⵉⵎ",
+      "sentence": "ⵏⵇⵇⵉⵎ ⴷⴰⵔ ⵟⵟⴰⴱⵍⴰ.",
+      "reading": "qqim"
+    },
+    "give": {
+      "word": "ⴼⴽ",
+      "sentence": "ⴼⴽⵉⵖ ⴰⴽ ⵜⴰⵙⴰⵔⵓⵜ.",
+      "reading": "fk"
+    },
+    "sun": {
+      "word": "ⵜⴰⴼⵓⴽⵜ",
+      "sentence": "ⵜⴰⴼⵓⴽⵜ ⵜⵉⵔⵖ.",
+      "reading": "tafukt"
+    },
+    "moon": {
+      "word": "ⴰⵢⵢⵓⵔ",
+      "sentence": "ⵥⵕⵉⵖ ⴰⵢⵢⵓⵔ.",
+      "reading": "ayyur"
+    },
+    "tree": {
+      "word": "ⴰⵙⴽⵍⵓ",
+      "sentence": "ⴰⵙⴽⵍⵓ ⵉⵎⵇⵇⵓⵔ.",
+      "reading": "asklu"
+    },
+    "flower": {
+      "word": "ⴰⵊⴷⴷⵉⴳ",
+      "sentence": "ⴰⵊⴷⴷⵉⴳ ⴰⵣⴳⴳⵯⴰⵖ.",
+      "reading": "ajddig"
+    },
+    "rain": {
+      "word": "ⴰⵏⵥⴰⵔ",
+      "sentence": "ⴰⵏⵥⴰⵔ ⵉⵚⵎⵎⵉⴹ.",
+      "reading": "anẓar"
+    },
+    "mountain": {
+      "word": "ⴰⴷⵔⴰⵔ",
+      "sentence": "ⴰⴷⵔⴰⵔ ⵉⵎⵇⵇⵓⵔ.",
+      "reading": "adrar"
+    },
+    "river": {
+      "word": "ⴰⵙⵉⴼ",
+      "sentence": "ⴰⵙⵉⴼ ⵉⵖⵣⵣⵉⴼ.",
+      "reading": "asif"
+    },
+    "stone": {
+      "word": "ⴰⵥⵔⵓ",
+      "sentence": "ⴰⵥⵔⵓ ⵉⵎⵥⵥⵉ.",
+      "reading": "aẓru"
+    },
+    "dog": {
+      "word": "ⴰⵢⴷⵉ",
+      "sentence": "ⴰⵢⴷⵉ ⵉⵎⵥⵥⵉ.",
+      "reading": "aydi"
+    },
+    "cat": {
+      "word": "ⴰⵇⵟⵟⵓⵚ",
+      "sentence": "ⴰⵇⵟⵟⵓⵚ ⴰⵔ ⵉⵜⵜⵟⵟⴰⵚ.",
+      "reading": "aqṭṭuṣ"
+    },
+    "bird": {
+      "word": "ⴰⴳⴹⵉⴹ",
+      "sentence": "ⵥⵕⵉⵖ ⵙⵉⵏ ⵉⴳⴹⴰⴹ.",
+      "reading": "agḍiḍ"
+    },
+    "hand": {
+      "word": "ⴰⴼⵓⵙ",
+      "sentence": "ⵡⴰ ⴷ ⴰⴼⵓⵙ ⵉⵏⵓ.",
+      "reading": "afus"
+    },
+    "eye": {
+      "word": "ⵜⵉⵟⵟ",
+      "sentence": "ⵜⴰ ⴷ ⵜⵉⵟⵟ ⵉⵏⵓ.",
+      "reading": "tiṭṭ"
+    },
+    "ear": {
+      "word": "ⴰⵎⵥⵥⵓⵖ",
+      "sentence": "ⵡⴰ ⴷ ⴰⵎⵥⵥⵓⵖ ⵉⵏⵓ.",
+      "reading": "amẓẓuɣ"
+    },
+    "head": {
+      "word": "ⵉⵅⴼ",
+      "sentence": "ⵡⴰ ⴷ ⵉⵅⴼ ⵉⵏⵓ.",
+      "reading": "ixf"
+    },
+    "mouth": {
+      "word": "ⵉⵎⵉ",
+      "sentence": "ⵡⴰ ⴷ ⵉⵎⵉ ⵉⵏⵓ.",
+      "reading": "imi"
+    },
+    "foot": {
+      "word": "ⴰⴹⴰⵕ",
+      "sentence": "ⴰⴹⴰⵕ ⵉⵏⵓ ⵉⵚⵎⵎⵉⴹ.",
+      "reading": "aḍaṛ"
+    },
+    "road": {
+      "word": "ⴰⴱⵔⵉⴷ",
+      "sentence": "ⴰⴱⵔⵉⴷ ⵉⵖⵣⵣⵉⴼ.",
+      "reading": "abrid"
+    },
+    "city": {
+      "word": "ⵜⵉⵖⵔⵎⵜ",
+      "sentence": "ⵜⵉⵖⵔⵎⵜ ⵜⵎⵇⵇⵓⵔ.",
+      "reading": "tiɣrmt"
+    },
+    "school": {
+      "word": "ⵜⵉⵏⵎⵍ",
+      "sentence": "ⴰⵔⴱⴰ ⵉⴷⴷⴰ ⵖⵔ ⵜⵉⵏⵎⵍ.",
+      "reading": "tinml"
+    },
+    "sea": {
+      "word": "ⵉⵍⵍ",
+      "sentence": "ⵥⵕⵉⵖ ⵉⵍⵍ.",
+      "reading": "ilel"
+    },
+    "night": {
+      "word": "ⵉⴹ",
+      "sentence": "ⵉⴹ ⵉⵚⵎⵎⵉⴹ.",
+      "reading": "iḍ"
+    },
+    "one": {
+      "word": "ⵢⴰⵏ",
+      "sentence": "ⵖⵓⵔⵉ ⵢⴰⵜ ⵜⴰⴼⴼⴰⵃⵜ.",
+      "reading": "yan"
+    },
+    "two": {
+      "word": "ⵙⵉⵏ",
+      "sentence": "ⵥⵕⵉⵖ ⵙⵉⵏ ⵉⴳⴹⴰⴹ.",
+      "reading": "sin"
+    },
+    "big": {
+      "word": "ⵎⵇⵇⵓⵔ",
+      "sentence": "ⴰⵅⵅⴰⵎ ⵉⵎⵇⵇⵓⵔ.",
+      "reading": "mqqur"
+    },
+    "small": {
+      "word": "ⵎⵥⵥⵉ",
+      "sentence": "ⴰⵔⴱⴰ ⵉⵎⵥⵥⵉ.",
+      "reading": "mẓẓi"
+    },
+    "good": {
+      "word": "ⵉⴼⵓⵍⴽⵉ",
+      "sentence": "ⴰⵖⵔⵓⵎ ⵉⴼⵓⵍⴽⵉ.",
+      "reading": "ifulki"
+    },
+    "hot": {
+      "word": "ⵉⵔⵖ",
+      "sentence": "ⵜⵉⵎⵙⵙⵉ ⵜⵉⵔⵖ.",
+      "reading": "irɣ"
+    },
+    "cold": {
+      "word": "ⵉⵚⵎⵎⵉⴹ",
+      "sentence": "ⴰⵎⴰⵏ ⵚⵎⵎⵉⴹⵏ.",
+      "reading": "iṣmmiḍ"
+    },
+    "red": {
+      "word": "ⴰⵣⴳⴳⵯⴰⵖ",
+      "sentence": "ⵜⴰⴼⴼⴰⵃⵜ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ.",
+      "reading": "azggʷaɣ"
+    },
+    "new": {
+      "word": "ⴰⵎⴰⵢⵏⵓ",
+      "sentence": "ⴰⴷⵍⵉⵙ ⴰⵎⴰⵢⵏⵓ.",
+      "reading": "amaynu"
+    },
+    "this": {
+      "word": "ⵡⴰ",
+      "sentence": "ⵡⴰ ⴷ ⵓⵅⵅⴰⵎ ⵉⵏⵓ.",
+      "reading": "wa"
+    }
+  },
+  "lines": {
+    "d1a": "ⴰⵣⵓⵍ. ⵏⴽⴽⵉ ⴷⴰ.",
+    "d1b": "ⵎⴰⵏ ⵉⵙⵎ ⵏⵏⴽ?",
+    "d1c": "ⵉⵙⵎ ⵉⵏⵓ ⴷ Anna. ⵡⴰ ⴷ ⴰⵎⴷⴷⴰⴽⵯⵍ ⵉⵏⵓ.",
+    "d1d": "ⴽⵛⵎ. ⴰⵖⵔⵓⵎ ⵉⴼⵓⵍⴽⵉ.",
+    "d2a": "ⵥⵕⵉⵖ ⴰⴷⵔⴰⵔ.",
+    "d2b": "ⴰⴱⵔⵉⴷ ⵉⵖⵣⵣⵉⴼ.",
+    "d2c": "ⵜⴰⴼⵓⴽⵜ ⵜⵉⵔⵖ.",
+    "d2d": "ⵏⵇⵇⵉⵎ, ⵙⵙⵡⵖ ⴰⵎⴰⵏ.",
+    "d3a": "ⴰⵔⴱⴰ ⴰⵔ ⵉⵜⵜⵟⵟⴰⵚ.",
+    "d3b": "ⵥⵕⵉⵖ ⴰⵢⵢⵓⵔ.",
+    "d3c": "ⵙⵍⵍⵉⵖ ⴰⵏⵥⴰⵔ.",
+    "d3d": "ⴰⵅⵅⴰⵎ ⵉⵎⵥⵥⵉ, ⵉⴼⵓⵍⴽⵉ."
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "entries": {
+    "i": {
+      "word": "ja",
+      "sentence": "Ja jesm tu."
+    },
+    "you": {
+      "word": "ty",
+      "sentence": "Ty jesi moj prijatelj.",
+      "note": "vy is formal"
+    },
+    "woman": {
+      "word": "žena",
+      "sentence": "Žena jest tu.",
+      "gender": "f",
+      "plural": "ženy"
+    },
+    "man": {
+      "word": "mųž",
+      "sentence": "Mųž hodi.",
+      "gender": "m",
+      "plural": "mųži"
+    },
+    "child": {
+      "word": "děte",
+      "sentence": "Děte spi.",
+      "gender": "n",
+      "plural": "děti"
+    },
+    "name": {
+      "word": "ime",
+      "sentence": "Moje ime jest Anna.",
+      "gender": "n"
+    },
+    "friend": {
+      "word": "prijatelj",
+      "sentence": "To jest moj prijatelj.",
+      "gender": "m",
+      "feminine": "prijateljica",
+      "plural": "prijatelji"
+    },
+    "family": {
+      "word": "rodina",
+      "sentence": "Moja rodina jest doma.",
+      "gender": "f"
+    },
+    "house": {
+      "word": "dom",
+      "sentence": "Dom jest maly.",
+      "gender": "m",
+      "plural": "domy"
+    },
+    "door": {
+      "word": "dveri",
+      "sentence": "Dveri sut otvorjene.",
+      "gender": "f",
+      "note": "usually plural"
+    },
+    "key": {
+      "word": "ključ",
+      "sentence": "Ključ jest na stolě.",
+      "gender": "m"
+    },
+    "table": {
+      "word": "stol",
+      "sentence": "Kniga jest na stolě.",
+      "gender": "m",
+      "plural": "stoly"
+    },
+    "bed": {
+      "word": "postelja",
+      "sentence": "Děte jest v postelji.",
+      "gender": "f"
+    },
+    "book": {
+      "word": "kniga",
+      "sentence": "Kniga jest nova.",
+      "gender": "f",
+      "plural": "knigy"
+    },
+    "water": {
+      "word": "voda",
+      "sentence": "Voda jest hladna.",
+      "gender": "f"
+    },
+    "fire": {
+      "word": "ogȯnj",
+      "sentence": "Ogȯnj jest goręči.",
+      "gender": "m"
+    },
+    "bread": {
+      "word": "hlěb",
+      "sentence": "Hlěb jest dobry.",
+      "gender": "m"
+    },
+    "apple": {
+      "word": "jablȯko",
+      "sentence": "Jablȯko jest črveno.",
+      "gender": "n"
+    },
+    "egg": {
+      "word": "jajce",
+      "sentence": "Jajce jest na stolě.",
+      "gender": "n",
+      "plural": "jajca"
+    },
+    "milk": {
+      "word": "mlěko",
+      "sentence": "Děte pije mlěko.",
+      "gender": "n"
+    },
+    "fish": {
+      "word": "ryba",
+      "sentence": "Ryba jest v vodě.",
+      "gender": "f",
+      "plural": "ryby"
+    },
+    "rice": {
+      "word": "riž",
+      "sentence": "My jedemo riž."
+    },
+    "coffee": {
+      "word": "kava",
+      "sentence": "Kava jest goręča.",
+      "gender": "f"
+    },
+    "eat": {
+      "word": "jesti",
+      "sentence": "My jedemo hlěb."
+    },
+    "drink": {
+      "word": "piti",
+      "sentence": "Ja piju vodu."
+    },
+    "see": {
+      "word": "viděti",
+      "sentence": "Ja viđu sȯlnce."
+    },
+    "hear": {
+      "word": "slyšati",
+      "sentence": "Ja slyšu dȯžd."
+    },
+    "sleep": {
+      "word": "spati",
+      "sentence": "Děte spi."
+    },
+    "walk": {
+      "word": "hoditi",
+      "sentence": "Mųž hodi."
+    },
+    "come": {
+      "word": "prihoditi",
+      "sentence": "Ty prihodiš k domu."
+    },
+    "sit": {
+      "word": "sěděti",
+      "sentence": "My sědimo pri stolě."
+    },
+    "give": {
+      "word": "davati",
+      "sentence": "Ja daju tebě ključ."
+    },
+    "sun": {
+      "word": "sȯlnce",
+      "sentence": "Sȯlnce jest goręče.",
+      "gender": "n"
+    },
+    "moon": {
+      "word": "luna",
+      "sentence": "Ja viđu lunu.",
+      "gender": "f"
+    },
+    "tree": {
+      "word": "drěvo",
+      "sentence": "Drěvo jest veliko.",
+      "gender": "n",
+      "plural": "drěva"
+    },
+    "flower": {
+      "word": "cvět",
+      "sentence": "Cvět jest črveny.",
+      "gender": "m",
+      "plural": "cvěty"
+    },
+    "rain": {
+      "word": "dȯžd",
+      "sentence": "Dȯžd jest hladny.",
+      "gender": "m"
+    },
+    "mountain": {
+      "word": "gora",
+      "sentence": "Gora jest velika.",
+      "gender": "f",
+      "plural": "gory"
+    },
+    "river": {
+      "word": "rěka",
+      "sentence": "Rěka jest dȯlga.",
+      "gender": "f",
+      "plural": "rěky"
+    },
+    "stone": {
+      "word": "kamenj",
+      "sentence": "Kamenj jest maly.",
+      "gender": "m"
+    },
+    "dog": {
+      "word": "pes",
+      "sentence": "Pes jest maly.",
+      "gender": "m",
+      "plural": "psi"
+    },
+    "cat": {
+      "word": "kočka",
+      "sentence": "Kočka spi.",
+      "gender": "f"
+    },
+    "bird": {
+      "word": "ptica",
+      "sentence": "Ja viđu dvě pticě.",
+      "gender": "f",
+      "plural": "ptice"
+    },
+    "hand": {
+      "word": "rųka",
+      "sentence": "To jest moja rųka.",
+      "gender": "f",
+      "plural": "rųky"
+    },
+    "eye": {
+      "word": "oko",
+      "sentence": "To jest moje oko.",
+      "gender": "n",
+      "plural": "oči"
+    },
+    "ear": {
+      "word": "uho",
+      "sentence": "To jest moje uho.",
+      "gender": "n",
+      "plural": "uši"
+    },
+    "head": {
+      "word": "glava",
+      "sentence": "To jest moja glava.",
+      "gender": "f"
+    },
+    "mouth": {
+      "word": "usta",
+      "sentence": "To sut moja usta.",
+      "gender": "n",
+      "note": "plural form"
+    },
+    "foot": {
+      "word": "noga",
+      "sentence": "Moja noga jest hladna.",
+      "gender": "f",
+      "plural": "nogi"
+    },
+    "road": {
+      "word": "pųt",
+      "sentence": "Pųt jest dȯlg.",
+      "gender": "m"
+    },
+    "city": {
+      "word": "město",
+      "sentence": "Město jest veliko.",
+      "gender": "n",
+      "plural": "města"
+    },
+    "school": {
+      "word": "škola",
+      "sentence": "Děte ide v školu.",
+      "gender": "f"
+    },
+    "sea": {
+      "word": "morje",
+      "sentence": "Ja viđu morje.",
+      "gender": "n"
+    },
+    "night": {
+      "word": "noč",
+      "sentence": "Noč jest hladna.",
+      "gender": "f"
+    },
+    "one": {
+      "word": "jedin",
+      "sentence": "Ja imaju jedno jablȯko."
+    },
+    "two": {
+      "word": "dva",
+      "sentence": "Ja viđu dvě pticě."
+    },
+    "big": {
+      "word": "veliky",
+      "sentence": "Dom jest veliky."
+    },
+    "small": {
+      "word": "maly",
+      "sentence": "Děte jest malo."
+    },
+    "good": {
+      "word": "dobry",
+      "sentence": "Hlěb jest dobry."
+    },
+    "hot": {
+      "word": "goręči",
+      "sentence": "Ogȯnj jest goręči."
+    },
+    "cold": {
+      "word": "hladny",
+      "sentence": "Voda jest hladna."
+    },
+    "red": {
+      "word": "črveny",
+      "sentence": "Jablȯko jest črveno."
+    },
+    "new": {
+      "word": "novy",
+      "sentence": "Kniga jest nova."
+    },
+    "this": {
+      "word": "sej",
+      "sentence": "Se jest moj dom.",
+      "feminine": "seja",
+      "neuter": "se"
+    }
+  },
+  "lines": {
+    "d1a": "Zdravo. Ja jesm tu.",
+    "d1b": "Kako jest tvoje ime?",
+    "d1c": "Moje ime jest Anna. To jest moj prijatelj.",
+    "d1d": "Pridi vnųtri. Hlěb jest dobry.",
+    "d2a": "Ja viđu goru.",
+    "d2b": "Pųt jest dȯlg.",
+    "d2c": "Sȯlnce jest goręče.",
+    "d2d": "My sědimo, i ja piju vodu.",
+    "d3a": "Děte spi.",
+    "d3b": "Ja viđu lunu.",
+    "d3c": "Ja slyšu dȯžd.",
+    "d3d": "Dom jest maly i dobry."
+  }
+}
