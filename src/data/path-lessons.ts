@@ -2,6 +2,8 @@ import raw from "./path-lessons.json";
 
 export type PathLevel = "A1" | "A2" | "B1" | "B2";
 
+export type PathKind = "scene" | "read" | "practice";
+
 export type PathLesson = {
   id: string;
   level: PathLevel;
@@ -13,11 +15,18 @@ export type PathLesson = {
   lines: { who: string; en: string }[];
   image: string;
   grammar: string;
+  /** Sentences before the lines. A reading is only this text. */
+  lead: string[];
+  kind: PathKind;
 };
 
 export const PATH_LEVELS: PathLevel[] = ["A1", "A2", "B1", "B2"];
 
-export const PATH_LESSONS = raw as PathLesson[];
+export const PATH_LESSONS = (raw as PathLesson[]).map((lesson) => ({
+  ...lesson,
+  lead: lesson.lead ?? [],
+  kind: lesson.kind ?? "scene",
+}));
 
 const STUDY: Record<PathLevel, Record<string, string>> = {
   A1: {

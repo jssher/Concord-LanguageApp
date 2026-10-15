@@ -31,7 +31,12 @@
       }
     ],
     "image": "/cards/friend.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Anna is outside a house. The door is still shut.",
+      "She is going to say hello, and she is going to say her name."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-02",
@@ -65,7 +70,12 @@
       }
     ],
     "image": "/cards/friend.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "A woman, a man, and a child are in the room.",
+      "Marko does not know which person Anna means."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-03",
@@ -99,7 +109,12 @@
       }
     ],
     "image": "/cards/friend.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "It is morning, and the house is quiet.",
+      "Anna and Marko greet each other for the day."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-04",
@@ -133,7 +148,12 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "Anna sits down. She wants water, and she wants bread.",
+      "She asks for them, and she thanks Marko."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-05",
@@ -167,7 +187,14 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Marko offers coffee. Anna can say yes, or she can say no.",
+      "Milk is a second question. She does not want it.",
+      "The words are short. Yes and no are enough.",
+      "She still says please, and she still says thank you."
+    ],
+    "kind": "read"
   },
   {
     "id": "a1-06",
@@ -201,7 +228,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Anna has a photo of her family.",
+      "She names her mother and her father, and she says they are at home."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-07",
@@ -235,7 +267,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "The door of the house is open.",
+      "Anna looks for the key, and she looks at the small room."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-08",
@@ -269,7 +306,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "Anna and Marko are at the table.",
+      "The book is there. The water is there too."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-09",
@@ -303,7 +345,14 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Morning in the kitchen. Bread, an egg, and milk are on the table.",
+      "This is breakfast. They say what they eat, and what they drink.",
+      "Marko takes bread and an egg. Anna drinks milk.",
+      "Then breakfast is ready, and they sit down."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-10",
@@ -337,7 +386,12 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Anna has not eaten. She is hungry, and she is thirsty.",
+      "Marko can give her bread and water."
+    ],
+    "kind": "practice"
   },
   {
     "id": "a1-11",
@@ -371,7 +425,12 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "There are apples on the table.",
+      "Anna counts them: one, two, three. One apple is for the child."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-12",
@@ -405,7 +464,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "Anna is in a shop. She wants one bread.",
+      "Before she takes it, she asks the price."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-13",
@@ -439,7 +503,12 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Anna looks outside. The sun is hot.",
+      "Yesterday was cold. Today it is not raining."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-14",
@@ -473,7 +542,14 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Anna and Marko are on the road. They name what they see.",
+      "There is a tree. There is a mountain. The road in front of them is long.",
+      "They do not need many words. See, tree, mountain, and road are enough.",
+      "Then they walk."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-15",
@@ -507,7 +583,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "Anna does not know the way to the school.",
+      "Marko gives two directions: straight, then left."
+    ],
+    "kind": "read"
   },
   {
     "id": "a1-16",
@@ -541,7 +622,12 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "Anna has to leave, but she does not know the time.",
+      "Marko looks, and he says it is three o'clock now."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-17",
@@ -575,7 +661,14 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "A day has parts. Morning is for work.",
+      "The afternoon is for study. The evening is at home.",
+      "Anna and Marko do not do the same thing at the same time.",
+      "Together, it is a long day."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-18",
@@ -609,7 +702,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Anna is getting dressed. She cannot find her shoes.",
+      "They are by the door. She also needs a coat."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-19",
@@ -643,7 +741,14 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "Two things are on the table. One is red. One is blue.",
+      "Anna wants the red one. Marko says the blue one is there too.",
+      "Colour is how she chooses.",
+      "She does not need the name of the thing. Red is enough."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-20",
@@ -677,7 +782,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "Two sizes are in front of Anna. One is big.",
+      "She wants the small one. Marko points to that one."
+    ],
+    "kind": "practice"
   },
   {
     "id": "a1-21",
@@ -711,7 +821,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Anna points to her own body. Her hand is cold.",
+      "Her head is fine. Her foot is wet from the rain."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-22",
@@ -745,7 +860,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Anna is ill. The pain is in her head, and she is tired.",
+      "She asks for help. Marko tells her to sit down."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-23",
@@ -779,7 +899,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "Anna is at school. She is a student.",
+      "The teacher is in the class. The school is near the house."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-24",
@@ -813,7 +938,14 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "The class is starting. The teacher asks the students to open a book.",
+      "The page is page two. Anna can read it.",
+      "Open, book, read, and page are the words she needs.",
+      "She does not talk yet. She follows the instruction."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-25",
@@ -847,7 +979,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Marko says something, and Anna does not understand.",
+      "She asks him to repeat it, slowly."
+    ],
+    "kind": "read"
   },
   {
     "id": "a1-26",
@@ -881,7 +1018,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Anna gets on the bus. She needs one ticket.",
+      "She is only going to the next stop."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-27",
@@ -915,7 +1057,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "Anna is at the station. She is looking for the train.",
+      "Marko points. The train is over there."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-28",
@@ -949,7 +1096,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "The phone rings. Anna says who she is.",
+      "Marko can speak now. If not, she can call later."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-29",
@@ -983,7 +1135,14 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Anna has a new home. The person next door is Marko.",
+      "She says her name. He says the street is quiet.",
+      "A neighbour is not family, and not a friend yet.",
+      "Hello, a name, and next door are enough for the first minute."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-30",
@@ -1017,7 +1176,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Marko opens the door and asks Anna to come in.",
+      "There is a chair. She can sit."
+    ],
+    "kind": "practice"
   },
   {
     "id": "a1-31",
@@ -1051,7 +1215,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "Anna is looking for the kitchen.",
+      "She needs a cup. The cups are by the water."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-32",
@@ -1085,7 +1254,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "The market has apples. Anna asks if they are fresh.",
+      "She wants one kilo, not more."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-33",
@@ -1119,7 +1293,14 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "At the table, Marko asks what Anna likes.",
+      "She likes fish. She does not like rice.",
+      "Like and not like are both useful.",
+      "She does not have to eat what she does not want."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-34",
@@ -1153,7 +1334,12 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Anna looks at the menu. There are two things: soup and salad.",
+      "She orders the salad."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-35",
@@ -1187,7 +1373,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "The meal is finished. Anna wants to pay.",
+      "She pays by card, and she takes the receipt."
+    ],
+    "kind": "read"
   },
   {
     "id": "a1-36",
@@ -1221,7 +1412,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "Anna needs the bathroom. She asks where it is.",
+      "It is down the hall, and the door on the left is open."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-37",
@@ -1255,7 +1451,14 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Anna is looking at the week.",
+      "Today is Monday. Tomorrow is Tuesday. A new week is starting.",
+      "She does not need every day yet. Today and tomorrow are the ones she uses.",
+      "Monday is enough to begin."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-38",
@@ -1289,7 +1492,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Marko has a birthday in May.",
+      "Anna asks for the date. It is the tenth."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-39",
@@ -1323,7 +1531,12 @@
       }
     ],
     "image": "/talk/night.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "It is night. The child is sleeping.",
+      "The moon is up, and the house is quiet. They speak softly."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-40",
@@ -1357,7 +1570,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "There is an animal by the chair. It is not Anna's dog.",
+      "The neighbour's dog is outside. A small cat sleeps on the chair."
+    ],
+    "kind": "practice"
   },
   {
     "id": "a1-41",
@@ -1391,7 +1609,12 @@
       }
     ],
     "image": "/cards/friend.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Marko asks what Anna does.",
+      "She studies. She is a student. He has a job in town."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-42",
@@ -1425,7 +1648,12 @@
       }
     ],
     "image": "/cards/friend.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Marko asks where Anna is from.",
+      "She names a small city. Now she lives near the school."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-43",
@@ -1459,7 +1687,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "Anna needs an address so she can find the house.",
+      "It is Green Street, number five. She asks Marko to write it."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-44",
@@ -1493,7 +1726,14 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "Anna is on a street she does not know. She is lost.",
+      "She asks for help, and she asks for the station. It is near. She should go straight.",
+      "Lost is not a problem if someone can point.",
+      "Help, station, and near are the words."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-45",
@@ -1527,7 +1767,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Anna comes to the shop, and the door is closed.",
+      "It does not open today. It opens tomorrow morning, at nine."
+    ],
+    "kind": "read"
   },
   {
     "id": "a1-46",
@@ -1561,7 +1806,12 @@
       }
     ],
     "image": "/cards/friend.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "Anna wants a photo of Marko.",
+      "She asks first. He smiles, and he asks her to send it later."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-47",
@@ -1595,7 +1845,12 @@
       }
     ],
     "image": "/talk/night.jpg",
-    "grammar": "verbs"
+    "grammar": "verbs",
+    "lead": [
+      "The day is over. The child is tired.",
+      "It is time for bed. Anna asks for one short story."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-48",
@@ -1629,7 +1884,12 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "food"
+    "grammar": "food",
+    "lead": [
+      "Marko asks if Anna wants a hot drink or a cold one.",
+      "She wants hot tea. There is juice too, but tea is enough."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-49",
@@ -1663,7 +1923,14 @@
       }
     ],
     "image": "/cards/friend.jpg",
-    "grammar": "sentence"
+    "grammar": "sentence",
+    "lead": [
+      "Anna has to leave. She does not go without a goodbye.",
+      "They will see each other soon. Tomorrow is the plan.",
+      "See you and goodbye close the day.",
+      "Soon is better than nothing, and tomorrow is a real time."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a1-50",
@@ -1697,7 +1964,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "nouns"
+    "grammar": "nouns",
+    "lead": [
+      "The person Anna wants is not here.",
+      "She leaves a short note: please call Anna, and she leaves her name."
+    ],
+    "kind": "practice"
   },
   {
     "id": "a2-01",
@@ -1731,7 +2003,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna is at the ticket window. She wants a return ticket to the city, and she is leaving today.",
+      "She still needs the platform and the time."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-02",
@@ -1765,7 +2042,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "The train is not here. Anna asks if it is late.",
+      "There is a short delay. They wait about twenty minutes, and they listen for the announcement."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-03",
@@ -1799,7 +2081,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna wants the market and does not know the streets.",
+      "The way has two steps: straight, then right at the corner. It is not far, and there is a map."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-04",
@@ -1833,7 +2120,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Anna is at the hotel desk with a reservation in her name.",
+      "She is staying two nights, and she asks if breakfast is included. Then she gets the key to room twelve."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-05",
@@ -1867,7 +2159,14 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "In the room, the shower does not work.",
+      "Anna says so. She can ask for a different room, and the desk will check.",
+      "A thing that is broken needs a plain sentence, not a long story.",
+      "Shower, work, broken, and send are enough."
+    ],
+    "kind": "read"
   },
   {
     "id": "a2-06",
@@ -1901,7 +2200,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "At the market, one piece of fruit is not ripe.",
+      "Anna asks for another, and she asks if a cheaper bag exists."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-07",
@@ -1935,7 +2239,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "The clothes are the wrong size. Anna needs a smaller one.",
+      "She asks if she may try it. The changing room is there."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-08",
@@ -1969,7 +2278,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Anna is ready to pay. She asks if a card is all right.",
+      "The total is twenty. She asks for the receipt."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-09",
@@ -2003,7 +2317,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna bought something yesterday, and she wants to return it.",
+      "She has the receipt. The shop can exchange it or give the money back."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-10",
@@ -2037,7 +2356,14 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Before Anna walks to a shop, she asks when it opens and when it closes.",
+      "Nine to six. Not on Sunday. Lunch is from one to two.",
+      "Open and close are a pair. Sunday and lunch are the exceptions.",
+      "She writes the hours down so she does not arrive at a shut door."
+    ],
+    "kind": "practice"
   },
   {
     "id": "a2-11",
@@ -2071,7 +2397,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna has a headache. She is at the pharmacy.",
+      "It started this morning. The person there tells her to take the medicine after food."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-12",
@@ -2105,7 +2436,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Anna needs a doctor, so she asks for an appointment.",
+      "Today is full. Tomorrow morning at ten is free."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-13",
@@ -2139,7 +2475,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "The doctor asks where it hurts.",
+      "It is the stomach, since last night, and Anna has a fever too."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-14",
@@ -2173,7 +2514,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Anna cannot go to the office. She is sick and needs to stay home.",
+      "She calls, she says so, and she is told to rest and call tomorrow."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-15",
@@ -2207,7 +2553,14 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "In class there is a word Anna does not know.",
+      "She asks what it means, and she asks for the spelling and an example.",
+      "A word is not only a sound. Meaning, spelling, and one example make it a word she can use.",
+      "Ticket is the example in this lesson. The habit is the same for the next word."
+    ],
+    "kind": "read"
   },
   {
     "id": "a2-16",
@@ -2241,7 +2594,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Homework is due on Friday. Anna forgot which page.",
+      "It is page ten. She will finish the questions tonight."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-17",
@@ -2275,7 +2633,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna wants a book from the library.",
+      "She has a card. She asks when to bring the book back. Two weeks."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-18",
@@ -2309,7 +2672,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "The group has a project about the city.",
+      "One person writes the introduction. Anna finds the pictures. They meet after class."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-19",
@@ -2343,7 +2711,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna calls, and the person is out.",
+      "She leaves a message: please call back. Her number is on the note."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-20",
@@ -2377,7 +2750,14 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Anna does not have the address in her hand.",
+      "She will send it later, in a text. That is fine.",
+      "A text is enough when the person does not need the address this minute.",
+      "Send, later, and address are the whole plan."
+    ],
+    "kind": "practice"
   },
   {
     "id": "a2-21",
@@ -2411,7 +2791,12 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna books a table for two at seven, inside.",
+      "She has a nut allergy, so the kitchen has to know."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-22",
@@ -2445,7 +2830,12 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "The meal is finished. Anna asks for the bill.",
+      "They pay together. Service is already included, so she checks before she adds a tip."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-23",
@@ -2479,7 +2869,12 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "The plate that arrives is not the plate Anna ordered.",
+      "She says so politely. She asked for soup, not salad. They will change it."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-24",
@@ -2513,7 +2908,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Anna is cooking at home and reading a recipe.",
+      "It needs onion, oil, and salt. There is no onion, so someone has to buy one."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-25",
@@ -2547,7 +2947,14 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "In the evening the neighbour's music is loud.",
+      "Anna asks, politely, for quiet. She says sorry for bothering them. They will turn it down.",
+      "A complaint to a neighbour works better if it names the time.",
+      "Evening, noise, and quiet are the words. Sorry stays in the sentence."
+    ],
+    "kind": "read"
   },
   {
     "id": "a2-26",
@@ -2581,7 +2988,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Anna needs a hammer for a small job.",
+      "She asks to borrow one, and she says she will return it tomorrow."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-27",
@@ -2615,7 +3027,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "The washing machine is broken. It leaks.",
+      "Anna says what happened, and someone will call a repair person."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-28",
@@ -2649,7 +3066,12 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Saturday is free in the afternoon.",
+      "Anna suggests the cinema, and they agree to meet at three."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-29",
@@ -2683,7 +3105,14 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Yesterday is already gone, so the verbs change.",
+      "Marko went to the market. He bought bread and fruit.",
+      "Went and bought are not the same as go and buy.",
+      "Anna asks two questions. What did you do, and what did you buy."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-30",
@@ -2717,7 +3146,12 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Free time is not the same as work.",
+      "Marko plays the guitar, two evenings a week. That is his hobby."
+    ],
+    "kind": "practice"
   },
   {
     "id": "a2-31",
@@ -2751,7 +3185,12 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "The forecast says rain tomorrow, and it will be cold.",
+      "An umbrella and a coat are the plan, not a change of the whole day."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-32",
@@ -2785,7 +3224,12 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Anna has a parcel to send.",
+      "They weigh it. The stamp is four, and it arrives on Friday."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-33",
@@ -2819,7 +3263,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna has lost her bag. She describes it: black, with a book inside.",
+      "Someone has found a black bag. She can come and see."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-34",
@@ -2853,7 +3302,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Anna takes a taxi to Green Street, number five.",
+      "She asks the driver to stop. The fare is twelve."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-35",
@@ -2887,7 +3341,14 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna wants a bike for one day, not to keep.",
+      "There is a deposit of twenty. She has to bring it back before six.",
+      "Rent, day, and deposit are the three facts.",
+      "A bike for a day is not the same as a bike she owns."
+    ],
+    "kind": "read"
   },
   {
     "id": "a2-36",
@@ -2921,7 +3382,12 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "At the bank, Anna wants to open an account.",
+      "She has her passport and proof of address. It takes a few minutes."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-37",
@@ -2955,7 +3421,12 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "The cash machine took Anna's card and did not give the money.",
+      "She should call the number on the screen and not leave the card."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-38",
@@ -2989,7 +3460,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "There is a job advert. The hours are mornings.",
+      "Anna has a little experience. She can apply by Friday."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-39",
@@ -3023,7 +3499,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "It is Anna's first day. Someone shows her the desk.",
+      "She still needs a password. A colleague will show her."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-40",
@@ -3057,7 +3538,14 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "A meeting is at ten, and Anna is busy then.",
+      "She asks to move it. The afternoon is better. Three o'clock.",
+      "Busy is a reason, not a refusal of the meeting.",
+      "Move, afternoon, and the new time keep the plan alive."
+    ],
+    "kind": "practice"
   },
   {
     "id": "a2-41",
@@ -3091,7 +3579,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna sent an email and attached a file.",
+      "The other person has not received it yet."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-42",
@@ -3125,7 +3618,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Anna asks if she may leave class early.",
+      "The reason is a doctor's appointment. She should tell the class next time."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-43",
@@ -3159,7 +3657,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Anna missed class yesterday.",
+      "She asks a classmate for the notes, and she may copy them. They will be shared tonight."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-44",
@@ -3193,7 +3696,12 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "A sports club has a class for beginners on Wednesday.",
+      "It costs ten a week. The first class is free."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-45",
@@ -3227,7 +3735,14 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "One film starts at eight. That is late.",
+      "There is another at six. They take that one, and someone buys the tickets.",
+      "Start, late, and ticket decide the evening.",
+      "Six is the time that works."
+    ],
+    "kind": "read"
   },
   {
     "id": "a2-46",
@@ -3261,7 +3776,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Saturday is Anna's birthday. The party is small.",
+      "She asks Marko to come, and he will bring a cake."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-47",
@@ -3295,7 +3815,12 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Rain changes the plan. They do not have to cancel.",
+      "They can meet inside, at the café, at the same time."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-48",
@@ -3329,7 +3854,12 @@
       }
     ],
     "image": "/cards/friend.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "A friend is looking for someone in a crowd.",
+      "She is tall, she wears glasses, her hair is dark, and she has a blue coat."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-49",
@@ -3363,7 +3893,14 @@
       }
     ],
     "image": "/talk/choice.jpg",
-    "grammar": "way"
+    "grammar": "way",
+    "lead": [
+      "Two flats. One is quiet. The other is closer to work.",
+      "Anna prefers quiet, so the first one is better for her.",
+      "Prefer needs a reason. Closer is a fact. Quiet is the fact she chooses.",
+      "She says which one, and why."
+    ],
+    "kind": "scene"
   },
   {
     "id": "a2-50",
@@ -3397,7 +3934,14 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "shop"
+    "grammar": "shop",
+    "lead": [
+      "Something Anna bought is damaged. She says so without being rude.",
+      "The shop can replace it. She does not need the manager.",
+      "Sorry stays in the sentence, and the problem stays clear.",
+      "Replace is the result she wants."
+    ],
+    "kind": "practice"
   },
   {
     "id": "b1-01",
@@ -3431,7 +3975,12 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "Last week is a story, not a plan. Anna asks what Marko did.",
+      "He visited his parents because his father was ill. He stayed three days. His father is better now."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-02",
@@ -3465,7 +4014,12 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "Tomorrow is not finished, so Anna says what she is going to do.",
+      "She is going to finish the report, and then she will call the client."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-03",
@@ -3499,7 +4053,12 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "A plan can move. Anna has to change theirs.",
+      "The meeting was moved, so one o'clock no longer works. Four still does."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-04",
@@ -3533,7 +4092,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "At the office, someone asks what Anna is working on.",
+      "It is the client project. She is responsible for the text. The deadline is Friday, and she will send an update tonight."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-05",
@@ -3567,7 +4131,14 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "A colleague looks busy. Anna still needs a minute of help.",
+      "She asks if he has a moment, and she leaves a way to continue later.",
+      "Busy does not mean no. A moment is a small, honest ask.",
+      "If it takes longer, later is already offered."
+    ],
+    "kind": "read"
   },
   {
     "id": "b1-06",
@@ -3601,7 +4172,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "Anna may miss a deadline. She does not hide it.",
+      "The figures arrived late. She proposes Monday, if the rest is ready."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-07",
@@ -3635,7 +4211,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "Thursday Anna will work from home. She will still be available.",
+      "Urgent things can come by phone. The other person will be in the office."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-08",
@@ -3669,7 +4250,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "In a short interview, the question is why Anna wants the job.",
+      "She wants to learn, and she likes a team. She worked in a shop for two years, so customers are not new."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-09",
@@ -3703,7 +4289,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "They decided to take the train. The reason is not the one you might guess.",
+      "It costs more, but it saves time, and the meeting is at six."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-10",
@@ -3737,7 +4328,14 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "In a meeting, a point goes past too quickly.",
+      "Anna asks what it means. They should start the report this week. She agrees, and she will take notes.",
+      "A point you did not catch is worth a question.",
+      "Agree, note, and send keep the meeting from disappearing."
+    ],
+    "kind": "practice"
   },
   {
     "id": "b1-11",
@@ -3771,7 +4369,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "Anna is about to give a presentation about the market.",
+      "It is ten minutes. First the problem, then the idea, and finally a question."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-12",
@@ -3805,7 +4408,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "Anna disagrees, and she says so without shutting the other person down.",
+      "She can see the point. Her example is the smaller shop, which is better for students."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-13",
@@ -3839,7 +4447,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "The project is due tomorrow, and Lea has not sent her part.",
+      "Doing her work for her is not fair. They will talk to her before they tell the teacher."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-14",
@@ -3873,7 +4486,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "Anna needs more time. She asks if an extension is possible.",
+      "She was ill last week. A draft on Monday is enough."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-15",
@@ -3907,7 +4525,14 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "Before an exam, Anna asks what it will cover.",
+      "Units three to six. Notes are not allowed. The examples from class are what she should revise.",
+      "Cover tells her the edges of the exam. Allowed tells her what she may bring.",
+      "Revise is the work between now and the day."
+    ],
+    "kind": "read"
   },
   {
     "id": "b1-16",
@@ -3941,7 +4566,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "At the clinic, symptoms need a time, not only a name.",
+      "A cough for three days, worse at night, and sleep that does not come."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-17",
@@ -3975,7 +4605,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "The medicine has instructions. Twice a day, after meals.",
+      "Not on an empty stomach. Call if there is a side effect."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-18",
@@ -4009,7 +4644,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "Anna tried to pay online. The payment failed.",
+      "The money may still be in the account. She can try again in an hour, or pay at the desk."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-19",
@@ -4043,7 +4683,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "Anna missed her connection. The next train is at four.",
+      "There is a seat, and she does not need a new ticket."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-20",
@@ -4077,7 +4722,14 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "At the airport, check-in is desk twelve. The passport has to be ready.",
+      "The gate is not open yet. Boarding starts at six.",
+      "Flight, gate, passport, and boarding are four different moments.",
+      "Anna asks which desk, and what to show."
+    ],
+    "kind": "practice"
   },
   {
     "id": "b1-21",
@@ -4111,7 +4763,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "The luggage did not arrive. Anna describes a blue suitcase with a red label.",
+      "She fills in a form, and they will call."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-22",
@@ -4145,7 +4802,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "A flat is not only a rent. Anna asks what is included.",
+      "Water is included. Electricity is not. The contract is one year."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-23",
@@ -4179,7 +4841,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "The people upstairs are noisy at night, most nights, after eleven.",
+      "Anna tells the agency. They will ask the neighbours to keep it down."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-24",
@@ -4213,7 +4880,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "A repair can happen on Tuesday. Morning does not work for Anna.",
+      "Afternoon does. She will be there to let them in."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-25",
@@ -4247,7 +4919,14 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "A charge on the statement is one Anna does not recognise.",
+      "She was not in that shop. The bank can block the card while they check.",
+      "Recognise is the useful verb. If she does not recognise it, she says so.",
+      "Statement, charge, and block are the three papers in the conversation."
+    ],
+    "kind": "read"
   },
   {
     "id": "b1-26",
@@ -4281,7 +4960,12 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "The budget did not hold. Too much went on the train.",
+      "There is still enough for the hotel if they save on meals."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-27",
@@ -4315,7 +4999,12 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "An invitation can leave a door open.",
+      "Anna invites someone to dinner on Friday, if they can. If not, another time is fine. Friday works."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-28",
@@ -4349,7 +5038,12 @@
       }
     ],
     "image": "/cards/friend.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "Something went wrong, and it was Anna's fault. She forgot the file.",
+      "She says sorry, and she says she will send it today. She should check it first."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-29",
@@ -4383,7 +5077,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "A friend looks tired. The reason is too much work.",
+      "The advice is simple: rest this weekend. Advice is not an order."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-30",
@@ -4417,7 +5116,14 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "A process at work wastes time: three forms where one would do.",
+      "Anna suggests the change and is asked to write it down.",
+      "Suggest is softer than demand. Instead names the other way.",
+      "Waste is the problem. One form is the proposal."
+    ],
+    "kind": "practice"
   },
   {
     "id": "b1-31",
@@ -4451,7 +5157,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "A customer is unhappy. Someone will look into the problem.",
+      "The promise to the customer is a time: a call by four."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-32",
@@ -4485,7 +5196,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "A school trip needs permission if you are under eighteen.",
+      "The cost includes the bus and lunch. Anna asks both questions before she signs."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-33",
@@ -4519,7 +5235,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "Anna offers to volunteer. Help is needed on Saturday morning.",
+      "She can come at nine. Comfortable shoes."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-34",
@@ -4553,7 +5274,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "At a neighbourhood meeting, Anna supports the new park.",
+      "Other people worry about noise. If it closes at nine, she thinks that is fine, and she will say so."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-35",
@@ -4587,7 +5313,14 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "Recycling has a bin for each material. Glass is green.",
+      "Plastic is yellow. Paper is blue. Anna asks before she guesses.",
+      "The question is short: which bin?",
+      "Glass, plastic, and the colour of the bin are the answer."
+    ],
+    "kind": "read"
   },
   {
     "id": "b1-36",
@@ -4621,7 +5354,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "Anna cannot keep a dentist appointment. She cancels, and she rebooks.",
+      "Next week is possible. Wednesday at two."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-37",
@@ -4655,7 +5393,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "At the gym, Anna says she is a beginner.",
+      "Someone shows her a machine. She should stop if it hurts."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-38",
@@ -4689,7 +5432,12 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "A guest is coming, and she cannot eat meat.",
+      "Fish is fine. Vegetables would also work. Anna asks before she cooks."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-39",
@@ -4723,7 +5471,12 @@
       }
     ],
     "image": "/talk/cafe.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "A review needs a reason, not only a star.",
+      "The food was good, but the service was slow. They would return if they have more time."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-40",
@@ -4757,7 +5510,14 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "The cheaper one is not automatically the better one.",
+      "The quality is not the same. The expensive one is worth it if you use it every day.",
+      "Compare is the verb. Cheaper is only one fact.",
+      "Worth is the question that follows."
+    ],
+    "kind": "practice"
   },
   {
     "id": "b1-41",
@@ -4791,7 +5551,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "An online order is not finished at the button.",
+      "Delivery is three to five days. A return is possible within fourteen days."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-42",
@@ -4825,7 +5590,12 @@
       }
     ],
     "image": "/cards/friend.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "Anna thought tomorrow. The other person meant today.",
+      "She says she misunderstood. Now it is clear."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-43",
@@ -4859,7 +5629,14 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "Someone asks Anna to take more work. She already has the report.",
+      "She says she cannot, and she offers next week, when she has time.",
+      "Cannot is complete if the reason is real. Perhaps keeps the door open.",
+      "Next week is a time, not a vague no."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-44",
@@ -4893,7 +5670,12 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "There is news about the station. Repairs start in May.",
+      "The hope is that the morning train is not affected."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-45",
@@ -4927,7 +5709,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "A recommendation names a place and a reason.",
+      "The café by the park is quiet and good for working. The one at the station is loud. Avoid that one."
+    ],
+    "kind": "read"
   },
   {
     "id": "b1-46",
@@ -4961,7 +5748,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "Before a trip, Anna asks what the insurance covers.",
+      "Lost luggage and medical care, yes. A missed flight only if the airline cancels."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-47",
@@ -4995,7 +5787,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "At a parents' evening, the report is specific.",
+      "She has made progress. She participates more. Her writing is careful. The open question is what she should improve."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-48",
@@ -5029,7 +5826,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "A team works better when the roles are said out loud.",
+      "One person is in charge of the budget. Another supports the client. The date is a decision they make together."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-49",
@@ -5063,7 +5865,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "plan"
+    "grammar": "plan",
+    "lead": [
+      "There was a mistake in the numbers. The client did not see it.",
+      "Anna noticed, checked again, and sent a correction. Next time, someone else should read it too."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b1-50",
@@ -5097,7 +5904,14 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "if"
+    "grammar": "if",
+    "lead": [
+      "Two courses. One is more practical. The other has more theory.",
+      "If the aim is a job soon, the practical one suits her.",
+      "Suit is personal. Practical and theory are facts about the courses.",
+      "The advice follows the aim, not a general rule."
+    ],
+    "kind": "practice"
   },
   {
     "id": "b2-01",
@@ -5131,7 +5945,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "The meeting has a purpose, not only a room.",
+      "They need an outcome: a date. The agenda is the order. They have thirty minutes, so they start with the risks."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-02",
@@ -5165,7 +5984,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Anna has something to add, and she does not want to cut anyone off.",
+      "She asks to come in before they move on. She will be brief. Then the other person finishes."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-03",
@@ -5199,7 +6023,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "Before the meeting ends, someone summarises.",
+      "The draft goes on Monday. The action has an owner. Comments come by Wednesday."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-04",
@@ -5233,7 +6062,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Disagreeing with a manager still needs a clean sentence.",
+      "The date is possible. The concern is quality. Anna asks them to hear an alternative."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-05",
@@ -5267,7 +6101,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "Feedback that helps is specific.",
+      "The strength is the clear structure. The thing to improve is the examples. One case in section two would help."
+    ],
+    "kind": "read"
   },
   {
     "id": "b2-06",
@@ -5301,7 +6140,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Criticism does not need a defence of every line.",
+      "Anna says the point is fair. She partly disagrees about the tone, and she will try a shorter ending."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-07",
@@ -5335,7 +6179,14 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "Monday is not realistic if the scope stays the same.",
+      "They can drop the appendix. If they drop it, Monday is possible. They agree.",
+      "Scope and time are a trade. Drop is the verb that makes the date real.",
+      "If names the condition."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-08",
@@ -5369,7 +6220,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "A salary conversation needs reasons, not a mood.",
+      "Anna has taken on more responsibility, and the market rate is higher. She is asked to bring a short note. The review is next month."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-09",
@@ -5403,7 +6259,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "The work is blocked because it depends on another team's data.",
+      "They have already chased them. Meanwhile the rest of the draft can move, and the next email should copy the manager."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-10",
@@ -5437,7 +6298,14 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "The client wants another round of changes. That is outside the scope.",
+      "They can do it, but the extra work should be charged. A boundary is not the same as a refusal.",
+      "Scope says what was agreed. Extra says what was not.",
+      "Charge is the condition for saying yes."
+    ],
+    "kind": "practice"
   },
   {
     "id": "b2-11",
@@ -5471,7 +6339,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "In a seminar, Anna builds on what someone else said. She does not replace it.",
+      "The claim is interesting, whereas the evidence is still thin. The useful question is which source to add."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-12",
@@ -5505,7 +6378,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "An idea in the room has a source.",
+      "According to the article, prices fell. The argument is clear. However, the sample is small, and that limit belongs in the answer."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-13",
@@ -5539,7 +6417,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "A theory is easier once it is in other words.",
+      "Demand falls when the price rises. In this case the ticket price rose, and fewer people travelled."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-14",
@@ -5573,7 +6456,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "A draft can be clear and still too long.",
+      "The introduction works. The third paragraph repeats the second. The suggestion is to end with the question, not the definition."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-15",
@@ -5607,7 +6495,14 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "An academic disagreement can stay off the person.",
+      "Anna's position is not that the plan is wrong. Rather, the evidence does not support it yet.",
+      "Not that, and rather, keep the aim shared.",
+      "They disagree about the evidence, not about the aim."
+    ],
+    "kind": "read"
   },
   {
     "id": "b2-16",
@@ -5641,7 +6536,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Office hours work better with a specific question.",
+      "Anna is stuck on question four. She tried the method from class. The last step fails. She brings the page."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-17",
@@ -5675,7 +6575,14 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "A research topic can be too wide to finish.",
+      "One city, within the last ten years, is a topic she can actually complete.",
+      "Too wide is the problem. Focus is the cut.",
+      "Within names the fence around the new topic."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-18",
@@ -5709,7 +6616,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "A question in a presentation does not always have a full answer yet.",
+      "Anna is not sure of the exact figure. Partly, demand would fall if the cost doubles. She will check and follow up."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-19",
@@ -5743,7 +6655,12 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "A study has an ethical edge, not only a result.",
+      "The participants gave consent, and the data is anonymous. They should still say how long they keep it."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-20",
@@ -5777,7 +6694,14 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "The result was not what Anna expected.",
+      "The groups were almost the same. The next step is to ask why, not to hide the result.",
+      "However marks the turn from the hope to the finding.",
+      "Further work follows a result. It does not replace it."
+    ],
+    "kind": "practice"
   },
   {
     "id": "b2-21",
@@ -5811,7 +6735,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "Before Anna signs, she asks what a clause means.",
+      "Either side can end the contract with one month's notice. She is liable for equipment only if she damages it."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-22",
@@ -5845,7 +6774,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Remote work still has hours when people expect you.",
+      "Anna can overlap with the team from ten to three. Outside that, she answers the next morning, if the work is not urgent."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-23",
@@ -5879,7 +6813,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "A performance review is more than a list of tasks.",
+      "Anna shortened the client process, and she learned to run the weekly meeting. Next, she would like to lead a small project."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-24",
@@ -5913,7 +6852,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Adding work does not make the old work disappear.",
+      "If this comes in, something else waits. The client wants both. Then they choose: speed or quality. That is the trade-off."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-25",
@@ -5947,7 +6891,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "A decision said aloud is not yet a decision everyone remembers the same way.",
+      "Anna asks to confirm it in writing, so people do not assume different things later."
+    ],
+    "kind": "read"
   },
   {
     "id": "b2-26",
@@ -5981,7 +6930,14 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "A headline can be stronger than the article under it.",
+      "The headline says the school will close. The article only says they are discussing it. Anna stays sceptical until there is a decision.",
+      "Claim and source are not the same sentence.",
+      "Sceptical is a position, not a mood."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-27",
@@ -6015,7 +6971,12 @@
       }
     ],
     "image": "/talk/road.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "At a public meeting, the floor is shared.",
+      "Anna is brief. Her concern is the night buses, not the park. Then she hands over."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-28",
@@ -6049,7 +7010,14 @@
       }
     ],
     "image": "/talk/choice.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Two homes, and both are real options.",
+      "Although the other flat is closer, Anna would choose this one, because the quiet is worth the longer walk.",
+      "Although keeps the other fact in the sentence. Because gives the reason.",
+      "On balance, someone else might choose differently. That is allowed."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-29",
@@ -6083,7 +7051,12 @@
       }
     ],
     "image": "/talk/house.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "A family decision is not one person's preference announced as a fact.",
+      "Anna would rather stay in the city. School matters to the other person. It depends. They look at both, and they do not decide tonight."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-30",
@@ -6117,7 +7090,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Care for a parent is not a decision you make over their head.",
+      "She prefers to stay at home. With support, she can manage. Rather than move her, they could visit every day. They ask her first."
+    ],
+    "kind": "practice"
   },
   {
     "id": "b2-31",
@@ -6151,7 +7129,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "A second opinion is not an insult to the first doctor.",
+      "Anna wants to be sure of the options. A referral is the practical step. She can still change her mind."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-32",
@@ -6185,7 +7168,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "The small print says what is not covered.",
+      "Dental care is excluded, unless it is an emergency. The full list is on the second page. Anna checks before she travels."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-33",
@@ -6219,7 +7207,12 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "At the embassy, urgent needs a reason.",
+      "Anna travels on the twelfth, so she asks for an earlier appointment. A letter from her employer shows why the date matters. She brings the documents."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-34",
@@ -6253,7 +7246,13 @@
       }
     ],
     "image": "/talk/station.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Habits around time are not a moral ranking.",
+      "At home, people tend to arrive a little late. Whereas here, meetings start on time. Anna is used to that now.",
+      "Neither habit is wrong. It helps to know which room you are in."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-35",
@@ -6287,7 +7286,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "A complaint letter has an order.",
+      "What you bought, what went wrong, and what you expect. Anna expects a replacement or a refund. The receipt is attached, and she gives a date to resolve it."
+    ],
+    "kind": "read"
   },
   {
     "id": "b2-36",
@@ -6321,7 +7325,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "A better price needs a reason, not only a wish.",
+      "If Anna takes three, there is a discount. Ten percent is offered. She asks for fifteen. They meet at twelve if she pays today."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-37",
@@ -6355,7 +7364,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "A change at work can be right and still cost something.",
+      "Anna proposes they stop printing the weekly pack. Although it is convenient, it wastes paper. A trial of one month is easier to accept than a permanent rule."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-38",
@@ -6389,7 +7403,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "A mentor is asked for advice, not to do the job.",
+      "Anna wants advice rather than a solution. She has already decided to keep the meeting short. She is less sure about the tone of the email. The decision stays hers."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-39",
@@ -6423,7 +7442,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "After a conflict, the useful sentence is about the next time, not the replay.",
+      "They both assumed the other person would send the file. That was true. They do not want to go over it again. They agree how they work from here."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-40",
@@ -6457,7 +7481,12 @@
       }
     ],
     "image": "/talk/help.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "A careful recommendation does not oversell.",
+      "Yes, for research. That is her strength. However, she is still learning to lead a meeting, so a small team would suit her better."
+    ],
+    "kind": "practice"
   },
   {
     "id": "b2-41",
@@ -6491,7 +7520,12 @@
       }
     ],
     "image": "/talk/shop.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "Before buying, Anna reads the condition, not only the price.",
+      "The warranty is void unless she registers the product within thirty days. If she does not, the promise is weaker."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-42",
@@ -6525,7 +7559,12 @@
       }
     ],
     "image": "/talk/choice.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Not deciding can be a decision.",
+      "Anna is not ready yet. The offer ends on Friday. She will decide when the second quote is in, not before. She does not rush the rest."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-43",
@@ -6559,7 +7598,12 @@
       }
     ],
     "image": "/talk/choice.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "Two good options, and both have a cost.",
+      "Either they hire now, or they delay the launch. Hiring spends money. Delaying loses the date. They accept one cost openly."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-44",
@@ -6593,7 +7637,12 @@
       }
     ],
     "image": "/talk/choice.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Advice with would is marked as yours, not as a law.",
+      "In your place, I would take the quieter flat, even with the longer commute. However, that is my preference, not a rule for you."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-45",
@@ -6627,7 +7676,13 @@
       }
     ],
     "image": "/talk/plan.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "A view can change, and the change can be said.",
+      "Anna used to think the fastest option was always better. Whereas now she thinks the calmer option lasts longer. The next question is what changed her mind.",
+      "Used to and now are the two times. Whereas holds them in one breath."
+    ],
+    "kind": "read"
   },
   {
     "id": "b2-46",
@@ -6661,7 +7716,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "A reference should say what is true, including the limit.",
+      "Yes, she will write one, and she will keep it accurate. She will mention the client work, that strength. She will not hide that Anna has not led a team yet."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-47",
@@ -6695,7 +7755,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "An exit interview can explain a leaving without attacking people.",
+      "Mainly it is the opportunity, not the team. Clearer priorities would help. She is grateful for the rest."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-48",
@@ -6729,7 +7794,12 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "Chairing fairly means a quiet person is asked, not skipped.",
+      "They have not heard from her yet. She agrees with the date, with one condition: the budget has to be checked first. Her view comes before they close."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-49",
@@ -6763,7 +7833,14 @@
       }
     ],
     "image": "/cards/school.jpg",
-    "grammar": "reason"
+    "grammar": "reason",
+    "lead": [
+      "Weak evidence cannot carry a strong conclusion.",
+      "It is insufficient to conclude that. It suggests a pattern. It does not prove a cause. They ask for further data.",
+      "Suggest is allowed. Conclude is not, not yet.",
+      "Further is the honest next step."
+    ],
+    "kind": "scene"
   },
   {
     "id": "b2-50",
@@ -6797,6 +7874,13 @@
       }
     ],
     "image": "/talk/clarify.jpg",
-    "grammar": "choice"
+    "grammar": "choice",
+    "lead": [
+      "The content of a sentence can be right while the tone is harsh.",
+      "Soften it, and keep the same point. 'Could we look at this again?' does the work of 'This is wrong.' without the slap.",
+      "Tone is not decoration. It is part of what the other person hears.",
+      "Harsh and soften are the pair in this last lesson."
+    ],
+    "kind": "practice"
   }
 ]

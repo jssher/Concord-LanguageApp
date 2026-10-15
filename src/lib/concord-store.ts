@@ -19,6 +19,8 @@ type State = {
   source: string;
   targets: string[];
   focus: string;
+  /** Single language beside English on the path. Not the study list. */
+  pathLang: string;
   topic: string;
   level: string;
   group: string;
@@ -29,6 +31,7 @@ type State = {
   setSource: (id: string) => void;
   toggleTarget: (id: string) => void;
   setFocus: (id: string) => void;
+  setPathLang: (id: string) => void;
   setTopic: (topic: string) => void;
   setLevel: (level: string) => void;
   setGroup: (group: string) => void;
@@ -164,6 +167,7 @@ export const useConcord = create<State>()(
       source: "en",
       targets: ["de"],
       focus: "de",
+      pathLang: "de",
       topic: "all",
       level: "A1",
       group: "01 People",
@@ -197,6 +201,10 @@ export const useConcord = create<State>()(
       setFocus: (id) => {
         prefsTouched = true;
         set({ focus: id });
+      },
+      setPathLang: (id) => {
+        prefsTouched = true;
+        set({ pathLang: id });
       },
       setTopic: (topic) => set({ topic }),
       setLevel: (level) => set({ level }),
@@ -264,6 +272,7 @@ export const useConcord = create<State>()(
           source: current.source,
           targets: current.targets,
           focus: current.focus,
+          pathLang: current.pathLang,
         };
       },
     },

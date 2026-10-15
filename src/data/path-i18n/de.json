@@ -1,0 +1,2486 @@
+{
+  "a1-01": {
+    "lead": [
+      "Anna steht vor einem Haus. Die Tür ist noch zu.",
+      "Sie will hallo sagen und ihren Namen sagen."
+    ],
+    "lines": [
+      "Hallo. Ich bin Anna.",
+      "Hallo. Wie heißt du?",
+      "Ich heiße Anna. Das ist mein Freund.",
+      "Komm bitte herein."
+    ]
+  },
+  "a1-02": {
+    "lead": [
+      "Eine Frau, ein Mann und ein Kind sind im Zimmer.",
+      "Marko weiß nicht, welche Person Anna meint."
+    ],
+    "lines": [
+      "Wer ist das?",
+      "Das ist mein Freund.",
+      "Und das Kind?",
+      "Das Kind ist hier bei mir."
+    ]
+  },
+  "a1-03": {
+    "lead": [
+      "Es ist Morgen, und das Haus ist ruhig.",
+      "Anna und Marko begrüßen sich für den Tag."
+    ],
+    "lines": [
+      "Guten Morgen.",
+      "Guten Morgen. Wie geht es dir?",
+      "Mir geht es gut, danke.",
+      "Gut. Heute ist es ruhig."
+    ]
+  },
+  "a1-04": {
+    "lead": [
+      "Anna setzt sich. Sie möchte Wasser, und sie möchte Brot.",
+      "Sie bittet darum und dankt Marko."
+    ],
+    "lines": [
+      "Wasser, bitte.",
+      "Bitte schön.",
+      "Danke.",
+      "Möchtest du auch Brot?"
+    ]
+  },
+  "a1-05": {
+    "lead": [
+      "Marko bietet Kaffee an. Anna kann ja sagen oder nein.",
+      "Milch ist eine zweite Frage. Sie möchte keine.",
+      "Die Wörter sind kurz. Ja und nein reichen.",
+      "Sie sagt trotzdem bitte, und sie sagt trotzdem danke."
+    ],
+    "lines": [
+      "Kaffee?",
+      "Ja, bitte.",
+      "Mit Milch?",
+      "Nein, danke."
+    ]
+  },
+  "a1-06": {
+    "lead": [
+      "Anna hat ein Foto von ihrer Familie.",
+      "Sie nennt ihre Mutter und ihren Vater und sagt, dass sie zu Hause sind."
+    ],
+    "lines": [
+      "Das ist meine Familie.",
+      "Ist das deine Mutter?",
+      "Ja. Und das ist mein Vater.",
+      "Sie sind heute zu Hause."
+    ]
+  },
+  "a1-07": {
+    "lead": [
+      "Die Tür vom Haus ist offen.",
+      "Anna sucht den Schlüssel und schaut in das kleine Zimmer."
+    ],
+    "lines": [
+      "Die Tür ist offen.",
+      "Wo ist der Schlüssel?",
+      "Der Schlüssel liegt auf dem Tisch.",
+      "Dieses Zimmer ist klein."
+    ]
+  },
+  "a1-08": {
+    "lead": [
+      "Anna und Marko sind am Tisch.",
+      "Das Buch ist da. Das Wasser ist auch da."
+    ],
+    "lines": [
+      "Wo ist das Buch?",
+      "Es liegt auf dem Tisch.",
+      "Und das Wasser?",
+      "Das Wasser steht auch auf dem Tisch."
+    ]
+  },
+  "a1-09": {
+    "lead": [
+      "Morgen in der Küche. Brot, ein Ei und Milch stehen auf dem Tisch.",
+      "Das ist das Frühstück. Sie sagen, was sie essen und was sie trinken.",
+      "Marko nimmt Brot und ein Ei. Anna trinkt Milch.",
+      "Dann ist das Frühstück fertig, und sie setzen sich."
+    ],
+    "lines": [
+      "Was isst du?",
+      "Ich esse Brot und ein Ei.",
+      "Ich trinke Milch.",
+      "Das Frühstück ist fertig."
+    ]
+  },
+  "a1-10": {
+    "lead": [
+      "Anna hat noch nicht gegessen. Sie hat Hunger, und sie hat Durst.",
+      "Marko kann ihr Brot und Wasser geben."
+    ],
+    "lines": [
+      "Ich habe Hunger.",
+      "Möchtest du Brot?",
+      "Ja. Ich habe auch Durst.",
+      "Hier ist Wasser."
+    ]
+  },
+  "a1-11": {
+    "lead": [
+      "Auf dem Tisch liegen Äpfel.",
+      "Anna zählt sie: eins, zwei, drei. Ein Apfel ist für das Kind."
+    ],
+    "lines": [
+      "Wie viele Äpfel?",
+      "Eins, zwei, drei.",
+      "Drei Äpfel.",
+      "Ja. Einer ist für das Kind."
+    ]
+  },
+  "a1-12": {
+    "lead": [
+      "Anna ist in einem Laden. Sie möchte ein Brot.",
+      "Bevor sie es nimmt, fragt sie nach dem Preis."
+    ],
+    "lines": [
+      "Wie viel kostet das Brot?",
+      "Zwei.",
+      "Ein Brot, bitte.",
+      "Bitte schön."
+    ]
+  },
+  "a1-13": {
+    "lead": [
+      "Anna schaut nach draußen. Die Sonne ist heiß.",
+      "Gestern war es kalt. Heute regnet es nicht."
+    ],
+    "lines": [
+      "Die Sonne ist heiß.",
+      "Ja. Gestern war es kalt.",
+      "Regnet es?",
+      "Nein. Es ist ein schöner Tag."
+    ]
+  },
+  "a1-14": {
+    "lead": [
+      "Anna und Marko sind auf dem Weg. Sie nennen, was sie sehen.",
+      "Da ist ein Baum. Da ist ein Berg. Der Weg vor ihnen ist lang.",
+      "Sie brauchen nicht viele Wörter. Sehen, Baum, Berg und Weg reichen.",
+      "Dann gehen sie."
+    ],
+    "lines": [
+      "Ich sehe einen Baum.",
+      "Ich sehe den Berg.",
+      "Der Weg ist lang.",
+      "Wir gehen auf diesem Weg."
+    ]
+  },
+  "a1-15": {
+    "lead": [
+      "Anna kennt den Weg zur Schule nicht.",
+      "Marko gibt zwei Richtungen: geradeaus, dann links."
+    ],
+    "lines": [
+      "Wo ist die Schule?",
+      "Geh geradeaus, dann links.",
+      "Links?",
+      "Ja. Die Schule ist dort."
+    ]
+  },
+  "a1-16": {
+    "lead": [
+      "Anna muss gehen, aber sie kennt die Zeit nicht.",
+      "Marko schaut und sagt, dass es jetzt drei Uhr ist."
+    ],
+    "lines": [
+      "Wie spät ist es?",
+      "Es ist drei Uhr.",
+      "Jetzt?",
+      "Ja. Es ist jetzt drei."
+    ]
+  },
+  "a1-17": {
+    "lead": [
+      "Ein Tag hat Teile. Der Morgen ist für die Arbeit.",
+      "Der Nachmittag ist zum Lernen. Der Abend ist zu Hause.",
+      "Anna und Marko machen nicht zur selben Zeit dasselbe.",
+      "Zusammen ist es ein langer Tag."
+    ],
+    "lines": [
+      "Ich arbeite am Morgen.",
+      "Ich lerne am Nachmittag.",
+      "Am Abend bin ich zu Hause.",
+      "Es ist ein langer Tag."
+    ]
+  },
+  "a1-18": {
+    "lead": [
+      "Anna zieht sich an. Sie findet ihre Schuhe nicht.",
+      "Sie stehen an der Tür. Sie braucht auch einen Mantel."
+    ],
+    "lines": [
+      "Wo sind meine Schuhe?",
+      "Deine Schuhe stehen an der Tür.",
+      "Ich brauche einen Mantel.",
+      "Dieser Mantel ist warm."
+    ]
+  },
+  "a1-19": {
+    "lead": [
+      "Zwei Dinge liegen auf dem Tisch. Eins ist rot. Eins ist blau.",
+      "Anna möchte das rote. Marko sagt, das blaue ist auch da.",
+      "Die Farbe ist, wie sie wählt.",
+      "Sie braucht den Namen der Sache nicht. Rot reicht."
+    ],
+    "lines": [
+      "Ich möchte das rote.",
+      "Rot oder blau?",
+      "Rot, bitte.",
+      "Das blaue ist auch hier."
+    ]
+  },
+  "a1-20": {
+    "lead": [
+      "Zwei Größen liegen vor Anna. Eine ist groß.",
+      "Sie möchte die kleine. Marko zeigt auf die."
+    ],
+    "lines": [
+      "Diese ist groß.",
+      "Ich möchte eine kleine.",
+      "Die da ist klein.",
+      "Ja. Die da, bitte."
+    ]
+  },
+  "a1-21": {
+    "lead": [
+      "Anna zeigt auf ihren eigenen Körper. Ihre Hand ist kalt.",
+      "Ihr Kopf ist in Ordnung. Ihr Fuß ist nass vom Regen."
+    ],
+    "lines": [
+      "Meine Hand ist kalt.",
+      "Und dein Kopf?",
+      "Mein Kopf ist in Ordnung.",
+      "Dein Fuß ist nass vom Regen."
+    ]
+  },
+  "a1-22": {
+    "lead": [
+      "Anna ist krank. Der Schmerz ist im Kopf, und sie ist müde.",
+      "Sie bittet um Hilfe. Marko sagt, sie soll sich setzen."
+    ],
+    "lines": [
+      "Ich bin krank.",
+      "Wo ist der Schmerz?",
+      "Im Kopf. Ich bin müde.",
+      "Setz dich. Ich helfe dir."
+    ]
+  },
+  "a1-23": {
+    "lead": [
+      "Anna ist in der Schule. Sie ist Schülerin.",
+      "Die Lehrerin ist in der Klasse. Die Schule ist nah am Haus."
+    ],
+    "lines": [
+      "Ich bin Schülerin.",
+      "Wer ist die Lehrerin?",
+      "Sie ist in der Klasse.",
+      "Die Schule ist in der Nähe."
+    ]
+  },
+  "a1-24": {
+    "lead": [
+      "Der Unterricht beginnt. Die Lehrerin bittet die Schüler, ein Buch aufzuschlagen.",
+      "Die Seite ist Seite zwei. Anna kann sie lesen.",
+      "Aufmachen, Buch, lesen und Seite sind die Wörter, die sie braucht.",
+      "Sie spricht noch nicht. Sie folgt der Anweisung."
+    ],
+    "lines": [
+      "Schlag dein Buch auf.",
+      "Welche Seite?",
+      "Seite zwei.",
+      "Ich kann das lesen."
+    ]
+  },
+  "a1-25": {
+    "lead": [
+      "Marko sagt etwas, und Anna versteht es nicht.",
+      "Sie bittet ihn, es langsam zu wiederholen."
+    ],
+    "lines": [
+      "Ich verstehe nicht.",
+      "Ich sage es noch einmal.",
+      "Langsam, bitte.",
+      "Natürlich. Hör noch einmal zu."
+    ]
+  },
+  "a1-26": {
+    "lead": [
+      "Anna steigt in den Bus. Sie braucht eine Fahrkarte.",
+      "Sie fährt nur bis zur nächsten Haltestelle."
+    ],
+    "lines": [
+      "Eine Fahrkarte, bitte.",
+      "Wohin fährst du?",
+      "Zur nächsten Haltestelle.",
+      "Setz dich hierhin."
+    ]
+  },
+  "a1-27": {
+    "lead": [
+      "Anna ist am Bahnhof. Sie sucht den Zug.",
+      "Marko zeigt. Der Zug ist dort drüben."
+    ],
+    "lines": [
+      "Wo ist der Zug?",
+      "Er ist dort drüben.",
+      "Ist das der Bahnhof?",
+      "Ja. Der Zug ist dort."
+    ]
+  },
+  "a1-28": {
+    "lead": [
+      "Das Telefon klingelt. Anna sagt, wer sie ist.",
+      "Marko kann jetzt sprechen. Sonst kann sie später anrufen."
+    ],
+    "lines": [
+      "Hallo?",
+      "Hallo. Hier ist Anna.",
+      "Ich kann jetzt sprechen.",
+      "Gut. Oder ich rufe später an."
+    ]
+  },
+  "a1-29": {
+    "lead": [
+      "Anna hat ein neues Zuhause. Die Person nebenan ist Marko.",
+      "Sie sagt ihren Namen. Er sagt, die Straße ist ruhig.",
+      "Ein Nachbar ist nicht Familie und noch kein Freund.",
+      "Hallo, ein Name und nebenan reichen für die erste Minute."
+    ],
+    "lines": [
+      "Hallo. Ich wohne nebenan.",
+      "Willkommen. Ich bin Marko.",
+      "Ich heiße Anna.",
+      "Hier ist es ruhig."
+    ]
+  },
+  "a1-30": {
+    "lead": [
+      "Marko öffnet die Tür und bittet Anna herein.",
+      "Da ist ein Stuhl. Sie kann sich setzen."
+    ],
+    "lines": [
+      "Komm bitte herein.",
+      "Danke.",
+      "Setz dich hierhin.",
+      "Dieser Stuhl ist gut."
+    ]
+  },
+  "a1-31": {
+    "lead": [
+      "Anna sucht die Küche.",
+      "Sie braucht eine Tasse. Die Tassen stehen beim Wasser."
+    ],
+    "lines": [
+      "Wo ist die Küche?",
+      "Sie ist dort.",
+      "Ich brauche eine Tasse.",
+      "Die Tassen stehen beim Wasser."
+    ]
+  },
+  "a1-32": {
+    "lead": [
+      "Auf dem Markt gibt es Äpfel. Anna fragt, ob sie frisch sind.",
+      "Sie möchte ein Kilo, nicht mehr."
+    ],
+    "lines": [
+      "Sind die Äpfel frisch?",
+      "Ja. Sie sind von heute.",
+      "Ein Kilo, bitte.",
+      "Sonst noch etwas?"
+    ]
+  },
+  "a1-33": {
+    "lead": [
+      "Am Tisch fragt Marko, was Anna mag.",
+      "Sie mag Fisch. Sie mag keinen Reis.",
+      "Mögen und nicht mögen sind beide nützlich.",
+      "Sie muss nicht essen, was sie nicht will."
+    ],
+    "lines": [
+      "Magst du Fisch?",
+      "Ja, ich mag Fisch.",
+      "Und Reis?",
+      "Ich mag keinen Reis."
+    ]
+  },
+  "a1-34": {
+    "lead": [
+      "Anna schaut auf die Speisekarte. Es gibt zwei Dinge: Suppe und Salat.",
+      "Sie bestellt den Salat."
+    ],
+    "lines": [
+      "Was ist das?",
+      "Suppe oder Salat.",
+      "Salat, bitte.",
+      "Ein Salat."
+    ]
+  },
+  "a1-35": {
+    "lead": [
+      "Das Essen ist fertig. Anna möchte zahlen.",
+      "Sie zahlt mit Karte und nimmt die Quittung."
+    ],
+    "lines": [
+      "Kann ich zahlen?",
+      "Karte oder bar?",
+      "Mit Karte, bitte.",
+      "Hier ist die Quittung."
+    ]
+  },
+  "a1-36": {
+    "lead": [
+      "Anna muss auf die Toilette. Sie fragt, wo sie ist.",
+      "Den Gang entlang, und die Tür links ist offen."
+    ],
+    "lines": [
+      "Wo ist die Toilette?",
+      "Den Gang entlang.",
+      "Links?",
+      "Ja. Die Tür ist offen."
+    ]
+  },
+  "a1-37": {
+    "lead": [
+      "Anna schaut auf die Woche.",
+      "Heute ist Montag. Morgen ist Dienstag. Eine neue Woche beginnt.",
+      "Sie braucht noch nicht jeden Tag. Heute und morgen benutzt sie.",
+      "Montag reicht zum Anfang."
+    ],
+    "lines": [
+      "Welcher Tag ist heute?",
+      "Heute ist Montag.",
+      "Und morgen?",
+      "Dienstag. Eine neue Woche."
+    ]
+  },
+  "a1-38": {
+    "lead": [
+      "Marko hat im Mai Geburtstag.",
+      "Anna fragt nach dem Datum. Es ist der Zehnte."
+    ],
+    "lines": [
+      "Wann hast du Geburtstag?",
+      "Im Mai.",
+      "An welchem Datum?",
+      "Am Zehnten."
+    ]
+  },
+  "a1-39": {
+    "lead": [
+      "Es ist Nacht. Das Kind schläft.",
+      "Der Mond ist da, und das Haus ist still. Sie sprechen leise."
+    ],
+    "lines": [
+      "Das Kind schläft.",
+      "Die Nacht ist still.",
+      "Ich sehe den Mond.",
+      "Lass uns leise sprechen."
+    ]
+  },
+  "a1-40": {
+    "lead": [
+      "Ein Tier ist am Stuhl. Es ist nicht Annas Hund.",
+      "Der Hund vom Nachbarn ist draußen. Eine kleine Katze schläft auf dem Stuhl."
+    ],
+    "lines": [
+      "Ist das dein Hund?",
+      "Nein. Es ist der Hund vom Nachbarn.",
+      "Die Katze ist klein.",
+      "Sie schläft auf dem Stuhl."
+    ]
+  },
+  "a1-41": {
+    "lead": [
+      "Marko fragt, was Anna macht.",
+      "Sie lernt. Sie ist Studentin. Er hat eine Arbeit in der Stadt."
+    ],
+    "lines": [
+      "Arbeitest du?",
+      "Ich lerne.",
+      "Ich habe eine Arbeit in der Stadt.",
+      "Ich bin Studentin."
+    ]
+  },
+  "a1-42": {
+    "lead": [
+      "Marko fragt, woher Anna kommt.",
+      "Sie nennt eine kleine Stadt. Jetzt wohnt sie nah an der Schule."
+    ],
+    "lines": [
+      "Woher kommst du?",
+      "Ich komme aus einer kleinen Stadt.",
+      "Wohnst du jetzt hier?",
+      "Ja. Ich wohne nah an der Schule."
+    ]
+  },
+  "a1-43": {
+    "lead": [
+      "Anna braucht eine Adresse, damit sie das Haus findet.",
+      "Es ist die Grünstraße, Nummer fünf. Sie bittet Marko, sie aufzuschreiben."
+    ],
+    "lines": [
+      "Wie ist die Adresse?",
+      "Grünstraße, Nummer fünf.",
+      "Kannst du sie aufschreiben?",
+      "Ja. Hier."
+    ]
+  },
+  "a1-44": {
+    "lead": [
+      "Anna ist in einer Straße, die sie nicht kennt. Sie hat sich verlaufen.",
+      "Sie bittet um Hilfe und fragt nach dem Bahnhof. Er ist nah. Sie soll geradeaus gehen.",
+      "Verlaufen ist kein Problem, wenn jemand zeigen kann.",
+      "Hilfe, Bahnhof und nah sind die Wörter."
+    ],
+    "lines": [
+      "Entschuldigung. Ich habe mich verlaufen.",
+      "Wie kann ich helfen?",
+      "Wo ist der Bahnhof?",
+      "Er ist nah. Geh geradeaus."
+    ]
+  },
+  "a1-45": {
+    "lead": [
+      "Anna kommt zum Laden, und die Tür ist zu.",
+      "Heute macht er nicht auf. Er macht morgen früh um neun auf."
+    ],
+    "lines": [
+      "Der Laden hat zu.",
+      "Er macht um neun auf.",
+      "Heute?",
+      "Nein. Morgen früh."
+    ]
+  },
+  "a1-46": {
+    "lead": [
+      "Anna möchte ein Foto von Marko.",
+      "Sie fragt zuerst. Er lächelt und bittet sie, es später zu schicken."
+    ],
+    "lines": [
+      "Darf ich ein Foto machen?",
+      "Ja.",
+      "Lächeln.",
+      "Schick es mir später."
+    ]
+  },
+  "a1-47": {
+    "lead": [
+      "Der Tag ist vorbei. Das Kind ist müde.",
+      "Es ist Zeit fürs Bett. Anna bittet um eine kurze Geschichte."
+    ],
+    "lines": [
+      "Das Kind ist müde.",
+      "Es ist Zeit fürs Bett.",
+      "Eine Geschichte, bitte.",
+      "Eine kurze."
+    ]
+  },
+  "a1-48": {
+    "lead": [
+      "Marko fragt, ob Anna etwas Heißes oder etwas Kaltes möchte.",
+      "Sie möchte heißen Tee. Es gibt auch Saft, aber Tee reicht."
+    ],
+    "lines": [
+      "Heiß oder kalt?",
+      "Heißen Tee, bitte.",
+      "Wir haben auch Saft.",
+      "Tee ist gut."
+    ]
+  },
+  "a1-49": {
+    "lead": [
+      "Anna muss gehen. Sie geht nicht ohne Abschied.",
+      "Sie sehen sich bald. Morgen ist der Plan.",
+      "Bis bald und tschüss schließen den Tag.",
+      "Bald ist besser als nichts, und morgen ist eine echte Zeit."
+    ],
+    "lines": [
+      "Ich muss gehen.",
+      "Bis bald.",
+      "Morgen?",
+      "Ja. Tschüss."
+    ]
+  },
+  "a1-50": {
+    "lead": [
+      "Die Person, die Anna sucht, ist nicht da.",
+      "Sie hinterlässt eine kurze Notiz: bitte Anna anrufen, und sie hinterlässt ihren Namen."
+    ],
+    "lines": [
+      "Er ist nicht da.",
+      "Hinterlass eine Nachricht.",
+      "Bitte Anna anrufen.",
+      "Ich schreibe deinen Namen auf."
+    ]
+  },
+  "a2-01": {
+    "lead": [
+      "Anna ist am Schalter. Sie möchte eine Rückfahrkarte in die Stadt, und sie fährt heute.",
+      "Sie braucht noch das Gleis und die Zeit."
+    ],
+    "lines": [
+      "Eine Rückfahrkarte in die Stadt, bitte.",
+      "Fahren Sie heute?",
+      "Ja. Welches Gleis?",
+      "Gleis zwei, um zehn."
+    ]
+  },
+  "a2-02": {
+    "lead": [
+      "Der Zug ist nicht da. Anna fragt, ob er Verspätung hat.",
+      "Es gibt eine kurze Verspätung. Sie warten ungefähr zwanzig Minuten und hören auf die Ansage."
+    ],
+    "lines": [
+      "Hat der Zug Verspätung?",
+      "Ja. Es gibt eine kurze Verspätung.",
+      "Wie lange warten wir?",
+      "Ungefähr zwanzig Minuten. Hören Sie auf die Ansage."
+    ]
+  },
+  "a2-03": {
+    "lead": [
+      "Anna will zum Markt und kennt die Straßen nicht.",
+      "Der Weg hat zwei Schritte: geradeaus, dann rechts an der Ecke. Es ist nicht weit, und es gibt einen Plan."
+    ],
+    "lines": [
+      "Wie komme ich zum Markt?",
+      "Gehen Sie geradeaus, dann rechts an der Ecke.",
+      "Ist es weit?",
+      "Nein. Ich kann es Ihnen auf dem Plan zeigen."
+    ]
+  },
+  "a2-04": {
+    "lead": [
+      "Anna steht an der Hotelrezeption mit einer Reservierung auf ihren Namen.",
+      "Sie bleibt zwei Nächte und fragt, ob das Frühstück dabei ist. Dann bekommt sie den Schlüssel für Zimmer zwölf."
+    ],
+    "lines": [
+      "Ich habe eine Reservierung. Der Name ist Anna.",
+      "Für zwei Nächte?",
+      "Ja. Ist das Frühstück dabei?",
+      "Ja. Hier ist Ihr Schlüssel. Zimmer zwölf."
+    ]
+  },
+  "a2-05": {
+    "lead": [
+      "Im Zimmer funktioniert die Dusche nicht.",
+      "Anna sagt es. Sie kann um ein anderes Zimmer bitten, und die Rezeption schaut nach.",
+      "Etwas Kaputtes braucht einen klaren Satz, keine lange Geschichte.",
+      "Dusche, funktionieren, kaputt und schicken reichen."
+    ],
+    "lines": [
+      "Die Dusche funktioniert nicht.",
+      "Es tut mir leid. Ich schicke jemanden.",
+      "Können Sie das Zimmer wechseln?",
+      "Ich schaue nach."
+    ]
+  },
+  "a2-06": {
+    "lead": [
+      "Auf dem Markt ist ein Stück Obst nicht reif.",
+      "Anna bittet um ein anderes und fragt, ob es eine günstigere Tüte gibt."
+    ],
+    "lines": [
+      "Das hier ist nicht reif.",
+      "Nehmen Sie ein anderes.",
+      "Gibt es eine günstigere Tüte?",
+      "Ja. Die sind von heute Morgen."
+    ]
+  },
+  "a2-07": {
+    "lead": [
+      "Die Kleidung hat die falsche Größe. Anna braucht eine kleinere.",
+      "Sie fragt, ob sie sie anprobieren darf. Die Umkleide ist dort."
+    ],
+    "lines": [
+      "Das ist die falsche Größe.",
+      "Möchten Sie eine kleinere?",
+      "Darf ich sie anprobieren?",
+      "Natürlich. Die Umkleide ist dort."
+    ]
+  },
+  "a2-08": {
+    "lead": [
+      "Anna ist bereit zu zahlen. Sie fragt, ob eine Karte geht.",
+      "Die Summe ist zwanzig. Sie bittet um die Quittung."
+    ],
+    "lines": [
+      "Kann ich mit Karte zahlen?",
+      "Ja. Die Summe ist zwanzig.",
+      "Darf ich eine Quittung haben?",
+      "Bitte schön."
+    ]
+  },
+  "a2-09": {
+    "lead": [
+      "Anna hat gestern etwas gekauft und möchte es zurückgeben.",
+      "Sie hat die Quittung. Der Laden kann es umtauschen oder das Geld zurückgeben."
+    ],
+    "lines": [
+      "Ich habe das gestern gekauft.",
+      "Haben Sie die Quittung?",
+      "Ja. Ich möchte es zurückgeben.",
+      "Wir können es umtauschen oder Ihnen das Geld zurückgeben."
+    ]
+  },
+  "a2-10": {
+    "lead": [
+      "Bevor Anna zu einem Laden geht, fragt sie, wann er aufmacht und wann er zumacht.",
+      "Von neun bis sechs. Sonntags nicht. Mittag ist von eins bis zwei.",
+      "Aufmachen und zumachen gehören zusammen. Sonntag und Mittag sind die Ausnahmen.",
+      "Sie schreibt die Zeiten auf, damit sie nicht vor einer geschlossenen Tür steht."
+    ],
+    "lines": [
+      "Wann machen Sie auf?",
+      "Um neun, und wir machen um sechs zu.",
+      "Haben Sie sonntags auf?",
+      "Nein. Von eins bis zwei haben wir Mittagspause."
+    ]
+  },
+  "a2-11": {
+    "lead": [
+      "Anna hat Kopfschmerzen. Sie ist in der Apotheke.",
+      "Es hat heute Morgen angefangen. Die Person dort sagt, sie soll das Medikament nach dem Essen nehmen."
+    ],
+    "lines": [
+      "Ich habe Kopfschmerzen.",
+      "Wie oft?",
+      "Seit heute Morgen.",
+      "Nehmen Sie das nach dem Essen."
+    ]
+  },
+  "a2-12": {
+    "lead": [
+      "Anna braucht einen Arzt und fragt nach einem Termin.",
+      "Heute ist voll. Morgen früh um zehn ist frei."
+    ],
+    "lines": [
+      "Ich brauche einen Termin.",
+      "Heute oder morgen?",
+      "Morgen früh, wenn es geht.",
+      "Zehn Uhr ist frei."
+    ]
+  },
+  "a2-13": {
+    "lead": [
+      "Der Arzt fragt, wo es wehtut.",
+      "Es ist der Magen, seit gestern Abend, und Anna hat auch Fieber."
+    ],
+    "lines": [
+      "Wo tut es weh?",
+      "Am Magen.",
+      "Seit wann?",
+      "Seit gestern Abend. Ich habe auch Fieber."
+    ]
+  },
+  "a2-14": {
+    "lead": [
+      "Anna kann nicht ins Büro. Sie ist krank und muss zu Hause bleiben.",
+      "Sie ruft an, sagt es, und man sagt ihr, sie soll sich ausruhen und morgen anrufen."
+    ],
+    "lines": [
+      "Ich kann heute nicht ins Büro kommen.",
+      "Sind Sie krank?",
+      "Ja. Ich muss zu Hause bleiben.",
+      "Ruhen Sie sich aus. Rufen Sie mich morgen an."
+    ]
+  },
+  "a2-15": {
+    "lead": [
+      "Im Unterricht gibt es ein Wort, das Anna nicht kennt.",
+      "Sie fragt, was es bedeutet, und sie fragt nach der Schreibweise und einem Beispiel.",
+      "Ein Wort ist nicht nur ein Laut. Bedeutung, Schreibweise und ein Beispiel machen es zu einem Wort, das sie benutzen kann.",
+      "Fahrkarte ist das Beispiel in dieser Lektion. Die Gewohnheit ist für das nächste Wort dieselbe."
+    ],
+    "lines": [
+      "Was bedeutet dieses Wort?",
+      "Es bedeutet „Fahrkarte“.",
+      "Können Sie es buchstabieren?",
+      "Ja, und ich gebe ein Beispiel."
+    ]
+  },
+  "a2-16": {
+    "lead": [
+      "Die Hausaufgaben sind am Freitag fällig. Anna hat die Seite vergessen.",
+      "Es ist Seite zehn. Sie macht die Fragen heute Abend."
+    ],
+    "lines": [
+      "Die Hausaufgaben sind am Freitag fällig.",
+      "Ich habe die Seite vergessen.",
+      "Seite zehn. Mach die Fragen fertig.",
+      "Ich mache sie heute Abend."
+    ]
+  },
+  "a2-17": {
+    "lead": [
+      "Anna möchte ein Buch aus der Bibliothek.",
+      "Sie hat einen Ausweis. Sie fragt, wann sie das Buch zurückbringen muss. In zwei Wochen."
+    ],
+    "lines": [
+      "Darf ich dieses Buch ausleihen?",
+      "Haben Sie einen Bibliotheksausweis?",
+      "Ja. Wann bringe ich es zurück?",
+      "In zwei Wochen."
+    ]
+  },
+  "a2-18": {
+    "lead": [
+      "Die Gruppe hat ein Projekt über die Stadt.",
+      "Eine Person schreibt die Einleitung. Anna sucht die Bilder. Sie treffen sich nach dem Unterricht."
+    ],
+    "lines": [
+      "Unser Projekt ist über die Stadt.",
+      "Ich kann die Einleitung schreiben.",
+      "Ich suche die Bilder.",
+      "Treffen wir uns nach dem Unterricht."
+    ]
+  },
+  "a2-19": {
+    "lead": [
+      "Anna ruft an, und die Person ist nicht da.",
+      "Sie hinterlässt eine Nachricht: bitte zurückrufen. Ihre Nummer steht auf dem Zettel."
+    ],
+    "lines": [
+      "Er ist nicht da. Kann ich eine Nachricht hinterlassen?",
+      "Bitten Sie ihn, mich zurückzurufen.",
+      "Wie ist Ihre Nummer?",
+      "Sie steht auf dem Zettel."
+    ]
+  },
+  "a2-20": {
+    "lead": [
+      "Anna hat die Adresse nicht in der Hand.",
+      "Sie schickt sie später, in einer Nachricht. Das ist in Ordnung.",
+      "Eine Nachricht reicht, wenn die Person die Adresse nicht in dieser Minute braucht.",
+      "Schicken, später und Adresse sind der ganze Plan."
+    ],
+    "lines": [
+      "Ich schicke dir eine Nachricht.",
+      "Mit der Adresse?",
+      "Ja. Ich habe sie jetzt nicht.",
+      "Schick sie später. Das ist in Ordnung."
+    ]
+  },
+  "a2-21": {
+    "lead": [
+      "Anna reserviert einen Tisch für zwei um sieben, drinnen.",
+      "Sie hat eine Nussallergie, also muss die Küche es wissen."
+    ],
+    "lines": [
+      "Einen Tisch für zwei um sieben, bitte.",
+      "Drinnen oder draußen?",
+      "Drinnen. Ich habe eine Nussallergie.",
+      "Ich sage es der Küche."
+    ]
+  },
+  "a2-22": {
+    "lead": [
+      "Das Essen ist fertig. Anna bittet um die Rechnung.",
+      "Sie zahlen zusammen. Bedienung ist schon dabei, also schaut sie nach, bevor sie Trinkgeld gibt."
+    ],
+    "lines": [
+      "Die Rechnung, bitte.",
+      "Zusammen oder getrennt?",
+      "Zusammen.",
+      "Bedienung ist inklusive."
+    ]
+  },
+  "a2-23": {
+    "lead": [
+      "Der Teller, der kommt, ist nicht der, den Anna bestellt hat.",
+      "Sie sagt es höflich. Sie wollte Suppe, nicht Salat. Sie tauschen ihn."
+    ],
+    "lines": [
+      "Entschuldigung. Das habe ich nicht bestellt.",
+      "Es tut mir leid. Was haben Sie bestellt?",
+      "Suppe, nicht Salat.",
+      "Ich tausche es."
+    ]
+  },
+  "a2-24": {
+    "lead": [
+      "Anna kocht zu Hause und liest ein Rezept.",
+      "Es braucht Zwiebel, Öl und Salz. Es gibt keine Zwiebel, also muss jemand eine kaufen."
+    ],
+    "lines": [
+      "Was braucht das Rezept?",
+      "Zwiebel, Öl und Salz.",
+      "Wir haben keine Zwiebel.",
+      "Ich kaufe eine."
+    ]
+  },
+  "a2-25": {
+    "lead": [
+      "Am Abend ist die Musik vom Nachbarn laut.",
+      "Anna bittet höflich um Ruhe. Sie entschuldigt sich für die Störung. Sie machen leiser.",
+      "Eine Beschwerde beim Nachbarn funktioniert besser, wenn sie die Zeit nennt.",
+      "Abend, Lärm und Ruhe sind die Wörter. Entschuldigung bleibt im Satz."
+    ],
+    "lines": [
+      "Entschuldigung, dass ich störe.",
+      "Was ist los?",
+      "Die Musik ist am Abend laut.",
+      "Es tut mir leid. Ich mache leiser."
+    ]
+  },
+  "a2-26": {
+    "lead": [
+      "Anna braucht einen Hammer für eine kleine Arbeit.",
+      "Sie bittet, einen auszuleihen, und sagt, sie bringt ihn morgen zurück."
+    ],
+    "lines": [
+      "Darf ich einen Hammer ausleihen?",
+      "Natürlich.",
+      "Ich bringe ihn morgen zurück.",
+      "Keine Eile."
+    ]
+  },
+  "a2-27": {
+    "lead": [
+      "Die Waschmaschine ist kaputt. Sie läuft aus.",
+      "Anna sagt, was passiert ist, und jemand ruft eine Reparatur an."
+    ],
+    "lines": [
+      "Die Waschmaschine ist kaputt.",
+      "Was ist passiert?",
+      "Sie läuft aus.",
+      "Ich rufe jemanden zur Reparatur."
+    ]
+  },
+  "a2-28": {
+    "lead": [
+      "Samstag ist am Nachmittag frei.",
+      "Anna schlägt das Kino vor, und sie verabreden sich um drei."
+    ],
+    "lines": [
+      "Hast du am Samstag Zeit?",
+      "Ja. Am Nachmittag.",
+      "Wollen wir ins Kino?",
+      "Treffen wir uns um drei."
+    ]
+  },
+  "a2-29": {
+    "lead": [
+      "Gestern ist schon vorbei, also ändern sich die Verben.",
+      "Marko war auf dem Markt. Er hat Brot und Obst gekauft.",
+      "War und hat gekauft sind nicht dasselbe wie gehen und kaufen.",
+      "Anna stellt zwei Fragen. Was hast du gemacht, und was hast du gekauft."
+    ],
+    "lines": [
+      "Was hast du gestern gemacht?",
+      "Ich war auf dem Markt.",
+      "Was hast du gekauft?",
+      "Ich habe Brot und Obst gekauft."
+    ]
+  },
+  "a2-30": {
+    "lead": [
+      "Freizeit ist nicht dasselbe wie Arbeit.",
+      "Marko spielt Gitarre, zwei Abende in der Woche. Das ist sein Hobby."
+    ],
+    "lines": [
+      "Was machst du in deiner Freizeit?",
+      "Ich spiele Gitarre.",
+      "Wie oft?",
+      "Zwei Abende in der Woche."
+    ]
+  },
+  "a2-31": {
+    "lead": [
+      "Die Vorhersage sagt Regen für morgen, und es wird kalt.",
+      "Ein Schirm und ein Mantel sind der Plan, nicht eine Änderung des ganzen Tages."
+    ],
+    "lines": [
+      "Die Vorhersage sagt Regen.",
+      "Ich nehme einen Schirm mit.",
+      "Es wird auch kalt.",
+      "Dann brauche ich einen Mantel."
+    ]
+  },
+  "a2-32": {
+    "lead": [
+      "Anna hat ein Paket zu verschicken.",
+      "Sie wiegen es. Die Briefmarke kostet vier, und es kommt am Freitag an."
+    ],
+    "lines": [
+      "Ich möchte dieses Paket schicken.",
+      "Ich wiege es.",
+      "Wie viel kostet die Briefmarke?",
+      "Vier. Es kommt am Freitag an."
+    ]
+  },
+  "a2-33": {
+    "lead": [
+      "Anna hat ihre Tasche verloren. Sie beschreibt sie: schwarz, mit einem Buch darin.",
+      "Jemand hat eine schwarze Tasche gefunden. Sie kann kommen und nachsehen."
+    ],
+    "lines": [
+      "Ich habe meine Tasche verloren.",
+      "Welche Farbe hat sie?",
+      "Schwarz, mit einem Buch darin.",
+      "Jemand hat eine schwarze Tasche gefunden. Kommen Sie und sehen Sie nach."
+    ]
+  },
+  "a2-34": {
+    "lead": [
+      "Anna nimmt ein Taxi zur Grünstraße, Nummer fünf.",
+      "Sie bittet den Fahrer anzuhalten. Der Fahrpreis ist zwölf."
+    ],
+    "lines": [
+      "Zur Grünstraße, bitte.",
+      "Kennen Sie die Nummer?",
+      "Nummer fünf. Bitte halten Sie hier.",
+      "Der Fahrpreis ist zwölf."
+    ]
+  },
+  "a2-35": {
+    "lead": [
+      "Anna möchte ein Fahrrad für einen Tag, nicht zum Behalten.",
+      "Es gibt eine Kaution von zwanzig. Sie muss es vor sechs zurückbringen.",
+      "Mieten, Tag und Kaution sind die drei Tatsachen.",
+      "Ein Fahrrad für einen Tag ist nicht dasselbe wie ein Fahrrad, das ihr gehört."
+    ],
+    "lines": [
+      "Ich möchte ein Fahrrad mieten.",
+      "Für einen Tag?",
+      "Ja. Gibt es eine Kaution?",
+      "Zwanzig. Bringen Sie es vor sechs zurück."
+    ]
+  },
+  "a2-36": {
+    "lead": [
+      "In der Bank möchte Anna ein Konto eröffnen.",
+      "Sie hat ihren Reisepass und einen Adressnachweis. Es dauert ein paar Minuten."
+    ],
+    "lines": [
+      "Ich möchte ein Konto eröffnen.",
+      "Haben Sie Ihren Reisepass?",
+      "Ja, und einen Adressnachweis.",
+      "Bitte setzen Sie sich. Es dauert ein paar Minuten."
+    ]
+  },
+  "a2-37": {
+    "lead": [
+      "Der Automat hat Annas Karte genommen und das Geld nicht gegeben.",
+      "Sie soll die Nummer auf dem Bildschirm anrufen und die Karte nicht liegen lassen."
+    ],
+    "lines": [
+      "Der Automat hat meine Karte genommen.",
+      "Hat er Ihnen das Geld gegeben?",
+      "Nein.",
+      "Rufen Sie die Nummer auf dem Bildschirm an. Lassen Sie die Karte nicht liegen."
+    ]
+  },
+  "a2-38": {
+    "lead": [
+      "Es gibt eine Stellenanzeige. Die Stunden sind vormittags.",
+      "Anna hat ein wenig Erfahrung. Sie kann sich bis Freitag bewerben."
+    ],
+    "lines": [
+      "Ist die Stelle noch frei?",
+      "Ja. Die Stunden sind vormittags.",
+      "Ich habe ein wenig Erfahrung.",
+      "Schicken Sie Ihre Bewerbung bis Freitag."
+    ]
+  },
+  "a2-39": {
+    "lead": [
+      "Es ist Annas erster Tag. Jemand zeigt ihr den Schreibtisch.",
+      "Sie braucht noch ein Passwort. Eine Kollegin zeigt es ihr."
+    ],
+    "lines": [
+      "Es ist mein erster Tag.",
+      "Willkommen. Das ist Ihr Schreibtisch.",
+      "Wo bekomme ich ein Passwort?",
+      "Fragen Sie Ihre Kollegin. Sie zeigt es Ihnen."
+    ]
+  },
+  "a2-40": {
+    "lead": [
+      "Ein Treffen ist um zehn, und Anna hat dann keine Zeit.",
+      "Sie bittet, es zu verschieben. Der Nachmittag ist besser. Drei Uhr.",
+      "Beschäftigt ist ein Grund, keine Absage des Treffens.",
+      "Verschieben, Nachmittag und die neue Zeit halten den Plan am Leben."
+    ],
+    "lines": [
+      "Können wir das Treffen verschieben?",
+      "Ich habe um zehn keine Zeit.",
+      "Ist der Nachmittag besser?",
+      "Ja. Drei Uhr."
+    ]
+  },
+  "a2-41": {
+    "lead": [
+      "Anna hat eine E-Mail geschickt und eine Datei angehängt.",
+      "Die andere Person hat sie noch nicht bekommen."
+    ],
+    "lines": [
+      "Ich habe Ihnen eine E-Mail geschickt.",
+      "Haben Sie die Datei angehängt?",
+      "Ja.",
+      "Ich habe sie noch nicht bekommen."
+    ]
+  },
+  "a2-42": {
+    "lead": [
+      "Anna fragt, ob sie den Unterricht früher verlassen darf.",
+      "Der Grund ist ein Arzttermin. Sie soll es der Klasse das nächste Mal sagen."
+    ],
+    "lines": [
+      "Darf ich heute früher gehen?",
+      "Was ist der Grund?",
+      "Ich habe einen Arzttermin.",
+      "Ja. Sagen Sie es der Klasse das nächste Mal bitte."
+    ]
+  },
+  "a2-43": {
+    "lead": [
+      "Anna hat gestern den Unterricht verpasst.",
+      "Sie bittet eine Mitschülerin um die Notizen und darf sie abschreiben. Sie bekommt sie heute Abend."
+    ],
+    "lines": [
+      "Ich habe gestern den Unterricht verpasst.",
+      "Möchtest du meine Notizen?",
+      "Darf ich sie abschreiben?",
+      "Ja. Ich teile sie heute Abend."
+    ]
+  },
+  "a2-44": {
+    "lead": [
+      "Ein Sportverein hat mittwochs einen Kurs für Anfänger.",
+      "Er kostet zehn die Woche. Die erste Stunde ist frei."
+    ],
+    "lines": [
+      "Können Anfänger mitmachen?",
+      "Ja. Der Kurs ist am Mittwoch.",
+      "Wie viel kostet er in der Woche?",
+      "Zehn. Die erste Stunde ist frei."
+    ]
+  },
+  "a2-45": {
+    "lead": [
+      "Ein Film beginnt um acht. Das ist spät.",
+      "Es gibt einen um sechs. Den nehmen sie, und jemand kauft die Karten.",
+      "Beginn, spät und Karte entscheiden den Abend.",
+      "Sechs ist die Zeit, die passt."
+    ],
+    "lines": [
+      "Der Film beginnt um acht.",
+      "Das ist mir zu spät.",
+      "Es gibt einen um sechs.",
+      "Besser. Ich kaufe die Karten."
+    ]
+  },
+  "a2-46": {
+    "lead": [
+      "Samstag hat Anna Geburtstag. Die Feier ist klein.",
+      "Sie bittet Marko zu kommen, und er bringt einen Kuchen mit."
+    ],
+    "lines": [
+      "Am Samstag habe ich Geburtstag.",
+      "Machst du eine Feier?",
+      "Eine kleine. Komm bitte.",
+      "Ich bringe einen Kuchen mit."
+    ]
+  },
+  "a2-47": {
+    "lead": [
+      "Regen ändert den Plan. Sie müssen nicht absagen.",
+      "Sie können sich drinnen treffen, im Café, zur selben Zeit."
+    ],
+    "lines": [
+      "Es regnet. Sollen wir absagen?",
+      "Wir können uns stattdessen drinnen treffen.",
+      "Im Café?",
+      "Ja. Zur selben Zeit."
+    ]
+  },
+  "a2-48": {
+    "lead": [
+      "Ein Freund sucht jemanden in einer Menge.",
+      "Sie ist groß, sie trägt eine Brille, ihr Haar ist dunkel, und sie hat einen blauen Mantel."
+    ],
+    "lines": [
+      "Wie sieht sie aus?",
+      "Sie ist groß und trägt eine Brille.",
+      "Welche Farbe hat ihr Haar?",
+      "Dunkel. Sie trägt einen blauen Mantel."
+    ]
+  },
+  "a2-49": {
+    "lead": [
+      "Zwei Wohnungen. Eine ist ruhig. Die andere ist näher an der Arbeit.",
+      "Anna mag die Ruhe lieber, also ist die erste besser für sie.",
+      "Lieber mögen braucht einen Grund. Näher ist eine Tatsache. Ruhe ist die Tatsache, die sie wählt.",
+      "Sie sagt, welche, und warum."
+    ],
+    "lines": [
+      "Diese Wohnung ist ruhiger.",
+      "Die andere ist näher an der Arbeit.",
+      "Ich mag die Ruhe lieber.",
+      "Dann ist diese besser für dich."
+    ]
+  },
+  "a2-50": {
+    "lead": [
+      "Etwas, das Anna gekauft hat, ist beschädigt. Sie sagt es, ohne unhöflich zu sein.",
+      "Der Laden kann es ersetzen. Sie braucht die Leitung nicht.",
+      "Entschuldigung bleibt im Satz, und das Problem bleibt klar.",
+      "Ersetzen ist das Ergebnis, das sie will."
+    ],
+    "lines": [
+      "Es tut mir leid, aber das ist beschädigt.",
+      "Wir können es ersetzen.",
+      "Danke. Ich brauche die Leitung nicht.",
+      "Ich hole ein anderes."
+    ]
+  },
+  "b1-01": {
+    "lead": [
+      "Letzte Woche ist eine Geschichte, kein Plan. Anna fragt, was Marko gemacht hat.",
+      "Er hat seine Eltern besucht, weil sein Vater krank war. Er ist drei Tage geblieben. Seinem Vater geht es jetzt besser."
+    ],
+    "lines": [
+      "Was hast du letzte Woche gemacht?",
+      "Ich habe meine Eltern besucht, weil mein Vater krank war.",
+      "Bist du lange geblieben?",
+      "Drei Tage. Ihm geht es jetzt besser."
+    ]
+  },
+  "b1-02": {
+    "lead": [
+      "Morgen ist noch nicht vorbei, also sagt Anna, was sie vorhat.",
+      "Sie wird den Bericht fertig machen, und dann ruft sie den Kunden an."
+    ],
+    "lines": [
+      "Morgen werde ich den Bericht fertig machen.",
+      "Und dann?",
+      "Dann rufe ich den Kunden an.",
+      "Brauchst du Hilfe bei den Zahlen?"
+    ]
+  },
+  "b1-03": {
+    "lead": [
+      "Ein Plan kann sich verschieben. Anna muss ihren ändern.",
+      "Das Treffen wurde verlegt, also geht ein Uhr nicht mehr. Vier geht noch."
+    ],
+    "lines": [
+      "Leider muss ich unseren Plan ändern.",
+      "Was ist passiert?",
+      "Das Treffen wurde verlegt, also kann ich um eins nicht kommen.",
+      "Wir können uns trotzdem um vier treffen."
+    ]
+  },
+  "b1-04": {
+    "lead": [
+      "Im Büro fragt jemand, woran Anna arbeitet.",
+      "Es ist das Kundenprojekt. Sie ist für den Text verantwortlich. Die Frist ist Freitag, und sie schickt heute Abend ein Update."
+    ],
+    "lines": [
+      "Woran arbeitest du?",
+      "Am Kundenprojekt. Ich bin für den Text verantwortlich.",
+      "Wann ist die Frist?",
+      "Freitag. Ich schicke heute Abend ein Update."
+    ]
+  },
+  "b1-05": {
+    "lead": [
+      "Ein Kollege sieht beschäftigt aus. Anna braucht trotzdem eine Minute Hilfe.",
+      "Sie fragt, ob er einen Moment hat, und sie lässt einen Weg, später weiterzumachen.",
+      "Beschäftigt heißt nicht nein. Ein Moment ist eine kleine, ehrliche Bitte.",
+      "Wenn es länger dauert, ist später schon angeboten."
+    ],
+    "lines": [
+      "Hast du zu tun?",
+      "Ich habe einen Moment.",
+      "Kannst du mir zeigen, wie dieses Formular geht?",
+      "Ja. Wenn es länger dauert, können wir später weitermachen."
+    ]
+  },
+  "b1-06": {
+    "lead": [
+      "Anna verpasst vielleicht eine Frist. Sie versteckt es nicht.",
+      "Die Zahlen kamen zu spät. Sie schlägt Montag vor, wenn der Rest fertig ist."
+    ],
+    "lines": [
+      "Ich verpasse die Frist vielleicht.",
+      "Warum?",
+      "Die Zahlen kamen zu spät. Ich schlage Montag vor.",
+      "Montag reicht, wenn der Rest fertig ist."
+    ]
+  },
+  "b1-07": {
+    "lead": [
+      "Donnerstag arbeitet Anna von zu Hause. Sie ist trotzdem erreichbar.",
+      "Dringendes kann per Telefon kommen. Die andere Person ist im Büro."
+    ],
+    "lines": [
+      "Ich arbeite am Donnerstag von zu Hause.",
+      "Bist du erreichbar?",
+      "Ja. Ruf mich an, wenn etwas dringend ist.",
+      "Ich bin im Büro."
+    ]
+  },
+  "b1-08": {
+    "lead": [
+      "In einem kurzen Gespräch ist die Frage, warum Anna die Stelle will.",
+      "Sie will lernen, und sie mag ein Team. Sie hat zwei Jahre in einem Laden gearbeitet, also sind Kunden nichts Neues."
+    ],
+    "lines": [
+      "Warum möchten Sie diese Stelle?",
+      "Weil ich lernen möchte und gern im Team arbeite.",
+      "Erzählen Sie von Ihrer Erfahrung.",
+      "Ich habe zwei Jahre in einem Laden gearbeitet, also bin ich Kunden gewohnt."
+    ]
+  },
+  "b1-09": {
+    "lead": [
+      "Sie haben sich für den Zug entschieden. Der Grund ist nicht der, den man erwartet.",
+      "Er kostet mehr, aber er spart Zeit, und das Treffen ist um sechs."
+    ],
+    "lines": [
+      "Wir haben uns für den Zug entschieden.",
+      "Weil er billiger ist?",
+      "Weil er Zeit spart, auch wenn er mehr kostet.",
+      "Das ist sinnvoll, wenn das Treffen um sechs ist."
+    ]
+  },
+  "b1-10": {
+    "lead": [
+      "In einem Treffen geht ein Punkt zu schnell vorbei.",
+      "Anna fragt, was er bedeutet. Sie sollen den Bericht diese Woche anfangen. Sie stimmt zu und macht Notizen.",
+      "Ein Punkt, den man nicht mitbekommen hat, ist eine Frage wert.",
+      "Zustimmen, notieren und schicken lassen das Treffen nicht verschwinden."
+    ],
+    "lines": [
+      "Könntest du den Punkt wiederholen?",
+      "Ich meine, wir sollten den Bericht diese Woche anfangen.",
+      "Ich stimme zu, und ich mache Notizen.",
+      "Gut. Schick sie an das Team."
+    ]
+  },
+  "b1-11": {
+    "lead": [
+      "Anna hält gleich ein Referat über den Markt.",
+      "Es dauert zehn Minuten. Zuerst das Problem, dann die Idee, und zum Schluss eine Frage."
+    ],
+    "lines": [
+      "Heute spreche ich über den Markt.",
+      "Wie lange dauert es?",
+      "Zehn Minuten. Zuerst das Problem, dann die Idee, und zum Schluss eine Frage.",
+      "Ich achte auf die Zeit."
+    ]
+  },
+  "b1-12": {
+    "lead": [
+      "Anna ist anderer Meinung und sagt es, ohne die andere Person abzuwürgen.",
+      "Sie sieht den Punkt. Ihr Beispiel ist der kleinere Laden, der für Studenten besser ist."
+    ],
+    "lines": [
+      "Ich bin anderer Meinung, aber ich sehe deinen Punkt.",
+      "Kannst du ein Beispiel geben?",
+      "Meiner Meinung nach ist der kleinere Laden besser für Studenten.",
+      "Das ist ein faires Beispiel."
+    ]
+  },
+  "b1-13": {
+    "lead": [
+      "Das Projekt ist morgen fällig, und Lea hat ihren Teil noch nicht geschickt.",
+      "Ihre Arbeit für sie zu machen ist nicht fair. Sie sprechen mit ihr, bevor sie es der Lehrerin sagen."
+    ],
+    "lines": [
+      "Lea hat ihren Teil noch nicht geschickt.",
+      "Das Projekt ist morgen fällig.",
+      "Es ist nicht fair, wenn wir ihre Arbeit machen.",
+      "Sprechen wir mit ihr, bevor wir es der Lehrerin sagen."
+    ]
+  },
+  "b1-14": {
+    "lead": [
+      "Anna braucht mehr Zeit. Sie fragt, ob eine Verlängerung möglich ist.",
+      "Sie war letzte Woche krank. Ein Entwurf am Montag reicht."
+    ],
+    "lines": [
+      "Wäre eine Verlängerung möglich?",
+      "Warum brauchen Sie sie?",
+      "Weil ich letzte Woche krank war. Ich kann am Montag einen Entwurf schicken.",
+      "Montag ist in Ordnung."
+    ]
+  },
+  "b1-15": {
+    "lead": [
+      "Vor einer Prüfung fragt Anna, was sie umfasst.",
+      "Die Einheiten drei bis sechs. Notizen sind nicht erlaubt. Die Beispiele aus dem Unterricht soll sie wiederholen.",
+      "Umfassen sagt ihr die Grenzen der Prüfung. Erlaubt sagt ihr, was sie mitbringen darf.",
+      "Wiederholen ist die Arbeit zwischen jetzt und dem Tag."
+    ],
+    "lines": [
+      "Was umfasst die Prüfung?",
+      "Die Einheiten drei bis sechs.",
+      "Sind Notizen erlaubt?",
+      "Nein. Wiederholen Sie die Beispiele aus dem Unterricht."
+    ]
+  },
+  "b1-16": {
+    "lead": [
+      "In der Praxis brauchen Symptome eine Zeit, nicht nur einen Namen.",
+      "Husten seit drei Tagen, nachts schlimmer, und Schlaf, der nicht kommt."
+    ],
+    "lines": [
+      "Was sind die Symptome?",
+      "Husten seit drei Tagen, und nachts ist es schlimmer.",
+      "Können Sie schlafen?",
+      "Nicht gut."
+    ]
+  },
+  "b1-17": {
+    "lead": [
+      "Das Medikament hat eine Anweisung. Zweimal am Tag, nach dem Essen.",
+      "Nicht auf leeren Magen. Anrufen, wenn es eine Nebenwirkung gibt."
+    ],
+    "lines": [
+      "Nehme ich es mit dem Essen?",
+      "Zweimal am Tag, nach den Mahlzeiten.",
+      "Nicht auf leeren Magen?",
+      "Nein. Rufen Sie uns an, wenn Sie eine Nebenwirkung bemerken."
+    ]
+  },
+  "b1-18": {
+    "lead": [
+      "Anna hat online zahlen wollen. Die Zahlung ist fehlgeschlagen.",
+      "Das Geld ist vielleicht noch auf dem Konto. Sie kann es in einer Stunde noch einmal versuchen oder hier zahlen."
+    ],
+    "lines": [
+      "Die Zahlung auf der Website ist fehlgeschlagen.",
+      "Ist das Geld von Ihrem Konto abgebucht?",
+      "Ich glaube nicht.",
+      "Versuchen Sie es in einer Stunde noch einmal, oder zahlen Sie hier."
+    ]
+  },
+  "b1-19": {
+    "lead": [
+      "Anna hat den Anschluss verpasst. Der nächste Zug ist um vier.",
+      "Es gibt einen Platz, und sie braucht keine neue Fahrkarte."
+    ],
+    "lines": [
+      "Ich habe den Anschluss verpasst.",
+      "Der nächste Zug ist um vier.",
+      "Gibt es einen Platz?",
+      "Ja. Sie brauchen keine neue Fahrkarte."
+    ]
+  },
+  "b1-20": {
+    "lead": [
+      "Am Flughafen ist der Check-in Schalter zwölf. Der Reisepass muss bereit sein.",
+      "Das Gate ist noch nicht offen. Das Boarding beginnt um sechs.",
+      "Flug, Gate, Reisepass und Boarding sind vier verschiedene Momente.",
+      "Anna fragt, welcher Schalter, und was sie zeigen soll."
+    ],
+    "lines": [
+      "Wo checke ich ein?",
+      "Schalter zwölf. Halten Sie Ihren Reisepass bereit.",
+      "Ist das Gate offen?",
+      "Noch nicht. Das Boarding beginnt um sechs."
+    ]
+  },
+  "b1-21": {
+    "lead": [
+      "Das Gepäck ist nicht angekommen. Anna beschreibt einen blauen Koffer mit einem roten Schild.",
+      "Sie füllt ein Formular aus, und sie rufen an."
+    ],
+    "lines": [
+      "Mein Gepäck ist nicht angekommen.",
+      "Können Sie es beschreiben?",
+      "Ein blauer Koffer mit einem roten Schild.",
+      "Bitte füllen Sie dieses Formular aus. Wir rufen Sie an."
+    ]
+  },
+  "b1-22": {
+    "lead": [
+      "Eine Wohnung ist nicht nur eine Miete. Anna fragt, was enthalten ist.",
+      "Wasser ist enthalten. Strom nicht. Der Vertrag gilt ein Jahr."
+    ],
+    "lines": [
+      "Ist die Miete inklusive?",
+      "Wasser ist enthalten. Strom nicht.",
+      "Wie lang ist der Vertrag?",
+      "Ein Jahr."
+    ]
+  },
+  "b1-23": {
+    "lead": [
+      "Die Leute oben sind nachts laut, die meisten Nächte, nach elf.",
+      "Anna sagt es der Agentur. Die bittet die Nachbarn, leiser zu sein."
+    ],
+    "lines": [
+      "Die Leute oben sind nachts laut.",
+      "Wie oft?",
+      "Die meisten Nächte, nach elf.",
+      "Ich bitte sie, leiser zu sein."
+    ]
+  },
+  "b1-24": {
+    "lead": [
+      "Eine Reparatur kann am Dienstag sein. Vormittag geht bei Anna nicht.",
+      "Nachmittag geht. Sie ist da und lässt sie herein."
+    ],
+    "lines": [
+      "Die Reparatur kann am Dienstag kommen.",
+      "Ich habe vormittags keine Zeit.",
+      "Dann nachmittags.",
+      "Ja. Ich bin da und lasse sie herein."
+    ]
+  },
+  "b1-25": {
+    "lead": [
+      "Eine Abbuchung auf dem Kontoauszug erkennt Anna nicht.",
+      "Sie war nicht in dem Laden. Die Bank kann die Karte sperren, während sie nachschaut.",
+      "Erkennen ist das nützliche Verb. Wenn sie es nicht erkennt, sagt sie es.",
+      "Kontoauszug, Abbuchung und sperren sind die drei Papiere im Gespräch."
+    ],
+    "lines": [
+      "Ich erkenne diese Abbuchung nicht.",
+      "Sie steht auf dem Kontoauszug von Dienstag.",
+      "Ich war nicht in dem Laden.",
+      "Wir können die Karte sperren, während wir nachschauen."
+    ]
+  },
+  "b1-26": {
+    "lead": [
+      "Das Budget hat nicht gehalten. Zu viel ging für den Zug drauf.",
+      "Für das Hotel reicht es noch, wenn sie beim Essen sparen."
+    ],
+    "lines": [
+      "Hast du das Budget eingehalten?",
+      "Nein. Ich habe zu viel für den Zug ausgegeben.",
+      "Reicht es für das Hotel?",
+      "Ja, wenn wir beim Essen sparen."
+    ]
+  },
+  "b1-27": {
+    "lead": [
+      "Eine Einladung kann eine Tür offen lassen.",
+      "Anna lädt jemanden am Freitag zum Essen ein, wenn es geht. Wenn nicht, ist ein anderes Mal in Ordnung. Freitag geht."
+    ],
+    "lines": [
+      "Ich möchte dich zum Essen einladen.",
+      "Diesen Freitag?",
+      "Ja, wenn du kannst. Wenn nicht, ist ein anderes Mal in Ordnung.",
+      "Freitag geht."
+    ]
+  },
+  "b1-28": {
+    "lead": [
+      "Etwas ist schiefgegangen, und es war Annas Schuld. Sie hat die Datei vergessen.",
+      "Sie entschuldigt sich und sagt, sie schickt sie heute. Sie soll sie zuerst prüfen."
+    ],
+    "lines": [
+      "Es tut mir leid. Es war meine Schuld.",
+      "Was ist passiert?",
+      "Ich habe die Datei vergessen. Ich schicke sie heute.",
+      "Danke. Prüfen Sie sie bitte zuerst."
+    ]
+  },
+  "b1-29": {
+    "lead": [
+      "Ein Freund sieht müde aus. Der Grund ist zu viel Arbeit.",
+      "Der Rat ist einfach: dieses Wochenende ausruhen. Ein Rat ist kein Befehl."
+    ],
+    "lines": [
+      "Du siehst müde aus.",
+      "Ich habe zu viel gearbeitet.",
+      "Du solltest dich dieses Wochenende ausruhen.",
+      "Das ist ein guter Rat."
+    ]
+  },
+  "b1-30": {
+    "lead": [
+      "Ein Ablauf bei der Arbeit verschwendet Zeit: drei Formulare, wo eins reichen würde.",
+      "Anna schlägt die Änderung vor und soll sie aufschreiben.",
+      "Vorschlagen ist weicher als fordern. Stattdessen nennt den anderen Weg.",
+      "Verschwenden ist das Problem. Ein Formular ist der Vorschlag."
+    ],
+    "lines": [
+      "Dieser Ablauf verschwendet Zeit.",
+      "Was schlägst du vor?",
+      "Ein Formular statt drei.",
+      "Schreib es auf, und wir besprechen es."
+    ]
+  },
+  "b1-31": {
+    "lead": [
+      "Ein Kunde ist unzufrieden. Jemand schaut sich das Problem an.",
+      "Das Versprechen an den Kunden ist eine Zeit: ein Anruf bis vier."
+    ],
+    "lines": [
+      "Der Kunde ist unzufrieden.",
+      "Ich schaue mir das Problem an.",
+      "Was soll ich ihm sagen?",
+      "Dass wir bis vier anrufen."
+    ]
+  },
+  "b1-32": {
+    "lead": [
+      "Ein Schulausflug braucht eine Erlaubnis, wenn man unter achtzehn ist.",
+      "Die Kosten enthalten den Bus und das Mittagessen. Anna fragt beides, bevor sie unterschreibt."
+    ],
+    "lines": [
+      "Brauchen wir eine Erlaubnis für den Ausflug?",
+      "Ja, von einem Elternteil, wenn du unter achtzehn bist.",
+      "Was ist in den Kosten enthalten?",
+      "Der Bus und das Mittagessen."
+    ]
+  },
+  "b1-33": {
+    "lead": [
+      "Anna bietet an, freiwillig zu helfen. Hilfe wird am Samstagmorgen gebraucht.",
+      "Sie kann um neun kommen. Bequeme Schuhe."
+    ],
+    "lines": [
+      "Ich möchte freiwillig helfen.",
+      "Wir brauchen am Samstagmorgen Hilfe.",
+      "Ich kann um neun kommen.",
+      "Bringen Sie bequeme Schuhe mit."
+    ]
+  },
+  "b1-34": {
+    "lead": [
+      "Bei einem Nachbarschaftstreffen unterstützt Anna den neuen Park.",
+      "Andere sorgen sich wegen des Lärms. Wenn er um neun schließt, findet sie das in Ordnung, und sie wird es sagen."
+    ],
+    "lines": [
+      "Ich unterstütze den neuen Park.",
+      "Manche sorgen sich wegen des Lärms.",
+      "Wenn er um neun schließt, sollte das gehen.",
+      "Ich erwähne das im Treffen."
+    ]
+  },
+  "b1-35": {
+    "lead": [
+      "Beim Recycling hat jedes Material eine Tonne. Glas ist grün.",
+      "Plastik ist gelb. Papier ist blau. Anna fragt, bevor sie rät.",
+      "Die Frage ist kurz: welche Tonne?",
+      "Glas, Plastik und die Farbe der Tonne sind die Antwort."
+    ],
+    "lines": [
+      "Wohin kommt das Glas?",
+      "In die grüne Tonne.",
+      "Und Plastik?",
+      "In die gelbe. Papier ist blau."
+    ]
+  },
+  "b1-36": {
+    "lead": [
+      "Anna kann einen Zahnarzttermin nicht halten. Sie sagt ab und bucht neu.",
+      "Nächste Woche geht. Mittwoch um zwei."
+    ],
+    "lines": [
+      "Ich muss meinen Termin absagen.",
+      "Möchten Sie einen neuen?",
+      "Ja. Nächste Woche, wenn es geht.",
+      "Mittwoch um zwei."
+    ]
+  },
+  "b1-37": {
+    "lead": [
+      "Im Fitnessstudio sagt Anna, dass sie Anfängerin ist.",
+      "Jemand zeigt ihr ein Gerät. Sie soll aufhören, wenn es wehtut."
+    ],
+    "lines": [
+      "Ich bin Anfängerin.",
+      "Fangen Sie mit diesem Gerät an.",
+      "Können Sie es mir zeigen?",
+      "Hören Sie auf, wenn es wehtut."
+    ]
+  },
+  "b1-38": {
+    "lead": [
+      "Ein Gast kommt, und sie kann kein Fleisch essen.",
+      "Fisch geht. Gemüse würde auch gehen. Anna fragt, bevor sie kocht."
+    ],
+    "lines": [
+      "Mein Gast kann kein Fleisch essen.",
+      "Ich kann stattdessen Gemüse kochen.",
+      "Sie isst Fisch.",
+      "Dann ist Fisch einfach."
+    ]
+  },
+  "b1-39": {
+    "lead": [
+      "Eine Bewertung braucht einen Grund, nicht nur einen Stern.",
+      "Das Essen war gut, aber der Service war langsam. Sie kämen wieder, wenn sie mehr Zeit haben."
+    ],
+    "lines": [
+      "Wie war das Restaurant?",
+      "Das Essen war gut, aber der Service war langsam.",
+      "Würdest du wieder hingehen?",
+      "Ja, wenn wir mehr Zeit haben."
+    ]
+  },
+  "b1-40": {
+    "lead": [
+      "Das günstigere ist nicht automatisch das bessere.",
+      "Die Qualität ist nicht dieselbe. Das teure lohnt sich, wenn man es jeden Tag benutzt.",
+      "Vergleichen ist das Verb. Günstiger ist nur eine Tatsache.",
+      "Lohnen ist die Frage, die folgt."
+    ],
+    "lines": [
+      "Das hier ist günstiger.",
+      "Die Qualität ist nicht dieselbe.",
+      "Lohnt sich das teure?",
+      "Wenn du es jeden Tag benutzt, ja."
+    ]
+  },
+  "b1-41": {
+    "lead": [
+      "Eine Online-Bestellung ist am Knopf nicht fertig.",
+      "Die Lieferung dauert drei bis fünf Tage. Eine Rückgabe ist innerhalb von vierzehn Tagen möglich."
+    ],
+    "lines": [
+      "Wie lange dauert die Lieferung?",
+      "Drei bis fünf Tage.",
+      "Kann ich es zurückgeben?",
+      "Ja, innerhalb von vierzehn Tagen."
+    ]
+  },
+  "b1-42": {
+    "lead": [
+      "Anna dachte morgen. Die andere Person meinte heute.",
+      "Sie sagt, sie hat es missverstanden. Jetzt ist es klar."
+    ],
+    "lines": [
+      "Ich dachte, du meinst morgen.",
+      "Ich meinte eigentlich heute.",
+      "Es tut mir leid. Ich habe es missverstanden.",
+      "Jetzt ist es klar."
+    ]
+  },
+  "b1-43": {
+    "lead": [
+      "Jemand bittet Anna, mehr Arbeit zu nehmen. Sie hat schon den Bericht.",
+      "Sie sagt, sie kann nicht, und sie bietet nächste Woche an, wenn sie Zeit hat.",
+      "Nicht können ist vollständig, wenn der Grund echt ist. Vielleicht lässt die Tür offen.",
+      "Nächste Woche ist eine Zeit, kein vages Nein."
+    ],
+    "lines": [
+      "Kannst du das auch noch nehmen?",
+      "Ich kann nicht. Ich habe schon den Bericht.",
+      "Vielleicht nächste Woche?",
+      "Ja. Nächste Woche habe ich Zeit."
+    ]
+  },
+  "b1-44": {
+    "lead": [
+      "Es gibt Nachrichten über den Bahnhof. Die Arbeiten beginnen im Mai.",
+      "Die Hoffnung ist, dass der Morgenzug nicht betroffen ist."
+    ],
+    "lines": [
+      "Hast du die Nachrichten gehört?",
+      "Über den Bahnhof?",
+      "Ja. Die Arbeiten beginnen im Mai.",
+      "Ich hoffe, es betrifft den Morgenzug nicht."
+    ]
+  },
+  "b1-45": {
+    "lead": [
+      "Eine Empfehlung nennt einen Ort und einen Grund.",
+      "Das Café am Park ist ruhig und gut zum Arbeiten. Das am Bahnhof ist laut. Das meiden."
+    ],
+    "lines": [
+      "Kannst du ein Café empfehlen?",
+      "Das am Park. Es ist ruhig.",
+      "Ist es gut zum Arbeiten?",
+      "Ja. Meide das am Bahnhof. Es ist laut."
+    ]
+  },
+  "b1-46": {
+    "lead": [
+      "Vor einer Reise fragt Anna, was die Versicherung abdeckt.",
+      "Verlorenes Gepäck und medizinische Versorgung, ja. Einen verpassten Flug nur, wenn die Fluggesellschaft storniert."
+    ],
+    "lines": [
+      "Was deckt die Versicherung ab?",
+      "Verlorenes Gepäck und medizinische Versorgung.",
+      "Deckt sie einen verpassten Flug ab?",
+      "Nur wenn die Fluggesellschaft storniert."
+    ]
+  },
+  "b1-47": {
+    "lead": [
+      "Am Elternabend ist der Bericht konkret.",
+      "Sie hat Fortschritte gemacht. Sie beteiligt sich mehr. Ihr Schreiben ist sorgfältig. Die offene Frage ist, was sie verbessern soll."
+    ],
+    "lines": [
+      "Sie hat Fortschritte gemacht.",
+      "Beteiligt sie sich?",
+      "Mehr als vorher. Ihr Schreiben ist sorgfältig.",
+      "Was soll sie verbessern?"
+    ]
+  },
+  "b1-48": {
+    "lead": [
+      "Ein Team arbeitet besser, wenn die Rollen laut gesagt werden.",
+      "Eine Person ist für das Budget zuständig. Eine andere unterstützt den Kunden. Das Datum entscheiden sie zusammen."
+    ],
+    "lines": [
+      "Wer ist für das Budget zuständig?",
+      "Ich. Du unterstützt den Kunden.",
+      "Wer entscheidet das Datum?",
+      "Wir entscheiden zusammen."
+    ]
+  },
+  "b1-49": {
+    "lead": [
+      "In den Zahlen war ein Fehler. Der Kunde hat ihn nicht gesehen.",
+      "Anna hat ihn bemerkt, noch einmal geprüft und eine Korrektur geschickt. Nächstes Mal soll noch jemand anders lesen."
+    ],
+    "lines": [
+      "Ich habe einen Fehler in den Zahlen bemerkt.",
+      "Hat der Kunde ihn gesehen?",
+      "Nein. Ich habe noch einmal geprüft und eine Korrektur geschickt.",
+      "Nächstes Mal bitten Sie jemanden, es auch zu lesen."
+    ]
+  },
+  "b1-50": {
+    "lead": [
+      "Zwei Kurse. Einer ist praktischer. Der andere hat mehr Theorie.",
+      "Wenn das Ziel bald eine Arbeit ist, passt der praktische.",
+      "Passen ist persönlich. Praktisch und Theorie sind Tatsachen über die Kurse.",
+      "Der Rat folgt dem Ziel, nicht einer allgemeinen Regel."
+    ],
+    "lines": [
+      "Dieser Kurs ist praktischer.",
+      "Der andere hat mehr Theorie.",
+      "Welcher passt zu mir?",
+      "Wenn du bald eine Arbeit willst, nimm den praktischen."
+    ]
+  },
+  "b2-01": {
+    "lead": [
+      "Das Treffen hat einen Zweck, nicht nur einen Raum.",
+      "Sie brauchen ein Ergebnis: ein Datum. Die Tagesordnung ist die Reihenfolge. Sie haben dreißig Minuten, also fangen sie mit den Risiken an."
+    ],
+    "lines": [
+      "Der Zweck dieses Treffens ist, den Zeitplan zu vereinbaren.",
+      "Sollen wir der Tagesordnung folgen?",
+      "Ja. Das Ergebnis, das wir brauchen, ist ein Datum, und wir haben dreißig Minuten.",
+      "Dann fangen wir mit den Risiken an."
+    ]
+  },
+  "b2-02": {
+    "lead": [
+      "Anna hat etwas zu ergänzen und will niemanden abwürgen.",
+      "Sie bittet, etwas zu sagen, bevor sie weitergehen. Sie fasst sich kurz. Dann macht die andere Person zu Ende."
+    ],
+    "lines": [
+      "Darf ich etwas ergänzen, bevor wir weitergehen?",
+      "Bitte, wenn es zu diesem Punkt gehört.",
+      "Ich fasse mich kurz.",
+      "Nur zu, dann mache ich zu Ende."
+    ]
+  },
+  "b2-03": {
+    "lead": [
+      "Bevor das Treffen endet, fasst jemand zusammen.",
+      "Der Entwurf geht am Montag raus. Die Aufgabe hat eine zuständige Person. Kommentare kommen bis Mittwoch."
+    ],
+    "lines": [
+      "Lassen Sie mich zusammenfassen.",
+      "Wir haben vereinbart, den Entwurf am Montag zu schicken.",
+      "Die Aufgabe liegt bei mir, und Sie prüfen ihn.",
+      "Ja. Ich schicke Kommentare bis Mittwoch."
+    ]
+  },
+  "b2-04": {
+    "lead": [
+      "Widerspruch gegenüber einer Leitung braucht trotzdem einen klaren Satz.",
+      "Das Datum ist möglich. Die Sorge ist die Qualität. Anna bittet, eine Alternative zu hören."
+    ],
+    "lines": [
+      "Ich habe eine Sorge.",
+      "Sprechen Sie.",
+      "Das Datum ist möglich. Das Risiko ist aber die Qualität.",
+      "Welche Alternative schlagen Sie vor?"
+    ]
+  },
+  "b2-05": {
+    "lead": [
+      "Rückmeldung, die hilft, ist konkret.",
+      "Die Stärke ist der klare Aufbau. Was besser werden soll, sind die Beispiele. Ein Fall in Abschnitt zwei würde helfen."
+    ],
+    "lines": [
+      "Ihre Stärke ist der klare Aufbau.",
+      "Danke. Was soll ich verbessern?",
+      "Die Beispiele. In Abschnitt zwei würde ein Fall helfen.",
+      "Ich ergänze einen."
+    ]
+  },
+  "b2-06": {
+    "lead": [
+      "Kritik braucht keine Verteidigung jeder Zeile.",
+      "Anna sagt, der Punkt ist fair. Beim Ton ist sie nur zum Teil einverstanden, und sie versucht einen kürzeren Schluss."
+    ],
+    "lines": [
+      "Das ist fair.",
+      "Ich war nicht sicher, ob Sie es so sehen.",
+      "Beim Ton bin ich nur zum Teil einverstanden, aber ich versuche einen kürzeren Schluss.",
+      "Das reicht."
+    ]
+  },
+  "b2-07": {
+    "lead": [
+      "Montag ist nicht realistisch, wenn der Umfang gleich bleibt.",
+      "Sie können den Anhang streichen. Wenn sie ihn streichen, ist Montag möglich. Sie sind einverstanden.",
+      "Umfang und Zeit sind ein Tausch. Streichen ist das Verb, das das Datum echt macht.",
+      "Wenn nennt die Bedingung."
+    ],
+    "lines": [
+      "Montag ist nicht realistisch, wenn der Umfang gleich bleibt.",
+      "Was können wir streichen?",
+      "Den Anhang. Wenn wir ihn streichen, ist Montag möglich.",
+      "Einverstanden."
+    ]
+  },
+  "b2-08": {
+    "lead": [
+      "Ein Gespräch über das Gehalt braucht Gründe, keine Stimmung.",
+      "Anna hat mehr Verantwortung übernommen, und der marktübliche Satz ist höher. Sie soll eine kurze Notiz mitbringen. Die Prüfung ist nächsten Monat."
+    ],
+    "lines": [
+      "Ich möchte über mein Gehalt sprechen.",
+      "Was hat sich geändert?",
+      "Ich habe mehr Verantwortung übernommen, und der marktübliche Satz ist höher.",
+      "Bringen Sie eine kurze Notiz mit, und wir prüfen es nächsten Monat."
+    ]
+  },
+  "b2-09": {
+    "lead": [
+      "Die Arbeit stockt, weil sie von den Daten eines anderen Teams abhängt.",
+      "Sie haben schon nachgehakt. Inzwischen kann der Rest des Entwurfs weitergehen, und die nächste E-Mail soll die Leitung in Kopie haben."
+    ],
+    "lines": [
+      "Wir kommen nicht weiter, weil wir von ihren Daten abhängen.",
+      "Haben Sie nachgehakt?",
+      "Ja. Inzwischen können wir den Rest entwerfen.",
+      "Machen Sie das, und setzen Sie mich bei der nächsten E-Mail in Kopie."
+    ]
+  },
+  "b2-10": {
+    "lead": [
+      "Der Kunde will eine weitere Runde Änderungen. Das liegt außerhalb des Umfangs.",
+      "Sie können es machen, aber die zusätzliche Arbeit sollte berechnet werden. Eine Grenze ist nicht dasselbe wie eine Absage.",
+      "Umfang sagt, was vereinbart war. Zusätzlich sagt, was es nicht war.",
+      "Berechnen ist die Bedingung für ein Ja."
+    ],
+    "lines": [
+      "Der Kunde will eine weitere Runde Änderungen.",
+      "Das liegt außerhalb des Umfangs.",
+      "Lehnen wir ab?",
+      "Wir können es machen, aber wir sollten die zusätzliche Arbeit berechnen."
+    ]
+  },
+  "b2-11": {
+    "lead": [
+      "In einem Seminar knüpft Anna an das an, was jemand anders gesagt hat. Sie ersetzt es nicht.",
+      "Die These ist interessant, während die Belege noch dünn sind. Die nützliche Frage ist, welche Quelle man ergänzt."
+    ],
+    "lines": [
+      "Ich möchte an das anknüpfen, was Sie gesagt haben.",
+      "Bitte.",
+      "Die These ist interessant, die Belege sind aber noch dünn.",
+      "Welche Quelle würden Sie ergänzen?"
+    ]
+  },
+  "b2-12": {
+    "lead": [
+      "Eine Idee im Raum hat eine Quelle.",
+      "Dem Artikel nach sind die Preise gefallen. Die Argumentation ist klar. Die Stichprobe ist aber klein, und diese Grenze gehört in die Antwort."
+    ],
+    "lines": [
+      "Dem Artikel nach sind die Preise gefallen.",
+      "Stimmen Sie zu?",
+      "Sie argumentieren das klar. Die Stichprobe ist aber klein.",
+      "Erwähnen Sie diese Grenze."
+    ]
+  },
+  "b2-13": {
+    "lead": [
+      "Eine Theorie ist leichter, wenn sie in anderen Worten dasteht.",
+      "Die Nachfrage fällt, wenn der Preis steigt. In diesem Fall ist der Fahrpreis gestiegen, und weniger Menschen sind gefahren."
+    ],
+    "lines": [
+      "Anders gesagt: Die Theorie sagt, die Nachfrage fällt, wenn der Preis steigt.",
+      "Ja.",
+      "Wie gilt das für diesen Fall?",
+      "Der Fahrpreis ist gestiegen, und weniger Menschen sind gefahren."
+    ]
+  },
+  "b2-14": {
+    "lead": [
+      "Ein Entwurf kann klar sein und trotzdem zu lang.",
+      "Die Einleitung funktioniert. Der dritte Absatz wiederholt den zweiten. Der Vorschlag ist, mit der Frage zu enden, nicht mit der Definition."
+    ],
+    "lines": [
+      "Die Einleitung ist klar.",
+      "Der dritte Absatz wiederholt den zweiten.",
+      "Ich streiche ihn.",
+      "Ich schlage vor, Sie enden mit der Frage, nicht mit der Definition."
+    ]
+  },
+  "b2-15": {
+    "lead": [
+      "Ein akademischer Widerspruch kann bei der Sache bleiben.",
+      "Annas Position ist nicht, dass der Plan falsch ist. Sondern, dass die Belege ihn noch nicht tragen.",
+      "Nicht dass und sondern halten das Ziel gemeinsam.",
+      "Sie sind über die Belege uneins, nicht über das Ziel."
+    ],
+    "lines": [
+      "Meine Position ist nicht, dass der Plan falsch ist.",
+      "Was ist sie dann?",
+      "Sondern, dass die Belege ihn noch nicht tragen.",
+      "Dann sind wir über die Belege uneins, nicht über das Ziel."
+    ]
+  },
+  "b2-16": {
+    "lead": [
+      "Sprechstunden funktionieren besser mit einer konkreten Frage.",
+      "Anna hängt bei Frage vier. Sie hat die Methode aus dem Unterricht versucht. Der letzte Schritt scheitert. Sie bringt die Seite mit."
+    ],
+    "lines": [
+      "Ich hänge bei Frage vier.",
+      "Was haben Sie versucht?",
+      "Die Methode aus dem Unterricht. Der letzte Schritt scheitert.",
+      "Bringen Sie die Seite in die Sprechstunde. Eine konkrete Frage ist leichter zu beantworten."
+    ]
+  },
+  "b2-17": {
+    "lead": [
+      "Ein Forschungsthema kann zu weit sein, um es fertig zu machen.",
+      "Eine Stadt, in den letzten zehn Jahren, ist ein Thema, das sie wirklich abschließen kann.",
+      "Zu weit ist das Problem. Eingrenzen ist der Schnitt.",
+      "Innerhalb nennt den Zaun um das neue Thema."
+    ],
+    "lines": [
+      "Das Thema ist zu weit.",
+      "Ich könnte mich auf eine Stadt konzentrieren.",
+      "Innerhalb der letzten zehn Jahre?",
+      "Ja. Das ist ein Thema, das ich fertig machen kann."
+    ]
+  },
+  "b2-18": {
+    "lead": [
+      "Eine Frage in einem Vortrag hat nicht immer schon eine volle Antwort.",
+      "Anna ist sich der genauen Zahl nicht sicher. Zum Teil würde die Nachfrage fallen, wenn die Kosten sich verdoppeln. Sie prüft es und meldet sich."
+    ],
+    "lines": [
+      "Was passiert, wenn sich die Kosten verdoppeln?",
+      "Ich bin mir der genauen Zahl nicht sicher.",
+      "Eine Schätzung ist in Ordnung.",
+      "Zum Teil würde die Nachfrage fallen. Ich prüfe es und melde mich."
+    ]
+  },
+  "b2-19": {
+    "lead": [
+      "Eine Studie hat eine ethische Kante, nicht nur ein Ergebnis.",
+      "Die Teilnehmenden haben zugestimmt, und die Daten sind anonym. Sie sollten trotzdem sagen, wie lange sie sie behalten."
+    ],
+    "lines": [
+      "Haben die Teilnehmenden zugestimmt?",
+      "Ja, und die Daten sind anonym.",
+      "Wir sollten trotzdem sagen, wie lange wir sie behalten.",
+      "Ergänzen Sie das in der Methode."
+    ]
+  },
+  "b2-20": {
+    "lead": [
+      "Das Ergebnis war nicht das, das Anna erwartet hat.",
+      "Die Gruppen waren fast gleich. Der nächste Schritt ist zu fragen warum, nicht das Ergebnis zu verstecken.",
+      "Jedoch markiert die Wendung von der Hoffnung zum Befund.",
+      "Weitere Arbeit folgt einem Ergebnis. Sie ersetzt es nicht."
+    ],
+    "lines": [
+      "Ich habe einen klaren Unterschied erwartet.",
+      "Und?",
+      "Die Gruppen waren aber fast gleich.",
+      "Dann ist der nächste Schritt zu fragen warum, nicht das Ergebnis zu verstecken."
+    ]
+  },
+  "b2-21": {
+    "lead": [
+      "Bevor Anna unterschreibt, fragt sie, was eine Klausel bedeutet.",
+      "Jede Seite kann den Vertrag mit einem Monat Frist beenden. Für Geräte haftet sie nur, wenn sie sie beschädigt."
+    ],
+    "lines": [
+      "Was bedeutet diese Klausel?",
+      "Jede Seite kann den Vertrag mit einem Monat Frist beenden.",
+      "Hafte ich für Geräte?",
+      "Nur wenn Sie sie beschädigen. Lesen Sie es, bevor Sie unterschreiben."
+    ]
+  },
+  "b2-22": {
+    "lead": [
+      "Arbeit von zu Hause hat trotzdem Stunden, in denen man jemanden erwartet.",
+      "Anna kann sich mit dem Team von zehn bis drei überschneiden. Außerhalb antwortet sie am nächsten Morgen, wenn die Arbeit nicht dringend ist."
+    ],
+    "lines": [
+      "Ich kann mich mit dem Team von zehn bis drei überschneiden.",
+      "Wir erwarten Leute in diesen Kernzeiten online.",
+      "Außerhalb antworte ich am nächsten Morgen.",
+      "Das ist vernünftig, wenn die Arbeit nicht dringend ist."
+    ]
+  },
+  "b2-23": {
+    "lead": [
+      "Ein Jahresgespräch ist mehr als eine Liste von Aufgaben.",
+      "Anna hat den Kundenablauf verkürzt, und sie hat gelernt, das wöchentliche Treffen zu leiten. Als Nächstes möchte sie ein kleines Projekt leiten."
+    ],
+    "lines": [
+      "Was haben Sie beigetragen?",
+      "Ich habe den Kundenablauf verkürzt, und ich habe gelernt, das wöchentliche Treffen zu leiten.",
+      "Was kommt als Nächstes?",
+      "Ich möchte ein kleines Projekt leiten."
+    ]
+  },
+  "b2-24": {
+    "lead": [
+      "Neue Arbeit lässt die alte nicht verschwinden.",
+      "Wenn das dazukommt, wartet etwas anderes. Der Kunde will beides. Dann wählen sie: Tempo oder Qualität. Das ist der Kompromiss."
+    ],
+    "lines": [
+      "Wenn wir das ergänzen, muss etwas anderes warten.",
+      "Der Kunde will beides.",
+      "Dann wählen wir. Tempo oder Qualität. Das ist der Kompromiss.",
+      "Ich sage es ihnen."
+    ]
+  },
+  "b2-25": {
+    "lead": [
+      "Eine Entscheidung, die laut gesagt wurde, ist noch keine, an die sich alle gleich erinnern.",
+      "Anna bittet, sie schriftlich zu bestätigen, damit später niemand Verschiedenes annimmt."
+    ],
+    "lines": [
+      "Können wir das schriftlich bestätigen?",
+      "Wir haben es im Treffen gesagt.",
+      "Ja, und später nehmen Leute Verschiedenes an.",
+      "Ich schicke eine kurze Notiz, damit das nicht passiert."
+    ]
+  },
+  "b2-26": {
+    "lead": [
+      "Eine Schlagzeile kann stärker sein als der Artikel darunter.",
+      "Die Schlagzeile sagt, die Schule wird geschlossen. Der Artikel sagt nur, dass sie es besprechen. Anna bleibt skeptisch, bis es eine Entscheidung gibt.",
+      "Behauptung und Quelle sind nicht derselbe Satz.",
+      "Skeptisch ist eine Haltung, keine Stimmung."
+    ],
+    "lines": [
+      "Die Schlagzeile sagt, die Schule wird geschlossen.",
+      "Der Artikel sagt nur, dass sie es besprechen.",
+      "Die Behauptung ist also stärker als die Quelle.",
+      "Ich bin skeptisch, bis wir die Entscheidung sehen."
+    ]
+  },
+  "b2-27": {
+    "lead": [
+      "Bei einer öffentlichen Versammlung teilt man das Wort.",
+      "Anna fasst sich kurz. Ihre Sorge sind die Nachtbusse, nicht der Park. Dann gibt sie weiter."
+    ],
+    "lines": [
+      "Ich fasse mich kurz.",
+      "Bitte.",
+      "Meine Sorge sind die Nachtbusse, nicht der Park selbst.",
+      "Danke. Ich gebe an die nächste Person weiter."
+    ]
+  },
+  "b2-28": {
+    "lead": [
+      "Zwei Wohnungen, und beide sind echte Möglichkeiten.",
+      "Obwohl die andere näher ist, würde Anna diese wählen, weil die Ruhe den längeren Weg wert ist.",
+      "Obwohl behält die andere Tatsache im Satz. Weil gibt den Grund.",
+      "Unterm Strich würde jemand anders vielleicht anders wählen. Das ist erlaubt."
+    ],
+    "lines": [
+      "Obwohl die andere Wohnung näher ist, würde ich diese wählen.",
+      "Weil sie ruhig ist?",
+      "Ja. Die Ruhe ist den längeren Weg wert.",
+      "Unterm Strich würde ich vielleicht anders wählen."
+    ]
+  },
+  "b2-29": {
+    "lead": [
+      "Eine Familienentscheidung ist nicht die Vorliebe einer Person, die als Tatsache verkündet wird.",
+      "Anna würde lieber in der Stadt bleiben. Schule ist der anderen Person wichtig. Es kommt darauf an. Sie schauen sich beides an und entscheiden nicht heute Abend."
+    ],
+    "lines": [
+      "Ich würde lieber in der Stadt bleiben.",
+      "Es kommt darauf an, was Ihnen wichtig ist. Schule ist mir wichtig.",
+      "Dann sollten wir uns beides ansehen.",
+      "Ja. Wir entscheiden zusammen, nicht heute Abend."
+    ]
+  },
+  "b2-30": {
+    "lead": [
+      "Pflege für ein Elternteil ist keine Entscheidung über den Kopf der Person hinweg.",
+      "Sie bleibt lieber zu Hause. Mit Unterstützung kommt sie zurecht. Statt sie umzuziehen, könnten sie jeden Tag vorbeikommen. Sie fragen sie zuerst."
+    ],
+    "lines": [
+      "Sie bleibt lieber zu Hause.",
+      "Kommt sie zurecht?",
+      "Mit Unterstützung ja. Statt sie umzuziehen, könnten wir jeden Tag vorbeikommen.",
+      "Fragen Sie sie, bevor wir etwas arrangieren."
+    ]
+  },
+  "b2-31": {
+    "lead": [
+      "Eine zweite Meinung ist keine Beleidigung für die erste Ärztin.",
+      "Anna will sich der Möglichkeiten sicher sein. Eine Überweisung ist der praktische Schritt. Sie kann es sich immer noch anders überlegen."
+    ],
+    "lines": [
+      "Ich möchte eine zweite Meinung.",
+      "Natürlich. Das heißt nicht, dass Sie an der ersten Ärztin zweifeln.",
+      "Ich will mir der Möglichkeiten sicher sein.",
+      "Ich schreibe eine Überweisung. Sie können es sich anders überlegen."
+    ]
+  },
+  "b2-32": {
+    "lead": [
+      "Das Kleingedruckte sagt, was nicht abgedeckt ist.",
+      "Zahnbehandlung ist ausgeschlossen, außer es ist ein Notfall. Die volle Liste ist auf der zweiten Seite. Anna prüft das, bevor sie reist."
+    ],
+    "lines": [
+      "Schließt das Zahnbehandlung aus?",
+      "Ja, außer es ist ein Notfall.",
+      "Das muss ich prüfen, bevor ich reise.",
+      "Die volle Liste ist auf der zweiten Seite."
+    ]
+  },
+  "b2-33": {
+    "lead": [
+      "In der Botschaft braucht dringend einen Grund.",
+      "Anna reist am Zwölften, also bittet sie um einen früheren Termin. Ein Brief vom Arbeitgeber zeigt, warum das Datum zählt. Sie bringt die Dokumente mit."
+    ],
+    "lines": [
+      "Ich brauche einen früheren Termin, weil ich am Zwölften reise.",
+      "Bringen Sie die Dokumente mit, und wir sehen, was möglich ist.",
+      "Ist ein Brief von meinem Arbeitgeber nützlich?",
+      "Ja. Er zeigt, warum das Datum zählt."
+    ]
+  },
+  "b2-34": {
+    "lead": [
+      "Gewohnheiten rund um die Zeit sind keine moralische Rangliste.",
+      "Zu Hause kommen Leute eher ein wenig zu spät. Hier dagegen fangen Treffen pünktlich an. Anna ist das inzwischen gewohnt.",
+      "Keine der Gewohnheiten ist falsch. Es hilft zu wissen, in welchem Raum man ist."
+    ],
+    "lines": [
+      "Zu Hause kommen wir eher ein wenig zu spät.",
+      "Hier dagegen fangen Treffen pünktlich an.",
+      "Das bin ich inzwischen gewohnt.",
+      "Keine Gewohnheit ist falsch. Es hilft zu wissen, in welcher man gerade ist."
+    ]
+  },
+  "b2-35": {
+    "lead": [
+      "Ein Beschwerdebrief hat eine Reihenfolge.",
+      "Was man gekauft hat, was schiefging, und was man erwartet. Anna erwartet einen Ersatz oder eine Erstattung. Die Quittung ist angehängt, und sie nennt ein Datum für die Lösung."
+    ],
+    "lines": [
+      "Schreiben Sie, was Sie gekauft haben, was schiefging, und was Sie erwarten.",
+      "Ich erwarte einen Ersatz oder eine Erstattung.",
+      "Hängen Sie die Quittung an und nennen Sie ein Datum für die Lösung.",
+      "Ich schicke es heute."
+    ]
+  },
+  "b2-36": {
+    "lead": [
+      "Ein besserer Preis braucht einen Grund, nicht nur einen Wunsch.",
+      "Wenn Anna drei nimmt, gibt es einen Nachlass. Zehn Prozent werden angeboten. Sie fragt nach fünfzehn. Sie treffen sich bei zwölf, wenn sie heute zahlt."
+    ],
+    "lines": [
+      "Wenn ich drei nehme, gibt es einen Nachlass?",
+      "Ich kann zehn Prozent abziehen.",
+      "Können Sie mir bei fünfzehn entgegenkommen?",
+      "Zwölf, wenn Sie heute zahlen."
+    ]
+  },
+  "b2-37": {
+    "lead": [
+      "Eine Änderung bei der Arbeit kann richtig sein und trotzdem etwas kosten.",
+      "Anna schlägt vor, das wöchentliche Paket nicht mehr zu drucken. Obwohl es praktisch ist, verschwendet es Papier. Ein Versuch von einem Monat ist leichter zu akzeptieren als eine dauerhafte Regel."
+    ],
+    "lines": [
+      "Ich schlage vor, wir drucken das wöchentliche Paket nicht mehr.",
+      "Obwohl es praktisch ist?",
+      "Ja. Es verschwendet Papier. Wir könnten einen Monat ohne ausprobieren.",
+      "Ein Versuch ist leichter zu akzeptieren als eine dauerhafte Regel."
+    ]
+  },
+  "b2-38": {
+    "lead": [
+      "Eine Mentorin wird um Rat gebeten, nicht darum, die Arbeit zu machen.",
+      "Anna will Rat statt einer Lösung. Sie hat schon entschieden, das Treffen kurz zu halten. Beim Ton der E-Mail ist sie weniger sicher. Die Entscheidung bleibt ihre."
+    ],
+    "lines": [
+      "Ich möchte Ihren Rat, keine fertige Lösung.",
+      "Sagen Sie, was Sie schon entschieden haben.",
+      "Ich halte das Treffen kurz. Beim Ton der E-Mail bin ich weniger sicher.",
+      "Die Entscheidung bleibt Ihre."
+    ]
+  },
+  "b2-39": {
+    "lead": [
+      "Nach einem Konflikt geht der nützliche Satz um das nächste Mal, nicht um die Wiederholung.",
+      "Beide haben angenommen, die andere Person schickt die Datei. Das stimmte. Sie wollen es nicht noch einmal durchgehen. Sie vereinbaren, wie sie von hier an arbeiten."
+    ],
+    "lines": [
+      "Wir haben beide angenommen, die andere Person schickt die Datei.",
+      "Das stimmt.",
+      "Ich will es nicht noch einmal durchgehen.",
+      "Ich auch nicht. Vereinbaren wir, wie wir von hier an arbeiten."
+    ]
+  },
+  "b2-40": {
+    "lead": [
+      "Eine vorsichtige Empfehlung übertreibt nicht.",
+      "Ja, für Forschung. Das ist ihre Stärke. Sie lernt aber noch, ein Treffen zu leiten, also würde ein kleines Team besser zu ihr passen."
+    ],
+    "lines": [
+      "Würden Sie sie empfehlen?",
+      "Ja, für Forschung. Das ist ihre Stärke.",
+      "Irgendeine Grenze?",
+      "Sie lernt aber noch, ein Treffen zu leiten, also würde ein kleines Team besser zu ihr passen."
+    ]
+  },
+  "b2-41": {
+    "lead": [
+      "Vor dem Kauf liest Anna die Bedingung, nicht nur den Preis.",
+      "Die Garantie verfällt, wenn sie das Produkt nicht innerhalb von dreißig Tagen registriert. Wenn sie es nicht tut, ist das Versprechen schwächer."
+    ],
+    "lines": [
+      "Die Garantie verfällt, wenn ich das Produkt nicht registriere.",
+      "Innerhalb von dreißig Tagen.",
+      "Das ist eine wichtige Bedingung.",
+      "Registrieren Sie es heute, sonst ist das Versprechen schwächer."
+    ]
+  },
+  "b2-42": {
+    "lead": [
+      "Nicht zu entscheiden kann eine Entscheidung sein.",
+      "Anna ist noch nicht so weit. Das Angebot endet am Freitag. Sie entscheidet, wenn das zweite Angebot da ist, nicht vorher. Den Rest überstürzt sie nicht."
+    ],
+    "lines": [
+      "Ich bin noch nicht bereit zu entscheiden.",
+      "Das Angebot endet am Freitag.",
+      "Dann entscheide ich, wenn ich das zweite Angebot habe, nicht vorher.",
+      "Das ist vernünftig. Überstürzen Sie den Rest nicht."
+    ]
+  },
+  "b2-43": {
+    "lead": [
+      "Zwei gute Möglichkeiten, und beide haben einen Preis.",
+      "Entweder sie stellen jetzt ein, oder sie verschieben den Start. Einstellen kostet Geld. Verschieben verliert das Datum. Sie nehmen einen Preis offen an."
+    ],
+    "lines": [
+      "Entweder wir stellen jetzt ein, oder wir verschieben den Start.",
+      "Beides hat einen Preis.",
+      "Wenn wir einstellen, geben wir Geld aus. Wenn wir verschieben, verlieren wir das Datum.",
+      "Dann nehmen wir einen Preis offen an."
+    ]
+  },
+  "b2-44": {
+    "lead": [
+      "Ein Rat mit würde ist als deiner markiert, nicht als Gesetz.",
+      "An deiner Stelle würde ich die ruhigere Wohnung nehmen, auch mit dem längeren Weg. Das ist aber meine Vorliebe, keine Regel für dich."
+    ],
+    "lines": [
+      "Was würdest du tun?",
+      "An deiner Stelle würde ich die ruhigere Wohnung nehmen.",
+      "Auch mit dem längeren Weg?",
+      "Ja. Das ist aber meine Vorliebe, keine Regel für dich."
+    ]
+  },
+  "b2-45": {
+    "lead": [
+      "Eine Sicht kann sich ändern, und die Änderung kann man sagen.",
+      "Anna dachte früher, die schnellste Möglichkeit sei immer besser. Jetzt dagegen denkt sie, die ruhigere hält länger. Die nächste Frage ist, was ihre Meinung geändert hat.",
+      "Früher und jetzt sind die zwei Zeiten. Dagegen hält sie in einem Atem."
+    ],
+    "lines": [
+      "Ich dachte früher, die schnellste Möglichkeit sei immer besser.",
+      "Und jetzt?",
+      "Jetzt dagegen denke ich, die ruhigere hält länger.",
+      "Was hat deine Meinung geändert?"
+    ]
+  },
+  "b2-46": {
+    "lead": [
+      "Eine Referenz soll sagen, was stimmt, einschließlich der Grenze.",
+      "Ja, sie schreibt eine und hält sie genau. Sie erwähnt die Kundenarbeit, diese Stärke. Sie versteckt nicht, dass Anna noch kein Team geleitet hat."
+    ],
+    "lines": [
+      "Würden Sie eine Referenz schreiben?",
+      "Ja. Ich halte sie genau.",
+      "Erwähnen Sie bitte die Kundenarbeit.",
+      "Ich erwähne diese Stärke, und ich verstecke nicht, dass Sie noch kein Team geleitet haben."
+    ]
+  },
+  "b2-47": {
+    "lead": [
+      "Ein Abschlussgespräch kann einen Weggang erklären, ohne Menschen anzugreifen.",
+      "Vor allem ist es die Möglichkeit, nicht das Team. Klarere Prioritäten würden helfen. Für den Rest ist sie dankbar."
+    ],
+    "lines": [
+      "Warum gehen Sie?",
+      "Vor allem wegen der Möglichkeit, nicht wegen des Teams.",
+      "Was sollten wir ändern?",
+      "Klarere Prioritäten. Für den Rest bin ich dankbar."
+    ]
+  },
+  "b2-48": {
+    "lead": [
+      "Fair leiten heißt, eine stille Person wird gefragt, nicht übergangen.",
+      "Sie haben sie noch nicht gehört. Sie stimmt dem Datum zu, mit einer Bedingung: das Budget muss zuerst geprüft werden. Ihre Sicht kommt, bevor sie schließen."
+    ],
+    "lines": [
+      "Wir haben Sie noch nicht gehört.",
+      "Ich stimme dem Datum zu, mit einer Bedingung.",
+      "Geben Sie bitte Ihre Sicht, bevor wir schließen.",
+      "Das Budget muss zuerst geprüft werden."
+    ]
+  },
+  "b2-49": {
+    "lead": [
+      "Schwache Belege können einen starken Schluss nicht tragen.",
+      "Sie reichen nicht, um das zu schließen. Sie deuten auf ein Muster. Sie beweisen keine Ursache. Sie bitten um weitere Daten.",
+      "Andeuten ist erlaubt. Schließen ist es nicht, noch nicht.",
+      "Weiter ist der ehrliche nächste Schritt."
+    ],
+    "lines": [
+      "Die Belege reichen nicht, um das zu schließen.",
+      "Was können wir sagen?",
+      "Sie deuten auf ein Muster. Sie beweisen keine Ursache.",
+      "Dann bitten wir um weitere Daten."
+    ]
+  },
+  "b2-50": {
+    "lead": [
+      "Der Inhalt eines Satzes kann stimmen, während der Ton hart ist.",
+      "Mildern, und denselben Punkt behalten. „Können wir uns das noch einmal ansehen?“ leistet die Arbeit von „Das ist falsch.“, ohne den Schlag.",
+      "Ton ist kein Schmuck. Er ist ein Teil dessen, was die andere Person hört.",
+      "Hart und mildern sind das Paar in dieser letzten Lektion."
+    ],
+    "lines": [
+      "Dieser Satz klingt hart.",
+      "Der Inhalt stimmt. Der Ton nicht.",
+      "Wie würden Sie ihn mildern?",
+      "Derselbe Punkt: „Können wir uns das noch einmal ansehen?“ statt „Das ist falsch.“"
+    ]
+  }
+}

@@ -7,6 +7,7 @@ type PackFile = { items?: Record<string, Entry & { en?: string }> };
 
 const memory = new Map<string, Record<string, Entry & { en?: string }>>();
 const pending = new Map<string, Promise<void>>();
+const byLemma = new Map<string, Map<string, Entry & { en?: string }>>();
 
 function lemma(text: string): string {
   return text.trim().toLowerCase().replace(/\s+/g, " ");
@@ -63,6 +64,24 @@ async function writePack(key: string, items: Record<string, Entry & { en?: strin
   }
 }
 
+function remember(lang: string, items: Record<string, Entry & { en?: string }>) {
+  const merged = { ...memory.get(lang), ...items };
+  memory.set(lang, merged);
+  const map = new Map<string, Entry & { en?: string }>();
+  for (const row of Object.values(merged)) {
+    const key = lemma(row.en || "");
+    if (!key || !row.word || map.has(key)) continue;
+    map.set(key, row);
+  }
+  byLemma.set(lang, map);
+}
+
+export function packByEnglish(lang: string, en: string): (Entry & { en?: string }) | undefined {
+  const row = byLemma.get(lang)?.get(lemma(en));
+  if (!row?.word) return undefined;
+  return row;
+}
+
 export function packEntry(lang: string, id: string, en: string): (Entry & { en?: string }) | undefined {
   const items = memory.get(lang);
   if (!items) return undefined;
@@ -80,7 +99,7 @@ export function ensurePack(lang: string, level: CourseLevel): Promise<void> {
   const job = (async () => {
     const cached = await readPack(key);
     if (cached && Object.keys(cached).length) {
-      memory.set(lang, { ...memory.get(lang), ...cached });
+      remember(lang, cached);
       return;
     }
     let items: Record<string, Entry & { en?: string }> = {};
@@ -90,7 +109,7 @@ export function ensurePack(lang: string, level: CourseLevel): Promise<void> {
     } catch {
       items = {};
     }
-    memory.set(lang, { ...memory.get(lang), ...items });
+    remember(lang, items);
     if (Object.keys(items).length) await writePack(key, items);
   })();
   pending.set(key, job);
@@ -110,5 +129,28 @@ export function usePack(lang: string, level: CourseLevel): boolean {
       live = false;
     };
   }, [lang, level]);
+  return ready;
+}
+
+const PACK_LEVELS: CourseLevel[] = ["A1", "A2", "B1", "B2", "P"];
+
+/** Loads every course level for one language so a lesson can gloss its words. */
+export function usePacks(lang: string): boolean {
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    let live = true;
+    if (!lang || lang === "en") {
+      setReady(true);
+      return;
+    }
+    setReady(false);
+    const langs = lang === "ar" ? [lang, "ar-eg", "ar-sa", "ar-ma"] : [lang];
+    Promise.all(langs.flatMap((id) => PACK_LEVELS.map((level) => ensurePack(id, level)))).then(() => {
+      if (live) setReady(true);
+    });
+    return () => {
+      live = false;
+    };
+  }, [lang]);
   return ready;
 }
