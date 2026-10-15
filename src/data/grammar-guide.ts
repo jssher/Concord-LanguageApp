@@ -1,10 +1,16 @@
+import { AFRICA } from "./grammar/africa";
+import { ASIA } from "./grammar/asia";
+import { EUROPE_EAST } from "./grammar/europe-east";
+import { EUROPE_NORTH } from "./grammar/europe-north";
+import type { GrammarChapter } from "./grammar/types";
+import { WORLD } from "./grammar/world";
 import { LANG_BY_ID, type LangMeta } from "./languages";
 
 export const GRAMMAR_SECTIONS = [
   { id: "rules", title: "Main rules", blurb: "What the sentence hangs on" },
   { id: "verbs", title: "Conjugation", blurb: "How the verb changes" },
   { id: "nouns", title: "Declension", blurb: "How the noun is marked" },
-  { id: "odd", title: "Irregularities", blurb: "Forms you cannot guess" },
+  { id: "odd", title: "Irregularities", blurb: "Verbs and forms you cannot guess" },
 ] as const;
 
 export type GrammarSectionId = (typeof GRAMMAR_SECTIONS)[number]["id"];
@@ -69,8 +75,16 @@ function guideForKnown(id: string): GrammarSection[] | null {
   return built ? built() : null;
 }
 
+const CHAPTERS: Record<string, GrammarChapter> = {
+  ...EUROPE_NORTH,
+  ...EUROPE_EAST,
+  ...ASIA,
+  ...AFRICA,
+  ...WORLD,
+};
+
 export function grammarGuide(langId: string): GrammarSection[] {
-  return guideForKnown(langId) ?? familyGuide(LANG_BY_ID.get(langId));
+  return guideForKnown(langId) ?? (CHAPTERS[langId] ? sections(CHAPTERS[langId]) : familyGuide(LANG_BY_ID.get(langId)));
 }
 
 const KNOWN: Record<string, () => GrammarSection[]> = {
