@@ -2,12 +2,13 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import { Volume2 } from "lucide-react";
 import { Flag } from "@/components/concord/flag";
+import { ScriptFonts, traditionalHan } from "@/components/concord/fonts";
 import { Shell } from "@/components/concord/shell";
 import { StrokeOrder } from "@/components/concord/strokes";
 import { LANGUAGES, LANG_BY_ID } from "@/data/languages";
 import { loadAlphabet, type LetterChart, type LetterItem } from "@/data/letters";
 import { useConcord } from "@/lib/concord-store";
-import { speak, stopSpeech } from "@/lib/speech";
+import { speak, speakPair, stopSpeech } from "@/lib/speech";
 import { useWait } from "@/wait/flag";
 
 export const Route = createFileRoute("/letters")({ component: LettersPage });
@@ -27,9 +28,17 @@ function isHanGlyph(glyph: string) {
 
 function matches(item: LetterItem, needle: string) {
   if (!needle) return true;
-  return `${item.glyph} ${item.name} ${item.sound} ${item.word} ${item.gloss} ${item.reading ?? ""} ${item.note ?? ""}`
+  return `${item.glyph} ${item.name} ${item.sound} ${item.word} ${item.gloss} ${item.reading ?? ""} ${item.wordReading ?? ""} ${item.traditional ?? ""} ${item.note ?? ""}`
     .toLowerCase()
     .includes(needle);
+}
+
+/** The character, then the memory word when it is a different word or sentence. */
+function sayItem(item: LetterItem, speech: string) {
+  const glyph = item.glyph.trim();
+  const word = item.word.trim();
+  if (glyph && word && word !== glyph) speakPair(glyph, word, speech);
+  else speak(glyph || word, speech);
 }
 
 function LettersPage() {
@@ -137,13 +146,13 @@ function LettersPage() {
     const next = rows[(at + step + rows.length) % rows.length];
     setActiveKey(next.key);
     setOpen(false);
-    if (meta && (view === "chart" || !covered)) speak(next.item.word, meta.speech);
+    if (meta && (view === "chart" || !covered)) sayItem(next.item, meta.speech);
   }
 
   function reveal() {
     if (!selected || !meta) return;
     setOpen(true);
-    speak(selected.item.word, meta.speech);
+    sayItem(selected.item, meta.speech);
   }
 
   useEffect(() => {
@@ -183,6 +192,7 @@ function LettersPage() {
 
   return (
     <Shell scroll={false}>
+      <ScriptFonts ids={current ? [current] : []} />
       <div className={`mx-auto flex h-full min-h-0 w-full flex-col px-4 py-3 md:px-6 ${glyphs ? "max-w-none gap-2" : "max-w-6xl gap-3"}`}>
         <header className="flex shrink-0 flex-wrap items-center gap-2">
           <h1 className="text-3xl leading-none">Alphabet</h1>
@@ -344,7 +354,7 @@ function LettersPage() {
                             title={`${row.item.word} · ${row.item.gloss}`}
                             onClick={() => {
                               setActiveKey(row.key);
-                              if (meta) speak(row.item.word, meta.speech);
+                              if (meta) sayItem(row.item, meta.speech);
                             }}
                             style={font}
                             className={`grid place-items-center border leading-none ${glyphs ? "aspect-square rounded-lg text-lg" : "min-h-11 rounded-xl px-1 text-xl"} ${on ? "border-moss bg-moss text-moss-ink" : "border-line bg-card"}`}
@@ -378,11 +388,11 @@ function LettersPage() {
                                 if (row.key !== selected?.key) {
                                   setActiveKey(row.key);
                                   setOpen(false);
-                                  if (!covered && meta) speak(row.item.word, meta.speech);
+                                  if (!covered && meta) sayItem(row.item, meta.speech);
                                   return;
                                 }
                                 setOpen(true);
-                                if (meta) speak(row.item.word, meta.speech);
+                                if (meta) sayItem(row.item, meta.speech);
                               }}
                               className={`grid min-h-14 min-w-0 flex-1 grid-cols-[3.25rem_minmax(0,1fr)] items-center gap-3 rounded-2xl border px-3 py-2 text-left ${on ? "border-moss bg-moss text-moss-ink" : "border-line bg-card"}`}
                             >
@@ -397,7 +407,7 @@ function LettersPage() {
                                   <span className={`block break-words text-sm ${on ? "opacity-80" : "text-muted"}`}>
                                     {same
                                       ? row.item.reading || row.item.sound
-                                      : `${row.item.sound}${row.item.gloss ? ` · ${row.item.gloss}` : ""}`}
+                                      : [row.item.wordReading, row.item.reading || row.item.sound, row.item.gloss].filter(Boolean).join(" · ")}
                                   </span>
                                 </span>
                               ) : (
@@ -407,7 +417,10 @@ function LettersPage() {
                               )}
                             </button>
                             {show && meta && (
-                              <Speak text={row.item.word} lang={meta.speech} label={`Hear ${row.item.word}`} />
+                              <>
+                                <Speak text={row.item.glyph} lang={meta.speech} label={`Hear ${row.item.glyph}`} />
+                                {!same && <Speak text={row.item.word} lang={meta.speech} label={`Hear ${row.item.word}`} />}
+                              </>
                             )}
                           </li>
                         );
@@ -467,6 +480,7 @@ function LetterDetail({
   total: number;
 }) {
   const same = item.word === item.glyph;
+  const characterReading = item.reading || item.name;
   return (
     <div>
       <p className="text-xs text-muted">
@@ -476,25 +490,29 @@ function LetterDetail({
         <p className="text-6xl leading-none" dir={dir} style={font}>
           {item.glyph}
         </p>
-        {!hidden && same && <Speak text={item.word} lang={speech} label={`Hear ${item.word}`} />}
+        {!hidden && <Speak text={item.glyph} lang={speech} label={`Hear ${item.glyph}`} />}
       </div>
-      <p className="mt-2 text-sm text-muted">
-        {item.name}
-        {item.sound && item.sound !== item.name ? ` · ${item.sound}` : ""}
-      </p>
+      {!hidden && characterReading && (
+        <p className="mt-2 text-sm text-muted italic">
+          {characterReading}
+          {item.sound && item.sound !== characterReading ? ` · ${item.sound}` : ""}
+        </p>
+      )}
       {hidden ? (
         <p className="mt-3 text-sm text-muted">The memory word is covered. Space shows it.</p>
       ) : (
         <>
           {!same && (
-            <div className="mt-3 flex items-center gap-3">
-              <p className="min-w-0 break-words text-3xl leading-tight" dir={dir} style={font}>
-                {item.word}
-              </p>
-              <Speak text={item.word} lang={speech} label={`Hear ${item.word}`} />
+            <div className="mt-3">
+              <div className="flex items-center gap-3">
+                <p className="min-w-0 break-words text-3xl leading-tight" dir={dir} style={font}>
+                  {item.word}
+                </p>
+                <Speak text={item.word} lang={speech} label={`Hear ${item.word}`} />
+              </div>
+              {item.wordReading && <p className="mt-1 text-sm text-muted italic">{item.wordReading}</p>}
             </div>
           )}
-          {item.reading && <p className="mt-1 text-sm text-muted italic">{item.reading}</p>}
           <p className="mt-2 text-lg">{item.gloss}</p>
           {item.note && <p className="mt-1 text-sm text-muted">{item.note}</p>}
         </>
@@ -508,20 +526,23 @@ function LetterDetail({
         </div>
       )}
       {!hidden && (item.radical || (item.traditional && item.traditional !== item.glyph) || (item.simplified && item.simplified !== item.glyph)) && (
-        <div className="mt-3 text-sm text-muted" style={font}>
+        <div className="mt-3 text-sm text-muted">
           {item.radical && (
             <p>
-              Radical <span className="text-xl text-ink">{item.radical}</span>
+              Radical <span className="text-xl text-ink" style={font}>{item.radical}</span>
             </p>
           )}
           {item.traditional && item.traditional !== item.glyph && (
-            <p className="mt-1">
-              Traditional <span className="text-xl text-ink">{item.traditional}</span>
+            <p className="mt-2 flex items-end gap-2">
+              <span className="pb-1">Traditional</span>
+              <span className="text-4xl leading-none text-ink" style={traditionalHan}>{item.traditional}</span>
+              {characterReading && <span className="pb-1 italic">{characterReading}</span>}
+              <Speak text={item.traditional} lang={speech} label={`Hear ${item.traditional}`} />
             </p>
           )}
           {item.simplified && item.simplified !== item.glyph && (
             <p className="mt-1">
-              Simplified <span className="text-xl text-ink">{item.simplified}</span>
+              Simplified <span className="text-xl text-ink" style={font}>{item.simplified}</span>
             </p>
           )}
         </div>

@@ -5,6 +5,8 @@ export type LetterItem = {
   word: string;
   gloss: string;
   reading?: string;
+  /** Pinyin or other reading of `word`, when the memory word is not the character itself. */
+  wordReading?: string;
   radical?: string;
   traditional?: string;
   simplified?: string;

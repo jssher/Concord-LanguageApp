@@ -28,9 +28,14 @@ const FACE: Record<string, string> = {
   ber: "Noto Sans Tifinagh:wght@400",
 };
 
+/** Song-style face for traditional Chinese characters. */
+export const traditionalHan = { fontFamily: `"Noto Serif TC", "Songti SC", "PMingLiU", serif` };
+
 /** Loads typefaces only for the languages currently chosen. */
 export function ScriptFonts({ ids }: { ids: string[] }) {
-  const key = [...new Set(ids.map((id) => FACE[id]).filter(Boolean))].sort().join("|");
+  const faces = [...new Set(ids.map((id) => FACE[id]).filter(Boolean))];
+  if (ids.some((id) => id === "zh" || id === "yue")) faces.push("Noto Serif TC:wght@600");
+  const key = faces.sort().join("|");
   useEffect(() => {
     if (!key) return;
     const families = key.split("|").map((face) => `family=${face.replace(/ /g, "+")}`);

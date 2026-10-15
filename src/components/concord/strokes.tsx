@@ -1,4 +1,5 @@
 import { useEffect, useId, useState } from "react";
+import { traditionalHan } from "@/components/concord/fonts";
 
 type Glyph = { strokes: string[]; medians: number[][][] };
 type HanMeta = { radical?: string; traditional?: string };
@@ -194,8 +195,9 @@ export function StrokeOrder({
             </p>
           )}
           {form && (
-            <p className="mt-1">
-              Traditional <span className="text-base text-ink" style={script}>{form}</span>
+            <p className="mt-1 flex items-end gap-2">
+              <span>Traditional</span>
+              <span className="text-3xl leading-none text-ink" style={traditionalHan}>{form}</span>
             </p>
           )}
         </div>
