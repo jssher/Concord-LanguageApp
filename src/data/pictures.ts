@@ -590,3 +590,8 @@ export const PLATES: PicturePlate[] = [
 ];
 
 export const PICTURE_SECTIONS = [...new Set(PLATES.map((plate) => plate.section))];
+
+/** English words named in the picture dictionary, counted once even if a word sits on two pictures. */
+export const PICTURE_WORD_COUNT = new Set(
+  PLATES.flatMap((plate) => plate.spots.map((spot) => spot.en.trim().toLowerCase().replace(/\s+/g, " "))).filter(Boolean),
+).size;

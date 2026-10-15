@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { useOutline } from "@/data/outline";
+import { PICTURE_WORD_COUNT } from "@/data/pictures";
 import { FAMILIES, LANGUAGES } from "@/data/languages";
 import { Shell } from "@/components/concord/shell";
 import { Flag } from "@/components/concord/flag";
@@ -39,8 +40,21 @@ function Home() {
           <p className="mt-2 max-w-2xl text-sm text-muted">
             English stays on the left. The languages you choose share the right, up to twelve on one card, with a picture and a sentence for each word.
             Start with a greeting and keep going through a real conversation.
-            {outline ? ` ${outline.words.toLocaleString()} words · A1–B2 · ${outline.phrases.toLocaleString()} phrases.` : ""}
           </p>
+          <div className="mt-3 grid grid-cols-2 gap-2">
+            <Link to="/study" className="rounded-2xl border border-line bg-card px-3 py-3">
+              <p className="text-2xl tabular-nums text-ink">{outline ? outline.words.toLocaleString() : "…"}</p>
+              <p className="text-sm text-ink">Words on the cards</p>
+              <p className="text-xs text-muted">
+                {outline ? `A1–B2 · ${outline.phrases.toLocaleString()} phrases` : "A1–B2"}
+              </p>
+            </Link>
+            <Link to="/pictures" className="rounded-2xl border border-line bg-card px-3 py-3">
+              <p className="text-2xl tabular-nums text-ink">{PICTURE_WORD_COUNT.toLocaleString()}</p>
+              <p className="text-sm text-ink">Words in the pictures</p>
+              <p className="text-xs text-muted">Picture dictionary</p>
+            </Link>
+          </div>
           <p className="mt-2 max-w-2xl text-sm text-muted">
             Turn languages on below, then open the cards. Space shows the next word. Switching a language does not hide it.
           </p>

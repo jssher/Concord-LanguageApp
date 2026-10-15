@@ -41,7 +41,7 @@ function pick(src: string, lang?: string) {
 }
 
 export function Plate({ src, alt, lang }: { src: string; alt: string; lang?: string }) {
-  const [file, setFile] = useState(() => pick(src, lang));
+  const [file, setFile] = useState(src);
   const [failed, setFailed] = useState(false);
   useEffect(() => {
     setFile(pick(src, lang));

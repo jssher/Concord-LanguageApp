@@ -42,7 +42,7 @@ import {
 } from "lucide-react";
 import { Shell } from "@/components/concord/shell";
 import { Flag } from "@/components/concord/flag";
-import { PICTURE_SECTIONS, PLATES, type PicturePlate, type Side, type Spot } from "@/data/pictures";
+import { PICTURE_SECTIONS, PICTURE_WORD_COUNT, PLATES, type PicturePlate, type Side, type Spot } from "@/data/pictures";
 import { posLabel, useLevel, type CourseItem, type CourseLevel } from "@/data/course";
 import { getBaseEntry, useLexicons } from "@/data/lexicon";
 import { ensurePack } from "@/data/packs";
@@ -231,7 +231,10 @@ function PicturesPage() {
       <div className="flex min-h-0 flex-1 flex-col">
         <div className="shrink-0 border-b border-line">
           <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-2 px-4 py-3 md:px-6">
-            <h1 className="text-2xl">Pictures</h1>
+            <div className="shrink-0">
+              <h1 className="text-2xl leading-none">Pictures</h1>
+              <p className="text-xs tabular-nums text-muted">{PICTURE_WORD_COUNT.toLocaleString()} words</p>
+            </div>
             <button
               type="button"
               aria-expanded={picking}

@@ -386,6 +386,9 @@ function StudyPage() {
       <div className="flex min-h-0 flex-1 flex-col">
         <div className="shrink-0 border-b border-line">
           <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-2 px-4 py-2 md:px-6">
+            <p className="shrink-0 text-sm tabular-nums text-muted">
+              {outline ? `${outline.words.toLocaleString()} card words` : "…"}
+            </p>
             {LEVEL_CHIPS.map((chip) => (
               <button
                 key={chip.id}
