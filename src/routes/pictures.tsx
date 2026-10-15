@@ -42,6 +42,7 @@ import {
 } from "lucide-react";
 import { Shell } from "@/components/concord/shell";
 import { Flag } from "@/components/concord/flag";
+import { Remark } from "@/components/concord/remark";
 import { PICTURE_SECTIONS, PICTURE_WORD_COUNT, PLATES, type PicturePlate, type Side, type Spot } from "@/data/pictures";
 import { posLabel, useLevel, type CourseItem, type CourseLevel } from "@/data/course";
 import { getBaseEntry, useLexicons } from "@/data/lexicon";
@@ -198,6 +199,16 @@ function PicturesPage() {
     normalize();
     return () => stopSpeech();
   }, [normalize]);
+
+  useEffect(() => {
+    const key = decodeURIComponent(window.location.hash.replace(/^#/, "")).trim().toLowerCase();
+    if (!key) return;
+    const found = PLATES.find((item) => item.spots.some((spot) => lemma(spot.en) === key));
+    if (!found) return;
+    setPlateId(found.id);
+    setOpen([key]);
+    setActive(key);
+  }, []);
 
   useEffect(() => {
     if (!active) return;
@@ -829,11 +840,11 @@ function DictCard({
         <div className="mt-3 space-y-3 border-t border-line pt-3">
           {langs.map((langId) =>
             langId === "isv" ? (
-              <InterslavicBlock key={langId} conceptId={id} en={en} fixes={fixes} />
+              <InterslavicBlock key={langId} conceptId={id} en={en} fixes={fixes} level={item?.level ?? ""} />
             ) : langId === "ar" ? (
-              <ArabicBlock key={langId} conceptId={id} en={en} fixes={fixes} ready={ready} />
+              <ArabicBlock key={langId} conceptId={id} en={en} fixes={fixes} ready={ready} level={item?.level ?? ""} />
             ) : (
-              <LangBlock key={langId} langId={langId} conceptId={id} en={en} sentence={sentence} fix={fixes[cardKey(langId, id)]} ready={ready} />
+              <LangBlock key={langId} langId={langId} conceptId={id} en={en} sentence={sentence} fix={fixes[cardKey(langId, id)]} ready={ready} level={item?.level ?? ""} />
             ),
           )}
         </div>
@@ -853,6 +864,24 @@ function facts(entry: Entry | undefined): string[] {
   ].filter((part): part is string => Boolean(part));
 }
 
+function PictureRemark({ langId, en, word, level }: { langId: string; en: string; word?: string; level: string }) {
+  return (
+    <div dir="ltr">
+      <Remark
+        lang={langId}
+        scopes={[{
+          kind: "card",
+          id: lemma(en),
+          label: [en, word].filter(Boolean).join(" · "),
+          level,
+          bucket: "pictures",
+          name: "Card",
+        }]}
+      />
+    </div>
+  );
+}
+
 function LangBlock({
   langId,
   conceptId,
@@ -860,6 +889,7 @@ function LangBlock({
   sentence,
   fix,
   ready,
+  level,
 }: {
   langId: string;
   conceptId: string;
@@ -867,6 +897,7 @@ function LangBlock({
   sentence: string;
   fix: Fix | undefined;
   ready: boolean;
+  level: string;
 }) {
   const lang = LANG_BY_ID.get(langId);
   const mark = useConcord((s) => s.cards[cardKey(langId, conceptId)]);
@@ -914,9 +945,13 @@ function LangBlock({
           {entry.sentenceReading && <p className="mt-1 text-sm text-muted italic">{entry.sentenceReading}</p>}
           {entry.note && <p className="mt-1 text-sm text-muted">{entry.note}</p>}
           <GradeButtons onMark={markCard} />
+          <PictureRemark langId={langId} en={en} word={entry.word} level={level} />
         </>
       ) : (
-        <p className="mt-1 text-sm text-muted">{ready ? "This language does not have this word yet." : "Opening this language…"}</p>
+        <>
+          <p className="mt-1 text-sm text-muted">{ready ? "This language does not have this word yet." : "Opening this language…"}</p>
+          <PictureRemark langId={langId} en={en} level={level} />
+        </>
       )}
     </div>
   );
@@ -935,7 +970,7 @@ function GradeButtons({ onMark }: { onMark: (kind: "r" | "w") => void }) {
   );
 }
 
-function InterslavicBlock({ conceptId, en, fixes }: { conceptId: string; en: string; fixes: Record<string, Fix> }) {
+function InterslavicBlock({ conceptId, en, fixes, level }: { conceptId: string; en: string; fixes: Record<string, Fix>; level: string }) {
   const mark = useConcord((s) => s.cards[cardKey("isv", conceptId)]);
   const grade = useConcord((s) => s.grade);
   const latin = mergeEntry(getBaseEntry("isv", conceptId, en), fixes[cardKey("isv", conceptId)]);
@@ -955,7 +990,10 @@ function InterslavicBlock({ conceptId, en, fixes }: { conceptId: string; en: str
         <span className="ml-auto text-xs text-muted">{batchLabel(mark?.stage)}</span>
       </div>
       {!latin?.word ? (
-        <p className="mt-1 text-sm text-muted">Interslavic does not have this word yet.</p>
+        <>
+          <p className="mt-1 text-sm text-muted">Interslavic does not have this word yet.</p>
+          <PictureRemark langId="isv" en={en} level={level} />
+        </>
       ) : (
         <div className="mt-1 space-y-2">
           {blocks.map((block) => (
@@ -974,13 +1012,14 @@ function InterslavicBlock({ conceptId, en, fixes }: { conceptId: string; en: str
               noteReview("isv", conceptId, kind);
             }}
           />
+          <PictureRemark langId="isv" en={en} word={latin?.word} level={level} />
         </div>
       )}
     </div>
   );
 }
 
-function ArabicBlock({ conceptId, en, fixes, ready }: { conceptId: string; en: string; fixes: Record<string, Fix>; ready: boolean }) {
+function ArabicBlock({ conceptId, en, fixes, ready, level }: { conceptId: string; en: string; fixes: Record<string, Fix>; ready: boolean; level: string }) {
   const mark = useConcord((s) => s.cards[cardKey("ar", conceptId)]);
   const grade = useConcord((s) => s.grade);
   const blocks = [
@@ -998,9 +1037,12 @@ function ArabicBlock({ conceptId, en, fixes, ready }: { conceptId: string; en: s
         <span className="ml-auto text-xs text-muted">{batchLabel(mark?.stage)}</span>
       </div>
       {!any ? (
-        <p className="mt-1 text-sm text-muted" dir="ltr">
-          {ready ? "Arabic does not have this word yet." : "Opening Arabic…"}
-        </p>
+        <>
+          <p className="mt-1 text-sm text-muted" dir="ltr">
+            {ready ? "Arabic does not have this word yet." : "Opening Arabic…"}
+          </p>
+          <PictureRemark langId="ar" en={en} level={level} />
+        </>
       ) : (
         <div className="mt-1 space-y-2">
           {blocks.map((block) => {
@@ -1048,6 +1090,7 @@ function ArabicBlock({ conceptId, en, fixes, ready }: { conceptId: string; en: s
               noteReview("ar", conceptId, kind);
             }}
           />
+          <PictureRemark langId="ar" en={en} word={blocks[0]?.entry?.word} level={level} />
         </div>
       )}
     </div>

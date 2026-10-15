@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Flag } from "@/components/concord/flag";
+import { Remark } from "@/components/concord/remark";
 import { GRAMMAR_LEVELS, type FormCard, type GrammarCourse, type GrammarLesson } from "@/data/grammar/model";
 import { LANG_BY_ID, LANGUAGES, type LangMeta } from "@/data/languages";
 import { translateGrammar, type GrammarTranslation } from "@/lib/translate-grammar";
@@ -64,6 +65,15 @@ export function GrammarCourseScreen({
     if (hash === "cards") {
       setMode("cards");
       setCardIndex(0);
+      setFace("word");
+      return;
+    }
+    if (hash.startsWith("card-")) {
+      const word = decodeURIComponent(hash.slice("card-".length));
+      const found = course.cards.findIndex((item) => item.word === word);
+      setHideKnown(false);
+      setMode("cards");
+      setCardIndex(found >= 0 ? found : 0);
       setFace("word");
       return;
     }
@@ -326,6 +336,20 @@ export function GrammarCourseScreen({
                 {index + 1 < course.lessons.length ? "Next lesson" : "Irregular cards"}
               </button>
             </div>
+            {lang.id !== "en" && (
+              <Remark
+                key={`${lang.id}:${lesson.id}`}
+                lang={lang.id}
+                scopes={[{
+                  kind: "section",
+                  id: lesson.id,
+                  label: lesson.title,
+                  level: lesson.level,
+                  bucket: "grammar",
+                  name: "Lesson",
+                }]}
+              />
+            )}
             <div className="mt-6 rounded-2xl border border-line bg-card p-3">
               <label className="block text-xs tracking-widest text-muted uppercase" htmlFor="grammar-into">
                 Translate the lesson
@@ -428,6 +452,20 @@ function CardFace({
           Next card
         </button>
       </div>
+      {lang.id !== "en" && (
+        <Remark
+          key={`${lang.id}:${card.word}`}
+          lang={lang.id}
+          scopes={[{
+            kind: "card",
+            id: `grammar:${card.word}`,
+            label: `${card.word} · ${card.gloss}`,
+            level: "",
+            bucket: "grammar",
+            name: "Card",
+          }]}
+        />
+      )}
     </article>
   );
 }

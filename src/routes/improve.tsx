@@ -100,6 +100,17 @@ function CommentsPage() {
       state.toggleTarget(language);
     }
     if (useConcord.getState().targets.includes(language)) state.setFocus(language);
+    if (group.bucket === "pictures") {
+      void navigate({ to: "/pictures", hash: encodeURIComponent(group.targetId) });
+      return;
+    }
+    if (group.bucket === "grammar") {
+      const hash = group.targetKind === "card"
+        ? `card-${encodeURIComponent(group.targetId.slice("grammar:".length))}`
+        : group.targetId;
+      void navigate({ to: "/grammar", hash });
+      return;
+    }
     if (group.level) state.setLevel(group.level);
     if (group.bucket) state.setGroup(group.bucket);
     if (group.targetKind === "card") {
