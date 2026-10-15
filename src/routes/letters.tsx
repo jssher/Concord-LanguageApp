@@ -8,6 +8,7 @@ import { LANGUAGES, LANG_BY_ID } from "@/data/languages";
 import { loadAlphabet, type LetterChart, type LetterItem } from "@/data/letters";
 import { useConcord } from "@/lib/concord-store";
 import { speak, stopSpeech } from "@/lib/speech";
+import { useWait } from "@/wait/flag";
 
 export const Route = createFileRoute("/letters")({ component: LettersPage });
 
@@ -47,15 +48,17 @@ function LettersPage() {
 
   useEffect(() => stopSpeech, []);
 
-  const ids = useMemo(() => {
-    const all = LANGUAGES.map((item) => item.id).filter((id) => id !== "en");
-    const chosen = targets.filter((id) => id !== "en" && all.includes(id));
-    const rest = all.filter((id) => !chosen.includes(id));
-    return [...chosen, ...rest];
-  }, [targets]);
+  const ids = useMemo(
+    () =>
+      LANGUAGES.filter((item) => item.id !== "en")
+        .sort((a, b) => a.name.localeCompare(b.name, "en"))
+        .map((item) => item.id),
+    [],
+  );
 
   const current = ids.includes(lang) ? lang : (ids[0] ?? "");
   const ready = chart !== null && chartLang === current;
+  useWait(Boolean(current) && !ready && !failed);
 
   useEffect(() => {
     if (!current) return;
@@ -162,6 +165,7 @@ function LettersPage() {
 
   const font = meta?.font ? { fontFamily: meta.font } : undefined;
   const wordCount = rows.length;
+  const glyphs = meta?.script === "Han" || meta?.script === "Japanese";
 
   function chooseLang(id: string) {
     setLang(id);
@@ -179,7 +183,7 @@ function LettersPage() {
 
   return (
     <Shell scroll={false}>
-      <div className="mx-auto flex h-full min-h-0 w-full max-w-6xl flex-col gap-3 px-4 py-3 md:px-6">
+      <div className={`mx-auto flex h-full min-h-0 w-full flex-col px-4 py-3 md:px-6 ${glyphs ? "max-w-none gap-2" : "max-w-6xl gap-3"}`}>
         <header className="flex shrink-0 flex-wrap items-center gap-2">
           <h1 className="text-3xl leading-none">Alphabet</h1>
           <label className="flex min-w-0 flex-1 items-center gap-2 sm:flex-none">
@@ -193,10 +197,8 @@ function LettersPage() {
               {ids.map((id) => {
                 const item = LANG_BY_ID.get(id);
                 if (!item) return null;
-                const learning = targets.includes(id);
                 return (
                   <option key={id} value={id}>
-                    {learning ? "● " : ""}
                     {item.name}
                   </option>
                 );
@@ -248,8 +250,25 @@ function LettersPage() {
               {covered ? "Words covered" : "Cover the words"}
             </button>
           )}
+          {glyphs && shown && shown.groups.length > 6 && (
+            <label className="min-w-0 flex-1">
+              <span className="sr-only">Group</span>
+              <select
+                value={activeGroupId}
+                onChange={(event) => setGroupId(event.target.value)}
+                aria-label="Alphabet group"
+                className="min-h-10 w-full min-w-40 rounded-full border border-line bg-card px-3 text-sm"
+              >
+                {shown.groups.map((item) => (
+                  <option key={item.id} value={item.id}>
+                    {item.name} · {item.items.length}
+                  </option>
+                ))}
+              </select>
+            </label>
+          )}
         </div>
-        {shown && shown.groups.length > 6 ? (
+        {shown && !glyphs && shown.groups.length > 6 ? (
           <label className="flex min-w-0 flex-1 items-center gap-2">
             <span className="sr-only">Group</span>
             <select
@@ -267,6 +286,7 @@ function LettersPage() {
           </label>
         ) : (
           shown &&
+          !glyphs &&
           shown.groups.length > 1 && (
             <div className="flex shrink-0 gap-1 overflow-x-auto">
               {!big && view === "words" && (
@@ -299,16 +319,18 @@ function LettersPage() {
         {!ready && !failed && <p className="text-sm text-muted">Opening this alphabet…</p>}
         {failed && <p className="text-sm text-muted">This alphabet did not open. Try it again.</p>}
         {shown && rows.length > 0 && (
-          <div className="grid min-h-0 flex-1 gap-3 lg:grid-cols-5">
-            <div className="order-2 min-h-0 overflow-y-auto overscroll-contain lg:order-1 lg:col-span-3">
-              {shown.note && !needle && <p className="mb-3 text-sm text-muted">{shown.note}</p>}
+          <div className={`grid min-h-0 flex-1 ${glyphs ? "gap-2 lg:grid-cols-[minmax(0,1fr)_16rem]" : "gap-3 lg:grid-cols-5"}`}>
+            <div className={`min-h-0 overflow-y-auto overscroll-contain ${glyphs ? "order-1" : "order-2 lg:order-1 lg:col-span-3"}`}>
+              {shown.note && !needle && (
+                <p className={glyphs ? "mb-1 line-clamp-1 text-xs text-muted" : "mb-3 text-sm text-muted"}>{shown.note}</p>
+              )}
               {view === "chart" ? (
                 blocks.map((section) => (
-                  <section key={section.key} className="mb-4">
+                  <section key={section.key} className={glyphs ? "mb-2" : "mb-4"}>
                     {section.title && (
                       <h2 className="mb-2 text-xs font-semibold tracking-widest text-muted uppercase">{section.title}</h2>
                     )}
-                    <div className="grid grid-cols-6 gap-1.5 sm:grid-cols-8 xl:grid-cols-10" dir={meta?.dir}>
+                    <div className={glyphs ? "grid grid-cols-[repeat(auto-fill,minmax(2.75rem,1fr))] gap-1" : "grid grid-cols-6 gap-1.5 sm:grid-cols-8 xl:grid-cols-10"} dir={meta?.dir}>
                       {section.items.map((row) => {
                         const on = row.key === selected?.key;
                         return (
@@ -325,7 +347,7 @@ function LettersPage() {
                               if (meta) speak(row.item.word, meta.speech);
                             }}
                             style={font}
-                            className={`grid min-h-11 place-items-center rounded-xl border px-1 text-xl leading-none ${on ? "border-moss bg-moss text-moss-ink" : "border-line bg-card"}`}
+                            className={`grid place-items-center border leading-none ${glyphs ? "aspect-square rounded-lg text-lg" : "min-h-11 rounded-xl px-1 text-xl"} ${on ? "border-moss bg-moss text-moss-ink" : "border-line bg-card"}`}
                           >
                             {row.item.glyph}
                           </button>
@@ -402,7 +424,7 @@ function LettersPage() {
                   : "Space or the arrow keys move to the next letter and say the word."}
               </p>
             </div>
-            <aside className="order-1 max-h-72 overflow-y-auto rounded-2xl border border-line bg-card p-4 lg:order-2 lg:col-span-2 lg:max-h-none">
+            <aside className={`overflow-y-auto rounded-2xl border border-line bg-card p-4 ${glyphs ? "order-2 max-h-40 lg:max-h-none" : "order-1 max-h-72 lg:order-2 lg:col-span-2 lg:max-h-none"}`}>
               {selected && meta ? (
                 <LetterDetail
                   item={selected.item}

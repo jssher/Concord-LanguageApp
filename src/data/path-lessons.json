@@ -1,0 +1,6802 @@
+[
+  {
+    "id": "a1-01",
+    "level": "A1",
+    "n": 1,
+    "title": "Hello at the door",
+    "place": "People",
+    "aim": "Greet someone and say your name.",
+    "words": [
+      "hello",
+      "name",
+      "I",
+      "friend"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Hello. I am Anna."
+      },
+      {
+        "who": "Marko",
+        "en": "Hello. What is your name?"
+      },
+      {
+        "who": "Anna",
+        "en": "My name is Anna. This is my friend."
+      },
+      {
+        "who": "Marko",
+        "en": "Come in, please."
+      }
+    ],
+    "image": "/cards/friend.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-02",
+    "level": "A1",
+    "n": 2,
+    "title": "Who is this?",
+    "place": "People",
+    "aim": "Point to a person and say who they are.",
+    "words": [
+      "this",
+      "woman",
+      "man",
+      "child"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Who is this?"
+      },
+      {
+        "who": "Anna",
+        "en": "This is my friend."
+      },
+      {
+        "who": "Marko",
+        "en": "And the child?"
+      },
+      {
+        "who": "Anna",
+        "en": "The child is here with me."
+      }
+    ],
+    "image": "/cards/friend.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-03",
+    "level": "A1",
+    "n": 3,
+    "title": "Good morning",
+    "place": "People",
+    "aim": "Use a greeting that fits the time of day.",
+    "words": [
+      "morning",
+      "good",
+      "you",
+      "today"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Good morning."
+      },
+      {
+        "who": "Marko",
+        "en": "Good morning. How are you?"
+      },
+      {
+        "who": "Anna",
+        "en": "I am well, thank you."
+      },
+      {
+        "who": "Marko",
+        "en": "Good. Today is quiet."
+      }
+    ],
+    "image": "/cards/friend.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-04",
+    "level": "A1",
+    "n": 4,
+    "title": "Please and thank you",
+    "place": "Food",
+    "aim": "Ask for something and thank the person.",
+    "words": [
+      "please",
+      "thank you",
+      "water",
+      "bread"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Water, please."
+      },
+      {
+        "who": "Marko",
+        "en": "Here you are."
+      },
+      {
+        "who": "Anna",
+        "en": "Thank you."
+      },
+      {
+        "who": "Marko",
+        "en": "Would you like bread too?"
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-05",
+    "level": "A1",
+    "n": 5,
+    "title": "Yes and no",
+    "place": "Food",
+    "aim": "Accept or refuse a simple offer.",
+    "words": [
+      "yes",
+      "no",
+      "coffee",
+      "milk"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Coffee?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes, please."
+      },
+      {
+        "who": "Marko",
+        "en": "With milk?"
+      },
+      {
+        "who": "Anna",
+        "en": "No, thank you."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-06",
+    "level": "A1",
+    "n": 6,
+    "title": "My family",
+    "place": "Home",
+    "aim": "Name the people in your family.",
+    "words": [
+      "family",
+      "mother",
+      "father",
+      "home"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "This is my family."
+      },
+      {
+        "who": "Marko",
+        "en": "Is this your mother?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. And this is my father."
+      },
+      {
+        "who": "Marko",
+        "en": "They are at home today."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-07",
+    "level": "A1",
+    "n": 7,
+    "title": "In the house",
+    "place": "Home",
+    "aim": "Name the rooms and the door.",
+    "words": [
+      "house",
+      "door",
+      "room",
+      "key"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "The door is open."
+      },
+      {
+        "who": "Anna",
+        "en": "Where is the key?"
+      },
+      {
+        "who": "Marko",
+        "en": "The key is on the table."
+      },
+      {
+        "who": "Anna",
+        "en": "This room is small."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-08",
+    "level": "A1",
+    "n": 8,
+    "title": "At the table",
+    "place": "Home",
+    "aim": "Say where something is.",
+    "words": [
+      "table",
+      "book",
+      "on",
+      "where"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Where is the book?"
+      },
+      {
+        "who": "Marko",
+        "en": "It is on the table."
+      },
+      {
+        "who": "Anna",
+        "en": "And the water?"
+      },
+      {
+        "who": "Marko",
+        "en": "The water is on the table too."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-09",
+    "level": "A1",
+    "n": 9,
+    "title": "Breakfast",
+    "place": "Food",
+    "aim": "Say what you eat in the morning.",
+    "words": [
+      "breakfast",
+      "bread",
+      "egg",
+      "eat"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "What do you eat?"
+      },
+      {
+        "who": "Marko",
+        "en": "I eat bread and an egg."
+      },
+      {
+        "who": "Anna",
+        "en": "I drink milk."
+      },
+      {
+        "who": "Marko",
+        "en": "Breakfast is ready."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-10",
+    "level": "A1",
+    "n": 10,
+    "title": "I am hungry",
+    "place": "Food",
+    "aim": "Say you want food or drink.",
+    "words": [
+      "hungry",
+      "thirsty",
+      "want",
+      "eat"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I am hungry."
+      },
+      {
+        "who": "Marko",
+        "en": "Do you want bread?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. I am thirsty too."
+      },
+      {
+        "who": "Marko",
+        "en": "Here is water."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-11",
+    "level": "A1",
+    "n": 11,
+    "title": "Numbers one to five",
+    "place": "Town",
+    "aim": "Count a few things you can see.",
+    "words": [
+      "one",
+      "two",
+      "three",
+      "apple"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "How many apples?"
+      },
+      {
+        "who": "Anna",
+        "en": "One, two, three."
+      },
+      {
+        "who": "Marko",
+        "en": "Three apples."
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. One is for the child."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-12",
+    "level": "A1",
+    "n": 12,
+    "title": "How much?",
+    "place": "Shop",
+    "aim": "Ask the price of one thing.",
+    "words": [
+      "how much",
+      "price",
+      "one",
+      "please"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "How much is the bread?"
+      },
+      {
+        "who": "Marko",
+        "en": "Two."
+      },
+      {
+        "who": "Anna",
+        "en": "One bread, please."
+      },
+      {
+        "who": "Marko",
+        "en": "Here you are."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-13",
+    "level": "A1",
+    "n": 13,
+    "title": "The weather today",
+    "place": "Town",
+    "aim": "Say if it is hot, cold, or raining.",
+    "words": [
+      "sun",
+      "hot",
+      "cold",
+      "rain"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The sun is hot."
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. Yesterday was cold."
+      },
+      {
+        "who": "Anna",
+        "en": "Is it raining?"
+      },
+      {
+        "who": "Marko",
+        "en": "No. It is a good day."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-14",
+    "level": "A1",
+    "n": 14,
+    "title": "What I see",
+    "place": "Town",
+    "aim": "Name what you see outside.",
+    "words": [
+      "see",
+      "tree",
+      "mountain",
+      "road"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I see a tree."
+      },
+      {
+        "who": "Marko",
+        "en": "I see the mountain."
+      },
+      {
+        "who": "Anna",
+        "en": "The road is long."
+      },
+      {
+        "who": "Marko",
+        "en": "We walk on this road."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-15",
+    "level": "A1",
+    "n": 15,
+    "title": "Left and right",
+    "place": "Help",
+    "aim": "Follow two simple directions.",
+    "words": [
+      "left",
+      "right",
+      "straight",
+      "here"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Where is the school?"
+      },
+      {
+        "who": "Marko",
+        "en": "Go straight, then turn left."
+      },
+      {
+        "who": "Anna",
+        "en": "Left?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. The school is there."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-16",
+    "level": "A1",
+    "n": 16,
+    "title": "What time is it?",
+    "place": "Town",
+    "aim": "Ask and say a simple time.",
+    "words": [
+      "time",
+      "hour",
+      "now",
+      "o'clock"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "What time is it?"
+      },
+      {
+        "who": "Marko",
+        "en": "It is three o'clock."
+      },
+      {
+        "who": "Anna",
+        "en": "Now?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. It is three now."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-17",
+    "level": "A1",
+    "n": 17,
+    "title": "My day",
+    "place": "Home",
+    "aim": "Name three parts of the day.",
+    "words": [
+      "morning",
+      "afternoon",
+      "evening",
+      "day"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "I work in the morning."
+      },
+      {
+        "who": "Anna",
+        "en": "I study in the afternoon."
+      },
+      {
+        "who": "Marko",
+        "en": "In the evening I am at home."
+      },
+      {
+        "who": "Anna",
+        "en": "It is a long day."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-18",
+    "level": "A1",
+    "n": 18,
+    "title": "Getting dressed",
+    "place": "Home",
+    "aim": "Name a few clothes.",
+    "words": [
+      "shirt",
+      "shoes",
+      "coat",
+      "wear"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Where are my shoes?"
+      },
+      {
+        "who": "Marko",
+        "en": "Your shoes are by the door."
+      },
+      {
+        "who": "Anna",
+        "en": "I need a coat."
+      },
+      {
+        "who": "Marko",
+        "en": "This coat is warm."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-19",
+    "level": "A1",
+    "n": 19,
+    "title": "Colours",
+    "place": "Shop",
+    "aim": "Describe a thing by colour.",
+    "words": [
+      "red",
+      "blue",
+      "black",
+      "colour"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I want the red one."
+      },
+      {
+        "who": "Marko",
+        "en": "Red or blue?"
+      },
+      {
+        "who": "Anna",
+        "en": "Red, please."
+      },
+      {
+        "who": "Marko",
+        "en": "The blue one is here too."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-20",
+    "level": "A1",
+    "n": 20,
+    "title": "Big and small",
+    "place": "Shop",
+    "aim": "Compare two sizes simply.",
+    "words": [
+      "big",
+      "small",
+      "this",
+      "that"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "This one is big."
+      },
+      {
+        "who": "Anna",
+        "en": "I want a small one."
+      },
+      {
+        "who": "Marko",
+        "en": "That one is small."
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. That one, please."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-21",
+    "level": "A1",
+    "n": 21,
+    "title": "The body",
+    "place": "Health",
+    "aim": "Name parts of the body you can point to.",
+    "words": [
+      "hand",
+      "head",
+      "eye",
+      "foot"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "My hand is cold."
+      },
+      {
+        "who": "Marko",
+        "en": "And your head?"
+      },
+      {
+        "who": "Anna",
+        "en": "My head is fine."
+      },
+      {
+        "who": "Marko",
+        "en": "Your foot is wet from the rain."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-22",
+    "level": "A1",
+    "n": 22,
+    "title": "I feel ill",
+    "place": "Health",
+    "aim": "Say that something hurts, simply.",
+    "words": [
+      "ill",
+      "pain",
+      "tired",
+      "help"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I am ill."
+      },
+      {
+        "who": "Marko",
+        "en": "Where is the pain?"
+      },
+      {
+        "who": "Anna",
+        "en": "My head. I am tired."
+      },
+      {
+        "who": "Marko",
+        "en": "Sit down. I will help."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-23",
+    "level": "A1",
+    "n": 23,
+    "title": "At school",
+    "place": "School",
+    "aim": "Say you are a student and name the classroom.",
+    "words": [
+      "school",
+      "student",
+      "teacher",
+      "class"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I am a student."
+      },
+      {
+        "who": "Marko",
+        "en": "Who is the teacher?"
+      },
+      {
+        "who": "Anna",
+        "en": "She is in the class."
+      },
+      {
+        "who": "Marko",
+        "en": "The school is near."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-24",
+    "level": "A1",
+    "n": 24,
+    "title": "Open your book",
+    "place": "School",
+    "aim": "Follow a classroom instruction.",
+    "words": [
+      "open",
+      "book",
+      "read",
+      "page"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Open your book."
+      },
+      {
+        "who": "Anna",
+        "en": "Which page?"
+      },
+      {
+        "who": "Marko",
+        "en": "Page two."
+      },
+      {
+        "who": "Anna",
+        "en": "I can read this."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-25",
+    "level": "A1",
+    "n": 25,
+    "title": "I do not understand",
+    "place": "School",
+    "aim": "Ask someone to repeat.",
+    "words": [
+      "understand",
+      "repeat",
+      "slowly",
+      "again"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I do not understand."
+      },
+      {
+        "who": "Marko",
+        "en": "I will say it again."
+      },
+      {
+        "who": "Anna",
+        "en": "Slowly, please."
+      },
+      {
+        "who": "Marko",
+        "en": "Of course. Listen again."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-26",
+    "level": "A1",
+    "n": 26,
+    "title": "On the bus",
+    "place": "Travel",
+    "aim": "Ask for a stop in town.",
+    "words": [
+      "bus",
+      "stop",
+      "ticket",
+      "where"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "One ticket, please."
+      },
+      {
+        "who": "Marko",
+        "en": "Where do you go?"
+      },
+      {
+        "who": "Anna",
+        "en": "The next stop."
+      },
+      {
+        "who": "Marko",
+        "en": "Sit here."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-27",
+    "level": "A1",
+    "n": 27,
+    "title": "The train",
+    "place": "Travel",
+    "aim": "Ask where the train is.",
+    "words": [
+      "train",
+      "station",
+      "where",
+      "there"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Where is the train?"
+      },
+      {
+        "who": "Marko",
+        "en": "It is over there."
+      },
+      {
+        "who": "Anna",
+        "en": "Is this the station?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. The train is there."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-28",
+    "level": "A1",
+    "n": 28,
+    "title": "A phone call",
+    "place": "Help",
+    "aim": "Answer and say who you are.",
+    "words": [
+      "phone",
+      "hello",
+      "speak",
+      "later"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Hello?"
+      },
+      {
+        "who": "Anna",
+        "en": "Hello. It is Anna."
+      },
+      {
+        "who": "Marko",
+        "en": "I can speak now."
+      },
+      {
+        "who": "Anna",
+        "en": "Good. Or I can call later."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-29",
+    "level": "A1",
+    "n": 29,
+    "title": "The neighbour",
+    "place": "Home",
+    "aim": "Introduce yourself next door.",
+    "words": [
+      "neighbour",
+      "live",
+      "next door",
+      "name"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Hello. I live next door."
+      },
+      {
+        "who": "Marko",
+        "en": "Welcome. I am Marko."
+      },
+      {
+        "who": "Anna",
+        "en": "My name is Anna."
+      },
+      {
+        "who": "Marko",
+        "en": "It is quiet here."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-30",
+    "level": "A1",
+    "n": 30,
+    "title": "Come in",
+    "place": "Home",
+    "aim": "Invite someone in and offer a seat.",
+    "words": [
+      "come in",
+      "sit",
+      "chair",
+      "please"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Come in, please."
+      },
+      {
+        "who": "Anna",
+        "en": "Thank you."
+      },
+      {
+        "who": "Marko",
+        "en": "Sit here."
+      },
+      {
+        "who": "Anna",
+        "en": "This chair is fine."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-31",
+    "level": "A1",
+    "n": 31,
+    "title": "The kitchen",
+    "place": "Home",
+    "aim": "Name things you use to eat.",
+    "words": [
+      "kitchen",
+      "plate",
+      "cup",
+      "water"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Where is the kitchen?"
+      },
+      {
+        "who": "Marko",
+        "en": "It is there."
+      },
+      {
+        "who": "Anna",
+        "en": "I need a cup."
+      },
+      {
+        "who": "Marko",
+        "en": "The cups are by the water."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-32",
+    "level": "A1",
+    "n": 32,
+    "title": "Fruit at the market",
+    "place": "Shop",
+    "aim": "Buy fruit and say the quantity.",
+    "words": [
+      "apple",
+      "market",
+      "fresh",
+      "kilo"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Are the apples fresh?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. They are from today."
+      },
+      {
+        "who": "Anna",
+        "en": "One kilo, please."
+      },
+      {
+        "who": "Marko",
+        "en": "Anything else?"
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-33",
+    "level": "A1",
+    "n": 33,
+    "title": "I like it",
+    "place": "Food",
+    "aim": "Say what you like and do not like.",
+    "words": [
+      "like",
+      "like not",
+      "fish",
+      "rice"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Do you like fish?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes, I like fish."
+      },
+      {
+        "who": "Marko",
+        "en": "And rice?"
+      },
+      {
+        "who": "Anna",
+        "en": "I do not like rice."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-34",
+    "level": "A1",
+    "n": 34,
+    "title": "The menu",
+    "place": "Food",
+    "aim": "Order from two choices.",
+    "words": [
+      "menu",
+      "soup",
+      "salad",
+      "order"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "What is this?"
+      },
+      {
+        "who": "Marko",
+        "en": "Soup or salad."
+      },
+      {
+        "who": "Anna",
+        "en": "Salad, please."
+      },
+      {
+        "who": "Marko",
+        "en": "One salad."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-35",
+    "level": "A1",
+    "n": 35,
+    "title": "Paying",
+    "place": "Shop",
+    "aim": "Say you want to pay.",
+    "words": [
+      "pay",
+      "card",
+      "cash",
+      "receipt"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Can I pay?"
+      },
+      {
+        "who": "Marko",
+        "en": "Card or cash?"
+      },
+      {
+        "who": "Anna",
+        "en": "Card, please."
+      },
+      {
+        "who": "Marko",
+        "en": "Here is the receipt."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-36",
+    "level": "A1",
+    "n": 36,
+    "title": "The bathroom",
+    "place": "Home",
+    "aim": "Ask where the bathroom is.",
+    "words": [
+      "bathroom",
+      "where",
+      "toilet",
+      "down"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Where is the bathroom?"
+      },
+      {
+        "who": "Marko",
+        "en": "Down the hall."
+      },
+      {
+        "who": "Anna",
+        "en": "On the left?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. The door is open."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-37",
+    "level": "A1",
+    "n": 37,
+    "title": "Days of the week",
+    "place": "School",
+    "aim": "Name today and tomorrow.",
+    "words": [
+      "today",
+      "tomorrow",
+      "Monday",
+      "week"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "What day is it?"
+      },
+      {
+        "who": "Anna",
+        "en": "Today is Monday."
+      },
+      {
+        "who": "Marko",
+        "en": "And tomorrow?"
+      },
+      {
+        "who": "Anna",
+        "en": "Tuesday. A new week."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-38",
+    "level": "A1",
+    "n": 38,
+    "title": "The calendar",
+    "place": "School",
+    "aim": "Say a date simply.",
+    "words": [
+      "date",
+      "month",
+      "year",
+      "birthday"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "When is your birthday?"
+      },
+      {
+        "who": "Marko",
+        "en": "In May."
+      },
+      {
+        "who": "Anna",
+        "en": "Which date?"
+      },
+      {
+        "who": "Marko",
+        "en": "The tenth."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-39",
+    "level": "A1",
+    "n": 39,
+    "title": "At night",
+    "place": "Night",
+    "aim": "Say that someone is sleeping.",
+    "words": [
+      "night",
+      "sleep",
+      "moon",
+      "quiet"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The child is sleeping."
+      },
+      {
+        "who": "Marko",
+        "en": "The night is quiet."
+      },
+      {
+        "who": "Anna",
+        "en": "I see the moon."
+      },
+      {
+        "who": "Marko",
+        "en": "Let us speak softly."
+      }
+    ],
+    "image": "/talk/night.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-40",
+    "level": "A1",
+    "n": 40,
+    "title": "The pet",
+    "place": "Home",
+    "aim": "Talk about an animal at home.",
+    "words": [
+      "dog",
+      "cat",
+      "animal",
+      "small"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Is that your dog?"
+      },
+      {
+        "who": "Anna",
+        "en": "No. It is the neighbour's dog."
+      },
+      {
+        "who": "Marko",
+        "en": "The cat is small."
+      },
+      {
+        "who": "Anna",
+        "en": "She sleeps on the chair."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-41",
+    "level": "A1",
+    "n": 41,
+    "title": "Work or study",
+    "place": "People",
+    "aim": "Say what you do.",
+    "words": [
+      "work",
+      "study",
+      "job",
+      "student"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Do you work?"
+      },
+      {
+        "who": "Anna",
+        "en": "I study."
+      },
+      {
+        "who": "Marko",
+        "en": "I have a job in town."
+      },
+      {
+        "who": "Anna",
+        "en": "I am a student."
+      }
+    ],
+    "image": "/cards/friend.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-42",
+    "level": "A1",
+    "n": 42,
+    "title": "Where are you from?",
+    "place": "People",
+    "aim": "Ask and answer about home country.",
+    "words": [
+      "from",
+      "country",
+      "live",
+      "city"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Where are you from?"
+      },
+      {
+        "who": "Anna",
+        "en": "I am from a small city."
+      },
+      {
+        "who": "Marko",
+        "en": "Do you live here now?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. I live near the school."
+      }
+    ],
+    "image": "/cards/friend.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-43",
+    "level": "A1",
+    "n": 43,
+    "title": "The address",
+    "place": "Help",
+    "aim": "Ask someone to write an address.",
+    "words": [
+      "address",
+      "street",
+      "number",
+      "write"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "What is the address?"
+      },
+      {
+        "who": "Marko",
+        "en": "Green Street, number five."
+      },
+      {
+        "who": "Anna",
+        "en": "Can you write it?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. Here."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-44",
+    "level": "A1",
+    "n": 44,
+    "title": "Lost",
+    "place": "Help",
+    "aim": "Say you are lost and ask for the station.",
+    "words": [
+      "lost",
+      "help",
+      "station",
+      "near"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Excuse me. I am lost."
+      },
+      {
+        "who": "Marko",
+        "en": "How can I help?"
+      },
+      {
+        "who": "Anna",
+        "en": "Where is the station?"
+      },
+      {
+        "who": "Marko",
+        "en": "It is near. Go straight."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-45",
+    "level": "A1",
+    "n": 45,
+    "title": "The shop is closed",
+    "place": "Shop",
+    "aim": "Ask when a place opens.",
+    "words": [
+      "closed",
+      "open",
+      "hour",
+      "tomorrow"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The shop is closed."
+      },
+      {
+        "who": "Marko",
+        "en": "It opens at nine."
+      },
+      {
+        "who": "Anna",
+        "en": "Today?"
+      },
+      {
+        "who": "Marko",
+        "en": "No. Tomorrow morning."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-46",
+    "level": "A1",
+    "n": 46,
+    "title": "A photo",
+    "place": "People",
+    "aim": "Ask before you take a picture.",
+    "words": [
+      "photo",
+      "may I",
+      "smile",
+      "send"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "May I take a photo?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes."
+      },
+      {
+        "who": "Anna",
+        "en": "Smile."
+      },
+      {
+        "who": "Marko",
+        "en": "Send it to me later."
+      }
+    ],
+    "image": "/cards/friend.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a1-47",
+    "level": "A1",
+    "n": 47,
+    "title": "The child is tired",
+    "place": "Night",
+    "aim": "Talk about a child's needs.",
+    "words": [
+      "child",
+      "tired",
+      "bed",
+      "story"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The child is tired."
+      },
+      {
+        "who": "Marko",
+        "en": "It is time for bed."
+      },
+      {
+        "who": "Anna",
+        "en": "One story, please."
+      },
+      {
+        "who": "Marko",
+        "en": "A short one."
+      }
+    ],
+    "image": "/talk/night.jpg",
+    "grammar": "verbs"
+  },
+  {
+    "id": "a1-48",
+    "level": "A1",
+    "n": 48,
+    "title": "Hot and cold drinks",
+    "place": "Food",
+    "aim": "Choose a hot or cold drink.",
+    "words": [
+      "hot",
+      "cold",
+      "tea",
+      "juice"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Hot or cold?"
+      },
+      {
+        "who": "Anna",
+        "en": "Hot tea, please."
+      },
+      {
+        "who": "Marko",
+        "en": "We have juice too."
+      },
+      {
+        "who": "Anna",
+        "en": "Tea is fine."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "food"
+  },
+  {
+    "id": "a1-49",
+    "level": "A1",
+    "n": 49,
+    "title": "See you soon",
+    "place": "People",
+    "aim": "End a conversation politely.",
+    "words": [
+      "goodbye",
+      "see you",
+      "soon",
+      "tomorrow"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I must go."
+      },
+      {
+        "who": "Marko",
+        "en": "See you soon."
+      },
+      {
+        "who": "Anna",
+        "en": "Tomorrow?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. Goodbye."
+      }
+    ],
+    "image": "/cards/friend.jpg",
+    "grammar": "sentence"
+  },
+  {
+    "id": "a1-50",
+    "level": "A1",
+    "n": 50,
+    "title": "A short note",
+    "place": "School",
+    "aim": "Leave a simple message.",
+    "words": [
+      "note",
+      "message",
+      "call",
+      "name"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "He is not here."
+      },
+      {
+        "who": "Marko",
+        "en": "Leave a message."
+      },
+      {
+        "who": "Anna",
+        "en": "Please call Anna."
+      },
+      {
+        "who": "Marko",
+        "en": "I will write your name."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "nouns"
+  },
+  {
+    "id": "a2-01",
+    "level": "A2",
+    "n": 1,
+    "title": "A train ticket",
+    "place": "Travel",
+    "aim": "Buy a ticket and ask the time.",
+    "words": [
+      "ticket",
+      "single",
+      "return",
+      "platform"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "A return ticket to the city, please."
+      },
+      {
+        "who": "Marko",
+        "en": "Leaving today?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. Which platform?"
+      },
+      {
+        "who": "Marko",
+        "en": "Platform two, at ten."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-02",
+    "level": "A2",
+    "n": 2,
+    "title": "The train is late",
+    "place": "Travel",
+    "aim": "Ask why a train is delayed.",
+    "words": [
+      "late",
+      "delay",
+      "wait",
+      "announce"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Is the train late?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. There is a short delay."
+      },
+      {
+        "who": "Anna",
+        "en": "How long do we wait?"
+      },
+      {
+        "who": "Marko",
+        "en": "About twenty minutes. Listen for the announcement."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-03",
+    "level": "A2",
+    "n": 3,
+    "title": "Asking the way",
+    "place": "Help",
+    "aim": "Follow a direction with two steps.",
+    "words": [
+      "straight",
+      "turn",
+      "corner",
+      "map"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "How do I get to the market?"
+      },
+      {
+        "who": "Marko",
+        "en": "Go straight, then turn right at the corner."
+      },
+      {
+        "who": "Anna",
+        "en": "Is it far?"
+      },
+      {
+        "who": "Marko",
+        "en": "No. I can show you on the map."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-04",
+    "level": "A2",
+    "n": 4,
+    "title": "At the hotel desk",
+    "place": "Travel",
+    "aim": "Check in and ask for the room.",
+    "words": [
+      "reservation",
+      "room",
+      "key",
+      "night"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I have a reservation. The name is Anna."
+      },
+      {
+        "who": "Marko",
+        "en": "For two nights?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. Is breakfast included?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. Here is your key. Room twelve."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-05",
+    "level": "A2",
+    "n": 5,
+    "title": "A problem in the room",
+    "place": "Travel",
+    "aim": "Report something that does not work.",
+    "words": [
+      "shower",
+      "work",
+      "broken",
+      "send"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The shower does not work."
+      },
+      {
+        "who": "Marko",
+        "en": "I am sorry. I will send someone."
+      },
+      {
+        "who": "Anna",
+        "en": "Can you change the room?"
+      },
+      {
+        "who": "Marko",
+        "en": "Let me check."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-06",
+    "level": "A2",
+    "n": 6,
+    "title": "At the market",
+    "place": "Shop",
+    "aim": "Ask for a different piece of fruit.",
+    "words": [
+      "ripe",
+      "another",
+      "cheap",
+      "bag"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "This one is not ripe."
+      },
+      {
+        "who": "Marko",
+        "en": "Take another."
+      },
+      {
+        "who": "Anna",
+        "en": "Is there a cheaper bag?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. These are from this morning."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-07",
+    "level": "A2",
+    "n": 7,
+    "title": "The wrong size",
+    "place": "Shop",
+    "aim": "Ask to try a smaller size.",
+    "words": [
+      "size",
+      "small",
+      "try",
+      "fit"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "This is the wrong size."
+      },
+      {
+        "who": "Marko",
+        "en": "Would you like a smaller one?"
+      },
+      {
+        "who": "Anna",
+        "en": "May I try it?"
+      },
+      {
+        "who": "Marko",
+        "en": "Of course. The changing room is there."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-08",
+    "level": "A2",
+    "n": 8,
+    "title": "Paying by card",
+    "place": "Shop",
+    "aim": "Ask if you can pay by card.",
+    "words": [
+      "card",
+      "cash",
+      "receipt",
+      "total"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Can I pay by card?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. The total is twenty."
+      },
+      {
+        "who": "Anna",
+        "en": "May I have a receipt?"
+      },
+      {
+        "who": "Marko",
+        "en": "Here you are."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-09",
+    "level": "A2",
+    "n": 9,
+    "title": "Returning something",
+    "place": "Shop",
+    "aim": "Explain that you want to return an item.",
+    "words": [
+      "return",
+      "yesterday",
+      "receipt",
+      "exchange"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I bought this yesterday."
+      },
+      {
+        "who": "Marko",
+        "en": "Do you have the receipt?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. I would like to return it."
+      },
+      {
+        "who": "Marko",
+        "en": "We can exchange it or refund you."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-10",
+    "level": "A2",
+    "n": 10,
+    "title": "Opening hours",
+    "place": "Shop",
+    "aim": "Ask when a place opens and closes.",
+    "words": [
+      "open",
+      "close",
+      "lunch",
+      "Sunday"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "What time do you open?"
+      },
+      {
+        "who": "Marko",
+        "en": "At nine, and we close at six."
+      },
+      {
+        "who": "Anna",
+        "en": "Are you open on Sunday?"
+      },
+      {
+        "who": "Marko",
+        "en": "No. We close for lunch from one to two."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-11",
+    "level": "A2",
+    "n": 11,
+    "title": "At the pharmacy",
+    "place": "Health",
+    "aim": "Ask for something for a headache.",
+    "words": [
+      "headache",
+      "medicine",
+      "pharmacy",
+      "often"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I have a headache."
+      },
+      {
+        "who": "Marko",
+        "en": "How often?"
+      },
+      {
+        "who": "Anna",
+        "en": "Since this morning."
+      },
+      {
+        "who": "Marko",
+        "en": "Take this after food."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-12",
+    "level": "A2",
+    "n": 12,
+    "title": "A doctor's appointment",
+    "place": "Health",
+    "aim": "Make an appointment for today or tomorrow.",
+    "words": [
+      "appointment",
+      "doctor",
+      "today",
+      "tomorrow"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I need an appointment."
+      },
+      {
+        "who": "Marko",
+        "en": "Today or tomorrow?"
+      },
+      {
+        "who": "Anna",
+        "en": "Tomorrow morning, if possible."
+      },
+      {
+        "who": "Marko",
+        "en": "Ten o'clock is free."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-13",
+    "level": "A2",
+    "n": 13,
+    "title": "Describing pain",
+    "place": "Health",
+    "aim": "Say where it hurts and since when.",
+    "words": [
+      "hurt",
+      "since",
+      "stomach",
+      "fever"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Where does it hurt?"
+      },
+      {
+        "who": "Anna",
+        "en": "My stomach."
+      },
+      {
+        "who": "Marko",
+        "en": "Since when?"
+      },
+      {
+        "who": "Anna",
+        "en": "Since last night. I have a fever too."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-14",
+    "level": "A2",
+    "n": 14,
+    "title": "Calling in sick",
+    "place": "Work",
+    "aim": "Tell work you cannot come because you are ill.",
+    "words": [
+      "sick",
+      "office",
+      "stay",
+      "rest"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I cannot come to the office today."
+      },
+      {
+        "who": "Marko",
+        "en": "Are you sick?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. I need to stay home."
+      },
+      {
+        "who": "Marko",
+        "en": "Rest. Call me tomorrow."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-15",
+    "level": "A2",
+    "n": 15,
+    "title": "In class",
+    "place": "School",
+    "aim": "Ask the teacher to explain a word.",
+    "words": [
+      "word",
+      "mean",
+      "example",
+      "spell"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "What does this word mean?"
+      },
+      {
+        "who": "Marko",
+        "en": "It means 'ticket'."
+      },
+      {
+        "who": "Anna",
+        "en": "Can you spell it?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes, and I will give an example."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-16",
+    "level": "A2",
+    "n": 16,
+    "title": "Homework",
+    "place": "School",
+    "aim": "Ask when the homework is due.",
+    "words": [
+      "homework",
+      "due",
+      "finish",
+      "forgot"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "The homework is due on Friday."
+      },
+      {
+        "who": "Anna",
+        "en": "I forgot the page."
+      },
+      {
+        "who": "Marko",
+        "en": "Page ten. Finish the questions."
+      },
+      {
+        "who": "Anna",
+        "en": "I will do it tonight."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-17",
+    "level": "A2",
+    "n": 17,
+    "title": "The library",
+    "place": "School",
+    "aim": "Borrow a book and ask the return date.",
+    "words": [
+      "library",
+      "borrow",
+      "return",
+      "card"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "May I borrow this book?"
+      },
+      {
+        "who": "Marko",
+        "en": "Do you have a library card?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. When do I return it?"
+      },
+      {
+        "who": "Marko",
+        "en": "In two weeks."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-18",
+    "level": "A2",
+    "n": 18,
+    "title": "A group project",
+    "place": "School",
+    "aim": "Agree who does which part.",
+    "words": [
+      "group",
+      "project",
+      "part",
+      "meet"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Our project is about the city."
+      },
+      {
+        "who": "Marko",
+        "en": "I can write the introduction."
+      },
+      {
+        "who": "Anna",
+        "en": "I will find the pictures."
+      },
+      {
+        "who": "Marko",
+        "en": "Let us meet after class."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-19",
+    "level": "A2",
+    "n": 19,
+    "title": "On the phone",
+    "place": "Help",
+    "aim": "Leave a message for someone who is out.",
+    "words": [
+      "message",
+      "out",
+      "call back",
+      "number"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "He is out. Can I take a message?"
+      },
+      {
+        "who": "Anna",
+        "en": "Please ask him to call me back."
+      },
+      {
+        "who": "Marko",
+        "en": "What is your number?"
+      },
+      {
+        "who": "Anna",
+        "en": "It is on the note."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-20",
+    "level": "A2",
+    "n": 20,
+    "title": "A text message",
+    "place": "Help",
+    "aim": "Say you will send the address.",
+    "words": [
+      "text",
+      "send",
+      "address",
+      "later"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I will send you a text."
+      },
+      {
+        "who": "Marko",
+        "en": "With the address?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. I do not have it now."
+      },
+      {
+        "who": "Marko",
+        "en": "Send it later. That is fine."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-21",
+    "level": "A2",
+    "n": 21,
+    "title": "At a restaurant",
+    "place": "Food",
+    "aim": "Book a table and mention an allergy.",
+    "words": [
+      "table",
+      "book",
+      "allergy",
+      "nuts"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "A table for two at seven, please."
+      },
+      {
+        "who": "Marko",
+        "en": "Inside or outside?"
+      },
+      {
+        "who": "Anna",
+        "en": "Inside. I have a nut allergy."
+      },
+      {
+        "who": "Marko",
+        "en": "I will tell the kitchen."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-22",
+    "level": "A2",
+    "n": 22,
+    "title": "The bill",
+    "place": "Food",
+    "aim": "Ask for the bill and check it.",
+    "words": [
+      "bill",
+      "service",
+      "together",
+      "tip"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The bill, please."
+      },
+      {
+        "who": "Marko",
+        "en": "Together or separate?"
+      },
+      {
+        "who": "Anna",
+        "en": "Together."
+      },
+      {
+        "who": "Marko",
+        "en": "Service is included."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-23",
+    "level": "A2",
+    "n": 23,
+    "title": "This is not what I ordered",
+    "place": "Food",
+    "aim": "Politely say the order is wrong.",
+    "words": [
+      "order",
+      "wrong",
+      "instead",
+      "sorry"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Excuse me. This is not what I ordered."
+      },
+      {
+        "who": "Marko",
+        "en": "I am sorry. What did you ask for?"
+      },
+      {
+        "who": "Anna",
+        "en": "Soup, not salad."
+      },
+      {
+        "who": "Marko",
+        "en": "I will change it."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-24",
+    "level": "A2",
+    "n": 24,
+    "title": "Cooking at home",
+    "place": "Home",
+    "aim": "Say what you need for a simple meal.",
+    "words": [
+      "recipe",
+      "onion",
+      "oil",
+      "salt"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "What does the recipe need?"
+      },
+      {
+        "who": "Anna",
+        "en": "Onion, oil, and salt."
+      },
+      {
+        "who": "Marko",
+        "en": "We have no onion."
+      },
+      {
+        "who": "Anna",
+        "en": "I will buy one."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-25",
+    "level": "A2",
+    "n": 25,
+    "title": "The neighbour's noise",
+    "place": "Home",
+    "aim": "Ask a neighbour to be quieter, politely.",
+    "words": [
+      "noise",
+      "quiet",
+      "evening",
+      "sorry"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Sorry to bother you."
+      },
+      {
+        "who": "Marko",
+        "en": "What is wrong?"
+      },
+      {
+        "who": "Anna",
+        "en": "The music is loud in the evening."
+      },
+      {
+        "who": "Marko",
+        "en": "I am sorry. I will keep it quiet."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-26",
+    "level": "A2",
+    "n": 26,
+    "title": "Borrowing a tool",
+    "place": "Home",
+    "aim": "Borrow something and say when you will return it.",
+    "words": [
+      "borrow",
+      "hammer",
+      "return",
+      "tomorrow"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "May I borrow a hammer?"
+      },
+      {
+        "who": "Marko",
+        "en": "Of course."
+      },
+      {
+        "who": "Anna",
+        "en": "I will return it tomorrow."
+      },
+      {
+        "who": "Marko",
+        "en": "No hurry."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-27",
+    "level": "A2",
+    "n": 27,
+    "title": "The washing machine",
+    "place": "Home",
+    "aim": "Explain that a machine is broken.",
+    "words": [
+      "machine",
+      "broken",
+      "leak",
+      "repair"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The washing machine is broken."
+      },
+      {
+        "who": "Marko",
+        "en": "What happened?"
+      },
+      {
+        "who": "Anna",
+        "en": "It leaks."
+      },
+      {
+        "who": "Marko",
+        "en": "I will call a repair person."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-28",
+    "level": "A2",
+    "n": 28,
+    "title": "Plans for Saturday",
+    "place": "Plans",
+    "aim": "Invite someone and suggest a time.",
+    "words": [
+      "Saturday",
+      "free",
+      "cinema",
+      "meet"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Are you free on Saturday?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. In the afternoon."
+      },
+      {
+        "who": "Anna",
+        "en": "Shall we go to the cinema?"
+      },
+      {
+        "who": "Marko",
+        "en": "Let us meet at three."
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-29",
+    "level": "A2",
+    "n": 29,
+    "title": "Yesterday",
+    "place": "Plans",
+    "aim": "Say what you did yesterday.",
+    "words": [
+      "yesterday",
+      "went",
+      "bought",
+      "market"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "What did you do yesterday?"
+      },
+      {
+        "who": "Anna",
+        "en": "I went to the market."
+      },
+      {
+        "who": "Marko",
+        "en": "What did you buy?"
+      },
+      {
+        "who": "Anna",
+        "en": "I bought bread and fruit."
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-30",
+    "level": "A2",
+    "n": 30,
+    "title": "A hobby",
+    "place": "Plans",
+    "aim": "Talk about what you do in your free time.",
+    "words": [
+      "hobby",
+      "play",
+      "guitar",
+      "often"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "What do you do in your free time?"
+      },
+      {
+        "who": "Marko",
+        "en": "I play the guitar."
+      },
+      {
+        "who": "Anna",
+        "en": "How often?"
+      },
+      {
+        "who": "Marko",
+        "en": "Two evenings a week."
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-31",
+    "level": "A2",
+    "n": 31,
+    "title": "The weather forecast",
+    "place": "Town",
+    "aim": "Talk about tomorrow's weather and clothes.",
+    "words": [
+      "forecast",
+      "rain",
+      "umbrella",
+      "cold"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "The forecast says rain."
+      },
+      {
+        "who": "Anna",
+        "en": "I will take an umbrella."
+      },
+      {
+        "who": "Marko",
+        "en": "It will be cold too."
+      },
+      {
+        "who": "Anna",
+        "en": "Then I need a coat."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-32",
+    "level": "A2",
+    "n": 32,
+    "title": "At the post office",
+    "place": "Town",
+    "aim": "Send a parcel and ask the price.",
+    "words": [
+      "parcel",
+      "send",
+      "stamp",
+      "weigh"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I want to send this parcel."
+      },
+      {
+        "who": "Marko",
+        "en": "Let me weigh it."
+      },
+      {
+        "who": "Anna",
+        "en": "How much is the stamp?"
+      },
+      {
+        "who": "Marko",
+        "en": "Four. It will arrive on Friday."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-33",
+    "level": "A2",
+    "n": 33,
+    "title": "Lost property",
+    "place": "Travel",
+    "aim": "Describe something you lost.",
+    "words": [
+      "lost",
+      "bag",
+      "black",
+      "found"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I lost my bag."
+      },
+      {
+        "who": "Marko",
+        "en": "What colour is it?"
+      },
+      {
+        "who": "Anna",
+        "en": "Black, with a book inside."
+      },
+      {
+        "who": "Marko",
+        "en": "Someone found a black bag. Come and see."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-34",
+    "level": "A2",
+    "n": 34,
+    "title": "A taxi",
+    "place": "Travel",
+    "aim": "Tell the driver where to go.",
+    "words": [
+      "taxi",
+      "address",
+      "stop",
+      "fare"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "To Green Street, please."
+      },
+      {
+        "who": "Marko",
+        "en": "Do you know the number?"
+      },
+      {
+        "who": "Anna",
+        "en": "Number five. Please stop here."
+      },
+      {
+        "who": "Marko",
+        "en": "The fare is twelve."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-35",
+    "level": "A2",
+    "n": 35,
+    "title": "Renting a bike",
+    "place": "Travel",
+    "aim": "Rent something for one day.",
+    "words": [
+      "rent",
+      "bike",
+      "day",
+      "deposit"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I would like to rent a bike."
+      },
+      {
+        "who": "Marko",
+        "en": "For one day?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. Is there a deposit?"
+      },
+      {
+        "who": "Marko",
+        "en": "Twenty. Bring it back before six."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-36",
+    "level": "A2",
+    "n": 36,
+    "title": "At the bank",
+    "place": "Town",
+    "aim": "Ask to open an account, simply.",
+    "words": [
+      "bank",
+      "account",
+      "open",
+      "passport"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I would like to open an account."
+      },
+      {
+        "who": "Marko",
+        "en": "Do you have your passport?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes, and proof of address."
+      },
+      {
+        "who": "Marko",
+        "en": "Please sit down. This will take a few minutes."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-37",
+    "level": "A2",
+    "n": 37,
+    "title": "The cash machine",
+    "place": "Town",
+    "aim": "Say the machine did not give the money.",
+    "words": [
+      "cash",
+      "machine",
+      "card",
+      "money"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The machine took my card."
+      },
+      {
+        "who": "Marko",
+        "en": "Did it give you the money?"
+      },
+      {
+        "who": "Anna",
+        "en": "No."
+      },
+      {
+        "who": "Marko",
+        "en": "Call the number on the screen. Do not leave the card."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-38",
+    "level": "A2",
+    "n": 38,
+    "title": "A job advert",
+    "place": "Work",
+    "aim": "Ask about a simple job.",
+    "words": [
+      "job",
+      "hours",
+      "experience",
+      "apply"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Is the job still open?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. The hours are mornings."
+      },
+      {
+        "who": "Anna",
+        "en": "I have a little experience."
+      },
+      {
+        "who": "Marko",
+        "en": "Send your application by Friday."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-39",
+    "level": "A2",
+    "n": 39,
+    "title": "The first day",
+    "place": "Work",
+    "aim": "Ask where things are on your first day.",
+    "words": [
+      "first day",
+      "colleague",
+      "desk",
+      "password"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "It is my first day."
+      },
+      {
+        "who": "Marko",
+        "en": "Welcome. This is your desk."
+      },
+      {
+        "who": "Anna",
+        "en": "Where do I get a password?"
+      },
+      {
+        "who": "Marko",
+        "en": "Ask your colleague. She will show you."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-40",
+    "level": "A2",
+    "n": 40,
+    "title": "A meeting time",
+    "place": "Work",
+    "aim": "Move a meeting politely.",
+    "words": [
+      "meeting",
+      "move",
+      "busy",
+      "afternoon"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Can we move the meeting?"
+      },
+      {
+        "who": "Marko",
+        "en": "I am busy at ten."
+      },
+      {
+        "who": "Anna",
+        "en": "Is the afternoon better?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. Three o'clock."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-41",
+    "level": "A2",
+    "n": 41,
+    "title": "An email",
+    "place": "Work",
+    "aim": "Say you sent a file.",
+    "words": [
+      "email",
+      "attach",
+      "file",
+      "received"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I sent you an email."
+      },
+      {
+        "who": "Marko",
+        "en": "Did you attach the file?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes."
+      },
+      {
+        "who": "Marko",
+        "en": "I have not received it yet."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-42",
+    "level": "A2",
+    "n": 42,
+    "title": "The classroom rules",
+    "place": "School",
+    "aim": "Ask if you may leave early.",
+    "words": [
+      "leave",
+      "early",
+      "class",
+      "reason"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "May I leave early today?"
+      },
+      {
+        "who": "Marko",
+        "en": "What is the reason?"
+      },
+      {
+        "who": "Anna",
+        "en": "I have a doctor's appointment."
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. Please tell the class next time."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-43",
+    "level": "A2",
+    "n": 43,
+    "title": "Asking a classmate",
+    "place": "School",
+    "aim": "Ask to borrow notes.",
+    "words": [
+      "notes",
+      "missed",
+      "copy",
+      "share"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I missed yesterday's class."
+      },
+      {
+        "who": "Marko",
+        "en": "Do you want my notes?"
+      },
+      {
+        "who": "Anna",
+        "en": "May I copy them?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. I will share them tonight."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-44",
+    "level": "A2",
+    "n": 44,
+    "title": "The sports club",
+    "place": "Plans",
+    "aim": "Ask about joining a class.",
+    "words": [
+      "club",
+      "join",
+      "beginner",
+      "week"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Can beginners join?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. The class is on Wednesday."
+      },
+      {
+        "who": "Anna",
+        "en": "How much is it a week?"
+      },
+      {
+        "who": "Marko",
+        "en": "Ten. The first class is free."
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-45",
+    "level": "A2",
+    "n": 45,
+    "title": "The cinema",
+    "place": "Plans",
+    "aim": "Suggest a film and a time.",
+    "words": [
+      "film",
+      "start",
+      "ticket",
+      "late"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "The film starts at eight."
+      },
+      {
+        "who": "Anna",
+        "en": "That is late for me."
+      },
+      {
+        "who": "Marko",
+        "en": "There is one at six."
+      },
+      {
+        "who": "Anna",
+        "en": "Better. I will buy the tickets."
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-46",
+    "level": "A2",
+    "n": 46,
+    "title": "A birthday",
+    "place": "Home",
+    "aim": "Invite someone to a small party.",
+    "words": [
+      "birthday",
+      "party",
+      "bring",
+      "cake"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "It is my birthday on Saturday."
+      },
+      {
+        "who": "Marko",
+        "en": "Are you having a party?"
+      },
+      {
+        "who": "Anna",
+        "en": "A small one. Please come."
+      },
+      {
+        "who": "Marko",
+        "en": "I will bring a cake."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-47",
+    "level": "A2",
+    "n": 47,
+    "title": "The weather and plans",
+    "place": "Plans",
+    "aim": "Change a plan because of rain.",
+    "words": [
+      "cancel",
+      "rain",
+      "inside",
+      "instead"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "It is raining. Shall we cancel?"
+      },
+      {
+        "who": "Marko",
+        "en": "We can meet inside instead."
+      },
+      {
+        "who": "Anna",
+        "en": "At the café?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. Same time."
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-48",
+    "level": "A2",
+    "n": 48,
+    "title": "Describing a person",
+    "place": "People",
+    "aim": "Describe someone so a friend can find them.",
+    "words": [
+      "tall",
+      "glasses",
+      "hair",
+      "wear"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "What does she look like?"
+      },
+      {
+        "who": "Anna",
+        "en": "She is tall and wears glasses."
+      },
+      {
+        "who": "Marko",
+        "en": "What colour is her hair?"
+      },
+      {
+        "who": "Anna",
+        "en": "Dark. She is wearing a blue coat."
+      }
+    ],
+    "image": "/cards/friend.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "a2-49",
+    "level": "A2",
+    "n": 49,
+    "title": "Comparing two flats",
+    "place": "Choice",
+    "aim": "Say which place you prefer and why.",
+    "words": [
+      "flat",
+      "quiet",
+      "closer",
+      "prefer"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "This flat is quieter."
+      },
+      {
+        "who": "Marko",
+        "en": "The other one is closer to work."
+      },
+      {
+        "who": "Anna",
+        "en": "I prefer quiet."
+      },
+      {
+        "who": "Marko",
+        "en": "Then this one is better for you."
+      }
+    ],
+    "image": "/talk/choice.jpg",
+    "grammar": "way"
+  },
+  {
+    "id": "a2-50",
+    "level": "A2",
+    "n": 50,
+    "title": "A polite complaint",
+    "place": "Shop",
+    "aim": "Say something is wrong without being rude.",
+    "words": [
+      "complaint",
+      "wrong",
+      "replace",
+      "manager"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I am sorry, but this is damaged."
+      },
+      {
+        "who": "Marko",
+        "en": "We can replace it."
+      },
+      {
+        "who": "Anna",
+        "en": "Thank you. I do not need the manager."
+      },
+      {
+        "who": "Marko",
+        "en": "I will get another one."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "shop"
+  },
+  {
+    "id": "b1-01",
+    "level": "B1",
+    "n": 1,
+    "title": "What I did last week",
+    "place": "Plans",
+    "aim": "Tell a short story in the past.",
+    "words": [
+      "last week",
+      "visited",
+      "stayed",
+      "because"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "What did you do last week?"
+      },
+      {
+        "who": "Anna",
+        "en": "I visited my parents because my father was ill."
+      },
+      {
+        "who": "Marko",
+        "en": "Did you stay long?"
+      },
+      {
+        "who": "Anna",
+        "en": "Three days. He is better now."
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-02",
+    "level": "B1",
+    "n": 2,
+    "title": "A plan for tomorrow",
+    "place": "Plans",
+    "aim": "Say what you are going to do.",
+    "words": [
+      "going to",
+      "tomorrow",
+      "finish",
+      "then"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Tomorrow I am going to finish the report."
+      },
+      {
+        "who": "Marko",
+        "en": "And then?"
+      },
+      {
+        "who": "Anna",
+        "en": "Then I will call the client."
+      },
+      {
+        "who": "Marko",
+        "en": "Do you need help with the figures?"
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-03",
+    "level": "B1",
+    "n": 3,
+    "title": "Changing a plan",
+    "place": "Plans",
+    "aim": "Explain why you have to change a plan.",
+    "words": [
+      "change",
+      "unfortunately",
+      "instead",
+      "still"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Unfortunately I have to change our plan."
+      },
+      {
+        "who": "Marko",
+        "en": "What happened?"
+      },
+      {
+        "who": "Anna",
+        "en": "The meeting was moved, so I cannot come at one."
+      },
+      {
+        "who": "Marko",
+        "en": "We can still meet at four."
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-04",
+    "level": "B1",
+    "n": 4,
+    "title": "At the office",
+    "place": "Work",
+    "aim": "Explain what you are working on.",
+    "words": [
+      "project",
+      "deadline",
+      "responsible",
+      "update"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "What are you working on?"
+      },
+      {
+        "who": "Anna",
+        "en": "The client project. I am responsible for the text."
+      },
+      {
+        "who": "Marko",
+        "en": "When is the deadline?"
+      },
+      {
+        "who": "Anna",
+        "en": "Friday. I will send an update tonight."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-05",
+    "level": "B1",
+    "n": 5,
+    "title": "Asking a colleague",
+    "place": "Work",
+    "aim": "Ask for help without stopping someone's work.",
+    "words": [
+      "busy",
+      "moment",
+      "show",
+      "later"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Are you busy?"
+      },
+      {
+        "who": "Marko",
+        "en": "I have a moment."
+      },
+      {
+        "who": "Anna",
+        "en": "Could you show me how this form works?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. If it takes longer, we can continue later."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-06",
+    "level": "B1",
+    "n": 6,
+    "title": "A deadline",
+    "place": "Work",
+    "aim": "Say you may miss a deadline and propose a new time.",
+    "words": [
+      "miss",
+      "deadline",
+      "propose",
+      "enough"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I may miss the deadline."
+      },
+      {
+        "who": "Marko",
+        "en": "Why?"
+      },
+      {
+        "who": "Anna",
+        "en": "The figures arrived late. I propose Monday."
+      },
+      {
+        "who": "Marko",
+        "en": "Monday is enough if the rest is ready."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-07",
+    "level": "B1",
+    "n": 7,
+    "title": "Working from home",
+    "place": "Work",
+    "aim": "Agree which days you will be in the office.",
+    "words": [
+      "home",
+      "office",
+      "available",
+      "call"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I will work from home on Thursday."
+      },
+      {
+        "who": "Marko",
+        "en": "Will you be available?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. Call me if something is urgent."
+      },
+      {
+        "who": "Marko",
+        "en": "I will be in the office."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-08",
+    "level": "B1",
+    "n": 8,
+    "title": "A short interview",
+    "place": "Work",
+    "aim": "Answer why you want the job.",
+    "words": [
+      "experience",
+      "because",
+      "team",
+      "learn"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Why do you want this job?"
+      },
+      {
+        "who": "Anna",
+        "en": "Because I want to learn, and I like working in a team."
+      },
+      {
+        "who": "Marko",
+        "en": "Tell me about your experience."
+      },
+      {
+        "who": "Anna",
+        "en": "I worked in a shop for two years, so I am used to customers."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-09",
+    "level": "B1",
+    "n": 9,
+    "title": "Giving a reason",
+    "place": "Work",
+    "aim": "Explain a decision with because.",
+    "words": [
+      "because",
+      "decided",
+      "cost",
+      "time"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "We decided to take the train."
+      },
+      {
+        "who": "Marko",
+        "en": "Because it is cheaper?"
+      },
+      {
+        "who": "Anna",
+        "en": "Because it saves time, even though it costs more."
+      },
+      {
+        "who": "Marko",
+        "en": "That makes sense if the meeting is at six."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-10",
+    "level": "B1",
+    "n": 10,
+    "title": "In a meeting",
+    "place": "Work",
+    "aim": "Ask someone to repeat a point.",
+    "words": [
+      "point",
+      "mean",
+      "agree",
+      "note"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Could you repeat that point?"
+      },
+      {
+        "who": "Marko",
+        "en": "I mean we should start the report this week."
+      },
+      {
+        "who": "Anna",
+        "en": "I agree, and I will take notes."
+      },
+      {
+        "who": "Marko",
+        "en": "Good. Send them to the team."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-11",
+    "level": "B1",
+    "n": 11,
+    "title": "A presentation",
+    "place": "School",
+    "aim": "Introduce what you are going to talk about.",
+    "words": [
+      "presentation",
+      "about",
+      "first",
+      "finally"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Today I am going to talk about the market."
+      },
+      {
+        "who": "Marko",
+        "en": "How long is it?"
+      },
+      {
+        "who": "Anna",
+        "en": "Ten minutes. First the problem, then the idea, and finally a question."
+      },
+      {
+        "who": "Marko",
+        "en": "I will keep the time."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-12",
+    "level": "B1",
+    "n": 12,
+    "title": "I disagree",
+    "place": "School",
+    "aim": "Disagree politely in class.",
+    "words": [
+      "disagree",
+      "however",
+      "opinion",
+      "example"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I disagree, however I see your point."
+      },
+      {
+        "who": "Marko",
+        "en": "Can you give an example?"
+      },
+      {
+        "who": "Anna",
+        "en": "In my opinion the smaller shop is better for students."
+      },
+      {
+        "who": "Marko",
+        "en": "That is a fair example."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-13",
+    "level": "B1",
+    "n": 13,
+    "title": "Group work problem",
+    "place": "School",
+    "aim": "Say someone has not done their part.",
+    "words": [
+      "part",
+      "yet",
+      "fair",
+      "talk"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Lea has not sent her part yet."
+      },
+      {
+        "who": "Marko",
+        "en": "The project is due tomorrow."
+      },
+      {
+        "who": "Anna",
+        "en": "It is not fair if we do her work."
+      },
+      {
+        "who": "Marko",
+        "en": "Let us talk to her before we tell the teacher."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-14",
+    "level": "B1",
+    "n": 14,
+    "title": "Asking for an extension",
+    "place": "School",
+    "aim": "Ask a teacher for more time.",
+    "words": [
+      "extension",
+      "because",
+      "possible",
+      "draft"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Would an extension be possible?"
+      },
+      {
+        "who": "Marko",
+        "en": "Why do you need it?"
+      },
+      {
+        "who": "Anna",
+        "en": "Because I was ill last week. I can send a draft on Monday."
+      },
+      {
+        "who": "Marko",
+        "en": "Monday is fine."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-15",
+    "level": "B1",
+    "n": 15,
+    "title": "The exam",
+    "place": "School",
+    "aim": "Ask what the exam will cover.",
+    "words": [
+      "exam",
+      "cover",
+      "revise",
+      "allowed"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "What will the exam cover?"
+      },
+      {
+        "who": "Marko",
+        "en": "Units three to six."
+      },
+      {
+        "who": "Anna",
+        "en": "Are notes allowed?"
+      },
+      {
+        "who": "Marko",
+        "en": "No. Revise the examples from class."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-16",
+    "level": "B1",
+    "n": 16,
+    "title": "At the clinic",
+    "place": "Health",
+    "aim": "Describe symptoms over several days.",
+    "words": [
+      "symptom",
+      "for three days",
+      "worse",
+      "sleep"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "What are the symptoms?"
+      },
+      {
+        "who": "Anna",
+        "en": "A cough for three days, and it is worse at night."
+      },
+      {
+        "who": "Marko",
+        "en": "Can you sleep?"
+      },
+      {
+        "who": "Anna",
+        "en": "Not well."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-17",
+    "level": "B1",
+    "n": 17,
+    "title": "Medicine instructions",
+    "place": "Health",
+    "aim": "Check how to take medicine.",
+    "words": [
+      "twice",
+      "after",
+      "empty stomach",
+      "side effect"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Do I take it with food?"
+      },
+      {
+        "who": "Marko",
+        "en": "Twice a day, after meals."
+      },
+      {
+        "who": "Anna",
+        "en": "Not on an empty stomach?"
+      },
+      {
+        "who": "Marko",
+        "en": "No. Call us if you notice a side effect."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-18",
+    "level": "B1",
+    "n": 18,
+    "title": "Booking online",
+    "place": "Travel",
+    "aim": "Say the website would not take your payment.",
+    "words": [
+      "website",
+      "payment",
+      "failed",
+      "try"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The payment failed on the website."
+      },
+      {
+        "who": "Marko",
+        "en": "Did the money leave your account?"
+      },
+      {
+        "who": "Anna",
+        "en": "I do not think so."
+      },
+      {
+        "who": "Marko",
+        "en": "Try again in an hour, or pay here."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-19",
+    "level": "B1",
+    "n": 19,
+    "title": "A missed connection",
+    "place": "Travel",
+    "aim": "Explain you missed a train and ask for the next one.",
+    "words": [
+      "missed",
+      "connection",
+      "next",
+      "seat"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I missed the connection."
+      },
+      {
+        "who": "Marko",
+        "en": "The next train is at four."
+      },
+      {
+        "who": "Anna",
+        "en": "Is there a seat?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. You do not need a new ticket."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-20",
+    "level": "B1",
+    "n": 20,
+    "title": "At the airport",
+    "place": "Travel",
+    "aim": "Ask which desk and what to show.",
+    "words": [
+      "flight",
+      "gate",
+      "passport",
+      "boarding"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Where do I check in?"
+      },
+      {
+        "who": "Marko",
+        "en": "Desk twelve. Have your passport ready."
+      },
+      {
+        "who": "Anna",
+        "en": "Is the gate open?"
+      },
+      {
+        "who": "Marko",
+        "en": "Not yet. Boarding starts at six."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-21",
+    "level": "B1",
+    "n": 21,
+    "title": "The luggage",
+    "place": "Travel",
+    "aim": "Report a bag that did not arrive.",
+    "words": [
+      "luggage",
+      "arrive",
+      "describe",
+      "form"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "My luggage did not arrive."
+      },
+      {
+        "who": "Marko",
+        "en": "Can you describe it?"
+      },
+      {
+        "who": "Anna",
+        "en": "A blue suitcase with a red label."
+      },
+      {
+        "who": "Marko",
+        "en": "Please fill in this form. We will call you."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-22",
+    "level": "B1",
+    "n": 22,
+    "title": "Renting a flat",
+    "place": "Home",
+    "aim": "Ask about rent, bills, and the contract.",
+    "words": [
+      "rent",
+      "bills",
+      "included",
+      "contract"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Is the rent inclusive?"
+      },
+      {
+        "who": "Marko",
+        "en": "Water is included. Electricity is not."
+      },
+      {
+        "who": "Anna",
+        "en": "How long is the contract?"
+      },
+      {
+        "who": "Marko",
+        "en": "One year."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-23",
+    "level": "B1",
+    "n": 23,
+    "title": "A noisy flat",
+    "place": "Home",
+    "aim": "Explain a housing problem to the agency.",
+    "words": [
+      "upstairs",
+      "noise",
+      "night",
+      "ask"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The people upstairs are noisy at night."
+      },
+      {
+        "who": "Marko",
+        "en": "How often?"
+      },
+      {
+        "who": "Anna",
+        "en": "Most nights, after eleven."
+      },
+      {
+        "who": "Marko",
+        "en": "I will ask them to keep it down."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-24",
+    "level": "B1",
+    "n": 24,
+    "title": "The repair",
+    "place": "Home",
+    "aim": "Arrange a time for a repair.",
+    "words": [
+      "repair",
+      "available",
+      "morning",
+      "let in"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "The repair person can come on Tuesday."
+      },
+      {
+        "who": "Anna",
+        "en": "I am not available in the morning."
+      },
+      {
+        "who": "Marko",
+        "en": "Afternoon, then."
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. I will be there to let them in."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-25",
+    "level": "B1",
+    "n": 25,
+    "title": "At the bank again",
+    "place": "Town",
+    "aim": "Question a charge you do not recognise.",
+    "words": [
+      "charge",
+      "recognise",
+      "statement",
+      "block"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I do not recognise this charge."
+      },
+      {
+        "who": "Marko",
+        "en": "It is on Tuesday's statement."
+      },
+      {
+        "who": "Anna",
+        "en": "I was not in that shop."
+      },
+      {
+        "who": "Marko",
+        "en": "We can block the card while we check."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-26",
+    "level": "B1",
+    "n": 26,
+    "title": "A budget",
+    "place": "Town",
+    "aim": "Talk about spending too much.",
+    "words": [
+      "budget",
+      "spend",
+      "save",
+      "enough"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Did you keep to the budget?"
+      },
+      {
+        "who": "Anna",
+        "en": "No. I spent too much on the train."
+      },
+      {
+        "who": "Marko",
+        "en": "Is there enough for the hotel?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes, if we save on meals."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-27",
+    "level": "B1",
+    "n": 27,
+    "title": "Inviting formally",
+    "place": "Plans",
+    "aim": "Invite someone and give them a way to refuse.",
+    "words": [
+      "invite",
+      "join",
+      "if you can",
+      "another time"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I would like to invite you to dinner."
+      },
+      {
+        "who": "Marko",
+        "en": "This Friday?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes, if you can. If not, another time is fine."
+      },
+      {
+        "who": "Marko",
+        "en": "Friday works."
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-28",
+    "level": "B1",
+    "n": 28,
+    "title": "Apologising",
+    "place": "People",
+    "aim": "Apologise and say how you will fix it.",
+    "words": [
+      "sorry",
+      "fault",
+      "send",
+      "today"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I am sorry. It was my fault."
+      },
+      {
+        "who": "Marko",
+        "en": "What happened?"
+      },
+      {
+        "who": "Anna",
+        "en": "I forgot the file. I will send it today."
+      },
+      {
+        "who": "Marko",
+        "en": "Thank you. Please check it first."
+      }
+    ],
+    "image": "/cards/friend.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-29",
+    "level": "B1",
+    "n": 29,
+    "title": "Giving advice",
+    "place": "Help",
+    "aim": "Advise a friend who is tired.",
+    "words": [
+      "should",
+      "rest",
+      "too much",
+      "advice"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "You look tired."
+      },
+      {
+        "who": "Anna",
+        "en": "I have worked too much."
+      },
+      {
+        "who": "Marko",
+        "en": "You should rest this weekend."
+      },
+      {
+        "who": "Anna",
+        "en": "That is good advice."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-30",
+    "level": "B1",
+    "n": 30,
+    "title": "A complaint at work",
+    "place": "Work",
+    "aim": "Say a process is wasting time.",
+    "words": [
+      "waste",
+      "process",
+      "suggest",
+      "instead"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "This process wastes time."
+      },
+      {
+        "who": "Marko",
+        "en": "What do you suggest?"
+      },
+      {
+        "who": "Anna",
+        "en": "One form instead of three."
+      },
+      {
+        "who": "Marko",
+        "en": "Write it down and we will discuss it."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-31",
+    "level": "B1",
+    "n": 31,
+    "title": "Customer on the phone",
+    "place": "Work",
+    "aim": "Calm a customer and promise a time.",
+    "words": [
+      "customer",
+      "problem",
+      "look into",
+      "by"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "The customer is unhappy."
+      },
+      {
+        "who": "Anna",
+        "en": "I will look into the problem."
+      },
+      {
+        "who": "Marko",
+        "en": "What should I tell them?"
+      },
+      {
+        "who": "Anna",
+        "en": "That we will call by four."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-32",
+    "level": "B1",
+    "n": 32,
+    "title": "The school trip",
+    "place": "School",
+    "aim": "Ask about cost and permission.",
+    "words": [
+      "trip",
+      "permission",
+      "cost",
+      "include"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Do we need permission for the trip?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes, from a parent if you are under eighteen."
+      },
+      {
+        "who": "Anna",
+        "en": "What does the cost include?"
+      },
+      {
+        "who": "Marko",
+        "en": "The bus and lunch."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-33",
+    "level": "B1",
+    "n": 33,
+    "title": "Volunteering",
+    "place": "School",
+    "aim": "Offer to help and ask what is needed.",
+    "words": [
+      "volunteer",
+      "need",
+      "help",
+      "Saturday"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I would like to volunteer."
+      },
+      {
+        "who": "Marko",
+        "en": "We need help on Saturday morning."
+      },
+      {
+        "who": "Anna",
+        "en": "I can come at nine."
+      },
+      {
+        "who": "Marko",
+        "en": "Bring comfortable shoes."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-34",
+    "level": "B1",
+    "n": 34,
+    "title": "A neighbourhood meeting",
+    "place": "Home",
+    "aim": "Give an opinion about a local plan.",
+    "words": [
+      "neighbourhood",
+      "park",
+      "support",
+      "worry"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I support the new park."
+      },
+      {
+        "who": "Marko",
+        "en": "Some people worry about noise."
+      },
+      {
+        "who": "Anna",
+        "en": "If it closes at nine, that should be fine."
+      },
+      {
+        "who": "Marko",
+        "en": "I will mention that at the meeting."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-35",
+    "level": "B1",
+    "n": 35,
+    "title": "Recycling",
+    "place": "Home",
+    "aim": "Ask which bin to use.",
+    "words": [
+      "recycling",
+      "bin",
+      "glass",
+      "plastic"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Where does the glass go?"
+      },
+      {
+        "who": "Marko",
+        "en": "In the green bin."
+      },
+      {
+        "who": "Anna",
+        "en": "And plastic?"
+      },
+      {
+        "who": "Marko",
+        "en": "The yellow one. Paper is blue."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-36",
+    "level": "B1",
+    "n": 36,
+    "title": "The dentist",
+    "place": "Health",
+    "aim": "Cancel and rebook an appointment.",
+    "words": [
+      "dentist",
+      "cancel",
+      "rebook",
+      "next week"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I need to cancel my appointment."
+      },
+      {
+        "who": "Marko",
+        "en": "Would you like to rebook?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. Next week, if possible."
+      },
+      {
+        "who": "Marko",
+        "en": "Wednesday at two."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-37",
+    "level": "B1",
+    "n": 37,
+    "title": "At the gym",
+    "place": "Health",
+    "aim": "Ask a beginner question.",
+    "words": [
+      "gym",
+      "beginner",
+      "show",
+      "hurt"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I am a beginner."
+      },
+      {
+        "who": "Marko",
+        "en": "Start with this machine."
+      },
+      {
+        "who": "Anna",
+        "en": "Could you show me?"
+      },
+      {
+        "who": "Marko",
+        "en": "Stop if it hurts."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-38",
+    "level": "B1",
+    "n": 38,
+    "title": "Food for a guest",
+    "place": "Food",
+    "aim": "Ask about food a guest cannot eat.",
+    "words": [
+      "guest",
+      "cannot eat",
+      "cook",
+      "instead"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "My guest cannot eat meat."
+      },
+      {
+        "who": "Marko",
+        "en": "I can cook vegetables instead."
+      },
+      {
+        "who": "Anna",
+        "en": "She eats fish."
+      },
+      {
+        "who": "Marko",
+        "en": "Then fish is easy."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-39",
+    "level": "B1",
+    "n": 39,
+    "title": "A review",
+    "place": "Food",
+    "aim": "Explain why you would or would not return.",
+    "words": [
+      "review",
+      "service",
+      "slow",
+      "return"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "How was the restaurant?"
+      },
+      {
+        "who": "Anna",
+        "en": "The food was good, but the service was slow."
+      },
+      {
+        "who": "Marko",
+        "en": "Will you return?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes, if we have more time."
+      }
+    ],
+    "image": "/talk/cafe.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-40",
+    "level": "B1",
+    "n": 40,
+    "title": "Comparing prices",
+    "place": "Shop",
+    "aim": "Explain why the cheaper one is not better.",
+    "words": [
+      "compare",
+      "cheaper",
+      "quality",
+      "worth"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "This one is cheaper."
+      },
+      {
+        "who": "Marko",
+        "en": "The quality is not the same."
+      },
+      {
+        "who": "Anna",
+        "en": "Is the expensive one worth it?"
+      },
+      {
+        "who": "Marko",
+        "en": "If you will use it every day, yes."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-41",
+    "level": "B1",
+    "n": 41,
+    "title": "Online shopping",
+    "place": "Shop",
+    "aim": "Ask about delivery and returns.",
+    "words": [
+      "delivery",
+      "order",
+      "return",
+      "days"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "How long is delivery?"
+      },
+      {
+        "who": "Marko",
+        "en": "Three to five days."
+      },
+      {
+        "who": "Anna",
+        "en": "Can I return it?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes, within fourteen days."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-42",
+    "level": "B1",
+    "n": 42,
+    "title": "A misunderstanding",
+    "place": "People",
+    "aim": "Correct what you thought someone meant.",
+    "words": [
+      "thought",
+      "meant",
+      "actually",
+      "clear"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I thought you meant tomorrow."
+      },
+      {
+        "who": "Marko",
+        "en": "I actually meant today."
+      },
+      {
+        "who": "Anna",
+        "en": "I am sorry. I misunderstood."
+      },
+      {
+        "who": "Marko",
+        "en": "It is clear now."
+      }
+    ],
+    "image": "/cards/friend.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-43",
+    "level": "B1",
+    "n": 43,
+    "title": "Saying no politely",
+    "place": "Work",
+    "aim": "Refuse extra work and give a reason.",
+    "words": [
+      "cannot",
+      "already",
+      "perhaps",
+      "next week"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Can you take this as well?"
+      },
+      {
+        "who": "Anna",
+        "en": "I cannot. I already have the report."
+      },
+      {
+        "who": "Marko",
+        "en": "Perhaps next week?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. Next week I have time."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-44",
+    "level": "B1",
+    "n": 44,
+    "title": "The news",
+    "place": "Town",
+    "aim": "Give a short reaction to a local story.",
+    "words": [
+      "news",
+      "heard",
+      "hope",
+      "affect"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Have you heard the news?"
+      },
+      {
+        "who": "Anna",
+        "en": "About the station?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. The repairs start in May."
+      },
+      {
+        "who": "Anna",
+        "en": "I hope it does not affect the morning train."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-45",
+    "level": "B1",
+    "n": 45,
+    "title": "A recommendation",
+    "place": "Help",
+    "aim": "Recommend a place and say why.",
+    "words": [
+      "recommend",
+      "quiet",
+      "good for",
+      "avoid"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Can you recommend a café?"
+      },
+      {
+        "who": "Marko",
+        "en": "The one by the park. It is quiet."
+      },
+      {
+        "who": "Anna",
+        "en": "Is it good for working?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. Avoid the one at the station. It is loud."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-46",
+    "level": "B1",
+    "n": 46,
+    "title": "Travel insurance",
+    "place": "Travel",
+    "aim": "Ask what a policy covers.",
+    "words": [
+      "insurance",
+      "cover",
+      "lost",
+      "medical"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "What does the insurance cover?"
+      },
+      {
+        "who": "Marko",
+        "en": "Lost luggage and medical care."
+      },
+      {
+        "who": "Anna",
+        "en": "Does it cover a missed flight?"
+      },
+      {
+        "who": "Marko",
+        "en": "Only if the airline cancels."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-47",
+    "level": "B1",
+    "n": 47,
+    "title": "A parents' evening",
+    "place": "School",
+    "aim": "Report how a student is doing.",
+    "words": [
+      "progress",
+      "careful",
+      "participate",
+      "improve"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "She has made progress."
+      },
+      {
+        "who": "Anna",
+        "en": "Does she participate?"
+      },
+      {
+        "who": "Marko",
+        "en": "More than before. Her writing is careful."
+      },
+      {
+        "who": "Anna",
+        "en": "What should she improve?"
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-48",
+    "level": "B1",
+    "n": 48,
+    "title": "Team roles",
+    "place": "Work",
+    "aim": "Clarify who does what.",
+    "words": [
+      "role",
+      "in charge",
+      "support",
+      "decide"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Who is in charge of the budget?"
+      },
+      {
+        "who": "Marko",
+        "en": "I am. You support the client."
+      },
+      {
+        "who": "Anna",
+        "en": "Who decides the date?"
+      },
+      {
+        "who": "Marko",
+        "en": "We decide together."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b1-49",
+    "level": "B1",
+    "n": 49,
+    "title": "After the mistake",
+    "place": "Work",
+    "aim": "Describe a mistake and what you learned.",
+    "words": [
+      "mistake",
+      "noticed",
+      "checked",
+      "next time"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I noticed a mistake in the numbers."
+      },
+      {
+        "who": "Marko",
+        "en": "Did the client see it?"
+      },
+      {
+        "who": "Anna",
+        "en": "No. I checked again and sent a correction."
+      },
+      {
+        "who": "Marko",
+        "en": "Next time, ask someone to read it too."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "plan"
+  },
+  {
+    "id": "b1-50",
+    "level": "B1",
+    "n": 50,
+    "title": "Choosing a course",
+    "place": "School",
+    "aim": "Compare two courses.",
+    "words": [
+      "course",
+      "practical",
+      "theory",
+      "suit"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "This course is more practical."
+      },
+      {
+        "who": "Marko",
+        "en": "The other one has more theory."
+      },
+      {
+        "who": "Anna",
+        "en": "Which one suits me?"
+      },
+      {
+        "who": "Marko",
+        "en": "If you want a job soon, take the practical one."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "if"
+  },
+  {
+    "id": "b2-01",
+    "level": "B2",
+    "n": 1,
+    "title": "Opening a meeting",
+    "place": "Work",
+    "aim": "Start a meeting and set the purpose.",
+    "words": [
+      "purpose",
+      "agenda",
+      "outcome",
+      "time"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The purpose of this meeting is to agree the timeline."
+      },
+      {
+        "who": "Marko",
+        "en": "Shall we follow the agenda?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. The outcome we need is a date, and we have thirty minutes."
+      },
+      {
+        "who": "Marko",
+        "en": "Then let us start with the risks."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-02",
+    "level": "B2",
+    "n": 2,
+    "title": "Interrupting politely",
+    "place": "Work",
+    "aim": "Come in on a point without cutting someone off.",
+    "words": [
+      "add",
+      "before",
+      "point",
+      "finish"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "May I add something before we move on?"
+      },
+      {
+        "who": "Marko",
+        "en": "Please, if it is on this point."
+      },
+      {
+        "who": "Anna",
+        "en": "I will be brief."
+      },
+      {
+        "who": "Marko",
+        "en": "Go ahead, then I will finish."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-03",
+    "level": "B2",
+    "n": 3,
+    "title": "Summarising",
+    "place": "Work",
+    "aim": "Summarise what was agreed.",
+    "words": [
+      "summarise",
+      "agreed",
+      "action",
+      "owner"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Let me summarise."
+      },
+      {
+        "who": "Marko",
+        "en": "We agreed to send the draft on Monday."
+      },
+      {
+        "who": "Anna",
+        "en": "The action is mine, and you will review it."
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. I will send comments by Wednesday."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-04",
+    "level": "B2",
+    "n": 4,
+    "title": "Disagreeing with a manager",
+    "place": "Work",
+    "aim": "Disagree while staying respectful.",
+    "words": [
+      "concern",
+      "however",
+      "risk",
+      "alternative"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I have a concern."
+      },
+      {
+        "who": "Marko",
+        "en": "Go on."
+      },
+      {
+        "who": "Anna",
+        "en": "The date is possible. However, the risk is quality."
+      },
+      {
+        "who": "Marko",
+        "en": "What alternative do you suggest?"
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-05",
+    "level": "B2",
+    "n": 5,
+    "title": "Giving feedback",
+    "place": "Work",
+    "aim": "Give feedback that is specific and kind.",
+    "words": [
+      "feedback",
+      "strength",
+      "improve",
+      "example"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Your strength is the clear structure."
+      },
+      {
+        "who": "Anna",
+        "en": "Thank you. What should I improve?"
+      },
+      {
+        "who": "Marko",
+        "en": "The examples. In section two, one case would help."
+      },
+      {
+        "who": "Anna",
+        "en": "I will add one."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-06",
+    "level": "B2",
+    "n": 6,
+    "title": "Receiving feedback",
+    "place": "Work",
+    "aim": "Respond to criticism without defending every point.",
+    "words": [
+      "fair",
+      "see",
+      "partly",
+      "try"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "That is fair."
+      },
+      {
+        "who": "Marko",
+        "en": "I was not sure you would see it that way."
+      },
+      {
+        "who": "Anna",
+        "en": "I partly disagree about the tone, but I will try a shorter ending."
+      },
+      {
+        "who": "Marko",
+        "en": "That is enough."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-07",
+    "level": "B2",
+    "n": 7,
+    "title": "Negotiating a deadline",
+    "place": "Work",
+    "aim": "Trade scope for time.",
+    "words": [
+      "scope",
+      "realistic",
+      "if",
+      "drop"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Monday is not realistic if the scope stays the same."
+      },
+      {
+        "who": "Marko",
+        "en": "What can we drop?"
+      },
+      {
+        "who": "Anna",
+        "en": "The appendix. If we drop it, Monday is possible."
+      },
+      {
+        "who": "Marko",
+        "en": "Agreed."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-08",
+    "level": "B2",
+    "n": 8,
+    "title": "A salary conversation",
+    "place": "Work",
+    "aim": "Ask for a review with reasons.",
+    "words": [
+      "salary",
+      "review",
+      "responsibility",
+      "market"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I would like to discuss my salary."
+      },
+      {
+        "who": "Marko",
+        "en": "What has changed?"
+      },
+      {
+        "who": "Anna",
+        "en": "I have taken on more responsibility, and the market rate is higher."
+      },
+      {
+        "who": "Marko",
+        "en": "Bring a short note, and we will review it next month."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-09",
+    "level": "B2",
+    "n": 9,
+    "title": "Working across teams",
+    "place": "Work",
+    "aim": "Explain a delay caused by another team.",
+    "words": [
+      "depend",
+      "blocked",
+      "meanwhile",
+      "chase"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "We are blocked because we depend on their data."
+      },
+      {
+        "who": "Marko",
+        "en": "Have you chased them?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. Meanwhile we can draft the rest."
+      },
+      {
+        "who": "Marko",
+        "en": "Do that, and copy me on the next email."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-10",
+    "level": "B2",
+    "n": 10,
+    "title": "A difficult client",
+    "place": "Work",
+    "aim": "Set a boundary with a client.",
+    "words": [
+      "boundary",
+      "scope",
+      "extra",
+      "charge"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "The client wants another round of changes."
+      },
+      {
+        "who": "Anna",
+        "en": "That is outside the scope."
+      },
+      {
+        "who": "Marko",
+        "en": "Do we refuse?"
+      },
+      {
+        "who": "Anna",
+        "en": "We can do it, but we should charge for the extra work."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-11",
+    "level": "B2",
+    "n": 11,
+    "title": "In a seminar",
+    "place": "School",
+    "aim": "Build on someone else's idea.",
+    "words": [
+      "build on",
+      "evidence",
+      "whereas",
+      "claim"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I would like to build on what you said."
+      },
+      {
+        "who": "Marko",
+        "en": "Please."
+      },
+      {
+        "who": "Anna",
+        "en": "The claim is interesting, whereas the evidence is still thin."
+      },
+      {
+        "who": "Marko",
+        "en": "Which source would you add?"
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-12",
+    "level": "B2",
+    "n": 12,
+    "title": "Citing a source",
+    "place": "School",
+    "aim": "Say where an idea comes from.",
+    "words": [
+      "source",
+      "according to",
+      "argue",
+      "however"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "According to the article, prices fell."
+      },
+      {
+        "who": "Marko",
+        "en": "Do you agree?"
+      },
+      {
+        "who": "Anna",
+        "en": "They argue it clearly. However, the sample is small."
+      },
+      {
+        "who": "Marko",
+        "en": "Mention that limit."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-13",
+    "level": "B2",
+    "n": 13,
+    "title": "A tutorial",
+    "place": "School",
+    "aim": "Ask for clarification of a theory.",
+    "words": [
+      "theory",
+      "in other words",
+      "apply",
+      "case"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "In other words, the theory says demand falls when the price rises."
+      },
+      {
+        "who": "Marko",
+        "en": "Yes."
+      },
+      {
+        "who": "Anna",
+        "en": "How does that apply to this case?"
+      },
+      {
+        "who": "Marko",
+        "en": "The ticket price rose, and fewer people travelled."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-14",
+    "level": "B2",
+    "n": 14,
+    "title": "Peer review",
+    "place": "School",
+    "aim": "Comment on a classmate's draft.",
+    "words": [
+      "draft",
+      "clear",
+      "paragraph",
+      "suggest"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "The introduction is clear."
+      },
+      {
+        "who": "Anna",
+        "en": "The third paragraph repeats the second."
+      },
+      {
+        "who": "Marko",
+        "en": "I will cut it."
+      },
+      {
+        "who": "Anna",
+        "en": "I suggest you end with the question, not the definition."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-15",
+    "level": "B2",
+    "n": 15,
+    "title": "An academic disagreement",
+    "place": "School",
+    "aim": "Hold a disagreement without making it personal.",
+    "words": [
+      "position",
+      "not that",
+      "rather",
+      "evidence"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "My position is not that the plan is wrong."
+      },
+      {
+        "who": "Marko",
+        "en": "What is it, then?"
+      },
+      {
+        "who": "Anna",
+        "en": "Rather, that the evidence does not yet support it."
+      },
+      {
+        "who": "Marko",
+        "en": "Then we disagree about the evidence, not about the aim."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-16",
+    "level": "B2",
+    "n": 16,
+    "title": "Office hours",
+    "place": "School",
+    "aim": "Prepare a useful question for a teacher.",
+    "words": [
+      "office hours",
+      "stuck",
+      "tried",
+      "specific"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I am stuck on question four."
+      },
+      {
+        "who": "Marko",
+        "en": "What have you tried?"
+      },
+      {
+        "who": "Anna",
+        "en": "The method from class. The last step fails."
+      },
+      {
+        "who": "Marko",
+        "en": "Bring the page to office hours. A specific question is easier to answer."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-17",
+    "level": "B2",
+    "n": 17,
+    "title": "Choosing a research topic",
+    "place": "School",
+    "aim": "Narrow a topic that is too wide.",
+    "words": [
+      "topic",
+      "too wide",
+      "focus",
+      "within"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "The topic is too wide."
+      },
+      {
+        "who": "Anna",
+        "en": "I could focus on one city."
+      },
+      {
+        "who": "Marko",
+        "en": "Within the last ten years?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. That is a topic I can finish."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-18",
+    "level": "B2",
+    "n": 18,
+    "title": "A presentation question",
+    "place": "School",
+    "aim": "Answer a question you only partly know.",
+    "words": [
+      "partly",
+      "not sure",
+      "check",
+      "follow up"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "What happens if the cost doubles?"
+      },
+      {
+        "who": "Anna",
+        "en": "I am not sure of the exact figure."
+      },
+      {
+        "who": "Marko",
+        "en": "An estimate is fine."
+      },
+      {
+        "who": "Anna",
+        "en": "Partly, demand would fall. I will check and follow up."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-19",
+    "level": "B2",
+    "n": 19,
+    "title": "Ethics",
+    "place": "School",
+    "aim": "Raise an ethical problem in a study.",
+    "words": [
+      "consent",
+      "data",
+      "anonymous",
+      "should"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Did the participants give consent?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes, and the data is anonymous."
+      },
+      {
+        "who": "Anna",
+        "en": "We should still say how long we keep it."
+      },
+      {
+        "who": "Marko",
+        "en": "Add that to the method."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-20",
+    "level": "B2",
+    "n": 20,
+    "title": "After the results",
+    "place": "School",
+    "aim": "Explain a result that was not what you expected.",
+    "words": [
+      "expect",
+      "however",
+      "possible",
+      "further"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I expected a clear difference."
+      },
+      {
+        "who": "Marko",
+        "en": "And?"
+      },
+      {
+        "who": "Anna",
+        "en": "However, the groups were almost the same."
+      },
+      {
+        "who": "Marko",
+        "en": "Then the next step is to ask why, not to hide the result."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-21",
+    "level": "B2",
+    "n": 21,
+    "title": "The contract",
+    "place": "Work",
+    "aim": "Ask what a clause means before you sign.",
+    "words": [
+      "clause",
+      "notice",
+      "liable",
+      "before"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "What does this clause mean?"
+      },
+      {
+        "who": "Marko",
+        "en": "Either side can end the contract with one month's notice."
+      },
+      {
+        "who": "Anna",
+        "en": "Am I liable for equipment?"
+      },
+      {
+        "who": "Marko",
+        "en": "Only if you damage it. Read it before you sign."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-22",
+    "level": "B2",
+    "n": 22,
+    "title": "Remote work limits",
+    "place": "Work",
+    "aim": "Negotiate which hours you will be online.",
+    "words": [
+      "overlap",
+      "hours",
+      "expect",
+      "core"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I can overlap with the team from ten to three."
+      },
+      {
+        "who": "Marko",
+        "en": "We expect people online in those core hours."
+      },
+      {
+        "who": "Anna",
+        "en": "Outside that, I will answer the next morning."
+      },
+      {
+        "who": "Marko",
+        "en": "That is reasonable if the work is not urgent."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-23",
+    "level": "B2",
+    "n": 23,
+    "title": "A performance review",
+    "place": "Work",
+    "aim": "Talk about the year without only listing tasks.",
+    "words": [
+      "review",
+      "contributed",
+      "learned",
+      "next"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "What did you contribute?"
+      },
+      {
+        "who": "Anna",
+        "en": "I shortened the client process, and I learned to run the weekly meeting."
+      },
+      {
+        "who": "Marko",
+        "en": "What is next?"
+      },
+      {
+        "who": "Anna",
+        "en": "I would like to lead a small project."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-24",
+    "level": "B2",
+    "n": 24,
+    "title": "Pushing back on scope",
+    "place": "Work",
+    "aim": "Protect the team from extra work.",
+    "words": [
+      "scope",
+      "trade-off",
+      "quality",
+      "choose"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "If we add this, something else has to wait."
+      },
+      {
+        "who": "Marko",
+        "en": "The client wants both."
+      },
+      {
+        "who": "Anna",
+        "en": "Then we choose. Speed or quality. That is the trade-off."
+      },
+      {
+        "who": "Marko",
+        "en": "I will tell them."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-25",
+    "level": "B2",
+    "n": 25,
+    "title": "Writing it down",
+    "place": "Work",
+    "aim": "Insist on a written decision.",
+    "words": [
+      "confirm",
+      "in writing",
+      "assume",
+      "avoid"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Can we confirm this in writing?"
+      },
+      {
+        "who": "Marko",
+        "en": "We said it in the meeting."
+      },
+      {
+        "who": "Anna",
+        "en": "Yes, and people assume different things later."
+      },
+      {
+        "who": "Marko",
+        "en": "I will send a short note, to avoid that."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-26",
+    "level": "B2",
+    "n": 26,
+    "title": "The news article",
+    "place": "Town",
+    "aim": "Question a headline.",
+    "words": [
+      "headline",
+      "claim",
+      "source",
+      "sceptical"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "The headline says the school will close."
+      },
+      {
+        "who": "Anna",
+        "en": "The article only says they are discussing it."
+      },
+      {
+        "who": "Marko",
+        "en": "So the claim is stronger than the source."
+      },
+      {
+        "who": "Anna",
+        "en": "I am sceptical until we see the decision."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-27",
+    "level": "B2",
+    "n": 27,
+    "title": "A public meeting",
+    "place": "Town",
+    "aim": "Make a point and yield the floor.",
+    "words": [
+      "floor",
+      "briefly",
+      "concern",
+      "hand over"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I will be brief."
+      },
+      {
+        "who": "Marko",
+        "en": "Please."
+      },
+      {
+        "who": "Anna",
+        "en": "My concern is the night buses, not the park itself."
+      },
+      {
+        "who": "Marko",
+        "en": "Thank you. I will hand over to the next person."
+      }
+    ],
+    "image": "/talk/road.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-28",
+    "level": "B2",
+    "n": 28,
+    "title": "Housing choice",
+    "place": "Choice",
+    "aim": "Weigh two homes with although and because.",
+    "words": [
+      "although",
+      "because",
+      "worth",
+      "on balance"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Although the other flat is closer, I would choose this one."
+      },
+      {
+        "who": "Marko",
+        "en": "Because it is quiet?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. The quiet is worth the longer walk."
+      },
+      {
+        "who": "Marko",
+        "en": "On balance, I might choose differently."
+      }
+    ],
+    "image": "/talk/choice.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-29",
+    "level": "B2",
+    "n": 29,
+    "title": "A family decision",
+    "place": "Home",
+    "aim": "Disagree with family and still decide together.",
+    "words": [
+      "rather",
+      "matter",
+      "depends",
+      "together"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "I would rather stay in the city."
+      },
+      {
+        "who": "Anna",
+        "en": "It depends on what matters to you. School matters to me."
+      },
+      {
+        "who": "Marko",
+        "en": "Then we should look at both."
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. We decide together, not tonight."
+      }
+    ],
+    "image": "/talk/house.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-30",
+    "level": "B2",
+    "n": 30,
+    "title": "Care for a parent",
+    "place": "Health",
+    "aim": "Talk about help for a parent without deciding for them.",
+    "words": [
+      "prefer",
+      "herself",
+      "support",
+      "rather than"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "She prefers to stay at home."
+      },
+      {
+        "who": "Marko",
+        "en": "Can she manage?"
+      },
+      {
+        "who": "Anna",
+        "en": "With support, yes. Rather than move her, we could visit every day."
+      },
+      {
+        "who": "Marko",
+        "en": "Ask her before we arrange anything."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-31",
+    "level": "B2",
+    "n": 31,
+    "title": "A second opinion",
+    "place": "Health",
+    "aim": "Ask for another medical opinion politely.",
+    "words": [
+      "second opinion",
+      "sure",
+      "option",
+      "mind"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I would like a second opinion."
+      },
+      {
+        "who": "Marko",
+        "en": "Of course. It does not mean you doubt the first doctor."
+      },
+      {
+        "who": "Anna",
+        "en": "I want to be sure of the options."
+      },
+      {
+        "who": "Marko",
+        "en": "I will write a referral. You can change your mind."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-32",
+    "level": "B2",
+    "n": 32,
+    "title": "Insurance small print",
+    "place": "Health",
+    "aim": "Question what is not covered.",
+    "words": [
+      "exclude",
+      "cover",
+      "unless",
+      "check"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Does this exclude dental care?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes, unless it is an emergency."
+      },
+      {
+        "who": "Anna",
+        "en": "I need to check that before I travel."
+      },
+      {
+        "who": "Marko",
+        "en": "The full list is on the second page."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-33",
+    "level": "B2",
+    "n": 33,
+    "title": "At the embassy",
+    "place": "Travel",
+    "aim": "Explain why you need an appointment urgently.",
+    "words": [
+      "appointment",
+      "urgent",
+      "because",
+      "document"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I need an earlier appointment because I travel on the twelfth."
+      },
+      {
+        "who": "Marko",
+        "en": "Bring the documents and we will see what is possible."
+      },
+      {
+        "who": "Anna",
+        "en": "Is a letter from my employer useful?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. It shows why the date matters."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-34",
+    "level": "B2",
+    "n": 34,
+    "title": "Culture and time",
+    "place": "Travel",
+    "aim": "Talk about different habits without judging.",
+    "words": [
+      "tend to",
+      "whereas",
+      "used to",
+      "neither"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "At home we tend to arrive a little late."
+      },
+      {
+        "who": "Marko",
+        "en": "Whereas here, meetings start on time."
+      },
+      {
+        "who": "Anna",
+        "en": "I am used to that now."
+      },
+      {
+        "who": "Marko",
+        "en": "Neither habit is wrong. It helps to know which one you are in."
+      }
+    ],
+    "image": "/talk/station.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-35",
+    "level": "B2",
+    "n": 35,
+    "title": "A complaint letter",
+    "place": "Shop",
+    "aim": "Structure a written complaint.",
+    "words": [
+      "complaint",
+      "expect",
+      "resolve",
+      "attached"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "State what you bought, what went wrong, and what you expect."
+      },
+      {
+        "who": "Marko",
+        "en": "I expect a replacement or a refund."
+      },
+      {
+        "who": "Anna",
+        "en": "Attach the receipt, and give them a date to resolve it."
+      },
+      {
+        "who": "Marko",
+        "en": "I will send it today."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-36",
+    "level": "B2",
+    "n": 36,
+    "title": "Negotiating a price",
+    "place": "Shop",
+    "aim": "Ask for a better price with a reason.",
+    "words": [
+      "discount",
+      "if",
+      "bulk",
+      "meet"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "If I take three, is there a discount?"
+      },
+      {
+        "who": "Marko",
+        "en": "I can take ten percent off."
+      },
+      {
+        "who": "Anna",
+        "en": "Can you meet me at fifteen?"
+      },
+      {
+        "who": "Marko",
+        "en": "Twelve, if you pay today."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-37",
+    "level": "B2",
+    "n": 37,
+    "title": "The environment at work",
+    "place": "Work",
+    "aim": "Propose a change and admit the cost.",
+    "words": [
+      "propose",
+      "although",
+      "waste",
+      "trial"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I propose we stop printing the weekly pack."
+      },
+      {
+        "who": "Marko",
+        "en": "Although it is convenient?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. It wastes paper. We could trial a month without it."
+      },
+      {
+        "who": "Marko",
+        "en": "A trial is easier to accept than a permanent rule."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-38",
+    "level": "B2",
+    "n": 38,
+    "title": "Mentoring",
+    "place": "Work",
+    "aim": "Ask a mentor for advice, not for them to do the job.",
+    "words": [
+      "mentor",
+      "advice",
+      "rather than",
+      "own"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I would like your advice rather than a solution."
+      },
+      {
+        "who": "Marko",
+        "en": "Tell me what you have already decided."
+      },
+      {
+        "who": "Anna",
+        "en": "I will keep the meeting short. I am less sure about the tone of the email."
+      },
+      {
+        "who": "Marko",
+        "en": "The decision stays yours."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-39",
+    "level": "B2",
+    "n": 39,
+    "title": "After a conflict",
+    "place": "Work",
+    "aim": "Repair a working relationship.",
+    "words": [
+      "conflict",
+      "both",
+      "assume",
+      "forward"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "We both assumed the other person would send the file."
+      },
+      {
+        "who": "Marko",
+        "en": "That is true."
+      },
+      {
+        "who": "Anna",
+        "en": "I do not want to go over it again."
+      },
+      {
+        "who": "Marko",
+        "en": "Nor do I. Let us agree how we work from here."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-40",
+    "level": "B2",
+    "n": 40,
+    "title": "A careful recommendation",
+    "place": "Help",
+    "aim": "Recommend someone without overselling.",
+    "words": [
+      "recommend",
+      "strength",
+      "however",
+      "suit"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Would you recommend her?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes, for research. That is her strength."
+      },
+      {
+        "who": "Marko",
+        "en": "Any limit?"
+      },
+      {
+        "who": "Anna",
+        "en": "However, she is still learning to lead a meeting, so a small team would suit her better."
+      }
+    ],
+    "image": "/talk/help.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-41",
+    "level": "B2",
+    "n": 41,
+    "title": "Reading a contract of sale",
+    "place": "Shop",
+    "aim": "Notice a condition before you buy.",
+    "words": [
+      "condition",
+      "unless",
+      "warranty",
+      "void"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The warranty is void unless I register the product."
+      },
+      {
+        "who": "Marko",
+        "en": "Within thirty days."
+      },
+      {
+        "who": "Anna",
+        "en": "That is an important condition."
+      },
+      {
+        "who": "Marko",
+        "en": "Register it today, or the promise is weaker."
+      }
+    ],
+    "image": "/talk/shop.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-42",
+    "level": "B2",
+    "n": 42,
+    "title": "Choosing not to decide",
+    "place": "Choice",
+    "aim": "Leave a decision open on purpose.",
+    "words": [
+      "yet",
+      "until",
+      "information",
+      "rush"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I am not ready to decide yet."
+      },
+      {
+        "who": "Marko",
+        "en": "The offer ends on Friday."
+      },
+      {
+        "who": "Anna",
+        "en": "Then I will decide when I have the second quote, not before."
+      },
+      {
+        "who": "Marko",
+        "en": "That is reasonable. Do not rush the rest."
+      }
+    ],
+    "image": "/talk/choice.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-43",
+    "level": "B2",
+    "n": 43,
+    "title": "Two good options",
+    "place": "Choice",
+    "aim": "Show that both choices have a cost.",
+    "words": [
+      "either",
+      "or",
+      "cost",
+      "accept"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Either we hire now, or we delay the launch."
+      },
+      {
+        "who": "Marko",
+        "en": "Both have a cost."
+      },
+      {
+        "who": "Anna",
+        "en": "If we hire, we spend money. If we delay, we lose the date."
+      },
+      {
+        "who": "Marko",
+        "en": "Then we accept one cost openly."
+      }
+    ],
+    "image": "/talk/choice.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-44",
+    "level": "B2",
+    "n": 44,
+    "title": "What I would do",
+    "place": "Choice",
+    "aim": "Give advice using would, and mark it as yours.",
+    "words": [
+      "would",
+      "in your place",
+      "however",
+      "own"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "What would you do?"
+      },
+      {
+        "who": "Anna",
+        "en": "In your place, I would take the quieter flat."
+      },
+      {
+        "who": "Marko",
+        "en": "Even with the longer commute?"
+      },
+      {
+        "who": "Anna",
+        "en": "Yes. However, that is my preference, not a rule for you."
+      }
+    ],
+    "image": "/talk/choice.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-45",
+    "level": "B2",
+    "n": 45,
+    "title": "Looking back",
+    "place": "Plans",
+    "aim": "Describe a change in your own view.",
+    "words": [
+      "used to",
+      "whereas",
+      "now",
+      "changed"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "I used to think the fastest option was always better."
+      },
+      {
+        "who": "Marko",
+        "en": "And now?"
+      },
+      {
+        "who": "Anna",
+        "en": "Whereas now I think the calmer option lasts longer."
+      },
+      {
+        "who": "Marko",
+        "en": "What changed your mind?"
+      }
+    ],
+    "image": "/talk/plan.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-46",
+    "level": "B2",
+    "n": 46,
+    "title": "A reference",
+    "place": "Work",
+    "aim": "Agree what a reference will and will not say.",
+    "words": [
+      "reference",
+      "accurate",
+      "strength",
+      "limit"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Would you write a reference?"
+      },
+      {
+        "who": "Marko",
+        "en": "Yes. I will keep it accurate."
+      },
+      {
+        "who": "Anna",
+        "en": "Please mention the client work."
+      },
+      {
+        "who": "Marko",
+        "en": "I will mention that strength, and I will not hide the fact that you have not led a team yet."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-47",
+    "level": "B2",
+    "n": 47,
+    "title": "The exit interview",
+    "place": "Work",
+    "aim": "Explain why you are leaving without attacking people.",
+    "words": [
+      "leave",
+      "mainly",
+      "opportunity",
+      "grateful"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "Why are you leaving?"
+      },
+      {
+        "who": "Anna",
+        "en": "Mainly because of the opportunity, not because of the team."
+      },
+      {
+        "who": "Marko",
+        "en": "Anything we should change?"
+      },
+      {
+        "who": "Anna",
+        "en": "Clearer priorities. I am grateful for the rest."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-48",
+    "level": "B2",
+    "n": 48,
+    "title": "Chairing fairly",
+    "place": "Work",
+    "aim": "Make sure a quiet person is heard.",
+    "words": [
+      "heard",
+      "yet",
+      "view",
+      "before"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "We have not heard from you yet."
+      },
+      {
+        "who": "Marko",
+        "en": "I agree with the date, with one condition."
+      },
+      {
+        "who": "Anna",
+        "en": "Please give your view before we close."
+      },
+      {
+        "who": "Marko",
+        "en": "The budget has to be checked first."
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  },
+  {
+    "id": "b2-49",
+    "level": "B2",
+    "n": 49,
+    "title": "When evidence is weak",
+    "place": "School",
+    "aim": "Say the data is not enough.",
+    "words": [
+      "insufficient",
+      "conclude",
+      "suggest",
+      "further"
+    ],
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "The evidence is insufficient to conclude that."
+      },
+      {
+        "who": "Marko",
+        "en": "What can we say?"
+      },
+      {
+        "who": "Anna",
+        "en": "It suggests a pattern. It does not prove a cause."
+      },
+      {
+        "who": "Marko",
+        "en": "Then we ask for further data."
+      }
+    ],
+    "image": "/cards/school.jpg",
+    "grammar": "reason"
+  },
+  {
+    "id": "b2-50",
+    "level": "B2",
+    "n": 50,
+    "title": "Tone in writing",
+    "place": "Work",
+    "aim": "Soften a sentence that sounds harsh.",
+    "words": [
+      "tone",
+      "harsh",
+      "soften",
+      "same"
+    ],
+    "lines": [
+      {
+        "who": "Marko",
+        "en": "This sentence sounds harsh."
+      },
+      {
+        "who": "Anna",
+        "en": "The content is right. The tone is not."
+      },
+      {
+        "who": "Marko",
+        "en": "How would you soften it?"
+      },
+      {
+        "who": "Anna",
+        "en": "Same point: 'Could we look at this again?' rather than 'This is wrong.'"
+      }
+    ],
+    "image": "/talk/clarify.jpg",
+    "grammar": "choice"
+  }
+]

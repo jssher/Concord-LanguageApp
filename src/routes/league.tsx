@@ -8,6 +8,7 @@ import { getBoard, type BoardRow } from "@/lib/league/api";
 import { connectTo, saveName, useStanding } from "@/lib/league/client";
 import { parseHandle, parseName, suggestHandle } from "@/lib/league/name";
 import { LEAGUES, leagueFor, type LeagueId } from "@/lib/league/score";
+import { useWait } from "@/wait/flag";
 
 export const Route = createFileRoute("/league")({ component: LeaguePage });
 
@@ -40,6 +41,7 @@ function LeaguePage() {
   }, [mine?.handle, mine?.score, mine?.held]);
 
   const pending = session.isPending || standing.status === "loading";
+  useWait(pending);
 
   return (
     <Shell>

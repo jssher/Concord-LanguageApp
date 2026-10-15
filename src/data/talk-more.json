@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "use-01",
+    "domain": "Everyday",
+    "level": "A1",
+    "title": "Meeting a neighbour",
+    "aim": "Introduce yourself where you live.",
+    "scene": "Anna has just moved in. Marko lives next door.",
+    "image": "house",
+    "turns": [
+      {
+        "id": "u01-0",
+        "speaker": "Anna",
+        "en": "Hello. I have just moved in."
+      },
+      {
+        "id": "u01-1",
+        "speaker": "Marko",
+        "en": "Welcome. I am Marko."
+      },
+      {
+        "id": "u01-2",
+        "speaker": "Anna",
+        "en": "My name is Anna. I live next door."
+      },
+      {
+        "id": "u01-3",
+        "speaker": "Marko",
+        "en": "It is quiet here."
+      },
+      {
+        "id": "u01-4",
+        "speaker": "Anna",
+        "en": "I am glad."
+      },
+      {
+        "id": "u01-5",
+        "speaker": "Marko",
+        "en": "Knock if you need anything."
+      }
+    ]
+  },
+  {
+    "id": "use-02",
+    "domain": "Everyday",
+    "level": "A1",
+    "title": "On the phone",
+    "aim": "Say who you are and ask for someone.",
+    "scene": "Anna calls a home number. Marko answers.",
+    "image": "help",
+    "turns": [
+      {
+        "id": "u02-0",
+        "speaker": "Anna",
+        "en": "Hello?"
+      },
+      {
+        "id": "u02-1",
+        "speaker": "Marko",
+        "en": "Hello. This is Anna. Is Marko there?"
+      },
+      {
+        "id": "u02-2",
+        "speaker": "Anna",
+        "en": "Speaking."
+      },
+      {
+        "id": "u02-3",
+        "speaker": "Marko",
+        "en": "Can you talk now?"
+      },
+      {
+        "id": "u02-4",
+        "speaker": "Anna",
+        "en": "Yes."
+      },
+      {
+        "id": "u02-5",
+        "speaker": "Marko",
+        "en": "Good. I will be there at six."
+      }
+    ]
+  },
+  {
+    "id": "use-03",
+    "domain": "Everyday",
+    "level": "A2",
+    "title": "Borrowing something",
+    "aim": "Borrow an object and promise to return it.",
+    "scene": "They stand in the hallway.",
+    "image": "house",
+    "turns": [
+      {
+        "id": "u03-0",
+        "speaker": "Anna",
+        "en": "May I borrow your umbrella?"
+      },
+      {
+        "id": "u03-1",
+        "speaker": "Marko",
+        "en": "Of course. It is by the door."
+      },
+      {
+        "id": "u03-2",
+        "speaker": "Anna",
+        "en": "I will bring it back tonight."
+      },
+      {
+        "id": "u03-3",
+        "speaker": "Marko",
+        "en": "No hurry."
+      },
+      {
+        "id": "u03-4",
+        "speaker": "Anna",
+        "en": "Thank you."
+      },
+      {
+        "id": "u03-5",
+        "speaker": "Marko",
+        "en": "You are welcome."
+      }
+    ]
+  },
+  {
+    "id": "use-04",
+    "domain": "Everyday",
+    "level": "A2",
+    "title": "You are late",
+    "aim": "Tell a friend you will be late.",
+    "scene": "Anna is on the bus. Marko is at the café.",
+    "image": "late",
+    "turns": [
+      {
+        "id": "u04-0",
+        "speaker": "Anna",
+        "en": "I am sorry. I am late."
+      },
+      {
+        "id": "u04-1",
+        "speaker": "Marko",
+        "en": "Where are you?"
+      },
+      {
+        "id": "u04-2",
+        "speaker": "Anna",
+        "en": "On the bus. I will be there in ten minutes."
+      },
+      {
+        "id": "u04-3",
+        "speaker": "Marko",
+        "en": "I will order for you."
+      },
+      {
+        "id": "u04-4",
+        "speaker": "Anna",
+        "en": "Water, please."
+      },
+      {
+        "id": "u04-5",
+        "speaker": "Marko",
+        "en": "All right. See you soon."
+      }
+    ]
+  },
+  {
+    "id": "use-05",
+    "domain": "Everyday",
+    "level": "B1",
+    "title": "Changing the time",
+    "aim": "Move a plan and keep the friendship easy.",
+    "scene": "They had agreed to meet.",
+    "image": "plan",
+    "turns": [
+      {
+        "id": "u05-0",
+        "speaker": "Anna",
+        "en": "Can we meet later?"
+      },
+      {
+        "id": "u05-1",
+        "speaker": "Marko",
+        "en": "What time were you thinking?"
+      },
+      {
+        "id": "u05-2",
+        "speaker": "Anna",
+        "en": "Seven instead of six. I have to finish something."
+      },
+      {
+        "id": "u05-3",
+        "speaker": "Marko",
+        "en": "Seven is fine."
+      },
+      {
+        "id": "u05-4",
+        "speaker": "Anna",
+        "en": "Thank you for changing it."
+      },
+      {
+        "id": "u05-5",
+        "speaker": "Marko",
+        "en": "It is no trouble."
+      }
+    ]
+  },
+  {
+    "id": "use-06",
+    "domain": "Everyday",
+    "level": "B2",
+    "title": "A delicate no",
+    "aim": "Refuse an invitation without a long excuse.",
+    "scene": "Marko invites Anna for the third evening this week.",
+    "image": "choice",
+    "turns": [
+      {
+        "id": "u06-0",
+        "speaker": "Anna",
+        "en": "Are you free tonight?"
+      },
+      {
+        "id": "u06-1",
+        "speaker": "Marko",
+        "en": "I am going to say no."
+      },
+      {
+        "id": "u06-2",
+        "speaker": "Anna",
+        "en": "Another time, then?"
+      },
+      {
+        "id": "u06-3",
+        "speaker": "Marko",
+        "en": "Yes. I need a quiet evening, rather than another reason."
+      },
+      {
+        "id": "u06-4",
+        "speaker": "Anna",
+        "en": "I understand."
+      },
+      {
+        "id": "u06-5",
+        "speaker": "Marko",
+        "en": "Ask me next week."
+      }
+    ]
+  },
+  {
+    "id": "use-07",
+    "domain": "Home",
+    "level": "A1",
+    "title": "Where things go",
+    "aim": "Ask where to put your bag and coat.",
+    "scene": "Anna is visiting.",
+    "image": "house",
+    "turns": [
+      {
+        "id": "u07-0",
+        "speaker": "Anna",
+        "en": "Where can I put my bag?"
+      },
+      {
+        "id": "u07-1",
+        "speaker": "Marko",
+        "en": "By the door."
+      },
+      {
+        "id": "u07-2",
+        "speaker": "Anna",
+        "en": "And my coat?"
+      },
+      {
+        "id": "u07-3",
+        "speaker": "Marko",
+        "en": "On the chair."
+      },
+      {
+        "id": "u07-4",
+        "speaker": "Anna",
+        "en": "Thank you."
+      },
+      {
+        "id": "u07-5",
+        "speaker": "Marko",
+        "en": "Sit down when you are ready."
+      }
+    ]
+  },
+  {
+    "id": "use-08",
+    "domain": "Home",
+    "level": "A2",
+    "title": "Something is broken",
+    "aim": "Report a broken machine at home.",
+    "scene": "The washing machine has leaked.",
+    "image": "house",
+    "turns": [
+      {
+        "id": "u08-0",
+        "speaker": "Anna",
+        "en": "The machine is leaking."
+      },
+      {
+        "id": "u08-1",
+        "speaker": "Marko",
+        "en": "Since when?"
+      },
+      {
+        "id": "u08-2",
+        "speaker": "Anna",
+        "en": "This morning."
+      },
+      {
+        "id": "u08-3",
+        "speaker": "Marko",
+        "en": "Turn it off."
+      },
+      {
+        "id": "u08-4",
+        "speaker": "Anna",
+        "en": "I already did."
+      },
+      {
+        "id": "u08-5",
+        "speaker": "Marko",
+        "en": "I will call someone."
+      }
+    ]
+  },
+  {
+    "id": "use-09",
+    "domain": "Home",
+    "level": "A2",
+    "title": "Quiet hours",
+    "aim": "Ask a neighbour to be quieter.",
+    "scene": "Anna lives under Marko's flat.",
+    "image": "night",
+    "turns": [
+      {
+        "id": "u09-0",
+        "speaker": "Anna",
+        "en": "Sorry to knock."
+      },
+      {
+        "id": "u09-1",
+        "speaker": "Marko",
+        "en": "Is something wrong?"
+      },
+      {
+        "id": "u09-2",
+        "speaker": "Anna",
+        "en": "The music is loud after ten."
+      },
+      {
+        "id": "u09-3",
+        "speaker": "Marko",
+        "en": "I did not realise."
+      },
+      {
+        "id": "u09-4",
+        "speaker": "Anna",
+        "en": "Could you turn it down?"
+      },
+      {
+        "id": "u09-5",
+        "speaker": "Marko",
+        "en": "Yes. I am sorry."
+      }
+    ]
+  },
+  {
+    "id": "use-10",
+    "domain": "Home",
+    "level": "B1",
+    "title": "The spare key",
+    "aim": "Arrange who keeps a spare key.",
+    "scene": "They trust each other with the flat.",
+    "image": "house",
+    "turns": [
+      {
+        "id": "u10-0",
+        "speaker": "Anna",
+        "en": "Would you keep a spare key?"
+      },
+      {
+        "id": "u10-1",
+        "speaker": "Marko",
+        "en": "In case you are locked out?"
+      },
+      {
+        "id": "u10-2",
+        "speaker": "Anna",
+        "en": "Yes, or if I am away."
+      },
+      {
+        "id": "u10-3",
+        "speaker": "Marko",
+        "en": "I will keep it in the kitchen drawer."
+      },
+      {
+        "id": "u10-4",
+        "speaker": "Anna",
+        "en": "I will tell you when I travel."
+      },
+      {
+        "id": "u10-5",
+        "speaker": "Marko",
+        "en": "And I will not use it unless you ask."
+      }
+    ]
+  },
+  {
+    "id": "use-11",
+    "domain": "Home",
+    "level": "B1",
+    "title": "A repair visit",
+    "aim": "Agree a time to let a repair person in.",
+    "scene": "The heating has failed.",
+    "image": "help",
+    "turns": [
+      {
+        "id": "u11-0",
+        "speaker": "Anna",
+        "en": "They can come on Tuesday."
+      },
+      {
+        "id": "u11-1",
+        "speaker": "Marko",
+        "en": "Morning or afternoon?"
+      },
+      {
+        "id": "u11-2",
+        "speaker": "Anna",
+        "en": "I can do the afternoon."
+      },
+      {
+        "id": "u11-3",
+        "speaker": "Marko",
+        "en": "I will book two o'clock."
+      },
+      {
+        "id": "u11-4",
+        "speaker": "Anna",
+        "en": "I will be there."
+      },
+      {
+        "id": "u11-5",
+        "speaker": "Marko",
+        "en": "Call them if you are delayed."
+      }
+    ]
+  },
+  {
+    "id": "use-12",
+    "domain": "Home",
+    "level": "B2",
+    "title": "Sharing a flat",
+    "aim": "Set a house rule that both people can accept.",
+    "scene": "Anna and Marko are about to share.",
+    "image": "choice",
+    "turns": [
+      {
+        "id": "u12-0",
+        "speaker": "Anna",
+        "en": "I would rather we name the rules now."
+      },
+      {
+        "id": "u12-1",
+        "speaker": "Marko",
+        "en": "Cleaning and guests?"
+      },
+      {
+        "id": "u12-2",
+        "speaker": "Anna",
+        "en": "Yes. Guests are fine if we say so the day before."
+      },
+      {
+        "id": "u12-3",
+        "speaker": "Marko",
+        "en": "And we clean on Sunday, unless one of us is away."
+      },
+      {
+        "id": "u12-4",
+        "speaker": "Anna",
+        "en": "That is fair."
+      },
+      {
+        "id": "u12-5",
+        "speaker": "Marko",
+        "en": "We can change it if it does not work."
+      }
+    ]
+  },
+  {
+    "id": "use-13",
+    "domain": "Food",
+    "level": "A1",
+    "title": "Ordering simply",
+    "aim": "Order food and a drink.",
+    "scene": "Anna is at the counter. Marko works there.",
+    "image": "cafe",
+    "turns": [
+      {
+        "id": "u13-0",
+        "speaker": "Anna",
+        "en": "Soup, please."
+      },
+      {
+        "id": "u13-1",
+        "speaker": "Marko",
+        "en": "Anything to drink?"
+      },
+      {
+        "id": "u13-2",
+        "speaker": "Anna",
+        "en": "Water."
+      },
+      {
+        "id": "u13-3",
+        "speaker": "Marko",
+        "en": "Here or to take away?"
+      },
+      {
+        "id": "u13-4",
+        "speaker": "Anna",
+        "en": "Here."
+      },
+      {
+        "id": "u13-5",
+        "speaker": "Marko",
+        "en": "It will be two minutes."
+      }
+    ]
+  },
+  {
+    "id": "use-14",
+    "domain": "Food",
+    "level": "A2",
+    "title": "An allergy",
+    "aim": "Tell the kitchen what you cannot eat.",
+    "scene": "They are ordering dinner.",
+    "image": "cafe",
+    "turns": [
+      {
+        "id": "u14-0",
+        "speaker": "Anna",
+        "en": "Does this contain nuts?"
+      },
+      {
+        "id": "u14-1",
+        "speaker": "Marko",
+        "en": "I will ask."
+      },
+      {
+        "id": "u14-2",
+        "speaker": "Anna",
+        "en": "I cannot eat them."
+      },
+      {
+        "id": "u14-3",
+        "speaker": "Marko",
+        "en": "The soup is fine. The cake is not."
+      },
+      {
+        "id": "u14-4",
+        "speaker": "Anna",
+        "en": "Then soup, please."
+      },
+      {
+        "id": "u14-5",
+        "speaker": "Marko",
+        "en": "I will mark it for the kitchen."
+      }
+    ]
+  },
+  {
+    "id": "use-15",
+    "domain": "Food",
+    "level": "A2",
+    "title": "The bill",
+    "aim": "Ask for the bill and split it.",
+    "scene": "They have finished eating.",
+    "image": "cafe",
+    "turns": [
+      {
+        "id": "u15-0",
+        "speaker": "Anna",
+        "en": "Could we have the bill?"
+      },
+      {
+        "id": "u15-1",
+        "speaker": "Marko",
+        "en": "Together?"
+      },
+      {
+        "id": "u15-2",
+        "speaker": "Anna",
+        "en": "Separate, please."
+      },
+      {
+        "id": "u15-3",
+        "speaker": "Marko",
+        "en": "Yours is twelve, his is fifteen."
+      },
+      {
+        "id": "u15-4",
+        "speaker": "Anna",
+        "en": "I will pay by card."
+      },
+      {
+        "id": "u15-5",
+        "speaker": "Marko",
+        "en": "Enter your code."
+      }
+    ]
+  },
+  {
+    "id": "use-16",
+    "domain": "Food",
+    "level": "B1",
+    "title": "A wrong order",
+    "aim": "Send food back politely.",
+    "scene": "The plate is not what Anna asked for.",
+    "image": "cafe",
+    "turns": [
+      {
+        "id": "u16-0",
+        "speaker": "Anna",
+        "en": "Excuse me. I asked for the fish."
+      },
+      {
+        "id": "u16-1",
+        "speaker": "Marko",
+        "en": "I am sorry. This is the chicken."
+      },
+      {
+        "id": "u16-2",
+        "speaker": "Anna",
+        "en": "Could you change it?"
+      },
+      {
+        "id": "u16-3",
+        "speaker": "Marko",
+        "en": "Of course."
+      },
+      {
+        "id": "u16-4",
+        "speaker": "Anna",
+        "en": "There is no hurry if the kitchen is busy."
+      },
+      {
+        "id": "u16-5",
+        "speaker": "Marko",
+        "en": "It will not take long."
+      }
+    ]
+  },
+  {
+    "id": "use-17",
+    "domain": "Food",
+    "level": "B1",
+    "title": "Booking a table",
+    "aim": "Reserve a table and mention a need.",
+    "scene": "Anna calls the restaurant. Marko answers.",
+    "image": "cafe",
+    "turns": [
+      {
+        "id": "u17-0",
+        "speaker": "Anna",
+        "en": "A table for four on Friday, please."
+      },
+      {
+        "id": "u17-1",
+        "speaker": "Marko",
+        "en": "What time?"
+      },
+      {
+        "id": "u17-2",
+        "speaker": "Anna",
+        "en": "Eight. One of us uses a wheelchair."
+      },
+      {
+        "id": "u17-3",
+        "speaker": "Marko",
+        "en": "We have a table by the door. Is that suitable?"
+      },
+      {
+        "id": "u17-4",
+        "speaker": "Anna",
+        "en": "Yes."
+      },
+      {
+        "id": "u17-5",
+        "speaker": "Marko",
+        "en": "The name is Anna."
+      }
+    ]
+  },
+  {
+    "id": "use-18",
+    "domain": "Food",
+    "level": "B2",
+    "title": "Sending food back twice",
+    "aim": "Be firm after a second mistake.",
+    "scene": "The replacement is also wrong.",
+    "image": "cafe",
+    "turns": [
+      {
+        "id": "u18-0",
+        "speaker": "Anna",
+        "en": "This is still not the dish without cheese."
+      },
+      {
+        "id": "u18-1",
+        "speaker": "Marko",
+        "en": "I apologise."
+      },
+      {
+        "id": "u18-2",
+        "speaker": "Anna",
+        "en": "I would like it taken off the bill, rather than a third try."
+      },
+      {
+        "id": "u18-3",
+        "speaker": "Marko",
+        "en": "That is fair."
+      },
+      {
+        "id": "u18-4",
+        "speaker": "Anna",
+        "en": "The rest of the meal was good."
+      },
+      {
+        "id": "u18-5",
+        "speaker": "Marko",
+        "en": "I will tell the manager, and I will adjust the bill."
+      }
+    ]
+  },
+  {
+    "id": "use-19",
+    "domain": "Shopping",
+    "level": "A1",
+    "title": "A simple purchase",
+    "aim": "Buy one thing and ask the price.",
+    "scene": "Anna is at a small shop.",
+    "image": "shop",
+    "turns": [
+      {
+        "id": "u19-0",
+        "speaker": "Anna",
+        "en": "How much is this?"
+      },
+      {
+        "id": "u19-1",
+        "speaker": "Marko",
+        "en": "Five."
+      },
+      {
+        "id": "u19-2",
+        "speaker": "Anna",
+        "en": "I will take it."
+      },
+      {
+        "id": "u19-3",
+        "speaker": "Marko",
+        "en": "Anything else?"
+      },
+      {
+        "id": "u19-4",
+        "speaker": "Anna",
+        "en": "No, thank you."
+      },
+      {
+        "id": "u19-5",
+        "speaker": "Marko",
+        "en": "Here is your receipt."
+      }
+    ]
+  },
+  {
+    "id": "use-20",
+    "domain": "Shopping",
+    "level": "A2",
+    "title": "Trying a size",
+    "aim": "Ask to try clothes and for another size.",
+    "scene": "The first shirt does not fit.",
+    "image": "shop",
+    "turns": [
+      {
+        "id": "u20-0",
+        "speaker": "Anna",
+        "en": "May I try this?"
+      },
+      {
+        "id": "u20-1",
+        "speaker": "Marko",
+        "en": "Yes. The room is there."
+      },
+      {
+        "id": "u20-2",
+        "speaker": "Anna",
+        "en": "It is too small."
+      },
+      {
+        "id": "u20-3",
+        "speaker": "Marko",
+        "en": "I will bring a larger one."
+      },
+      {
+        "id": "u20-4",
+        "speaker": "Anna",
+        "en": "This fits."
+      },
+      {
+        "id": "u20-5",
+        "speaker": "Marko",
+        "en": "You can pay at the front."
+      }
+    ]
+  },
+  {
+    "id": "use-21",
+    "domain": "Shopping",
+    "level": "A2",
+    "title": "It is closed",
+    "aim": "Ask when a shop opens.",
+    "scene": "Anna arrives too early.",
+    "image": "shop",
+    "turns": [
+      {
+        "id": "u21-0",
+        "speaker": "Anna",
+        "en": "You are closed."
+      },
+      {
+        "id": "u21-1",
+        "speaker": "Marko",
+        "en": "We open at ten."
+      },
+      {
+        "id": "u21-2",
+        "speaker": "Anna",
+        "en": "Are you open tomorrow?"
+      },
+      {
+        "id": "u21-3",
+        "speaker": "Marko",
+        "en": "From ten to six."
+      },
+      {
+        "id": "u21-4",
+        "speaker": "Anna",
+        "en": "Thank you."
+      },
+      {
+        "id": "u21-5",
+        "speaker": "Marko",
+        "en": "See you then."
+      }
+    ]
+  },
+  {
+    "id": "use-22",
+    "domain": "Shopping",
+    "level": "B1",
+    "title": "A return",
+    "aim": "Return an item with the receipt.",
+    "scene": "Anna is at the counter the next day.",
+    "image": "shop",
+    "turns": [
+      {
+        "id": "u22-0",
+        "speaker": "Anna",
+        "en": "I would like to return this."
+      },
+      {
+        "id": "u22-1",
+        "speaker": "Marko",
+        "en": "Do you have the receipt?"
+      },
+      {
+        "id": "u22-2",
+        "speaker": "Anna",
+        "en": "Yes. I bought it yesterday."
+      },
+      {
+        "id": "u22-3",
+        "speaker": "Marko",
+        "en": "We can refund you or exchange it."
+      },
+      {
+        "id": "u22-4",
+        "speaker": "Anna",
+        "en": "A refund, please."
+      },
+      {
+        "id": "u22-5",
+        "speaker": "Marko",
+        "en": "It will go back to your card."
+      }
+    ]
+  },
+  {
+    "id": "use-23",
+    "domain": "Shopping",
+    "level": "B1",
+    "title": "Out of stock",
+    "aim": "Ask them to keep one for you.",
+    "scene": "The size Anna needs is gone.",
+    "image": "shop",
+    "turns": [
+      {
+        "id": "u23-0",
+        "speaker": "Anna",
+        "en": "Do you have this in medium?"
+      },
+      {
+        "id": "u23-1",
+        "speaker": "Marko",
+        "en": "Not in the shop."
+      },
+      {
+        "id": "u23-2",
+        "speaker": "Anna",
+        "en": "Can you order it?"
+      },
+      {
+        "id": "u23-3",
+        "speaker": "Marko",
+        "en": "Yes. I can hold it when it arrives."
+      },
+      {
+        "id": "u23-4",
+        "speaker": "Anna",
+        "en": "How long?"
+      },
+      {
+        "id": "u23-5",
+        "speaker": "Marko",
+        "en": "About a week. Leave your number."
+      }
+    ]
+  },
+  {
+    "id": "use-24",
+    "domain": "Shopping",
+    "level": "B2",
+    "title": "A faulty product",
+    "aim": "Ask for a repair under the warranty.",
+    "scene": "The headphones stopped working.",
+    "image": "shop",
+    "turns": [
+      {
+        "id": "u24-0",
+        "speaker": "Anna",
+        "en": "They failed after three weeks."
+      },
+      {
+        "id": "u24-1",
+        "speaker": "Marko",
+        "en": "Do you have the warranty?"
+      },
+      {
+        "id": "u24-2",
+        "speaker": "Anna",
+        "en": "Yes. I would like a repair rather than a voucher."
+      },
+      {
+        "id": "u24-3",
+        "speaker": "Marko",
+        "en": "If we cannot repair them, we will replace them."
+      },
+      {
+        "id": "u24-4",
+        "speaker": "Anna",
+        "en": "How long will that take?"
+      },
+      {
+        "id": "u24-5",
+        "speaker": "Marko",
+        "en": "Ten days. I will write that on the form."
+      }
+    ]
+  },
+  {
+    "id": "use-25",
+    "domain": "Travel",
+    "level": "A1",
+    "title": "One ticket",
+    "aim": "Buy a ticket and ask where to stand.",
+    "scene": "Anna is at the station.",
+    "image": "station",
+    "turns": [
+      {
+        "id": "u25-0",
+        "speaker": "Anna",
+        "en": "One ticket, please."
+      },
+      {
+        "id": "u25-1",
+        "speaker": "Marko",
+        "en": "Single or return?"
+      },
+      {
+        "id": "u25-2",
+        "speaker": "Anna",
+        "en": "Single."
+      },
+      {
+        "id": "u25-3",
+        "speaker": "Marko",
+        "en": "Platform three."
+      },
+      {
+        "id": "u25-4",
+        "speaker": "Anna",
+        "en": "What time?"
+      },
+      {
+        "id": "u25-5",
+        "speaker": "Marko",
+        "en": "In ten minutes."
+      }
+    ]
+  },
+  {
+    "id": "use-26",
+    "domain": "Travel",
+    "level": "A2",
+    "title": "Which bus",
+    "aim": "Ask which bus goes to a place.",
+    "scene": "Anna is at a stop. Marko knows the routes.",
+    "image": "help",
+    "turns": [
+      {
+        "id": "u26-0",
+        "speaker": "Anna",
+        "en": "Which bus goes to the hospital?"
+      },
+      {
+        "id": "u26-1",
+        "speaker": "Marko",
+        "en": "The number twelve."
+      },
+      {
+        "id": "u26-2",
+        "speaker": "Anna",
+        "en": "Where do I get off?"
+      },
+      {
+        "id": "u26-3",
+        "speaker": "Marko",
+        "en": "At the third stop."
+      },
+      {
+        "id": "u26-4",
+        "speaker": "Anna",
+        "en": "Does it run on Sunday?"
+      },
+      {
+        "id": "u26-5",
+        "speaker": "Marko",
+        "en": "Yes, every half hour."
+      }
+    ]
+  },
+  {
+    "id": "use-27",
+    "domain": "Travel",
+    "level": "A2",
+    "title": "Hotel check-in",
+    "aim": "Check in and ask a practical question.",
+    "scene": "Anna arrives with a bag.",
+    "image": "house",
+    "turns": [
+      {
+        "id": "u27-0",
+        "speaker": "Anna",
+        "en": "I have a reservation."
+      },
+      {
+        "id": "u27-1",
+        "speaker": "Marko",
+        "en": "Your name?"
+      },
+      {
+        "id": "u27-2",
+        "speaker": "Anna",
+        "en": "Anna. For two nights."
+      },
+      {
+        "id": "u27-3",
+        "speaker": "Marko",
+        "en": "Room eight. Breakfast is from seven."
+      },
+      {
+        "id": "u27-4",
+        "speaker": "Anna",
+        "en": "Is there a lift?"
+      },
+      {
+        "id": "u27-5",
+        "speaker": "Marko",
+        "en": "Yes, on the left."
+      }
+    ]
+  },
+  {
+    "id": "use-28",
+    "domain": "Travel",
+    "level": "B1",
+    "title": "The train is cancelled",
+    "aim": "Find the next way to travel.",
+    "scene": "Anna's train will not run.",
+    "image": "station",
+    "turns": [
+      {
+        "id": "u28-0",
+        "speaker": "Anna",
+        "en": "The board says cancelled."
+      },
+      {
+        "id": "u28-1",
+        "speaker": "Marko",
+        "en": "The next train is at five."
+      },
+      {
+        "id": "u28-2",
+        "speaker": "Anna",
+        "en": "Will my ticket work?"
+      },
+      {
+        "id": "u28-3",
+        "speaker": "Marko",
+        "en": "Yes."
+      },
+      {
+        "id": "u28-4",
+        "speaker": "Anna",
+        "en": "Is there a bus sooner?"
+      },
+      {
+        "id": "u28-5",
+        "speaker": "Marko",
+        "en": "From stand B, in twenty minutes."
+      }
+    ]
+  },
+  {
+    "id": "use-29",
+    "domain": "Travel",
+    "level": "B1",
+    "title": "A taxi ride",
+    "aim": "Give an address and a stop.",
+    "scene": "Marko is driving.",
+    "image": "road",
+    "turns": [
+      {
+        "id": "u29-0",
+        "speaker": "Anna",
+        "en": "To the hospital, please."
+      },
+      {
+        "id": "u29-1",
+        "speaker": "Marko",
+        "en": "Which entrance?"
+      },
+      {
+        "id": "u29-2",
+        "speaker": "Anna",
+        "en": "The main one."
+      },
+      {
+        "id": "u29-3",
+        "speaker": "Marko",
+        "en": "There is traffic."
+      },
+      {
+        "id": "u29-4",
+        "speaker": "Anna",
+        "en": "Can you stop at a cash machine on the way?"
+      },
+      {
+        "id": "u29-5",
+        "speaker": "Marko",
+        "en": "Yes. It will add a few minutes."
+      }
+    ]
+  },
+  {
+    "id": "use-30",
+    "domain": "Travel",
+    "level": "B2",
+    "title": "Lost luggage",
+    "aim": "Describe a bag and ask what happens next.",
+    "scene": "Anna is at the airport desk.",
+    "image": "station",
+    "turns": [
+      {
+        "id": "u30-0",
+        "speaker": "Anna",
+        "en": "My suitcase was not on the belt."
+      },
+      {
+        "id": "u30-1",
+        "speaker": "Marko",
+        "en": "Colour and size?"
+      },
+      {
+        "id": "u30-2",
+        "speaker": "Anna",
+        "en": "Blue, medium, with a red ribbon."
+      },
+      {
+        "id": "u30-3",
+        "speaker": "Marko",
+        "en": "Fill in this form. We deliver in the city."
+      },
+      {
+        "id": "u30-4",
+        "speaker": "Anna",
+        "en": "What if it is not found?"
+      },
+      {
+        "id": "u30-5",
+        "speaker": "Marko",
+        "en": "The airline will contact you about a claim. Keep your boarding pass."
+      }
+    ]
+  },
+  {
+    "id": "use-31",
+    "domain": "Health",
+    "level": "A1",
+    "title": "At the pharmacy",
+    "aim": "Ask for something simple.",
+    "scene": "Anna has a sore throat.",
+    "image": "help",
+    "turns": [
+      {
+        "id": "u31-0",
+        "speaker": "Anna",
+        "en": "I have a sore throat."
+      },
+      {
+        "id": "u31-1",
+        "speaker": "Marko",
+        "en": "These sweets may help."
+      },
+      {
+        "id": "u31-2",
+        "speaker": "Anna",
+        "en": "How many a day?"
+      },
+      {
+        "id": "u31-3",
+        "speaker": "Marko",
+        "en": "Three."
+      },
+      {
+        "id": "u31-4",
+        "speaker": "Anna",
+        "en": "After food?"
+      },
+      {
+        "id": "u31-5",
+        "speaker": "Marko",
+        "en": "Yes."
+      }
+    ]
+  },
+  {
+    "id": "use-32",
+    "domain": "Health",
+    "level": "A2",
+    "title": "Making an appointment",
+    "aim": "Book a time with a doctor.",
+    "scene": "Marko works at the clinic.",
+    "image": "help",
+    "turns": [
+      {
+        "id": "u32-0",
+        "speaker": "Anna",
+        "en": "I need a doctor."
+      },
+      {
+        "id": "u32-1",
+        "speaker": "Marko",
+        "en": "What is it about?"
+      },
+      {
+        "id": "u32-2",
+        "speaker": "Anna",
+        "en": "A cough."
+      },
+      {
+        "id": "u32-3",
+        "speaker": "Marko",
+        "en": "Tomorrow at nine?"
+      },
+      {
+        "id": "u32-4",
+        "speaker": "Anna",
+        "en": "Yes."
+      },
+      {
+        "id": "u32-5",
+        "speaker": "Marko",
+        "en": "Bring your card."
+      }
+    ]
+  },
+  {
+    "id": "use-33",
+    "domain": "Health",
+    "level": "A2",
+    "title": "Where it hurts",
+    "aim": "Point to pain and say how long.",
+    "scene": "Anna is with a doctor.",
+    "image": "help",
+    "turns": [
+      {
+        "id": "u33-0",
+        "speaker": "Anna",
+        "en": "Where does it hurt?"
+      },
+      {
+        "id": "u33-1",
+        "speaker": "Marko",
+        "en": "Here, in my back."
+      },
+      {
+        "id": "u33-2",
+        "speaker": "Anna",
+        "en": "Since when?"
+      },
+      {
+        "id": "u33-3",
+        "speaker": "Marko",
+        "en": "Since Monday."
+      },
+      {
+        "id": "u33-4",
+        "speaker": "Anna",
+        "en": "Does it hurt when you walk?"
+      },
+      {
+        "id": "u33-5",
+        "speaker": "Marko",
+        "en": "A little."
+      }
+    ]
+  },
+  {
+    "id": "use-34",
+    "domain": "Health",
+    "level": "B1",
+    "title": "Calling in sick",
+    "aim": "Tell a manager you will not be in.",
+    "scene": "Anna calls Marko at work.",
+    "image": "late",
+    "turns": [
+      {
+        "id": "u34-0",
+        "speaker": "Anna",
+        "en": "I cannot come in today."
+      },
+      {
+        "id": "u34-1",
+        "speaker": "Marko",
+        "en": "Are you ill?"
+      },
+      {
+        "id": "u34-2",
+        "speaker": "Anna",
+        "en": "Yes. I have a fever."
+      },
+      {
+        "id": "u34-3",
+        "speaker": "Marko",
+        "en": "Stay home."
+      },
+      {
+        "id": "u34-4",
+        "speaker": "Anna",
+        "en": "I will check email if I can."
+      },
+      {
+        "id": "u34-5",
+        "speaker": "Marko",
+        "en": "Only if you feel able. Rest first."
+      }
+    ]
+  },
+  {
+    "id": "use-35",
+    "domain": "Health",
+    "level": "B1",
+    "title": "How to take it",
+    "aim": "Check medicine instructions.",
+    "scene": "Marko is the pharmacist.",
+    "image": "help",
+    "turns": [
+      {
+        "id": "u35-0",
+        "speaker": "Anna",
+        "en": "Before or after food?"
+      },
+      {
+        "id": "u35-1",
+        "speaker": "Marko",
+        "en": "After."
+      },
+      {
+        "id": "u35-2",
+        "speaker": "Anna",
+        "en": "Twice a day?"
+      },
+      {
+        "id": "u35-3",
+        "speaker": "Marko",
+        "en": "Morning and evening."
+      },
+      {
+        "id": "u35-4",
+        "speaker": "Anna",
+        "en": "Can I drive?"
+      },
+      {
+        "id": "u35-5",
+        "speaker": "Marko",
+        "en": "Yes. It should not make you sleepy."
+      }
+    ]
+  },
+  {
+    "id": "use-36",
+    "domain": "Health",
+    "level": "B2",
+    "title": "A second opinion",
+    "aim": "Ask to see another doctor.",
+    "scene": "Anna is unsure about a treatment.",
+    "image": "choice",
+    "turns": [
+      {
+        "id": "u36-0",
+        "speaker": "Anna",
+        "en": "I would like a second opinion."
+      },
+      {
+        "id": "u36-1",
+        "speaker": "Marko",
+        "en": "That is your right."
+      },
+      {
+        "id": "u36-2",
+        "speaker": "Anna",
+        "en": "I am not rejecting the advice. I want to understand the options."
+      },
+      {
+        "id": "u36-3",
+        "speaker": "Marko",
+        "en": "I will refer you."
+      },
+      {
+        "id": "u36-4",
+        "speaker": "Anna",
+        "en": "How long does it take?"
+      },
+      {
+        "id": "u36-5",
+        "speaker": "Marko",
+        "en": "A few weeks. Continue the current plan unless they say otherwise."
+      }
+    ]
+  },
+  {
+    "id": "use-37",
+    "domain": "School",
+    "level": "A1",
+    "title": "In the classroom",
+    "aim": "Ask the teacher to repeat.",
+    "scene": "Anna is a new student.",
+    "image": "help",
+    "turns": [
+      {
+        "id": "u37-0",
+        "speaker": "Anna",
+        "en": "I do not understand."
+      },
+      {
+        "id": "u37-1",
+        "speaker": "Marko",
+        "en": "Which word?"
+      },
+      {
+        "id": "u37-2",
+        "speaker": "Anna",
+        "en": "This one."
+      },
+      {
+        "id": "u37-3",
+        "speaker": "Marko",
+        "en": "It means 'ticket'."
+      },
+      {
+        "id": "u37-4",
+        "speaker": "Anna",
+        "en": "Could you say it slowly?"
+      },
+      {
+        "id": "u37-5",
+        "speaker": "Marko",
+        "en": "Of course."
+      }
+    ]
+  },
+  {
+    "id": "use-38",
+    "domain": "School",
+    "level": "A2",
+    "title": "Homework",
+    "aim": "Ask what to do and when.",
+    "scene": "Class has just ended.",
+    "image": "plan",
+    "turns": [
+      {
+        "id": "u38-0",
+        "speaker": "Anna",
+        "en": "What is the homework?"
+      },
+      {
+        "id": "u38-1",
+        "speaker": "Marko",
+        "en": "Page twelve, exercises one to four."
+      },
+      {
+        "id": "u38-2",
+        "speaker": "Anna",
+        "en": "When is it due?"
+      },
+      {
+        "id": "u38-3",
+        "speaker": "Marko",
+        "en": "Friday."
+      },
+      {
+        "id": "u38-4",
+        "speaker": "Anna",
+        "en": "May I write in pencil?"
+      },
+      {
+        "id": "u38-5",
+        "speaker": "Marko",
+        "en": "Yes."
+      }
+    ]
+  },
+  {
+    "id": "use-39",
+    "domain": "School",
+    "level": "A2",
+    "title": "The library",
+    "aim": "Borrow a book.",
+    "scene": "Marko works at the library desk.",
+    "image": "house",
+    "turns": [
+      {
+        "id": "u39-0",
+        "speaker": "Anna",
+        "en": "May I borrow this?"
+      },
+      {
+        "id": "u39-1",
+        "speaker": "Marko",
+        "en": "Do you have a card?"
+      },
+      {
+        "id": "u39-2",
+        "speaker": "Anna",
+        "en": "Yes."
+      },
+      {
+        "id": "u39-3",
+        "speaker": "Marko",
+        "en": "It is due in two weeks."
+      },
+      {
+        "id": "u39-4",
+        "speaker": "Anna",
+        "en": "Can I renew it?"
+      },
+      {
+        "id": "u39-5",
+        "speaker": "Marko",
+        "en": "Yes, if nobody is waiting."
+      }
+    ]
+  },
+  {
+    "id": "use-40",
+    "domain": "School",
+    "level": "B1",
+    "title": "I missed class",
+    "aim": "Ask a classmate for the notes.",
+    "scene": "Anna was ill yesterday.",
+    "image": "plan",
+    "turns": [
+      {
+        "id": "u40-0",
+        "speaker": "Anna",
+        "en": "I missed class. What did I miss?"
+      },
+      {
+        "id": "u40-1",
+        "speaker": "Marko",
+        "en": "A short test and the new chapter."
+      },
+      {
+        "id": "u40-2",
+        "speaker": "Anna",
+        "en": "May I copy your notes?"
+      },
+      {
+        "id": "u40-3",
+        "speaker": "Marko",
+        "en": "I will send them tonight."
+      },
+      {
+        "id": "u40-4",
+        "speaker": "Anna",
+        "en": "Is the test important?"
+      },
+      {
+        "id": "u40-5",
+        "speaker": "Marko",
+        "en": "It is practice. The real test is next month."
+      }
+    ]
+  },
+  {
+    "id": "use-41",
+    "domain": "School",
+    "level": "B1",
+    "title": "A group project",
+    "aim": "Divide the work.",
+    "scene": "They have to present on Monday.",
+    "image": "plan",
+    "turns": [
+      {
+        "id": "u41-0",
+        "speaker": "Anna",
+        "en": "I can make the slides."
+      },
+      {
+        "id": "u41-1",
+        "speaker": "Marko",
+        "en": "I will write the script."
+      },
+      {
+        "id": "u41-2",
+        "speaker": "Anna",
+        "en": "Who speaks?"
+      },
+      {
+        "id": "u41-3",
+        "speaker": "Marko",
+        "en": "Both of us. Five minutes each."
+      },
+      {
+        "id": "u41-4",
+        "speaker": "Anna",
+        "en": "Let us meet on Sunday to practise."
+      },
+      {
+        "id": "u41-5",
+        "speaker": "Marko",
+        "en": "At four, in the library."
+      }
+    ]
+  },
+  {
+    "id": "use-42",
+    "domain": "School",
+    "level": "B2",
+    "title": "Asking for an extension",
+    "aim": "Ask for more time with a clear reason.",
+    "scene": "Anna speaks to the teacher.",
+    "image": "choice",
+    "turns": [
+      {
+        "id": "u42-0",
+        "speaker": "Anna",
+        "en": "Would an extension be possible?"
+      },
+      {
+        "id": "u42-1",
+        "speaker": "Marko",
+        "en": "The deadline was clear."
+      },
+      {
+        "id": "u42-2",
+        "speaker": "Anna",
+        "en": "I know. I was ill, and I have a draft now."
+      },
+      {
+        "id": "u42-3",
+        "speaker": "Marko",
+        "en": "Send the draft today, and the final version on Monday."
+      },
+      {
+        "id": "u42-4",
+        "speaker": "Anna",
+        "en": "Thank you."
+      },
+      {
+        "id": "u42-5",
+        "speaker": "Marko",
+        "en": "Do not make a habit of it."
+      }
+    ]
+  },
+  {
+    "id": "use-43",
+    "domain": "Work",
+    "level": "A1",
+    "title": "The first morning",
+    "aim": "Ask where to go on day one.",
+    "scene": "Anna starts a job.",
+    "image": "clarify",
+    "turns": [
+      {
+        "id": "u43-0",
+        "speaker": "Anna",
+        "en": "It is my first day."
+      },
+      {
+        "id": "u43-1",
+        "speaker": "Marko",
+        "en": "Welcome. Sign in here."
+      },
+      {
+        "id": "u43-2",
+        "speaker": "Anna",
+        "en": "Where do I sit?"
+      },
+      {
+        "id": "u43-3",
+        "speaker": "Marko",
+        "en": "By the window."
+      },
+      {
+        "id": "u43-4",
+        "speaker": "Anna",
+        "en": "Who do I ask for help?"
+      },
+      {
+        "id": "u43-5",
+        "speaker": "Marko",
+        "en": "Me, until lunch."
+      }
+    ]
+  },
+  {
+    "id": "use-44",
+    "domain": "Work",
+    "level": "A2",
+    "title": "A meeting",
+    "aim": "Confirm the time and place.",
+    "scene": "They work together.",
+    "image": "plan",
+    "turns": [
+      {
+        "id": "u44-0",
+        "speaker": "Anna",
+        "en": "Is the meeting still at ten?"
+      },
+      {
+        "id": "u44-1",
+        "speaker": "Marko",
+        "en": "Yes, in room two."
+      },
+      {
+        "id": "u44-2",
+        "speaker": "Anna",
+        "en": "Do I need to bring anything?"
+      },
+      {
+        "id": "u44-3",
+        "speaker": "Marko",
+        "en": "Your notes."
+      },
+      {
+        "id": "u44-4",
+        "speaker": "Anna",
+        "en": "I will be there."
+      },
+      {
+        "id": "u44-5",
+        "speaker": "Marko",
+        "en": "We start on time."
+      }
+    ]
+  },
+  {
+    "id": "use-45",
+    "domain": "Work",
+    "level": "A2",
+    "title": "The photocopier",
+    "aim": "Ask a colleague how a machine works.",
+    "scene": "Anna cannot start the copier.",
+    "image": "help",
+    "turns": [
+      {
+        "id": "u45-0",
+        "speaker": "Anna",
+        "en": "How does this work?"
+      },
+      {
+        "id": "u45-1",
+        "speaker": "Marko",
+        "en": "Put the page here and press the green button."
+      },
+      {
+        "id": "u45-2",
+        "speaker": "Anna",
+        "en": "It asks for a code."
+      },
+      {
+        "id": "u45-3",
+        "speaker": "Marko",
+        "en": "Use four two five."
+      },
+      {
+        "id": "u45-4",
+        "speaker": "Anna",
+        "en": "Thank you."
+      },
+      {
+        "id": "u45-5",
+        "speaker": "Marko",
+        "en": "Call me if it jams."
+      }
+    ]
+  },
+  {
+    "id": "use-46",
+    "domain": "Work",
+    "level": "B1",
+    "title": "Too much work",
+    "aim": "Say you cannot take another task.",
+    "scene": "Marko asks Anna for more.",
+    "image": "late",
+    "turns": [
+      {
+        "id": "u46-0",
+        "speaker": "Anna",
+        "en": "Can you take this as well?"
+      },
+      {
+        "id": "u46-1",
+        "speaker": "Marko",
+        "en": "Not today. I am finishing the report."
+      },
+      {
+        "id": "u46-2",
+        "speaker": "Anna",
+        "en": "When could you?"
+      },
+      {
+        "id": "u46-3",
+        "speaker": "Marko",
+        "en": "Tomorrow afternoon."
+      },
+      {
+        "id": "u46-4",
+        "speaker": "Anna",
+        "en": "I will ask someone else for today."
+      },
+      {
+        "id": "u46-5",
+        "speaker": "Marko",
+        "en": "Thank you. I did not want to say yes and do it badly."
+      }
+    ]
+  },
+  {
+    "id": "use-47",
+    "domain": "Work",
+    "level": "B1",
+    "title": "A customer",
+    "aim": "Promise a customer a time to call back.",
+    "scene": "Anna covers the phone.",
+    "image": "help",
+    "turns": [
+      {
+        "id": "u47-0",
+        "speaker": "Anna",
+        "en": "The customer is waiting."
+      },
+      {
+        "id": "u47-1",
+        "speaker": "Marko",
+        "en": "What do they need?"
+      },
+      {
+        "id": "u47-2",
+        "speaker": "Anna",
+        "en": "A delivery date."
+      },
+      {
+        "id": "u47-3",
+        "speaker": "Marko",
+        "en": "I do not have it yet."
+      },
+      {
+        "id": "u47-4",
+        "speaker": "Anna",
+        "en": "Tell them we will call by three."
+      },
+      {
+        "id": "u47-5",
+        "speaker": "Marko",
+        "en": "I will write that down."
+      }
+    ]
+  },
+  {
+    "id": "use-48",
+    "domain": "Work",
+    "level": "B2",
+    "title": "Feedback",
+    "aim": "Give and receive one piece of feedback.",
+    "scene": "A small review, not a formal hearing.",
+    "image": "clarify",
+    "turns": [
+      {
+        "id": "u48-0",
+        "speaker": "Anna",
+        "en": "The report was clear."
+      },
+      {
+        "id": "u48-1",
+        "speaker": "Marko",
+        "en": "Thank you."
+      },
+      {
+        "id": "u48-2",
+        "speaker": "Anna",
+        "en": "The ending is too long."
+      },
+      {
+        "id": "u48-3",
+        "speaker": "Marko",
+        "en": "I can cut a paragraph."
+      },
+      {
+        "id": "u48-4",
+        "speaker": "Anna",
+        "en": "Please do. The point will be easier to see."
+      },
+      {
+        "id": "u48-5",
+        "speaker": "Marko",
+        "en": "I will send a shorter version today."
+      }
+    ]
+  },
+  {
+    "id": "use-49",
+    "domain": "Work",
+    "level": "B2",
+    "title": "A meeting that drifts",
+    "aim": "Bring a meeting back to the decision.",
+    "scene": "They have talked for twenty minutes.",
+    "image": "choice",
+    "turns": [
+      {
+        "id": "u49-0",
+        "speaker": "Anna",
+        "en": "We have two options, and we still have not chosen."
+      },
+      {
+        "id": "u49-1",
+        "speaker": "Marko",
+        "en": "I am still worried about the cost."
+      },
+      {
+        "id": "u49-2",
+        "speaker": "Anna",
+        "en": "Then let us decide the cost limit first."
+      },
+      {
+        "id": "u49-3",
+        "speaker": "Marko",
+        "en": "If it stays under the limit, I can agree."
+      },
+      {
+        "id": "u49-4",
+        "speaker": "Anna",
+        "en": "That is a decision."
+      },
+      {
+        "id": "u49-5",
+        "speaker": "Marko",
+        "en": "I will write it in the notes before we discuss anything else."
+      }
+    ]
+  },
+  {
+    "id": "use-50",
+    "domain": "Work",
+    "level": "B2",
+    "title": "Leaving well",
+    "aim": "Explain that you are leaving a job.",
+    "scene": "Anna tells Marko.",
+    "image": "plan",
+    "turns": [
+      {
+        "id": "u50-0",
+        "speaker": "Anna",
+        "en": "I have accepted another job."
+      },
+      {
+        "id": "u50-1",
+        "speaker": "Marko",
+        "en": "I am sorry to lose you."
+      },
+      {
+        "id": "u50-2",
+        "speaker": "Anna",
+        "en": "I can work until the end of the month."
+      },
+      {
+        "id": "u50-3",
+        "speaker": "Marko",
+        "en": "Who should take your clients?"
+      },
+      {
+        "id": "u50-4",
+        "speaker": "Anna",
+        "en": "I will write a handover."
+      },
+      {
+        "id": "u50-5",
+        "speaker": "Marko",
+        "en": "Thank you. That makes the change easier."
+      }
+    ]
+  }
+]

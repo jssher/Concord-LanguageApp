@@ -16,15 +16,16 @@ const SANS = '"Source Sans 3", "Noto Sans", sans-serif';
 export const LANGUAGES: LangMeta[] = [
   { id: "en", name: "English", native: "English", dir: "ltr", speech: "en-US", family: "Germanic", script: "Latin", tip: "Word order carries the grammar. Watch the irregular plurals." },
   { id: "de", name: "German", native: "Deutsch", dir: "ltr", speech: "de-DE", family: "Germanic", script: "Latin", tip: "Every noun has an article. Learn der, die, or das with the word." },
+  { id: "gsw", name: "Zürich German", native: "Züritüütsch", dir: "ltr", speech: "de-CH", voiceApprox: true, family: "Germanic", script: "Latin", tip: "Zürich speech, not Bern and not schoolbook German. Bern has its own card." },
+  { id: "gsw-be", name: "Bern German", native: "Bärndütsch", dir: "ltr", speech: "de-CH", voiceApprox: true, family: "Germanic", script: "Latin", tip: "City Bern. dr Maa, ds Huus, nid, loufe. A Bern word list is not Zürich, and the two cards are not interchangeable." },
   { id: "nl", name: "Dutch", native: "Nederlands", dir: "ltr", speech: "nl-NL", family: "Germanic", script: "Latin", tip: "De or het is the fact you memorize with each noun." },
   { id: "da", name: "Danish", native: "Dansk", dir: "ltr", speech: "da-DK", family: "Germanic", script: "Latin", tip: "Common gender takes en. Neuter takes et." },
-  { id: "gsw", name: "Swiss German", native: "Schwiizerdütsch", dir: "ltr", speech: "de-CH", voiceApprox: true, family: "Germanic", script: "Latin", tip: "Written as Zürich speech, not as schoolbook German." },
   { id: "is", name: "Icelandic", native: "Íslenska", dir: "ltr", speech: "is-IS", family: "Germanic", script: "Latin", tip: "Three genders, and the article is a suffix on the noun." },
 
   { id: "es", name: "Spanish", native: "Español", dir: "ltr", speech: "es-ES", family: "Romance", script: "Latin", tip: "Adjectives follow the noun and agree with it." },
-  { id: "fr", name: "French", native: "Français", dir: "ltr", speech: "fr-FR", family: "Romance", script: "Latin", tip: "The article and the liaison tell you what the silent letters are doing." },
   { id: "pt", name: "Portuguese", native: "Português", dir: "ltr", speech: "pt-BR", family: "Romance", script: "Latin", tip: "Brazilian forms. Keep the article; it contracts with prepositions." },
   { id: "it", name: "Italian", native: "Italiano", dir: "ltr", speech: "it-IT", family: "Romance", script: "Latin", tip: "Gender sits on the noun. The article changes with the next sound." },
+  { id: "fr", name: "French", native: "Français", dir: "ltr", speech: "fr-FR", family: "Romance", script: "Latin", tip: "The article and the liaison tell you what the silent letters are doing." },
   { id: "ro", name: "Romanian", native: "Română", dir: "ltr", speech: "ro-RO", family: "Romance", script: "Latin", tip: "The article is a suffix on the noun. Gender stays with the word." },
 
   { id: "la", name: "Latin", native: "Latina", dir: "ltr", speech: "it-IT", voiceApprox: true, family: "Italic", script: "Latin", tip: "Classical Latin, with macrons. There is no article. Gender and case sit on the ending." },
@@ -34,13 +35,13 @@ export const LANGUAGES: LangMeta[] = [
   { id: "ru", name: "Russian", native: "Русский", dir: "ltr", speech: "ru-RU", family: "Slavic", script: "Cyrillic", tip: "No articles. Endings carry gender, number, and case." },
   { id: "uk", name: "Ukrainian", native: "Українська", dir: "ltr", speech: "uk-UA", family: "Slavic", script: "Cyrillic", tip: "Endings do the work articles do in English. The apostrophe marks a separate sound." },
   { id: "hr", name: "Croatian", native: "Hrvatski", dir: "ltr", speech: "hr-HR", family: "Slavic", script: "Latin", tip: "Seven cases, and the verb likes the second position in the sentence." },
+  { id: "sr", name: "Serbian", native: "Српски", dir: "ltr", speech: "sr-RS", family: "Slavic", script: "Cyrillic", tip: "Ekavian, written in Cyrillic. The Latin reading sits under the word." },
   { id: "sl", name: "Slovenian", native: "Slovenščina", dir: "ltr", speech: "sl-SI", family: "Slavic", script: "Latin", tip: "Slovenian also has a dual. This core deck stays with one and many." },
   { id: "mk", name: "Macedonian", native: "Македонски", dir: "ltr", speech: "mk-MK", family: "Slavic", script: "Cyrillic", tip: "The article is a suffix: -от, -та, -то." },
   { id: "bg", name: "Bulgarian", native: "Български", dir: "ltr", speech: "bg-BG", family: "Slavic", script: "Cyrillic", tip: "The article is a suffix, and verbs have no infinitive." },
   { id: "pl", name: "Polish", native: "Polski", dir: "ltr", speech: "pl-PL", family: "Slavic", script: "Latin", tip: "Case endings and verb aspect are the long game. Start with the dictionary form." },
   { id: "cs", name: "Czech", native: "Čeština", dir: "ltr", speech: "cs-CZ", family: "Slavic", script: "Latin", tip: "Learn the nominative first. The other cases hang off it." },
   { id: "sk", name: "Slovak", native: "Slovenčina", dir: "ltr", speech: "sk-SK", family: "Slavic", script: "Latin", tip: "Long vowels and cases. Learn the nominative, then the endings that follow." },
-  { id: "sr", name: "Serbian", native: "Српски", dir: "ltr", speech: "sr-RS", family: "Slavic", script: "Cyrillic", tip: "Ekavian, written in Cyrillic. The Latin reading sits under the word." },
 
   { id: "sq", name: "Albanian", native: "Shqip", dir: "ltr", speech: "sq-AL", family: "Albanian", script: "Latin", tip: "The article is a suffix on the noun." },
   { id: "eu", name: "Basque", native: "Euskara", dir: "ltr", speech: "eu-ES", family: "Basque", script: "Latin", tip: "Standard Basque. The article is a suffix, -a." },
@@ -54,16 +55,16 @@ export const LANGUAGES: LangMeta[] = [
   { id: "ja", name: "Japanese", native: "日本語", dir: "ltr", speech: "ja-JP", family: "Japonic", script: "Japanese", font: `"Noto Sans JP", ${SANS}`, tip: "The word is the dictionary form. Sentences use polite です and ます." },
   { id: "ko", name: "Korean", native: "한국어", dir: "ltr", speech: "ko-KR", family: "Koreanic", script: "Hangul", font: `"Noto Sans KR", ${SANS}`, tip: "Sentences use polite 해요 style. Particles mark each word’s job." },
   { id: "hi", name: "Hindi", native: "हिन्दी", dir: "ltr", speech: "hi-IN", family: "Indic", script: "Devanagari", font: `"Noto Sans Devanagari", ${SANS}`, tip: "Postpositions, not prepositions. Adjectives agree with gender." },
+  { id: "ur", name: "Urdu", native: "اردو", dir: "rtl", speech: "ur-PK", family: "Indic", script: "Arabic", font: `"Noto Nastaliq Urdu", "Noto Sans Arabic", ${SANS}`, tip: "Right to left, in Nastaliq. The reading is a simple Latin guide." },
   { id: "mr", name: "Marathi", native: "मराठी", dir: "ltr", speech: "mr-IN", family: "Indic", script: "Devanagari", font: `"Noto Sans Devanagari", ${SANS}`, tip: "The verb agrees with the subject. Neuter nouns, like मूल, take a different ending." },
   { id: "bn", name: "Bengali", native: "বাংলা", dir: "ltr", speech: "bn-BD", family: "Indic", script: "Bengali", font: `"Noto Sans Bengali", ${SANS}`, tip: "No grammatical gender. These cards use পানি, the everyday word in Bangladesh." },
   { id: "gu", name: "Gujarati", native: "ગુજરાતી", dir: "ltr", speech: "gu-IN", family: "Indic", script: "Gujarati", font: `"Noto Sans Gujarati", ${SANS}`, tip: "The verb agrees with gender and number. The reading marks the nasal vowel." },
-  { id: "ur", name: "Urdu", native: "اردو", dir: "rtl", speech: "ur-PK", family: "Indic", script: "Arabic", font: `"Noto Nastaliq Urdu", "Noto Sans Arabic", ${SANS}`, tip: "Right to left, in Nastaliq. The reading is a simple Latin guide." },
   { id: "te", name: "Telugu", native: "తెలుగు", dir: "ltr", speech: "te-IN", family: "Dravidian", script: "Telugu", font: `"Noto Sans Telugu", ${SANS}`, tip: "Verbs take a personal ending. The reading shows the long vowels." },
   { id: "ta", name: "Tamil", native: "தமிழ்", dir: "ltr", speech: "ta-IN", family: "Dravidian", script: "Tamil", font: `"Noto Sans Tamil", ${SANS}`, tip: "Endings stack on the stem. There is no European-style gender on most nouns." },
   { id: "ml", name: "Malayalam", native: "മലയാളം", dir: "ltr", speech: "ml-IN", family: "Dravidian", script: "Malayalam", font: `"Noto Sans Malayalam", ${SANS}`, tip: "Agglutinative. The reading is there so you can start before the script is fluent." },
 
   { id: "fa", name: "Persian", native: "فارسی", dir: "rtl", speech: "fa-IR", family: "Iranian", script: "Arabic", font: `"Noto Sans Arabic", ${SANS}`, tip: "Right to left. را marks a definite object. Ezafe links words quietly." },
-  { id: "ar", name: "Arabic", native: "العربية", dir: "rtl", speech: "ar", family: "Semitic", script: "Arabic", font: `"Noto Sans Arabic", ${SANS}`, tip: "One card shows Modern Standard, Egyptian, and Saudi. The reading is there so each variety can be said aloud." },
+  { id: "ar", name: "Arabic", native: "العربية", dir: "rtl", speech: "ar", family: "Semitic", script: "Arabic", font: `"Noto Sans Arabic", ${SANS}`, tip: "One card shows Modern Standard, Egyptian, Saudi, and Maghrebi. Maghrebi here is Moroccan Darija. The reading is there so each variety can be said aloud." },
   { id: "ber", name: "Berber", native: "ⵜⴰⵎⴰⵣⵉⵖⵜ", dir: "ltr", speech: "zgh", voiceApprox: true, family: "Amazigh", script: "Tifinagh", font: `"Noto Sans Tifinagh", ${SANS}`, tip: "Standard Moroccan Tamazight, in Tifinagh. The reading is the Latin spelling." },
   { id: "he", name: "Hebrew", native: "עברית", dir: "rtl", speech: "he-IL", family: "Semitic", script: "Hebrew", font: `"Noto Sans Hebrew", ${SANS}`, tip: "Right to left, with vowels marked for learners. The article is ה־." },
   { id: "am", name: "Amharic", native: "አማርኛ", dir: "ltr", speech: "am-ET", voiceApprox: true, family: "Semitic", script: "Ethiopic", font: `"Noto Sans Ethiopic", ${SANS}`, tip: "Geʽez letters. The reading is there until the script is familiar. The verb agrees with who acts." },
@@ -99,3 +100,10 @@ export const LANGUAGES: LangMeta[] = [
 export const LANG_BY_ID = new Map(LANGUAGES.map((l) => [l.id, l]));
 
 export const FAMILIES = [...new Set(LANGUAGES.map((l) => l.family))];
+
+const NEARNESS = new Map(LANGUAGES.map((lang, index) => [lang.id, index]));
+
+/** Family order, with closer languages beside each other inside the family. */
+export function byNearness(ids: string[]): string[] {
+  return [...ids].sort((a, b) => (NEARNESS.get(a) ?? 999) - (NEARNESS.get(b) ?? 999));
+}

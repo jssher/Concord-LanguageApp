@@ -1,9 +1,11 @@
+import { useEffect, useState } from "react";
 import type { Entry, LangPack } from "./types";
 import { scriptPack, toCyrillic, toGlagolitic } from "./interslavic";
 import { packEntry } from "./packs";
 import { encodeSignal, toSignalEntry } from "@/lib/signal";
+import enFile from "./lexicon/en.json";
 
-const modules = import.meta.glob("./lexicon/*.json", { eager: true });
+const loaders = import.meta.glob(["./lexicon/*.json", "!./lexicon/en.json"]);
 
 function asPack(mod: unknown): LangPack | null {
   const raw = (mod as { default?: unknown }).default ?? mod;
@@ -14,23 +16,78 @@ function asPack(mod: unknown): LangPack | null {
 }
 
 const loaded: Record<string, LangPack> = {};
-for (const [path, mod] of Object.entries(modules)) {
-  const id = path.split("/").pop()?.replace(/\.json$/, "");
-  const pack = asPack(mod);
-  if (id && pack) loaded[id] = pack;
+const pending = new Map<string, Promise<void>>();
+
+function install(id: string, pack: LangPack) {
+  loaded[id] = pack;
+  if (id === "isv") {
+    loaded["isv-Latn"] = pack;
+    loaded["isv-Cyrl"] = scriptPack(pack, toCyrillic);
+    loaded["isv-Glag"] = scriptPack(pack, toGlagolitic);
+  }
 }
 
-if (loaded.isv) {
-  loaded["isv-Latn"] = loaded.isv;
-  loaded["isv-Cyrl"] = scriptPack(loaded.isv, toCyrillic);
-  loaded["isv-Glag"] = scriptPack(loaded.isv, toGlagolitic);
-}
+const englishPack = asPack(enFile);
+if (englishPack) install("en", englishPack);
 
 if (loaded.en) {
   loaded.sig = {
     entries: Object.fromEntries(Object.entries(loaded.en.entries).map(([id, entry]) => [id, toSignalEntry(entry)])),
     lines: Object.fromEntries(Object.entries(loaded.en.lines).map(([id, line]) => [id, encodeSignal(line)])),
   };
+}
+
+function rootId(langId: string): string {
+  if (langId === "isv-Latn" || langId === "isv-Cyrl" || langId === "isv-Glag") return "isv";
+  return langId;
+}
+
+function withKin(id: string): string[] {
+  const root = rootId(id);
+  if (root === "ar") return ["ar", "ar-eg", "ar-sa", "ar-ma"];
+  return [root];
+}
+
+/** Loads one language file. Other languages stay out of memory until chosen. */
+export function ensureLexicon(langId: string): Promise<void> {
+  const id = rootId(langId);
+  if (!id || id === "en" || id === "sig" || loaded[id]) return Promise.resolve();
+  const existing = pending.get(id);
+  if (existing) return existing;
+  const loader = loaders[`./lexicon/${id}.json`];
+  if (!loader) return Promise.resolve();
+  const job = loader()
+    .then((mod) => {
+      const pack = asPack(mod);
+      if (pack) install(id, pack);
+    })
+    .catch(() => {
+      pending.delete(id);
+    });
+  pending.set(id, job);
+  return job;
+}
+
+/** True once every requested language file is in memory. */
+export function useLexicons(ids: string[]): boolean {
+  const key = [...new Set(ids.flatMap(withKin).filter((id) => id && id !== "en" && id !== "sig"))].sort().join("|");
+  const [ready, setReady] = useState(() => key.split("|").filter(Boolean).every((id) => Boolean(loaded[id])));
+  useEffect(() => {
+    const list = key ? key.split("|") : [];
+    if (list.every((id) => loaded[id])) {
+      setReady(true);
+      return;
+    }
+    let live = true;
+    setReady(false);
+    Promise.all(list.map((id) => ensureLexicon(id))).then(() => {
+      if (live) setReady(true);
+    });
+    return () => {
+      live = false;
+    };
+  }, [key]);
+  return ready;
 }
 
 export const LEXICON: Record<string, LangPack> = loaded;

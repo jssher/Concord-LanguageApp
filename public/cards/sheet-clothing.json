@@ -1,0 +1,156 @@
+{
+  "sheet": "1ad71734",
+  "order": "row-major",
+  "cells": [
+    {
+      "row": 1,
+      "col": 1,
+      "slug": "dress",
+      "file": "dress.jpg"
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "slug": "skirt",
+      "file": "skirt.jpg"
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "slug": "jeans",
+      "file": "jeans.jpg"
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "slug": "jacket",
+      "file": "jacket.jpg"
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "slug": "cap",
+      "file": "cap.jpg"
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "slug": "sock",
+      "file": "sock.jpg"
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "slug": "sweater",
+      "file": "sweater.jpg"
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "slug": "scarf",
+      "file": "scarf.jpg"
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "slug": "glove",
+      "file": "glove.jpg"
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "slug": "belt",
+      "file": "belt.jpg"
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "slug": "boot",
+      "file": "boot.jpg"
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "slug": "sandal",
+      "file": "sandal.jpg"
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "slug": "shorts",
+      "file": "shorts.jpg"
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "slug": "t-shirt",
+      "file": "t-shirt.jpg"
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "slug": "tie",
+      "file": "tie.jpg"
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "slug": "glasses",
+      "file": "glasses.jpg"
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "slug": "sunglasses",
+      "file": "sunglasses.jpg"
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "slug": "ring",
+      "file": "ring.jpg"
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "slug": "necklace",
+      "file": "necklace.jpg"
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "slug": "backpack",
+      "file": "backpack.jpg"
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "slug": "vest",
+      "file": "vest.jpg"
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "slug": "suit",
+      "file": "suit.jpg"
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "slug": "sneaker",
+      "file": "sneaker.jpg"
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "slug": "raincoat",
+      "file": "raincoat.jpg"
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "slug": "watch",
+      "file": "watch.jpg"
+    }
+  ]
+}

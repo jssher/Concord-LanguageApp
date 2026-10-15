@@ -3,13 +3,13 @@ import type { ReactNode } from "react";
 import { LANG_BY_ID } from "@/data/languages";
 import { useConcord } from "@/lib/concord-store";
 import { ScriptFonts } from "@/components/concord/fonts";
+import { WaitCorner } from "@/wait/corner";
 
 const LINKS = [
   { to: "/study", label: "Study" },
   { to: "/letters", label: "Alphabet" },
   { to: "/path", label: "Path" },
   { to: "/grammar", label: "Grammar" },
-  { to: "/talk", label: "Talk" },
   { to: "/league", label: "League" },
   { to: "/credits", label: "Credits" },
 ] as const;
@@ -45,6 +45,7 @@ export function Shell({ children, scroll = true }: { children: ReactNode; scroll
           </p>
         </div>
       </header>
+      <WaitCorner />
       <div className={scroll ? "min-h-0 flex-1 overflow-y-auto overscroll-contain" : "flex min-h-0 flex-1 flex-col overflow-hidden"}>
         {children}
       </div>

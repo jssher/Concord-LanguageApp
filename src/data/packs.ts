@@ -30,10 +30,10 @@ function asItems(raw: unknown): Record<string, Entry & { en?: string }> {
   const items: Record<string, Entry & { en?: string }> = {};
   for (const [id, row] of Object.entries(source)) {
     if (!row || typeof row !== "object") continue;
-    if (typeof row.word !== "string" || typeof row.sentence !== "string") continue;
+    if (typeof row.word !== "string") continue;
     const word = row.word.trim();
-    const sentence = row.sentence.trim();
-    if (!word || !sentence) continue;
+    if (!word) continue;
+    const sentence = typeof row.sentence === "string" ? row.sentence.trim() : "";
     items[id] = { ...row, word, sentence };
   }
   return items;
@@ -67,7 +67,7 @@ export function packEntry(lang: string, id: string, en: string): (Entry & { en?:
   const items = memory.get(lang);
   if (!items) return undefined;
   const row = items[id] ?? items[lemma(en)];
-  if (!row?.word || !row.sentence) return undefined;
+  if (!row?.word) return undefined;
   if (row.en && lemma(row.en) !== lemma(en)) return undefined;
   return row;
 }
@@ -85,7 +85,7 @@ export function ensurePack(lang: string, level: CourseLevel): Promise<void> {
     }
     let items: Record<string, Entry & { en?: string }> = {};
     try {
-      const response = await fetch(`/course/i18n/${lang}/${level}.json`);
+      const response = await fetch(`/course/i18n/${lang}/${level.toLowerCase()}.json`);
       if (response.ok) items = asItems(await response.json());
     } catch {
       items = {};
@@ -102,7 +102,7 @@ export function usePack(lang: string, level: CourseLevel): boolean {
   useEffect(() => {
     let live = true;
     setReady(false);
-    const langs = lang === "ar" ? [lang, "ar-eg", "ar-sa"] : lang ? [lang] : [];
+    const langs = lang === "ar" ? [lang, "ar-eg", "ar-sa", "ar-ma"] : lang ? [lang] : [];
     Promise.all(langs.map((id) => ensurePack(id, level))).then(() => {
       if (live) setReady(true);
     });

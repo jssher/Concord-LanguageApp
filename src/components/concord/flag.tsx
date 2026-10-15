@@ -5,6 +5,7 @@ const FLAGS: Record<string, string> = {
   da: "🇩🇰",
   is: "🇮🇸",
   gsw: "🇨🇭",
+  "gsw-be": "🇨🇭",
   es: "🇪🇸",
   fr: "🇫🇷",
   pt: "🇧🇷",

@@ -1,0 +1,373 @@
+{
+  "entries": {
+    "i": {
+      "word": "i",
+      "sentence": "I bi da."
+    },
+    "you": {
+      "word": "du",
+      "sentence": "Du bisch mi Fründ.",
+      "note": "Si is formal"
+    },
+    "woman": {
+      "word": "Frau",
+      "article": "d",
+      "gender": "f",
+      "sentence": "D Frau isch da."
+    },
+    "man": {
+      "word": "Ma",
+      "article": "dr",
+      "gender": "m",
+      "plural": "Manne",
+      "sentence": "Dr Ma louft."
+    },
+    "child": {
+      "word": "Chind",
+      "article": "ds",
+      "gender": "n",
+      "plural": "Chind",
+      "sentence": "Ds Chind schlaft."
+    },
+    "name": {
+      "word": "Name",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Mi Name isch Anna."
+    },
+    "friend": {
+      "word": "Fründ",
+      "article": "dr",
+      "gender": "m",
+      "feminine": "Fründin",
+      "sentence": "Das isch mi Fründ."
+    },
+    "family": {
+      "word": "Familie",
+      "article": "d",
+      "gender": "f",
+      "sentence": "Mini Familie isch dehei."
+    },
+    "house": {
+      "word": "Huus",
+      "article": "ds",
+      "gender": "n",
+      "plural": "Hüüser",
+      "sentence": "Ds Huus isch chly."
+    },
+    "door": {
+      "word": "Türe",
+      "article": "d",
+      "gender": "f",
+      "sentence": "D Türe isch offe."
+    },
+    "key": {
+      "word": "Schlüssel",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Dr Schlüssel ligt uf em Tisch."
+    },
+    "table": {
+      "word": "Tisch",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Ds Buech ligt uf em Tisch."
+    },
+    "bed": {
+      "word": "Bett",
+      "article": "ds",
+      "gender": "n",
+      "sentence": "Ds Chind isch im Bett."
+    },
+    "book": {
+      "word": "Buech",
+      "article": "ds",
+      "gender": "n",
+      "plural": "Büecher",
+      "sentence": "Ds Buech isch nöi."
+    },
+    "water": {
+      "word": "Wasser",
+      "article": "ds",
+      "gender": "n",
+      "sentence": "Ds Wasser isch chalt."
+    },
+    "fire": {
+      "word": "Füür",
+      "article": "ds",
+      "gender": "n",
+      "sentence": "Ds Füür isch heiss."
+    },
+    "bread": {
+      "word": "Brot",
+      "article": "ds",
+      "gender": "n",
+      "sentence": "Ds Brot isch guet."
+    },
+    "apple": {
+      "word": "Öpfel",
+      "article": "dr",
+      "gender": "m",
+      "plural": "Öpfel",
+      "sentence": "Dr Öpfel isch rot."
+    },
+    "egg": {
+      "word": "Ei",
+      "article": "ds",
+      "gender": "n",
+      "sentence": "Ds Ei ligt uf em Tisch."
+    },
+    "milk": {
+      "word": "Milch",
+      "article": "d",
+      "gender": "f",
+      "sentence": "Ds Chind trinkt Milch."
+    },
+    "fish": {
+      "word": "Fisch",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Dr Fisch isch im Wasser."
+    },
+    "rice": {
+      "word": "Reis",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Mir ässe Reis."
+    },
+    "coffee": {
+      "word": "Kafi",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Dr Kafi isch heiss."
+    },
+    "eat": {
+      "word": "ässe",
+      "sentence": "Mir ässe Brot."
+    },
+    "drink": {
+      "word": "trinke",
+      "sentence": "I trink Wasser."
+    },
+    "see": {
+      "word": "gseh",
+      "sentence": "I gseh d Sunne."
+    },
+    "hear": {
+      "word": "ghöre",
+      "sentence": "I ghör dr Räge."
+    },
+    "sleep": {
+      "word": "schlafe",
+      "sentence": "Ds Chind schlaft."
+    },
+    "walk": {
+      "word": "loufe",
+      "sentence": "Dr Ma louft."
+    },
+    "come": {
+      "word": "cho",
+      "sentence": "Du chunsch zum Huus."
+    },
+    "sit": {
+      "word": "sitze",
+      "sentence": "Mir sitze am Tisch."
+    },
+    "give": {
+      "word": "gää",
+      "sentence": "I gib dir dr Schlüssel.",
+      "note": "dir is Bern; Zürich says der"
+    },
+    "sun": {
+      "word": "Sunne",
+      "article": "d",
+      "gender": "f",
+      "sentence": "D Sunne isch heiss."
+    },
+    "moon": {
+      "word": "Mond",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "I gseh dr Mond."
+    },
+    "tree": {
+      "word": "Baum",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Dr Baum isch gross."
+    },
+    "flower": {
+      "word": "Blueme",
+      "article": "d",
+      "gender": "f",
+      "sentence": "D Blueme isch rot."
+    },
+    "rain": {
+      "word": "Räge",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Dr Räge isch chalt."
+    },
+    "mountain": {
+      "word": "Bärg",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Dr Bärg isch gross."
+    },
+    "river": {
+      "word": "Fluss",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Dr Fluss isch lang."
+    },
+    "stone": {
+      "word": "Stei",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Dr Stei isch chly."
+    },
+    "dog": {
+      "word": "Hund",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Dr Hund isch chly."
+    },
+    "cat": {
+      "word": "Chatz",
+      "article": "d",
+      "gender": "f",
+      "sentence": "D Chatz schlaft."
+    },
+    "bird": {
+      "word": "Vogel",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "I gseh zwöi Vögel."
+    },
+    "hand": {
+      "word": "Hand",
+      "article": "d",
+      "gender": "f",
+      "sentence": "Das isch mini Hand."
+    },
+    "eye": {
+      "word": "Aug",
+      "article": "ds",
+      "gender": "n",
+      "sentence": "Das isch mis Aug."
+    },
+    "ear": {
+      "word": "Oor",
+      "article": "ds",
+      "gender": "n",
+      "sentence": "Das isch mis Oor."
+    },
+    "head": {
+      "word": "Chopf",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Das isch mi Chopf."
+    },
+    "mouth": {
+      "word": "Mund",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Das isch mi Mund."
+    },
+    "foot": {
+      "word": "Fuess",
+      "article": "dr",
+      "gender": "m",
+      "plural": "Füess",
+      "sentence": "Mi Fuess isch chalt."
+    },
+    "road": {
+      "word": "Wäg",
+      "article": "dr",
+      "gender": "m",
+      "sentence": "Dr Wäg isch lang."
+    },
+    "city": {
+      "word": "Stadt",
+      "article": "d",
+      "gender": "f",
+      "plural": "Stedt",
+      "sentence": "D Stadt isch gross."
+    },
+    "school": {
+      "word": "Schuel",
+      "article": "d",
+      "gender": "f",
+      "sentence": "Ds Chind geit i d Schuel."
+    },
+    "sea": {
+      "word": "Meer",
+      "article": "ds",
+      "gender": "n",
+      "sentence": "I gseh ds Meer."
+    },
+    "night": {
+      "word": "Nacht",
+      "article": "d",
+      "gender": "f",
+      "sentence": "D Nacht isch chalt."
+    },
+    "one": {
+      "word": "eis",
+      "sentence": "I ha eine Öpfel.",
+      "note": "eine before a masculine noun"
+    },
+    "two": {
+      "word": "zwöi",
+      "sentence": "I gseh zwöi Vögel."
+    },
+    "big": {
+      "word": "gross",
+      "sentence": "Ds Huus isch gross."
+    },
+    "small": {
+      "word": "chly",
+      "sentence": "Ds Chind isch chly."
+    },
+    "good": {
+      "word": "guet",
+      "sentence": "Ds Brot isch guet."
+    },
+    "hot": {
+      "word": "heiss",
+      "sentence": "Ds Füür isch heiss."
+    },
+    "cold": {
+      "word": "chalt",
+      "sentence": "Ds Wasser isch chalt."
+    },
+    "red": {
+      "word": "rot",
+      "sentence": "Dr Öpfel isch rot."
+    },
+    "new": {
+      "word": "nöi",
+      "sentence": "Ds Buech isch nöi."
+    },
+    "this": {
+      "word": "dä",
+      "feminine": "die",
+      "neuter": "das",
+      "sentence": "Das isch mis Huus."
+    }
+  },
+  "lines": {
+    "d1a": "Hoi. I bi da.",
+    "d1b": "Wie heissisch?",
+    "d1c": "Mi Name isch Anna. Das isch mi Fründ.",
+    "d1d": "Chum ine. Ds Brot isch guet.",
+    "d2a": "I gseh dr Bärg.",
+    "d2b": "Dr Wäg isch lang.",
+    "d2c": "D Sunne isch heiss.",
+    "d2d": "Mir sitze, und i trink Wasser.",
+    "d3a": "Ds Chind schlaft.",
+    "d3b": "I gseh dr Mond.",
+    "d3c": "I ghör dr Räge.",
+    "d3d": "Ds Huus isch chly und guet."
+  }
+}

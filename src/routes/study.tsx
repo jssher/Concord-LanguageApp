@@ -1,10 +1,53 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import { ChevronDown, ChevronLeft, ChevronRight, ChevronUp, Plus, Volume2 } from "lucide-react";
+import {
+  BookOpen,
+  Box,
+  Brain,
+  Briefcase,
+  Building2,
+  Bus,
+  Calendar,
+  Check,
+  Clock,
+  CloudSun,
+  Coins,
+  Dumbbell,
+  Eye,
+  FlaskConical,
+  Footprints,
+  GraduationCap,
+  Hammer,
+  Hand,
+  HeartPulse,
+  Home,
+  Landmark,
+  Languages,
+  Leaf,
+  Lightbulb,
+  type LucideIcon,
+  MapPin,
+  MessageCircle,
+  Mountain,
+  Music,
+  PawPrint,
+  Scale,
+  Shirt,
+  Smile,
+  Sparkles,
+  Utensils,
+  Users,
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  ChevronUp,
+  Plus,
+  Volume2,
+} from "lucide-react";
 import { groupsFor, posLabel, useLevel, useOutline, type CourseItem, type CourseLevel } from "@/data/course";
-import { getBaseEntry } from "@/data/lexicon";
+import { getBaseEntry, useLexicons } from "@/data/lexicon";
 import { usePack } from "@/data/packs";
-import { FAMILIES, LANG_BY_ID, LANGUAGES } from "@/data/languages";
+import { FAMILIES, LANG_BY_ID, LANGUAGES, byNearness } from "@/data/languages";
 import { BATCHES } from "@/data/syllabus";
 import { Plate } from "@/components/concord/plate";
 import { StrokeOrder, hanChars } from "@/components/concord/strokes";
@@ -15,6 +58,7 @@ import { mergeEntry } from "@/lib/entry";
 import { speak, stopSpeech } from "@/lib/speech";
 import { askCard, type CardCheck } from "@/lib/ask-card";
 import { noteReview } from "@/lib/league/client";
+import { useWait } from "@/wait/flag";
 import type { Entry } from "@/data/types";
 
 export const Route = createFileRoute("/study")({ component: StudyPage });
@@ -27,9 +71,61 @@ const LEVEL_CHIPS: { id: CourseLevel; label: string }[] = [
   { id: "P", label: "Phrases" },
 ];
 
+const GROUP_ICONS: [RegExp, LucideIcon][] = [
+  [/home|room|kitchen|house/, Home],
+  [/thing|object/, Box],
+  [/food|drink|meal|cook|market|café|cafe/, Utensils],
+  [/animal|bird/, PawPrint],
+  [/plant|garden|nature|environment/, Leaf],
+  [/weather|sky/, CloudSun],
+  [/landscape|earth|land|stone/, Mountain],
+  [/cloth|fashion|look/, Shirt],
+  [/body|health|care/, HeartPulse],
+  [/feel|emotion/, Smile],
+  [/people|family|person|relationship/, Users],
+  [/little word|greeting|polite/, Hand],
+  [/time|number|when/, Clock],
+  [/town|city|place|civic|building|direction/, Building2],
+  [/travel|transport|bus|road|station/, Bus],
+  [/shop|money|econom|bank/, Coins],
+  [/work|job|business|profession/, Briefcase],
+  [/school|study|class|education|classroom/, GraduationCap],
+  [/language|grammar|alphabet|word about/, Languages],
+  [/sport|hobby|play/, Dumbbell],
+  [/music|art|culture|picture|gallery/, Music],
+  [/speak|opinion|argument|nuance|conversation|phrase|social|talk/, MessageCircle],
+  [/think|idea|mind/, Brain],
+  [/scien|lab|technolog/, FlaskConical],
+  [/mov|action|verb/, Footprints],
+  [/mak|craft|workshop/, Hammer],
+  [/event|plan|news|media/, Calendar],
+  [/qualit|kind|describ|trait|having|happen|degree|manner|how it|way/, Sparkles],
+  [/society|law|rule|institution|public/, Landmark],
+  [/help/, Hand],
+  [/world/, MapPin],
+  [/eye|look/, Eye],
+  [/scale|agree/, Scale],
+  [/light/, Lightbulb],
+];
+
+function groupLabel(name: string): string {
+  return name.replace(/^\d+\s/, "");
+}
+
+function groupNum(name: string, index: number): string {
+  const match = /^(\d+)\b/.exec(name);
+  return match ? String(Number(match[1])) : String(index + 1);
+}
+
+function GroupGlyph({ name }: { name: string }) {
+  const label = groupLabel(name).toLowerCase();
+  const Icon = GROUP_ICONS.find(([pattern]) => pattern.test(label))?.[1] ?? BookOpen;
+  return <Icon className="h-5 w-5" strokeWidth={1.75} aria-hidden />;
+}
+
 function hasLine(item: CourseItem, lang: string, fixes: Record<string, Fix>): boolean {
   const entry = mergeEntry(getBaseEntry(lang, item.id, item.en, item.sentence), fixes[cardKey(lang, item.id)]);
-  return Boolean(entry?.word && entry.sentence);
+  return Boolean(entry?.word);
 }
 
 function StudyPage() {
@@ -57,6 +153,7 @@ function StudyPage() {
   const [status, setStatus] = useState("");
   const [query, setQuery] = useState("");
   const [picking, setPicking] = useState(false);
+  const [pickingGroup, setPickingGroup] = useState(false);
   const [openId, setOpenId] = useState<string | null>(null);
 
   useEffect(() => {
@@ -65,11 +162,13 @@ function StudyPage() {
   }, [normalize]);
 
   const readyTargets = useMemo(
-    () => targets.filter((id) => LANG_BY_ID.has(id) && id !== "en").slice(0, 12),
+    () => byNearness(targets.filter((id) => LANG_BY_ID.has(id) && id !== "en")).slice(0, 12),
     [targets],
   );
+  const lexReady = useLexicons(readyTargets);
   const activeFocus = readyTargets.includes(focus) ? focus : (readyTargets[0] ?? "");
   const packReady = usePack(activeFocus, courseLevel);
+  useWait(!ready || !lexReady || !packReady);
   const loadedGroups = useMemo(() => groupsFor(items, courseLevel), [items, courseLevel]);
   const outlineGroups = outline?.levels.find((row) => row.id === courseLevel)?.groups.map((row) => row.name) ?? [];
   const groups = useMemo(() => {
@@ -78,10 +177,62 @@ function StudyPage() {
     return out;
   }, [loadedGroups, outlineGroups]);
   const activeGroup = groups.includes(group) ? group : (groups[0] ?? "");
+  const pickedGroup = useRef<string | null>(null);
+
+  const progress = useMemo(() => {
+    const map = new Map<string, { done: number; total: number }>();
+    for (const item of items) {
+      if (item.level !== courseLevel) continue;
+      if (parallelOnly && packReady && activeFocus && !hasLine(item, activeFocus, fixes)) continue;
+      const row = map.get(item.group) ?? { done: 0, total: 0 };
+      row.total += 1;
+      const mark = activeFocus ? cards[cardKey(activeFocus, item.id)] : undefined;
+      if (mark && mark.stage >= 1) row.done += 1;
+      map.set(item.group, row);
+    }
+    return map;
+  }, [items, courseLevel, parallelOnly, packReady, activeFocus, fixes, cards]);
+
+  function groupLearned(name: string): boolean {
+    const row = progress.get(name);
+    return Boolean(row && row.total > 0 && row.done >= row.total);
+  }
+
+  function nextUnlearned(after: string): string {
+    if (!groups.length) return "";
+    const start = Math.max(0, groups.indexOf(after));
+    for (let step = 1; step <= groups.length; step += 1) {
+      const name = groups[(start + step) % groups.length];
+      const row = progress.get(name);
+      if (row && row.total > 0 && row.done < row.total) return name;
+    }
+    return "";
+  }
+
+  const groupPane = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    pickedGroup.current = null;
+  }, [courseLevel]);
+  useEffect(() => {
+    if (!pickingGroup) return;
+    const tile = groupPane.current?.querySelector<HTMLButtonElement>("[aria-current='true']");
+    tile?.scrollIntoView({ block: "nearest" });
+  }, [activeGroup, courseLevel, pickingGroup]);
 
   useEffect(() => {
-    if (activeGroup && activeGroup !== group) setGroup(activeGroup);
-  }, [activeGroup, group, setGroup]);
+    if (!ready || !groups.length) return;
+    if (pickedGroup.current && pickedGroup.current === group) return;
+    const known = groups.includes(group);
+    const learned = known && groupLearned(group);
+    if (known && !learned) return;
+    const nxt = known
+      ? nextUnlearned(group)
+      : (groups.find((name) => {
+          const row = progress.get(name);
+          return row && row.total > 0 && row.done < row.total;
+        }) ?? groups[0] ?? "");
+    if (nxt && nxt !== group) setGroup(nxt);
+  }, [ready, groups, group, progress, setGroup]);
 
   const deck = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -132,6 +283,26 @@ function StudyPage() {
     if (!concept || !activeFocus) return;
     grade(activeFocus, concept.id, kind);
     noteReview(activeFocus, concept.id, kind);
+    if (kind === "r") {
+      const state = useConcord.getState().cards;
+      const pending = items.some((item) => {
+        if (item.group !== activeGroup || item.level !== courseLevel || item.id === concept.id) return false;
+        if (parallelOnly && packReady && activeFocus && !hasLine(item, activeFocus, fixes)) return false;
+        return (state[cardKey(activeFocus, item.id)]?.stage ?? 0) < 1;
+      });
+      if (!pending) {
+        const nxt = nextUnlearned(activeGroup);
+        if (nxt) {
+          pickedGroup.current = null;
+          setGroup(nxt);
+          setQuery("");
+          setStatus("Learned. The next group is open.");
+          return;
+        }
+        setStatus("Every group in this level is learned.");
+        return;
+      }
+    }
     const stage = useConcord.getState().cards[cardKey(activeFocus, concept.id)]?.stage;
     setStatus(kind === "r" ? `Remembered · ${batchLabel(stage)}` : "Again · back in the 3-day batch");
     if (kind === "w") setLater((list) => (list.includes(concept.id) ? list : [...list, concept.id]));
@@ -184,6 +355,16 @@ function StudyPage() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
+  const tabRow = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const row = tabRow.current;
+    const tab = row?.querySelector<HTMLButtonElement>(`[data-lang="${activeFocus}"]`);
+    if (!row || !tab) return;
+    const left = tab.offsetLeft;
+    const right = left + tab.offsetWidth;
+    if (left < row.scrollLeft + 8) row.scrollLeft = Math.max(0, left - 8);
+    else if (right > row.scrollLeft + row.clientWidth - 8) row.scrollLeft = right - row.clientWidth + 8;
+  }, [activeFocus, readyTargets]);
   const focusLang = LANG_BY_ID.get(activeFocus);
   const entry = concept && activeFocus ? mergeEntry(getBaseEntry(activeFocus, concept.id, concept.en, concept.sentence), fixes[cardKey(activeFocus, concept.id)]) : undefined;
   const english = concept ? mergeEntry(getBaseEntry("en", concept.id, concept.en), fixes[cardKey("en", concept.id)]) : undefined;
@@ -194,12 +375,16 @@ function StudyPage() {
   const railStart = Math.max(0, index - 18);
   const rail = deck.slice(railStart, railStart + 42);
   const chosen = readyTargets.length;
+  const activeIndex = groups.indexOf(activeGroup);
+  const activeRow = progress.get(activeGroup);
+  const activeLearned = activeGroup ? groupLearned(activeGroup) : false;
+  const activeCount = !activeGroup ? "" : activeLearned ? "Learned" : activeRow && activeRow.total > 0 ? `${activeRow.done}/${activeRow.total}` : "—";
 
   return (
     <Shell scroll={false}>
       <div className="flex min-h-0 flex-1 flex-col">
         <div className="shrink-0 border-b border-line">
-          <div className="mx-auto flex max-w-6xl gap-2 overflow-x-auto px-4 py-2 md:px-6">
+          <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-2 px-4 py-2 md:px-6">
             {LEVEL_CHIPS.map((chip) => (
               <button
                 key={chip.id}
@@ -207,6 +392,7 @@ function StudyPage() {
                 onClick={() => {
                   setLevel(chip.id);
                   setQuery("");
+                  setPickingGroup(false);
                 }}
                 className={`min-h-11 shrink-0 rounded-full px-3 ${level === chip.id ? "bg-ink text-paper" : "bg-chip"}`}
               >
@@ -220,37 +406,89 @@ function StudyPage() {
             >
               {parallelOnly ? "Translated" : "All words"}
             </button>
-          </div>
-          <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 pb-2 md:px-6">
-            <label className="sr-only" htmlFor="group">
-              Group
-            </label>
-            <select
-              id="group"
-              value={activeGroup}
-              onChange={(event) => setGroup(event.target.value)}
-              className="min-h-11 min-w-0 flex-1 rounded-full border border-line bg-card px-3"
+            <button
+              type="button"
+              aria-expanded={pickingGroup}
+              aria-controls="category-list"
+              onClick={() => {
+                setPickingGroup((value) => !value);
+                setPicking(false);
+              }}
+              className={`inline-flex min-h-11 min-w-0 flex-1 basis-56 items-center gap-2 rounded-full border px-3 text-left ${
+                pickingGroup ? "border-accent bg-accent text-accent-ink" : "border-line bg-card"
+              }`}
             >
-              {groups.map((name) => (
-                <option key={name} value={name}>
-                  {name}
-                </option>
-              ))}
-            </select>
+              <span className="w-7 shrink-0 text-sm tabular-nums">{activeGroup ? groupNum(activeGroup, activeIndex) : ""}</span>
+              {activeGroup ? <GroupGlyph name={activeGroup} /> : null}
+              <span className="min-w-0 flex-1 truncate">{activeGroup ? groupLabel(activeGroup) : "Categories"}</span>
+              <span className={`shrink-0 text-xs tabular-nums ${pickingGroup ? "opacity-80" : "text-muted"}`}>{activeCount}</span>
+              <ChevronDown className={`h-4 w-4 shrink-0 ${pickingGroup ? "rotate-180" : ""}`} aria-hidden />
+            </button>
           </div>
+          {pickingGroup && (
+            <div id="category-list" ref={groupPane} className="max-h-[38dvh] overflow-y-auto border-t border-line px-4 py-3 md:px-6" role="listbox" aria-label="Categories">
+              <p className="mb-3 text-sm text-muted">Choose a category. This list closes when you pick one, so the card keeps the space.</p>
+              <div className="mx-auto flex max-w-6xl flex-col gap-1">
+                {groups.map((name, index) => {
+                  const row = progress.get(name);
+                  const learned = groupLearned(name);
+                  const on = name === activeGroup;
+                  const label = groupLabel(name);
+                  const num = groupNum(name, index);
+                  return (
+                    <button
+                      key={name}
+                      type="button"
+                      role="option"
+                      aria-selected={on}
+                      aria-current={on ? "true" : undefined}
+                      aria-label={learned ? `${num} ${label}, learned` : `${num} ${label}`}
+                      onClick={() => {
+                        pickedGroup.current = name;
+                        setGroup(name);
+                        setQuery("");
+                        setPickingGroup(false);
+                      }}
+                      className={`flex min-h-11 items-center gap-2 rounded-xl px-3 text-left ${
+                        on ? "bg-ink text-paper" : learned ? "bg-chip text-muted" : "border border-line bg-card"
+                      }`}
+                    >
+                      <span className={`w-7 shrink-0 text-sm tabular-nums ${on ? "" : "text-muted"}`}>{num}</span>
+                      <GroupGlyph name={name} />
+                      <span className="min-w-0 flex-1 truncate">{label}</span>
+                      {learned && !on ? <Check className="h-3.5 w-3.5 shrink-0" strokeWidth={2.25} aria-hidden /> : null}
+                      <span className={`shrink-0 text-xs tabular-nums ${on ? "text-paper/80" : "text-muted"}`}>
+                        {learned ? "Learned" : row && row.total > 0 ? `${row.done}/${row.total}` : "—"}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+              <button
+                type="button"
+                onClick={() => setPickingGroup(false)}
+                className="mx-auto mt-4 flex min-h-12 w-full max-w-6xl items-center justify-center rounded-full bg-accent px-4 text-accent-ink"
+              >
+                Done — close this list
+              </button>
+            </div>
+          )}
         </div>
 
         <div className="shrink-0 border-b border-line">
           <div className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-2 md:px-6">
             <button
               type="button"
-              onClick={() => setPicking((value) => !value)}
-              className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full border border-ink bg-card px-3"
+              onClick={() => {
+                setPicking((value) => !value);
+                setPickingGroup(false);
+              }}
+              className={`inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full px-3 ${picking ? "bg-accent text-accent-ink" : "border border-ink bg-card"}`}
             >
               <Plus className="h-4 w-4" />
-              {picking ? "Close" : `Languages ${chosen}/12`}
+              {picking ? "Done — close this list" : `Languages ${chosen}/12`}
             </button>
-            <div className="flex min-w-0 flex-1 items-center gap-2 overflow-x-auto">
+            <div ref={tabRow} className="flex min-w-0 flex-1 items-center gap-2 overflow-x-auto">
             {readyTargets.map((id) => {
               const lang = LANG_BY_ID.get(id);
               if (!lang) return null;
@@ -259,6 +497,7 @@ function StudyPage() {
                 <button
                   key={id}
                   type="button"
+                  data-lang={id}
                   onClick={() => setFocus(id)}
                   className={`inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full border px-3 ${on ? "border-ink bg-ink text-paper" : "border-line bg-card"}`}
                 >
@@ -271,7 +510,7 @@ function StudyPage() {
           </div>
           {picking && (
             <div className="max-h-[38dvh] overflow-y-auto border-t border-line px-4 py-3 md:px-6">
-              <p className="mb-3 text-sm text-muted">Choose up to twelve. They stay as tabs on this card. English stays on the left.</p>
+              <p className="mb-3 text-sm text-muted">Choose up to twelve. Close this list when you are finished. English stays on the left.</p>
               <div className="mx-auto flex max-w-6xl flex-col gap-3">
                 {FAMILIES.map((family) => {
                   const langs = LANGUAGES.filter((lang) => lang.family === family && lang.id !== "en");
@@ -301,6 +540,13 @@ function StudyPage() {
                   );
                 })}
               </div>
+              <button
+                type="button"
+                onClick={() => setPicking(false)}
+                className="mt-4 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-accent px-4 text-accent-ink"
+              >
+                Done — close this list
+              </button>
             </div>
           )}
         </div>
@@ -362,6 +608,7 @@ function StudyPage() {
                   index={index}
                   total={deck.length}
                   stage={batchLabel(markState?.stage)}
+                  lang={activeFocus}
                 />
                 <div className="flex min-h-0 flex-col overflow-y-auto overscroll-contain p-3 md:p-5" dir={focusLang?.dir} lang={focusLang?.speech}>
                   {revealed ? (
@@ -373,7 +620,9 @@ function StudyPage() {
                       <Translation entry={entry} speech={focusLang?.speech ?? "en-US"} font={focusLang?.font} />
                     ) : (
                       <p className="text-base text-muted md:text-lg">
-                        {focusLang?.name} does not have this word yet. The picture and the English sentence are the meaning. Ask Grok whether a line should be added.
+                        {lexReady
+                          ? `${focusLang?.name} does not have this word yet. The picture and the English sentence are the meaning. Ask Grok whether a line should be added.`
+                          : `Opening ${focusLang?.name}…`}
                       </p>
                     )
                   ) : (
@@ -457,6 +706,7 @@ function EnglishSide({
   index,
   total,
   stage,
+  lang,
 }: {
   item: CourseItem;
   word: string;
@@ -465,6 +715,7 @@ function EnglishSide({
   index: number;
   total: number;
   stage: string;
+  lang?: string;
 }) {
   return (
     <div className="flex min-h-0 flex-col gap-2 overflow-hidden border-r border-line p-3 md:p-4">
@@ -490,7 +741,7 @@ function EnglishSide({
         </div>
       </div>
       <div className="min-h-0 flex-1 overflow-hidden rounded-2xl bg-chip">
-        <Plate src={item.image} alt={word} />
+        <Plate src={item.image} alt={word} lang={lang} />
       </div>
     </div>
   );
@@ -541,10 +792,12 @@ function Translation({ entry, speech, font }: { entry: Entry; speech: string; fo
         {entry.masculine && entry.masculine !== entry.word && <Chip>masculine {entry.masculine}</Chip>}
         {entry.neuter && <Chip>neuter {entry.neuter}</Chip>}
       </div>
-      <div className="mt-3 flex items-start gap-2">
-        <p className="text-base leading-snug md:text-lg" style={script}>{entry.sentence}</p>
-        <Speak text={entry.sentence} lang={speech} label="Hear the sentence" />
-      </div>
+      {entry.sentence ? (
+        <div className="mt-3 flex items-start gap-2">
+          <p className="text-base leading-snug md:text-lg" style={script}>{entry.sentence}</p>
+          <Speak text={entry.sentence} lang={speech} label="Hear the sentence" />
+        </div>
+      ) : null}
       {entry.sentenceReading && <p className="mt-1 text-sm text-muted italic">{entry.sentenceReading}</p>}
       {entry.note && <p className="mt-2 text-sm text-muted">{entry.note}</p>}
     </div>
@@ -572,10 +825,12 @@ function InterslavicPanels({ conceptId, en, fixes }: { conceptId: string; en: st
             <h2 className="text-2xl leading-none">{block.word}</h2>
             {block.speak && block.word && <Speak text={block.word} lang="hr-HR" label="Hear the Latin word" />}
           </div>
-          <div className="mt-1 flex items-start gap-2">
-            <p className="text-sm leading-snug">{block.sentence}</p>
-            {block.speak && block.sentence && <Speak text={block.sentence} lang="hr-HR" label="Hear the Latin sentence" />}
-          </div>
+          {block.sentence ? (
+            <div className="mt-1 flex items-start gap-2">
+              <p className="text-sm leading-snug">{block.sentence}</p>
+              {block.speak && <Speak text={block.sentence} lang="hr-HR" label="Hear the Latin sentence" />}
+            </div>
+          ) : null}
         </div>
       ))}
     </div>
@@ -587,6 +842,7 @@ function ArabicPanels({ conceptId, en, fixes }: { conceptId: string; en: string;
     { title: "Standard", entry: mergeEntry(getBaseEntry("ar", conceptId, en), fixes[cardKey("ar", conceptId)]), speech: "ar" },
     { title: "Egyptian", entry: getBaseEntry("ar-eg", conceptId, en), speech: "ar-EG" },
     { title: "Saudi", entry: getBaseEntry("ar-sa", conceptId, en), speech: "ar-SA" },
+    { title: "Maghrebi", entry: getBaseEntry("ar-ma", conceptId, en), speech: "ar-MA" },
   ];
   if (!blocks.some((block) => block.entry?.word)) {
     return <p className="text-base text-muted">Arabic does not have this word yet. Ask Grok whether a line should be added.</p>;
@@ -609,10 +865,12 @@ function ArabicPanels({ conceptId, en, fixes }: { conceptId: string; en: string;
                   <Speak text={entry.word} lang={block.speech} label={`Hear the ${block.title} word`} />
                 </div>
                 {extra && <p className="mt-1 text-xs text-muted" dir="ltr">{extra}</p>}
-                <div className="mt-1 flex items-start gap-2">
-                  <p className="text-sm leading-snug">{entry.sentence}</p>
-                  <Speak text={entry.sentence} lang={block.speech} label={`Hear the ${block.title} sentence`} />
-                </div>
+                {entry.sentence ? (
+                  <div className="mt-1 flex items-start gap-2">
+                    <p className="text-sm leading-snug">{entry.sentence}</p>
+                    <Speak text={entry.sentence} lang={block.speech} label={`Hear the ${block.title} sentence`} />
+                  </div>
+                ) : null}
               </>
             ) : (
               <p className="mt-1 text-sm text-muted">Not in this variety yet.</p>

@@ -70,39 +70,91 @@ function openDb(): Promise<IDBDatabase> {
 
 const memory = new Map<string, string>();
 
+async function idbGet(name: string): Promise<string | null> {
+  if (typeof indexedDB === "undefined") return null;
+  const db = await openDb();
+  const value = await idbRequest(db.transaction("kv").objectStore("kv").get(name));
+  db.close();
+  return (value as string | undefined) ?? null;
+}
+
+async function idbPut(name: string, value: string): Promise<void> {
+  if (typeof indexedDB === "undefined") return;
+  const db = await openDb();
+  await idbRequest(db.transaction("kv", "readwrite").objectStore("kv").put(value, name));
+  db.close();
+}
+
+async function idbDelete(name: string): Promise<void> {
+  if (typeof indexedDB === "undefined") return;
+  const db = await openDb();
+  await idbRequest(db.transaction("kv", "readwrite").objectStore("kv").delete(name));
+  db.close();
+}
+
+function withTimeout<T>(work: Promise<T>, ms: number): Promise<T | null> {
+  return new Promise((resolve) => {
+    const timer = setTimeout(() => resolve(null), ms);
+    work.then(
+      (value) => {
+        clearTimeout(timer);
+        resolve(value);
+      },
+      () => {
+        clearTimeout(timer);
+        resolve(null);
+      },
+    );
+  });
+}
+
+function readLocal(name: string): string | null {
+  if (typeof localStorage === "undefined") return null;
+  try {
+    return localStorage.getItem(name);
+  } catch {
+    return null;
+  }
+}
+
+function writeLocal(name: string, value: string) {
+  if (typeof localStorage === "undefined") return;
+  try {
+    localStorage.setItem(name, value);
+  } catch {
+    /* the memory copy still holds this visit */
+  }
+}
+
+/** True once the learner has chosen a language this visit. Hydration must not undo that. */
+let prefsTouched = false;
+
 const storage = createJSONStorage(() => ({
   getItem: async (name) => {
-    if (typeof indexedDB === "undefined") return memory.get(name) ?? null;
-    try {
-      const db = await openDb();
-      const value = await idbRequest(db.transaction("kv").objectStore("kv").get(name));
-      db.close();
-      return (value as string | undefined) ?? null;
-    } catch {
-      return memory.get(name) ?? null;
+    const local = readLocal(name);
+    if (local) return local;
+    const saved = await withTimeout(idbGet(name), 400);
+    if (saved) {
+      writeLocal(name, saved);
+      return saved;
     }
+    return memory.get(name) ?? null;
   },
   setItem: async (name, value) => {
     memory.set(name, value);
-    if (typeof indexedDB === "undefined") return;
-    try {
-      const db = await openDb();
-      await idbRequest(db.transaction("kv", "readwrite").objectStore("kv").put(value, name));
-      db.close();
-    } catch {
-      /* keep the memory copy */
-    }
+    writeLocal(name, value);
+    void idbPut(name, value);
   },
   removeItem: async (name) => {
     memory.delete(name);
-    if (typeof indexedDB === "undefined") return;
-    try {
-      const db = await openDb();
-      await idbRequest(db.transaction("kv", "readwrite").objectStore("kv").delete(name));
-      db.close();
-    } catch {
-      /* ignore */
+    if (typeof localStorage !== "undefined") {
+      try {
+        localStorage.removeItem(name);
+      } catch {
+        /* ignore */
+      }
     }
+    void idbDelete(name);
   },
 }));
 
@@ -119,13 +171,16 @@ export const useConcord = create<State>()(
       conceptId: "i",
       cards: {},
       fixes: {},
-      setSource: (id) =>
+      setSource: (id) => {
+        prefsTouched = true;
         set((state) => {
           const targets = state.targets.filter((t) => t !== id);
           const focus = targets.includes(state.focus) ? state.focus : (targets[0] ?? state.focus);
           return { source: id, targets, focus };
-        }),
-      toggleTarget: (id) =>
+        });
+      },
+      toggleTarget: (id) => {
+        prefsTouched = true;
         set((state) => {
           if (id === state.source) return state;
           const has = state.targets.includes(id);
@@ -137,8 +192,12 @@ export const useConcord = create<State>()(
           if (state.targets.length >= 12) return state;
           const targets = [...state.targets, id];
           return { targets, focus: state.targets.length === 0 ? id : state.focus };
-        }),
-      setFocus: (id) => set({ focus: id }),
+        });
+      },
+      setFocus: (id) => {
+        prefsTouched = true;
+        set({ focus: id });
+      },
       setTopic: (topic) => set({ topic }),
       setLevel: (level) => set({ level }),
       setGroup: (group) => set({ group }),
@@ -193,7 +252,21 @@ export const useConcord = create<State>()(
           return { fixes };
         }),
     }),
-    { name: "concord-v1", storage },
+    {
+      name: "concord-v1",
+      storage,
+      merge: (persisted, current) => {
+        const saved = (persisted ?? {}) as Partial<State>;
+        const next = { ...current, ...saved };
+        if (!prefsTouched) return next;
+        return {
+          ...next,
+          source: current.source,
+          targets: current.targets,
+          focus: current.focus,
+        };
+      },
+    },
   ),
 );
 

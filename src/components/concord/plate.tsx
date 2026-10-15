@@ -1,24 +1,52 @@
 import { useEffect, useState } from "react";
 
-/** Real photographs. A card picks one at random each time that picture opens. */
+/** Numbered files are a random mix. Region files follow the language being studied. */
 const VARIANTS: Record<string, number> = {
-  woman: 4,
-  man: 4,
+  woman: 6,
+  man: 6,
+  child: 4,
+  friend: 4,
+  family: 4,
+  self: 4,
 };
 
-function pick(src: string) {
+const PEOPLE = new Set(["woman", "man", "child", "family"]);
+
+/** Where that language is most often spoken, one everyday portrait. */
+const REGION: Record<string, string> = {
+  en: "weu", de: "weu", gsw: "weu", "gsw-be": "weu", nl: "weu", da: "weu", is: "weu", ga: "weu", cy: "weu", fr: "weu", eu: "weu",
+  es: "seu", it: "seu", el: "seu", ro: "seu", sq: "seu", grc: "seu", la: "seu",
+  ru: "eeu", uk: "eeu", pl: "eeu", cs: "eeu", sk: "eeu", hr: "eeu", sr: "eeu", bg: "eeu", sl: "eeu", mk: "eeu", hy: "eeu", ka: "eeu",
+  pt: "bra",
+  ar: "mena", fa: "mena", he: "mena", tr: "mena", ber: "mena", arc: "mena",
+  hi: "sas", ur: "sas", bn: "sas", mr: "sas", gu: "sas",
+  ta: "dra", te: "dra", ml: "dra",
+  ja: "ja",
+  zh: "zh", yue: "zh",
+  ko: "ko",
+  yo: "waf", ig: "waf", ha: "waf", ff: "waf",
+  sw: "eaf", am: "eaf", so: "eaf", ln: "eaf",
+};
+
+function mix(src: string) {
   const count = VARIANTS[src];
   if (!count) return src;
   return `${src}-${1 + Math.floor(Math.random() * count)}`;
 }
 
-export function Plate({ src, alt }: { src: string; alt: string }) {
-  const [file, setFile] = useState(() => pick(src));
+function pick(src: string, lang?: string) {
+  const region = lang ? REGION[lang] : undefined;
+  if (region && PEOPLE.has(src)) return `${src}-${region}`;
+  return mix(src);
+}
+
+export function Plate({ src, alt, lang }: { src: string; alt: string; lang?: string }) {
+  const [file, setFile] = useState(() => pick(src, lang));
   const [failed, setFailed] = useState(false);
   useEffect(() => {
-    setFile(pick(src));
+    setFile(pick(src, lang));
     setFailed(false);
-  }, [src]);
+  }, [src, lang]);
   if (failed) {
     return (
       <div className="grid h-full w-full place-items-center bg-chip px-6 text-center">
@@ -28,13 +56,17 @@ export function Plate({ src, alt }: { src: string; alt: string }) {
   }
   return (
     <img
-      src={`/cards/${file}.jpg?v=4`}
+      src={`/cards/${file}.jpg?v=6`}
       alt={alt}
       decoding="async"
       fetchPriority="high"
       className="h-full w-full object-contain"
       onError={() => {
-        if (file !== src) setFile(src);
+        if (file !== src && !file.startsWith(`${src}-`)) {
+          setFailed(true);
+          return;
+        }
+        if (file.includes("-") && file !== src) setFile(src);
         else setFailed(true);
       }}
     />

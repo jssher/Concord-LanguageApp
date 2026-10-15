@@ -22,14 +22,14 @@
       "plural": "mųži"
     },
     "child": {
-      "word": "děte",
-      "sentence": "Děte spi.",
+      "word": "dętę",
+      "sentence": "Dętę spi.",
       "gender": "n",
       "plural": "děti"
     },
     "name": {
-      "word": "ime",
-      "sentence": "Moje ime jest Anna.",
+      "word": "imę",
+      "sentence": "Moje imę jest Anna.",
       "gender": "n"
     },
     "friend": {
@@ -52,7 +52,7 @@
     },
     "door": {
       "word": "dveri",
-      "sentence": "Dveri sut otvorjene.",
+      "sentence": "Dveri sųt otvorjene.",
       "gender": "f",
       "note": "usually plural"
     },
@@ -69,7 +69,7 @@
     },
     "bed": {
       "word": "postelja",
-      "sentence": "Děte jest v postelji.",
+      "sentence": "Dętę jest v postelji.",
       "gender": "f"
     },
     "book": {
@@ -80,12 +80,12 @@
     },
     "water": {
       "word": "voda",
-      "sentence": "Voda jest hladna.",
+      "sentence": "Voda jest zimna.",
       "gender": "f"
     },
     "fire": {
       "word": "ogȯnj",
-      "sentence": "Ogȯnj jest goręči.",
+      "sentence": "Ogȯnj jest goręći.",
       "gender": "m"
     },
     "bread": {
@@ -106,7 +106,7 @@
     },
     "milk": {
       "word": "mlěko",
-      "sentence": "Děte pije mlěko.",
+      "sentence": "Dętę pije mlěko.",
       "gender": "n"
     },
     "fish": {
@@ -116,17 +116,17 @@
       "plural": "ryby"
     },
     "rice": {
-      "word": "riž",
-      "sentence": "My jedemo riž."
+      "word": "ryž",
+      "sentence": "My jemo ryž."
     },
     "coffee": {
       "word": "kava",
-      "sentence": "Kava jest goręča.",
+      "sentence": "Kava jest goręća.",
       "gender": "f"
     },
     "eat": {
       "word": "jesti",
-      "sentence": "My jedemo hlěb."
+      "sentence": "My jemo hlěb."
     },
     "drink": {
       "word": "piti",
@@ -142,7 +142,7 @@
     },
     "sleep": {
       "word": "spati",
-      "sentence": "Děte spi."
+      "sentence": "Dętę spi."
     },
     "walk": {
       "word": "hoditi",
@@ -158,11 +158,11 @@
     },
     "give": {
       "word": "davati",
-      "sentence": "Ja daju tebě ključ."
+      "sentence": "Ja davam tobě ključ."
     },
     "sun": {
       "word": "sȯlnce",
-      "sentence": "Sȯlnce jest goręče.",
+      "sentence": "Sȯlnce jest goręće.",
       "gender": "n"
     },
     "moon": {
@@ -184,7 +184,7 @@
     },
     "rain": {
       "word": "dȯžd",
-      "sentence": "Dȯžd jest hladny.",
+      "sentence": "Dȯžd jest zimny.",
       "gender": "m"
     },
     "mountain": {
@@ -211,9 +211,9 @@
       "plural": "psi"
     },
     "cat": {
-      "word": "kočka",
-      "sentence": "Kočka spi.",
-      "gender": "f"
+      "word": "kot",
+      "sentence": "Kot spi.",
+      "gender": "m"
     },
     "bird": {
       "word": "ptica",
@@ -246,19 +246,19 @@
     },
     "mouth": {
       "word": "usta",
-      "sentence": "To sut moja usta.",
+      "sentence": "To sųt moja usta.",
       "gender": "n",
       "note": "plural form"
     },
     "foot": {
       "word": "noga",
-      "sentence": "Moja noga jest hladna.",
+      "sentence": "Moja noga jest zimna.",
       "gender": "f",
       "plural": "nogi"
     },
     "road": {
       "word": "pųt",
-      "sentence": "Pųt jest dȯlg.",
+      "sentence": "Pųt jest dȯlgy.",
       "gender": "m"
     },
     "city": {
@@ -269,7 +269,7 @@
     },
     "school": {
       "word": "škola",
-      "sentence": "Děte ide v školu.",
+      "sentence": "Dętę ide v školu.",
       "gender": "f"
     },
     "sea": {
@@ -278,8 +278,8 @@
       "gender": "n"
     },
     "night": {
-      "word": "noč",
-      "sentence": "Noč jest hladna.",
+      "word": "noć",
+      "sentence": "Noć jest zimna.",
       "gender": "f"
     },
     "one": {
@@ -296,19 +296,19 @@
     },
     "small": {
       "word": "maly",
-      "sentence": "Děte jest malo."
+      "sentence": "Dętę jest malo."
     },
     "good": {
       "word": "dobry",
       "sentence": "Hlěb jest dobry."
     },
     "hot": {
-      "word": "goręči",
-      "sentence": "Ogȯnj jest goręči."
+      "word": "goręći",
+      "sentence": "Ogȯnj jest goręći."
     },
     "cold": {
-      "word": "hladny",
-      "sentence": "Voda jest hladna."
+      "word": "zimny",
+      "sentence": "Voda jest zimna."
     },
     "red": {
       "word": "črveny",
@@ -320,21 +320,21 @@
     },
     "this": {
       "word": "sej",
-      "sentence": "Se jest moj dom.",
+      "sentence": "To jest moj dom.",
       "feminine": "seja",
       "neuter": "se"
     }
   },
   "lines": {
     "d1a": "Zdravo. Ja jesm tu.",
-    "d1b": "Kako jest tvoje ime?",
-    "d1c": "Moje ime jest Anna. To jest moj prijatelj.",
+    "d1b": "Kako jest tvoje imę?",
+    "d1c": "Moje imę jest Anna. To jest moj prijatelj.",
     "d1d": "Pridi vnųtri. Hlěb jest dobry.",
     "d2a": "Ja viđu goru.",
-    "d2b": "Pųt jest dȯlg.",
-    "d2c": "Sȯlnce jest goręče.",
+    "d2b": "Pųt jest dȯlgy.",
+    "d2c": "Sȯlnce jest goręće.",
     "d2d": "My sědimo, i ja piju vodu.",
-    "d3a": "Děte spi.",
+    "d3a": "Dętę spi.",
     "d3b": "Ja viđu lunu.",
     "d3c": "Ja slyšu dȯžd.",
     "d3d": "Dom jest maly i dobry."

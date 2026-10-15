@@ -40,6 +40,24 @@ const SOURCES = [
     href: "https://github.com/hermitdave/FrequencyWords",
     link: "FrequencyWords",
   },
+  {
+    title: "Dictionary translations",
+    body: "Headwords added for languages without a translation model come from Wiktionary, via the Kaikki extract and WikDict, under Creative Commons Attribution-ShareAlike 4.0. Each card keeps the matching headword, and a gender when the dictionary marks one. Full articles are not copied.",
+    href: "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+    link: "Wiktionary",
+  },
+  {
+    title: "Interslavic dictionary",
+    body: "Interslavic headwords come from the Interslavic Dictionary, which publishes the community English–Interslavic word list under the MIT License. Only the headword is taken, with the gender the list marks. The sentences are written for this course so they match the English line. They are not copied from the dictionary.",
+    href: "https://interslavic-dictionary.com",
+    link: "Interslavic Dictionary",
+  },
+  {
+    title: "Sentence collection",
+    body: "When a course sentence already existed in Tatoeba, that translation is used. Tatoeba sentences are under Creative Commons Attribution 2.0 France. Shared flashcard decks were not used: their licenses usually do not allow reuse.",
+    href: "https://tatoeba.org/en/terms_of_use",
+    link: "Tatoeba",
+  },
 ];
 
 function CreditsPage() {
@@ -48,7 +66,7 @@ function CreditsPage() {
       <div className="mx-auto max-w-3xl px-4 py-8 md:px-6">
         <h1 className="font-display text-4xl">Credits</h1>
         <p className="mt-3 text-muted">
-          These sources ask to be named. The pictures, the sentences, the Signal font, and the stroke animation do not.
+          These sources ask to be named. The pictures, the Signal font, and the stroke animation do not.
         </p>
         <ul className="mt-8 grid gap-6">
           {SOURCES.map((source) => (

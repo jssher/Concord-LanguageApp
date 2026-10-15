@@ -177,9 +177,9 @@ export const LESSONS: Lesson[] = [
   {
     id: "scenes",
     n: 10,
-    title: "Three short scenes",
+    title: "Scenes, in order",
     summary: "Put the cards back into a conversation.",
-    body: "When the single sentences feel sturdy, read the three dialogues: at the house, on the road, at night. They reuse this deck on purpose. Then switch language with the arrow keys and read the same scene again. That repetition is the point of the course.",
+    body: "When the single sentences feel sturdy, open Talk. Anna and Marko start with a hello and a café, then a station and a wrong turn, then plans and a problem in a shop. Later they weigh a train against a bus, explain a delay, clear up a misunderstanding, and choose between two flats. Read a level before the next one.",
     families: {
       default: "After each line, look away and say it. If you cannot, press W on the cards that line is made of, and let the 3-day batch bring them back.",
     },
