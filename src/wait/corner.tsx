@@ -3,11 +3,7 @@ import { useWaiting, useEgg } from "@/wait/flag";
 
 type SceneModule = { WaitScene: ComponentType; WaitBoundary: ComponentType<{ children: ReactNode }> };
 
-/**
- * Floats over the page only while a page has asked to wait.
- * It is taken out of the layout, so the header and the page do not move.
- * The drawing is loaded apart from the pages. If it never arrives, nothing is added.
- */
+/** Sits on the footer line, beside the note, and does not cover the page. */
 export function WaitCorner() {
   const loading = useWaiting();
   const egg = useEgg();
@@ -36,7 +32,7 @@ export function WaitCorner() {
     <div
       role={loading ? "status" : undefined}
       aria-hidden={loading ? undefined : true}
-      className="pointer-events-none fixed bottom-14 right-3 z-40 md:bottom-16 md:right-5"
+      className="wait-spot"
     >
       {loading ? <span className="sr-only">Opening…</span> : null}
       {Scene && Boundary && !failed ? (

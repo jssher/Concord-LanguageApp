@@ -47,25 +47,32 @@ export function Shell({ children, scroll = true }: { children: ReactNode; scroll
           </p>
         </div>
       </header>
-      <WaitCorner />
       <div className={scroll ? "min-h-0 flex-1 overflow-y-auto overscroll-contain" : "flex min-h-0 flex-1 flex-col overflow-hidden"}>
         {children}
       </div>
-      <footer className="shrink-0 border-t border-line">
-        <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-2 md:px-6">
+      <footer className="relative z-30 shrink-0 border-t border-line">
+        <div className="mx-auto flex max-w-6xl items-start gap-3 px-4 py-2 md:px-6">
           <Link
             to="/content"
-            className="rounded-full px-3 py-1 text-sm text-muted data-[status=active]:bg-ink data-[status=active]:text-paper"
+            className="shrink-0 rounded-full px-3 py-1 text-sm text-muted data-[status=active]:bg-ink data-[status=active]:text-paper"
           >
             Content
           </Link>
-          <button
-            type="button"
+          <div
+            role="button"
+            tabIndex={0}
             onClick={playEgg}
-            className="m-0 min-w-0 flex-1 cursor-default truncate border-0 bg-transparent p-0 text-left font-[inherit] text-xs text-muted"
+            onKeyDown={(event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                playEgg();
+              }
+            }}
+            className="flex min-w-0 flex-1 cursor-default items-start gap-2"
           >
-            Words and lines in each language
-          </button>
+            <span className="min-w-0 truncate pt-1 text-xs text-muted">Words and lines in each language</span>
+            <WaitCorner />
+          </div>
         </div>
       </footer>
     </div>

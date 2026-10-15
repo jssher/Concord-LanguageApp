@@ -8,7 +8,7 @@ export function WaitScene() {
   return (
     <>
       <style>{CSS}</style>
-      <img src={src} alt="" className="wait-gif" />
+      <img src={src} alt="" width={220} height={122} decoding="async" className="wait-gif" />
     </>
   );
 }
@@ -25,12 +25,21 @@ export class WaitBoundary extends Component<{ children: ReactNode }, { quiet: bo
 }
 
 const CSS = `
+.wait-spot {
+  flex: 0 0 auto;
+  max-width: 42%;
+  pointer-events: none;
+  line-height: 0;
+}
 .wait-gif {
   display: block;
-  height: 5.5rem;
-  width: auto;
-  max-width: min(16rem, 46vw);
-  border-radius: 0.75rem;
+  width: clamp(4.75rem, 26vw, 8rem);
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 220 / 122;
+  object-fit: contain;
+  object-position: left top;
+  border-radius: 0.5rem;
   pointer-events: none;
   user-select: none;
 }
