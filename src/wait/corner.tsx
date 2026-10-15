@@ -4,8 +4,9 @@ import { useWaiting } from "@/wait/flag";
 type SceneModule = { WaitScene: ComponentType; WaitBoundary: ComponentType<{ children: ReactNode }> };
 
 /**
- * Sits under the header, only while a page has asked to wait.
- * The drawing is loaded apart from the pages. If it never arrives, the words still do.
+ * Floats over the page only while a page has asked to wait.
+ * It is taken out of the layout, so the header and the page do not move.
+ * The drawing is loaded apart from the pages. If it never arrives, nothing is added.
  */
 export function WaitCorner() {
   const on = useWaiting();
@@ -30,15 +31,13 @@ export function WaitCorner() {
   const Scene = mod?.WaitScene;
   const Boundary = mod?.WaitBoundary;
   return (
-    <div role="status" className="pointer-events-none flex items-center justify-center gap-2 border-b border-line bg-paper px-3 py-1 text-xs text-muted">
+    <div role="status" className="pointer-events-none fixed bottom-14 right-3 z-40 md:bottom-16 md:right-5">
+      <span className="sr-only">Opening…</span>
       {Scene && Boundary && !failed ? (
         <Boundary>
           <Scene />
         </Boundary>
-      ) : (
-        <span className="inline-block h-2 w-2 rounded-full bg-accent" />
-      )}
-      <span>Opening…</span>
+      ) : null}
     </div>
   );
 }
