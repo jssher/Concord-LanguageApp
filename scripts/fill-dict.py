@@ -77,6 +77,7 @@ TARGETS = [
     ("gn", "Paraguayan Guarani", "", "grn", "latn"),
     ("arc", "Classical Syriac", "", "syc", "syrc"),
     ("ber", "Central Atlas Tamazight", "", "tzm", "tfng"),
+    ("ig", "Igbo", "", "ibo", "latn"),
     ("ar-eg", "Egyptian Arabic", "", "arz", "arab"),
     ("ar-sa", "Hijazi Arabic", "", "acw", "arab"),
     ("ar-ma", "Moroccan Arabic", "", "ary", "arab"),

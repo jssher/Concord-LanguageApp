@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ContentRouteImport } from './routes/content'
 import { Route as CreditsRouteImport } from './routes/credits'
 import { Route as GrammarRouteImport } from './routes/grammar'
 import { Route as LeagueRouteImport } from './routes/league'
@@ -24,6 +25,11 @@ import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContentRoute = ContentRouteImport.update({
+  id: '/content',
+  path: '/content',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CreditsRoute = CreditsRouteImport.update({
@@ -79,6 +85,7 @@ const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/content': typeof ContentRoute
   '/credits': typeof CreditsRoute
   '/grammar': typeof GrammarRoute
   '/league': typeof LeagueRoute
@@ -92,6 +99,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/content': typeof ContentRoute
   '/credits': typeof CreditsRoute
   '/grammar': typeof GrammarRoute
   '/league': typeof LeagueRoute
@@ -106,6 +114,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/content': typeof ContentRoute
   '/credits': typeof CreditsRoute
   '/grammar': typeof GrammarRoute
   '/league': typeof LeagueRoute
@@ -121,6 +130,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/content'
     | '/credits'
     | '/grammar'
     | '/league'
@@ -134,6 +144,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/content'
     | '/credits'
     | '/grammar'
     | '/league'
@@ -147,6 +158,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/content'
     | '/credits'
     | '/grammar'
     | '/league'
@@ -161,6 +173,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ContentRoute: typeof ContentRoute
   CreditsRoute: typeof CreditsRoute
   GrammarRoute: typeof GrammarRoute
   LeagueRoute: typeof LeagueRoute
@@ -180,6 +193,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/content': {
+      id: '/content'
+      path: '/content'
+      fullPath: '/content'
+      preLoaderRoute: typeof ContentRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/credits': {
@@ -257,6 +277,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ContentRoute: ContentRoute,
   CreditsRoute: CreditsRoute,
   GrammarRoute: GrammarRoute,
   LeagueRoute: LeagueRoute,
