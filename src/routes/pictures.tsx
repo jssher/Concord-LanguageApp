@@ -29,18 +29,21 @@ import {
   UtensilsCrossed,
   Volume2,
   Wrench,
+  Plus,
   type LucideIcon,
 } from "lucide-react";
 import { Shell } from "@/components/concord/shell";
 import { Flag } from "@/components/concord/flag";
 import { PICTURE_SECTIONS, PLATES, type PicturePlate, type Side, type Spot } from "@/data/pictures";
-import { posLabel, useLevel, type CourseItem } from "@/data/course";
+import { posLabel, useLevel, type CourseItem, type CourseLevel } from "@/data/course";
 import { getBaseEntry, useLexicons } from "@/data/lexicon";
-import { usePack } from "@/data/packs";
-import { LANG_BY_ID } from "@/data/languages";
+import { ensurePack } from "@/data/packs";
+import { byNearness, FAMILIES, LANG_BY_ID, LANGUAGES } from "@/data/languages";
 import { mergeEntry } from "@/lib/entry";
-import { cardKey, genderLabel, useConcord, type Fix } from "@/lib/concord-store";
+import { batchLabel, cardKey, genderLabel, useConcord, type Fix } from "@/lib/concord-store";
+import { noteReview } from "@/lib/league/client";
 import { speak, stopSpeech } from "@/lib/speech";
+import type { Entry } from "@/data/types";
 
 export const Route = createFileRoute("/pictures")({ component: PicturesPage });
 
@@ -113,24 +116,58 @@ function useWordIndex() {
   return { map, ready: a1.ready && a2.ready && b1.ready && b2.ready };
 }
 
+const PACK_LEVELS: CourseLevel[] = ["A1", "A2", "B1", "B2"];
+
+function packLangs(ids: string[]): string[] {
+  const out: string[] = [];
+  for (const id of ids) {
+    if (id === "ar") out.push(id, "ar-eg", "ar-sa", "ar-ma");
+    else if (id && id !== "en") out.push(id);
+  }
+  return [...new Set(out)];
+}
+
+function useCoursePacks(ids: string[]): boolean {
+  const key = packLangs(ids).sort().join("|");
+  const [ready, setReady] = useState(key.length === 0);
+  useEffect(() => {
+    const list = key ? key.split("|") : [];
+    if (!list.length) {
+      setReady(true);
+      return;
+    }
+    let live = true;
+    setReady(false);
+    Promise.all(list.flatMap((id) => PACK_LEVELS.map((level) => ensurePack(id, level)))).then(() => {
+      if (live) setReady(true);
+    });
+    return () => {
+      live = false;
+    };
+  }, [key]);
+  return ready;
+}
+
 function PicturesPage() {
-  const focus = useConcord((s) => s.focus);
   const targets = useConcord((s) => s.targets);
-  const setFocus = useConcord((s) => s.setFocus);
   const fixes = useConcord((s) => s.fixes);
+  const toggleTarget = useConcord((s) => s.toggleTarget);
+  const normalize = useConcord((s) => s.normalize);
   const { map } = useWordIndex();
-  const lexReady = useLexicons([focus, ...targets]);
-  const packA1 = usePack(focus, "A1");
-  const packA2 = usePack(focus, "A2");
-  const packB1 = usePack(focus, "B1");
-  const packB2 = usePack(focus, "B2");
-  const packsReady = packA1 && packA2 && packB1 && packB2;
+  const langs = useMemo(
+    () => byNearness(targets.filter((id) => LANG_BY_ID.has(id) && id !== "en")).slice(0, 12),
+    [targets],
+  );
+  const lexReady = useLexicons(langs);
+  const packsReady = useCoursePacks(langs);
+  const ready = lexReady && packsReady;
   const [plateId, setPlateId] = useState(PLATES[0].id);
   const [picking, setPicking] = useState(false);
+  const [pickingLangs, setPickingLangs] = useState(false);
   const [open, setOpen] = useState<string[]>([]);
   const [active, setActive] = useState<string | null>(null);
   const plate = PLATES.find((item) => item.id === plateId) ?? PLATES[0];
-  const focusLang = LANG_BY_ID.get(focus);
+  const chosen = useMemo(() => new Set(open), [open]);
   const words = useMemo(() => {
     const seen: string[] = [];
     for (const spot of plate.spots) {
@@ -140,7 +177,10 @@ function PicturesPage() {
     return seen;
   }, [plate]);
 
-  useEffect(() => stopSpeech, []);
+  useEffect(() => {
+    normalize();
+    return () => stopSpeech();
+  }, [normalize]);
 
   useEffect(() => {
     if (!active) return;
@@ -157,8 +197,14 @@ function PicturesPage() {
 
   function pick(en: string) {
     const key = lemma(en);
+    if (open.includes(key)) {
+      const next = open.filter((value) => value !== key);
+      setOpen(next);
+      setActive(next.at(-1) ?? null);
+      return;
+    }
     setActive(key);
-    setOpen((list) => (list.includes(key) ? list : [...list, key]));
+    setOpen((list) => [...list, key]);
   }
 
   const index = PLATES.findIndex((item) => item.id === plate.id);
@@ -173,7 +219,10 @@ function PicturesPage() {
               type="button"
               aria-expanded={picking}
               aria-controls="picture-plates"
-              onClick={() => setPicking((value) => !value)}
+              onClick={() => {
+                setPicking((value) => !value);
+                setPickingLangs(false);
+              }}
               className={`inline-flex min-h-11 min-w-0 flex-1 basis-56 items-center gap-2 rounded-full border px-3 text-left ${
                 picking ? "border-accent bg-accent text-accent-ink" : "border-line bg-card"
               }`}
@@ -216,40 +265,94 @@ function PicturesPage() {
               </div>
             </div>
           )}
-          <div className="flex gap-2 overflow-x-auto border-t border-line px-4 py-2 md:px-6">
-            {targets.filter((id) => id !== "en").map((id) => {
-              const lang = LANG_BY_ID.get(id);
-              const on = id === focus;
-              return (
-                <button
-                  key={id}
-                  type="button"
-                  onClick={() => setFocus(id)}
-                  className={`inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full border px-3 ${on ? "border-ink bg-ink text-paper" : "border-line bg-card"}`}
-                >
-                  <Flag id={id} />
-                  <span>{lang?.name ?? id}</span>
-                </button>
-              );
-            })}
+          <div className="flex items-center gap-2 border-t border-line px-4 py-2 md:px-6">
+            <button
+              type="button"
+              aria-expanded={pickingLangs}
+              onClick={() => {
+                setPickingLangs((value) => !value);
+                setPicking(false);
+              }}
+              className={`inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full px-3 ${pickingLangs ? "bg-accent text-accent-ink" : "border border-ink bg-card"}`}
+            >
+              <Plus className="h-4 w-4" />
+              {pickingLangs ? "Done — close this list" : `Languages ${langs.length}/12`}
+            </button>
+            <div className="flex min-w-0 flex-1 items-center gap-2 overflow-x-auto">
+              {langs.map((id) => {
+                const lang = LANG_BY_ID.get(id);
+                if (!lang) return null;
+                return (
+                  <button
+                    key={id}
+                    type="button"
+                    aria-pressed
+                    aria-label={`Remove ${lang.name}`}
+                    onClick={() => toggleTarget(id)}
+                    className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full border border-ink bg-ink px-3 text-paper"
+                  >
+                    <Flag id={id} />
+                    <span>{lang.name}</span>
+                    <span aria-hidden>×</span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
+          {pickingLangs && (
+            <div className="max-h-[38dvh] overflow-y-auto border-t border-line px-4 py-3 md:px-6">
+              <p className="mb-3 text-sm text-muted">Choose up to twelve. A selected word is shown in every language that is on. English stays on the card.</p>
+              <div className="mx-auto flex max-w-6xl flex-col gap-3">
+                {FAMILIES.map((family) => {
+                  const familyLangs = LANGUAGES.filter((lang) => lang.family === family && lang.id !== "en");
+                  if (!familyLangs.length) return null;
+                  return (
+                    <div key={family}>
+                      <p className="mb-1 text-xs tracking-widest text-muted uppercase">{family}</p>
+                      <div className="flex flex-wrap gap-2">
+                        {familyLangs.map((lang) => {
+                          const on = targets.includes(lang.id);
+                          const blocked = !on && langs.length >= 12;
+                          return (
+                            <button
+                              key={lang.id}
+                              type="button"
+                              disabled={blocked}
+                              aria-pressed={on}
+                              onClick={() => toggleTarget(lang.id)}
+                              className={`inline-flex min-h-11 items-center gap-2 rounded-full border px-3 ${on ? "border-moss bg-moss text-moss-ink" : "border-line bg-card"} disabled:opacity-40`}
+                            >
+                              <Flag id={lang.id} />
+                              {lang.name}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="grid min-h-0 flex-1 lg:grid-cols-[minmax(0,1.2fr)_minmax(22rem,0.85fr)]">
           <div className="min-h-0 overflow-y-auto overscroll-contain px-4 py-3 md:px-6">
-            <p className="mb-2 text-sm text-muted">{plate.blurb} Tap a label. The card opens beside the picture.</p>
-            <PlateView plate={plate} words={words} active={active} onPick={pick} />
+            <p className="mb-2 text-sm text-muted">{plate.blurb} Tap a label. Only the ones you tap stay open, in every language above.</p>
+            <PlateView plate={plate} words={words} active={active} chosen={chosen} onPick={pick} />
             <div className={`mt-3 flex flex-wrap gap-1 ${plate.compact ? "" : "lg:hidden"}`}>
               {plate.spots.map((spot, spotIndex) => {
                 const key = lemma(spot.en);
                 const on = key === active;
+                const picked = chosen.has(key);
                 const n = words.indexOf(key) + 1;
                 return (
                   <button
                     key={`${key}-${spotIndex}`}
                     type="button"
                     onClick={() => pick(key)}
-                    className={`inline-flex min-h-11 items-center gap-1 rounded-full border px-3 text-sm ${on ? "border-accent bg-accent text-accent-ink" : "border-line bg-card"}`}
+                    aria-pressed={picked}
+                    className={`inline-flex min-h-11 items-center gap-1 rounded-full border px-3 text-sm ${on ? "border-accent bg-accent text-accent-ink" : picked ? "border-ink bg-ink text-paper" : "border-line bg-card"}`}
                   >
                     <span className="tabular-nums">{n}</span>
                     {spot.en}
@@ -259,15 +362,12 @@ function PicturesPage() {
             </div>
           </div>
 
-          <aside className="@container min-h-0 overflow-y-auto overscroll-contain border-t border-line lg:border-t-0 lg:border-l">
+          <aside className="min-h-0 overflow-y-auto overscroll-contain border-t border-line lg:border-t-0 lg:border-l">
             <div className="sticky top-0 z-10 flex items-center gap-2 border-b border-line bg-paper px-3 py-2">
               <p className="min-w-0 flex-1 truncate text-sm text-muted">
-                {open.length === 0 ? "No card open yet" : `${open.length} open`}
-                {focusLang ? ` · ${focusLang.name}` : ""}
+                {open.length === 0 ? "No word selected" : `${open.length} selected`}
+                {langs.length ? ` · ${langs.length} ${langs.length === 1 ? "language" : "languages"}` : ""}
               </p>
-              <button type="button" onClick={() => setOpen(words)} className="min-h-11 rounded-full border border-line bg-card px-3 text-sm">
-                All
-              </button>
               <button
                 type="button"
                 onClick={() => {
@@ -280,9 +380,9 @@ function PicturesPage() {
               </button>
             </div>
             {open.length === 0 ? (
-              <p className="px-4 py-8 text-sm text-muted">Tap a window, a hammer, a cow. Its card stays here. All opens every word on this picture.</p>
+              <p className="px-4 py-8 text-sm text-muted">Tap a window, a hammer, a cow. Only that word stays here, written in each language you have turned on.</p>
             ) : (
-              <div className="grid grid-cols-1 gap-3 p-3 @min-[36rem]:grid-cols-2">
+              <div className="flex flex-col gap-3 p-3">
                 {open.map((key) => {
                   const n = words.indexOf(key) + 1;
                   const item = map.get(key);
@@ -293,13 +393,9 @@ function PicturesPage() {
                       en={item?.en ?? key}
                       item={item}
                       on={key === active}
-                      focus={focus}
-                      focusName={focusLang?.name ?? focus}
-                      speech={focusLang?.speech ?? "en-US"}
-                      dir={focusLang?.dir}
-                      font={focusLang?.font}
-                      ready={lexReady && packsReady}
-                      fix={fixes[cardKey(focus, item?.id ?? key)]}
+                      langs={langs}
+                      fixes={fixes}
+                      ready={ready}
                       onClose={() => setOpen((list) => list.filter((value) => value !== key))}
                     />
                   );
@@ -318,7 +414,19 @@ function PlateIcon({ id }: { id: string }) {
   return <Icon className="h-4 w-4 shrink-0" aria-hidden />;
 }
 
-function PlateView({ plate, words, active, onPick }: { plate: PicturePlate; words: string[]; active: string | null; onPick: (en: string) => void }) {
+function PlateView({
+  plate,
+  words,
+  active,
+  chosen,
+  onPick,
+}: {
+  plate: PicturePlate;
+  words: string[];
+  active: string | null;
+  chosen: Set<string>;
+  onPick: (en: string) => void;
+}) {
   if (plate.kind === "grid") {
     const pad = plate.pad ?? 0;
     return (
@@ -328,17 +436,18 @@ function PlateView({ plate, words, active, onPick }: { plate: PicturePlate; word
           {plate.spots.map((spot, index) => {
             const key = lemma(spot.en);
             const on = key === active;
+            const picked = chosen.has(key);
             const n = words.indexOf(key) + 1;
             return (
               <button
                 key={`${key}-${index}`}
                 type="button"
                 onClick={() => onPick(key)}
-                aria-pressed={on}
+                aria-pressed={picked}
                 style={spot.span && spot.span > 1 ? { gridColumn: `span ${spot.span}` } : undefined}
-                className={`flex items-end justify-center overflow-hidden p-0.5 ${on ? "bg-ink/15 ring-2 ring-accent ring-inset" : ""}`}
+                className={`flex items-end justify-center overflow-hidden p-0.5 ${on ? "bg-ink/15 ring-2 ring-accent ring-inset" : picked ? "bg-ink/10" : ""}`}
               >
-                <span className={`max-w-full truncate rounded-full px-1.5 py-0.5 text-xs ${on ? "bg-accent text-accent-ink" : "bg-card/95 text-ink"}`}>
+                <span className={`max-w-full truncate rounded-full px-1.5 py-0.5 text-xs ${on ? "bg-accent text-accent-ink" : picked ? "bg-ink text-paper" : "bg-card/95 text-ink"}`}>
                   {n} {spot.en}
                 </span>
               </button>
@@ -348,7 +457,7 @@ function PlateView({ plate, words, active, onPick }: { plate: PicturePlate; word
       </div>
     );
   }
-  return <ScenePlate plate={plate} words={words} active={active} onPick={onPick} />;
+  return <ScenePlate plate={plate} words={words} active={active} chosen={chosen} onPick={onPick} />;
 }
 
 type Callout = { spot: Spot; index: number; side: "left" | "right"; top: number };
@@ -428,7 +537,19 @@ function layoutCallouts(spots: Spot[], width: number, height: number, force: boo
   return callouts;
 }
 
-function ScenePlate({ plate, words, active, onPick }: { plate: PicturePlate; words: string[]; active: string | null; onPick: (en: string) => void }) {
+function ScenePlate({
+  plate,
+  words,
+  active,
+  chosen,
+  onPick,
+}: {
+  plate: PicturePlate;
+  words: string[];
+  active: string | null;
+  chosen: Set<string>;
+  onPick: (en: string) => void;
+}) {
   const frame = useRef<HTMLDivElement>(null);
   const [box, setBox] = useState({ w: 0, h: 0 });
   const [lines, setLines] = useState<{ key: string; x1: number; y1: number; x2: number; y2: number; on: boolean }[]>([]);
@@ -507,6 +628,7 @@ function ScenePlate({ plate, words, active, onPick }: { plate: PicturePlate; wor
             spot={spot}
             n={words.indexOf(lemma(spot.en)) + 1}
             on={lemma(spot.en) === active}
+            picked={chosen.has(lemma(spot.en))}
             compact={plate.compact}
             onPick={onPick}
           />
@@ -515,6 +637,7 @@ function ScenePlate({ plate, words, active, onPick }: { plate: PicturePlate; wor
       {callouts.map((item) => {
         const key = lemma(item.spot.en);
         const on = key === active;
+        const picked = chosen.has(key);
         const n = words.indexOf(key) + 1;
         return (
           <span key={`call-${item.index}`}>
@@ -527,10 +650,10 @@ function ScenePlate({ plate, words, active, onPick }: { plate: PicturePlate; wor
               data-on={on ? "1" : "0"}
               data-key={`${item.index}`}
               onClick={() => onPick(item.spot.en)}
-              aria-pressed={on}
+              aria-pressed={picked}
               className={`absolute z-20 inline-flex max-w-[46%] items-center gap-1 whitespace-nowrap rounded-full border px-2 text-xs ${
                 item.side === "left" ? "left-1" : "right-1"
-              } ${on ? "border-accent bg-accent text-accent-ink" : "border-line bg-card/95 text-ink"}`}
+              } ${on ? "border-accent bg-accent text-accent-ink" : picked ? "border-ink bg-ink text-paper" : "border-line bg-card/95 text-ink"}`}
               style={{ top: item.top, minHeight: 32 }}
             >
               <span className="tabular-nums">{n}</span>
@@ -540,7 +663,7 @@ function ScenePlate({ plate, words, active, onPick }: { plate: PicturePlate; wor
               type="button"
               onClick={() => onPick(item.spot.en)}
               aria-label={`${n} ${item.spot.en}`}
-              className={`absolute z-10 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full border ${on ? "border-accent bg-accent" : "border-ink bg-paper"}`}
+              className={`absolute z-10 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full border ${on ? "border-accent bg-accent" : picked ? "border-ink bg-ink" : "border-ink bg-paper"}`}
               style={{ left: `${item.spot.x ?? 50}%`, top: `${item.spot.y ?? 50}%` }}
             />
           </span>
@@ -550,19 +673,19 @@ function ScenePlate({ plate, words, active, onPick }: { plate: PicturePlate; wor
   );
 }
 
-function Pin({ spot, n, on, compact, onPick }: { spot: Spot; n: number; on: boolean; compact?: boolean; onPick: (en: string) => void }) {
+function Pin({ spot, n, on, picked, compact, onPick }: { spot: Spot; n: number; on: boolean; picked: boolean; compact?: boolean; onPick: (en: string) => void }) {
   const side = spot.side ?? "s";
   return (
     <button
       type="button"
       onClick={() => onPick(spot.en)}
-      aria-pressed={on}
+      aria-pressed={picked || on}
       aria-label={`${n} ${spot.en}`}
       title={spot.en}
       style={{ left: `${spot.x ?? 50}%`, top: `${spot.y ?? 50}%` }}
       className={`absolute z-10 inline-flex items-center justify-center gap-1 rounded-full border text-xs ${SHIFT[side]} ${
         compact ? "h-9 w-9" : "min-h-9 max-w-36 px-2"
-      } ${on ? "z-20 border-accent bg-accent text-accent-ink" : "border-line bg-card/95 text-ink"}`}
+      } ${on ? "z-20 border-accent bg-accent text-accent-ink" : picked ? "border-ink bg-ink text-paper" : "border-line bg-card/95 text-ink"}`}
     >
       <span className="tabular-nums">{n}</span>
       {compact ? null : <span className="truncate">{spot.en}</span>}
@@ -575,81 +698,278 @@ function DictCard({
   en,
   item,
   on,
-  focus,
-  focusName,
-  speech,
-  dir,
-  font,
+  langs,
+  fixes,
   ready,
-  fix,
   onClose,
 }: {
   n: number;
   en: string;
   item?: CourseItem;
   on: boolean;
-  focus: string;
-  focusName: string;
-  speech: string;
-  dir?: "ltr" | "rtl";
-  font?: string;
+  langs: string[];
+  fixes: Record<string, Fix>;
   ready: boolean;
-  fix: Fix | undefined;
   onClose: () => void;
 }) {
   const id = item?.id ?? en;
-  const entry = mergeEntry(getBaseEntry(focus, id, en), fix);
-  const script = font ? { fontFamily: font } : undefined;
+  const english = mergeEntry(getBaseEntry("en", id, en, item?.sentence), fixes[cardKey("en", id)]);
+  const sentence = english?.sentence || item?.sentence || "";
   return (
     <article id={`picture-card-${lemma(en)}`} className={`rounded-2xl border bg-card p-3 ${on ? "border-accent" : "border-line"}`}>
       <div className="flex items-start gap-2">
         <p className="pt-1 text-xs tabular-nums text-muted">{n}</p>
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
-            <h2 className="text-2xl leading-none">{en}</h2>
-            <Hear text={en} lang="en-US" label={`Hear ${en}`} />
+            <Flag id="en" />
+            <h2 className="text-2xl leading-none">{english?.word || en}</h2>
+            <Hear text={english?.word || en} lang="en-US" label={`Hear ${en}`} />
           </div>
           <p className="mt-1 text-xs text-muted">
             {item ? posLabel(item.pos) : "name"}
-            {item?.plural ? ` · ${item.plural}` : ""}
+            {english?.plural || item?.plural ? ` · ${english?.plural || item?.plural}` : ""}
           </p>
-          {item?.sentence ? <p className="mt-2 text-sm leading-snug">{item.sentence}</p> : <p className="mt-2 text-sm text-muted">A name. No sentence on this card.</p>}
+          {sentence ? (
+            <div className="mt-2 flex items-start gap-2">
+              <p className="text-sm leading-snug">{sentence}</p>
+              <Hear text={sentence} lang="en-US" label={`Hear the English sentence for ${en}`} />
+            </div>
+          ) : (
+            <p className="mt-2 text-sm text-muted">A name. No sentence on this card.</p>
+          )}
         </div>
         <button type="button" onClick={onClose} aria-label={`Close ${en}`} className="grid h-9 w-9 shrink-0 place-items-center rounded-full border border-line">
           ×
         </button>
       </div>
-      <div className="mt-3 border-t border-line pt-2" dir={dir} lang={speech}>
-        <p className="text-xs tracking-widest text-muted uppercase" dir="ltr">
-          {focusName}
-        </p>
-        {entry?.word ? (
-          <>
-            <div className="mt-1 flex items-center gap-2">
-              <h3 className="text-xl leading-none" style={script}>
-                {entry.word}
-              </h3>
-              <Hear text={entry.word} lang={speech} label={`Hear ${entry.word}`} />
-            </div>
-            {entry.reading && (
-              <p className="mt-1 text-sm text-muted italic" dir="ltr">
-                {entry.reading}
-              </p>
-            )}
-            <p className="mt-1 text-xs text-muted" dir="ltr">
-              {[entry.article, genderLabel(entry.gender), entry.plural && `plural ${entry.plural}`].filter(Boolean).join(" · ")}
+      {langs.length === 0 ? (
+        <p className="mt-3 border-t border-line pt-2 text-sm text-muted">Turn a language on above. This word will be written in each one.</p>
+      ) : (
+        <div className="mt-3 space-y-3 border-t border-line pt-3">
+          {langs.map((langId) =>
+            langId === "isv" ? (
+              <InterslavicBlock key={langId} conceptId={id} en={en} fixes={fixes} />
+            ) : langId === "ar" ? (
+              <ArabicBlock key={langId} conceptId={id} en={en} fixes={fixes} ready={ready} />
+            ) : (
+              <LangBlock key={langId} langId={langId} conceptId={id} en={en} sentence={sentence} fix={fixes[cardKey(langId, id)]} ready={ready} />
+            ),
+          )}
+        </div>
+      )}
+    </article>
+  );
+}
+
+function facts(entry: Entry | undefined): string[] {
+  return [
+    entry?.article,
+    genderLabel(entry?.gender),
+    entry?.plural && `plural ${entry.plural}`,
+    entry?.feminine && `feminine ${entry.feminine}`,
+    entry?.masculine && entry.masculine !== entry.word && `masculine ${entry.masculine}`,
+    entry?.neuter && `neuter ${entry.neuter}`,
+  ].filter((part): part is string => Boolean(part));
+}
+
+function LangBlock({
+  langId,
+  conceptId,
+  en,
+  sentence,
+  fix,
+  ready,
+}: {
+  langId: string;
+  conceptId: string;
+  en: string;
+  sentence: string;
+  fix: Fix | undefined;
+  ready: boolean;
+}) {
+  const lang = LANG_BY_ID.get(langId);
+  const mark = useConcord((s) => s.cards[cardKey(langId, conceptId)]);
+  const grade = useConcord((s) => s.grade);
+  const entry = mergeEntry(getBaseEntry(langId, conceptId, en, sentence), fix);
+  const script = lang?.font ? { fontFamily: lang.font } : undefined;
+  const bits = facts(entry);
+  function markCard(kind: "r" | "w") {
+    grade(langId, conceptId, kind);
+    noteReview(langId, conceptId, kind);
+  }
+  return (
+    <div dir={lang?.dir} lang={lang?.speech}>
+      <div className="flex items-center gap-2" dir="ltr">
+        <Flag id={langId} />
+        <p className="text-xs tracking-widest text-muted uppercase">{lang?.name ?? langId}</p>
+        <span className="ml-auto text-xs text-muted">{batchLabel(mark?.stage)}</span>
+      </div>
+      {entry?.word ? (
+        <>
+          <div className="mt-1 flex items-center gap-2">
+            <h3 className="text-xl leading-none" style={script}>
+              {entry.word}
+            </h3>
+            <Hear text={entry.reading && /[\u{13000}-\u{1342F}]/u.test(entry.word) ? entry.reading : entry.word} lang={lang?.speech ?? "en-US"} label={`Hear ${entry.word}`} />
+          </div>
+          {entry.reading && (
+            <p className="mt-1 text-sm text-muted italic" dir="ltr">
+              {entry.reading}
             </p>
-            {entry.sentence ? (
-              <p className="mt-2 text-sm leading-snug" style={script}>
+          )}
+          {bits.length > 0 && (
+            <p className="mt-1 text-xs text-muted" dir="ltr">
+              {bits.join(" · ")}
+            </p>
+          )}
+          {entry.sentence ? (
+            <div className="mt-2 flex items-start gap-2">
+              <p className="text-sm leading-snug" style={script}>
                 {entry.sentence}
               </p>
-            ) : null}
-          </>
-        ) : (
-          <p className="mt-1 text-sm text-muted">{ready ? "This language does not have this word yet." : "Opening this language…"}</p>
-        )}
+              <Hear text={entry.sentence} lang={lang?.speech ?? "en-US"} label={`Hear the sentence in ${lang?.name ?? langId}`} />
+            </div>
+          ) : null}
+          {entry.sentenceReading && <p className="mt-1 text-sm text-muted italic">{entry.sentenceReading}</p>}
+          {entry.note && <p className="mt-1 text-sm text-muted">{entry.note}</p>}
+          <GradeButtons onMark={markCard} />
+        </>
+      ) : (
+        <p className="mt-1 text-sm text-muted">{ready ? "This language does not have this word yet." : "Opening this language…"}</p>
+      )}
+    </div>
+  );
+}
+
+function GradeButtons({ onMark }: { onMark: (kind: "r" | "w") => void }) {
+  return (
+    <div className="mt-2 flex gap-2" dir="ltr">
+      <button type="button" onClick={() => onMark("w")} className="min-h-9 flex-1 rounded-full border border-line bg-paper text-sm">
+        Again
+      </button>
+      <button type="button" onClick={() => onMark("r")} className="min-h-9 flex-1 rounded-full bg-moss text-sm text-moss-ink">
+        Remembered
+      </button>
+    </div>
+  );
+}
+
+function InterslavicBlock({ conceptId, en, fixes }: { conceptId: string; en: string; fixes: Record<string, Fix> }) {
+  const mark = useConcord((s) => s.cards[cardKey("isv", conceptId)]);
+  const grade = useConcord((s) => s.grade);
+  const latin = mergeEntry(getBaseEntry("isv", conceptId, en), fixes[cardKey("isv", conceptId)]);
+  const cyr = getBaseEntry("isv-Cyrl", conceptId, en);
+  const glag = getBaseEntry("isv-Glag", conceptId, en);
+  const font = LANG_BY_ID.get("isv")?.font;
+  const blocks = [
+    { title: "Latin", word: latin?.word, sentence: latin?.sentence, speak: true },
+    { title: "Cyrillic", word: cyr?.word, sentence: cyr?.sentence, speak: false },
+    { title: "Glagolitic", word: glag?.word, sentence: glag?.sentence, speak: false, font },
+  ];
+  return (
+    <div>
+      <div className="flex items-center gap-2">
+        <Flag id="isv" />
+        <p className="text-xs tracking-widest text-muted uppercase">Interslavic</p>
+        <span className="ml-auto text-xs text-muted">{batchLabel(mark?.stage)}</span>
       </div>
-    </article>
+      {!latin?.word ? (
+        <p className="mt-1 text-sm text-muted">Interslavic does not have this word yet.</p>
+      ) : (
+        <div className="mt-1 space-y-2">
+          {blocks.map((block) => (
+            <div key={block.title} style={{ fontFamily: block.font }}>
+              <p className="text-xs text-muted">{block.title}</p>
+              <div className="flex items-center gap-2">
+                <h3 className="text-xl leading-none">{block.word}</h3>
+                {block.speak && block.word && <Hear text={block.word} lang="hr-HR" label="Hear the Latin word" />}
+              </div>
+              {block.sentence ? <p className="mt-1 text-sm leading-snug">{block.sentence}</p> : null}
+            </div>
+          ))}
+          <GradeButtons
+            onMark={(kind) => {
+              grade("isv", conceptId, kind);
+              noteReview("isv", conceptId, kind);
+            }}
+          />
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ArabicBlock({ conceptId, en, fixes, ready }: { conceptId: string; en: string; fixes: Record<string, Fix>; ready: boolean }) {
+  const mark = useConcord((s) => s.cards[cardKey("ar", conceptId)]);
+  const grade = useConcord((s) => s.grade);
+  const blocks = [
+    { title: "Standard", entry: mergeEntry(getBaseEntry("ar", conceptId, en), fixes[cardKey("ar", conceptId)]), speech: "ar" },
+    { title: "Egyptian", entry: getBaseEntry("ar-eg", conceptId, en), speech: "ar-EG" },
+    { title: "Saudi", entry: getBaseEntry("ar-sa", conceptId, en), speech: "ar-SA" },
+    { title: "Maghrebi", entry: getBaseEntry("ar-ma", conceptId, en), speech: "ar-MA" },
+  ];
+  const any = blocks.some((block) => block.entry?.word);
+  return (
+    <div dir="rtl" lang="ar">
+      <div className="flex items-center gap-2" dir="ltr">
+        <Flag id="ar" />
+        <p className="text-xs tracking-widest text-muted uppercase">Arabic</p>
+        <span className="ml-auto text-xs text-muted">{batchLabel(mark?.stage)}</span>
+      </div>
+      {!any ? (
+        <p className="mt-1 text-sm text-muted" dir="ltr">
+          {ready ? "Arabic does not have this word yet." : "Opening Arabic…"}
+        </p>
+      ) : (
+        <div className="mt-1 space-y-2">
+          {blocks.map((block) => {
+            const entry = block.entry;
+            const bits = facts(entry);
+            return (
+              <div key={block.title}>
+                <p className="text-xs text-muted" dir="ltr">
+                  {block.title}
+                </p>
+                {entry?.word ? (
+                  <>
+                    <div className="flex items-center gap-2">
+                      <h3 className="text-xl leading-none">{entry.word}</h3>
+                      <Hear text={entry.word} lang={block.speech} label={`Hear the ${block.title} word`} />
+                    </div>
+                    {entry.reading && (
+                      <p className="mt-1 text-sm text-muted italic" dir="ltr">
+                        {entry.reading}
+                      </p>
+                    )}
+                    {bits.length > 0 && (
+                      <p className="mt-1 text-xs text-muted" dir="ltr">
+                        {bits.join(" · ")}
+                      </p>
+                    )}
+                    {entry.sentence ? (
+                      <div className="mt-1 flex items-start gap-2">
+                        <p className="text-sm leading-snug">{entry.sentence}</p>
+                        <Hear text={entry.sentence} lang={block.speech} label={`Hear the ${block.title} sentence`} />
+                      </div>
+                    ) : null}
+                  </>
+                ) : (
+                  <p className="text-sm text-muted" dir="ltr">
+                    Not in this variety yet.
+                  </p>
+                )}
+              </div>
+            );
+          })}
+          <GradeButtons
+            onMark={(kind) => {
+              grade("ar", conceptId, kind);
+              noteReview("ar", conceptId, kind);
+            }}
+          />
+        </div>
+      )}
+    </div>
   );
 }
 
