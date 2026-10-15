@@ -1,16 +1,28 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import {
+  Anchor,
   Apple,
   BedDouble,
+  Brain,
   Briefcase,
+  Bus,
   Car,
+  Carrot,
   ChevronDown,
   Coffee,
+  Construction,
+  Flower2,
   Hammer,
+  Hand,
+  HardHat,
   HeartPulse,
+  Leaf,
   PersonStanding,
+  ScanFace,
   Shirt,
+  Shovel,
+  Stethoscope,
   Store,
   Sun,
   Trees,
@@ -49,11 +61,27 @@ const ICONS: Record<string, LucideIcon> = {
   garage: Wrench,
   office: Briefcase,
   body: PersonStanding,
+  face: ScanFace,
+  organs: Brain,
+  limbs: Hand,
   food: Apple,
   clothes: Shirt,
   animals: Trees,
   tools: Wrench,
   actions: PersonStanding,
+  fruits: Apple,
+  vegetables: Carrot,
+  meals: UtensilsCrossed,
+  vehicles: Bus,
+  "car-parts": Car,
+  harbour: Anchor,
+  jobs: HardHat,
+  medical: Stethoscope,
+  building: Construction,
+  site: Construction,
+  "garden-tools": Shovel,
+  garden: Flower2,
+  plant: Leaf,
 };
 
 const SHIFT: Record<Side, string> = {
@@ -159,7 +187,7 @@ function PicturesPage() {
           </div>
           {picking && (
             <div id="picture-plates" className="max-h-[70dvh] overflow-y-auto border-t border-line px-4 py-3 md:px-6">
-              <p className="mb-3 text-sm text-muted">Rooms, streets, the tools of a few trades, and five-by-five plates. This list closes when you pick one.</p>
+              <p className="mb-3 text-sm text-muted">Rooms, the body, food, trades, and five-by-five plates. This list closes when you pick one.</p>
               <div className="mx-auto flex max-w-6xl flex-col gap-3">
                 {PICTURE_SECTIONS.map((section) => (
                   <div key={section}>
