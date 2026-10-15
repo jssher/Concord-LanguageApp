@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import {
   Apple,
   BedDouble,
@@ -307,7 +307,8 @@ function PlateView({ plate, words, active, onPick }: { plate: PicturePlate; word
                 type="button"
                 onClick={() => onPick(key)}
                 aria-pressed={on}
-                className={`flex items-end justify-center p-0.5 ${on ? "bg-ink/15 ring-2 ring-accent ring-inset" : ""}`}
+                style={spot.span && spot.span > 1 ? { gridColumn: `span ${spot.span}` } : undefined}
+                className={`flex items-end justify-center overflow-hidden p-0.5 ${on ? "bg-ink/15 ring-2 ring-accent ring-inset" : ""}`}
               >
                 <span className={`max-w-full truncate rounded-full px-1.5 py-0.5 text-xs ${on ? "bg-accent text-accent-ink" : "bg-card/95 text-ink"}`}>
                   {n} {spot.en}
@@ -319,12 +320,204 @@ function PlateView({ plate, words, active, onPick }: { plate: PicturePlate; word
       </div>
     );
   }
+  return <ScenePlate plate={plate} words={words} active={active} onPick={onPick} />;
+}
+
+type Callout = { spot: Spot; index: number; side: "left" | "right"; top: number };
+
+/** Pull a label into the margin, with an arrow, when it would sit on its neighbour. */
+function layoutCallouts(spots: Spot[], width: number, height: number, force: boolean): Callout[] {
+  if (width < 80 || height < 80) return [];
+  const parent = spots.map((_, index) => index);
+  const find = (i: number): number => (parent[i] === i ? i : (parent[i] = find(parent[i])));
+  const unite = (a: number, b: number) => {
+    const pa = find(a);
+    const pb = find(b);
+    if (pa !== pb) parent[pa] = pb;
+  };
+  if (force) {
+    for (let i = 1; i < spots.length; i++) unite(0, i);
+  } else {
+    for (let i = 0; i < spots.length; i++) {
+      for (let j = i + 1; j < spots.length; j++) {
+        const dx = Math.abs((spots[i].x ?? 50) - (spots[j].x ?? 50));
+        const dy = Math.abs((spots[i].y ?? 50) - (spots[j].y ?? 50));
+        if (dx <= 9 && dy <= 5.5) unite(i, j);
+      }
+    }
+  }
+  const groups = new Map<number, number[]>();
+  spots.forEach((_, index) => {
+    const root = find(index);
+    const group = groups.get(root);
+    if (group) group.push(index);
+    else groups.set(root, [index]);
+  });
+  const callouts: Callout[] = [];
+  const pending: { index: number; side: "left" | "right" }[] = [];
+  for (const group of groups.values()) {
+    if (group.length < 2) continue;
+    const xs = group.map((index) => spots[index].x ?? 50);
+    const minX = Math.min(...xs);
+    const maxX = Math.max(...xs);
+    const ranked = [...group].sort((a, b) => (spots[a].x ?? 50) - (spots[b].x ?? 50) || (spots[a].y ?? 50) - (spots[b].y ?? 50));
+    if (maxX < 40) ranked.forEach((index) => pending.push({ index, side: "left" }));
+    else if (minX > 60) ranked.forEach((index) => pending.push({ index, side: "right" }));
+    else ranked.forEach((item, order) => pending.push({ index: item, side: order < Math.ceil(ranked.length / 2) ? "left" : "right" }));
+  }
+  for (const side of ["left", "right"] as const) {
+    const members = pending.filter((item) => item.side === side).sort((a, b) => (spots[a.index].y ?? 50) - (spots[b.index].y ?? 50));
+    if (members.length === 0) continue;
+    const gap = 6;
+    const tops: number[] = [];
+    let cursor = 4;
+    for (const item of members) {
+      const y = ((spots[item.index].y ?? 50) / 100) * height;
+      const top = Math.max(cursor, y - 18);
+      tops.push(top);
+      cursor = top + 36 + gap;
+    }
+    const overflow = cursor - gap - (height - 4);
+    if (overflow > 0) {
+      for (let i = 0; i < tops.length; i++) tops[i] -= overflow;
+    }
+    if (tops[0] < 4) {
+      const room = height - 8;
+      const total = members.length * 36 + gap * (members.length - 1);
+      if (total <= room) {
+        let y = 4;
+        for (let i = 0; i < members.length; i++) {
+          tops[i] = y;
+          y += 36 + gap;
+        }
+      } else {
+        const slot = room / members.length;
+        for (let i = 0; i < members.length; i++) tops[i] = 4 + i * slot;
+      }
+    }
+    members.forEach((item, order) => callouts.push({ spot: spots[item.index], index: item.index, side, top: tops[order] }));
+  }
+  return callouts;
+}
+
+function ScenePlate({ plate, words, active, onPick }: { plate: PicturePlate; words: string[]; active: string | null; onPick: (en: string) => void }) {
+  const frame = useRef<HTMLDivElement>(null);
+  const [box, setBox] = useState({ w: 0, h: 0 });
+  const [lines, setLines] = useState<{ key: string; x1: number; y1: number; x2: number; y2: number; on: boolean }[]>([]);
+  const callouts = useMemo(
+    () => layoutCallouts(plate.spots, box.w, box.h, plate.compact === true),
+    [plate, box.w, box.h],
+  );
+  const called = useMemo(() => new Set(callouts.map((item) => item.index)), [callouts]);
+
+  useLayoutEffect(() => {
+    const node = frame.current;
+    if (!node) return;
+    const measure = () => {
+      const fr = node.getBoundingClientRect();
+      setBox((prev) => (Math.abs(prev.w - fr.width) < 1 && Math.abs(prev.h - fr.height) < 1 ? prev : { w: fr.width, h: fr.height }));
+      const next: { key: string; x1: number; y1: number; x2: number; y2: number; on: boolean }[] = [];
+      for (const el of node.querySelectorAll<HTMLElement>("[data-callout]")) {
+        const rect = el.getBoundingClientRect();
+        const side = el.getAttribute("data-side");
+        const tx = (Number(el.getAttribute("data-x")) / 100) * fr.width;
+        const ty = (Number(el.getAttribute("data-y")) / 100) * fr.height;
+        const x1 = side === "left" ? rect.right - fr.left : rect.left - fr.left;
+        const y1 = rect.top + rect.height / 2 - fr.top;
+        const dx = tx - x1;
+        const dy = ty - y1;
+        const len = Math.hypot(dx, dy) || 1;
+        next.push({
+          key: el.getAttribute("data-key") ?? "",
+          x1: x1 + (dx / len) * 2,
+          y1: y1 + (dy / len) * 2,
+          x2: tx - (dx / len) * 9,
+          y2: ty - (dy / len) * 9,
+          on: el.getAttribute("data-on") === "1",
+        });
+      }
+      setLines(next);
+    };
+    measure();
+    const watcher = new ResizeObserver(measure);
+    watcher.observe(node);
+    return () => watcher.disconnect();
+  }, [plate.id, callouts, active]);
+
   return (
-    <div className="relative mx-auto w-fit max-w-full">
+    <div ref={frame} className="relative mx-auto w-fit max-w-full">
       <img src={plate.image} alt={plate.title} className="block h-auto max-h-[68vh] w-auto max-w-full rounded-2xl" />
-      {plate.spots.map((spot, index) => (
-        <Pin key={`${spot.en}-${index}`} spot={spot} n={words.indexOf(lemma(spot.en)) + 1} on={lemma(spot.en) === active} compact={plate.compact} onPick={onPick} />
-      ))}
+      {box.w > 0 ? (
+        <svg className="pointer-events-none absolute inset-0 h-full w-full" viewBox={`0 0 ${box.w} ${box.h}`} aria-hidden="true">
+          <defs>
+            <marker id="pin-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#1c1915" />
+            </marker>
+            <marker id="pin-arrow-on" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#c24d2c" />
+            </marker>
+          </defs>
+          {lines.map((line) => (
+            <line
+              key={line.key}
+              x1={line.x1}
+              y1={line.y1}
+              x2={line.x2}
+              y2={line.y2}
+              stroke={line.on ? "#c24d2c" : "#1c1915"}
+              strokeWidth="1.25"
+              markerEnd={line.on ? "url(#pin-arrow-on)" : "url(#pin-arrow)"}
+            />
+          ))}
+        </svg>
+      ) : null}
+      {plate.spots.map((spot, index) => {
+        if (called.has(index)) return null;
+        return (
+          <Pin
+            key={`${spot.en}-${index}`}
+            spot={spot}
+            n={words.indexOf(lemma(spot.en)) + 1}
+            on={lemma(spot.en) === active}
+            compact={plate.compact}
+            onPick={onPick}
+          />
+        );
+      })}
+      {callouts.map((item) => {
+        const key = lemma(item.spot.en);
+        const on = key === active;
+        const n = words.indexOf(key) + 1;
+        return (
+          <span key={`call-${item.index}`}>
+            <button
+              type="button"
+              data-callout="1"
+              data-side={item.side}
+              data-x={item.spot.x ?? 50}
+              data-y={item.spot.y ?? 50}
+              data-on={on ? "1" : "0"}
+              data-key={`${item.index}`}
+              onClick={() => onPick(item.spot.en)}
+              aria-pressed={on}
+              className={`absolute z-20 inline-flex max-w-[46%] items-center gap-1 whitespace-nowrap rounded-full border px-2 text-xs ${
+                item.side === "left" ? "left-1" : "right-1"
+              } ${on ? "border-accent bg-accent text-accent-ink" : "border-line bg-card/95 text-ink"}`}
+              style={{ top: item.top, minHeight: 32 }}
+            >
+              <span className="tabular-nums">{n}</span>
+              <span className="truncate">{item.spot.en}</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => onPick(item.spot.en)}
+              aria-label={`${n} ${item.spot.en}`}
+              className={`absolute z-10 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full border ${on ? "border-accent bg-accent" : "border-ink bg-paper"}`}
+              style={{ left: `${item.spot.x ?? 50}%`, top: `${item.spot.y ?? 50}%` }}
+            />
+          </span>
+        );
+      })}
     </div>
   );
 }

@@ -5,6 +5,8 @@ export type Spot = {
   x?: number;
   y?: number;
   side?: Side;
+  /** How many columns this square uses on a grid plate. */
+  span?: number;
 };
 
 export type PicturePlate = {
@@ -24,7 +26,7 @@ function scene(id: string, title: string, section: string, blurb: string, spots:
   return { id, title, section, kind: "scene", image: `/pictures/${id}.jpg`, blurb, spots, compact };
 }
 
-function grid(id: string, title: string, section: string, blurb: string, pad: number, words: string[]): PicturePlate {
+function grid(id: string, title: string, section: string, blurb: string, pad: number, words: (string | Spot)[]): PicturePlate {
   return {
     id,
     title,
@@ -33,7 +35,7 @@ function grid(id: string, title: string, section: string, blurb: string, pad: nu
     image: `/pictures/${id}.jpg`,
     blurb,
     pad,
-    spots: words.map((en) => ({ en })),
+    spots: words.map((item) => (typeof item === "string" ? { en: item } : item)),
   };
 }
 
@@ -244,21 +246,21 @@ export const PLATES: PicturePlate[] = [
     { en: "chair", x: 72, y: 82, side: "n" },
   ]),
   scene("body", "The body", "The body", "Point at a part. The card is the word for it.", [
-    { en: "hair", x: 48, y: 8, side: "c" },
-    { en: "eye", x: 46, y: 12, side: "c" },
-    { en: "ear", x: 41, y: 13, side: "c" },
-    { en: "nose", x: 50, y: 14, side: "c" },
-    { en: "mouth", x: 46, y: 16, side: "c" },
-    { en: "tooth", x: 54, y: 16, side: "c" },
-    { en: "shoulder", x: 64, y: 25, side: "c" },
-    { en: "shirt", x: 40, y: 34, side: "c" },
-    { en: "heart", x: 54, y: 32, side: "c" },
-    { en: "arm", x: 32, y: 42, side: "c" },
-    { en: "stomach", x: 50, y: 44, side: "c" },
-    { en: "hand", x: 28, y: 53, side: "c" },
-    { en: "leg", x: 44, y: 68, side: "c" },
-    { en: "knee", x: 44, y: 78, side: "c" },
-    { en: "foot", x: 44, y: 90, side: "c" },
+    { en: "hair", x: 50, y: 5.8, side: "c" },
+    { en: "eye", x: 47, y: 11.2, side: "c" },
+    { en: "ear", x: 41.5, y: 12, side: "c" },
+    { en: "nose", x: 50, y: 12.3, side: "c" },
+    { en: "mouth", x: 49.5, y: 13.8, side: "c" },
+    { en: "tooth", x: 52, y: 14.2, side: "c" },
+    { en: "shoulder", x: 62, y: 23, side: "c" },
+    { en: "heart", x: 55, y: 29, side: "c" },
+    { en: "shirt", x: 48, y: 34, side: "c" },
+    { en: "arm", x: 33, y: 36, side: "c" },
+    { en: "stomach", x: 50, y: 42, side: "c" },
+    { en: "hand", x: 27, y: 50, side: "c" },
+    { en: "leg", x: 44, y: 60, side: "c" },
+    { en: "knee", x: 44, y: 70, side: "c" },
+    { en: "foot", x: 42, y: 90.5, side: "c" },
   ], true),
   grid("food", "Market goods", "Plates", "Five by five. Fruit, vegetables, and a few foods.", 3, [
     "apple", "banana", "orange", "lemon", "pear",
@@ -282,7 +284,7 @@ export const PLATES: PicturePlate[] = [
     "wolf", "ant", "turtle", "crab", "whale",
   ]),
   grid("tools", "Tools", "Plates", "Workshop, garage, and a few small things. A name is enough.", 0.5, [
-    "hammer", "saw", "nail", "screw", "screwdriver",
+    "hammer", "nail", "screw", { en: "screwdriver", span: 2 },
     "pliers", "wrench", "drill", "chisel", "bolt",
     "paintbrush", "bucket", "ladder", "wood", "wheel",
     "engine", "tire", "brake", "battery", "tape measure",
