@@ -17,6 +17,7 @@ import { Route as LeagueRouteImport } from './routes/league'
 import { Route as LettersRouteImport } from './routes/letters'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as PathRouteImport } from './routes/path'
+import { Route as PicturesRouteImport } from './routes/pictures'
 import { Route as StudyRouteImport } from './routes/study'
 import { Route as TalkRouteImport } from './routes/talk'
 import { Route as PeopleHandleRouteImport } from './routes/people.$handle'
@@ -62,6 +63,11 @@ const PathRoute = PathRouteImport.update({
   path: '/path',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PicturesRoute = PicturesRouteImport.update({
+  id: '/pictures',
+  path: '/pictures',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const StudyRoute = StudyRouteImport.update({
   id: '/study',
   path: '/study',
@@ -92,6 +98,7 @@ export interface FileRoutesByFullPath {
   '/letters': typeof LettersRoute
   '/login': typeof LoginRoute
   '/path': typeof PathRoute
+  '/pictures': typeof PicturesRoute
   '/study': typeof StudyRoute
   '/talk': typeof TalkRoute
   '/people/$handle': typeof PeopleHandleRoute
@@ -106,6 +113,7 @@ export interface FileRoutesByTo {
   '/letters': typeof LettersRoute
   '/login': typeof LoginRoute
   '/path': typeof PathRoute
+  '/pictures': typeof PicturesRoute
   '/study': typeof StudyRoute
   '/talk': typeof TalkRoute
   '/people/$handle': typeof PeopleHandleRoute
@@ -121,6 +129,7 @@ export interface FileRoutesById {
   '/letters': typeof LettersRoute
   '/login': typeof LoginRoute
   '/path': typeof PathRoute
+  '/pictures': typeof PicturesRoute
   '/study': typeof StudyRoute
   '/talk': typeof TalkRoute
   '/people/$handle': typeof PeopleHandleRoute
@@ -137,6 +146,7 @@ export interface FileRouteTypes {
     | '/letters'
     | '/login'
     | '/path'
+    | '/pictures'
     | '/study'
     | '/talk'
     | '/people/$handle'
@@ -151,6 +161,7 @@ export interface FileRouteTypes {
     | '/letters'
     | '/login'
     | '/path'
+    | '/pictures'
     | '/study'
     | '/talk'
     | '/people/$handle'
@@ -165,6 +176,7 @@ export interface FileRouteTypes {
     | '/letters'
     | '/login'
     | '/path'
+    | '/pictures'
     | '/study'
     | '/talk'
     | '/people/$handle'
@@ -180,6 +192,7 @@ export interface RootRouteChildren {
   LettersRoute: typeof LettersRoute
   LoginRoute: typeof LoginRoute
   PathRoute: typeof PathRoute
+  PicturesRoute: typeof PicturesRoute
   StudyRoute: typeof StudyRoute
   TalkRoute: typeof TalkRoute
   PeopleHandleRoute: typeof PeopleHandleRoute
@@ -244,6 +257,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PathRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/pictures': {
+      id: '/pictures'
+      path: '/pictures'
+      fullPath: '/pictures'
+      preLoaderRoute: typeof PicturesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/study': {
       id: '/study'
       path: '/study'
@@ -284,6 +304,7 @@ const rootRouteChildren: RootRouteChildren = {
   LettersRoute: LettersRoute,
   LoginRoute: LoginRoute,
   PathRoute: PathRoute,
+  PicturesRoute: PicturesRoute,
   StudyRoute: StudyRoute,
   TalkRoute: TalkRoute,
   PeopleHandleRoute: PeopleHandleRoute,

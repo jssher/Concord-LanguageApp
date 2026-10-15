@@ -7,6 +7,7 @@ import { WaitCorner } from "@/wait/corner";
 
 const LINKS = [
   { to: "/study", label: "Study" },
+  { to: "/pictures", label: "Pictures" },
   { to: "/letters", label: "Alphabet" },
   { to: "/path", label: "Path" },
   { to: "/grammar", label: "Grammar" },

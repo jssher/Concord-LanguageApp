@@ -97,6 +97,9 @@ function Home() {
       <div className="sticky bottom-0 border-t border-line bg-paper/95 px-4 py-3 backdrop-blur md:px-6">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-3">
           <p className="text-sm text-muted">{chosen === 0 ? "Choose at least one language." : `${chosen} chosen`}</p>
+          <Link to="/pictures" className="inline-flex min-h-12 items-center rounded-full border border-line bg-card px-5">
+            Picture dictionary
+          </Link>
           <Link to="/study" className="inline-flex min-h-12 items-center rounded-full bg-accent px-5 text-accent-ink">
             Open the cards
           </Link>
