@@ -14,7 +14,7 @@ const PEOPLE = new Set(["woman", "man", "child", "family"]);
 
 /** Where that language is most often spoken, one everyday portrait. */
 const REGION: Record<string, string> = {
-  en: "weu", de: "weu", gsw: "weu", "gsw-be": "weu", nl: "weu", da: "weu", is: "weu", ga: "weu", cy: "weu", fr: "weu", eu: "weu",
+  en: "weu", de: "weu", gsw: "weu", "gsw-be": "weu", nl: "weu", da: "weu", is: "weu", ga: "weu", cy: "weu", fr: "weu", eu: "weu", rm: "weu",
   es: "seu", it: "seu", el: "seu", ro: "seu", sq: "seu", grc: "seu", la: "seu",
   ru: "eeu", uk: "eeu", pl: "eeu", cs: "eeu", sk: "eeu", hr: "eeu", sr: "eeu", bg: "eeu", sl: "eeu", mk: "eeu", hy: "eeu", ka: "eeu",
   pt: "bra",

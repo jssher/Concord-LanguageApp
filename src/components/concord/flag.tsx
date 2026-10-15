@@ -11,6 +11,7 @@ const FLAGS: Record<string, string> = {
   pt: "🇧🇷",
   it: "🇮🇹",
   ro: "🇷🇴",
+  rm: "🇨🇭",
   ga: "🇮🇪",
   cy: "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
   ru: "🇷🇺",

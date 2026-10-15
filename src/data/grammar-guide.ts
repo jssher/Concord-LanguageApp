@@ -1112,7 +1112,62 @@ function germanic(name: string, id: string): GrammarSection[] {
   });
 }
 
+function romansh(): GrammarSection[] {
+  return sections({
+    rules: {
+      summary: "The subject usually stays. Na and betg wrap the verb.",
+      body: "Rumantsch Grischun keeps the pronoun more often than Italian or Spanish. Jau ves tai. Ti is the friend-form. Vus is plural, and with a capital it is polite. If a question word or another adverb starts the sentence, the verb moves in front of the subject: Pertgè na vegnis vus betg?",
+      points: ["jau, ti, el, ella, nus, vus, els, ellas.", "na … betg is not.", "A yes-no question also puts the verb before the subject."],
+      samples: [
+        ["Jau ves tai.", "the pronoun stays"],
+        ["Pertgè na vegnis vus betg?", "verb before vus"],
+      ],
+    },
+    verbs: {
+      summary: "Esser and avair first. Ir replaces the stem.",
+      body: "Esser is jau sun, ti es, el è, nus essan, vus essas, els èn. Avair is jau hai, ti has, el ha, nus avain, vus avais, els han. A regular -ar verb follows gidar: jau gid, ti gidas, el gida, nus gidain. Ir is jau vom, ti vas, el va, nus giain, vus giais, els van.",
+      points: ["Vegnir is jau vegn, ti vegns, el vegn.", "Dar is jau dun, ti das, el dat.", "Do not build the present of ir from the infinitive."],
+      table: {
+        caption: "Present",
+        heads: ["", "esser", "avair"],
+        rows: [
+          ["jau", "sun", "hai"],
+          ["ti", "es", "has"],
+          ["el", "è", "ha"],
+          ["nus", "essan", "avain"],
+          ["vus", "essas", "avais"],
+          ["els", "èn", "han"],
+        ],
+      },
+      samples: [
+        ["jau sun · ti es · el è", "esser"],
+        ["jau vom · ti vas · el va", "ir"],
+      ],
+    },
+    nouns: {
+      summary: "il or la, and the adjective agrees. There is no case on the noun.",
+      body: "Masculine il before a consonant, l’ before a vowel, ils in the plural. Feminine la, or l’ before a vowel, las in the plural. in and ina are a, and also one. There is no plural a. The adjective agrees: il grond chaun, la gronda paraid. Comparison is pli … che.",
+      points: ["Learn l’aua and il cudesch with the article.", "in is masculine, ina is feminine.", "Grond becomes gronda, gronds, grondas."],
+      samples: [
+        ["il grond chaun", "masculine"],
+        ["la gronda paraid", "feminine"],
+        ["Questa giacca è pli pitschna che quella.", "pli … che"],
+      ],
+    },
+    odd: {
+      summary: "Esser, avair, ir, vegnir, and dar will not follow gidar.",
+      body: "Ir’s present is vom, vas, va, giain, giais, van. Its participle is ì, ida. Vegnir is vegn, vegns, vegn, vegnin, vegnis, vegnan. Esser’s participle is stà, stada. Avair’s is gì, gida. An unstressed object sits before the verb, and betg closes the negation: Jau na ta ves betg.",
+      points: ["Jau ves tai stresses the object.", "Jau la dun in cudesch puts the object pronoun before dar.", "i plova is the impersonal, in the third person."],
+      samples: [
+        ["Jau na ta ves betg.", "na … betg"],
+        ["jau vom · nus giain", "ir"],
+      ],
+    },
+  });
+}
+
 function romance(name: string, id: string): GrammarSection[] {
+  if (id === "rm") return romansh();
   const ro = id === "ro";
   return sections({
     rules: {

@@ -176,6 +176,19 @@ put("ro", {
   choice: note("Depinde de ce contează pentru tine. În ansamblu and aș alege leave the choice open.", "Depinde de ce …"),
 });
 
+put("rm", {
+  sentence: note("Rumantsch Grischun usually keeps the pronoun. Jau ves tai. Ti is the friend-form. Vus is the plural, and with a capital it is the polite you. A word at the front sends the verb before the subject.", "Jau ves tai."),
+  nouns: note("il before a masculine consonant, la before a feminine consonant, l’ before a vowel. in and ina are a, and also one. The adjective agrees: il grond chaun, la gronda paraid.", "l’aua · il cudesch · la chasa"),
+  verbs: note("Esser: jau sun, ti es, el è, nus essan, vus essas, els èn. Avair: jau hai, ti has, el ha, nus avain, vus avais, els han. Ir does not follow its infinitive: jau vom, ti vas, el va.", "jau sun · jau hai · jau vom"),
+  food: note("Gea is yes. Na … betg is the negation: Jau na ta ves betg. Allegra greets someone. Bun di and buna notg follow the time of day. A question puts the verb first.", "Gea. · Na … betg."),
+  way: note("Tge asks what. Pertgè asks why, and the verb stands before the subject: Pertgè na vegnis vus betg? Going uses ir, whose present is vom, vas, va, not a form you can build from the infinitive.", "Pertgè na vegnis vus betg?"),
+  shop: note("Pli … che compares: Questa giacca è pli pitschna che quella. The adjective still agrees. Grond, gronda is big. Pitschen, pitschna is small.", "pli pitschna che"),
+  plan: note("Ier is yesterday. Avair’s participle is gì, gida. Esser’s is stà, stada. Ir’s is ì, ida. Learn each participle as a pair, not by changing the infinitive.", "ier · gì · stà · ì"),
+  if: note("Sche introduces a condition. The result stays a normal clause. Na … betg still wraps the verb inside either half. Vus with a capital is the polite subject of a request.", "sche"),
+  reason: note("Perquai che gives the reason. Ma is but. E is and, and u is or. The reason clause does not drop the subject pronoun.", "perquai che"),
+  choice: note("Pli … che and main … che are the contrast you already know from comparison. Keep il or la on the noun you choose, and keep the adjective in agreement with it.", "pli … che · main … che"),
+});
+
 put("la", {
   sentence: note("Classical Latin has no article and often no stated subject. Aquam bibo. The ending of the noun shows its job, and the ending of the verb shows the person. Word order is freer than English.", "Aquam bibo."),
   nouns: note("Learn the nominative and the genitive together. They tell you the declension. The accusative is the ordinary object: aquam, ianuam. There is no word for the or a.", "aqua, aquae · iānua, iānuae"),

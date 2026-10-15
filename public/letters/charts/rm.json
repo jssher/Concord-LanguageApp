@@ -1,0 +1,226 @@
+{
+  "note": "Rumantsch Grischun. H is rare. K, w, x, and y are used in loanwords. ch and tg are one sound.",
+  "groups": [
+    {
+      "id": "letters",
+      "name": "Alphabet",
+      "items": [
+        {
+          "glyph": "a",
+          "name": "a",
+          "sound": "a",
+          "word": "aua",
+          "gloss": "water"
+        },
+        {
+          "glyph": "b",
+          "name": "be",
+          "sound": "b",
+          "word": "bab",
+          "gloss": "father"
+        },
+        {
+          "glyph": "c",
+          "name": "tse",
+          "sound": "ts",
+          "word": "citad",
+          "gloss": "city"
+        },
+        {
+          "glyph": "d",
+          "name": "de",
+          "sound": "d",
+          "word": "dunna",
+          "gloss": "woman"
+        },
+        {
+          "glyph": "e",
+          "name": "e",
+          "sound": "e",
+          "word": "egl",
+          "gloss": "eye"
+        },
+        {
+          "glyph": "f",
+          "name": "ef",
+          "sound": "f",
+          "word": "fieu",
+          "gloss": "fire"
+        },
+        {
+          "glyph": "g",
+          "name": "ghe",
+          "sound": "g",
+          "word": "grond",
+          "gloss": "big"
+        },
+        {
+          "glyph": "i",
+          "name": "i",
+          "sound": "i",
+          "word": "isch",
+          "gloss": "door"
+        },
+        {
+          "glyph": "j",
+          "name": "jot",
+          "sound": "y",
+          "word": "jau",
+          "gloss": "I"
+        },
+        {
+          "glyph": "l",
+          "name": "el",
+          "sound": "l",
+          "word": "letg",
+          "gloss": "bed"
+        },
+        {
+          "glyph": "m",
+          "name": "em",
+          "sound": "m",
+          "word": "mail",
+          "gloss": "apple"
+        },
+        {
+          "glyph": "n",
+          "name": "en",
+          "sound": "n",
+          "word": "num",
+          "gloss": "name"
+        },
+        {
+          "glyph": "o",
+          "name": "o",
+          "sound": "o",
+          "word": "onn",
+          "gloss": "year"
+        },
+        {
+          "glyph": "p",
+          "name": "pe",
+          "sound": "p",
+          "word": "paun",
+          "gloss": "bread"
+        },
+        {
+          "glyph": "q",
+          "name": "ku",
+          "sound": "k",
+          "word": "quatter",
+          "gloss": "four"
+        },
+        {
+          "glyph": "r",
+          "name": "er",
+          "sound": "r",
+          "word": "rosa",
+          "gloss": "rose"
+        },
+        {
+          "glyph": "s",
+          "name": "es",
+          "sound": "s",
+          "word": "sulegl",
+          "gloss": "sun"
+        },
+        {
+          "glyph": "t",
+          "name": "te",
+          "sound": "t",
+          "word": "terra",
+          "gloss": "land"
+        },
+        {
+          "glyph": "u",
+          "name": "u",
+          "sound": "u",
+          "word": "urs",
+          "gloss": "bear"
+        },
+        {
+          "glyph": "v",
+          "name": "ve",
+          "sound": "v",
+          "word": "vin",
+          "gloss": "wine"
+        },
+        {
+          "glyph": "z",
+          "name": "tset",
+          "sound": "ts",
+          "word": "zutger",
+          "gloss": "sugar"
+        }
+      ]
+    },
+    {
+      "id": "sounds",
+      "name": "Sounds",
+      "items": [
+        {
+          "glyph": "ch",
+          "name": "ch",
+          "sound": "ch",
+          "word": "chasa",
+          "gloss": "house"
+        },
+        {
+          "glyph": "tg",
+          "name": "tg",
+          "sound": "ch",
+          "word": "notg",
+          "gloss": "night"
+        },
+        {
+          "glyph": "gl",
+          "name": "gl",
+          "sound": "ly",
+          "word": "egl",
+          "gloss": "eye"
+        },
+        {
+          "glyph": "gn",
+          "name": "gn",
+          "sound": "ny",
+          "word": "gnieu",
+          "gloss": "nest"
+        },
+        {
+          "glyph": "sch",
+          "name": "sch",
+          "sound": "sh",
+          "word": "schanugl",
+          "gloss": "knee"
+        }
+      ]
+    },
+    {
+      "id": "marks",
+      "name": "Accents",
+      "items": [
+        {
+          "glyph": "è",
+          "name": "e grave",
+          "sound": "e",
+          "word": "è",
+          "gloss": "is"
+        },
+        {
+          "glyph": "é",
+          "name": "e acute",
+          "sound": "e",
+          "word": "té",
+          "gloss": "tea"
+        },
+        {
+          "glyph": "à",
+          "name": "a grave",
+          "sound": "a",
+          "word": "stà",
+          "gloss": "been"
+        }
+      ]
+    }
+  ]
+}

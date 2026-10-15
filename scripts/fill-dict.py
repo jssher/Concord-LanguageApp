@@ -6,6 +6,10 @@ Only the dictionary's main sense is used. Poetic, archaic, and vulgar senses
 are skipped. A frequency list breaks ties. Tatoeba (CC BY 2.0 FR) supplies a
 sentence only when the English course sentence is already in the collection.
 Hand-written lexicon lines win. Plurals are not guessed.
+
+Romansh is the exception. Every sense is indexed, and only Rumantsch Grischun
+is kept when the entry names an idiom. A form that belongs only to Sursilvan,
+Sutsilvan, Surmiran, Puter, or Vallader is not taught as the written standard.
 """
 
 from __future__ import annotations
@@ -50,6 +54,7 @@ POS_OK = {
 # code, Kaikki language name or "", WikDict code or "", Tatoeba code, script
 TARGETS = [
     ("is", "Icelandic", "", "isl", "latn"),
+    ("rm", "Romansh", "", "roh", "latn"),
     ("cy", "Welsh", "", "cym", "latn"),
     ("hr", "Serbo-Croatian", "", "hrv", "latn"),
     ("sr", "Serbo-Croatian", "", "srp", "cyrl"),
@@ -82,7 +87,25 @@ TARGETS = [
     ("ar-sa", "Hijazi Arabic", "", "acw", "arab"),
     ("ar-ma", "Moroccan Arabic", "", "ary", "arab"),
 ]
-SAMPLES = ["i", "water", "woman", "man", "child", "eat", "house", "big", "name", "year"]
+SAMPLES = ["i", "you", "water", "woman", "man", "child", "eat", "house", "big", "name", "year", "see", "friend"]
+IDIOMS = {
+    "sursilvan",
+    "sutsilvan",
+    "surmiran",
+    "puter",
+    "vallander",
+    "vallader",
+    "rumantsch-grischun",
+}
+RG = "rumantsch-grischun"
+CAT_IDIOM = {
+    "rumantsch grischun": RG,
+    "sursilvan romansh": "sursilvan",
+    "sutsilvan romansh": "sutsilvan",
+    "surmiran romansh": "surmiran",
+    "puter romansh": "puter",
+    "vallader romansh": "vallander",
+}
 
 
 def lemma(text: str) -> str:
@@ -205,11 +228,45 @@ def kaikki_file(name: str) -> Path | None:
     return None
 
 
-def index_kaikki(path: Path, wanted: set[str], script: str) -> dict[str, list[dict]]:
+def sense_idioms(sense: dict) -> set[str]:
+    found: set[str] = set()
+    for tag in sense.get("tags") or []:
+        if not isinstance(tag, str):
+            continue
+        key = tag.strip().lower().replace(" ", "-")
+        if key == "vallader":
+            key = "vallander"
+        if key in IDIOMS:
+            found.add(key)
+    for cat in sense.get("categories") or []:
+        name = cat.get("name") if isinstance(cat, dict) else cat
+        if isinstance(name, str):
+            mapped = CAT_IDIOM.get(name.strip().lower())
+            if mapped:
+                found.add(mapped)
+    return found
+
+
+def gloss_keys(gloss: str, all_parts: bool) -> list[str]:
+    if not all_parts:
+        key = gloss_key(gloss)
+        return [key] if key else []
+    g = lemma(gloss)
+    g = re.sub(r"\s*\([^)]*\)", "", g).strip(" .")
+    keys: list[str] = []
+    for part in re.split(r"[,;:/]", g):
+        key = gloss_key(part)
+        if key and key not in keys:
+            keys.append(key)
+    return keys
+
+
+def index_kaikki(path: Path, wanted: set[str], script: str, standard: str | None = None) -> dict[str, list[dict]]:
     index: dict[str, list[dict]] = defaultdict(list)
     seen = 0
     seen_words: set[str] = set()
     order = 0
+    rg = standard == "rg"
     with path.open(encoding="utf-8") as handle:
         for line in handle:
             seen += 1
@@ -223,32 +280,62 @@ def index_kaikki(path: Path, wanted: set[str], script: str) -> dict[str, list[di
             if pos in SKIP_POS:
                 continue
             word = (obj.get("word") or "").strip()
-            if not script_ok(word, script) or word in seen_words:
+            if not script_ok(word, script) or (not rg and word in seen_words):
                 continue
-            primary = None
+            senses = []
             for sense in obj.get("senses") or []:
                 if "form-of" in set(sense.get("tags") or []):
                     continue
-                primary = sense
-                break
-            if not primary:
+                senses.append(sense)
+                if not rg:
+                    break
+            if not senses:
                 continue
-            tags = set(obj.get("tags") or []) | set(primary.get("tags") or [])
-            if tags & BAD_TAGS:
+            if not rg:
+                primary = senses[0]
+                tags = set(obj.get("tags") or []) | set(primary.get("tags") or [])
+                if tags & BAD_TAGS:
+                    continue
+                seen_words.add(word)
+                gender = gender_of(tags) if pos in {"noun", "name", "prop"} else None
+                reading = roman_of(obj) if script != "latn" else None
+                matched: set[str] = set()
+                for gloss in primary.get("glosses") or []:
+                    for key in gloss_keys(gloss, False):
+                        if key in wanted:
+                            matched.add(key)
+                order += 1
+                for key in matched:
+                    index[key].append(
+                        {"word": word, "pos": pos, "gender": gender, "reading": reading, "bad": False, "ord": order}
+                    )
                 continue
-            seen_words.add(word)
-            gender = gender_of(tags) if pos in {"noun", "name", "prop"} else None
-            reading = roman_of(obj) if script != "latn" else None
-            matched: set[str] = set()
-            for gloss in primary.get("glosses") or []:
-                key = gloss_key(gloss)
-                if key and key in wanted:
-                    matched.add(key)
-            order += 1
-            for key in matched:
-                index[key].append(
-                    {"word": word, "pos": pos, "gender": gender, "reading": reading, "bad": False, "ord": order}
-                )
+            for sense in senses:
+                tags = {tag for tag in (sense.get("tags") or []) if isinstance(tag, str)}
+                if tags & BAD_TAGS:
+                    continue
+                matched = set()
+                for gloss in sense.get("glosses") or []:
+                    for key in gloss_keys(gloss, True):
+                        if key in wanted:
+                            matched.add(key)
+                if not matched:
+                    continue
+                gender = gender_of(tags) if pos in {"noun", "name", "prop"} else None
+                order += 1
+                idioms = sense_idioms(sense)
+                for key in matched:
+                    index[key].append(
+                        {
+                            "word": word,
+                            "pos": pos,
+                            "gender": gender,
+                            "reading": None,
+                            "bad": False,
+                            "ord": order,
+                            "idioms": idioms,
+                        }
+                    )
     print(f"  indexed {len(index)} lemmas from {seen} entries", flush=True)
     return index
 
@@ -302,15 +389,32 @@ def load_wikdict(code: str, script: str, wanted: set[str]) -> dict[str, dict]:
     return out
 
 
-def choose(cands: list[dict], pos: str, freq: dict[str, int]) -> dict | None:
+def rg_rank(cand: dict) -> tuple[int, int]:
+    idioms = cand.get("idioms") or set()
+    if RG in idioms:
+        return (0, len(idioms - {RG}))
+    if not idioms:
+        return (1, 0)
+    return (2, len(idioms))
+
+
+def choose(cands: list[dict], pos: str, freq: dict[str, int], standard: str | None = None) -> dict | None:
     if not cands:
         return None
-    ok = POS_OK.get(pos, {pos})
+    ok = set(POS_OK.get(pos, {pos}))
+    if standard == "rg" and pos == "det":
+        ok.add("article")
     pool = [c for c in cands if not c.get("bad") and c["pos"] in ok]
     if not pool and pos in {"phrase", "line"}:
         pool = [c for c in cands if not c.get("bad")]
     if not pool:
         return None
+    if standard == "rg":
+        best = min(rg_rank(c)[0] for c in pool)
+        if best == 2:
+            return None
+        pool = [c for c in pool if rg_rank(c)[0] == best]
+        return min(pool, key=lambda cand: (rg_rank(cand)[1], freq.get(lemma(cand["word"]), 1_000_000), cand.get("ord", 0)))
     return min(pool, key=lambda cand: (freq.get(lemma(cand["word"]), 1_000_000), cand.get("ord", 0)))
 
 
@@ -448,15 +552,16 @@ def main() -> None:
         if only and code not in only:
             continue
         print(f"language {code}", flush=True)
+        standard = "rg" if code == "rm" else None
         if code not in freq_cache:
             freq_cache[code] = load_freq(code.split("-")[0])
         freq = freq_cache[code]
         cands: dict[str, list[dict]] = {}
         if name:
-            key = (name, script)
+            key = (name, script, standard or "")
             if key not in parsed:
                 path = kaikki_file(name)
-                parsed[key] = index_kaikki(path, wanted, script) if path else {}
+                parsed[key] = index_kaikki(path, wanted, script, standard) if path else {}
             cands = parsed[key]
         wiki_map: dict[str, dict] = {}
         if wiki:
@@ -465,10 +570,14 @@ def main() -> None:
                 wikdict_cache[wkey] = load_wikdict(wiki, script, wanted)
             wiki_map = wikdict_cache[wkey]
         sentences = tatoeba_map(tato, eng_ids)
+        lex_entries: dict = {}
+        lex_path = LEX / f"{code}.json"
+        if lex_path.exists():
+            lex_entries = json.loads(lex_path.read_text()).get("entries", {})
         print("  samples", flush=True)
-        sample_pos = {"eat": "verb", "big": "adj", "i": "pron"}
+        sample_pos = {"eat": "verb", "big": "adj", "i": "pron", "you": "pron", "see": "verb", "friend": "noun"}
         for sample in SAMPLES:
-            hit = choose(cands.get(sample, []), sample_pos.get(sample, "noun"), freq)
+            hit = choose(cands.get(sample, []), sample_pos.get(sample, "noun"), freq, standard)
             if hit is None and sample in wiki_map:
                 hit = wiki_map[sample]
             print(f"    {sample}: {hit['word'] if hit else '-'}", flush=True)
@@ -486,11 +595,15 @@ def main() -> None:
                 if keep(existing.get(row["id"]), en):
                     items[row["id"]] = existing[row["id"]]
                     continue
-                hit = choose(cands.get(key, []), row.get("pos") or "noun", freq)
+                hit = choose(cands.get(key, []), row.get("pos") or "noun", freq, standard)
                 if hit is None:
                     hit = wiki_map.get(key)
                 if not hit:
-                    continue
+                    hand = lex_entries.get(row["id"])
+                    if isinstance(hand, dict) and str(hand.get("word") or "").strip():
+                        hit = {"word": str(hand["word"]).strip(), "pos": "", "gender": None, "reading": None, "bad": False}
+                    else:
+                        continue
                 sent = sentences.get(norm_sent(row.get("sentence") or ""), "")
                 made = {"en": en, "word": hit["word"], "sentence": sent}
                 if hit.get("gender") and (row.get("pos") or "noun") in {"noun", "name"}:

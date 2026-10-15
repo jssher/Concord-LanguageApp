@@ -2065,6 +2065,43 @@ add("ml", "Malayalam vowels and consonants. The reading shows the long vowels.",
 റ|ra|r|പാറ|rock|paara
 """))
 
+add("rm", "Rumantsch Grischun. H is rare. K, w, x, and y are used in loanwords. ch and tg are one sound.",
+    ("letters", "Alphabet", """
+a|a|a|aua|water
+b|be|b|bab|father
+c|tse|ts|citad|city
+d|de|d|dunna|woman
+e|e|e|egl|eye
+f|ef|f|fieu|fire
+g|ghe|g|grond|big
+i|i|i|isch|door
+j|jot|y|jau|I
+l|el|l|letg|bed
+m|em|m|mail|apple
+n|en|n|num|name
+o|o|o|onn|year
+p|pe|p|paun|bread
+q|ku|k|quatter|four
+r|er|r|rosa|rose
+s|es|s|sulegl|sun
+t|te|t|terra|land
+u|u|u|urs|bear
+v|ve|v|vin|wine
+z|tset|ts|zutger|sugar
+"""),
+    ("sounds", "Sounds", """
+ch|ch|ch|chasa|house
+tg|tg|ch|notg|night
+gl|gl|ly|egl|eye
+gn|gn|ny|gnieu|nest
+sch|sch|sh|schanugl|knee
+"""),
+    ("marks", "Accents", """
+è|e grave|e|è|is
+é|e acute|e|té|tea
+à|a grave|a|stà|been
+"""))
+
 
 
 

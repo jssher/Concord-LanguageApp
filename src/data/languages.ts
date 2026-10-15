@@ -27,6 +27,7 @@ export const LANGUAGES: LangMeta[] = [
   { id: "it", name: "Italian", native: "Italiano", dir: "ltr", speech: "it-IT", family: "Romance", script: "Latin", tip: "Gender sits on the noun. The article changes with the next sound." },
   { id: "fr", name: "French", native: "Français", dir: "ltr", speech: "fr-FR", family: "Romance", script: "Latin", tip: "The article and the liaison tell you what the silent letters are doing." },
   { id: "ro", name: "Romanian", native: "Română", dir: "ltr", speech: "ro-RO", family: "Romance", script: "Latin", tip: "The article is a suffix on the noun. Gender stays with the word." },
+  { id: "rm", name: "Romansh", native: "Rumantsch", dir: "ltr", speech: "rm-CH", voiceApprox: true, family: "Romance", script: "Latin", tip: "Rumantsch Grischun, the shared written form. The five spoken idioms are not on this card. The article is il or la." },
 
   { id: "la", name: "Latin", native: "Latina", dir: "ltr", speech: "it-IT", voiceApprox: true, family: "Italic", script: "Latin", tip: "Classical Latin, with macrons. There is no article. Gender and case sit on the ending." },
   { id: "ga", name: "Irish", native: "Gaeilge", dir: "ltr", speech: "ga-IE", family: "Celtic", script: "Latin", tip: "The article an can change the first letter. Learn the dictionary form, then the sentence." },
