@@ -267,7 +267,7 @@ function PicturesPage() {
           </div>
           {picking && (
             <div id="picture-plates" className="max-h-[70dvh] overflow-y-auto border-t border-line px-4 py-3 md:px-6">
-              <p className="mb-3 text-sm text-muted">Rooms, the body, weather, music, food, and trades. This list closes when you pick one.</p>
+              <p className="mb-3 text-sm text-muted">Rooms, the body, food, trades, and the later plates of things named in the course. This list closes when you pick one.</p>
               <div className="mx-auto flex max-w-6xl flex-col gap-3">
                 {PICTURE_SECTIONS.map((section) => (
                   <div key={section}>

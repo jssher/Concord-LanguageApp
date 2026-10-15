@@ -1,3 +1,5 @@
+import { PICTURE_SETS } from "./picture-sets";
+
 export type Side = "n" | "e" | "s" | "w" | "c";
 
 export type Spot = {
@@ -587,6 +589,7 @@ export const PLATES: PicturePlate[] = [
     { en: "trumpet", x: 74, y: 46, side: "n" },
     { en: "microphone", x: 88, y: 40, side: "w" },
   ]),
+  ...PICTURE_SETS.map((set) => grid(set.id, set.title, set.section, set.blurb, 0, set.words)),
 ];
 
 export const PICTURE_SECTIONS = [...new Set(PLATES.map((plate) => plate.section))];
