@@ -426,9 +426,9 @@ function StudyPage() {
             </button>
           </div>
           {pickingGroup && (
-            <div id="category-list" ref={groupPane} className="max-h-[38dvh] overflow-y-auto border-t border-line px-4 py-3 md:px-6" role="listbox" aria-label="Categories">
-              <p className="mb-3 text-sm text-muted">Choose a category. This list closes when you pick one, so the card keeps the space.</p>
-              <div className="mx-auto flex max-w-6xl flex-col gap-1">
+            <div id="category-list" ref={groupPane} className="max-h-[72dvh] overflow-y-auto border-t border-line px-4 py-3 md:px-6" role="listbox" aria-label="Categories">
+              <p className="mb-2 text-sm text-muted">Choose a category. This list closes when you pick one.</p>
+              <div className="mx-auto grid max-w-6xl grid-cols-[repeat(auto-fill,minmax(11.5rem,1fr))] gap-1">
                 {groups.map((name, index) => {
                   const row = progress.get(name);
                   const learned = groupLearned(name);
@@ -449,15 +449,15 @@ function StudyPage() {
                         setQuery("");
                         setPickingGroup(false);
                       }}
-                      className={`flex min-h-11 items-center gap-2 rounded-xl px-3 text-left ${
+                      className={`flex min-h-9 items-center gap-1.5 rounded-xl px-2 text-left text-sm ${
                         on ? "bg-ink text-paper" : learned ? "bg-chip text-muted" : "border border-line bg-card"
                       }`}
                     >
-                      <span className={`w-7 shrink-0 text-sm tabular-nums ${on ? "" : "text-muted"}`}>{num}</span>
+                      <span className={`w-5 shrink-0 text-xs tabular-nums ${on ? "" : "text-muted"}`}>{num}</span>
                       <GroupGlyph name={name} />
                       <span className="min-w-0 flex-1 truncate">{label}</span>
                       {learned && !on ? <Check className="h-3.5 w-3.5 shrink-0" strokeWidth={2.25} aria-hidden /> : null}
-                      <span className={`shrink-0 text-xs tabular-nums ${on ? "text-paper/80" : "text-muted"}`}>
+                      <span className={`shrink-0 text-[10px] tabular-nums ${on ? "text-paper/80" : "text-muted"}`}>
                         {learned ? "Learned" : row && row.total > 0 ? `${row.done}/${row.total}` : "—"}
                       </span>
                     </button>
@@ -467,7 +467,7 @@ function StudyPage() {
               <button
                 type="button"
                 onClick={() => setPickingGroup(false)}
-                className="mx-auto mt-4 flex min-h-12 w-full max-w-6xl items-center justify-center rounded-full bg-accent px-4 text-accent-ink"
+                className="mx-auto mt-3 flex min-h-11 w-full max-w-6xl items-center justify-center rounded-full bg-accent px-4 text-accent-ink"
               >
                 Done — close this list
               </button>
