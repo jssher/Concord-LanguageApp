@@ -58,6 +58,12 @@ const SOURCES = [
     href: "https://tatoeba.org/en/terms_of_use",
     link: "Tatoeba",
   },
+  {
+    title: "Machine translation",
+    body: "Lines that were still empty were translated from the English sentence with OPUS-MT models from the University of Helsinki. Those models are under the Apache License 2.0, except the South Slavic model (Croatian and Serbian), which is Creative Commons Attribution 4.0. The earlier full packs for the big European and Asian languages used Argos Translate models, which are under the MIT License. A line already written by hand was left as it was.",
+    href: "https://github.com/Helsinki-NLP/Opus-MT",
+    link: "OPUS-MT",
+  },
 ];
 
 function CreditsPage() {
