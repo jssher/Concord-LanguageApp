@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import {
   Anchor,
   Apple,
@@ -355,8 +355,9 @@ function PicturesPage() {
 
         <div className="grid min-h-0 flex-1 lg:grid-cols-[minmax(0,1.2fr)_minmax(22rem,0.85fr)]">
           <div className="min-h-0 overflow-y-auto overscroll-contain px-4 py-3 md:px-6">
-            <p className="mb-2 text-sm text-muted">{plate.blurb} Tap a label. Only the ones you tap stay open, in every language above.</p>
+            <p className="mb-2 text-sm text-muted">{plate.blurb} Tap a word. Only the ones you tap stay open, in every language above.</p>
             <PlateView plate={plate} words={words} active={active} chosen={chosen} onPick={pick} />
+            {plate.kind === "zoom" ? null : (
             <div className={`mt-3 flex flex-wrap gap-1 ${plate.compact ? "" : "lg:hidden"}`}>
               {plate.spots.map((spot, spotIndex) => {
                 const key = lemma(spot.en);
@@ -377,6 +378,7 @@ function PicturesPage() {
                 );
               })}
             </div>
+            )}
           </div>
 
           <aside className="min-h-0 overflow-y-auto overscroll-contain border-t border-line lg:border-t-0 lg:border-l">
@@ -474,7 +476,66 @@ function PlateView({
       </div>
     );
   }
+  if (plate.kind === "zoom") return <ZoomPlate plate={plate} words={words} active={active} chosen={chosen} onPick={onPick} />;
   return <ScenePlate plate={plate} words={words} active={active} chosen={chosen} onPick={onPick} />;
+}
+
+function cropStyle(image: string, crop: NonNullable<Spot["crop"]>): CSSProperties {
+  const w = crop.w / 100;
+  const h = crop.h / 100;
+  const x = crop.x / 100;
+  const y = crop.y / 100;
+  return {
+    backgroundImage: `url(${image})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: `${100 / w}% ${100 / h}%`,
+    backgroundPosition: `${(x / (1 - w)) * 100}% ${(y / (1 - h)) * 100}%`,
+  };
+}
+
+function ZoomPlate({
+  plate,
+  words,
+  active,
+  chosen,
+  onPick,
+}: {
+  plate: PicturePlate;
+  words: string[];
+  active: string | null;
+  chosen: Set<string>;
+  onPick: (en: string) => void;
+}) {
+  return (
+    <div className="mx-auto flex w-full max-w-3xl flex-col gap-4">
+      <img src={plate.image} alt={plate.title} className="mx-auto block h-auto max-h-[38vh] w-auto max-w-full rounded-2xl" />
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+        {plate.spots.map((spot, index) => {
+          const key = lemma(spot.en);
+          const on = key === active;
+          const picked = chosen.has(key);
+          const n = words.indexOf(key) + 1;
+          return (
+            <button
+              key={`${key}-${index}`}
+              type="button"
+              onClick={() => onPick(key)}
+              aria-pressed={picked}
+              className={`relative aspect-square overflow-hidden rounded-2xl border bg-card ${on ? "border-accent ring-2 ring-accent" : picked ? "border-ink" : "border-line"}`}
+            >
+              {spot.crop ? <span className="absolute inset-0" style={cropStyle(plate.image, spot.crop)} /> : null}
+              <span className="absolute inset-0 flex items-center justify-center p-2">
+                <span className={`max-w-full rounded-full px-3 py-1 text-center text-sm font-medium ${on ? "bg-accent text-accent-ink" : picked ? "bg-ink text-paper" : "bg-card/95 text-ink"}`}>
+                  <span className="sr-only">{n} </span>
+                  {spot.en}
+                </span>
+              </span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
 }
 
 type Callout = { spot: Spot; index: number; side: "left" | "right"; top: number };

@@ -7,13 +7,15 @@ export type Spot = {
   side?: Side;
   /** How many columns this square uses on a grid plate. */
   span?: number;
+  /** Close crop of one part, as percentages of the picture. x and y are the top-left. */
+  crop?: { x: number; y: number; w: number; h: number };
 };
 
 export type PicturePlate = {
   id: string;
   title: string;
   section: string;
-  kind: "scene" | "grid";
+  kind: "scene" | "grid" | "zoom";
   image: string;
   blurb: string;
   pad?: number;
@@ -36,6 +38,33 @@ function grid(id: string, title: string, section: string, blurb: string, pad: nu
     blurb,
     pad,
     spots: words.map((item) => (typeof item === "string" ? { en: item } : item)),
+  };
+}
+
+/** A square crop, s pixels on a side, centered on the part. The word is drawn in the middle of the tile. */
+function part(en: string, cx: number, cy: number, s: number, width: number, height: number): Spot {
+  const w = (s / width) * 100;
+  const h = (s / height) * 100;
+  return {
+    en,
+    crop: {
+      x: Math.max(0, Math.min(100 - w, cx - w / 2)),
+      y: Math.max(0, Math.min(100 - h, cy - h / 2)),
+      w,
+      h,
+    },
+  };
+}
+
+function zoom(id: string, title: string, section: string, blurb: string, width: number, height: number, parts: [string, number, number, number][]): PicturePlate {
+  return {
+    id,
+    title,
+    section,
+    kind: "zoom",
+    image: `/pictures/${id}.jpg`,
+    blurb,
+    spots: parts.map(([en, cx, cy, s]) => part(en, cx, cy, s, width, height)),
   };
 }
 
@@ -245,42 +274,42 @@ export const PLATES: PicturePlate[] = [
     { en: "desk", x: 36, y: 66, side: "s" },
     { en: "chair", x: 72, y: 82, side: "n" },
   ]),
-  scene("body", "The body", "The body", "In underwear, head to toe. Point at a part.", [
-    { en: "hair", x: 50, y: 6, side: "c" },
-    { en: "ear", x: 41, y: 13, side: "c" },
-    { en: "neck", x: 50, y: 22, side: "c" },
-    { en: "shoulder", x: 64, y: 28, side: "c" },
-    { en: "chest", x: 50, y: 36, side: "c" },
-    { en: "arm", x: 32, y: 38, side: "c" },
-    { en: "elbow", x: 22, y: 46, side: "c" },
-    { en: "waist", x: 62, y: 44, side: "c" },
-    { en: "navel", x: 50, y: 48, side: "c" },
-    { en: "wrist", x: 18, y: 55, side: "c" },
-    { en: "hip", x: 62, y: 57, side: "c" },
-    { en: "hand", x: 16, y: 62, side: "c" },
-    { en: "thigh", x: 40, y: 68, side: "c" },
-    { en: "knee", x: 43, y: 76, side: "c" },
-    { en: "ankle", x: 43, y: 90, side: "c" },
-    { en: "foot", x: 42, y: 96, side: "c" },
-  ], true),
-  scene("face", "The face", "The body", "One smile. Point at a part of the face.", [
-    { en: "hair", x: 50, y: 10, side: "c" },
-    { en: "forehead", x: 50, y: 22, side: "c" },
-    { en: "eyebrow", x: 38, y: 32, side: "c" },
-    { en: "temple", x: 28, y: 30, side: "c" },
-    { en: "eyelid", x: 62, y: 36, side: "c" },
-    { en: "eyelash", x: 38, y: 39, side: "c" },
-    { en: "eye", x: 62, y: 40, side: "c" },
-    { en: "ear", x: 18, y: 40, side: "c" },
-    { en: "cheek", x: 72, y: 44, side: "c" },
-    { en: "nose", x: 50, y: 46, side: "c" },
-    { en: "nostril", x: 55, y: 49, side: "c" },
-    { en: "lip", x: 50, y: 54, side: "c" },
-    { en: "tooth", x: 50, y: 58, side: "c" },
-    { en: "jaw", x: 68, y: 64, side: "c" },
-    { en: "chin", x: 50, y: 71, side: "c" },
-    { en: "neck", x: 50, y: 84, side: "c" },
-  ], true),
+  zoom("body", "The body", "The body", "The same figure, then each part closer. The word sits in the middle.", 1152, 1728, [
+    ["hair", 50, 3.4, 110],
+    ["ear", 43.6, 10, 110],
+    ["neck", 50, 16.2, 150],
+    ["shoulder", 65, 21, 180],
+    ["chest", 50, 29.5, 220],
+    ["arm", 34.5, 29, 160],
+    ["elbow", 33.8, 35, 150],
+    ["waist", 57.5, 36.5, 160],
+    ["navel", 49.3, 38.1, 120],
+    ["wrist", 30.2, 47.1, 130],
+    ["hip", 59.5, 44, 170],
+    ["hand", 27.2, 52.8, 160],
+    ["thigh", 44, 60, 170],
+    ["knee", 43.8, 69.2, 160],
+    ["ankle", 44.2, 86.8, 140],
+    ["foot", 43.6, 92.3, 160],
+  ]),
+  zoom("face", "The face", "The body", "The same smile, then each part closer. The word sits on what you are learning.", 1200, 1600, [
+    ["hair", 50, 8.8, 220],
+    ["forehead", 50, 25.5, 280],
+    ["eyebrow", 38.5, 31.6, 160],
+    ["temple", 31.5, 30.5, 150],
+    ["eyelid", 63, 33.5, 140],
+    ["eyelash", 37, 35.7, 130],
+    ["eye", 63, 36, 200],
+    ["ear", 22.2, 40, 190],
+    ["cheek", 71, 46.5, 210],
+    ["nose", 50, 44, 200],
+    ["nostril", 53, 46.4, 110],
+    ["lip", 52, 50.4, 180],
+    ["tooth", 49, 52.8, 150],
+    ["jaw", 71, 55.5, 210],
+    ["chin", 50, 63.2, 220],
+    ["neck", 50, 75, 340],
+  ]),
   scene("hand", "The hand", "The body", "Thumb to little finger, then the palm and the wrist.", [
     { en: "nail", x: 50, y: 6, side: "c" },
     { en: "middle finger", x: 50, y: 20, side: "c" },
@@ -301,20 +330,20 @@ export const PLATES: PicturePlate[] = [
     { en: "ankle", x: 76, y: 38, side: "c" },
     { en: "heel", x: 86, y: 60, side: "c" },
   ], true),
-  scene("organs", "Inside the body", "The body", "The organs where they sit. Point at one.", [
-    { en: "brain", x: 50, y: 12, side: "c" },
-    { en: "windpipe", x: 50, y: 26, side: "c" },
-    { en: "lung", x: 36, y: 34, side: "c" },
-    { en: "rib", x: 26, y: 34, side: "c" },
-    { en: "heart", x: 52, y: 36, side: "c" },
-    { en: "liver", x: 34, y: 46, side: "c" },
-    { en: "stomach", x: 64, y: 45, side: "c" },
-    { en: "spleen", x: 70, y: 44, side: "c" },
-    { en: "pancreas", x: 54, y: 50, side: "c" },
-    { en: "kidney", x: 30, y: 66, side: "c" },
-    { en: "intestine", x: 50, y: 64, side: "c" },
-    { en: "bladder", x: 50, y: 80, side: "c" },
-  ], true),
+  zoom("organs", "Inside the body", "The body", "Where they sit, then each organ on its own. The word sits in the middle.", 1152, 1728, [
+    ["brain", 50, 10, 280],
+    ["windpipe", 50, 28, 200],
+    ["lung", 40, 41, 280],
+    ["rib", 35, 38, 200],
+    ["heart", 53.5, 45.2, 210],
+    ["liver", 40, 58, 280],
+    ["stomach", 59, 60, 210],
+    ["spleen", 70, 60, 170],
+    ["pancreas", 54, 67.5, 160],
+    ["kidney", 63.5, 68.5, 180],
+    ["intestine", 52, 78, 320],
+    ["bladder", 50, 90, 160],
+  ]),
   scene("skeleton", "The skeleton", "The body", "The bones, from the skull to the ankle.", [
     { en: "skull", x: 50, y: 8, side: "c" },
     { en: "jaw", x: 50, y: 16, side: "c" },
