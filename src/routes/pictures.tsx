@@ -13,22 +13,30 @@ import {
   Coffee,
   Construction,
   Flower2,
+  Footprints,
   Hammer,
   Hand,
   HardHat,
   HeartPulse,
   Leaf,
+  Medal,
+  Music,
   PersonStanding,
   ScanFace,
   Shirt,
   Shovel,
+  Smile,
   Stethoscope,
   Store,
   Sun,
   Trees,
+  Umbrella,
   UtensilsCrossed,
   Volume2,
   Wrench,
+  Bug,
+  Bone,
+  CloudSun,
   Plus,
   type LucideIcon,
 } from "lucide-react";
@@ -65,8 +73,11 @@ const ICONS: Record<string, LucideIcon> = {
   office: Briefcase,
   body: PersonStanding,
   face: ScanFace,
+  hand: Hand,
+  foot: Footprints,
   organs: Brain,
-  limbs: Hand,
+  skeleton: Bone,
+  feelings: Smile,
   food: Apple,
   clothes: Shirt,
   animals: Trees,
@@ -85,6 +96,12 @@ const ICONS: Record<string, LucideIcon> = {
   "garden-tools": Shovel,
   garden: Flower2,
   plant: Leaf,
+  weather: CloudSun,
+  beach: Umbrella,
+  forest: Trees,
+  insects: Bug,
+  sports: Medal,
+  music: Music,
 };
 
 const SHIFT: Record<Side, string> = {
@@ -236,7 +253,7 @@ function PicturesPage() {
           </div>
           {picking && (
             <div id="picture-plates" className="max-h-[70dvh] overflow-y-auto border-t border-line px-4 py-3 md:px-6">
-              <p className="mb-3 text-sm text-muted">Rooms, the body, food, trades, and five-by-five plates. This list closes when you pick one.</p>
+              <p className="mb-3 text-sm text-muted">Rooms, the body, weather, music, food, and trades. This list closes when you pick one.</p>
               <div className="mx-auto flex max-w-6xl flex-col gap-3">
                 {PICTURE_SECTIONS.map((section) => (
                   <div key={section}>
