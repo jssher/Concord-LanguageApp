@@ -909,56 +909,71 @@ function AskGrok({
   const [error, setError] = useState("");
   const [check, setCheck] = useState<CardCheck | null>(null);
   const [applied, setApplied] = useState(false);
+  const [question, setQuestion] = useState("");
+
+  function ask(event?: { preventDefault: () => void }) {
+    event?.preventDefault();
+    setBusy(true);
+    setError("");
+    setApplied(false);
+    void askCard({
+      data: {
+        language: lang,
+        languageName,
+        tip,
+        english,
+        englishSentence,
+        word: entry?.word ?? "",
+        sentence: entry?.sentence ?? "",
+        reading: entry?.reading ?? "",
+        sentenceReading: entry?.sentenceReading ?? "",
+        plural: entry?.plural ?? "",
+        article: entry?.article ?? "",
+        note: entry?.note ?? "",
+        question,
+      },
+    })
+      .then((result) => {
+        if (!result.ok) {
+          setCheck(null);
+          setError(result.error);
+          return;
+        }
+        setCheck(result.check);
+      })
+      .catch(() => {
+        setCheck(null);
+        setError("Grok could not check this card.");
+      })
+      .finally(() => setBusy(false));
+  }
+
   return (
     <div className="mt-auto border-t border-line pt-3">
-      <div className="flex flex-wrap items-center gap-2">
-        <button
-          type="button"
-          disabled={busy}
-          className="min-h-11 rounded-full bg-ink px-4 text-paper disabled:opacity-60"
-          onClick={() => {
-            setBusy(true);
-            setError("");
-            setApplied(false);
-            void askCard({
-              data: {
-                language: lang,
-                languageName,
-                tip,
-                english,
-                englishSentence,
-                word: entry?.word ?? "",
-                sentence: entry?.sentence ?? "",
-                reading: entry?.reading ?? "",
-                sentenceReading: entry?.sentenceReading ?? "",
-                plural: entry?.plural ?? "",
-                article: entry?.article ?? "",
-                note: entry?.note ?? "",
-              },
-            })
-              .then((result) => {
-                if (!result.ok) {
-                  setCheck(null);
-                  setError(result.error);
-                  return;
-                }
-                setCheck(result.check);
-              })
-              .catch(() => {
-                setCheck(null);
-                setError("Grok could not check this card.");
-              })
-              .finally(() => setBusy(false));
-          }}
-        >
-          {busy ? "Checking…" : "Ask Grok"}
-        </button>
-        {saved && (
-          <button type="button" className="min-h-11 px-3 text-muted" onClick={() => { onClear(lang, conceptId); setApplied(false); setCheck(null); }}>
-            Undo correction
+      <form className="flex flex-col gap-2" onSubmit={ask}>
+        <input
+          value={question}
+          onChange={(event) => setQuestion(event.target.value)}
+          placeholder="Ask about this word"
+          aria-label="Ask Grok about this word"
+          maxLength={300}
+          className="min-h-11 w-full rounded-full border border-line bg-card px-3 text-sm"
+        />
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            type="submit"
+            disabled={busy}
+            className="min-h-11 rounded-full bg-ink px-4 text-paper disabled:opacity-60"
+          >
+            {busy ? "Checking…" : "Ask Grok"}
           </button>
-        )}
-      </div>
+          {saved && (
+            <button type="button" className="min-h-11 px-3 text-muted" onClick={() => { onClear(lang, conceptId); setApplied(false); setCheck(null); }}>
+              Undo correction
+            </button>
+          )}
+        </div>
+      </form>
       {error && <p className="mt-2 text-sm text-muted">{error}</p>}
       {check && (
         <div className="mt-2 text-sm">

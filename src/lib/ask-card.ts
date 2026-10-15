@@ -34,6 +34,7 @@ export const askCard = createServerFn({ method: "POST" })
     plural: string;
     article: string;
     note: string;
+    question: string;
   }) => ({
     language: clip(input?.language, 16),
     languageName: clip(input?.languageName, 80),
@@ -47,6 +48,7 @@ export const askCard = createServerFn({ method: "POST" })
     plural: clip(input?.plural, 120),
     article: clip(input?.article, 80),
     note: clip(input?.note, 300),
+    question: clip(input?.question, 300),
   }))
   .handler(async ({ data }): Promise<AskResult> => {
     const apiKey = process.env.XAI_API_KEY;
@@ -68,7 +70,7 @@ export const askCard = createServerFn({ method: "POST" })
           {
             role: "system",
             content:
-              "You review one learner flashcard. Decide whether it should be corrected. Change it only for a real mistake: wrong meaning, ungrammatical sentence, wrong gender or plural, or a missing reading the learner needs to say the line. Leave an acceptable card alone. Do not polish style. If the target line is empty, a correct beginner sentence is a correction. If you are not sure, keep the card. Reply with JSON only: {\"verdict\":\"keep\"|\"correct\",\"reason\":\"one or two plain sentences\",\"word\":\"\",\"sentence\":\"\",\"reading\":\"\",\"sentenceReading\":\"\",\"plural\":\"\",\"article\":\"\",\"feminine\":\"\",\"note\":\"\"}. On keep, leave the replacement fields empty. reading is the pronunciation of the word. sentenceReading is the pronunciation of the sentence (pinyin for Mandarin).",
+              "You review one learner flashcard. Decide whether it should be corrected. Change it only for a real mistake: wrong meaning, ungrammatical sentence, wrong gender or plural, or a missing reading the learner needs to say the line. Leave an acceptable card alone. Do not polish style. If the target line is empty, a correct beginner sentence is a correction. If you are not sure, keep the card. If question is set, answer that question in reason, in plain English, about this card. If the question asks for a different wording, put that wording in the replacement fields and set verdict to correct. If it is only a question, keep the card unless it also has a real mistake. Reply with JSON only: {\"verdict\":\"keep\"|\"correct\",\"reason\":\"one or two plain sentences\",\"word\":\"\",\"sentence\":\"\",\"reading\":\"\",\"sentenceReading\":\"\",\"plural\":\"\",\"article\":\"\",\"feminine\":\"\",\"note\":\"\"}. On keep, leave the replacement fields empty. reading is the pronunciation of the word. sentenceReading is the pronunciation of the sentence (pinyin for Mandarin).",
           },
           {
             role: "user",
