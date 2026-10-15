@@ -4,6 +4,7 @@ import { LANG_BY_ID } from "@/data/languages";
 import { useConcord } from "@/lib/concord-store";
 import { ScriptFonts } from "@/components/concord/fonts";
 import { WaitCorner } from "@/wait/corner";
+import { playEgg } from "@/wait/flag";
 
 const LINKS = [
   { to: "/study", label: "Study" },
@@ -58,7 +59,13 @@ export function Shell({ children, scroll = true }: { children: ReactNode; scroll
           >
             Content
           </Link>
-          <p className="truncate text-xs text-muted">Words and lines in each language</p>
+          <button
+            type="button"
+            onClick={playEgg}
+            className="m-0 min-w-0 flex-1 cursor-default truncate border-0 bg-transparent p-0 text-left font-[inherit] text-xs text-muted"
+          >
+            Words and lines in each language
+          </button>
         </div>
       </footer>
     </div>

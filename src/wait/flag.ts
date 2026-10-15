@@ -20,6 +20,30 @@ export function hold(): () => void {
   };
 }
 
+let eggGeneration = 0;
+let eggTimer: ReturnType<typeof setTimeout> | undefined;
+let eggSnap = { on: false, generation: 0 };
+
+/** Play the corner scene once, apart from any real wait. */
+export function playEgg() {
+  eggGeneration += 1;
+  eggSnap = { on: true, generation: eggGeneration };
+  emit();
+  clearTimeout(eggTimer);
+  eggTimer = setTimeout(() => {
+    eggSnap = { on: false, generation: eggGeneration };
+    emit();
+  }, 5200);
+}
+
+function eggNow() {
+  return eggSnap;
+}
+
+export function useEgg(): { on: boolean; generation: number } {
+  return useSyncExternalStore(subscribe, eggNow, () => eggSnap);
+}
+
 function subscribe(listener: () => void) {
   listeners.add(listener);
   return () => listeners.delete(listener);
