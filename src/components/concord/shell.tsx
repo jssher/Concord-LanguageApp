@@ -13,6 +13,7 @@ const LINKS = [
   { to: "/path", label: "Path" },
   { to: "/grammar", label: "Grammar" },
   { to: "/league", label: "League" },
+  { to: "/improve", label: "Improve" },
   { to: "/credits", label: "Credits" },
 ] as const;
 

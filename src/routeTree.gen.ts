@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as ContentRouteImport } from './routes/content'
 import { Route as CreditsRouteImport } from './routes/credits'
 import { Route as GrammarRouteImport } from './routes/grammar'
+import { Route as ImproveRouteImport } from './routes/improve'
 import { Route as LeagueRouteImport } from './routes/league'
 import { Route as LettersRouteImport } from './routes/letters'
 import { Route as LoginRouteImport } from './routes/login'
@@ -41,6 +42,11 @@ const CreditsRoute = CreditsRouteImport.update({
 const GrammarRoute = GrammarRouteImport.update({
   id: '/grammar',
   path: '/grammar',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ImproveRoute = ImproveRouteImport.update({
+  id: '/improve',
+  path: '/improve',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LeagueRoute = LeagueRouteImport.update({
@@ -94,6 +100,7 @@ export interface FileRoutesByFullPath {
   '/content': typeof ContentRoute
   '/credits': typeof CreditsRoute
   '/grammar': typeof GrammarRoute
+  '/improve': typeof ImproveRoute
   '/league': typeof LeagueRoute
   '/letters': typeof LettersRoute
   '/login': typeof LoginRoute
@@ -109,6 +116,7 @@ export interface FileRoutesByTo {
   '/content': typeof ContentRoute
   '/credits': typeof CreditsRoute
   '/grammar': typeof GrammarRoute
+  '/improve': typeof ImproveRoute
   '/league': typeof LeagueRoute
   '/letters': typeof LettersRoute
   '/login': typeof LoginRoute
@@ -125,6 +133,7 @@ export interface FileRoutesById {
   '/content': typeof ContentRoute
   '/credits': typeof CreditsRoute
   '/grammar': typeof GrammarRoute
+  '/improve': typeof ImproveRoute
   '/league': typeof LeagueRoute
   '/letters': typeof LettersRoute
   '/login': typeof LoginRoute
@@ -142,6 +151,7 @@ export interface FileRouteTypes {
     | '/content'
     | '/credits'
     | '/grammar'
+    | '/improve'
     | '/league'
     | '/letters'
     | '/login'
@@ -157,6 +167,7 @@ export interface FileRouteTypes {
     | '/content'
     | '/credits'
     | '/grammar'
+    | '/improve'
     | '/league'
     | '/letters'
     | '/login'
@@ -172,6 +183,7 @@ export interface FileRouteTypes {
     | '/content'
     | '/credits'
     | '/grammar'
+    | '/improve'
     | '/league'
     | '/letters'
     | '/login'
@@ -188,6 +200,7 @@ export interface RootRouteChildren {
   ContentRoute: typeof ContentRoute
   CreditsRoute: typeof CreditsRoute
   GrammarRoute: typeof GrammarRoute
+  ImproveRoute: typeof ImproveRoute
   LeagueRoute: typeof LeagueRoute
   LettersRoute: typeof LettersRoute
   LoginRoute: typeof LoginRoute
@@ -227,6 +240,13 @@ declare module '@tanstack/react-router' {
       path: '/grammar'
       fullPath: '/grammar'
       preLoaderRoute: typeof GrammarRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/improve': {
+      id: '/improve'
+      path: '/improve'
+      fullPath: '/improve'
+      preLoaderRoute: typeof ImproveRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/league': {
@@ -300,6 +320,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContentRoute: ContentRoute,
   CreditsRoute: CreditsRoute,
   GrammarRoute: GrammarRoute,
+  ImproveRoute: ImproveRoute,
   LeagueRoute: LeagueRoute,
   LettersRoute: LettersRoute,
   LoginRoute: LoginRoute,
