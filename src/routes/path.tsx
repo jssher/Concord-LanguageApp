@@ -5,6 +5,7 @@ import { PATH } from "@/data/path";
 import { lessonsIn, studyFor, PATH_LESSONS, PATH_LEVELS, type PathLesson, type PathLevel } from "@/data/path-lessons";
 import { LANGUAGES } from "@/data/languages";
 import { Shell } from "@/components/concord/shell";
+import { Remark } from "@/components/concord/remark";
 import { Flag } from "@/components/concord/flag";
 import { useConcord } from "@/lib/concord-store";
 import { useWait } from "@/wait/flag";
@@ -155,6 +156,20 @@ function PathPage() {
                   Grammar
                 </Link>
               </div>
+              {lang ? (
+                <Remark
+                  key={`${lang.id}:${open.id}`}
+                  lang={lang.id}
+                  scopes={[{
+                    kind: "section",
+                    id: open.id,
+                    label: open.title,
+                    level: open.level,
+                    bucket: "",
+                    name: "Lesson",
+                  }]}
+                />
+              ) : null}
             </div>
           </article>
         )}

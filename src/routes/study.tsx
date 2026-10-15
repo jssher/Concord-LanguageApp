@@ -50,6 +50,7 @@ import { usePack } from "@/data/packs";
 import { FAMILIES, LANG_BY_ID, LANGUAGES, byNearness } from "@/data/languages";
 import { BATCHES } from "@/data/syllabus";
 import { Plate } from "@/components/concord/plate";
+import { Remark } from "@/components/concord/remark";
 import { StrokeOrder, hanChars } from "@/components/concord/strokes";
 import { Flag } from "@/components/concord/flag";
 import { Shell } from "@/components/concord/shell";
@@ -649,6 +650,32 @@ function StudyPage() {
                       saved={Boolean(fixes[cardKey(activeFocus, concept.id)])}
                       onApply={saveFix}
                       onClear={clearFix}
+                    />
+                  )}
+                  {revealed && (
+                    <Remark
+                      key={`${activeFocus}:${concept.id}:${activeGroup}`}
+                      lang={activeFocus}
+                      scopes={[
+                        {
+                          kind: "card",
+                          id: concept.id,
+                          label: [enWord, entry?.word].filter(Boolean).join(" · "),
+                          level: courseLevel,
+                          bucket: activeGroup,
+                          name: "Card",
+                        },
+                        ...(activeGroup
+                          ? [{
+                              kind: "section" as const,
+                              id: `${courseLevel}:${activeGroup}`,
+                              label: groupLabel(activeGroup),
+                              level: courseLevel,
+                              bucket: activeGroup,
+                              name: "Group",
+                            }]
+                          : []),
+                      ]}
                     />
                   )}
                 </div>
