@@ -1,4 +1,5 @@
 import { isSignal, playSignal, stopSignal } from "./signal";
+import { clipHash, clipUrl, recordedLang } from "./audio-clip";
 
 /** One clip. `lang` is the BCP-47 tag already stored on the language. */
 export type SpeechClip = {
@@ -77,6 +78,96 @@ export const browserSpeech: SpeechEngine = {
 };
 
 let engine: SpeechEngine = browserSpeech;
+let clipAudio: HTMLAudioElement | null = null;
+let clipToken = 0;
+
+function stopClip() {
+  clipToken += 1;
+  if (!clipAudio) return;
+  clipAudio.pause();
+  clipAudio.src = "";
+  clipAudio = null;
+}
+
+function playUrl(url: string, token: number, then?: () => void): Promise<boolean> {
+  return new Promise((resolve) => {
+    if (token !== clipToken) {
+      resolve(false);
+      return;
+    }
+    const audio = new Audio(url);
+    clipAudio = audio;
+    let settled = false;
+    const finish = (ok: boolean) => {
+      if (settled) return;
+      settled = true;
+      if (clipAudio === audio) clipAudio = null;
+      resolve(ok);
+    };
+    audio.onended = () => {
+      finish(true);
+      if (token === clipToken) then?.();
+    };
+    audio.onerror = () => finish(false);
+    void audio.play().catch(() => finish(false));
+  });
+}
+
+/** Recorded Grok voice, then a fresh recording from the server, then the device. */
+export function grokSpeech(voice: string): SpeechEngine {
+  return {
+    id: `grok:${voice}`,
+    speak(clip, then) {
+      if (isSignal(clip.text)) {
+        stopClip();
+        if (typeof window !== "undefined" && window.speechSynthesis) window.speechSynthesis.cancel();
+        playSignal(clip.text, then);
+        return;
+      }
+      const token = ++clipToken;
+      if (clipAudio) {
+        clipAudio.pause();
+        clipAudio.src = "";
+        clipAudio = null;
+      }
+      if (typeof window !== "undefined" && window.speechSynthesis) window.speechSynthesis.cancel();
+      const lang = recordedLang(clip.lang);
+      void (async () => {
+        if (lang) {
+          const hash = await clipHash(clip.text);
+          if (token !== clipToken) return;
+          const played = await playUrl(clipUrl(voice, lang, hash), token, then);
+          if (played || token !== clipToken) return;
+        }
+        if (token !== clipToken) return;
+        try {
+          const response = await fetch("/api/tts", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ text: clip.text, voice, language: clip.lang }),
+          });
+          if (response.ok && token === clipToken) {
+            const url = URL.createObjectURL(await response.blob());
+            const played = await playUrl(url, token, () => {
+              URL.revokeObjectURL(url);
+              then?.();
+            });
+            if (played || token !== clipToken) return;
+            URL.revokeObjectURL(url);
+          }
+        } catch {
+          /* the device voice still speaks */
+        }
+        if (token !== clipToken) return;
+        browserSpeech.speak(clip, then);
+      })();
+    },
+    stop() {
+      stopClip();
+      browserSpeech.stop();
+    },
+  };
+}
 
 /** Swap the voice. The cards, the alphabet, and the dialogues keep working. */
 export function setSpeechEngine(next: SpeechEngine): void {

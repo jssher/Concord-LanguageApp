@@ -19,8 +19,10 @@ import { Route as LettersRouteImport } from './routes/letters'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as PathRouteImport } from './routes/path'
 import { Route as PicturesRouteImport } from './routes/pictures'
+import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as StudyRouteImport } from './routes/study'
 import { Route as TalkRouteImport } from './routes/talk'
+import { Route as ApiTtsRouteImport } from './routes/api/tts'
 import { Route as PeopleHandleRouteImport } from './routes/people.$handle'
 import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 
@@ -74,6 +76,11 @@ const PicturesRoute = PicturesRouteImport.update({
   path: '/pictures',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SettingsRoute = SettingsRouteImport.update({
+  id: '/settings',
+  path: '/settings',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const StudyRoute = StudyRouteImport.update({
   id: '/study',
   path: '/study',
@@ -82,6 +89,11 @@ const StudyRoute = StudyRouteImport.update({
 const TalkRoute = TalkRouteImport.update({
   id: '/talk',
   path: '/talk',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiTtsRoute = ApiTtsRouteImport.update({
+  id: '/api/tts',
+  path: '/api/tts',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PeopleHandleRoute = PeopleHandleRouteImport.update({
@@ -106,8 +118,10 @@ export interface FileRoutesByFullPath {
   '/login': typeof LoginRoute
   '/path': typeof PathRoute
   '/pictures': typeof PicturesRoute
+  '/settings': typeof SettingsRoute
   '/study': typeof StudyRoute
   '/talk': typeof TalkRoute
+  '/api/tts': typeof ApiTtsRoute
   '/people/$handle': typeof PeopleHandleRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
@@ -122,8 +136,10 @@ export interface FileRoutesByTo {
   '/login': typeof LoginRoute
   '/path': typeof PathRoute
   '/pictures': typeof PicturesRoute
+  '/settings': typeof SettingsRoute
   '/study': typeof StudyRoute
   '/talk': typeof TalkRoute
+  '/api/tts': typeof ApiTtsRoute
   '/people/$handle': typeof PeopleHandleRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
@@ -139,8 +155,10 @@ export interface FileRoutesById {
   '/login': typeof LoginRoute
   '/path': typeof PathRoute
   '/pictures': typeof PicturesRoute
+  '/settings': typeof SettingsRoute
   '/study': typeof StudyRoute
   '/talk': typeof TalkRoute
+  '/api/tts': typeof ApiTtsRoute
   '/people/$handle': typeof PeopleHandleRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
 }
@@ -157,8 +175,10 @@ export interface FileRouteTypes {
     | '/login'
     | '/path'
     | '/pictures'
+    | '/settings'
     | '/study'
     | '/talk'
+    | '/api/tts'
     | '/people/$handle'
     | '/api/auth/$'
   fileRoutesByTo: FileRoutesByTo
@@ -173,8 +193,10 @@ export interface FileRouteTypes {
     | '/login'
     | '/path'
     | '/pictures'
+    | '/settings'
     | '/study'
     | '/talk'
+    | '/api/tts'
     | '/people/$handle'
     | '/api/auth/$'
   id:
@@ -189,8 +211,10 @@ export interface FileRouteTypes {
     | '/login'
     | '/path'
     | '/pictures'
+    | '/settings'
     | '/study'
     | '/talk'
+    | '/api/tts'
     | '/people/$handle'
     | '/api/auth/$'
   fileRoutesById: FileRoutesById
@@ -206,8 +230,10 @@ export interface RootRouteChildren {
   LoginRoute: typeof LoginRoute
   PathRoute: typeof PathRoute
   PicturesRoute: typeof PicturesRoute
+  SettingsRoute: typeof SettingsRoute
   StudyRoute: typeof StudyRoute
   TalkRoute: typeof TalkRoute
+  ApiTtsRoute: typeof ApiTtsRoute
   PeopleHandleRoute: typeof PeopleHandleRoute
   ApiAuthSplatRoute: typeof ApiAuthSplatRoute
 }
@@ -284,6 +310,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PicturesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/settings': {
+      id: '/settings'
+      path: '/settings'
+      fullPath: '/settings'
+      preLoaderRoute: typeof SettingsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/study': {
       id: '/study'
       path: '/study'
@@ -296,6 +329,13 @@ declare module '@tanstack/react-router' {
       path: '/talk'
       fullPath: '/talk'
       preLoaderRoute: typeof TalkRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/tts': {
+      id: '/api/tts'
+      path: '/api/tts'
+      fullPath: '/api/tts'
+      preLoaderRoute: typeof ApiTtsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/people/$handle': {
@@ -326,8 +366,10 @@ const rootRouteChildren: RootRouteChildren = {
   LoginRoute: LoginRoute,
   PathRoute: PathRoute,
   PicturesRoute: PicturesRoute,
+  SettingsRoute: SettingsRoute,
   StudyRoute: StudyRoute,
   TalkRoute: TalkRoute,
+  ApiTtsRoute: ApiTtsRoute,
   PeopleHandleRoute: PeopleHandleRoute,
   ApiAuthSplatRoute: ApiAuthSplatRoute,
 }

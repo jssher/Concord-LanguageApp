@@ -25,6 +25,8 @@ type State = {
   level: string;
   group: string;
   chorus: boolean;
+  /** Grok text-to-speech voice id. */
+  voice: string;
   conceptId: string;
   cards: Record<string, CardMark>;
   fixes: Record<string, Fix>;
@@ -36,6 +38,7 @@ type State = {
   setLevel: (level: string) => void;
   setGroup: (group: string) => void;
   setChorus: (chorus: boolean) => void;
+  setVoice: (id: string) => void;
   setConceptId: (id: string) => void;
   normalize: () => void;
   grade: (lang: string, concept: string, mark: "r" | "w") => void;
@@ -172,6 +175,7 @@ export const useConcord = create<State>()(
       level: "A1",
       group: "01 People",
       chorus: true,
+      voice: "eve",
       conceptId: "i",
       cards: {},
       fixes: {},
@@ -210,6 +214,7 @@ export const useConcord = create<State>()(
       setLevel: (level) => set({ level }),
       setGroup: (group) => set({ group }),
       setChorus: (chorus) => set({ chorus }),
+      setVoice: (voice) => set({ voice }),
       normalize: () =>
         set((state) => {
           const mapId = (id: string) =>

@@ -1,10 +1,13 @@
 import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import { LANG_BY_ID } from "@/data/languages";
+import { DEFAULT_VOICE } from "@/data/voices";
 import { useConcord } from "@/lib/concord-store";
+import { grokSpeech, setSpeechEngine } from "@/lib/speech";
 import { ScriptFonts } from "@/components/concord/fonts";
 import { WaitCorner } from "@/wait/corner";
 import { playEgg } from "@/wait/flag";
+import { useEffect } from "react";
 
 const LINKS = [
   { to: "/study", label: "Study" },
@@ -21,8 +24,13 @@ export function Shell({ children, scroll = true }: { children: ReactNode; scroll
   const focus = useConcord((s) => s.focus);
   const source = useConcord((s) => s.source);
   const targets = useConcord((s) => s.targets);
+  const voice = useConcord((s) => s.voice) || DEFAULT_VOICE;
   const focusName = LANG_BY_ID.get(focus)?.name ?? "Choose";
   const sourceName = LANG_BY_ID.get(source)?.name ?? "";
+
+  useEffect(() => {
+    setSpeechEngine(grokSpeech(voice));
+  }, [voice]);
 
   return (
     <div className="flex h-dvh flex-col overflow-hidden bg-paper text-ink">
@@ -58,6 +66,12 @@ export function Shell({ children, scroll = true }: { children: ReactNode; scroll
             className="shrink-0 rounded-full px-3 py-1 text-sm text-muted data-[status=active]:bg-ink data-[status=active]:text-paper"
           >
             Content
+          </Link>
+          <Link
+            to="/settings"
+            className="shrink-0 rounded-full px-3 py-1 text-sm text-muted data-[status=active]:bg-ink data-[status=active]:text-paper"
+          >
+            Settings
           </Link>
           <div
             role="button"
