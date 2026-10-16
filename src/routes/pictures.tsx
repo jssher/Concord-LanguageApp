@@ -478,9 +478,9 @@ function PlateView({
                 onClick={() => onPick(key)}
                 aria-pressed={picked}
                 style={spot.span && spot.span > 1 ? { gridColumn: `span ${spot.span}` } : undefined}
-                className={`flex items-end justify-center overflow-hidden p-0.5 ${on ? "bg-ink/15 ring-2 ring-accent ring-inset" : picked ? "bg-ink/10" : ""}`}
+                className={`flex items-end justify-start overflow-hidden p-0.5 ${on ? "bg-ink/10 ring-1 ring-accent ring-inset" : picked ? "bg-ink/5" : ""}`}
               >
-                <span className={`max-w-full truncate rounded-full px-1.5 py-0.5 text-xs ${on ? "bg-accent text-accent-ink" : picked ? "bg-ink text-paper" : "bg-card/95 text-ink"}`}>
+                <span className={`pointer-events-none max-w-[88%] truncate rounded border-[0.5px] px-1 py-px text-[10px] leading-none ${on ? "border-accent/70 bg-accent/80 text-accent-ink" : picked ? "border-ink/40 bg-ink/70 text-paper" : "border-ink/20 bg-card/55 text-ink backdrop-blur-[2px]"}`}>
                   {n} {spot.en}
                 </span>
               </button>
@@ -538,8 +538,8 @@ function ZoomPlate({
               className={`relative aspect-square overflow-hidden rounded-2xl border bg-card ${on ? "border-accent ring-2 ring-accent" : picked ? "border-ink" : "border-line"}`}
             >
               {spot.crop ? <span className="absolute inset-0" style={cropStyle(plate.image, spot.crop)} /> : null}
-              <span className="absolute inset-0 flex items-center justify-center p-2">
-                <span className={`max-w-full rounded-full px-3 py-1 text-center text-sm font-medium ${on ? "bg-accent text-accent-ink" : picked ? "bg-ink text-paper" : "bg-card/95 text-ink"}`}>
+              <span className="absolute inset-x-0 bottom-0 flex items-end justify-center p-1">
+                <span className={`max-w-[92%] truncate rounded border-[0.5px] px-1.5 py-px text-center text-[11px] leading-tight ${on ? "border-accent/70 bg-accent/80 text-accent-ink" : picked ? "border-ink/40 bg-ink/70 text-paper" : "border-ink/20 bg-card/55 text-ink backdrop-blur-[2px]"}`}>
                   <span className="sr-only">{n} </span>
                   {spot.en}
                 </span>
@@ -597,31 +597,32 @@ function layoutCallouts(spots: Spot[], width: number, height: number, force: boo
   for (const side of ["left", "right"] as const) {
     const members = pending.filter((item) => item.side === side).sort((a, b) => (spots[a.index].y ?? 50) - (spots[b.index].y ?? 50));
     if (members.length === 0) continue;
-    const gap = 6;
+    const gap = 4;
+    const chip = 22;
     const tops: number[] = [];
-    let cursor = 4;
+    let cursor = 2;
     for (const item of members) {
       const y = ((spots[item.index].y ?? 50) / 100) * height;
-      const top = Math.max(cursor, y - 18);
+      const top = Math.max(cursor, y - chip / 2);
       tops.push(top);
-      cursor = top + 36 + gap;
+      cursor = top + chip + gap;
     }
-    const overflow = cursor - gap - (height - 4);
+    const overflow = cursor - gap - (height - 2);
     if (overflow > 0) {
       for (let i = 0; i < tops.length; i++) tops[i] -= overflow;
     }
-    if (tops[0] < 4) {
-      const room = height - 8;
-      const total = members.length * 36 + gap * (members.length - 1);
+    if (tops[0] < 2) {
+      const room = height - 4;
+      const total = members.length * chip + gap * (members.length - 1);
       if (total <= room) {
-        let y = 4;
+        let y = 2;
         for (let i = 0; i < members.length; i++) {
           tops[i] = y;
-          y += 36 + gap;
+          y += chip + gap;
         }
       } else {
         const slot = room / members.length;
-        for (let i = 0; i < members.length; i++) tops[i] = 4 + i * slot;
+        for (let i = 0; i < members.length; i++) tops[i] = 2 + i * slot;
       }
     }
     members.forEach((item, order) => callouts.push({ spot: spots[item.index], index: item.index, side, top: tops[order] }));
@@ -743,10 +744,10 @@ function ScenePlate({
               data-key={`${item.index}`}
               onClick={() => onPick(item.spot.en)}
               aria-pressed={picked}
-              className={`absolute z-20 inline-flex max-w-[46%] items-center gap-1 whitespace-nowrap rounded-full border px-2 text-xs ${
-                item.side === "left" ? "left-1" : "right-1"
-              } ${on ? "border-accent bg-accent text-accent-ink" : picked ? "border-ink bg-ink text-paper" : "border-line bg-card/95 text-ink"}`}
-              style={{ top: item.top, minHeight: 32 }}
+              className={`absolute z-20 inline-flex max-w-[34%] items-center gap-0.5 whitespace-nowrap rounded border-[0.5px] px-1 py-px text-[10px] leading-none ${
+                item.side === "left" ? "left-0.5" : "right-0.5"
+              } ${on ? "border-accent/70 bg-accent/85 text-accent-ink" : picked ? "border-ink/40 bg-ink/75 text-paper" : "border-ink/25 bg-card/60 text-ink backdrop-blur-[2px]"}`}
+              style={{ top: item.top, minHeight: 18 }}
             >
               <span className="tabular-nums">{n}</span>
               <span className="truncate">{item.spot.en}</span>
@@ -755,7 +756,7 @@ function ScenePlate({
               type="button"
               onClick={() => onPick(item.spot.en)}
               aria-label={`${n} ${item.spot.en}`}
-              className={`absolute z-10 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full border ${on ? "border-accent bg-accent" : picked ? "border-ink bg-ink" : "border-ink bg-paper"}`}
+              className={`absolute z-10 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-[0.5px] ${on ? "border-accent bg-accent" : picked ? "border-ink bg-ink" : "border-ink/70 bg-paper/80"}`}
               style={{ left: `${item.spot.x ?? 50}%`, top: `${item.spot.y ?? 50}%` }}
             />
           </span>
@@ -775,9 +776,9 @@ function Pin({ spot, n, on, picked, compact, onPick }: { spot: Spot; n: number; 
       aria-label={`${n} ${spot.en}`}
       title={spot.en}
       style={{ left: `${spot.x ?? 50}%`, top: `${spot.y ?? 50}%` }}
-      className={`absolute z-10 inline-flex items-center justify-center gap-1 rounded-full border text-xs ${SHIFT[side]} ${
-        compact ? "h-9 w-9" : "min-h-9 max-w-36 px-2"
-      } ${on ? "z-20 border-accent bg-accent text-accent-ink" : picked ? "border-ink bg-ink text-paper" : "border-line bg-card/95 text-ink"}`}
+      className={`absolute z-10 inline-flex items-center justify-center gap-0.5 rounded border-[0.5px] text-[10px] leading-none ${SHIFT[side]} ${
+        compact ? "h-6 w-6" : "max-w-24 px-1 py-px"
+      } ${on ? "z-20 border-accent/70 bg-accent/85 text-accent-ink" : picked ? "border-ink/40 bg-ink/75 text-paper" : "border-ink/25 bg-card/60 text-ink backdrop-blur-[2px]"}`}
     >
       <span className="tabular-nums">{n}</span>
       {compact ? null : <span className="truncate">{spot.en}</span>}
