@@ -7,7 +7,7 @@ const VARIANTS: Record<string, number> = {
   child: 4,
   friend: 4,
   family: 4,
-  self: 8,
+  self: 26,
 };
 
 const PEOPLE = new Set(["woman", "man", "child", "family"]);
@@ -56,7 +56,7 @@ export function Plate({ src, alt, lang }: { src: string; alt: string; lang?: str
   }
   return (
     <img
-      src={`/cards/${file}.jpg?v=7`}
+      src={`/cards/${file}.jpg?v=8`}
       alt={alt}
       decoding="async"
       fetchPriority="high"
