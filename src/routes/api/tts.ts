@@ -3,7 +3,7 @@ import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { createFileRoute } from "@tanstack/react-router";
 import { VOICES } from "@/data/voices";
-import { recordedLang } from "@/lib/audio-clip";
+import { grokSpeechLang } from "@/lib/audio-clip";
 
 const VOICE_IDS = new Set(VOICES.map((voice) => voice.id));
 const ROOT = path.join(process.cwd(), "public", "audio");
@@ -42,12 +42,11 @@ export const Route = createFileRoute("/api/tts")({
         }
         const text = (body.text ?? "").trim();
         const voice = (body.voice ?? "").toLowerCase();
-        const recorded = recordedLang(body.language ?? "");
-        const language = recorded ?? (body.language ?? "en").split("-")[0].toLowerCase();
-        if (!text || text.length > 500 || !VOICE_IDS.has(voice) || !/^[a-z]{2,3}$/.test(language)) {
+        const spoken = grokSpeechLang(body.language ?? "");
+        if (!text || text.length > 2000 || !VOICE_IDS.has(voice) || !spoken) {
           return new Response("Bad request", { status: 400 });
         }
-        const file = clipFile(voice, language, text);
+        const file = clipFile(voice, spoken.id, text);
         try {
           await access(file);
           const cached = await readFile(file);
@@ -56,7 +55,7 @@ export const Route = createFileRoute("/api/tts")({
           /* record it */
         }
         try {
-          const audio = await synthesize(text, voice, language);
+          const audio = await synthesize(text, voice, spoken.tts);
           if (audio.length < 200) return new Response("Empty audio", { status: 502 });
           await mkdir(path.dirname(file), { recursive: true });
           await writeFile(file, audio);

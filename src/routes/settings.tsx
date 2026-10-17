@@ -6,7 +6,12 @@ import { useConcord } from "@/lib/concord-store";
 
 export const Route = createFileRoute("/settings")({ component: SettingsPage });
 
-type Status = { voices?: Record<string, { en?: number; de?: number }>; totals?: { en: number; de: number } };
+type Status = { voices?: Record<string, Record<string, number>>; totals?: Record<string, number> };
+
+function countOf(row?: Record<string, number>): number {
+  if (!row) return 0;
+  return Object.values(row).reduce((sum, n) => sum + (typeof n === "number" ? n : 0), 0);
+}
 
 function SettingsPage() {
   const voice = useConcord((s) => s.voice) || DEFAULT_VOICE;
@@ -43,11 +48,11 @@ function SettingsPage() {
           <p className="text-xs font-semibold tracking-widest text-accent uppercase">Concord</p>
           <h1 className="mt-1 text-4xl">Voice</h1>
           <p className="mt-2 text-sm text-muted">
-            Hear buttons use this Grok voice for English and German words and sentences. Eve and Leo are being recorded for the whole course. Any other voice is recorded the first time you tap hear, and the device voice speaks if that is not ready.
+            Hear buttons use this Grok voice. Eve is recorded in the languages Grok speaks natively: English, German, Spanish, Portuguese, Italian, French, Russian, Turkish, Chinese, Japanese, Korean, Hindi, Bengali, Arabic, Egyptian Arabic, Saudi Arabic, Indonesian, and Vietnamese. Any other language uses the voice on this device. A different Grok voice is recorded the first time you tap hear.
           </p>
           {status?.totals && (
             <p className="mt-2 text-sm text-muted">
-              Course lines to record: {status.totals.en.toLocaleString()} English, {status.totals.de.toLocaleString()} German.
+              Native lines recorded for Eve: {countOf(status.voices?.eve).toLocaleString()} of {countOf(status.totals).toLocaleString()}.
             </p>
           )}
         </header>
@@ -77,7 +82,7 @@ function VoiceGroup({
       <ul className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-3">
         {voices.map((item) => {
           const counts = status?.voices?.[item.id];
-          const recorded = (counts?.en ?? 0) + (counts?.de ?? 0);
+          const recorded = countOf(counts);
           const on = item.id === current;
           return (
             <li key={item.id}>
