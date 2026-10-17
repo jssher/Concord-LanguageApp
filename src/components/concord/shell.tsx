@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
+import { Moon, Sun } from "lucide-react";
 import { LANG_BY_ID } from "@/data/languages";
 import { DEFAULT_VOICE } from "@/data/voices";
 import { useConcord } from "@/lib/concord-store";
@@ -25,12 +26,19 @@ export function Shell({ children, scroll = true }: { children: ReactNode; scroll
   const source = useConcord((s) => s.source);
   const targets = useConcord((s) => s.targets);
   const voice = useConcord((s) => s.voice) || DEFAULT_VOICE;
+  const dark = useConcord((s) => s.dark);
+  const setDark = useConcord((s) => s.setDark);
   const focusName = LANG_BY_ID.get(focus)?.name ?? "Choose";
   const sourceName = LANG_BY_ID.get(source)?.name ?? "";
 
   useEffect(() => {
     setSpeechEngine(grokSpeech(voice));
   }, [voice]);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", dark);
+    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", dark ? "#1c1915" : "#f3ecdf");
+  }, [dark]);
 
   return (
     <div className="flex h-dvh flex-col overflow-hidden bg-paper text-ink">
@@ -54,6 +62,20 @@ export function Shell({ children, scroll = true }: { children: ReactNode; scroll
           <p className="hidden shrink-0 text-sm text-muted lg:block">
             {sourceName} → {focusName}
           </p>
+          <button
+            type="button"
+            aria-label={dark ? "Dark mode" : "Light mode"}
+            aria-pressed={dark}
+            onClick={() => setDark(!dark)}
+            className="grid h-9 w-9 shrink-0 place-items-center rounded-full border"
+            style={
+              dark
+                ? { background: "#1c1915", color: "#f3ecdf", borderColor: "#f3ecdf" }
+                : { background: "#f3ecdf", color: "#c24d2c", borderColor: "#1c1915" }
+            }
+          >
+            {dark ? <Moon size={18} strokeWidth={2} /> : <Sun size={18} strokeWidth={2} />}
+          </button>
         </div>
       </header>
       <div className={scroll ? "min-h-0 flex-1 overflow-y-auto overscroll-contain" : "flex min-h-0 flex-1 flex-col overflow-hidden"}>

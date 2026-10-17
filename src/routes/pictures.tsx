@@ -690,10 +690,10 @@ function ScenePlate({
     <div ref={frame} className="relative mx-auto w-fit max-w-full">
       <img src={plate.image} alt={plate.title} className="block h-auto max-h-[68vh] w-auto max-w-full rounded-2xl" />
       {box.w > 0 ? (
-        <svg className="pointer-events-none absolute inset-0 h-full w-full" viewBox={`0 0 ${box.w} ${box.h}`} aria-hidden="true">
+        <svg className="pointer-events-none absolute inset-0 h-full w-full text-ink" viewBox={`0 0 ${box.w} ${box.h}`} aria-hidden="true">
           <defs>
             <marker id="pin-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-              <path d="M0 0 L8 4 L0 8 Z" fill="#1c1915" />
+              <path d="M0 0 L8 4 L0 8 Z" fill="currentColor" />
             </marker>
             <marker id="pin-arrow-on" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
               <path d="M0 0 L8 4 L0 8 Z" fill="#c24d2c" />
@@ -706,7 +706,7 @@ function ScenePlate({
               y1={line.y1}
               x2={line.x2}
               y2={line.y2}
-              stroke={line.on ? "#c24d2c" : "#1c1915"}
+              stroke={line.on ? "#c24d2c" : "currentColor"}
               strokeWidth="1.25"
               markerEnd={line.on ? "url(#pin-arrow-on)" : "url(#pin-arrow)"}
             />

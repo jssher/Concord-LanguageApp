@@ -22,6 +22,20 @@
   --color-chip: #efe4d2;
 }
 
+html.dark {
+  color-scheme: dark;
+  --color-paper: #1c1915;
+  --color-ink: #f3ecdf;
+  --color-muted: #b7ab9c;
+  --color-line: #3d352c;
+  --color-accent: #e07050;
+  --color-accent-ink: #1c1915;
+  --color-moss: #3d9a78;
+  --color-moss-ink: #f4fbf7;
+  --color-card: #2a241e;
+  --color-chip: #3a322a;
+}
+
 @layer base {
   html {
     -webkit-font-smoothing: antialiased;
