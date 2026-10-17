@@ -4,7 +4,7 @@ import { Moon, Sun } from "lucide-react";
 import { LANG_BY_ID } from "@/data/languages";
 import { DEFAULT_VOICE } from "@/data/voices";
 import { useConcord } from "@/lib/concord-store";
-import { grokSpeech, setSpeechEngine } from "@/lib/speech";
+import { applyVoice } from "@/lib/speech";
 import { ScriptFonts } from "@/components/concord/fonts";
 import { WaitCorner } from "@/wait/corner";
 import { playEgg } from "@/wait/flag";
@@ -32,7 +32,7 @@ export function Shell({ children, scroll = true }: { children: ReactNode; scroll
   const sourceName = LANG_BY_ID.get(source)?.name ?? "";
 
   useEffect(() => {
-    setSpeechEngine(grokSpeech(voice));
+    applyVoice(voice);
   }, [voice]);
 
   useEffect(() => {

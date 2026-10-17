@@ -38,6 +38,9 @@ export const VOICES: VoiceChoice[] = [
 
 export const DEFAULT_VOICE = "eve";
 
+/** The speech engine already installed on the phone or computer. */
+export const DEVICE_VOICE = "device";
+
 export function voiceById(id: string): VoiceChoice | undefined {
   return VOICES.find((voice) => voice.id === id);
 }

@@ -1,3 +1,4 @@
+import { DEVICE_VOICE, DEFAULT_VOICE } from "@/data/voices";
 import { isSignal, playSignal, stopSignal } from "./signal";
 import { clipHash, clipUrl, recordedLang } from "./audio-clip";
 
@@ -30,9 +31,10 @@ function voices(): SpeechSynthesisVoice[] {
 }
 
 function pickVoice(bcp47: string): SpeechSynthesisVoice | null {
+  const all = voices();
+  if (all.length === 0) return null;
   const key = bcp47.toLowerCase();
   if (cache.has(key)) return cache.get(key) ?? null;
-  const all = voices();
   const exact = all.find((voice) => voice.lang.toLowerCase() === key);
   const prefix = key.split("-")[0];
   const loose = all.find((voice) => voice.lang.toLowerCase().startsWith(prefix));
@@ -62,12 +64,22 @@ export const browserSpeech: SpeechEngine = {
       return;
     }
     window.speechSynthesis.cancel();
+    window.speechSynthesis.resume();
     const utterance = new SpeechSynthesisUtterance(clip.text);
     utterance.lang = clip.lang;
     const voice = pickVoice(clip.lang);
     if (voice) utterance.voice = voice;
     utterance.rate = 0.92;
-    if (then) utterance.onend = () => then();
+    if (then) {
+      let done = false;
+      const finish = () => {
+        if (done) return;
+        done = true;
+        then();
+      };
+      utterance.onend = finish;
+      utterance.onerror = finish;
+    }
     window.speechSynthesis.speak(utterance);
   },
   stop() {
@@ -171,8 +183,19 @@ export function grokSpeech(voice: string): SpeechEngine {
 
 /** Swap the voice. The cards, the alphabet, and the dialogues keep working. */
 export function setSpeechEngine(next: SpeechEngine): void {
+  if (engine.id === next.id) return;
   engine.stop();
   engine = next;
+}
+
+/** Grok voice, or the speech already on this device. Call this on the tap, before `speak`. */
+export function applyVoice(voice: string): void {
+  if (voice === DEVICE_VOICE) {
+    browserSpeech.prepare?.();
+    setSpeechEngine(browserSpeech);
+    return;
+  }
+  setSpeechEngine(grokSpeech(voice || DEFAULT_VOICE));
 }
 
 export function warmVoices(): void {

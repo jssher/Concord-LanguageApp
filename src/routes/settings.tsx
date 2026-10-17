@@ -1,8 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Shell } from "@/components/concord/shell";
-import { DEFAULT_VOICE, VOICES, type VoiceChoice } from "@/data/voices";
+import { DEFAULT_VOICE, DEVICE_VOICE, VOICES, type VoiceChoice } from "@/data/voices";
+import { LANG_BY_ID } from "@/data/languages";
 import { useConcord } from "@/lib/concord-store";
+import { applyVoice, speak } from "@/lib/speech";
 
 export const Route = createFileRoute("/settings")({ component: SettingsPage });
 
@@ -16,6 +18,7 @@ function countOf(row?: Record<string, number>): number {
 function SettingsPage() {
   const voice = useConcord((s) => s.voice) || DEFAULT_VOICE;
   const setVoice = useConcord((s) => s.setVoice);
+  const focus = useConcord((s) => s.focus);
   const [status, setStatus] = useState<Status | null>(null);
 
   useEffect(() => {
@@ -48,7 +51,7 @@ function SettingsPage() {
           <p className="text-xs font-semibold tracking-widest text-accent uppercase">Concord</p>
           <h1 className="mt-1 text-4xl">Voice</h1>
           <p className="mt-2 text-sm text-muted">
-            Hear buttons use this Grok voice. Eve is recorded in the languages Grok speaks natively: English, German, Spanish, Portuguese, Italian, French, Russian, Turkish, Chinese, Japanese, Korean, Hindi, Bengali, Arabic, Egyptian Arabic, Saudi Arabic, Indonesian, and Vietnamese. Any other language uses the voice on this device. A different Grok voice is recorded the first time you tap hear.
+            Hear buttons use the voice you pick. Device voice is the speech already on this phone or computer, in whatever language that device can say. Eve is recorded for the languages Grok speaks natively. Another Grok voice is recorded the first time you tap hear.
           </p>
           {status?.totals && (
             <p className="mt-2 text-sm text-muted">
@@ -56,6 +59,32 @@ function SettingsPage() {
             </p>
           )}
         </header>
+        <section>
+          <h2 className="text-sm font-semibold tracking-widest text-muted uppercase">This device</h2>
+          <div className="mt-2 flex gap-2">
+            <button
+              type="button"
+              aria-pressed={voice === DEVICE_VOICE}
+              onClick={() => setVoice(DEVICE_VOICE)}
+              className={`flex min-h-14 flex-1 flex-col items-start rounded-2xl border px-3 py-2 text-left ${voice === DEVICE_VOICE ? "border-accent bg-accent/15" : "border-line bg-card"}`}
+            >
+              <span className="text-base">Device voice</span>
+              <span className="text-xs text-muted">Uses the language of the card, through this device</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                setVoice(DEVICE_VOICE);
+                applyVoice(DEVICE_VOICE);
+                const lang = LANG_BY_ID.get(focus);
+                speak(lang?.native || "Hello", lang?.speech || "en-US");
+              }}
+              className="min-h-14 shrink-0 rounded-2xl border border-line bg-card px-4 text-sm"
+            >
+              Hear
+            </button>
+          </div>
+        </section>
         <VoiceGroup title="Women" voices={women} current={voice} status={status} onPick={setVoice} />
         <VoiceGroup title="Men" voices={men} current={voice} status={status} onPick={setVoice} />
       </div>
