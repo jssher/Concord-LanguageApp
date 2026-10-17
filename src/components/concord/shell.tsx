@@ -64,17 +64,17 @@ export function Shell({ children, scroll = true }: { children: ReactNode; scroll
           </p>
           <button
             type="button"
-            aria-label={dark ? "Dark mode" : "Light mode"}
+            aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}
             aria-pressed={dark}
             onClick={() => setDark(!dark)}
             className="grid h-9 w-9 shrink-0 place-items-center rounded-full border"
             style={
               dark
-                ? { background: "#1c1915", color: "#f3ecdf", borderColor: "#f3ecdf" }
-                : { background: "#f3ecdf", color: "#c24d2c", borderColor: "#1c1915" }
+                ? { background: "#f3ecdf", color: "#c24d2c", borderColor: "#1c1915" }
+                : { background: "#1c1915", color: "#f3ecdf", borderColor: "#f3ecdf" }
             }
           >
-            {dark ? <Moon size={18} strokeWidth={2} /> : <Sun size={18} strokeWidth={2} />}
+            {dark ? <Sun size={18} strokeWidth={2} /> : <Moon size={18} strokeWidth={2} />}
           </button>
         </div>
       </header>
