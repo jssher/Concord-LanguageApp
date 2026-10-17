@@ -128,8 +128,10 @@ function mapScript(entry: Entry, fn: (value: string) => string): Entry {
 function lookup(langId: string, conceptId: string, en: string): Entry | undefined {
   const id = lexiconId(conceptId, en);
   const reviewed = LEXICON[langId]?.entries[id];
-  if (reviewed?.word && reviewed.sentence) return reviewed;
-  return packEntry(langId, conceptId, en) ?? (id === conceptId ? undefined : packEntry(langId, id, en)) ?? (reviewed?.word ? reviewed : undefined);
+  const pack = packEntry(langId, conceptId, en) ?? (id === conceptId ? undefined : packEntry(langId, id, en));
+  const entry = reviewed?.word && reviewed.sentence ? reviewed : pack ?? (reviewed?.word ? reviewed : undefined);
+  if (entry?.word?.startsWith("[[en:") && entry.word.endsWith("]]")) return undefined;
+  return entry;
 }
 
 export function getBaseEntry(langId: string, conceptId: string, en = "", sentence = ""): Entry | undefined {

@@ -1,4 +1,4 @@
-export const COURSE_REV = "18";
+export const COURSE_REV = "19";
 
 export function openCourseDb(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
